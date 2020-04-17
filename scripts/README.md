@@ -14,8 +14,8 @@ https://cloud.ibm.com/apidocs/assistant/assistant-v1
 
 
 ## Note: 
-This request have a limitation on watson, due to having "export=True" on get_intent method watson only permits 400 calls every 30 minuts
-"With export=false, this operation is limited to 6000 requests per 5 minutes. With export=true, the limit is 400 requests per 30 minutes. For more information, see Rate limiting."
+### this request have a limitation on watson, due to having "export=True" on get_intent method watson only permits 400 calls every 30 minuts
+### "With export=false, this operation is limited to 6000 requests per 5 minutes. With export=true, the limit is 400 requests per 30 minutes. For more information, see Rate limiting."
 
 
 ## Necessary: 
