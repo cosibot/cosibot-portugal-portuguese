@@ -3,6 +3,8 @@ import shutil
 import os
 from ibm_watson import AssistantV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
+import simplejson as json
+import pyyaml
     
 ## Install the sdk
 ## pip install --upgrade "ibm-watson>=4.3.0"
@@ -49,37 +51,41 @@ response=assistant.list_intents(
 
 intent_list = response["intents"]
 
+
+with open('intents.json', 'w') as f:
+    json.dump(intent_list, f)
+
 # get one example for each intent
 # send a message
 # grab the answer and stores in file
-for intent in intent_list:
-    print('--', intent["intent"],)
-    response=assistant.get_intent(
-        workspace_id=config["workspace_id"],
-        intent=intent["intent"],
-        export=True
-    ).get_result()
-
-    request_example = response["examples"][0]
-
-    response = assistant.message(
-        workspace_id=config["workspace_id"],
-        input={
-            'text': request_example["text"]
-        }
-    ).get_result()
-
-    answers_output = {
-        "answers":[]
-    }
-
-    for answer in response["output"]["generic"]:
-        answers_output["answers"].append(json.loads(answer["text"], strict=False))
-
-
-    with open('examples\{}.json'.format(intent["intent"]), 'w', encoding='utf-8') as f:
-        f.write(json.dumps(answers_output, ensure_ascii=False, indent=2))
-
-    
-
-print("...... END")  
+# for intent in intent_list:
+#     print('--', intent["intent"],)
+#     response=assistant.get_intent(
+#         workspace_id=config["workspace_id"],
+#         intent=intent["intent"],
+#         export=True
+#     ).get_result()
+#
+#     request_example = response["examples"][0]
+#
+#     response = assistant.message(
+#         workspace_id=config["workspace_id"],
+#         input={
+#             'text': request_example["text"]
+#         }
+#     ).get_result()
+#
+#     answers_output = {
+#         "answers":[]
+#     }
+#
+#     for answer in response["output"]["generic"]:
+#         answers_output["answers"].append(json.loads(answer["text"], strict=False))
+#
+#
+#     with open('examples\{}.json'.format(intent["intent"]), 'w', encoding='utf-8') as f:
+#         f.write(json.dumps(answers_output, ensure_ascii=False, indent=2))
+#
+#
+#
+# print("...... END")
