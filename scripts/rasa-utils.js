@@ -110,7 +110,15 @@ rasa_utils.extractAnswersFromJSON = function (json) {
 
                 for (let i = 0; i < answers.length; i++) {
                     let text = answers[i].text;
-                    let answer =  JSON.parse(text);
+                    let answer = '';
+                    try {
+                        answer =  JSON.parse(text);
+                    }
+                    catch(error) {
+                        //
+                    }
+
+
                     answerArray.push({title: nodeTitle , answer: answer});
                 }
             }
@@ -251,27 +259,45 @@ rasa_utils.writeIntentsEntitiesAnswersToFiles = function (metadataObject, intent
     this.writeMetadataToJSON(metadataObject, outputDirectory + '/metadata.json')
 
     //build the nlu.md
-    let nlu ='';
+    let intents ='';
     let keys = Array.from(intentsMap.keys()).sort(); // sort keys so that intents are written alphabetically sorted
     for (const intent of keys) {
         let intentTitle = '## intent:' + intent + '\n';
         let exampleArray = intentsMap.get(intent).sort();
         let exampleList = yaml.stringify(exampleArray);
 
-        nlu += intentTitle + exampleList + '\n';
+        intents += intentTitle + exampleList + '\n';
     }
+
+
+    // domain
+
+    let entities ='';
+
+/*    ## synonym:New York City
+    - NYC
+    - nyc
+    - the big apple*/
+    for (const entity of entityArray) {
+
+
+        for (let j = 0; j < entity.values.length; j++) {
+            entities += '## synonym:'+ entity.entity + ':' + entity.values[j].value;
+            let synonymList = yaml.stringify(entity.values[j].synonyms);
+            entities += synonymList + '\n';
+        }
+
+
+        entities += '\n';
+
+    }
+
+    let nlu = intents + '\n\n' + entities;
 
     this.writeStringToFile(nlu,intentsDir + '/nlu.md');
 
-
-    // one file for all entities
-    //for (const entity of entityArray) {
-      //  this.writeObjectToJSONFile(entity, entitiesDir + "/" + entity.entity + ".json");
-    //}
-
-
     // one file for all answers
-    this.writeAnswersToJSON(answersArray, answersDir + '/answers.json');
+    //this.writeAnswersToJSON(answersArray, answersDir + '/answers.json');
 
     // one file per node
     //this.writeNodesToDir(nodeArray, nodesDir);
