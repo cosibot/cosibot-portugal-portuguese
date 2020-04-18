@@ -245,23 +245,19 @@ rasa_utils.createDir = function (dir) {
 
 rasa_utils.writeIntentsEntitiesAnswersToFiles = function (metadataObject, intentsMap, entityArray, answersArray, nodeArray, outputDirectory) {
     let outDir = outputDirectory;
-    let intentsDir = outputDirectory + '/intents';
-    let entitiesDir = outputDirectory + '/entities';
-    let answersDir = outputDirectory + '/answers';
-    let nodesDir = outputDirectory + '/nodes';
     this.createOrCleanDir(outDir);
-    this.createOrCleanDir(intentsDir);
-    this.createOrCleanDir(entitiesDir);
-    this.createOrCleanDir(answersDir);
-    this.createOrCleanDir(nodesDir);
 
-    //one file for metadata
+
+    // one file for metadata
     this.writeMetadataToJSON(metadataObject, outputDirectory + '/metadata.json')
 
-    //build the nlu.md
+    // build the nlu.md
     let intents ='';
-    let keys = Array.from(intentsMap.keys()).sort(); // sort keys so that intents are written alphabetically sorted
-    for (const intent of keys) {
+
+    let intentKeys = Array.from(intentsMap.keys()).sort(); // sort keys so that intents are written alphabetically sorted
+
+
+    for (const intent of intentKeys) {
         let intentTitle = '## intent:' + intent + '\n';
         let exampleArray = intentsMap.get(intent).sort();
         let exampleList = yaml.stringify(exampleArray);
@@ -269,39 +265,98 @@ rasa_utils.writeIntentsEntitiesAnswersToFiles = function (metadataObject, intent
         intents += intentTitle + exampleList + '\n';
     }
 
-
-    // domain
-
     let entities ='';
-
-/*    ## synonym:New York City
-    - NYC
-    - nyc
-    - the big apple*/
     for (const entity of entityArray) {
-
-
         for (let j = 0; j < entity.values.length; j++) {
-            entities += '## synonym:'+ entity.entity + ':' + entity.values[j].value;
-            let synonymList = yaml.stringify(entity.values[j].synonyms);
-            entities += synonymList + '\n';
-        }
+            let entity_name_underscore = entity.entity + '_' + entity.values[j].value;
+            let entity_name_colon = entity.entity + ':' + entity.values[j].value;
+            let entity_title = '## synonym:' + entity_name_underscore + '\n';
+            entities += entity_title;
 
+            if (entity.values[j].synonyms === undefined) {
+                console.log('');
+            } else {
+                let synonymList = yaml.stringify(entity.values[j].synonyms);
+                entities += synonymList + '\n';
+
+                // replace entities in the intents with RASA entity annotations
+                // (@([a-z|_]+):([a-z]+))
+
+                // to replace
+
+                let entityToReplaceWithColon = "@" + entity_name_colon; // e.g.  "@pt_geography:country";
+                let entityToReplace = "@" + entity.entity; // e.g. @pt_geography
+
+
+                while (intents.search(entityToReplaceWithColon) > -1) {
+                    var synonymsArray = entity.values[j].synonyms;
+                    var randomSynonym = synonymsArray[Math.floor(Math.random() * synonymsArray.length)];
+                    let annotation = '[' + randomSynonym + ']' + '(' + entity_name_underscore + ')';
+                    intents = intents.replace(entityToReplaceWithColon, annotation);
+                }
+
+                while (intents.search(entityToReplace) > -1) {
+                    var synonymsArray = entity.values[j].synonyms;
+                    var randomSynonym = synonymsArray[Math.floor(Math.random() * synonymsArray.length)];
+                    let annotation = '[' + randomSynonym + ']' + '(' + entity_name_underscore + ')';
+                    intents = intents.replace(entityToReplace, annotation);
+                }
+            }
+        }
 
         entities += '\n';
 
     }
 
     let nlu = intents + '\n\n' + entities;
+    this.writeStringToFile(nlu,  outDir+ '/nlu.md');
 
-    this.writeStringToFile(nlu,intentsDir + '/nlu.md');
+    // domain
 
-    // one file for all answers
-    //this.writeAnswersToJSON(answersArray, answersDir + '/answers.json');
 
-    // one file per node
-    //this.writeNodesToDir(nodeArray, nodesDir);
+    let domainIntents ='intents: \n' + yaml.stringify(intentKeys,{indent:4}) + '\n';
+    let groupedAnswers = groupBy(answersArray, 'title')
+
+    let responses = {}
+    for (const key in groupedAnswers) {
+        let answers = new Array();
+        let answerGroup = groupedAnswers[key];
+        for (const item of answerGroup) {
+            answers.push(item.answer);
+        }
+
+        let utterKey = 'utter_' + key;
+        responses[utterKey] = new Array();
+        responses[utterKey].push({ custom : { answers : answers} });
+
+    }
+
+
+    let domain = {intents: intentKeys, responses: responses}
+    let domainStr = yaml.stringify(domain)
+
+    this.writeStringToFile(domainStr, outDir + '/domain.yml');
+
+    // stories
+    let stories = '';
+    for (const intent of intentKeys) {
+        let story = '## ' + intent + '\n';
+        story += '* ' + intent + '\n';
+        story += '  - utter_' + intent + '\n\n';
+        stories += story;
+    }
+
+    this.writeStringToFile(stories, outDir + '/stories.md');
+
+
 }
+
+var groupBy = function(xs, key) {
+    return xs.reduce(function(rv, x) {
+        (rv[x[key]] = rv[x[key]] || []).push(x);
+        return rv;
+    }, {});
+};
 
 
 
