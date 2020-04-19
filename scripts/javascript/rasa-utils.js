@@ -24,7 +24,7 @@ rasa_utils.extractIntentsFromJSON = function (json) {
             intentExamples.push(example.text);
         }
 
-        intentMap.set(intentTitle, intentExamples);
+        intentMap.set(intentTitle.toLowerCase(), intentExamples);
 
     }
     return intentMap;
@@ -119,7 +119,7 @@ rasa_utils.extractAnswersFromJSON = function (json) {
                     }
 
 
-                    answerArray.push({title: nodeTitle , answer: answer});
+                    answerArray.push({title: nodeTitle.toLowerCase() , answer: answer});
                 }
             }
         }
@@ -340,10 +340,13 @@ rasa_utils.writeIntentsEntitiesAnswersToFiles = function (metadataObject, intent
     // stories
     let stories = '';
     for (const intent of intentKeys) {
-        let story = '## ' + intent + '\n';
-        story += '* ' + intent + '\n';
-        story += '  - utter_' + intent + '\n\n';
-        stories += story;
+        let utterName = 'utter_' + intent;
+        if (responses[utterName] !== undefined) {
+            let story = '## ' + intent + '\n';
+            story += '* ' + intent + '\n';
+            story += '  - ' + utterName + '\n\n';
+            stories += story;
+        }
     }
 
     this.writeStringToFile(stories, outDir + '/stories.md');

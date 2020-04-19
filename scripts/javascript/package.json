@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "mocha tests/*.js"
+    "test": "../node_modules/.bin/mocha tests/*.js"
   },
   "dependencies": {
     "csv-write-stream": "^2.0.0",

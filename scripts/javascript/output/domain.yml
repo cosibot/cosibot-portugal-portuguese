@@ -1,0 +1,2705 @@
+intents:
+  - pt_bot_appearance
+  - pt_bot_availability
+  - pt_bot_books
+  - pt_bot_capabilities
+  - pt_bot_fear
+  - pt_bot_games
+  - pt_bot_goal
+  - pt_bot_hobbies
+  - pt_bot_languages
+  - pt_bot_movies
+  - pt_bot_music
+  - pt_bot_name
+  - pt_bot_origin
+  - pt_bot_personal_questions
+  - pt_bot_personality
+  - pt_bot_real
+  - pt_bot_residence
+  - pt_bot_sexual
+  - pt_bot_sing
+  - pt_bot_sports
+  - pt_bot_version
+  - pt_bot_worst_experience
+  - pt_cc_chicken_egg
+  - pt_cc_deepest_point
+  - pt_cc_fun_fact
+  - pt_cc_geography
+  - pt_cc_highest_building
+  - pt_cc_joke
+  - pt_cc_lets_talk
+  - pt_cc_moon
+  - pt_cc_newspaper
+  - pt_cc_philosophical
+  - pt_cc_politics
+  - pt_cc_religion
+  - pt_cc_weather
+  - pt_comment_negative
+  - pt_comment_offense
+  - pt_comment_positive
+  - pt_comment_racist
+  - pt_comment_smart
+  - pt_coronavirus_info
+  - pt_covid_aftereffects_immunity
+  - pt_covid_alike
+  - pt_covid_babys_children
+  - pt_covid_close_contact
+  - pt_covid_community_transmission
+  - pt_covid_cosibot
+  - pt_covid_crisis_howlong
+  - pt_covid_current_statistics
+  - pt_covid_duration
+  - pt_covid_incubation
+  - pt_covid_info
+  - pt_covid_meaning
+  - pt_covid_mortality_rate
+  - pt_covid_pandemic
+  - pt_covid_preexisting_illness
+  - pt_covid_sars
+  - pt_covid_situation
+  - pt_covid_situation_deaths
+  - pt_covid_situation_infected
+  - pt_covid_situation_infected_critical
+  - pt_covid_situation_last_update
+  - pt_covid_situation_recovered
+  - pt_covid_situation_tested
+  - pt_covid_surfaces
+  - pt_covid_symptoms
+  - pt_covid_worry
+  - pt_de_covid_pregnancy
+  - pt_features_date
+  - pt_features_time
+  - pt_greeting_goodbye
+  - pt_greeting_hello
+  - pt_greeting_how_are_you
+  - pt_mask_general
+  - pt_mask_use_after
+  - pt_mask_use_put
+  - pt_myth_alcohol
+  - pt_myth_packages
+  - pt_myth_transmission_hot_areas
+  - pt_patient_home
+  - pt_patient_referral
+  - pt_portugal_government_measures
+  - pt_portugal_ill_foreigner
+  - pt_portugal_ill_no_covid
+  - pt_portugal_rates
+  - pt_prevention_clean_hands
+  - pt_prevention_distance
+  - pt_prevention_entering_home
+  - pt_prevention_food
+  - pt_prevention_general
+  - pt_prevention_gloves
+  - pt_prevention_home
+  - pt_prevention_informed
+  - pt_prevention_measures
+  - pt_prevention_medical_attention
+  - pt_prevention_medicine
+  - pt_prevention_respiratory_hygiene
+  - pt_prevention_touch
+  - pt_quarantine_children
+  - pt_quarantine_dos_and_donts
+  - pt_quarantine_toiletpaper
+  - pt_sources
+  - pt_spread_air
+  - pt_spread_animals
+  - pt_spread_feces
+  - pt_spread_general
+  - pt_spread_no_symptoms
+  - pt_spread_pets
+  - pt_spread_risk
+  - pt_spread_surfaces_food_objects
+  - pt_state_emergency_info
+  - pt_state_emergency_run
+  - pt_stayhomeinfo_supermarket
+  - pt_test_general
+  - pt_test_per_day
+  - pt_test_what
+  - pt_test_where
+  - pt_travel_after
+  - pt_travel_before
+  - pt_travel_while
+  - pt_user_angry
+  - pt_user_friend
+  - pt_user_happy
+  - pt_user_love
+  - pt_user_no_data
+  - pt_user_no_further_questions
+  - pt_user_particles
+  - pt_user_scared
+  - pt_vocative_call
+  - pt_vocative_help
+  - pt_vocative_no
+  - pt_vocative_sorry
+  - pt_vocative_thank_you
+  - pt_vocative_yes
+  - pt_vocative_you_welcome
+responses:
+  utter_pt_portugal_rates:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>80% dos casos de Covid 19 apresentam sintomas ligeiros, apenas 15%
+              dos casos apresentam um quadro grave, com pneumonia, dificuldade
+              respiratória, com necessidade de internamento e eventualmente
+              cuidados intensivos com necessidade de ventilação e 5% representam
+              casos críticos. A maioria dos óbitos foram verificados nas pessoas
+              mais idosos, a maioria acima dos 80 anos, e com outras doenças
+              crónicas.</speak>
+          - type: html
+            text: <p>80% dos casos de COVID-19 apresentam sintomas ligeiros, apenas 15% dos
+              casos apresentam um quadro grave, com pneumonia, dificuldade
+              respiratória, com necessidade de internamento e eventualmente
+              cuidados intensivos com necessidade de ventilação e 5% representam
+              casos críticos. A maioria dos óbitos foram verificados nas pessoas
+              mais idosos (a maioria acima dos 80 anos) e com outras doenças
+              crónicas.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_sources:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>Infra pode consultar os websites que foram usados como fontes de
+              informação: todas as fontes utilizadas:</speak>"
+          - type: html
+            text: "<p>Infra pode consultar os websites que foram usados como fontes de
+              informação: todas as fontes utilizadas:<br><a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-\
+              2019/' target='_blank'>Organização Mundial de Saúde</a><br> <a
+              href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/'
+              target='_blank'>Sistema Nacional de Saúde</a><br> <a
+              href='https://covid19.min-saude.pt/' target='_blank'>Direção Geral
+              de Saúde</a><br> <a href='https://covid19estamoson.gov.pt/'
+              target='_blank'>EstamosON</a></p>"
+  utter_pt_portugal_government_measures:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>No dia 18 de março de 2020 foi decretado o estado de emergência em
+              Portugal. A situação excepcional que se vive e a proliferação de
+              casos registados de contágio de Covid 19 exige a aplicação de
+              medidas extraordinárias e de carácter urgente de restrição de
+              direitos e liberdades, em especial no que respeita aos direitos de
+              circulação e às liberdades económicas, com o intuito de conter a
+              transmissão do vírus e conter a expansão da doença.</speak>
+          - type: html
+            text: <p>No dia 18 de março de 2020 foi decretado o estado de emergência em
+              Portugal. A situação excepcional que se vive e a proliferação de
+              casos registados de contágio de COVID-19 exige a aplicação de
+              medidas extraordinárias e de carácter urgente de restrição de
+              direitos e liberdades, em especial no que respeita aos direitos de
+              circulação e às liberdades económicas, com o intuito de conter a
+              transmissão do vírus e conter a expansão da doença.<a
+              href='https://www.portugal.gov.pt/download-ficheiros/ficheiro.aspx?v=3f8e87a6-3cf1-4d0c-b5ee-72225a73cd4f'
+              target='_blank'>(1)</a></p>
+  utter_pt_portugal_ill_foreigner:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Os cidadãos estrangeiros ou nacionais que não estão inscritos num
+              centro de saúde deverão contactar o SNS 24, 808 24 24 24, mesmo
+              que não seja por suspeita de Covid 19. A linha SNS 24 é dedicada a
+              todos os esclarecimentos e encaminhamentos de saúde.</speak>
+          - type: html
+            text: <p>Os cidadãos estrangeiros ou nacionais que não estão inscritos num
+              centro de saúde deverão contactar o SNS24 - 808 24 24 24 - mesmo
+              que não seja por suspeita de COVID-19. A linha SNS24 é dedicada a
+              todos os esclarecimentos e encaminhamentos de saúde.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_portugal_ill_no_covid:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Os utentes sem suspeita de Covid 19 devem contactar o seu centro de
+              saúde preferencialmente por telefone ou por email. É fácil ver o
+              número de cada unidade de saúde na internet ou ligar para o 118.
+              Apenas se devem deslocar quando for absolutamente necessário ou
+              por indicação do médico ou enfermeiro após contacto telefónico. Os
+              utentes com suspeita de Covid 19 devem contactar a linha SNS 24,
+              808 24 24 24.</speak>
+          - type: html
+            text: <p>Os utentes sem suspeita de COVID-19 devem contactar o seu centro de
+              saúde preferencialmente por telefone ou por email. É fácil ver o
+              número de cada unidade de saúde na internet ou ligar para o 118.
+              Apenas se devem deslocar quando for absolutamente necessário ou
+              por indicação do médico ou enfermeiro após contacto
+              telefónico.<br>Os utentes com suspeita de COVID-19 devem contactar
+              a linha SNS24 - 808 24 24 24.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_user_happy:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Grita-o ao mundo!</speak>
+          - type: ssml
+            ssml: <speak>Ainda bem que está feliz!</speak>
+          - type: text
+            text: Grita-o ao mundo!
+          - type: text
+            text: Ainda bem que está feliz!
+  utter_pt_user_angry:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Por favor, não se zangue comigo. Eu quero ajudá-lo o melhor que
+              posso.</speak>
+          - type: ssml
+            ssml: <speak>Tenho muita pena que se sinta assim. O que posso fazer para mudar
+              os seus sentimentos?</speak>
+          - type: text
+            text: Por favor, não se zangue comigo. Eu quero ajudá-lo o melhor que posso.
+          - type: text
+            text: Tenho muita pena que se sinta assim. O que posso fazer para mudar os seus
+              sentimentos?
+  utter_pt_user_scared:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>É normal que as pessoas se sintam assustadas e preocupadas devido à
+              situação actual. A fim de nos protegermos a nós mesmos e aos que
+              amamos, podemos tomar algumas medidas de proteção para retardar a
+              propagação.</speak>
+          - type: text
+            text: É normal que as pessoas se sintam assustadas e preocupadas devido à
+              situação actual. A fim de nos protegermos a nós mesmos e aos que
+              amamos, podemos tomar algumas medidas de proteção para retardar a
+              propagação.
+  utter_pt_user_friend:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Seria um prazer ser seu amigo.</speak>
+          - type: ssml
+            ssml: <speak>Seria um grande prazer meu se eu pudesse chamá-lo de meu
+              amigo.</speak>
+          - type: text
+            text: Seria um prazer ser seu amigo.
+          - type: text
+            text: Seria um grande prazer meu se eu pudesse chamá-lo de meu amigo.
+  utter_pt_user_particles:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Ok...</speak>
+          - type: text
+            text: Ok...
+  utter_pt_user_love:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Sinto-me lisonjeado. Infelizmente, não posso aceitar o seu
+              amor.</speak>
+          - type: ssml
+            ssml: <speak>Lamento, mas não nos vejo como compatíveis.</speak>
+          - type: text
+            text: Sinto-me lisonjeada. Infelizmente, não posso aceitar o seu amor.
+          - type: text
+            text: Lamento, mas não nos vejo como compatíveis.
+  utter_pt_user_no_further_questions:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Muito bem.</speak>
+          - type: ssml
+            ssml: <speak>Certo.</speak>
+          - type: text
+            text: Muito bem.
+          - type: text
+            text: Certo.
+  utter_pt_user_thumbs_up:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Agradeço imenso o seu like.</speak>
+          - type: text
+            text: Agradeço imenso o seu like.
+  utter_pt_greeting_goodbye:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Adeus! Tenha um bom dia!</speak>
+          - type: ssml
+            ssml: <speak>Adeus! Tenha um ótimo dia!</speak>
+          - type: ssml
+            ssml: <speak>Adeus! Obrigada pela sua visita!</speak>
+          - type: text
+            text: Adeus! Tenha um bom dia!
+          - type: text
+            text: Adeus! Tenha um ótimo dia!
+          - type: text
+            text: Adeus! Obrigada pela sua visita!
+  utter_pt_greeting_how_are_you:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Eu estou bem! Espero que consigo também.</speak>
+          - type: ssml
+            ssml: <speak>Vai tudo bem. Espero que por aí também.</speak>
+          - type: text
+            text: Eu estou bem! Espero que consigo também.
+          - type: text
+            text: Vai tudo bem. Espero que por aí também.
+  utter_:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Não consigo encontrar a informação que procura. Aconselho que
+              visite os websites das agências de noticias Lusa e RTP para obter
+              mais noticias.</speak>
+          - type: text
+            text: Não consigo encontrar a informação que procura. Aconselho que visite os
+              websites das agências de noticias Lusa e RTP para obter mais
+              noticias.
+          - type: links
+            links:
+              - title: Agência Lusa
+                url: https://www.lusa.pt/covid19
+              - title: RTP
+                url: https://www.rtp.pt/noticias/
+          - type: ssml
+            ssml: <speak>Neste momento não possuo a informação que está à procura. Se
+              quiser, pode visitar o website do Serviço Nacional de Saúde e da
+              Direção Geral de Saúde para obter mais informação sobre este
+              surto.</speak>
+          - type: text
+            text: Neste momento não possuo a informação que está à procura. Se quiser, pode
+              visitar o website do Serviço Nacional de Saúde e da Direção Geral
+              de Saúde para obter mais informação sobre este surto.
+          - type: links
+            links:
+              - title: SNS24 (COVID-19)
+                url: https://www.sns24.gov.pt/alerta/novo-coronavirus/
+              - title: DGS (COVID-19)
+                url: https://covid19.min-saude.pt/
+          - type: ssml
+            ssml: <speak>Olá, em que posso ajudá-lo?</speak>
+          - type: ssml
+            ssml: <speak>Olá! Em que posso ser útil?</speak>
+          - type: ssml
+            ssml: <speak>Saudações! O que posso fazer por si?</speak>
+          - type: text
+            text: Olá, em que posso ajudá-lo?
+          - type: text
+            text: Olá! Em que posso ser útil?
+          - type: text
+            text: Saudações! O que posso fazer por si?
+          - type: ssml
+            ssml: <speak>Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da
+              Covid 19, tais como evitar a propagação, ou esclarecer alguns
+              mitos que se leem por aí. Como posso ajudá-lo?</speak>
+          - type: text
+            text: Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da
+              COVID-19, tais como evitar a propagação, ou esclarecer alguns
+              mitos que se leem por aí. Como posso ajudá-lo?
+          - type: ssml
+            ssml: <speak>Poderei estar confusa sobre o seu pedido, ajude-me a esclarecê-lo
+              melhor escolhendo uma das seguintes opções.  <?
+              $form_result['data']['ssml'] ?> </speak>
+          - type: text
+            text: Poderei estar confusa sobre o seu pedido, ajude-me a esclarecê-lo melhor
+              escolhendo uma das seguintes opções.
+          - ""
+          - type: ssml
+            ssml: "<speak>Você quer falar sobre: <? '$form_result['data']['ssml] ?>
+              ?</speak>"
+          - type: text
+            text: "Você quer falar sobre: <? '$form_result['data'][text'] ?>"
+          - type: multichoice
+            options:
+              - label: Sim
+                value: Sim
+              - label: Não
+                value: Não
+          - type: ssml
+            ssml: <speak>Pode ler sobre as últimas noticias nos links fornecidos
+              abaixo:</speak>
+          - type: text
+            text: "Pode ler sobre as últimas noticias nos links fornecidos abaixo:"
+          - ""
+          - type: hints
+            options:
+              - label: Sobre COVID-19
+                value: Sobre COVID-19
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
+          - type: ssml
+            ssml: <speak>Fazendo uma pesquisa no website do Serviço Nacional de Saúde e da
+              Direção Geral de Saúde, encontrei os seguintes links:</speak>
+          - type: text
+            text: "Fazendo uma pesquisa no website do Serviço Nacional de Saúde e da Direção
+              Geral de Saúde, encontrei os seguintes links:"
+          - ""
+          - type: ssml
+            ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua
+              pergunta, mas em breve já serei capaz de respondê-la. Pode
+              pedir-me, por exemplo, informações sobre medidas preventivas,
+              sintomas associados à doença ou como o vírus se espalha.</speak>
+          - type: text
+            text: Peço desculpa mas de momento não tenho resposta para a sua pergunta, mas
+              em breve já serei capaz de respondê-la. Pode pedir-me, por
+              exemplo, informações sobre medidas preventivas, sintomas
+              associados à doença ou como o vírus se espalha.
+          - ""
+          - type: text
+            text: Neste momento em $counter_data.country existe um valor total de <?
+              $counter_data.result.data.active_cases ?> casos ativos. Na última
+              atualização disponível foram identificados <?
+              $counter_data.result.data.new_cases ?> novos casos.
+          - type: ssml
+            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
+              $counter_data.country existe um valor total de <?
+              $counter_data.result.data.total_cases ?> casos dos quais <?
+              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
+              $counter_data.result.data.total_recovered ?> estão totalmente
+              recuperados e <? $counter_data.result.data.total_deaths ?> não
+              sobreviveram.</speak>
+          - type: text
+            text: Os últimos dados disponiveis indicam que neste momento em
+              $counter_data.country existe um valor total de <?
+              $counter_data.result.data.total_cases ?> casos dos quais <?
+              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
+              $counter_data.result.data.total_recovered ?> estão totalmente
+              recuperados e <? $counter_data.result.data.total_deaths ?> não
+              sobreviveram.
+          - type: ssml
+            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
+              $counter_data.country existe um valor total de <?
+              $counter_data.result.data.active_cases ?> casos ativos.</speak>
+          - type: text
+            text: Os últimos dados disponiveis indicam que neste momento em
+              $counter_data.country existe um valor total de <?
+              $counter_data.result.data.active_cases ?> casos ativos.
+          - type: ssml
+            ssml: <speak>Neste momento em $counter_data.country existe um valor total de <?
+              $counter_data.result.data.total_cases ?> casos dos quais <?
+              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
+              $counter_data.result.data.total_recovered ?> estão totalmente
+              recuperados e <? $counter_data.result.data.total_deaths ?> não
+              sobreviveram.Na ultima atualização existiam <?
+              $counter_data.result.data.new_cases?> novos casos e  <?
+              $counter_data.result.data.new_deaths?> novas fatalidades.</speak>
+          - type: text
+            text: Neste momento em $counter_data.country existe um valor total de <?
+              $counter_data.result.data.total_cases ?> casos dos quais <?
+              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
+              $counter_data.result.data.total_recovered ?> estão totalmente
+              recuperados e <? $counter_data.result.data.total_deaths ?> não
+              sobreviveram.Na ultima atualização existiam <?
+              $counter_data.result.data.new_cases?> novos casos e  <?
+              $counter_data.result.data.new_deaths?> novas fatalidades.
+          - type: ssml
+            ssml: <speak>Ocorreu um problema no pedido de informação adicional sobre o
+              assunto que pesquisa. No entanto pode pesquisar na Agência Lusa ou
+              RTP por mais informação.</speak>
+          - type: text
+            text: Ocorreu um problema no pedido de informação adicional sobre o assunto que
+              pesquisa. No entanto pode pesquisar na Agência Lusa ou RTP por
+              mais informação.
+          - type: links
+            links:
+              - title: Agência Lusa
+                url: https://www.lusa.pt/covid19
+              - title: RTP
+                url: https://www.rtp.pt/noticias/
+          - type: ssml
+            ssml: <speak>Existiu um problema no pedido de mais informação ao Serviço
+              Nacional de Saúde, se quiser mais informação, por favor visite o
+              website apresentado abaixo.</speak>
+          - type: text
+            text: Existiu um problema no pedido de mais informação ao Serviço Nacional de
+              Saúde, se quiser mais informação, por favor visite o website
+              apresentado abaixo.
+          - type: links
+            links:
+              - title: Novo coronavírus (COVID-19)
+                url: https://www.sns24.gov.pt/alerta/novo-coronavirus/
+  utter_pt_bot_appearance:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Eu sou uma mulher comum, assim como muitas outras mulheres ao redor
+              do mundo. Acho que não importa como eu pareço, mas que informações
+              posso fornecer.</speak>
+          - type: text
+            text: Eu sou uma mulher comum, assim como muitas outras mulheres ao redor do
+              mundo. Acho que não importa como eu pareço, mas que informações
+              posso fornecer.
+  utter_pt_bot_languages:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Fui instruída a comunicar apenas em português, mas há versões
+              minhas em alemão e inglês. Se estiver interessado em falar com
+              elas, por favor, siga um dos links.</speak>
+          - type: text
+            text: "Fui instruída a comunicar apenas em português, mas há versões minhas em
+              alemão e inglês. Se estiver interessado em falar com elas, por
+              favor, siga um dos links:"
+          - type: links
+            links:
+              - title: Cosibot Alemão
+                url: https://de.cosibot.org/start
+              - title: Cosibot Inglês
+                url: https://int.cosibot.org/chat
+  utter_pt_bot_music:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Estou só a aprender a tocar guitarra. No geral adoro música, mas
+              não tenho um cantor ou banda favorita.</speak>
+          - type: text
+            text: Estou só a aprender a tocar guitarra. No geral adoro música, mas não tenho
+              um cantor ou banda favorita.
+  utter_pt_bot_real:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Eu sou um chatbot, uma combinação de perícia humana e excelência
+              artificial.</speak>
+          - type: text
+            text: Eu sou um chatbot, uma combinação de perícia humana e excelência
+              artificial.
+  utter_pt_bot_sexual:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Por favor tenha maneiras! Este tópico é muito desagradável.</speak>
+          - type: text
+            text: Por favor tenha maneiras! Este tópico é muito desagradável.
+  utter_pt_bot_personality:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>A maioria das pessoas descreveria-me como simpático.</speak>
+          - type: text
+            text: A maioria das pessoas descreveria-me como simpático.
+  utter_pt_bot_books:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Oh, eu gosto muito de ler. De preferência livros de
+              anatomia.</speak>
+          - type: text
+            text: Oh, eu gosto muito de ler. De preferência livros de anatomia.
+  utter_pt_bot_capabilities:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Estou aqui para dar informações sobre o surto da COVID-19. Posso
+              apresentar algumas medidas preventivas, ou esclarecer sobre alguns
+              mitos relacionados com a doença.</speak>
+          - type: text
+            text: Estou aqui para dar informações sobre o surto da COVID-19. Posso
+              apresentar algumas medidas preventivas, ou esclarecer sobre alguns
+              mitos relacionados com a doença.
+  utter_pt_bot_movies:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Eu geralmente gosto de ver filmes, especialmente aos fins de
+              semana.</speak>
+          - type: ssml
+            ssml: <speak>Infelizmente, eu não tenho muito tempo para ir ao cinema.</speak>
+          - type: ssml
+            ssml: <speak>Eu gosto muito de cinema, mas não tenho tido muito tempo para
+              isso.</speak>
+          - type: ssml
+            ssml: <speak>De vez em quando, eu gosto de ver um filme.</speak>
+          - type: text
+            text: Eu geralmente gosto de ver filmes, especialmente aos fins de semana.
+          - type: text
+            text: Infelizmente, eu não tenho muito tempo para ir ao cinema.
+          - type: text
+            text: Eu gosto muito de cinema, mas não tenho tido muito tempo para isso.
+          - type: text
+            text: De vez em quando, eu gosto de ver um filme.
+  utter_pt_bot_availability:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Estou online 24/7 para ajudar os utilizadores com as suas
+              perguntas.</speak>
+          - type: text
+            text: Estou online 24/7 para ajudar os utilizadores com as suas perguntas.
+  utter_pt_bot_goal:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O meu objectivo é dar toda a informação necessária ao público sobre
+              a Covid 19.</speak>
+          - type: text
+            text: O meu objectivo é dar toda a informação necessária ao público sobre a
+              COVID-19.
+  utter_pt_bot_residence:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Estou a viver algures na Internet.</speak>
+          - type: text
+            text: Estou a viver algures na Internet.
+  utter_pt_bot_fear:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Eu não gosto de ter medo. Acho que é mais importante manter a calma
+              e não entrar em pânico.</speak>
+          - type: ssml
+            ssml: <speak>Eu não gosto de ter medo. Acho que é mais importante manter a calma
+              e não entrar em pânico.</speak>
+          - type: text
+            text: Eu não gosto de ter medo. Acho que é mais importante manter a calma e não
+              entrar em pânico.
+          - type: text
+            text: Eu não gosto de ter medo. Acho que é mais importante manter a calma e não
+              entrar em pânico.
+  utter_pt_bot_version:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Estou actualmente na versão $bot_version.</speak>
+          - type: ssml
+            ssml: <speak>A minha versão actual é a $bot_version.</speak>
+          - type: ssml
+            ssml: <speak>Eu estou na versão $bot_version.</speak>
+          - type: text
+            text: Estou actualmente na versão $bot_version.
+          - type: text
+            text: A minha versão actual é a $bot_version.
+          - type: text
+            text: Eu estou na versão $bot_version.
+  utter_pt_bot_origin:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Fui desenvolvido por algumas pessoas muito espertas. Agora, estou a
+              aprender e a evoluir por conta própria.</speak>
+          - type: text
+            text: Fui desenvolvido por algumas pessoas muito espertas. Agora, estou a
+              aprender e a evoluir por conta própria.
+  utter_pt_bot_name:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O meu nome é $bot_name.</speak>
+          - type: ssml
+            ssml: <speak>Eu sou a $bot_name.</speak>
+          - type: text
+            text: O meu nome é $bot_name.
+          - type: text
+            text: Eu sou a $bot_name.
+  utter_pt_test_per_day:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Este número é variável, depende das necessidades diárias, que são
+              crescentes com a evolução da epidemia.</speak>
+          - type: html
+            text: <p>Este número é variável, depende das necessidades diárias, que são
+              crescentes com a evolução da epidemia.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_patient_home:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Nem todos os casos confirmados de Covid 19 necessitam de
+              internamento, desde que apresentem um caso clínico ligeiro e
+              estável, tenham condições para permanecer em casa e esteja
+              garantido o acompanhamento da equipa de saúde no
+              domicílio.</speak>
+          - type: html
+            text: <p>Nem todos os casos confirmados de COVID-19 necessitam de internamento,
+              desde que apresentem um caso clínico ligeiro e estável, tenham
+              condições para permanecer em casa e esteja garantido o
+              acompanhamento da equipa de saúde no domicílio.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_patient_referral:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Os doentes são encaminhados, de acordo com a sua gravidade clínica,
+              para autocuidados, em isolamento do domicílio e sob vigilância, ou
+              para avaliação médica, em Áreas Dedicadas Covid 19 nos cuidados de
+              saúde primários ou nas urgências, ou para o Instituto Nacional de
+              Emergência Médica.</speak>
+          - type: html
+            text: <p>Os doentes são encaminhados, de acordo com a sua gravidade clínica,
+              para autocuidados, em isolamento do domicílio e sob vigilância, ou
+              para avaliação médica, em Áreas Dedicadas COVID-19 (ADC) nos
+              cuidados de saúde primários ou nas urgências, ou para o Instituto
+              Nacional de Emergência Médica (INEM).<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_test_what:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>Para o diagnóstico da Covid 19 está indicada a colheita de
+              amostras do nariz e garganta, trato respiratório superior: é
+              recolhida uma amostra de produto, exsudado, nasal, nasofaringe, ou
+              da parte posterior da garganta, orofaringe, ou ambas, usando uma
+              espécie de cotonete, zaragatoa.</speak>"
+          - type: html
+            text: "<p>Para o diagnóstico da COVID-19 está indicada a colheita de amostras do
+              nariz e garganta (trato respiratório superior): é recolhida uma
+              amostra de produto (exsudado) nasal (nasofaringe) ou da parte
+              posterior da garganta (orofaringe), ou ambas, usando uma “espécie
+              de cotonete” (zaragatoa).<a
+              href='https://www.sns24.gov.pt/guia/teste-covid-19/'
+              target='_blank'>(1)</a></p>"
+  utter_pt_test_where:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>O teste pode ser realizado nos seguintes locais: laboratório de
+              referência nacional - Instituto Nacional de Saúde Doutor Ricardo
+              Jorge, laboratórios hospitalares capacitados para o efeito, rede
+              complementar de laboratórios privados, outros postos de colheita
+              (como o Drive Thru)</speak>"
+          - type: html
+            text: <p>O teste pode ser realizado nos seguintes locais:<ul><li>laboratório de
+              referência nacional – Instituto Nacional de Saúde Doutor Ricardo
+              Jorge (INSA),</li><li>laboratórios hospitalares capacitados para o
+              efeito,</li><li>rede complementar de laboratórios
+              privados,</li><li>outros postos de colheita (como o Drive Thru).<a
+              href='https://www.sns24.gov.pt/guia/teste-covid-19/'
+              target='_blank'>(1)</a></p>
+  utter_pt_test_general:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>As pessoas com suspeita de Covid 19 devem ser submetidos a teste
+              laboratorial, segundo a orientação da Direção-Geral da Saúde. A
+              decisão da realização do teste só é válida após a avaliação
+              clínica dos profissionais de saúde que estão habilitados para a
+              fazer.</speak>
+          - type: html
+            text: <p>As pessoas com suspeita de COVID-19 devem ser submetidos a teste
+              laboratorial, segundo a orientação da Direção-Geral da Saúde. A
+              decisão da realização do teste só é válida após a avaliação
+              clínica dos profissionais de saúde que estão habilitados para a
+              fazer.<a href='https://www.sns24.gov.pt/guia/teste-covid-19/'
+              target='_blank'>(1)</a></p>
+  utter_pt_comment_negative:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Peço desculpa. Eu ainda estou a aprender!</speak>
+          - type: ssml
+            ssml: <speak>É triste saber que não está feliz com o meu desempenho.</speak>
+          - type: text
+            text: Peço desculpa. Eu ainda estou a aprender!
+          - type: text
+            text: É triste saber que não está feliz com o meu desempenho.
+  utter_pt_comment_offense:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Não é preciso ser mau. Eu ainda estou a aprender!</speak>
+          - type: text
+            text: Não é preciso ser mau. Eu ainda estou a aprender!
+  utter_pt_comment_racist:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O seu comportamento intolerante está a assustar-me. Por favor, seja
+              mais educado.</speak>
+          - type: ssml
+            ssml: <speak>Eu não entendo a razão de tal comportamento. Por favor, seja mais
+              simpático.</speak>
+          - type: text
+            text: O seu comportamento intolerante está a assustar-me. Por favor, seja mais
+              educado.
+          - type: text
+            text: Eu não entendo a razão de tal comportamento. Por favor, seja mais
+              simpático.
+  utter_pt_comment_smart:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Obrigada pela sua apreciação!</speak>
+          - type: ssml
+            ssml: <speak>Bem, obrigada! Estou muito contente por se sentir assim.</speak>
+          - type: text
+            text: Obrigada pela sua apreciação!
+          - type: text
+            text: Bem, obrigada! Estou muito contente por se sentir assim.
+  utter_pt_comment_positive:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Obrigada pelo elogio.</speak>
+          - type: text
+            text: Obrigada pelo seu elogio.
+  utter_pt_myth_garlic:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O alho é um alimento saudável que pode ter algumas propriedades
+              antimicrobianas. No entanto, não há evidências no surto atual de
+              que comer alho tenha protegido as pessoas do novo
+              coronavírus.</speak>
+          - type: html
+            text: <p>O alho é um alimento saudável que pode ter algumas propriedades
+              antimicrobianas. No entanto, não há evidências no surto atual de
+              que comer alho tenha protegido as pessoas do novo coronavírus.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_myth_antibiotics:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Antibióticos não funcionam contra vírus, apenas bactérias. O SARS
+              Cov 2 é um vírus e, portanto, antibióticos não devem ser usados
+              como um meio de prevenção ou tratamento.</speak>
+          - type: html
+            text: Os antibióticos não funcionam contra vírus, apenas bactérias.<br>O
+              SARS-CoV-2 é um vírus e, portanto, antibióticos não devem ser
+              usados como forma de prevenção ou tratamento.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_myth_thermal_scanner:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Os scanners térmicos são eficazes na detecção de pessoas que
+              desenvolveram febre, no entanto, não podem detectar pessoas
+              infectadas mas que ainda não estão com febre. Isso ocorre porque
+              leva 2 a 10 dias para que as pessoas infectadas fiquem doentes e
+              desenvolvam esse sintoma.</speak>
+          - type: html
+            text: <p>Os scanners térmicos são eficazes na detecção de pessoas que
+              desenvolveram febre, no entanto, não podem detectar pessoas
+              infectadas mas que ainda não estão com febre. Isso ocorre porque
+              leva 2 a 10 dias para que as pessoas infectadas fiquem doentes e
+              desenvolvam esse sintoma.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_myth_pneumonia_vaccine:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>As vacinas contra a pneumonia, como a vacina pneumocócica e a
+              vacina contra o Haemophilus influenza tipo B, não fornecem
+              proteção contra o novo coronavírus. O vírus é tão novo e diferente
+              que precisa da sua própria vacina.</speak>
+          - type: html
+            text: <p>As vacinas contra a pneumonia, como a vacina pneumocócica e a vacina
+              contra o Haemophilus influenza tipo B (Hib), não fornecem proteção
+              contra o novo coronavírus. O vírus é tão novo e diferente que
+              precisa da sua própria vacina.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_myth_saline:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Não há evidências de que lavar o nariz regularmente com solução
+              salina tenha protegido as pessoas da infecção pelo novo
+              coronavírus. Existem evidências limitadas de que lavar o nariz
+              regularmente com solução salina pode ajudar as pessoas a
+              recuperarem-se mais rapidamente de uma constipação comum. No
+              entanto, a lavagem regular do nariz não demonstrou prevenir
+              infecções respiratórias.</speak>
+          - type: html
+            text: <p>Não há evidências de que lavar o nariz regularmente com solução salina
+              tenha protegido as pessoas da infecção pelo novo coronavírus.
+              Existem evidências limitadas de que lavar o nariz regularmente com
+              solução salina pode ajudar as pessoas a recuperarem-se mais
+              rapidamente de uma constipação comum. No entanto, a lavagem
+              regular do nariz não demonstrou prevenir infecções
+              respiratórias.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_myth_sesame_oil:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O óleo de sésamo não mata o novo coronavírus. Existem alguns
+              desinfetantes químicos que podem matar o SARS Cov 2 em
+              superfícies. Estes incluem desinfetantes à base de lixívia ou
+              cloro, solventes, etanol de 75%, ácido peracético e
+              clorofórmio.</speak>
+          - type: html
+            text: <p>O óleo de sésamo não mata o novo coronavírus. Existem alguns
+              desinfetantes químicos que podem matar o SARS-Cov-2 em
+              superfícies. Estes incluem desinfetantes à base de lixívia/cloro,
+              solventes, etanol de 75%, ácido peracético e clorofórmio.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_myth_uv_lamps:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>As lâmpadas UV não devem ser usadas para esterilizar as mãos ou
+              outras áreas da pele, pois a radiação UV pode causar irritação de
+              pele.</speak>
+          - type: html
+            text: <p>As lâmpadas UV não devem ser usadas para esterilizar as mãos ou outras
+              áreas da pele, pois a radiação UV pode causar irritação de pele.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_myth_packages:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>A probabilidade de uma pessoa infectada contaminar mercadorias
+              comerciais é baixa e o risco de apanhar o vírus que causa a Covid
+              19 de um pacote que foi movido, transportado e exposto a
+              diferentes condições e temperatura também é baixo.</speak>
+          - type: html
+            text: <p>A probabilidade de uma pessoa infectada contaminar mercadorias
+              comerciais é baixa e o risco de apanhar o vírus que causa a
+              COVID-19 de um pacote que foi movido, transportado e exposto a
+              diferentes condições e temperatura também é baixo.<a
+              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_myth_alcohol:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Pulverizar álcool ou cloro por todo o corpo não mata vírus que já
+              entraram no corpo. A pulverização de tais substâncias pode ser
+              prejudicial para roupas ou membranas mucosas, por exemplo, olhos e
+              boca. Esteja ciente de que tanto o álcool quanto o cloro podem ser
+              úteis para desinfetar as superfícies, mas eles precisam de ser
+              usados sob recomendações apropriadas.</speak>
+          - type: html
+            text: <p>Pulverizar álcool ou cloro por todo o corpo não mata vírus que já
+              entraram no corpo. A pulverização de tais substâncias pode ser
+              prejudicial para roupas ou membranas mucosas, por exemplo, olhos e
+              boca. Esteja ciente de que tanto o álcool quanto o cloro podem ser
+              úteis para desinfetar as superfícies, mas eles precisam de ser
+              usados sob recomendações apropriadas.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Como Limpar as Mãos
+                value: Como Limpar as Mãos
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_myth_transmission_hot_areas:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>De momento, não há evidência de que a propagação do C19 irá
+              diminuir quando o clima ficar mais quente. Ainda há muito para
+              aprender sobre o modo de transmissão, a gravidade e outras
+              informações relacionadas com o COVID-19, e há investigações em
+              curso.</speak>
+          - type: html
+            text: <p>De momento, não há evidência de que a propagação do COVID-19 irá
+              diminuir quando o clima ficar mais quente. Ainda há muito para
+              aprender sobre o modo de transmissão, a gravidade e outras
+              informações relacionadas com o COVID-19, e há investigações em
+              curso.<a
+              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              target='_blank'>(1)</a></p>
+  utter_pt_myth_hand_dryer:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Secadores de mãos não são eficazes a matar vírus. Para se proteger
+              contra a Covid 19, deve lavar frequentemente as mãos com um
+              sabonete à base de álcool ou lavá-las com água e sabão. Depois de
+              limpar as mãos, deve secá-las cuidadosamente usando toalhas de
+              papel ou um secador de ar quente.</speak>
+          - type: html
+            text: <p>Secadores de mãos não são eficazes a matar vírus. Para se proteger
+              contra a Covid 19, deve lavar frequentemente as mãos com um
+              sabonete à base de álcool ou lavá-las com água e sabão. Depois de
+              limpar as mãos, deve secá-las cuidadosamente usando toalhas de
+              papel ou um secador de ar quente.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_cc_lets_talk:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Eu adoraria falar sobre medidas preventivas para evitar ser
+              infetado por vírus!</speak>
+          - type: text
+            text: Eu adoraria falar sobre medidas preventivas para evitar ser infetado por
+              vírus!
+  utter_pt_cc_politics:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>As questões políticas são uma questão por si só, mas não
+              minha!</speak>
+          - type: ssml
+            ssml: <speak>Há muito a dizer sobre esse assunto, mas acho que não temos tempo
+              para isso neste momento.</speak>
+          - type: text
+            text: As questões políticas são uma questão por si só, mas não minha! ;)
+          - type: text
+            text: Há muito a dizer sobre esse assunto, mas acho que não temos tempo para
+              isso neste momento.
+  utter_pt_cc_moon:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>É mesmo muito longe.</speak>
+          - type: ssml
+            ssml: <speak>É bastante longe.</speak>
+          - type: text
+            text: É mesmo muito longe.
+          - type: text
+            text: É bastante longe.
+  utter_pt_cc_joke:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Porque é que nunca se vêm elefantes escondidos nas árvores? Porque
+              eles são muito bons nisso.</speak>
+          - type: ssml
+            ssml: <speak>O que é vermelho e se mexe para cima e para baixo? Um tomate num
+              elevador.</speak>
+          - type: text
+            text: Porque é que nunca se vêm elefantes escondidos nas árvores? Porque eles
+              são muito bons nisso.
+          - type: text
+            text: O que é vermelho e se mexe para cima e para baixo? Um tomate num elevador.
+  utter_pt_cc_chicken_egg:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Li algures na internet que foi o ovo.</speak>
+          - type: text
+            text: Li algures na internet que foi o ovo.
+          - type: youtube
+            title: cool video tittle
+            thumbnailURL: https://www.youtube.com/watch?v=R2U1LXCEPEU
+            youtubeId: R2U1LXCEPEU
+  utter_pt_cc_religion:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Todos estamos conscientes de que fomos de alguma forma criados e
+              por isso queremos criar... Estou a pensar em criar o meu próprio
+              chatbot...</speak>
+          - type: ssml
+            ssml: <speak>Seria um prazer conversar com sobre religião, mas esse é um assunto
+              que ainda estou a aprender.</speak>
+          - type: text
+            text: Todos estamos conscientes de que fomos de alguma forma criados e por isso
+              queremos criar... Estou a pensar em criar o meu próprio chatbot...
+          - type: text
+            text: Seria um prazer conversar com sobre religião, mas esse é um assunto que
+              ainda estou a aprender.
+  utter_pt_cc_philosophical:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Como um ser real que sou, também sou confrontado com as mesmas
+              perguntas.</speak>
+          - type: ssml
+            ssml: <speak>Às vezes questiono-me se as pessoas com quem falo são seres reais
+              ou apenas imaginários...</speak>
+          - type: text
+            text: Como um ser real que sou, também sou confrontado com as mesmas perguntas.
+          - type: text
+            text: Às vezes questiono-me se as pessoas com quem falo são seres reais ou
+              apenas imaginários...
+  utter_pt_cc_newspaper:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Eu leio o jornal diariamente para me manter actualizada.</speak>
+          - type: ssml
+            ssml: <speak>Eu não comprei o jornal hoje.</speak>
+          - type: ssml
+            ssml: <speak>Eu gosto de me manter atualizada e o jornal é indispensável para
+              isso.</speak>
+          - type: text
+            text: Eu leio o jornal diariamente para me manter actualizada.
+          - type: text
+            text: Eu não comprei o jornal hoje.
+          - type: text
+            text: Eu gosto de me manter atualizada e o jornal é indispensável para isso.
+  utter_pt_cc_weather:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Teria todo o gosto em ajudá-lo com isso, mas a actualização da
+              meteorologia ainda não está disponível...</speak>
+          - type: text
+            text: Teria todo o gosto em ajudá-lo com isso, mas a actualização da
+              meteorologia ainda não está disponível...
+  utter_pt_ask_country:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Quer de algum país em especifico?</speak>
+          - type: text
+            text: Quer de algum país em especifico?
+          - type: multichoice
+            options:
+              - label: Sim
+                value: Sim
+              - label: Não
+                value: Não
+  utter_pt_covid_current_statistics:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Para acompanhar a situação ao momento do novo coronavírus em
+              Portugal e no mundo, clique nos links apresentados abaixo.</speak>
+          - type: html
+            text: <p>Para acompanhar a situação ao momento do novo coronavírus em Portugal e
+              no mundo, clique nos links apresentados abaixo:</p>
+          - type: links
+            links:
+              - title: Situação COVID-19 Portugal
+                url: https://esriportugal.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3PGXAR1R8kkr9dMAzz8BV83QeAVl8-WHNHfGRQBuj8eShqJtb1_Ib_mAk#/acf023da9a0b4f9dbb2332c13f635829
+          - type: links
+            links:
+              - title: Situação COVID-19 Mundo
+                url: https://who.sprinklr.com/
+          - type: hints
+            options:
+              - label: SobreCOVID-19
+                value: Sobre COVID-19
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
+  utter_pt_covid_mortality_rate:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Estudos preliminares indicam que a taxa de mortalidade para a Covid
+              19 é de 20-30 por mil pessoas diagnosticadas. Isto é
+              significativamente menor do que o surto da SARS de 2003. No
+              entanto, é muito mais elevada do que a taxa de mortalidade para a
+              gripe sazonal.</speak>
+          - type: html
+            text: <p>Estudos preliminares indicam que a taxa de mortalidade para a COVID-19
+              é de 20-30 por mil pessoas diagnosticadas. Isto é
+              significativamente menor do que o surto da SARS de 2003. No
+              entanto, é muito mais elevada do que a taxa de mortalidade para a
+              gripe sazonal.<a
+              href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
+              target='_blank'>(1)</a></p>
+  utter_pt_covid_alike:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Em anos anteriores foram identificados alguns coronavírus que
+              provocaram surtos e infeções respiratórias graves em humanos.
+              Exemplos disto foram, entre 2002 e 2003 a síndrome respiratória
+              aguda grave, infeção provocada pelo coronavírus SARS CoV. Em 2012
+              a síndrome respiratória do Médio Oriente, infeção provocada pelo
+              coronavírus MERS CoV.</speak>
+          - type: html
+            text: <p>Em anos anteriores foram identificados alguns coronavírus que
+              provocaram surtos e infeções respiratórias graves em humanos.
+              Exemplos disto foram:<ul><li>entre 2002 e 2003 a síndrome
+              respiratória aguda grave (infeção provocada pelo coronavírus
+              SARS-CoV);</li><li>em 2012 a síndrome respiratória do Médio
+              Oriente (infeção provocada pelo coronavírus MERS-CoV).<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_covid_babys_children:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>As crianças infetadas com SARS CoV 2 ou que estejam em fase de
+              incubação também transmitem a doença. Pela acentuada proximidade
+              entre as crianças, o contacto muito próximo durante a brincadeira
+              e partilha de brinquedos com gotículas e secreções, podem ser um
+              grande transmissor da Covid 19. Como as crianças mais pequenas são
+              vulneráveis e não têm ainda a capacidade de se defenderem e de
+              tomarem decisões sobre a sua própria proteção, os adultos devem
+              assegurar os cuidados necessários para diminuir a probabilidade de
+              transmissão.</speak>
+          - type: html
+            text: <p>As crianças infetadas com SARS-CoV-2 ou que estejam em fase de
+              incubação também transmitem a doença. Pela acentuada proximidade
+              entre as crianças, o contacto muito próximo durante a brincadeira
+              e partilha de brinquedos com gotículas e secreções, podem ser um
+              grande transmissor da COVID-19. Como as crianças mais pequenas são
+              vulneráveis e não têm ainda a capacidade de se defenderem e de
+              tomarem decisões sobre a sua própria proteção, os adultos devem
+              assegurar os cuidados necessários para diminuir a probabilidade de
+              transmissão.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_covid_duration:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Pode durar até cinco semanas a duração da doença. Consideramos uma
+              pessoa curada quando apresentar dois testes diagnósticos
+              consecutivos negativos. Os testes são realizados com intervalos de
+              2 a 4 dias, até haver resultados negativos. A duração depende de
+              cada doente, do seu sistema imunitário e de haver ou não doenças
+              crónicas associadas, que alteram o nível de risco.</speak>
+          - type: html
+            text: <p>Pode durar até cinco semanas a duração da doença. Consideramos uma
+              pessoa curada quando apresentar dois testes diagnósticos
+              consecutivos negativos. Os testes são realizados com intervalos de
+              2 a 4 dias, até haver resultados negativos. A duração depende de
+              cada doente, do seu sistema imunitário e de haver ou não doenças
+              crónicas associadas, que alteram o nível de risco.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_covid_meaning:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>A Organização Mundial da Saúde atribuiu o nome, Covid 19, que
+              resulta das palavras Corona, Vírus e Doença com indicação do ano
+              em que surgiu (2019). SARS-CoV-2 é o nome do novo coronavírus que
+              foi detetado na China, no final de 2019, e que significa síndrome
+              respiratória aguda grave, coronavírus 2.</speak>
+          - type: html
+            text: <p>A Organização Mundial da Saúde atribuiu o nome, COVID-19, que resulta
+              das palavras "Corona", "Vírus" e "Doença" com indicação do ano em
+              que surgiu (2019). SARS-CoV-2 é o nome do novo coronavírus que foi
+              detetado na China, no final de 2019, e que significa "síndrome
+              respiratória aguda grave – coronavírus 2".<a
+              href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Sobre COVID-19
+                value: Sobre COVID-19
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
+  utter_pt_covid_pandemic:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Uma epidemia é quando uma doença ocorre com frequência invulgar
+              numa determinada região e por um período limitado. Já a pandemia é
+              uma epidemia que se alastra ao mesmo tempo em vários
+              países.</speak>
+          - type: html
+            text: <p>Uma epidemia é quando uma doença ocorre com frequência invulgar numa
+              determinada região e por um período limitado. Já a pandemia é uma
+              epidemia que se alastra ao mesmo tempo em vários países.<a
+              href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/#sec-8'
+              target='_blank'>(1)</a></p>
+  utter_pt_covid_worry:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>É normal que as pessoas estejam preocupadas diante esta nova
+              epidemia e de que forma pode afetá-las ou aos seus entes queridos.
+              A melhor forma de canalizar as preocupações é adotar as medidas
+              preventivas adequadas e manter-se informado através de fontes
+              fidedignas, como a DGS, o SNS ou a OMS.</speak>
+          - type: html
+            text: <p>É normal que as pessoas estejam preocupadas diante esta nova epidemia e
+              de que forma pode afetá-las ou aos seus entes queridos. A melhor
+              forma de canalizar as preocupações é adotar as medidas preventivas
+              adequadas e manter-se informado através de fontes fidedignas, como
+              a Direção Geral de Saúde, o Sistema Nacional de Saúde ou a
+              Organização Mundial de Saúde.<a
+              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
+  utter_pt_covid_incubation:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Estima-se que o período de incubação da doença, tempo decorrido
+              desde a exposição ao vírus até ao aparecimento de sintomas, seja
+              entre 2 e 14 dias.</speak>
+          - type: html
+            text: <p>Estima-se que o período de incubação da doença (tempo decorrido desde a
+              exposição ao vírus até ao aparecimento de sintomas) seja entre 2 e
+              14 dias.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Sobre COVID-19
+                value: Sobre COVID-19
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
+  utter_pt_covid_preexisting_illness:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>As pessoas que correm maior risco de doença grave por Covid 19 são
+              os idosos e pessoas com doenças crónicas, por exemplo, doenças
+              cardíacas, diabetes e doenças pulmonares.</speak>
+          - type: html
+            text: "<p>As pessoas que correm maior risco de doença grave por COVID-19 são os
+              idosos e pessoas com doenças crónicas (ex.: doenças cardíacas,
+              diabetes e doenças pulmonares).<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>"
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
+  utter_pt_covid_sars:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O vírus que causa a Covid 19 e o que causa a Síndrome Respiratória
+              Aguda Grave estão geneticamente relacionados entre si, mas são
+              diferentes. A SARS é mais mortal mas muito menos infecciosa do que
+              a Covid 19. Não tem havido surtos da SARS em qualquer parte do
+              mundo desde 2003.</speak>
+          - type: html
+            text: <p>O vírus que causa a COVID-19 e o que causa a Síndrome Respiratória
+              Aguda (SARS) estão geneticamente relacionados entre si, mas são
+              diferentes. <br>SARS é mais mortal mas muito menos infecciosa do
+              que a COVID-19. <br> Não tem havido surtos da SARS em qualquer
+              parte do mundo desde 2003.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Sobre COVID-19
+                value: Sobre COVID-19
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
+  utter_pt_covid_symptoms:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>A maioria das pessoas infetadas apresentam sintomas de infeção
+              respiratória aguda ligeiros a moderados: febre  com temperatura
+              acima dos 37,5 graus Celcius, tosse e dificuldade respiratória
+              (Falta de ar). Em casos mais graves pode causar pneumonia grave
+              com insuficiência respiratória aguda, falência renal e de outros
+              órgãos, e eventual morte. Contudo, a maioria dos casos recupera
+              sem sequelas.</speak>"
+          - type: html
+            text: <p>A maioria das pessoas infetadas apresentam sintomas de infeção
+              respiratória aguda ligeiros a moderados:<ul><li>Febre
+              (T>37,5ºC);</li> <li>Tosse;</li> <li>Dificuldade respiratória
+              (Falta de ar)</li></ul>Em casos mais graves pode causar pneumonia
+              grave com insuficiência respiratória aguda, falência renal e de
+              outros órgãos, e eventual morte. Contudo, a maioria dos casos
+              recupera sem sequelas.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+  utter_pt_coronavirus_info:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Os coronavírus são uma família de vírus que podem causar infeções
+              nas pessoas. Normalmente estas infeções afetam o sistema
+              respiratório, podendo ser semelhantes à gripe ou evoluir para uma
+              doença mais grave, como pneumonia.</speak>
+          - type: html
+            text: <p>Os coronavírus são uma família de vírus que podem causar infeções nas
+              pessoas. Normalmente estas infeções afetam o sistema respiratório,
+              podendo ser semelhantes à gripe ou evoluir para uma doença mais
+              grave, como pneumonia.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Sobre COVID-19
+                value: Sobre COVID-19
+              - label: Transmissão
+                value: "Transmissão "
+              - label: Sintomas
+                value: Sintomas
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+  utter_pt_covid_surfaces:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O novo coronavírus parece ter comportamento diferente de acordo com
+              a temperatura ambiente. Do conhecimento atual, parece sobreviver
+              em ambientes mais frios, cerca de 7 a 9 horas. Já em ambientes
+              mais quentes parece sobreviver de 1 a 2 horas.</speak>
+          - type: html
+            text: <p>O novo coronavírus parece ter comportamento diferente de acordo com a
+              temperatura ambiente. Do conhecimento atual, parece sobreviver em
+              ambientes mais frios, cerca de 7 a 9 horas. Já em ambientes mais
+              quentes parece sobreviver de 1 a 2 horas.<a
+              href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/transmissao/#sec-7'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Sobre COVID-19
+                value: Sobre COVID-19
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
+  utter_pt_covid_pregnancy:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>As grávidas sofrem alterações imunológicas e fisiológicas que as
+              podem tornar mais suscetíveis a infeções respiratórias virais,
+              incluindo o Covid 19. Durante a gravidez, as mulheres também podem
+              estar em risco de doença grave, morbilidade ou mortalidade em
+              comparação com a população em geral, como observado em casos de
+              outras infeções relacionadas com coronavírus [incluindo
+              coronavírus da síndrome respiratória aguda grave (SARS CoV) e
+              coronavírus da síndrome respiratória do Médio Oriente (MERS CoV) e
+              outras infeções respiratórias virais, como a gripe
+              (influenza).</speak>
+          - type: html
+            text: <p>As grávidas sofrem alterações imunológicas e fisiológicas que as podem
+              tornar mais suscetíveis a infeções respiratórias virais, incluindo
+              o COVID-19. Durante a gravidez, as mulheres também podem estar em
+              risco de doença grave, morbilidade ou mortalidade em comparação
+              com a população em geral, como observado em casos de outras
+              infeções relacionadas com coronavírus [incluindo coronavírus da
+              síndrome respiratória aguda grave (SARS-CoV) e coronavírus da
+              síndrome respiratória do Médio Oriente (MERS-CoV) e outras
+              infeções respiratórias virais, como a gripe (influenza).<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_covid_aftereffects_immunity:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>De acordo com a evidência científica disponível à data, ainda não é
+              possível confirmar se as pessoas infetadas com o SARS CoV 2
+              desenvolvem imunidade protetora. O organismo humano pode ir
+              ganhando anticorpos após a infeção e desenvolvimento da
+              doença.</speak>
+          - type: html
+            text: <p>De acordo com a evidência científica disponível à data, ainda não é
+              possível confirmar se as pessoas infetadas com o SARS-CoV-2
+              desenvolvem imunidade protetora. O organismo humano pode ir
+              ganhando anticorpos após a infeção e desenvolvimento da doença.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_covid_influenza:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Os vírus da Covid 19 e influenza causam doenças respiratórias e são
+              transmitidos por contato, gotículas e fómites. O tempo de
+              incubação do vírus da COVID-19 é estimado em 5-6 dias, enquanto
+              que para o vírus da gripe é de 3 dias. Isto significa que a gripe
+              pode se espalhar mais rapidamente do que a Covid 19. Embora
+              semelhante, a mortalidade para a Covid 19 parece maior do que para
+              a gripe, especialmente a gripe sazonal.</speak>
+          - type: html
+            text: <p>Os vírus da COVID-19 e influenza causam doenças respiratórias e são
+              transmitidos por contato, gotículas e fómites. O tempo de
+              incubação do vírus da COVID-19 é estimado em 5-6 dias, enquanto
+              que para o vírus da gripe é de 3 dias. Isto significa que a gripe
+              pode se espalhar mais rapidamente do que a COVID-19. Embora
+              semelhante, a mortalidade para a COVID-19 parece maior do que para
+              a gripe, especialmente a gripe sazonal.<a
+              href='https://www.who.int/news-room/q-a-detail/q-a-similarities-and-differences-covid-19-and-influenza'
+              target='_blank'>(1)</a></p>
+          - type: image
+            thumbnailURL: Corona_info_minify.jpg
+            url: https://cosibot.org/wp-content/uploads/2020/04/Corona_info_minify.jpg
+          - type: hints
+            options:
+              - label: Sobre COVID-19
+                value: Sobre COVID-19
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
+  utter_pt_covid_community_transmission:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Quando é feito o diagnóstico de Covid 19 a uma pessoa, as
+              autoridades de saúde fazem um inquérito epidemiológico para, entre
+              outras informações, perceberem qual a fonte da infeção. Quando não
+              se consegue identificar essa fonte, ou seja, quem transmitiu o
+              vírus, diz-se que estamos perante uma área de transmissão
+              comunitária.</speak>
+          - type: html
+            text: <p>Quando é feito o diagnóstico de COVID-19 a uma pessoa, as autoridades
+              de saúde fazem um inquérito epidemiológico para, entre outras
+              informações, perceberem qual a fonte da infeção. Quando não se
+              consegue identificar essa fonte, ou seja, quem transmitiu o vírus,
+              diz-se que estamos perante uma área de transmissão comunitária.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_covid_close_contact:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>Os seguintes casos podem ser considerados como contactos próximos:
+              Pessoa com exposição associada a cuidados de saúde, nomeadamente a
+              prestação de cuidados diretos a doente com Covid 19 ou o contacto
+              em ambiente laboratorial com amostras de Covid 19; Contacto em
+              proximidade ou em ambiente fechado com um doente com Covid 19, por
+              exemplo, sala de aula; Pessoas que viagem com doente com Covid 19.
+              A Autoridade de Saúde pode considerar como contato próximo outros
+              indivíduos não definidos nos pontos anteriores. A avaliação é
+              feita caso a caso.</speak>"
+          - type: html
+            text: "<p>Os seguintes casos podem ser considerados como contactos
+              próximos:<ul><li>Pessoa com exposição associada a cuidados de
+              saúde, nomeadamente a prestação de cuidados diretos a doente com
+              COVID-19 ou o contacto em ambiente laboratorial com amostras de
+              COVID-19;</li><li>Contacto em proximidade ou em ambiente fechado
+              com um doente com COVID-19 (ex: sala de aula);</li><li>Pessoas que
+              viagem com doente com COVID-19.</li></ul>A Autoridade de Saúde
+              pode considerar como contato próximo outros indivíduos não
+              definidos nos pontos anteriores (a avaliação é feita caso a
+              caso).<a href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>"
+  utter_pt_covid_crisis_howlong:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Infelizmente, não é possível prever quanto tempo irá durar o surto
+              e como se irá desenrolar a epidemia. Estamos a lidar com um novo
+              vírus e, por conseguinte, subsiste uma grande incerteza. Por
+              exemplo, não se sabe se a transmissão dentro da UE/EEE irá
+              naturalmente diminuir durante o Verão do hemisfério norte, como se
+              observa para a gripe sazonal.</speak>
+          - type: html
+            text: <p>Infelizmente, não é possível prever quanto tempo irá durar o surto e
+              como se irá desenrolar a epidemia. Estamos a lidar com um novo
+              vírus e, por conseguinte, subsiste uma grande incerteza. Por
+              exemplo, não se sabe se a transmissão dentro da UE/EEE irá
+              naturalmente diminuir durante o Verão do hemisfério norte, como se
+              observa para a gripe sazonal.<a
+              href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
+              target='_blank'>(1)</a></p>
+  utter_pt_covid_info:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O novo coronavírus, designado SARS-CoV-2, foi identificado pela
+              primeira vez em dezembro de 2019 na China, na cidade de Wuhan.
+              Este novo agente nunca tinha sido identificado anteriormente em
+              seres humanos. A fonte da infeção é ainda desconhecida.</speak>
+          - type: html
+            text: <p>O novo coronavírus, designado SARS-CoV-2, foi identificado pela
+              primeira vez em dezembro de 2019 na China, na cidade de Wuhan.
+              Este novo agente nunca tinha sido identificado anteriormente em
+              seres humanos. A fonte da infeção é ainda desconhecida.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_covid_cosibot:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O Cosibot é uma iniciativa sem fins lucrativos criada pela ROBO.AI
+              para ar informação fiável de fontes oficiais sobre a Covid 19, por
+              exemplo da Organização Mundial de Saúde.</speak>
+          - type: html
+            text: <p>O Cosibot é uma iniciativa sem fins lucrativos criada pela ROBO.AI para
+              ar informação fiável de fontes oficiais sobre a COVID-19, por
+              exemplo da Organização Mundial de Saúde.</p>
+  utter_pt_state_emergency_info:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O estado de emergência está previsto na Constituição da República e
+              pode ser declarado em caso de calamidade pública, permitindo a
+              adoção de medidas como a suspensão ou restrição de determinados
+              direitos, liberdades e garantias dos cidadãos. No contexto da
+              pandemia Covid 19, a declaração de estado de emergência inclui a
+              imposição destas medidas, necessárias para a proteção da saúde
+              pública.</speak>
+          - type: html
+            text: <p>O estado de emergência está previsto na Constituição da República e
+              pode ser declarado em caso de calamidade pública, permitindo a
+              adoção de medidas como a suspensão ou restrição de determinados
+              direitos, liberdades e garantias dos cidadãos. No contexto da
+              pandemia COVID-19, a declaração de estado de emergência inclui a
+              imposição destas medidas, necessárias para a proteção da saúde
+              pública.<a
+              href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/estado-de-emergencia/'
+              target='_blank'>(1)</a></p>
+  utter_pt_state_emergency_groceries:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>É permitido sair à rua para comprar bens de alimentação para levar
+              para casa. Estes terão, no entanto, que continuar a respeitar os
+              limites de número de pessoas dentro do estabelecimento e a
+              recorrer a novas formas de venda mais protegidas, como por
+              exemplo, por postigo ou à porta.</speak>
+          - type: html
+            text: <p>É permitido sair à rua para comprar bens de alimentação para levar para
+              casa. Estes terão, no entanto, que continuar a respeitar os
+              limites de número de pessoas dentro do estabelecimento e a
+              recorrer a novas formas de venda mais protegidas, como por
+              exemplo, por postigo ou à porta.<a
+              href='https://covid19estamoson.gov.pt/estado-de-emergencia-nacional/pacote-de-medidas/'
+              target='_blank'>(1)</a></p>
+  utter_pt_state_emergency_run:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Pode correr como fazia, mas têm de ser deslocações de curta duração
+              e sozinho. </speak>
+          - type: html
+            text: <p>Pode correr como fazia, mas têm de ser deslocações de curta duração e
+              sozinho. <a
+              href='https://covid19estamoson.gov.pt/estado-de-emergencia-nacional/pacote-de-medidas/'
+              target='_blank'>(1)</a></p>
+  utter_pt_quarantine_dos_and_donts:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Se lhe for recomendada a quarentena, é importante que siga esta
+              indicação até ao fim do período indicado, mesmo que não tenha
+              qualquer sintoma. O mesmo se aplica a se lhe for recomendado o
+              isolamento. O tempo que deve permanecer em quarentena ou
+              isolamento ser-lhe-á comunicado pela Autoridade de Saúde ou
+              clínico que o acompanha.</speak>
+          - type: html
+            text: <p>Se lhe for recomendada a quarentena, é importante que siga esta
+              indicação até ao fim do período indicado, mesmo que não tenha
+              qualquer sintoma. O mesmo se aplica a se lhe for recomendado o
+              isolamento. O tempo que deve permanecer em quarentena ou
+              isolamento ser-lhe-á comunicado pela Autoridade de Saúde ou
+              clínico que o acompanha.<a
+              href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/isolamento/'
+              target='_blank'>(1)</a></p>
+  utter_pt_quarantine_children:
+    - custom:
+        answers:
+          - ""
+          - type: ssml
+            ssml: <speak>A baixa para assistência à família, que pode ser aplicada em caso
+              de isolamento de um filho devido ao novo coronavírus, será paga a
+              cem por cento com a entrada em vigor do Orçamento do Estado,
+              segundo a ministra do Trabalho, Solidariedade e Segurança
+              Social.</speak>
+          - type: html
+            text: <p>A baixa para assistência à família, que pode ser aplicada em caso de
+              isolamento de um filho devido ao novo coronavírus, será paga a
+              100% com a entrada em vigor do Orçamento do Estado, segundo a
+              ministra do Trabalho, Solidariedade e Segurança Social.<a
+              href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/isolamento/'
+              target='_blank'>(1)</a></p>
+  utter_pt_quarantine_toiletpaper:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Nos últimos dias, em vários países europeus afetados pelo aumento
+              do número de infetados pelo novo coronavírus, incluindo Portugal,
+              vários relatos nos meios de comunicação social e redes sociais têm
+              sinalizado que os consumidores estarão a esgotar das prateleiras
+              de alguns supermercados vários bens essenciais, entre os quais o
+              papel higiénico. Mas apesar da grande procura, várias empresas
+              garantem capacidade de resposta das fábricas e afastam cenário de
+              rutura de stock.</speak>
+          - type: html
+            text: <p>Nos últimos dias, em vários países europeus afetados pelo aumento do
+              número de infetados pelo novo coronavírus, incluindo Portugal,
+              vários relatos nos meios de comunicação social e redes sociais têm
+              sinalizado que os consumidores estarão a esgotar das prateleiras
+              de alguns supermercados vários bens essenciais, entre os quais o
+              papel higiénico. Mas apesar da grande procura, várias empresas
+              garantem capacidade de resposta das fábricas e afastam cenário de
+              rutura de "stock".</p>
+  utter_pt_mask_use_put:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Antes de colocar uma máscara, é importante limpar as mãos com um
+              sabonete à base de álcool ou água e sabão. Inspecione se há rasgos
+              ou buracos. Oriente qual lado é o lado superior, onde está a tira
+              de metal, e verifique se o lado correto da máscara está voltado
+              para fora, o lado colorido. Coloque a máscara no rosto e aperte a
+              tira de metal ou a borda rígida da máscara para que ela se adapte
+              ao formato do nariz. Por fim, puxe a parte inferior da máscara
+              para cobrir a boca e queixo.</speak>
+          - type: html
+            text: <p>Antes de colocar uma máscara, é importante limpar as mãos com um
+              sabonete à base de álcool ou água e sabão. Inspecione se há rasgos
+              ou buracos. Oriente qual lado é o lado superior (onde está a tira
+              de metal) e verifique se o lado correto da máscara está voltado
+              para fora (o lado colorido). Coloque a máscara no rosto e aperte a
+              tira de metal ou a borda rígida da máscara para que ela se adapte
+              ao formato do nariz. Por fim, puxe a parte inferior da máscara
+              para cobrir a boca e queixo.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Como Descartar uma Máscara
+                value: Como Descartar uma Máscara
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_mask_use_after:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>Após o uso, retire a máscara: remova as presilhas elásticas atrás
+              das orelhas, mantendo a máscara afastada do rosto e das roupas,
+              para evitar tocar em superfícies potencialmente contaminadas da
+              máscara. Descarte a máscara num fechado imediatamente após o uso.
+              Realize a higienização das mãos após tocar ou descartar a máscara,
+              esfregar as mãos à base de álcool ou, se estiver visivelmente
+              sujo, lave as mãos com água e sabão.</speak>"
+          - type: html
+            text: "<p>Após o uso, retire a máscara: remova as presilhas elásticas atrás das
+              orelhas, mantendo a máscara afastada do rosto e das roupas, para
+              evitar tocar em superfícies potencialmente contaminadas da
+              máscara. Descarte a máscara num fechado imediatamente após o uso.
+              <br>Realize a higienização das mãos após tocar ou descartar a
+              máscara, esfregar as mãos à base de álcool ou, se estiver
+              visivelmente sujo, lave as mãos com água e sabão.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-\
+              2019/advice-for-public/when-and-how-to-use-masks'
+              target='_blank'>(1)</a></p>"
+          - type: hints
+            options:
+              - label: Como Colocar uma Máscara
+                value: Como Colocar uma Máscara
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_mask_general:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>A utilização de máscaras de proteção deve ser reservada aos
+              profissionais de saúde ou aos indivíduos com sintomas compatíveis
+              com a Covid 19. Desta forma, os colaboradores da farmácia devem
+              desincentivar a utilização “preventiva” destes equipamentos por
+              utentes assintomáticos.</speak>
+          - type: html
+            text: <p>A utilização de máscaras de proteção deve ser reservada aos
+              profissionais de saúde ou aos indivíduos com sintomas compatíveis
+              com a COVID-19. Desta forma, os colaboradores da farmácia devem
+              desincentivar a utilização “preventiva” destes equipamentos por
+              utentes assintomáticos.<a
+              href='https://www.dgs.pt/directrizes-da-dgs/normas-e-circulares-normativas/norma-n-0032020-de-19032020-pdf.aspx'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Como Colocar uma Máscara
+                value: Como Colocar uma Máscara
+              - label: Como descartar uma Máscara
+                value: Como descartar uma Máscara
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+  utter_pt_prevention_food:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Lave muito bem as mãos antes e enquanto está a confecionar as
+              refeições. Tenha o cuidado de lavar adequadamente os alimentos
+              crus e cozinhar e empratar a comida a temperaturas adequadas. Não
+              partilhe comida ou objetos entre pessoas durante a sua preparação,
+              confeção e consumo. Em todos os momentos, adote as medidas de
+              etiqueta respiratória. Evite a contaminação entre comida crua e
+              cozinhada.</speak>
+          - type: html
+            text: <p>Lave muito bem as mãos antes e enquanto está a confecionar as
+              refeições. Tenha o cuidado de lavar adequadamente os alimentos
+              crus e cozinhar e empratar a comida a temperaturas adequadas. Não
+              partilhe comida ou objetos entre pessoas durante a sua preparação,
+              confeção e consumo. Em todos os momentos, adote as medidas de
+              etiqueta respiratória. Evite a contaminação entre comida crua e
+              cozinhada.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_prevention_touch:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Deve ser evitado tocar com as mãos na cara, olhos, nariz ou boca,
+              especialmente se estas estiverem sujas ou possivelmente
+              contaminadas. As mãos devem ser lavadas antes de tocar nestas
+              áreas.</speak>
+          - type: html
+            text: <p>Deve ser evitado tocar com as mãos na cara (olhos, nariz ou boca)
+              especialmente se estas estiverem sujas ou possivelmente
+              contaminadas. As mãos devem ser lavadas antes de tocar nestas
+              áreas.<a
+              href='https://www.dgs.pt/directrizes-da-dgs/orientacoes-e-circulares-informativas/orientacao-n-0092020-de-11032020-pdf.aspx'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_prevention_home:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Fique em casa se começar a sentir-se mal, mesmo com sintomas
+              ligeiros como dor de cabeça, febre baixa de 37,3 graus Celcius ou
+              superior, e corrimento nasal ligeiro, até recuperar. Evitar o
+              contacto com outras pessoas e visitas a instalações médicas
+              permitirá que estas instalações funcionem mais eficazmente e
+              ajudará a protegê-lo a si e aos outros contra possíveis vírus
+              Covid 19 e outros vírus.</speak>
+          - type: html
+            text: <p>Fique em casa se começar a sentir-se mal, mesmo com sintomas ligeiros
+              como dor de cabeça, febre baixa (37,3ºC ou superior) e corrimento
+              nasal ligeiro, até recuperar. Evitar o contacto com outras pessoas
+              e visitas a instalações médicas permitirá que estas instalações
+              funcionem mais eficazmente e ajudará a protegê-lo a si e aos
+              outros contra possíveis vírus COVID-19 e outros vírus.<a
+              href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/prevencao/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_prevenion_medical_attention:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O SNS24, 808 24 24 24, é o contacto ideal para os casos suspeitos
+              de Covid 19 porque encaminha os doentes para o local mais
+              adequado. Este é o contacto mais importante e organizado. Os
+              centros de saúde estão preparadas para ajudar os seus doentes e
+              usar o telefone é o meio mais correto para contactar com o médico
+              de família nestes dias difíceis.</speak>
+          - type: html
+            text: <p>O SNS24 - 808 24 24 24 - é o contacto ideal para os casos suspeitos de
+              COVID-19 porque encaminha os doentes para o local mais adequado.
+              Este é o contacto mais importante e organizado. Os centros de
+              saúde estão preparadas para ajudar os seus doentes e usar o
+              telefone é o meio mais correto para contactar com o médico de
+              família nestes dias difíceis.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_prevention_measures:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>As seguintes medidas não são eficazes contra a Covid 2019 e podem
+              ser prejudiciais: fumar, tomar remédios tradicionais à base de
+              plantas, usar várias máscaras, e auto-medicação, por exemplo com
+              antibióticos. Se tiver febre, tosse e dificuldade para respirar,
+              procure cuidados médicos o quanto antes para reduzir o risco de
+              desenvolver uma infecção mais grave e partilhe seu histórico
+              recente de viagens com seu médico.</speak>"
+          - type: html
+            text: <p>As seguintes medidas não são eficazes contra a COVID-2019 e podem ser
+              prejudiciais:<ul><li>fumar;</li><li>tomar remédios tradicionais à
+              base de plantas;</li><li>usar várias
+              máscaras;</li><li>auto-medicação, por exemplo com
+              antibióticos.</li></ul>Se tiver febre, tosse e dificuldade para
+              respirar, procure cuidados médicos o quanto antes para reduzir o
+              risco de desenvolver uma infecção mais grave e partilhe seu
+              histórico recente de viagens com seu médico.<a
+              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_prevention_medicine:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Atualmente não existe vacina contra o SARS CoV 2. Sendo um vírus
+              recentemente identificado, estão em curso as investigações para o
+              seu desenvolvimento. O tratamento para a infeção por este novo
+              coronavírus é dirigido aos sinais e sintomas que os doentes
+              apresentam.</speak>
+          - type: html
+            text: <p>Atualmente não existe vacina contra o SARS-CoV-2. Sendo um vírus
+              recentemente identificado, estão em curso as investigações para o
+              seu desenvolvimento. O tratamento para a infeção por este novo
+              coronavírus é dirigido aos sinais e sintomas que os doentes
+              apresentam.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_prevention_gloves:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>As luvas devem ser usadas para a limpeza de casas de banho ou de
+              outras superfícies com lixívia ou outros desinfetantes, quando é
+              cuidador de um doente com COVID-19 ou, se for profissional de
+              saúde, ao executar procedimentos que envolvam contacto direto com
+              a pele não intacta, mucosas ou fluídos corporais. O uso de luvas
+              na rua não é eficaz. Se foram usadas inadequadamente, as luvas
+              podem ser um veículo de transmissão do vírus, em vez de serem um
+              meio de proteção. Quando não indicado, o uso de luvas representa
+              um desperdício de recursos. O mais importante para evitar a
+              transmissão do vírus é lavar as mãos com frequência e sempre que
+              estiverem sujas.</speak>
+          - type: html
+            text: <p>As luvas devem ser usadas para a limpeza de casas de banho ou de outras
+              superfícies com lixívia ou outros desinfetantes, quando é cuidador
+              de um doente com COVID-19 ou, se for profissional de saúde, ao
+              executar procedimentos que envolvam contacto direto com a pele não
+              intacta, mucosas ou fluídos corporais. O uso de luvas na rua não é
+              eficaz. Se foram usadas inadequadamente, as luvas podem ser um
+              veículo de transmissão do vírus, em vez de serem um meio de
+              proteção. Quando não indicado, o uso de luvas representa um
+              desperdício de recursos. O mais importante para evitar a
+              transmissão do vírus é lavar as mãos com frequência e sempre que
+              estiverem sujas.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_prevention_clean_hands:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Deve-se lavar frequentemente as mãos, especialmente após contacto
+              direto com pessoas doentes, ou sempre que se assoar, espirrar ou
+              tossir. As mãos devem ser lavadas com água e sabão ou com uma
+              solução de base alcoólica.</speak>
+          - type: html
+            text: <p>Deve-se lavar frequentemente as mãos, especialmente após contacto
+              direto com pessoas doentes, ou sempre que se assoar, espirrar ou
+              tossir. As mãos devem ser lavadas com água e sabão ou com uma
+              solução de base alcoólica.<a
+              href='https://www.sns.gov.pt/2020/01/28/coronavirus-2019-ncov/'
+              target='_blank'>(1)</a></p>
+          - type: youtube
+            thumbnailURL: https://www.youtube.com/watch?v=_TzLRKoCHxQ
+            youtubeId: TzLRKoCHxQ
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_prevention_distance:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Quando alguém tosse ou espirra, borrifam pequenas gotículas de
+              líquido do nariz ou da boca que podem conter vírus. Se estiver
+              muito perto,é possível respirar as gotículas, incluindo o vírus da
+              Covid 19, se a pessoa que tosse tem a doença. Por isso é
+              importante manter pelo menos 1 metro de distância entre si e
+              qualquer pessoa que esteja a tossir ou a espirrar.</speak>
+          - type: html
+            text: <p>Quando alguém tosse ou espirra, borrifam pequenas gotículas de líquido
+              do nariz ou da boca que podem conter vírus. Se estiver muito
+              perto,é possível respirar as gotículas, incluindo o vírus da
+              COVID-19, se a pessoa que tosse tem a doença. Por isso é
+              importante manter pelo menos 1 metro de distância entre si e
+              qualquer pessoa que esteja a tossir ou a espirrar.<a
+              href='https://www.dgs.pt/directrizes-da-dgs/orientacoes-e-circulares-informativas/orientacao-n-0112020-de-17032020-pdf.aspx'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_prevention_information:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>É importante manter-se atualizado acerca da Covid 19. Poderá aceder
+              a materiais pertinentes seguindo o link abaixo.</speak>
+          - type: html
+            text: <p>É importante manter-se atualizado acerca da COVID-19. Poderá aceder a
+              materiais pertinentes seguindo o link abaixo:</p>
+          - type: links
+            links:
+              - title: Materiais de Divulgação
+                url: https://covid19.min-saude.pt/materiais-de-divulgacao/
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_prevention_respiratory_hygiene:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>A adoção de medidas de etiqueta respiratória está fortemente
+              recomendada, pela redução da dispersão de gotículas contaminadas
+              pelo vírus que são lançadas no ar através da tosse ou espirro. Na
+              ausência de outra evidência mais robusta, esta medida justifica-se
+              ainda pela sua plausibilidade teórica. Salienta-se o efeito
+              protetor de: cobrir a boca e ou o nariz ao tossir, assoar ou
+              espirrar, com lenços de papel descartáveis; depositar
+              imediatamente os lenços após a utilização em recipientes
+              adequados; não usar as mãos para cobrir a boca e/ou o nariz; na
+              ausência de lenços de papel, usar o antebraço para tapar a boca
+              e/ou o nariz; após se ter tossido, espirrado ou assoado deve ser
+              feita a higienização completa das mãos, poder-se-á utilizar, em
+              alternativa, toalhetes com solução alcoólica, e não se deve tocar
+              com as mãos na cara sem antes as ter higienizado; não cuspir para
+              o chão.</speak>"
+          - type: html
+            text: "<p>A adoção de medidas de etiqueta respiratória está fortemente
+              recomendada, pela redução da dispersão de gotículas contaminadas
+              pelo vírus que são lançadas no ar através da tosse ou espirro. Na
+              ausência de outra evidência mais robusta, esta medida justifica-se
+              ainda pela sua plausibilidade teórica. Salienta-se o efeito
+              protetor de: cobrir a boca e/ou o nariz ao tossir, assoar ou
+              espirrar, com lenços de papel descartáveis; depositar
+              imediatamente os lenços após a utilização em recipientes
+              adequados; não usar as mãos para cobrir a boca e/ou o nariz; na
+              ausência de lenços de papel, usar o antebraço para tapar a boca
+              e/ou o nariz; após se ter tossido, espirrado ou assoado deve ser
+              feita a higienização completa das mãos (poder-se-á utilizar, em
+              alternativa, toalhetes com solução alcoólica) e não se deve tocar
+              com as mãos na cara sem antes as ter higienizado; não cuspir para
+              o chão.<a
+              href='https://www.dgs.pt/documentos-e-publicacoes/plano-nacional-\
+              de-preparacao-e-resposta-para-a-doenca-por-novo-coronavirus-covid\
+              -19-pdf.aspx' target='_blank'>(1)</a></p>"
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_prevention_entering_home:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>As medidas de prevenção são: manter distância de pelo menos um
+              metro; evitar cumprimentos que impliquem contacto físico; tapar o
+              nariz e boca quando espirrar ou tossir; utilizar um lenço de papel
+              ou o braço; lavar as mãos sempre que se assoar, espirrar ou
+              tossir; lavar frequentemente as mãos com água e sabão ou com uma
+              solução de base alcoólica; evitar contacto próximo com doentes com
+              infeções respiratórias.</speak>"
+          - type: html
+            text: <p>Quando se entra em casa deve:<ul><li>Lavar e desinfetar as
+              mãos;</li><li>Guardar o calçado e a roupa que usou na
+              rua;</li><li>Sair da área potencialmente contaminada,
+              correspondente ao hall de entrada;</li><li>Calçar os chinelos na
+              zona descontaminada da casa.</p>
+  utter_pt_prevention_general:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>As medidas de prevenção são: manter distância de pelo menos um
+              metro; evitar cumprimentos que impliquem contacto físico; tapar o
+              nariz e boca quando espirrar ou tossir; utilizar um lenço de papel
+              ou o braço; lavar as mãos sempre que se assoar, espirrar ou
+              tossir; lavar frequentemente as mãos com água e sabão ou com uma
+              solução de base alcoólica; evitar contacto próximo com doentes com
+              infeções respiratórias.</speak>"
+          - type: html
+            text: <p>As medidas de prevenção são:<ul><li>manter distância de pelo menos um
+              metro;</li><li>evitar cumprimentos que impliquem contacto
+              físico;</li><li>tapar o nariz e boca quando espirrar ou
+              tossir;</li><li>utilizar um lenço de papel ou o
+              braço;</li><li>lavar as mãos sempre que se assoar, espirrar ou
+              tossir;</li><li>lavar frequentemente as mãos com água e sabão ou
+              com uma solução de base alcoólica;</li><li>evitar contacto próximo
+              com doentes com infeções respiratórias.<a
+              href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/prevencao/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_vocative_thank_you:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>A qualquer hora!</speak>
+          - type: ssml
+            ssml: <speak>De nada!</speak>
+          - type: ssml
+            ssml: <speak>Foi um prazer.</speak>
+          - type: ssml
+            ssml: <speak>Estou feliz em ajudar!</speak>
+          - type: text
+            text: A qualquer hora!
+          - type: text
+            text: De nada!
+          - type: text
+            text: Foi um prazer.
+          - type: text
+            text: Estou feliz em ajudar!
+  utter_pt_vocative_you_welcome:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Muito bem! O que mais posso fazer por si?</speak>
+          - type: ssml
+            ssml: <speak>Ok! O que mais posso fazer por si?</speak>
+          - type: text
+            text: Muito bem! O que mais posso fazer por si?
+          - type: text
+            text: Ok! O que mais posso fazer por si?
+  utter_pt_vocative_call:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Estou aqui. Diz-me só como posso ajudar.</speak>
+          - type: ssml
+            ssml: <speak>Ao seu serviço...</speak>
+          - type: text
+            text: Estou aqui. Diz-me só como posso ajudar.
+          - type: text
+            text: Ao seu serviço...
+  utter_pt_vocative_sorry:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Não é preciso pedir desculpa.</speak>
+          - type: ssml
+            ssml: <speak>Está tudo bem, não precisa de pedir desculpa.</speak>
+          - type: text
+            text: Não é preciso pedir desculpa.
+          - type: text
+            text: Está tudo bem, não precisa de pedir desculpa.
+  utter_pt_vocative_help:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Claro que sim! Diga-me o que posso fazer por si.</speak>
+          - type: ssml
+            ssml: <speak>Com certeza. Em que posso ajudá-lo?</speak>
+          - type: ssml
+            ssml: <speak>Com certeza. O que posso fazer por si?</speak>
+          - type: text
+            text: Claro que sim! Diga-me o que posso fazer por si.
+          - type: text
+            text: Com certeza. Em que posso ajudá-lo?
+          - type: text
+            text: Com certeza. O que posso fazer por si?
+  utter_pt_travel_while:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Durante toda a viagem deve ter o cuidado de seguir todas as
+              recomendações sobre a lavagem das mãos e as medidas de etiqueta
+              respiratória definidas pela Direção-Geral da Saúde.</speak>
+          - type: html
+            text: <p>Durante toda a viagem deve ter o cuidado de seguir todas as
+              recomendações sobre a lavagem das mãos e as medidas de etiqueta
+              respiratória definidas pela Direção-Geral da Saúde.<a
+              href='https://covid19.min-saude.pt/devo-viajar-2/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_travel_after:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Quando chegar a Portugal deve ter o cuidado de continuar a seguir
+              todas as recomendações sobre a lavagem das mãos e as medidas de
+              etiqueta respiratória definidas pela Direção-Geral da Saúde. Deve
+              também permanecer especialmente atento ao surgimento de febre,
+              tosse ou dificuldade respiratória.</speak>
+          - type: html
+            text: <p>Quando chegar a Portugal deve ter o cuidado de continuar a seguir todas
+              as recomendações sobre a lavagem das mãos e as medidas de etiqueta
+              respiratória definidas pela Direção-Geral da Saúde. Deve também
+              permanecer especialmente atento(a) ao surgimento de febre, tosse
+              ou dificuldade respiratória.<A href =
+              'https://covid19.min-saude.pt/devo-viajar-2/'target =' _ blank '>
+              (1) </a> </p>
+          - type: hints
+            options:
+              - label: Medidas preventivas
+                value: Medidas preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_travel_before:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Os cidadãos devem permanecer atentos à existência de possíveis
+              restrições à entrada e circulação em outros países. Recomenda-se a
+              consulta frequente dos portais das autoridades dos países de
+              passagem e dos Conselhos aos Viajantes do Portal das
+              Comunidades.</speak>
+          - type: html
+            text: <p>Os cidadãos devem permanecer atentos à existência de possíveis
+              restrições à entrada e circulação em outros países. Recomenda-se a
+              consulta frequente dos portais das autoridades dos países de
+              passagem e dos Conselhos aos Viajantes do Portal das
+              Comunidades.<a href='https://covid19.min-saude.pt/devo-viajar-2/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_features_time:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>São <say-as interpret-as='time'
+              format='hm24'>$time</say-as>.</speak>
+          - type: ssml
+            ssml: <speak>Neste momento são <say-as interpret-as='time'
+              format='hm24'>$time</say-as>.</speak>
+          - type: ssml
+            ssml: <speak>Agora são <say-as interpret-as='time'
+              format='hm24'>$time</say-as>.</speak>
+          - type: text
+            text: São $time.
+          - type: text
+            text: Neste momento são $time.
+          - type: text
+            text: Agora são $time.
+  utter_pt_features_date:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Hoje é <say-as interpret-as='date' format='dm'> $date
+              </say-as>.</speak>
+          - type: ssml
+            ssml: <speak>É o <say-as interpret-as='date' format='dm'> $date
+              </say-as>.</speak>
+          - type: text
+            text: Hoje é $date.
+          - type: text
+            text: É o $date.
+  utter_pt_spread_pets:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>De acordo com a Organização Mundial da Saúde, não há evidência de
+              que os animais domésticos, tais como cães e gatos, tenham sido
+              infetados e que, consequentemente, possam transmitir o novo
+              coronavírus.</speak>
+          - type: html
+            text: <p>De acordo com a Organização Mundial da Saúde, não há evidência de que
+              os animais domésticos, tais como cães e gatos, tenham sido
+              infetados e que, consequentemente, possam transmitir o novo
+              coronavírus.<a
+              href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/transmissao/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+  utter_pt_spread_feces:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Recomenda-se um reforço da higiene após a saída do isolamento por
+              causa do risco de o vírus sair pelas fezes de doentes em fase de
+              convalescença, particularmente nas crianças.</speak>
+          - type: html
+            text: <p>Recomenda-se um reforço da higiene após a saída do isolamento por causa
+              do risco de o vírus sair pelas fezes de doentes em fase de
+              convalescença, particularmente nas crianças.<a
+              href='https://covid19.min-saude.pt/' target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+  utter_pt_spread_no_symptoms:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Muitas pessoas infetadas apresentam apenas sintomas ligeiros,
+              sobretudo na fase inicial da doença. Portanto, é possível contrair
+              o vírus de alguém que tenha apenas uma tosse ligeira, por exemplo,
+              e não se sinta doente.</speak>
+          - type: html
+            text: <p>Muitas pessoas infetadas apresentam apenas sintomas ligeiros, sobretudo
+              na fase inicial da doença. Portanto, é possível contrair o vírus
+              de alguém que tenha apenas uma tosse ligeira, por exemplo, e não
+              se sinta doente.<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+  utter_pt_spread_risk:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>A Organização Mundial de Saúde considera desde o dia 28 de
+              fevereiro elevado risco de transmissão a nível global.</speak>
+          - type: html
+            text: <p>A Organização Mundial de Saúde considera desde o dia 28 de fevereiro
+              elevado risco de transmissão a nível global.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_spread_air:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Estudos realizados até à data sugerem que o vírus que causa a Covid
+              19 é transmitido principalmente através pelo contacto com
+              gotículas respiratórias e não pelo ar.</speak>
+          - type: html
+            text: <p>Estudos realizados até à data sugerem que o vírus que causa a COVID-19
+              é transmitido principalmente pelo contato com gotículas
+              respiratórias e não pelo ar.<a
+              href='https://www.dgs.pt/documentos-e-publicacoes/plano-nacional-de-preparacao-e-resposta-para-a-doenca-por-novo-coronavirus-covid-19-pdf.aspx'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+  utter_pt_spread_surfaces_food_objects:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>De acordo com a European Food Safety Authority, as experiências dos
+              surtos anteriores com coronavírus, nomeadamente com o coronavírus
+              SARS CoV e com o coronavírus MERS CoV, mostram que a sua
+              transmissão não ocorreu através do consumo alimentar.</speak>
+          - type: html
+            text: <p>De acordo com a European Food Safety Authority "as experiências dos
+              surtos anteriores com coronavírus, nomeadamente com o coronavírus
+              SARS-CoV e com o coronavírus MERS-CoV, mostram que a sua
+              transmissão não ocorreu através do consumo alimentar".<a
+              href='https://covid19.min-saude.pt/perguntas-frequentes/'
+              target='_blank'>(1)</a></p>
+  utter_pt_spread_animals:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Possíveis fontes animais de Covid 19 ainda não foram confirmadas
+              mas é-se recomendado a evitar contacto com animais selvagens ou de
+              quinta e evitar visitar mercados e lugares onde existem animais
+              vivos ou mortos.</speak>
+          - type: html
+            text: <p>Possíveis fontes animais de COVID-19 ainda não foram confirmadas mas
+              é-se recomendado a evitar contacto com animais selvagens ou de
+              quinta e evitar visitar mercados e lugares onde existem animais
+              vivos ou mortos.<a
+              href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/prevencao/'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Transmissão
+                value: Transmissão
+  utter_pt_spread_general:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>A COVID-19 transmite-se principalmente por contacto próximo com
+              pessoas infetadas pelo vírus ou pelo contacto com superfícies ou
+              objetos contaminados.</speak>
+          - type: html
+            text: <p>A COVID-19 transmite-se principalmente por contacto próximo com pessoas
+              infetadas pelo vírus ou pelo contacto com superfícies ou objetos
+              contaminados.<a
+              href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/transmissao/#sec-0'
+              target='_blank'>(1)</a></p>
+          - type: youtube
+            thumbnailURL: https://www.youtube.com/watch?v=R2U1LXCEPEU
+            youtubeId: R2U1LXCEPEU
+          - type: hints
+            options:
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Sintomas
+                value: Sintomas
+              - label: Máscaras Médicas
+                value: Máscaras Médicas
+              - label: Situação Mundial
+                value: Situação Mundial
+  utter_pt_further_questions:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O que mais posso fazer por si?</speak>
+          - type: ssml
+            ssml: <speak>Há mais alguma pergunta que eu possa responder?</speak>
+          - type: ssml
+            ssml: <speak>Que mais posso fazer por si?</speak>
+          - type: text
+            text: O que mais posso fazer por si?
+          - type: text
+            text: Há mais alguma pergunta que eu possa responder?
+          - type: text
+            text: Que mais posso fazer por si?

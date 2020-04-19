@@ -540,11 +540,11 @@ watson_conversation_utils.extractEntitiesFromJSON = function (json) {
     let entities = json.entities;
     for (let entity of entities) {
 
-        let entityTitle = entity.entity;
+        let entityTitle = entity.entity.toLowerCase();
 
         let valuesMap = new Map();
         for (let value of entity.values) {
-            let valueTitle = value.value;
+            let valueTitle = value.value.toLowerCase();
             if (value.type === 'synonyms') {
                 let valueSynonyms = Array();
                 for (let syn of value.synonyms) {
