@@ -16,7 +16,7 @@
 
 let program = require('commander');
 let rasaUtils = require('./rasa-utils');
-let watsonUtils = require('../watson-conversation-utils');
+let watsonUtils = require('./watson-conversation-utils');
 
 
 

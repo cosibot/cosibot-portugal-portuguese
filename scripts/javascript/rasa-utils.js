@@ -67,7 +67,7 @@ rasa_utils.extractAnswersFromJSON = function (json) {
             nodeTitle = '';
         }
         let parentId = node.parent;
-        let parentTitle = ''
+        let parentTitle = '';
 
         if (parentId == null) {
             parentId = '';
@@ -81,47 +81,34 @@ rasa_utils.extractAnswersFromJSON = function (json) {
         }
 
 
-        // There are three possibilities for text answer syntax!!! :-(
-        if (node.output && node.output.text) {
-            let outputText = node.output.text;
-            if (typeof outputText === 'string') {
-                let answer =  JSON.parse(outputText);
-                answerArray.push({title: nodeTitle , answer: answer});
-                aId += 1;
+        if (node.output && node.output.generic) {
 
-            } else if (typeof outputText === 'object' && outputText.values) {
+            let nodeAnswers = new Array();
 
-                //iterate answer variations
-                for (let i = 0; i < outputText.values.length; i++) {
-
-                    let text = outputText.values[i];
-                    let answer =  JSON.parse(text);
-                    answerArray.push({title: nodeTitle , answer: answer});
-                }
-            }
-
-        } else if (node.output && node.output.generic) {
 
             // iterate answers
             for (let j = 0; j < node.output.generic.length; j++) {
 
+
                 // iterate answer variations
                 let answers = node.output.generic[j].values;
+
 
                 for (let i = 0; i < answers.length; i++) {
                     let text = answers[i].text;
                     let answer = '';
                     try {
                         answer =  JSON.parse(text);
+                        nodeAnswers.push(answer);
                     }
                     catch(error) {
                         //
                     }
-
-
-                    answerArray.push({title: nodeTitle.toLowerCase() , answer: answer});
                 }
+
             }
+
+            answerArray.push({title: nodeTitle.toLowerCase() , answers: nodeAnswers});
         }
     }
     return { answers: answerArray };
@@ -248,9 +235,6 @@ rasa_utils.writeIntentsEntitiesAnswersToFiles = function (metadataObject, intent
     this.createOrCleanDir(outDir);
 
 
-    // one file for metadata
-    this.writeMetadataToJSON(metadataObject, outputDirectory + '/metadata.json')
-
     // build the nlu.md
     let intents ='';
 
@@ -267,48 +251,41 @@ rasa_utils.writeIntentsEntitiesAnswersToFiles = function (metadataObject, intent
 
     let entities ='';
     for (const entity of entityArray) {
+        let entity_name = entity.entity;
+        let entity_title = '## synonym:' + entity_name + '\n';
+        let entitySynonyms =  new Array();
+        entities += entity_title;
+
         for (let j = 0; j < entity.values.length; j++) {
-            let entity_name_underscore = entity.entity + '_' + entity.values[j].value;
-            let entity_name_colon = entity.entity + ':' + entity.values[j].value;
-            let entity_title = '## synonym:' + entity_name_underscore + '\n';
-            entities += entity_title;
-
-            if (entity.values[j].synonyms === undefined) {
-                console.log('');
-            } else {
-                let synonymList = yaml.stringify(entity.values[j].synonyms);
-                entities += synonymList + '\n';
-
-                // replace entities in the intents with RASA entity annotations
-                // (@([a-z|_]+):([a-z]+))
-
-                // to replace
-
-                let entityToReplaceWithColon = "@" + entity_name_colon; // e.g.  "@pt_geography:country";
-                let entityToReplace = "@" + entity.entity; // e.g. @pt_geography
-
-
-                while (intents.search(entityToReplaceWithColon) > -1) {
-                    var synonymsArray = entity.values[j].synonyms;
-                    var randomSynonym = synonymsArray[Math.floor(Math.random() * synonymsArray.length)];
-                    let annotation = '[' + randomSynonym + ']' + '(' + entity_name_underscore + ')';
-                    intents = intents.replace(entityToReplaceWithColon, annotation);
-                }
-
-                while (intents.search(entityToReplace) > -1) {
-                    var synonymsArray = entity.values[j].synonyms;
-                    var randomSynonym = synonymsArray[Math.floor(Math.random() * synonymsArray.length)];
-                    let annotation = '[' + randomSynonym + ']' + '(' + entity_name_underscore + ')';
-                    intents = intents.replace(entityToReplace, annotation);
-                }
+            if (entity.values[j].synonyms !== undefined) {
+                Array.prototype.push.apply(entitySynonyms, entity.values[j].synonyms);
+                //entitySynonyms.push(entity.values[j].synonyms)
             }
         }
 
+        let synonymList = yaml.stringify(entitySynonyms);
+        entities += synonymList;
         entities += '\n';
+
+
+        // replace entities in the intents with RASA entity annotations
+        // (@([a-z|_]+):([a-z]+))
+
+        // to replace
+
+        let entityToReplace = "@" + entity.entity; // e.g. @pt_geography
+
+        while (intents.search(entityToReplace) > -1) {
+            var randomSynonym = entitySynonyms[Math.floor(Math.random() * entitySynonyms.length)];
+            let annotation = '[' + randomSynonym + ']' + '(' + entity_name + ')';
+            intents = intents.replace(entityToReplace, annotation);
+        }
+
 
     }
 
     let nlu = intents + '\n\n' + entities;
+    //let nlu =  entities;
     this.writeStringToFile(nlu,  outDir+ '/nlu.md');
 
     // domain
@@ -318,14 +295,13 @@ rasa_utils.writeIntentsEntitiesAnswersToFiles = function (metadataObject, intent
     let groupedAnswers = groupBy(answersArray, 'title')
 
     let responses = {}
-    for (const key in groupedAnswers) {
+    for (const answer of answersArray) {
         let answers = new Array();
-        let answerGroup = groupedAnswers[key];
-        for (const item of answerGroup) {
-            answers.push(item.answer);
+        for (const a of answer.answers) {
+            answers.push(a);
         }
 
-        let utterKey = 'utter_' + key;
+        let utterKey = 'utter_' + answer.title;
         responses[utterKey] = new Array();
         responses[utterKey].push({ custom : { answers : answers} });
 
