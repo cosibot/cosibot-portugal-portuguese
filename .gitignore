@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Project specifics
+bot/models/
+*.iml
+scripts/node_modules/
+scripts/package-lock.json
+scripts/output/
