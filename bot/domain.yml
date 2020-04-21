@@ -134,6 +134,19 @@ intents:
   - pt_vocative_thank_you
   - pt_vocative_yes
   - pt_vocative_you_welcome
+
+slots:
+  bot_name:
+    type: text
+    initial_value: "Helena"
+  bot_version:
+    type: text
+    initial_value: "0.0.1"
+  bot_time:
+    type: text
+  bot_date:
+    type: text
+
 responses:
   utter_pt_portugal_rates:
     - custom:
@@ -663,17 +676,17 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Estou actualmente na versão $bot_version.</speak>
+            ssml: <speak>Estou actualmente na versão {bot_version}.</speak>
           - type: ssml
-            ssml: <speak>A minha versão actual é a $bot_version.</speak>
+            ssml: <speak>A minha versão actual é a {bot_version}.</speak>
           - type: ssml
-            ssml: <speak>Eu estou na versão $bot_version.</speak>
+            ssml: <speak>Eu estou na versão {bot_version}.</speak>
           - type: text
-            text: Estou actualmente na versão $bot_version.
+            text: Estou actualmente na versão {bot_version}.
           - type: text
-            text: A minha versão actual é a $bot_version.
+            text: A minha versão actual é a {bot_version}.
           - type: text
-            text: Eu estou na versão $bot_version.
+            text: Eu estou na versão {bot_version}.
   utter_pt_bot_origin:
     - custom:
         answers:
@@ -687,13 +700,13 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>O meu nome é $bot_name.</speak>
+            ssml: <speak>O meu nome é {bot_name}</speak>
           - type: ssml
-            ssml: <speak>Eu sou a $bot_name.</speak>
+            ssml: <speak>Eu sou a {bot_name}.</speak>
           - type: text
-            text: O meu nome é $bot_name.
+            text: O meu nome é {bot_name}.
           - type: text
-            text: Eu sou a $bot_name.
+            text: Eu sou a {bot_name}.
   utter_pt_test_per_day:
     - custom:
         answers:
@@ -2478,32 +2491,32 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>São <say-as interpret-as='time'
-              format='hm24'>$time</say-as>.</speak>
+              format='hm24'>{bot_time}</say-as>.</speak>
           - type: ssml
             ssml: <speak>Neste momento são <say-as interpret-as='time'
-              format='hm24'>$time</say-as>.</speak>
+              format='hm24'>{bot_time}</say-as>.</speak>
           - type: ssml
             ssml: <speak>Agora são <say-as interpret-as='time'
-              format='hm24'>$time</say-as>.</speak>
+              format='hm24'>{bot_time}</say-as>.</speak>
           - type: text
-            text: São $time.
+            text: São {bot_time}.
           - type: text
-            text: Neste momento são $time.
+            text: Neste momento são {bot_time}.
           - type: text
-            text: Agora são $time.
+            text: Agora são {bot_time}.
   utter_pt_features_date:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Hoje é <say-as interpret-as='date' format='dm'> $date
+            ssml: <speak>Hoje é <say-as interpret-as='date' format='dm'> {bot_date}
               </say-as>.</speak>
           - type: ssml
-            ssml: <speak>É o <say-as interpret-as='date' format='dm'> $date
+            ssml: <speak>É o <say-as interpret-as='date' format='dm'> {bot_date}
               </say-as>.</speak>
           - type: text
-            text: Hoje é $date.
+            text: Hoje é {bot_date}.
           - type: text
-            text: É o $date.
+            text: É o {bot_date}.
   utter_pt_spread_pets:
     - custom:
         answers:
@@ -2703,3 +2716,7 @@ responses:
             text: Há mais alguma pergunta que eu possa responder?
           - type: text
             text: Que mais posso fazer por si?
+actions:
+  - action_get_date
+  - action_get_time
+  - action_default_fallback

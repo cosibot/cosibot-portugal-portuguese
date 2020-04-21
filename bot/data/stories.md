@@ -200,11 +200,11 @@
 
 ## pt_features_date
 * pt_features_date
-  - utter_pt_features_date
+  - action_get_date
 
 ## pt_features_time
 * pt_features_time
-  - utter_pt_features_time
+  - action_get_time
 
 ## pt_greeting_goodbye
 * pt_greeting_goodbye
