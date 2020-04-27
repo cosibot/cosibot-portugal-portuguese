@@ -250,34 +250,48 @@ rasa_utils.writeIntentsEntitiesAnswersToFiles = function (metadataObject, intent
     }
 
     let entities ='';
+
     for (const entity of entityArray) {
+        let allSynonyms =  new Array();
         let entity_name = entity.entity;
-        let entity_title = '## synonym:' + entity_name + '\n';
-        let entitySynonyms =  new Array();
-        entities += entity_title;
+        let entity_title = '## synonym:' + entity_name;
+        if (entity_name === 'pt_country_code') {
+            console.debug(entity_title);
+        }
+
+        //entities += entity_title;
 
         for (let j = 0; j < entity.values.length; j++) {
             if (entity.values[j].synonyms !== undefined) {
-                Array.prototype.push.apply(entitySynonyms, entity.values[j].synonyms);
-                //entitySynonyms.push(entity.values[j].synonyms)
+
+                let synonymsTitle = entity.values[j].value;
+                let entitySynomymsTitle = '## synonym:' + synonymsTitle + '\n';
+                let synonimsList =  yaml.stringify(entity.values[j].synonyms);
+                entities += entitySynomymsTitle;
+                entities += synonimsList;
+                entities += '\n';
+
+                for (const synonym of entity.values[j].synonyms) {
+                    allSynonyms.push({synonym: synonym,synonymsTitle: synonymsTitle,entity_name});
+                }
             }
         }
-
-        let synonymList = yaml.stringify(entitySynonyms);
-        entities += synonymList;
-        entities += '\n';
 
 
         // replace entities in the intents with RASA entity annotations
         // (@([a-z|_]+):([a-z]+))
 
         // to replace
+        if (entity_name === 'pt_geography') {
+            console.debug(entity_title);
+        }
+
 
         let entityToReplace = "@" + entity.entity; // e.g. @pt_geography
 
         while (intents.search(entityToReplace) > -1) {
-            var randomSynonym = entitySynonyms[Math.floor(Math.random() * entitySynonyms.length)];
-            let annotation = '[' + randomSynonym + ']' + '(' + entity_name + ')';
+            var randomSynonym = allSynonyms[Math.floor(Math.random() * allSynonyms.length)];
+            let annotation = '[' + randomSynonym.synonym + ']' + '(' + entity_name + ':' + randomSynonym.synonymsTitle + ')';
             intents = intents.replace(entityToReplace, annotation);
         }
 

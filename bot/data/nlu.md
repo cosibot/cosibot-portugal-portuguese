@@ -2113,28 +2113,6 @@
 - quando é que isto irá terminar?
 - quanto tempo irá durar essa crise?
 
-## intent:pt_covid_current_statistics
-- "[Changzhou](pt_geography):country news."
-- "[Huainan](pt_geography):situação do país"
-- COVID em [Wülfrath](pt_geography):country
-- COVID-19 em [Dinamarca](pt_geography):country
-- Como está a situação em [Hannover](pt_geography)_country?
-- Coronavirus em [Tauberbischofsheim](pt_geography):country
-- Estatísticas actualizadas em [Muenster](pt_geography):country
-- Informações [Changsha](pt_geography):country
-- Informações actualizadas [Zurich](pt_geography):country
-- Informações sobre [Runkel](pt_geography):country
-- Notícias [Lollar](pt_geography):country
-- Notícias atuais [Burladingen](pt_geography):country
-- Notícias de [Kremmen](pt_geography):country
-- Notícias sobre o COVID-19
-- Novo coronavírus em [Neustadt Am Rübenberge](pt_geography):country
-- Situação [Neustadt Bei Coburg](pt_geography):country
-- Situação actual em [Chengdu](pt_geography):country
-- Situação actualizada em [Igbo](pt_geography):country
-- Situação em [Seligenstadt](pt_geography):country
-- situação
-- Últimas notícias
 
 ## intent:pt_covid_duration
 - Depois dos primeiros sintomas, quanto tempo pode durar a doença?
@@ -3013,382 +2991,399 @@
 - relação covid no mundo
 - situação do covid no mundo
 - situação mundial
+- COVID em [Bermudas Bélgica](pt_geography:town)
+- COVID-19 em [Košice](pt_geography:town)
+- Como está a situação em [Langenfeld](pt_geography:town)?
+- Coronavirus em [Praia](pt_geography:town)
+- Estatísticas actualizadas em [Cingapura](pt_geography:town)
+- Informações [Swansea](pt_geography:town)
+- Informações actualizadas [Darmstadt](pt_geography:town)
+- Informações sobre [Prato](pt_geography:town)
+- Notícias [Gladbach](pt_geography:town)
+- Notícias atuais [Baltimore](pt_geography:town)
+- Notícias de [Ilhas Falkland](pt_geography:town)
+- Notícias sobre o COVID-19
+- Novo coronavírus em [Nordhorn](pt_geography:town)
+- Situação [Nashik](pt_geography:town)
+- Situação actual em [Überlingen](pt_geography:town)
+- Situação actualizada em [Yichang](pt_geography:town)
+- Situação em [Armavir](pt_geography:town)
 
 ## intent:pt_covid_situation_deaths
-- "[Bhārat](pt_country_code) mortes."
-- Contagem mortes em [Terres australes et antarctiques françaises](pt_country_code)
-- Contagem mortes no [Turcomênia](pt_country_code)
-- Contagem mortos em [Mauritania](pt_country_code)
-- Contagem mortos no [Bhārat Gaṇarājya](pt_country_code)
-- Mortes de [Cambodia](pt_country_code)
-- Mortes em [Republic of the Philippines](pt_country_code)
-- Mortes em [Matnik](pt_country_code).
-- Numero de mortos em [Pitcairn](pt_country_code) hoje?
-- Número de mortes em [Democratic Republic of São Tomé and Príncipe](pt_country_code)
-- Número de mortos [Republic of Belarus](pt_country_code).
-- Número de mortos em [Antiga e Barbuda](pt_country_code).
-- Número total de mortes em [Republic of Algeria](pt_country_code).
-- Número total de mortos em [Austria](pt_country_code)?
-- Olá. Quantos mortos existem em [Jamaica](pt_country_code)?
-- Qual é o numero de mortos com covid em [Letónia](pt_country_code)?
-- Qual é o número de mortes em [Macao](pt_country_code)?
-- Qual é o número de mortos em [República de Cabo Verde](pt_country_code)?
-- Quantos casos de mortos há em [Confederazione Svizzera](pt_country_code)?
-- Quantos faleceram em [República de Nicaragua](pt_country_code)?
-- Quantos morreram em [Groussherzogtum Lëtzebuerg](pt_country_code).
-- Quantos mortos existem neste momento em [United States of America](pt_country_code)?
-- Quantos mortos tem [Repubilika ya Kôngo](pt_country_code)?
-- Quantos mortos tem a [DR Congo](pt_country_code)?
-- Quantos mortos tem o [Saint Helena](pt_country_code)?
-- qual o numero de mortes em [Island Territory of Curaçao](pt_country_code)?
-- quantas pessoas em [Renndaandi Ginea](pt_country_code) morreram?
-- quantas pessoas morreram em [Dawlat Iritriyá](pt_country_code)?
+- [República Federal da Alemã](pt_country_code:DE) mortes.
+- Contagem mortes em [Nihon](pt_country_code:JP)
+- Contagem mortes no [República da Guiné-Bissau](pt_country_code:GW)
+- Contagem mortos em [República Islâmica do Afeganistão](pt_country_code:AF)
+- Contagem mortos no [Kyrgyzskaya Respublika](pt_country_code:KG)
+- Mortes de [Germany](pt_country_code:DE)
+- Mortes em [República do Uzbequistão](pt_country_code:UZ)
+- Mortes em [Northern Mariana Islands](pt_country_code:MP).
+- Numero de mortos em [Iyonola](pt_country_code:LC) hoje?
+- Número de mortes em [Quiribáti](pt_country_code:KI)
+- Número de mortos [Reino do Barém](pt_country_code:BH).
+- Número de mortos em [Sesel](pt_country_code:SC).
+- Número total de mortes em [Zimbaué](pt_country_code:ZW).
+- Número total de mortos em [Malawi](pt_country_code:MW)?
+- Olá. Quantos mortos existem em [Free Associated State of Puerto Rico](pt_country_code:PR)?
+- Qual é o numero de mortos com covid em [UAE](pt_country_code:AE)?
+- Qual é o número de mortes em [Gànnaar](pt_country_code:MR)?
+- Qual é o número de mortos em [República de Guinea Ecuatorial](pt_country_code:GQ)?
+- Quantos casos de mortos há em [Kingdom of Eswatini](pt_country_code:SZ)?
+- Quantos faleceram em [Reino da Tailândia](pt_country_code:TH)?
+- Quantos morreram em [Polónia](pt_country_code:PL).
+- Quantos mortos existem neste momento em [HIMI](pt_country_code:HM)?
+- Quantos mortos tem [Libéria](pt_country_code:LR)?
+- Quantos mortos tem a [República da Letônia](pt_country_code:LV)?
+- Quantos mortos tem o [Ahvenanmaa](pt_country_code:AX)?
+- qual o numero de mortes em [Estado da Palestina](pt_country_code:PS)?
+- quantas pessoas em [Caicos Islands](pt_country_code:TC) morreram?
+- quantas pessoas morreram em [Mexico](pt_country_code:MX)?
 
 ## intent:pt_covid_situation_infected
-- ASUS de covid ativos em [Malawi](pt_country_code)
-- ASUS de covid ativos no [Reino da Tailândia](pt_country_code)
-- ASUS de covid em [Guiné Equatorial](pt_country_code)
-- ASUS de covid no [Iyonola](pt_country_code)
-- ASUS de covid no total em [Republic of Nicaragua](pt_country_code)
-- ASUS de covid no total no [Estado do Qatar](pt_country_code)
-- Casos ativos de covid em [Arquipélago da Aland](pt_country_code)
-- Casos ativos de covid no [República da Nicarágua](pt_country_code)
-- Casos confirmados ativos em [Inyika yeZimbabwe](pt_country_code)
-- Casos confirmados em [Pleasant Island](pt_country_code)
-- Casos de covid em [Jersey](pt_country_code)
-- Casos de covid no [Geórgia do Sul](pt_country_code)
-- Contagem infectada ativa em [Србија](pt_country_code)
-- Contagem infectada ativa no [Estado Libre Asociado de Puerto Rico](pt_country_code)
-- Contagem infectada em [Ekuatur Nunka](pt_country_code)
-- Contagem infectada no [Bundesrepublik Deutschland](pt_country_code)
-- Contagem infectada no total em [Antígua](pt_country_code)
-- Contagem infectada no total no [Malawi](pt_country_code)
-- Contagem infectados ativos em [Republic of Zimbabwe](pt_country_code)
-- Contagem infectados ativos no [Grupo de Ilhas Pitcairn](pt_country_code)
-- Contagem infectados em [Democratic People's Republic of Korea](pt_country_code)
-- Contagem infectados no [Chéquia](pt_country_code)
-- Contagem infectados no total em [Syrian Arab Republic](pt_country_code)
-- Contagem infectados no total no [Soomaaliya](pt_country_code)
-- Estatísticas de [République du Sénégal](pt_country_code)
-- Numero de infectados ativos em [Republic of Senegal](pt_country_code) hoje?
-- Numero de infectados em [Federal Democratic Republic of Ethiopia](pt_country_code) hoje?
-- Numero de infectados no total em [Bélgica](pt_country_code) hoje?
-- Número de casos ativos em [Repúbliká ng̃ Pilipinas](pt_country_code)
-- Número de casos em [Coreia do Norte](pt_country_code)
-- Número de casos no total em [DPRK](pt_country_code)
-- Número de infectados ativos em [Orepublika yaNamibia](pt_country_code).
-- Número de infectados em [Fiji](pt_country_code).
-- Número de infectados no total em [Mexican United States](pt_country_code).
-- Olá. Quantos infetados existem atualmente em [Slovakia](pt_country_code)?
-- Olá. Quantos infetados existem em [Reino do Camboja](pt_country_code)?
-- Olá. Quantos infetados no total existem em [al-Yama](pt_country_code)?
-- Olá. Quantos total de infetados existem em [Island Territory of Curaçao](pt_country_code)?
-- Qual é o numero de infetados ativos com covid em [Algeria](pt_country_code)?
-- Qual é o numero de infetados com covid em [Papua Niugini](pt_country_code)?
-- Qual é o numero de infetados no total com covid em [Estónia](pt_country_code)?
-- Qual é o numero de total de infetados com covid em [Barein](pt_country_code)?
-- Qual é o número de casos ativos em [Essuatíni](pt_country_code)?
-- Qual é o número de casos confirmados ativos em [República Tcheca](pt_country_code)?
-- Qual é o número de casos confirmados em [Taiwan](pt_country_code)?
-- Qual é o número de casos em [Murakuc](pt_country_code)?
-- Qual é o número de casos no total confirmados em [Países Baixos Caribenhos](pt_country_code)?
-- Qual é o número de casos no total em [Ilhas Marianas Setentrionais](pt_country_code)?
-- Qual é o número de infectados ativos em [Jamhuuriyadda Federaalka Soomaaliya](pt_country_code)?
-- Qual é o número de infectados em [Republic of Burundi](pt_country_code)?
-- Qual é o número de infectados no total em [Reino Haxemita da Jordânia](pt_country_code)?
-- Quantos casos ativos de corrid em [République du Tchad](pt_country_code)
-- Quantos casos ativos em [Maldives](pt_country_code)?
-- Quantos casos ativos existem em [Republic of Namibia](pt_country_code)
-- Quantos casos ativos há na [Palestine](pt_country_code)?
-- Quantos casos de corrid em [Catar](pt_country_code)
-- Quantos casos de infetados ativos há em [State of Kuwait](pt_country_code)?
-- Quantos casos de infetados há em [al-Jumhūrīyah at-Tūnisīyah](pt_country_code)?
-- Quantos casos de infetados no total há em [Republic of Azerbaijan](pt_country_code)?
-- Quantos casos de total de infetados há em [Ilhas Pitcairn, Henderson, Ducie e Oeno](pt_country_code)?
-- Quantos casos em [Indonesia](pt_country_code)?
-- Quantos casos existem em [República de Cabo Verde](pt_country_code)
-- Quantos casos há na [Reino do Lessoto](pt_country_code)?
-- Quantos casos no total de corrid em [Baker Island](pt_country_code)
-- Quantos casos no total em [Κύπρος](pt_country_code)?
-- Quantos casos no total existem em [Sião](pt_country_code)
-- Quantos casos no total há na [Omão](pt_country_code)?
-- Quantos infectados ativos existem neste momento em [Repūvirika o Tire](pt_country_code)?
-- Quantos infectados existem em [Tūnis](pt_country_code)?
-- Quantos infectados existem neste momento em [Japan](pt_country_code)?
-- Quantos infetados ativos tem [Atol Midway](pt_country_code)?
-- Quantos infetados ativos tem a [Mexico](pt_country_code)?
-- Quantos infetados ativos tem o [Česká republika](pt_country_code)?
-- Quantos infetados no total tem [Jordan](pt_country_code)?
-- Quantos infetados no total tem a [Ilhas Picárnia](pt_country_code)?
-- Quantos infetados no total tem o [Egito](pt_country_code)?
-- Quantos infetados tem [República Democrática Federal da Etiópia](pt_country_code)?
-- Quantos infetados tem a [Ilha Bouvet](pt_country_code)?
-- Quantos infetados tem o [Czechia](pt_country_code)?
-- Quantos total de infetados tem [Republic of Zimbabwe](pt_country_code)?
-- Quantos total de infetados tem a [Kambiya](pt_country_code)?
-- Quantos total de infetados tem o [Terres australes françaises](pt_country_code)?
-- casos no total confirmados em [Republic of Poland](pt_country_code)
-- casos no total de covid em [Jibuti](pt_country_code)
-- casos no total de covid no [Ivory Coast](pt_country_code)
-- qual o numero de casos confirmados ativos em [Tchad](pt_country_code)?
-- qual o numero de casos confirmados em [Charu cha Malaŵi](pt_country_code)?
-- qual o numero de casos no total confirmados em [BVI](pt_country_code)?
-- quantas pessoas em [Saint Martin (French part)](pt_country_code) estao infetadas ?
-- quantas pessoas em [FSM](pt_country_code) estao infetadas atualmente?
-- quantas pessoas em [Great Britain](pt_country_code) estiveram infetadas ?
-- quantas pessoas em [República da Eslovénia](pt_country_code) tiveram covid ?
-- quantas pessoas em [Papua Nova Guiné](pt_country_code) têm covid ?
-- quantas pessoas em [Al-ʾUrdunn](pt_country_code) têm covid atualmente?
-- quantas pessoas estiveram infectadas em [Afghanistan](pt_country_code)
-- quantas pessoas estão infectadas atualmente em [Grupo de Ilhas Pitcairn](pt_country_code)
-- quantas pessoas estão infectadas em [Ilhas Geórgias do Sul e Sandwich do Sul](pt_country_code)
-- quantos casos ativos de covid-19 há em [República Federal da Alemã](pt_country_code)?
-- quantos casos ativos há em [Federal Republic of Germany](pt_country_code) no momento?
-- quantos casos ativos há no [Orepublika yaNamibia](pt_country_code)?
-- quantos casos de covid-19 há em [U.S. Virgin Islands](pt_country_code)?
-- quantos casos há em [Groenlândia](pt_country_code) no momento?
-- quantos casos há no [Estados Federados da Micronésia](pt_country_code)?
-- quantos casos no total de covid-19 há em [Commonwealth of Puerto Rico](pt_country_code)?
-- quantos casos no total há em [Ilha do Natal](pt_country_code) no momento?
-- quantos casos no total há no [Aṣ-Ṣaḥrā’ al-Gharbīyah](pt_country_code)?
+- ASUS de covid ativos em [Austrália](pt_country_code:AU)
+- ASUS de covid ativos no [Ayiti](pt_country_code:HT)
+- ASUS de covid em [República da Turquia](pt_country_code:TR)
+- ASUS de covid no [United Republic of Tanzania](pt_country_code:TZ)
+- ASUS de covid no total em [Република Северна Македонија](pt_country_code:MK)
+- ASUS de covid no total no [Reino da Noruega](pt_country_code:NO)
+- Casos ativos de covid em [Mexico](pt_country_code:MX)
+- Casos ativos de covid no [Comunidade das Bahamas](pt_country_code:BS)
+- Casos confirmados ativos em [República das Seychelles](pt_country_code:SC)
+- Casos confirmados em [Ilizwe leZimbabwe](pt_country_code:ZW)
+- Casos de covid em [Pyidaunzu Thanmăda Myăma](pt_country_code:MM)
+- Casos de covid no [Republic of Chile](pt_country_code:CL)
+- Contagem infectada ativa em [Xīnjiāpō](pt_country_code:SG)
+- Contagem infectada ativa no [Dominica](pt_country_code:DM)
+- Contagem infectada em [Índia](pt_country_code:IN)
+- Contagem infectada no [Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya](pt_country_code:SO)
+- Contagem infectada no total em [Saint Pierre and Miquelon](pt_country_code:PM)
+- Contagem infectada no total no [São Cristóvão e Neves](pt_country_code:KN)
+- Contagem infectados ativos em [Türkiye](pt_country_code:TR)
+- Contagem infectados ativos no [Repubrikin Naoero](pt_country_code:NR)
+- Contagem infectados em [Sultanato de Omã](pt_country_code:OM)
+- Contagem infectados no [Kingdom of Tonga](pt_country_code:TO)
+- Contagem infectados no total em [Republika y'Uburundi](pt_country_code:BI)
+- Contagem infectados no total no [Quirguizistão](pt_country_code:KG)
+- Estatísticas de [Repabliki ya Afrika-Borwa](pt_country_code:ZA)
+- Numero de infectados ativos em [Dominican Republic](pt_country_code:DO) hoje?
+- Numero de infectados em [Dhivehi Raajje](pt_country_code:MV) hoje?
+- Numero de infectados no total em [Sri Lanka](pt_country_code:LK) hoje?
+- Número de casos ativos em [Republic of Sierra Leone](pt_country_code:SL)
+- Número de casos em [Aolepān Aorōkin Ṃajeḷ](pt_country_code:MH)
+- Número de casos no total em [Sri Lanca](pt_country_code:LK)
+- Número de infectados ativos em [Northern Ireland](pt_country_code:GB).
+- Número de infectados em [Sierra Leone](pt_country_code:SL).
+- Número de infectados no total em [Santa Lúcia](pt_country_code:LC).
+- Olá. Quantos infetados existem atualmente em [Saint-Martin](pt_country_code:MF)?
+- Olá. Quantos infetados existem em [Cocos (Keeling) Islands](pt_country_code:CC)?
+- Olá. Quantos infetados no total existem em [Republic of Senegal](pt_country_code:SN)?
+- Olá. Quantos total de infetados existem em [República das Honduras](pt_country_code:HN)?
+- Qual é o numero de infetados ativos com covid em [Saba](pt_country_code:BQ)?
+- Qual é o numero de infetados com covid em [República do Uzbequistão](pt_country_code:UZ)?
+- Qual é o numero de infetados no total com covid em [Cypriot Republic](pt_country_code:CY)?
+- Qual é o numero de total de infetados com covid em [Iyonola](pt_country_code:LC)?
+- Qual é o número de casos ativos em [Estado do Qatar](pt_country_code:QA)?
+- Qual é o número de casos confirmados ativos em [Principality of Andorra](pt_country_code:AD)?
+- Qual é o número de casos confirmados em [Irlanda do Norte](pt_country_code:GB)?
+- Qual é o número de casos em [Maurício](pt_country_code:MU)?
+- Qual é o número de casos no total confirmados em [Saint-Pierre e Miquelon](pt_country_code:PM)?
+- Qual é o número de casos no total em [Taiwan, Province of China](pt_country_code:TW)?
+- Qual é o número de infectados ativos em [República da Maurícia](pt_country_code:MU)?
+- Qual é o número de infectados em [Estado da Líbia](pt_country_code:LY)?
+- Qual é o número de infectados no total em [Dominican Republic](pt_country_code:DO)?
+- Quantos casos ativos de corrid em [Nöörje](pt_country_code:NO)
+- Quantos casos ativos em [Suriname](pt_country_code:SR)?
+- Quantos casos ativos existem em [Faroe Islands](pt_country_code:FO)
+- Quantos casos ativos há na [Jamhuuriyadda Federaalka Soomaaliya](pt_country_code:SO)?
+- Quantos casos de corrid em [Canadá](pt_country_code:CA)
+- Quantos casos de infetados ativos há em [Mann](pt_country_code:IM)?
+- Quantos casos de infetados há em [Bosna i Hercegovina](pt_country_code:BA)?
+- Quantos casos de infetados no total há em [Turks and Caicos Islands](pt_country_code:TC)?
+- Quantos casos de total de infetados há em [Rephaboliki ya Afrika Borwa](pt_country_code:ZA)?
+- Quantos casos em [Oman](pt_country_code:OM)?
+- Quantos casos existem em [Benin](pt_country_code:BJ)
+- Quantos casos há na [República da Estônia](pt_country_code:EE)?
+- Quantos casos no total de corrid em [Ilha da Irlanda](pt_country_code:IE)
+- Quantos casos no total em [República da Bulgária](pt_country_code:BG)?
+- Quantos casos no total existem em [Naha ya Zimbabwe](pt_country_code:ZW)
+- Quantos casos no total há na [Republic of Cyprus](pt_country_code:CY)?
+- Quantos infectados ativos existem neste momento em [Togo](pt_country_code:TG)?
+- Quantos infectados existem em [Republica do Afeganistão](pt_country_code:AF)?
+- Quantos infectados existem neste momento em [Piruw Republika](pt_country_code:PE)?
+- Quantos infetados ativos tem [Republic of the Sudan](pt_country_code:SD)?
+- Quantos infetados ativos tem a [Cingapura](pt_country_code:SG)?
+- Quantos infetados ativos tem o [Federated States of Micronesia](pt_country_code:FM)?
+- Quantos infetados no total tem [Éire](pt_country_code:IE)?
+- Quantos infetados no total tem a [RDC](pt_country_code:CD)?
+- Quantos infetados no total tem o [República da Arménia](pt_country_code:AM)?
+- Quantos infetados tem [Republic of South Sudan](pt_country_code:SS)?
+- Quantos infetados tem a [Kingdom of Tonga](pt_country_code:TO)?
+- Quantos infetados tem o [Ruanda](pt_country_code:RW)?
+- Quantos total de infetados tem [as-Sūdān](pt_country_code:SD)?
+- Quantos total de infetados tem a [Svalbard og Jan Mayen](pt_country_code:SJ)?
+- Quantos total de infetados tem o [Slovenija](pt_country_code:SI)?
+- casos no total confirmados em [Japan](pt_country_code:JP)
+- casos no total de covid em [Bolívia](pt_country_code:BO)
+- casos no total de covid no [Al-ʾUrdunn](pt_country_code:JO)
+- qual o numero de casos confirmados ativos em [Wallis e Futuna](pt_country_code:WF)?
+- qual o numero de casos confirmados em [Barbuda](pt_country_code:AG)?
+- qual o numero de casos no total confirmados em [Sultanate of Oman](pt_country_code:OM)?
+- quantas pessoas em [Republic of Cabo Verde](pt_country_code:CV) estao infetadas ?
+- quantas pessoas em [Guåhån](pt_country_code:GU) estao infetadas atualmente?
+- quantas pessoas em [Éire](pt_country_code:IE) estiveram infetadas ?
+- quantas pessoas em [República da Moldova](pt_country_code:MD) tiveram covid ?
+- quantas pessoas em [Czechia](pt_country_code:CZ) têm covid ?
+- quantas pessoas em [Uzbequistão](pt_country_code:UZ) têm covid atualmente?
+- quantas pessoas estiveram infectadas em [Repubblica di San Marino](pt_country_code:SM)
+- quantas pessoas estão infectadas atualmente em [Tunisie](pt_country_code:TN)
+- quantas pessoas estão infectadas em [Mēxihco](pt_country_code:MX)
+- quantos casos ativos de covid-19 há em [República das Maldivas](pt_country_code:MV)?
+- quantos casos ativos há em [Ilha Bouvet](pt_country_code:BV) no momento?
+- quantos casos ativos há no [Oʻzbekiston](pt_country_code:UZ)?
+- quantos casos de covid-19 há em [Beluu er a Belau](pt_country_code:PW)?
+- quantos casos há em [Reino da Jordânia](pt_country_code:JO) no momento?
+- quantos casos há no [Република Србија](pt_country_code:RS)?
+- quantos casos no total de covid-19 há em [República da Moldávia](pt_country_code:MD)?
+- quantos casos no total há em [Republic of India](pt_country_code:IN) no momento?
+- quantos casos no total há no [Macao](pt_country_code:MO)?
 
 ## intent:pt_covid_situation_infected_critical
-- ASUS alarmantes de covid em [Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui](pt_country_code)
-- ASUS alarmantes de covid no [República de Costa Rica](pt_country_code)
-- ASUS criticos de covid em [Republic of Costa Rica](pt_country_code)
-- ASUS criticos de covid no [Ilhas Ellice](pt_country_code)
-- ASUS críticos de covid em [Congo-Quinxassa](pt_country_code)
-- ASUS críticos de covid no [República de Vanuatu](pt_country_code)
-- ASUS graves de covid em [Samoa Americana](pt_country_code)
-- ASUS graves de covid no [Reino do Bareine](pt_country_code)
-- Casos alarmantes de covid em [România](pt_country_code)
-- Casos alarmantes de covid no [Chade](pt_country_code)
-- Casos confirmados alarmantes em [Vanuatu](pt_country_code)
-- Casos confirmados criticos em [Commonwealth Téél Falúw kka Efáng llól Marianas](pt_country_code)
-- Casos confirmados críticos em [Benim](pt_country_code)
-- Casos confirmados graves em [Atol Midway](pt_country_code)
-- Casos criticos de covid em [Bolivarian Republic of Venezuela](pt_country_code)
-- Casos criticos de covid no [Lebanese Republic](pt_country_code)
-- Casos críticos de covid em [République libanaise](pt_country_code)
-- Casos críticos de covid no [Nördliche Marianen](pt_country_code)
-- Casos graves de covid em [Congo Brazzaville](pt_country_code)
-- Casos graves de covid no [Atol Johnston](pt_country_code)
-- Contagem infectada alarmante em [Ilhas Faroés](pt_country_code)
-- Contagem infectada alarmante no [Dominique](pt_country_code)
-- Contagem infectada critica em [Grenada](pt_country_code)
-- Contagem infectada critica no [Airlann](pt_country_code)
-- Contagem infectada crítica em [Maláui](pt_country_code)
-- Contagem infectada crítica no [as-Sūdān](pt_country_code)
-- Contagem infectados alarmantes em [República Tcheca](pt_country_code)
-- Contagem infectados alarmantes no [Honduras](pt_country_code)
-- Contagem infectados criticos em [Guadeloupe](pt_country_code)
-- Contagem infectados criticos no [Irão](pt_country_code)
-- Contagem infectados críticos em [Guinea Bissau](pt_country_code)
-- Contagem infectados críticos no [Estônia](pt_country_code)
-- Contagem infectados graves em [Schwiiz](pt_country_code)
-- Contagem infectados graves no [Territory of Cocos Keeling Islands](pt_country_code)
-- Infetados alarmantes em [Matinik](pt_country_code)
-- Infetados criticos em [Republic of Armenia](pt_country_code)
-- Infetados críticos em [Burquina Faso](pt_country_code)
-- Infetados graves em [República do Uzbequistão](pt_country_code)
-- Numero de infectados alarmantes em [Suisse](pt_country_code) hoje?
-- Numero de infectados criticos em [Jumhūriyyat as-Sūdān](pt_country_code) hoje?
-- Numero de infectados críticos em [Ilhas Åland](pt_country_code) hoje?
-- Numero de infectados graves em [Nova Caledónia](pt_country_code) hoje?
-- Número de casos alarmantes em [Tobago](pt_country_code)
-- Número de casos criticos em [Republic of Cameroon](pt_country_code)
-- Número de casos críticos em [Santa Sé](pt_country_code)
-- Número de casos graves em [República do Botswana](pt_country_code)
-- Número de infectados alarmantes em [Republik Singapura](pt_country_code).
-- Número de infectados criticos em [Sint Maarten](pt_country_code).
-- Número de infectados críticos em [São Pedro e Miquelão](pt_country_code).
-- Número de infectados graves em [Saara Ocidental](pt_country_code).
-- Olá. Quantos infetados alarmantes existem em [Antigua and Barbuda](pt_country_code)?
-- Olá. Quantos infetados criticos existem em [Most Serene Republic of San Marino](pt_country_code)?
-- Olá. Quantos infetados críticos existem em [Gámbi](pt_country_code)?
-- Olá. Quantos infetados graves existem em [República Dominicana](pt_country_code)?
-- Qual é o numero de infetados alarmantes com covid em [Sudão Meridional](pt_country_code)?
-- Qual é o numero de infetados criticos com covid em [La Repiblik Sesel](pt_country_code)?
-- Qual é o numero de infetados críticos com covid em [State of Libya](pt_country_code)?
-- Qual é o numero de infetados graves com covid em [Maldivas](pt_country_code)?
-- Qual é o número de casos alarmantes em [Coletividade de Ultramar de São Pedro e Miquelão](pt_country_code)?
-- Qual é o número de casos confirmados alarmantes em [Alanda](pt_country_code)?
-- Qual é o número de casos confirmados criticos em [Commonwealth of the Northern Mariana Islands](pt_country_code)?
-- Qual é o número de casos confirmados críticos em [Portuguese Republic](pt_country_code)?
-- Qual é o número de casos confirmados graves em [Mongolian Nation](pt_country_code)?
-- Qual é o número de casos criticos em [República da Belarus](pt_country_code)?
-- Qual é o número de casos críticos em [Virgin Islands of the United States](pt_country_code)?
-- Qual é o número de casos graves em [Região Administrativa Especial de Macau](pt_country_code)?
-- Qual é o número de infectados alarmantes em [Israel](pt_country_code)?
-- Qual é o número de infectados criticos em [Iémen](pt_country_code)?
-- Qual é o número de infectados críticos em [Confédération suisse](pt_country_code)?
-- Qual é o número de infectados graves em [Ilha das Especiarias](pt_country_code)?
-- Quantos casos alarmantes de corrid em [Tokelau](pt_country_code)
-- Quantos casos alarmantes em [Papua-Nova Guiné](pt_country_code)?
-- Quantos casos alarmantes existem em [Commonwealth of Australia](pt_country_code)
-- Quantos casos alarmantes há na [Nevis](pt_country_code)?
-- Quantos casos criticos de corrid em [Saint-Barthélemy](pt_country_code)
-- Quantos casos criticos em [México](pt_country_code)?
-- Quantos casos criticos existem em [República das Maldivas](pt_country_code)
-- Quantos casos criticos há na [Ilha Heard e as Ilhas McDonald](pt_country_code)?
-- Quantos casos críticos de corrid em [Sudão do Sul](pt_country_code)
-- Quantos casos críticos em [Msumbiji](pt_country_code)?
-- Quantos casos críticos existem em [Italia](pt_country_code)
-- Quantos casos críticos há na [Bélgica](pt_country_code)?
-- Quantos casos de infetados alarmantes há em [Socialist Republic of Vietnam](pt_country_code)?
-- Quantos casos de infetados criticos há em [Bósnia](pt_country_code)?
-- Quantos casos de infetados críticos há em [Salone](pt_country_code)?
-- Quantos casos de infetados graves há em [Independen Stet bilong Papua Niu Gini](pt_country_code)?
-- Quantos casos graves de corrid em [Burquina Faso](pt_country_code)
-- Quantos casos graves em [Bonaire, Sint Eustatius and Saba](pt_country_code)?
-- Quantos casos graves existem em [Slovenská republika](pt_country_code)
-- Quantos casos graves há na [República de Angola](pt_country_code)?
-- Quantos infectados alarmantes existem neste momento em [Finlândia](pt_country_code)?
-- Quantos infectados criticos existem neste momento em [Ilhas Féroe](pt_country_code)?
-- Quantos infectados críticos existem neste momento em [al-maġhrib](pt_country_code)?
-- Quantos infectados graves existem neste momento em [Taiwan Area](pt_country_code)?
-- Quantos infetados alarmantes tem [Bulgária](pt_country_code)?
-- Quantos infetados alarmantes tem o [Oʻzbekiston Respublikasi](pt_country_code)?
-- Quantos infetados criticos tem [Maurício](pt_country_code)?
-- Quantos infetados criticos tem o [Bouvet-øya](pt_country_code)?
-- Quantos infetados críticos tem [Britain](pt_country_code)?
-- Quantos infetados críticos tem o [Morocco](pt_country_code)?
-- Quantos infetados graves tem [La Repiblik Sesel](pt_country_code)?
-- Quantos infetados graves tem o [Overseas Collectivity of Saint Pierre and Miquelon](pt_country_code)?
-- qual o numero de casos confirmados alarmantes em [Grão-Ducado do Luxemburgo](pt_country_code)?
-- qual o numero de casos confirmados criticos em [Principality of Andorra](pt_country_code)?
-- qual o numero de casos confirmados críticos em [Republika Bǎlgarija](pt_country_code)?
-- qual o numero de casos confirmados graves em [Benim](pt_country_code)?
-- quantos casos alarmantes de covid-19 há em [Russia](pt_country_code)?
-- quantos casos alarmantes há em [Bolivarian Republic of Venezuela](pt_country_code) no momento?
-- quantos casos alarmantes há no [Commonwealth of Dominica](pt_country_code)?
-- quantos casos criticos de covid-19 há em [Republic of Mozambique](pt_country_code)?
-- quantos casos criticos há em [Republic of Mauritius](pt_country_code) no momento?
-- quantos casos criticos há no [Republic of Belarus](pt_country_code)?
-- quantos casos críticos de covid-19 há em [Pitcairn, Henderson, Ducie and Oeno Islands](pt_country_code)?
-- quantos casos críticos há em [República Federal da Somália](pt_country_code) no momento?
-- quantos casos críticos há no [Кыргызская Республика](pt_country_code)?
-- quantos casos graves de covid-19 há em [Republic of Yemen](pt_country_code)?
-- quantos casos graves há em [Republic of Burkina Faso](pt_country_code) no momento?
-- quantos casos graves há no [Kambiya](pt_country_code)?
+- ASUS alarmantes de covid em [República Islâmica do Afeganistão](pt_country_code:AF)
+- ASUS alarmantes de covid no [Domínica](pt_country_code:DM)
+- ASUS criticos de covid em [Maurício](pt_country_code:MU)
+- ASUS criticos de covid no [República Federal do Brasil](pt_country_code:BR)
+- ASUS críticos de covid em [Republic of Argentina](pt_country_code:AR)
+- ASUS críticos de covid no [Republic of Maldives](pt_country_code:MV)
+- ASUS graves de covid em [Dawlat al-Kuwait](pt_country_code:KW)
+- ASUS graves de covid no [República Dominicana](pt_country_code:DO)
+- Casos alarmantes de covid em [Santa Helena, Ascensão e Tristão da Cunha](pt_country_code:SH)
+- Casos alarmantes de covid no [Pitcairn, Henderson, Ducie and Oeno Islands](pt_country_code:PN)
+- Casos confirmados alarmantes em [Congo Brazzaville](pt_country_code:CG)
+- Casos confirmados criticos em [Syria](pt_country_code:SY)
+- Casos confirmados críticos em [Baamas](pt_country_code:BS)
+- Casos confirmados graves em [Ilha Jarvis](pt_country_code:UM)
+- Casos criticos de covid em [Cisi ca Zambia](pt_country_code:ZM)
+- Casos criticos de covid no [Commonwealth of Australia](pt_country_code:AU)
+- Casos críticos de covid em [Niuē](pt_country_code:NU)
+- Casos críticos de covid no [Reino de España](pt_country_code:ES)
+- Casos graves de covid em [Antigua and Barbuda](pt_country_code:AG)
+- Casos graves de covid no [Norfolk Island](pt_country_code:NF)
+- Contagem infectada alarmante em [Sérvia](pt_country_code:RS)
+- Contagem infectada alarmante no [U.K.](pt_country_code:GB)
+- Contagem infectada critica em [Bailliage dé Jèrri](pt_country_code:JE)
+- Contagem infectada critica no [Norway](pt_country_code:NO)
+- Contagem infectada crítica em [Bonaire, Sint Eustatius and Saba](pt_country_code:BQ)
+- Contagem infectada crítica no [Slovenija](pt_country_code:SI)
+- Contagem infectados alarmantes em [República dos Camarões](pt_country_code:CM)
+- Contagem infectados alarmantes no [Rússia](pt_country_code:RU)
+- Contagem infectados criticos em [Gànnaar](pt_country_code:MR)
+- Contagem infectados criticos no [Kirghizia](pt_country_code:KG)
+- Contagem infectados críticos em [Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu](pt_country_code:LK)
+- Contagem infectados críticos no [Togo](pt_country_code:TG)
+- Contagem infectados graves em [Germany](pt_country_code:DE)
+- Contagem infectados graves no [South Korea](pt_country_code:KR)
+- Infetados alarmantes em [República Árabe do Egito](pt_country_code:EG)
+- Infetados criticos em [República Democrática de São Tomé e Príncipe](pt_country_code:ST)
+- Infetados críticos em [Estado Plurinacional de Bolivia](pt_country_code:BO)
+- Infetados graves em [Groenlândia](pt_country_code:GL)
+- Numero de infectados alarmantes em [Ruanda](pt_country_code:RW) hoje?
+- Numero de infectados criticos em [Islândia](pt_country_code:IS) hoje?
+- Numero de infectados críticos em [Mexican United States](pt_country_code:MX) hoje?
+- Numero de infectados graves em [Bailiado de Jersey](pt_country_code:JE) hoje?
+- Número de casos alarmantes em [Taiwan Area](pt_country_code:TW)
+- Número de casos criticos em [São Vicente e Granadinas](pt_country_code:VC)
+- Número de casos críticos em [Sao Tome and Principe](pt_country_code:ST)
+- Número de casos graves em [Kongeriket Noreg](pt_country_code:NO)
+- Número de infectados alarmantes em [Dominican Republic](pt_country_code:DO).
+- Número de infectados criticos em [Bangladexe](pt_country_code:BD).
+- Número de infectados críticos em [Jamhuri ya Rwanda](pt_country_code:RW).
+- Número de infectados graves em [Luxemburgo](pt_country_code:LU).
+- Olá. Quantos infetados alarmantes existem em [Piruw Suyu](pt_country_code:PE)?
+- Olá. Quantos infetados criticos existem em [Chosŏn](pt_country_code:KP)?
+- Olá. Quantos infetados críticos existem em [Federal Republic of Germany](pt_country_code:DE)?
+- Olá. Quantos infetados graves existem em [Chile](pt_country_code:CL)?
+- Qual é o numero de infetados alarmantes com covid em [Namhan](pt_country_code:KR)?
+- Qual é o numero de infetados criticos com covid em [Coletividade de São Bartolomeu](pt_country_code:BL)?
+- Qual é o numero de infetados críticos com covid em [Hellas](pt_country_code:GR)?
+- Qual é o numero de infetados graves com covid em [Território da Ilha Norfolque](pt_country_code:NF)?
+- Qual é o número de casos alarmantes em [Falklands](pt_country_code:FK)?
+- Qual é o número de casos confirmados alarmantes em [Ilha da Irlanda](pt_country_code:IE)?
+- Qual é o número de casos confirmados criticos em [Republic of North Macedonia](pt_country_code:MK)?
+- Qual é o número de casos confirmados críticos em [East Timor](pt_country_code:TL)?
+- Qual é o número de casos confirmados graves em [Ilhas Cocos Keeling](pt_country_code:CC)?
+- Qual é o número de casos criticos em [Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah](pt_country_code:JO)?
+- Qual é o número de casos críticos em [Argentina](pt_country_code:AR)?
+- Qual é o número de casos graves em [Reino do Lesoto](pt_country_code:LS)?
+- Qual é o número de infectados alarmantes em [United Arab Emirates](pt_country_code:AE)?
+- Qual é o número de infectados criticos em [Saint Helena](pt_country_code:SH)?
+- Qual é o número de infectados críticos em [Baker Island](pt_country_code:UM)?
+- Qual é o número de infectados graves em [República Federal da Nigéria](pt_country_code:NG)?
+- Quantos casos alarmantes de corrid em [Faroe Islands](pt_country_code:FO)
+- Quantos casos alarmantes em [Free Associated State of Puerto Rico](pt_country_code:PR)?
+- Quantos casos alarmantes existem em [Repubilika ya Kôngo ya Dimokalasi](pt_country_code:CD)
+- Quantos casos alarmantes há na [Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui](pt_country_code:MO)?
+- Quantos casos criticos de corrid em [TOM](pt_country_code:TF)
+- Quantos casos criticos em [Ilhas Cook](pt_country_code:CK)?
+- Quantos casos criticos existem em [Maore](pt_country_code:YT)
+- Quantos casos criticos há na [Danmark](pt_country_code:DK)?
+- Quantos casos críticos de corrid em [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah](pt_country_code:SY)
+- Quantos casos críticos em [Reino da Suécia](pt_country_code:SE)?
+- Quantos casos críticos existem em [Irão](pt_country_code:IR)
+- Quantos casos críticos há na [Cocos (Keeling) Islands](pt_country_code:CC)?
+- Quantos casos de infetados alarmantes há em [Udzima wa Komori](pt_country_code:KM)?
+- Quantos casos de infetados criticos há em [República do Botsuana](pt_country_code:BW)?
+- Quantos casos de infetados críticos há em [Republic of Maldives](pt_country_code:MV)?
+- Quantos casos de infetados graves há em [Taiwan, China](pt_country_code:TW)?
+- Quantos casos graves de corrid em [Ilha Aprazível](pt_country_code:NR)
+- Quantos casos graves em [Ilhas Malvinas](pt_country_code:FK)?
+- Quantos casos graves existem em [Druk Gyal Khap](pt_country_code:BT)
+- Quantos casos graves há na [Paraguái](pt_country_code:PY)?
+- Quantos infectados alarmantes existem neste momento em [Mali](pt_country_code:ML)?
+- Quantos infectados criticos existem neste momento em [South Georgia and the South Sandwich Islands](pt_country_code:GS)?
+- Quantos infectados críticos existem neste momento em [Киргизия](pt_country_code:KG)?
+- Quantos infectados graves existem neste momento em [Pleasant Island](pt_country_code:NR)?
+- Quantos infetados alarmantes tem [aṣ-Ṣūmāl](pt_country_code:SO)?
+- Quantos infetados alarmantes tem o [Emirates](pt_country_code:AE)?
+- Quantos infetados criticos tem [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà](pt_country_code:NG)?
+- Quantos infetados criticos tem o [Mauritanie](pt_country_code:MR)?
+- Quantos infetados críticos tem [Schweiz](pt_country_code:CH)?
+- Quantos infetados críticos tem o [Bonaire](pt_country_code:BQ)?
+- Quantos infetados graves tem [Republic of Suriname](pt_country_code:SR)?
+- Quantos infetados graves tem o [República da Estónia](pt_country_code:EE)?
+- qual o numero de casos confirmados alarmantes em [Wilayah Kepulauan Cocos (Keeling)](pt_country_code:CC)?
+- qual o numero de casos confirmados criticos em [Renndaandi Ginea](pt_country_code:GN)?
+- qual o numero de casos confirmados críticos em [Republic of Honduras](pt_country_code:HN)?
+- qual o numero de casos confirmados graves em [La Grenade](pt_country_code:GD)?
+- quantos casos alarmantes de covid-19 há em [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà](pt_country_code:NG)?
+- quantos casos alarmantes há em [Jamhuriyar Taraiyar Najeriya](pt_country_code:NG) no momento?
+- quantos casos alarmantes há no [Republic of Belarus](pt_country_code:BY)?
+- quantos casos criticos de covid-19 há em [Jamaica](pt_country_code:JM)?
+- quantos casos criticos há em [Portuguese Republic](pt_country_code:PT) no momento?
+- quantos casos criticos há no [Croácia](pt_country_code:HR)?
+- quantos casos críticos de covid-19 há em [Airlann](pt_country_code:IE)?
+- quantos casos críticos há em [Republic of Mozambique](pt_country_code:MZ) no momento?
+- quantos casos críticos há no [República das Seicheles ou Seychelles](pt_country_code:SC)?
+- quantos casos graves de covid-19 há em [República da Lituânia](pt_country_code:LT)?
+- quantos casos graves há em [Nouvelle-Calédonie](pt_country_code:NC) no momento?
+- quantos casos graves há no [Republik Namibia](pt_country_code:NA)?
 
 ## intent:pt_covid_situation_last_update
-- Atualização de [Portugal](pt_country_code).
-- Atualização de hoje de [Nihon](pt_country_code).
-- Atualização de hoje em [Butão](pt_country_code).
-- Atualização em [Belize](pt_country_code).
-- Dados atualizados de [Itoobiya](pt_country_code)?
-- Dados atualizados de infetados e mortes em [Reunião](pt_country_code)?
-- Dados atualizados em [Principado do Liechtenstein](pt_country_code)?
-- Dados de hoje de casos em [Piruw Republika](pt_country_code).
-- Dados de hoje de infetados [Cameroun](pt_country_code).
-- Dados de hoje de mortes [Ilha das Especiarias](pt_country_code).
-- Dados de hoje de novos casos em [Ilha Esmeralda das Caraíbas](pt_country_code).
-- Dados de hoje de novos infetados [Kingdom of the Netherlands](pt_country_code).
-- Dados de hoje de novos mortes [República del Perú](pt_country_code).
-- Dados de hoje em [Sri Lanka](pt_country_code).
-- Novos casos e mortes em [República de Palau](pt_country_code)?
-- Novos casos em [St. Barths](pt_country_code)?
-- Quantas mais mortes em [República da Argentina](pt_country_code) no momento?
-- Quantos mais infetados em [Overseas Collectivity of Saint Pierre and Miquelon](pt_country_code)?
-- Ultima atualização em [República do Salvador](pt_country_code)
-- Última atualização de casos e mortes em [Guinea-Bissau](pt_country_code)?
-- Última atualização de casos em [Ilhas Menores Distantes dos Estados Unidos](pt_country_code)?
-- Última atualização de infetados e mortes em [União das Comores](pt_country_code)?
-- Última atualização de infetados em [Suisse](pt_country_code)?
-- Última atualização de mortes em [Repūvirika o Tire](pt_country_code)?
-- Últimos dados de [Inyika yeZimbabwe](pt_country_code).
-- Últimos dados em [Republic of Turkmenistan](pt_country_code).
+- Atualização de [Palaos](pt_country_code:PW).
+- Atualização de hoje de [Maurícia](pt_country_code:MU).
+- Atualização de hoje em [Zimbabué](pt_country_code:ZW).
+- Atualização em [Svalbard og Jan Mayen](pt_country_code:SJ).
+- Dados atualizados de [Sultanate of Oman](pt_country_code:OM)?
+- Dados atualizados de infetados e mortes em [French Southern Territories](pt_country_code:TF)?
+- Dados atualizados em [Shango ḽa Zimbabwe](pt_country_code:ZW)?
+- Dados de hoje de casos em [Países Baixos](pt_country_code:NL).
+- Dados de hoje de infetados [Táiwān shěng](pt_country_code:TW).
+- Dados de hoje de mortes [Ilha Esmeralda das Caraíbas](pt_country_code:MS).
+- Dados de hoje de novos casos em [República Oriental del Uruguay](pt_country_code:UY).
+- Dados de hoje de novos infetados [Reiaume d'Espanha](pt_country_code:ES).
+- Dados de hoje de novos mortes [Tobago](pt_country_code:TT).
+- Dados de hoje em [Italy](pt_country_code:IT).
+- Novos casos e mortes em [Congo-Brazzaville](pt_country_code:CG)?
+- Novos casos em [Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya](pt_country_code:ET)?
+- Quantas mais mortes em [São Marinho](pt_country_code:SM) no momento?
+- Quantos mais infetados em [Balgariya](pt_country_code:BG)?
+- Ultima atualização em [Luxemburgo](pt_country_code:LU)
+- Última atualização de casos e mortes em [Aotearoa](pt_country_code:NZ)?
+- Última atualização de casos em [Mexico](pt_country_code:MX)?
+- Última atualização de infetados e mortes em [Congo-Quinxassa](pt_country_code:CD)?
+- Última atualização de infetados em [Republic of Maldives](pt_country_code:MV)?
+- Última atualização de mortes em [United States Minor Outlying Islands](pt_country_code:UM)?
+- Últimos dados de [Aotearoa](pt_country_code:NZ).
+- Últimos dados em [Muso oa Lesotho](pt_country_code:LS).
 
 ## intent:pt_covid_situation_recovered
-- "[Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah](pt_country_code) recuperados."
-- "[Gabon](pt_country_code) recuperações."
-- Contagem recuperados em [Territory of Christmas Island](pt_country_code)
-- Contagem recuperados no [Western Samoa](pt_country_code)
-- Contagem recuperações em [Repiblik Moris](pt_country_code)
-- Contagem recuperações no [Nauru](pt_country_code)
-- Numero de recuperados em [Malta](pt_country_code) hoje?
-- Numero de recuperações em [Cocos Keeling Islands](pt_country_code) hoje?
-- Número de recuperados [Pais Kòrsou](pt_country_code).
-- Número de recuperados em [Jamhuri ya Uganda](pt_country_code)
-- Número de recuperados em [Guinea Ecuatorial](pt_country_code).
-- Número de recuperações [Turcomênia](pt_country_code).
-- Número de recuperações em [Mauritius](pt_country_code)
-- Número de recuperações em [Nação Bengali](pt_country_code).
-- Número total de recuperados em [Saint-Barthélemy](pt_country_code).
-- Número total de recuperados em [República da Guiné Equatorial](pt_country_code)?
-- Número total de recuperações em [République du Burundi](pt_country_code).
-- Número total de recuperações em [Belgien](pt_country_code)?
-- Olá. Quantos recuperados existem em [Sudão do Sul](pt_country_code)?
-- Olá. Quantos recuperações existem em [Република Северна Македонија](pt_country_code)?
-- Qual é o numero de recuperados com covid em [Jamhuriyar Taraiyar Najeriya](pt_country_code)?
-- Qual é o numero de recuperações com covid em [Bhutan](pt_country_code)?
-- Qual é o número de recuperados em [Mali](pt_country_code)?
-- Qual é o número de recuperações em [Ruanda](pt_country_code)?
-- Quantos casos de recuperados há em [United States Minor Outlying Islands](pt_country_code)?
-- Quantos casos de recuperações há em [Chile Wüdalmapu](pt_country_code)?
-- Quantos recuperados existem neste momento em [Territory of Christmas Island](pt_country_code)?
-- Quantos recuperados tem [Islami Jamahuriat Pakistan](pt_country_code)?
-- Quantos recuperados tem a [Federal Republic of Somalia](pt_country_code)?
-- Quantos recuperados tem o [Repoblikan'i Madagasikara](pt_country_code)?
-- Quantos recuperaram em [Republic of Kazakhstan](pt_country_code).
-- Quantos recuperações existem neste momento em [Pulu Kokos Keeling](pt_country_code)?
-- Quantos recuperações tem [Saint-Martin](pt_country_code)?
-- Quantos recuperações tem a [Most Serene Republic of San Marino](pt_country_code)?
-- Quantos recuperações tem o [Dawlat al-Kuwait](pt_country_code)?
-- qual o numero de recuperados em [Sáara Ocidental](pt_country_code)?
-- qual o numero de recuperações em [Repoblikan'i Madagasikara](pt_country_code)?
-- quantas pessoas em [Panama](pt_country_code) recuperaram?
-- quantas pessoas recuperaram em [Tanzânia](pt_country_code)?
-- recuperados de [República da Nicarágua](pt_country_code)
-- recuperados em [Republic of Guinea-Bissau](pt_country_code).
-- recuperações de [Ilhas Pitcairn, Henderson, Ducie e Oeno](pt_country_code)
-- recuperações em [Palaos](pt_country_code).
+- "[Pyidaunzu Thanmăda Myăma](pt_country_code:MM) recuperados."
+- "[Arab Republic of Egypt](pt_country_code:EG) recuperações."
+- Contagem recuperados em [République du Mali](pt_country_code:ML)
+- Contagem recuperados no [Ilhas Virgens dos Estados Unidos](pt_country_code:VI)
+- Contagem recuperações em [Midway Atoll](pt_country_code:UM)
+- Contagem recuperações no [Monserrate](pt_country_code:MS)
+- Numero de recuperados em [Territory of the Wallis and Futuna Islands](pt_country_code:WF) hoje?
+- Numero de recuperações em [São Marino](pt_country_code:SM) hoje?
+- Número de recuperados [The Democratic Republic of the Congo](pt_country_code:CD).
+- Número de recuperados em [British Indian Ocean Territory](pt_country_code:IO)
+- Número de recuperados em [Vuona gånågisrijkka](pt_country_code:NO).
+- Número de recuperações [Pitkern Ailen](pt_country_code:PN).
+- Número de recuperações em [Liechtenstein](pt_country_code:LI)
+- Número de recuperações em [Rossiya](pt_country_code:RU).
+- Número total de recuperados em [Confoederatio Helvetica](pt_country_code:CH).
+- Número total de recuperados em [Lesoto](pt_country_code:LS)?
+- Número total de recuperações em [Estado da Eritreia](pt_country_code:ER).
+- Número total de recuperações em [Tchade](pt_country_code:TD)?
+- Olá. Quantos recuperados existem em [Noreg](pt_country_code:NO)?
+- Olá. Quantos recuperações existem em [Republic of Kazakhstan](pt_country_code:KZ)?
+- Qual é o numero de recuperados com covid em [Reino de Espanha](pt_country_code:ES)?
+- Qual é o numero de recuperações com covid em [Bermuda](pt_country_code:BM)?
+- Qual é o número de recuperados em [Grão-Ducado do Luxemburgo](pt_country_code:LU)?
+- Qual é o número de recuperações em [Republic of Equatorial Guinea](pt_country_code:GQ)?
+- Quantos casos de recuperados há em [República da Coreia](pt_country_code:KR)?
+- Quantos casos de recuperações há em [Soomaaliya](pt_country_code:SO)?
+- Quantos recuperados existem neste momento em [Republic of Finland](pt_country_code:FI)?
+- Quantos recuperados tem [Chad](pt_country_code:TD)?
+- Quantos recuperados tem a [Sāmoa](pt_country_code:WS)?
+- Quantos recuperados tem o [Suomen tasavalta](pt_country_code:FI)?
+- Quantos recuperaram em [Norgga gonagasriika](pt_country_code:NO).
+- Quantos recuperações existem neste momento em [Hanguk](pt_country_code:KR)?
+- Quantos recuperações tem [Republic of Slovenia](pt_country_code:SI)?
+- Quantos recuperações tem a [Australia](pt_country_code:AU)?
+- Quantos recuperações tem o [República da Costa Rica](pt_country_code:CR)?
+- qual o numero de recuperados em [Federation of Saint Christopher and Nevis](pt_country_code:KN)?
+- qual o numero de recuperações em [Principauté de Monaco](pt_country_code:MC)?
+- quantas pessoas em [People's Republic of Bangladesh](pt_country_code:BD) recuperaram?
+- quantas pessoas recuperaram em [Países Baixos](pt_country_code:NL)?
+- recuperados de [ityoppiah federalih demokrasih ummuno](pt_country_code:ET)
+- recuperados em [Belarus](pt_country_code:BY).
+- recuperações de [België](pt_country_code:BE)
+- recuperações em [República de Madagascar](pt_country_code:MG).
 
 ## intent:pt_covid_situation_tested
-- "[Jamhuuriyadda Federaalka Soomaaliya](pt_country_code) testados."
-- "[Turquia](pt_country_code) testes."
-- Contagem testados em [Saint-Martin](pt_country_code)
-- Contagem testados no [República da Costa do Marfim](pt_country_code)
-- Contagem testes em [Martinica](pt_country_code)
-- Contagem testes no [Ilhas Cocos Keeling](pt_country_code)
-- Numero de testados em [Republika ng Pilipinas](pt_country_code) hoje?
-- Numero de testes em [Panamá](pt_country_code) hoje?
-- Número de testados [Guinée française](pt_country_code).
-- Número de testados em [Taiwan Area](pt_country_code)
-- Número de testados em [República da Belarus](pt_country_code).
-- Número de testes [Republika Srbija](pt_country_code).
-- Número de testes em [República Francesa](pt_country_code)
-- Número de testes em [Nepal](pt_country_code).
-- Número total de testados em [Singapore](pt_country_code).
-- Número total de testados em [Republika zaNamibia](pt_country_code)?
-- Número total de testes em [República do Senegal](pt_country_code).
-- Número total de testes em [Sesel](pt_country_code)?
-- Olá. Quantos testados existem em [TBOI](pt_country_code)?
-- Olá. Quantos testes existem em [Peru](pt_country_code)?
-- Qual é o numero de testados com covid em [Paraguái](pt_country_code)?
-- Qual é o numero de testes com covid em [Principality of Liechtenstein](pt_country_code)?
-- Qual é o número de testados em [Kingdom of Spain](pt_country_code)?
-- Qual é o número de testes em [Mozambique](pt_country_code)?
-- Quantos casos de testados há em [República da Letônia](pt_country_code)?
-- Quantos casos de testes há em [Rossiya](pt_country_code)?
-- Quantos foram testados em [República do Botswana](pt_country_code).
-- Quantos testados existem neste momento em [Espainiako Erresuma](pt_country_code)?
-- Quantos testados tem [República do Haiti](pt_country_code)?
-- Quantos testados tem a [Црна Гора](pt_country_code)?
-- Quantos testados tem o [Republic of Vanuatu](pt_country_code)?
-- Quantos testes existem neste momento em [Nyika yeZimbabwe](pt_country_code)?
-- Quantos testes tem [Keeling Islands](pt_country_code)?
-- Quantos testes tem a [Republic of Uzbekistan](pt_country_code)?
-- Quantos testes tem o [União de Comores](pt_country_code)?
-- qual o numero de testados em [Estônia](pt_country_code)?
-- qual o numero de testes em [Bundesrepublik Deutschland](pt_country_code)?
-- quantas pessoas em [Madagáscar](pt_country_code) foram testadas?
-- quantas pessoas foram testadas em [Republic of the Philippines](pt_country_code)?
-- testados de [Île Bourbon](pt_country_code)
-- testados em [Índia](pt_country_code).
-- testes de [Republic of Iraq](pt_country_code)
-- testes em [Repubulika y'u Rwanda](pt_country_code).
+- "[Ilha Esmeralda](pt_country_code:IE) testados."
+- "[Saṅghīya Lokatāntrik Gaṇatantra Nepāl](pt_country_code:NP) testes."
+- Contagem testados em [Republic of Liberia](pt_country_code:LR)
+- Contagem testados no [Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà](pt_country_code:NG)
+- Contagem testes em [Beluu er a Belau](pt_country_code:PW)
+- Contagem testes no [Repubblica di San Marino](pt_country_code:SM)
+- Numero de testados em [Macau](pt_country_code:MO) hoje?
+- Numero de testes em [South Sudan](pt_country_code:SS) hoje?
+- Número de testados [República da Guiné Equatorial](pt_country_code:GQ).
+- Número de testados em [Ilhas Cocos Keeling](pt_country_code:CC)
+- Número de testados em [Republic of Panama](pt_country_code:PA).
+- Número de testes [Costa do Marfim](pt_country_code:CI).
+- Número de testes em [República da Índia](pt_country_code:IN)
+- Número de testes em [Bhārat Gaṇarājya](pt_country_code:IN).
+- Número total de testados em [Ilhas Bermudas](pt_country_code:BM).
+- Número total de testados em [República Popular Democrática da Coreia](pt_country_code:KP)?
+- Número total de testes em [Áustria](pt_country_code:AT).
+- Número total de testes em [iRiphabhuliki yaseNingizimu Afrika](pt_country_code:ZA)?
+- Olá. Quantos testados existem em [Malawi](pt_country_code:MW)?
+- Olá. Quantos testes existem em [São Tomé e Príncipe](pt_country_code:ST)?
+- Qual é o numero de testados com covid em [Czech Republic](pt_country_code:CZ)?
+- Qual é o numero de testes com covid em [Belgique](pt_country_code:BE)?
+- Qual é o número de testados em [Republika Bǎlgarija](pt_country_code:BG)?
+- Qual é o número de testes em [Taiwan, China](pt_country_code:TW)?
+- Quantos casos de testados há em [Mauritania](pt_country_code:MR)?
+- Quantos casos de testes há em [Commonwealth of the Northern Mariana Islands](pt_country_code:MP)?
+- Quantos foram testados em [République togolaise](pt_country_code:TG).
+- Quantos testados existem neste momento em [Amerika Sāmoa](pt_country_code:AS)?
+- Quantos testados tem [Groussherzogtum Lëtzebuerg](pt_country_code:LU)?
+- Quantos testados tem a [Ayiti](pt_country_code:HT)?
+- Quantos testados tem o [Departamento de Maiote](pt_country_code:YT)?
+- Quantos testes existem neste momento em [Keeling Islands](pt_country_code:CC)?
+- Quantos testes tem [República de Moçambique](pt_country_code:MZ)?
+- Quantos testes tem a [Republic of Equatorial Guinea](pt_country_code:GQ)?
+- Quantos testes tem o [Táiwān shěng](pt_country_code:TW)?
+- qual o numero de testados em [Schwiiz](pt_country_code:CH)?
+- qual o numero de testes em [Grupo de Ilhas Pitcairn](pt_country_code:PN)?
+- quantas pessoas em [Turcomênia](pt_country_code:TM) foram testadas?
+- quantas pessoas foram testadas em [TOM](pt_country_code:TF)?
+- testados de [Mexico](pt_country_code:MX)
+- testados em [Republic of Cabo Verde](pt_country_code:CV).
+- testes de [República da África Central](pt_country_code:CF)
+- testes em [Hong Kong](pt_country_code:HK).
 
 ## intent:pt_covid_surfaces
 - Coronavírus persiste por quanto tempo nas superfícies?
@@ -5862,7 +5857,7 @@
 
 
 
-## synonym:pt_price
+## synonym:pricelist
 - base price
 - pays
 - afford
@@ -5897,60 +5892,78 @@
 - list with prices
 - price list
 
-## synonym:pt_number
+## synonym:two
 - segunda
 - segundo
 - dois
 - "2"
 - two
 - Second
+
+## synonym:four
 - quarta
 - quarto
 - "4"
 - four
 - Fourth
+
+## synonym:eight
 - oitava
 - oitavo
 - oito
 - "8"
 - eight
 - Eighth
+
+## synonym:six
 - sexta
 - sexto
 - seis
 - "6"
 - six
 - Sixth
+
+## synonym:seven
 - sétima
 - sétimo
 - sete
 - "7"
 - seven
 - Seventh
+
+## synonym:three
 - terceira
 - terceiro
 - três
 - "3"
 - three
 - Third
+
+## synonym:nine
 - nona
 - nono
 - nove
 - "9"
 - nine
 - Ninth
+
+## synonym:ten
 - décima
 - décimo
 - dez
 - "10"
 - ten
 - Tenth
+
+## synonym:one
 - primeira
 - primeiro
 - um
 - "1"
 - one
 - First
+
+## synonym:five
 - quinta
 - quinto
 - cinco
@@ -5958,7 +5971,7 @@
 - five
 - Fifth
 
-## synonym:pt_animals
+## synonym:pet
 - animal de estimação
 - gato
 - cão
@@ -5970,10 +5983,7 @@
 - animais de casa
 - animal de casa
 
-## synonym:sys-number
-[]
-
-## synonym:pt_contact
+## synonym:address
 - morada
 - endereço
 - local
@@ -5981,6 +5991,8 @@
 - company address
 - addresses
 - address
+
+## synonym:phone
 - número de telemóvel
 - número de telefone
 - telemóveis
@@ -5996,6 +6008,8 @@
 - phones
 - mobile phone
 - phone
+
+## synonym:e-mail
 - endereço de e-mail
 - endereço de mail
 - endereço de email
@@ -6008,6 +6022,8 @@
 - e-mail-address
 - e-mail address
 - e-mail
+
+## synonym:contact
 - contato
 - contacto
 - contact information
@@ -6015,17 +6031,19 @@
 - contacts
 - contact
 
-## synonym:pt_options
+## synonym:1
 - primeira opção
 - primeira
 - "1"
 - opção 1
+
+## synonym:2
 - segunda opção
 - segunda
 - "2"
 - opção 2
 
-## synonym:pt_games
+## synonym:game
 - game
 - games
 - play
@@ -6039,7 +6057,7 @@
 - role plays
 - role play
 
-## synonym:pt_chitchat
+## synonym:movie
 - película
 - pelicula
 - filme
@@ -6065,6 +6083,8 @@
 - films
 - film
 - movie
+
+## synonym:music
 - Folk
 - Rave
 - Punk
@@ -6158,6 +6178,8 @@
 - songs
 - musicians
 - music
+
+## synonym:weather
 - tempo
 - seco
 - húmido
@@ -6236,6 +6258,8 @@
 - temperatures
 - temperature
 - weather
+
+## synonym:lotr
 - Sméagol
 - Meriadoc
 - Pregrin
@@ -6259,6 +6283,8 @@
 - Galadriel
 - Sauron
 - Gollum
+
+## synonym:game
 - jogos
 - jogo
 - jogar
@@ -6274,6 +6300,8 @@
 - play
 - games
 - game
+
+## synonym:joke
 - brincadeira
 - anedota
 - piada
@@ -6300,14 +6328,18 @@
 - joking
 - joke
 
-## synonym:pt_form_of_address
+## synonym:form_of_address
 - form of address
+
+## synonym:Mr
 - Mister
 - Mr
 - male
 - man
 - Sir
 - Mr.
+
+## synonym:Mrs
 - Mrs.
 - Ms
 - Miss
@@ -6317,7 +6349,7 @@
 - lady
 - Ms.
 
-## synonym:pt_offense
+## synonym:anal
 - anal
 - anus
 - arse
@@ -6396,7 +6428,7 @@
 - whore
 - wtf
 
-## synonym:pt_religion
+## synonym:church
 - judaism
 - presbytery
 - parishoner
@@ -6515,22 +6547,21 @@
 - parish
 - church
 
-## synonym:pt_yes_no
+## synonym:no
 - não sigas
 - não seleciones
 - negative
 - nao
 - não
+
+## synonym:yes
 - seleciona
 - segue
 - afirmativo
 - yes
 - sim
 
-## synonym:en_facebook
-[]
-
-## synonym:pt_media
+## synonym:video
 - trailers
 - trailer
 - footages
@@ -6544,6 +6575,8 @@
 - movie
 - film
 - video
+
+## synonym:photo
 - sketches
 - drawings
 - draws
@@ -6568,13 +6601,15 @@
 - draw
 - picture
 - photo
+
+## synonym:datasheet
 - datasheet
 - data-sheet
 - spec sheet
 - product sheet
 - product datasheet
 
-## synonym:pt_emoticons
+## synonym:negative_emoticon
 - D
 - )
 - ">"
@@ -6646,6 +6681,8 @@
 - "| -O"
 - "} :)"
 - "',: - l"
+
+## synonym:positive_emoticon
 - "]"
 - -]
 - ^)
@@ -6748,7 +6785,7 @@
 - ^ _ ^
 - :-)
 
-## synonym:pt_user
+## synonym:angry
 - infuriated
 - irritated
 - disgusted
@@ -6761,7 +6798,7 @@
 - mad
 - angry
 
-## synonym:pt_racist
+## synonym:racist
 - racist
 - Adolf Hitler
 - Hitler
@@ -6770,7 +6807,7 @@
 - bigot
 - bigots
 
-## synonym:pt_joke
+## synonym:joke
 - joke
 - jokes
 - joking
@@ -6791,7 +6828,7 @@
 - prank
 - pranks
 
-## synonym:pt_music
+## synonym:music
 - music
 - singer
 - singers
@@ -6853,7 +6890,7 @@
 - songs
 - musics
 
-## synonym:pt_website
+## synonym:website
 - page
 - web sites
 - web site
@@ -6869,19 +6906,23 @@
 - site
 - website
 
-## synonym:pt_variation
+## synonym:photo
 - photo
 - picture
 - image
 - photos
 - pictures
 - images
+
+## synonym:favorite
 - favourite
 - favorite
 - favourites
 - favorites
 - preferred
 - beloved
+
+## synonym:summarize
 - succintly
 - concisely
 - summed
@@ -6899,12 +6940,14 @@
 - summarise
 - summerization
 - summerize
+
+## synonym:color
 - color
 - colour
 - colors
 - colours
 
-## synonym:pt_modal_verbs
+## synonym:have_to
 - can
 - could
 - might
@@ -6919,43 +6962,55 @@
 - must
 - have to
 
-## synonym:pt_message
+## synonym:message
 - message
 - description
 - remark
 - comment
 - note
 
-## synonym:pt_myth
+## synonym:pneumonia_vaccine
 - vacinas de pneumonia
 - vacina de pneumonia
 - vacinas da pneumonia
 - vacina da pneumonia
 - pneumonia vaccine
 - pneumonia vaccines
+
+## synonym:garlic
 - alhos
 - alho
 - garlic
 - garlics
+
+## synonym:antibiotics
 - antibióticas
 - antibiótica
 - antibióticos
 - antibiótico
 - antibiotics
 - antibiotic
+
+## synonym:hand_dryer
 - secadores de mãos
 - secador de mão
 - secador de mãos
 - hand dryer
 - hand dryers
+
+## synonym:thermal scanner
 - scanners térmicos
 - scanner térmico
 - thermal scanner
 - thermal scanners
+
+## synonym:sesame_oil
 - sésamo
 - óleo de sésamo
 - sesame oil
 - sesame
+
+## synonym:uv_lamp
 - lâmpadas ultravioleta
 - lâmpadas uv
 - lâmpada uv
@@ -6967,13 +7022,15 @@
 - ultraviolet disinfection lamps
 - ultraviolet lamp
 - ultraviolet lamps
+
+## synonym:saline
 - salina
 - solução salina
 - salino
 - saline
 - saline solution
 
-## synonym:pt_comment
+## synonym:racist
 - islamicists
 - islamists
 - jihadist
@@ -7063,6 +7120,8 @@
 - niggers
 - nigga
 - Nigger
+
+## synonym:offense
 - nojento
 - idiota
 - ignorante
@@ -7217,7 +7276,7 @@
 - motherfucker
 - asshole
 
-## synonym:pt_movies
+## synonym:movies
 - movies
 - film
 - films
@@ -7225,7 +7284,7 @@
 - movie
 - cinema
 
-## synonym:pt_feature
+## synonym:date
 - dia do mês
 - dia da semana
 - data
@@ -7234,6 +7293,8 @@
 - datums
 - datum
 - date
+
+## synonym:time
 - tempo
 - horas
 - hours
@@ -7241,7 +7302,7 @@
 - time
 - time of day
 
-## synonym:pt_question
+## synonym:question
 - inquéritos
 - dúvidas
 - perguntas
@@ -7258,13 +7319,15 @@
 - questions
 - inquiry
 
-## synonym:pt_country_code
+## synonym:EG
 - República Árabe do Egipto
 - República Árabe do Egito
 - Egipto
 - Egito
 - Arab Republic of Egypt
 - Egypt
+
+## synonym:EH
 - Aṣ-Ṣaḥrā’ al-Gharbīyah
 - Sáara Ocidental
 - Sara Ocidental
@@ -7272,6 +7335,8 @@
 - Sahara Occidental
 - Taneẓroft Tutrimt
 - Western Sahara
+
+## synonym:ER
 - Estado da Eritreia
 - Ertrā
 - Eritreia
@@ -7279,6 +7344,8 @@
 - Eritrea
 - Dawlat Iritriyá
 - Hagere Ertra
+
+## synonym:ES
 - Reino de Espanha
 - Reino da Espanha
 - Espanha
@@ -7289,6 +7356,8 @@
 - Kingdom of Spain
 - España
 - Spain
+
+## synonym:ET
 - República Democrática Federal da Etiópia
 - Etiópia
 - Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya
@@ -7299,6 +7368,8 @@
 - Itoophiyaa
 - Itiyoophiyaa
 - Ethiopia
+
+## synonym:FI
 - República da Finlândia
 - Finlândia
 - Republiken Finland
@@ -7306,6 +7377,8 @@
 - Republic of Finland
 - Suomi
 - Finland
+
+## synonym:FJ
 - República das Ilhas Fiji
 - Fidji
 - República das Fidji
@@ -7315,6 +7388,8 @@
 - Matanitu Tugalala o Viti
 - Republic of Fiji
 - Fiji
+
+## synonym:FK
 - Falklands
 - Ilhas Falkland
 - Islas Malvinas
@@ -7322,12 +7397,16 @@
 - Falkland
 - Malvinas
 - Falkland Islands (Malvinas)
+
+## synonym:FM
 - Micronésia
 - EFM
 - Estados Federados da Micronésia
 - Micronesia
 - FSM
 - Federated States of Micronesia
+
+## synonym:FO
 - Færeyjar
 - Ilhas Faroés
 - Ilhas Faroé
@@ -7336,16 +7415,22 @@
 - Færøerne
 - Føroyar
 - Faroe Islands
+
+## synonym:FR
 - República Francesa
 - França
 - République française
 - French Republic
 - France
+
+## synonym:GA
 - República Gabonesa
 - Gabão
 - République gabonaise
 - Gabonese Republic
 - Gabon
+
+## synonym:GB
 - Irlanda do Norte
 - Grã-Bretanha
 - Reino Unido da Grã-Bretanha e Irlanda do Norte
@@ -7357,23 +7442,31 @@
 - UK
 - United Kingdom of Great Britain and Northern Ireland
 - United Kingdom
+
+## synonym:GD
 - Island of Spice
 - Ilha das Especiarias
 - La Grenade
 - Granada
 - Gwenad
 - Grenada
+
+## synonym:GE
 - República da Geórgia
 - Geórgia
 - sakartvelos resp'ublik'a
 - Republic of Georgia
 - Sakartvelo
 - Georgia
+
+## synonym:GF
 - Guyane française
 - Guiana Francesa
 - Department of French Guiana
 - Guyane
 - French Guiana
+
+## synonym:GG
 - Bailliage de Guernesey
 - Bailiwick of Guernsey
 - Bailiado de Guernsey
@@ -7382,23 +7475,33 @@
 - Guernesey
 - Guernési
 - Guernsey
+
+## synonym:GH
 - República do Gana
 - Gana
 - Republic of Ghana
 - Ghana
+
+## synonym:GI
 - Gibraltar
+
+## synonym:GL
 - Gronelândia
 - Groelândia
 - Groenlândia
 - Grønland
 - Kalaallit Nunaat
 - Greenland
+
+## synonym:GM
 - República da Gâmbia
 - Gâmbia
 - Republic of The Gambia
 - Gámbi
 - Kambiya
 - Gambia
+
+## synonym:GN
 - Renndaandi Ginea
 - Guinea-Conakry
 - French Guinea
@@ -7406,9 +7509,13 @@
 - République de Guinée
 - Republic of Guinea
 - Guinea
+
+## synonym:GP
 - Guadalupe
 - Gwadloup
 - Guadeloupe
+
+## synonym:GQ
 - República da Guiné Equatorial
 - République de Guinée équatoriale
 - República de Guinea Ecuatorial
@@ -7417,6 +7524,8 @@
 - Guinée équatoriale
 - Guinea Ecuatorial
 - Equatorial Guinea
+
+## synonym:GR
 - Hélade
 - República Helénica
 - República Helênica
@@ -7426,6 +7535,8 @@
 - Hellas
 - Hellenic Republic
 - Greece
+
+## synonym:GS
 - Geórgia do Sul
 - Sandwich do Sul
 - Ilhas Sandwich do Sul
@@ -7436,45 +7547,63 @@
 - South Sandwich Islands
 - SGSSI
 - South Georgia and the South Sandwich Islands
+
+## synonym:GT
 - República da Guatemala
 - República de Guatemala
 - Republic of Guatemala
 - Guatemala
+
+## synonym:GU
 - Guame
 - Guão
 - Guåhån
 - Guam
+
+## synonym:GW
 - Guiné Bissau
 - Guinea Bissau
 - República da Guiné-Bissau
 - Republic of Guinea-Bissau
 - Guiné-Bissau
 - Guinea-Bissau
+
+## synonym:GY
 - República Cooperativa da Guiana
 - Guiana
 - Co-operative Republic of Guyana
 - Guyana
+
+## synonym:HK
 - Hēunggóng
 - Xiānggǎng
 - HKSAR
 - Hong Kong Special Administrative Region
 - Hong Kong
+
+## synonym:HM
 - Ilhas McDonald
 - Ilhas Heard
 - Território das Ilhas Heard e McDonald
 - Ilha Heard e as Ilhas McDonald
 - HIMI
 - Heard Island and McDonald Islands
+
+## synonym:HN
 - República das Honduras
 - República de Honduras
 - Republic of Honduras
 - Honduras
+
+## synonym:HR
 - República da Croácia
 - Croácia
 - Republika Hrvatska
 - Republic of Croatia
 - Hrvatska
 - Croatia
+
+## synonym:HT
 - República do Haiti
 - Hayti
 - Repiblik D Ayiti
@@ -7483,14 +7612,20 @@
 - Ayiti
 - Haïti
 - Haiti
+
+## synonym:HU
 - Hungria
 - Magyarország
 - Hungary
+
+## synonym:ID
 - República da Indonésia
 - Indonésia
 - Republik Indonesia
 - Republic of Indonesia
 - Indonesia
+
+## synonym:IE
 - Emerald Isle
 - Ilha Esmeralda
 - Irlanda
@@ -7498,22 +7633,30 @@
 - Airlann
 - Éire
 - Ireland
+
+## synonym:IL
 - Dawlat Isrā'īl
 - Medīnat Yisrā'el
 - Estado de Israel
 - State of Israel
 - Israel
+
+## synonym:IM
 - Ilha de Man
 - Ellan Vannin
 - Mannin
 - Mann
 - Isle of Man
+
+## synonym:IN
 - República da Índia
 - Índia
 - Bhārat Gaṇarājya
 - Republic of India
 - Bhārat
 - India
+
+## synonym:IO
 - Território Britânico do Oceano
 - Território Britânico do Índico
 - British Indian Territory
@@ -7522,6 +7665,8 @@
 - TBOI
 - BIOT
 - British Indian Ocean Territory
+
+## synonym:IQ
 - Al-Jumhuriyah Al-Iraqiyah
 - República do Iraque
 - Iraque
@@ -7529,6 +7674,8 @@
 - Republic of Iraq
 - Êraq
 - Iraq
+
+## synonym:IR
 - Pérsia
 - República Islâmica do Irão
 - República Islâmica do Irã
@@ -7537,15 +7684,21 @@
 - Jomhuri-ye Eslāmi-ye Irān
 - Persia
 - Islamic Republic of Iran
+
+## synonym:IS
 - Islândia
 - Ísland
 - Iceland
+
+## synonym:IT
 - República Italiana
 - Itália
 - Repubblica Italiana
 - Italian Republic
 - Italia
 - Italy
+
+## synonym:JE
 - Bailiado de Jersey
 - Jérsia
 - Jérsei
@@ -7553,8 +7706,12 @@
 - Bailliage de Jersey
 - Bailiwick of Jersey
 - Jersey
+
+## synonym:JM
 - Jumieka
 - Jamaica
+
+## synonym:JO
 - Reino da Jordânia
 - Reino Haxemita da Jordânia
 - Jordânia
@@ -7563,6 +7720,8 @@
 - Kingdom of Jordan
 - Hashemite Kingdom of Jordan
 - Jordan
+
+## synonym:JP
 - Estado do Japão
 - Japão
 - Nihon-koku
@@ -7570,6 +7729,8 @@
 - Nihon
 - Nippon
 - Japan
+
+## synonym:KE
 - República do Quênia
 - República do Quénia
 - Quênia
@@ -7577,6 +7738,8 @@
 - Jamhuri ya Kenya
 - Republic of Kenya
 - Kenya
+
+## synonym:KG
 - República do Quirguizistão
 - República do Quirguistão
 - República Quirguiz
@@ -7591,6 +7754,8 @@
 - Кыргыз Республикасы
 - Kyrgyz Republic
 - Kyrgyzstan
+
+## synonym:KH
 - Reino do Camboja
 - Cambodja
 - Camboja
@@ -7599,6 +7764,8 @@
 - Cambodge
 - Kampuchea
 - Cambodia
+
+## synonym:KI
 - República de Quiribáti
 - República de Quiribati
 - República de Kiribati
@@ -7607,6 +7774,8 @@
 - Ribaberiki Kiribati
 - Republic of Kiribati
 - Kiribati
+
+## synonym:KM
 - União de Comores
 - União das Comores
 - Comores
@@ -7617,6 +7786,8 @@
 - Udzima wa Komori
 - Union of the Comoros
 - Comoros
+
+## synonym:KN
 - Nevis
 - Saint Kitts
 - Federação de São Cristóvão e Névis
@@ -7625,6 +7796,8 @@
 - São Cristóvão e Névis
 - Federation of Saint Christopher and Nevis
 - Saint Kitts and Nevis
+
+## synonym:KP
 - República Popular Democrática da Coreia
 - Coreia do Norte
 - Pukchosŏn
@@ -7634,6 +7807,8 @@
 - DPRK
 - North Korea
 - Democratic People's Republic of Korea
+
+## synonym:KR
 - República da Coreia
 - Coreia do Sul
 - Daehan Minguk
@@ -7641,15 +7816,21 @@
 - Hanguk
 - South Korea
 - Republic of Korea
+
+## synonym:KW
 - Estado do Kuwait
 - Dawlat al-Kuwait
 - State of Kuwait
 - al-Kuwait
 - Kuwait
+
+## synonym:KY
 - Ilhas Caimão
 - Ilhas Cayman
 - Ilhas Caimã
 - Cayman Islands
+
+## synonym:KZ
 - República do Cazaquistão
 - Qazaqstan
 - Cazaquistão
@@ -7659,11 +7840,15 @@
 - Қазақстан Республикасы
 - Republic of Kazakhstan
 - Kazakhstan
+
+## synonym:LA
 - République démocratique populaire lao
 - Saþalanalat Paxaþipatai Paxaxōn Lao
 - Lāo
 - Laos
 - Lao People's Democratic Republic
+
+## synonym:LB
 - República do Líbano
 - Liban
 - Líbano
@@ -7672,16 +7857,22 @@
 - Lebanese Republic
 - Lubnān
 - Lebanon
+
+## synonym:LC
 - Santa Lúcia
 - Iyonola
 - Sainte-Lucie
 - Saint Lucia
+
+## synonym:LI
 - Principado de Liechtenstein
 - Principado do Liechtenstein
 - Listenstaine
 - Fürstentum Liechtenstein
 - Principality of Liechtenstein
 - Liechtenstein
+
+## synonym:LK
 - Taprobana
 - Ceilão
 - República Democrática Socialista do Sri Lanka
@@ -7693,10 +7884,14 @@
 - Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu
 - Srī Lankā prajātāntrika samājavādī janarajaya
 - Sri Lanka
+
+## synonym:LR
 - República da Libéria
 - Libéria
 - Republic of Liberia
 - Liberia
+
+## synonym:LS
 - Bassutolândia
 - Reino do Lessoto
 - Reino do Lesoto
@@ -7705,12 +7900,16 @@
 - Muso oa Lesotho
 - Kingdom of Lesotho
 - Lesotho
+
+## synonym:LT
 - República da Lituânia
 - Lituânia
 - Lietuvos Respublika
 - Republic of Lithuania
 - Lietuva
 - Lithuania
+
+## synonym:LU
 - Grão-Ducado de Luxemburgo
 - Grão-Ducado do Luxemburgo
 - Luxemburgo
@@ -7721,6 +7920,8 @@
 - Luxemburg
 - Lëtzebuerg
 - Luxembourg
+
+## synonym:LV
 - República da Letônia
 - Letônia
 - Letónia
@@ -7730,12 +7931,16 @@
 - Lețmō
 - Latvija
 - Latvia
+
+## synonym:LY
 - Estado da Líbia
 - Líbia
 - Dawlat Lībiyā
 - State of Libya
 - Lībiyā
 - Libya
+
+## synonym:MA
 - Reino de Marrocos
 - Murakuc
 - Amerruk
@@ -7748,6 +7953,8 @@
 - Maroc
 - al-maġhrib
 - Morocco
+
+## synonym:MC
 - Principado de Mônaco
 - Principado do Mónaco
 - Mónaco
@@ -7757,20 +7964,28 @@
 - Principauté de Monaco
 - Principality of Monaco
 - Monaco
+
+## synonym:MD
 - República da Moldova
 - República da Moldávia
 - Moldávia
 - Republica Moldova
 - Moldova
 - Republic of Moldova
+
+## synonym:ME
 - Црна Гора
 - Crna Gora
 - Montenegro
+
+## synonym:MF
 - São Martim
 - São Martinho parte francesa
 - Sint Maarten
 - Saint-Martin
 - Saint Martin (French part)
+
+## synonym:MG
 - República Malgaxe
 - República de Madagascar
 - República de Madagáscar
@@ -7781,11 +7996,15 @@
 - Republic of Madagascar
 - Madagasikara
 - Madagascar
+
+## synonym:MH
 - República das Ilhas Marshall
 - Ilhas Marshall
 - Aolepān Aorōkin Ṃajeḷ
 - Republic of the Marshall Islands
 - Marshall Islands
+
+## synonym:MK
 - Macedónia
 - Macedônia
 - República da Macedónia do Norte
@@ -7799,6 +8018,8 @@
 - Macedonia
 - North Macedonia
 - the Former Yugoslav Republic of Macedonia
+
+## synonym:ML
 - República do Mali
 - Máli
 - Renndaandi Maali
@@ -7806,6 +8027,8 @@
 - République du Mali
 - Republic of Mali
 - Mali
+
+## synonym:MM
 - República da União de Myanmar
 - Birmânia
 - Nainngandaw
@@ -7813,11 +8036,15 @@
 - Republic of the Union of Myanmar
 - Burma
 - Myanmar
+
+## synonym:MN
 - Mongolian Nation
 - Mongol Uls
 - mongol nation
 - nação mongol
 - Mongolia
+
+## synonym:MO
 - Região Administrativa de Macau
 - Região Administrativa Especial de Macau
 - Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui
@@ -7825,6 +8052,8 @@
 - Macao Special Administrative Region
 - Macau
 - Macao
+
+## synonym:MP
 - Comunidade das Ilhas Marianas do Norte
 - Ilhas Marianas do Norte
 - Ilhas Marianas Setentrionais
@@ -7835,10 +8064,14 @@
 - CNMI
 - Commonwealth of the Northern Mariana Islands
 - Northern Mariana Islands
+
+## synonym:MQ
 - Martinica
 - Matinik
 - Matnik
 - Martinique
+
+## synonym:MR
 - República Islâmica da Mauritânia
 - Mauritânia
 - al-Jumhūrīyah al-Islāmīyah al-Mūrītānīyah
@@ -7852,15 +8085,21 @@
 - Mauritanie
 - Mūrītānyā
 - Mauritania
+
+## synonym:MS
 - Emerald Isle of the Caribbean
 - The Emerald Isle of the Caribbean
 - Ilha Esmeralda das Caraíbas
 - Monserrate
 - Montserrat
+
+## synonym:MT
 - República de Malta
 - Repubblika ta' Malta
 - Republic of Malta
 - Malta
+
+## synonym:MU
 - République de Maurice
 - República de Maurício
 - República da Maurícia
@@ -7871,13 +8110,18 @@
 - Moris
 - Maurice
 - Mauritius
+
+## synonym:MV
 - República das Maldivas
 - Maldivas
 - Dhivehi Raajje
 - Dhivehi Raajjeyge Jumhooriyyaa
 - Republic of Maldives
 - Maldives
+
+## synonym:MW
 - Charu cha Malaŵi
+- Dziko la Malaŵi
 - Dziko la Malaŵi
 - Republic of Malawi
 - Malawi
@@ -7886,6 +8130,8 @@
 - Malaui
 - Maláui
 - Nyasaland
+
+## synonym:MX
 - Mexican United States
 - EUM
 - Estados Unidos Mexicanos
@@ -7893,8 +8139,12 @@
 - Mēxihco
 - México
 - Mexico
+
+## synonym:MY
 - Malásia
 - Malaysia
+
+## synonym:MZ
 - Muzambhiki
 - Msumbiji
 - Mozambiki
@@ -7902,6 +8152,8 @@
 - Moçambique
 - Republic of Mozambique
 - Mozambique
+
+## synonym:NA
 - República da Namíbia
 - Namibia ye Lukuluhile
 - Rephaboliki ya Namibia
@@ -7912,16 +8164,22 @@
 - Republiek van Namibië
 - Republic of Namibia
 - Namibia
+
+## synonym:NC
 - Nova Caledônia
 - Nova Caledónia
 - Nouvelle-Calédonie
 - New Caledonia
+
+## synonym:NE
 - Níger
 - República do Níger
 - Republic of the Niger
 - République du Niger
 - the Niger
 - Niger
+
+## synonym:NF
 - Território da Ilha Norfolque
 - Território da Ilha Norfolk
 - ilha Norfolque
@@ -7930,6 +8188,8 @@
 - Territory of Norfolk Island
 - Norf'k Ailen
 - Norfolk Island
+
+## synonym:NG
 - Nigéria
 - República Federal da Nigéria
 - Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà
@@ -7937,17 +8197,23 @@
 - Jamhuriyar Taraiyar Najeriya
 - Federal Republic of Nigeria
 - Nigeria
+
+## synonym:NI
 - República da Nicarágua
 - Nicarágua
 - República de Nicaragua
 - Republic of Nicaragua
 - Nicaragua
+
+## synonym:NL
 - Reino dos Países Baixos
 - Holanda
 - Países Baixos
 - Kingdom of the Netherlands
 - Nederland
 - Netherlands
+
+## synonym:NO
 - Reino da Noruega
 - Noruega
 - Nöörje
@@ -7962,10 +8228,14 @@
 - Kongeriket Norge
 - Kingdom of Norway
 - Norway
+
+## synonym:NP
 - República Democrática Federal do Nepal
 - Saṅghīya Lokatāntrik Gaṇatantra Nepāl
 - Federal Democratic Republic of Nepal
 - Nepal
+
+## synonym:NR
 - Ilha Aprazível
 - Naoero
 - República de Nauru
@@ -7973,12 +8243,18 @@
 - Repubrikin Naoero
 - Republic of Nauru
 - Nauru
+
+## synonym:NU
 - Niuê
 - Niuē
 - Niue
+
+## synonym:NZ
 - Nova Zelândia
 - Aotearoa
 - New Zealand
+
+## synonym:OM
 - Saltānat 'Umān
 - Sultanato de Omã
 - Omão
@@ -7986,22 +8262,30 @@
 - Sultanate of Oman
 - Salṭanat ʻUmān
 - Oman
+
+## synonym:PA
 - República del Panamá
 - República do Panamá
 - República de Panamá
 - Republic of Panama
 - Panamá
 - Panama
+
+## synonym:PE
 - Piruw Suyu
 - República del Perú
 - Republic of Peru
 - Piruw Republika
 - Perú
 - Peru
+
+## synonym:PF
 - Polinésia Francesa
 - Pōrīnetia Farāni
 - Polynésie française
 - French Polynesia
+
+## synonym:PG
 - Papua Niu Gini
 - Papua Niugini
 - Papua Nova Guiné
@@ -8011,6 +8295,8 @@
 - Independent State of Papua New Guinea
 - PNG
 - Papua New Guinea
+
+## synonym:PH
 - Repúbliká ng̃ Pilipinas
 - República das Filipinas
 - Republika ng Pilipinas
@@ -8018,6 +8304,8 @@
 - Filipinas
 - Pilipinas
 - Philippines
+
+## synonym:PK
 - República Islâmica do Paquistão
 - Islami Jamahuriat Pakistan
 - Pākistān
@@ -8025,6 +8313,8 @@
 - Islāmī Jumhūriyah Pākistān
 - Islamic Republic of Pakistan
 - Pakistan
+
+## synonym:PL
 - República da Polónia
 - Polónia
 - Polônia
@@ -8032,6 +8322,8 @@
 - Republic of Poland
 - Polska
 - Poland
+
+## synonym:PM
 - Coletividade de Ultramar de São Pedro e Miquelão
 - Saint-Pierre e Miquelon
 - São Pedro e Miquelon
@@ -8040,6 +8332,8 @@
 - Overseas Collectivity of Saint Pierre and Miquelon
 - Saint-Pierre-et-Miquelon
 - Saint Pierre and Miquelon
+
+## synonym:PN
 - Grupo de Ilhas Pitcairn
 - Ilhas Pitcairn, Henderson, Ducie e Oeno
 - Ilhas Picárnia
@@ -8048,6 +8342,8 @@
 - Pitkern Ailen
 - Pitcairn Islands
 - Pitcairn
+
+## synonym:PR
 - Estado Livre Associado de Porto Rico
 - Free Associated State of Puerto Rico
 - Estado Libre Asociado de Puerto Rico
@@ -8055,14 +8351,20 @@
 - Porto Rico
 - Borinquen
 - Puerto Rico
+
+## synonym:PS
 - Estado da Palestina
 - Filasṭīn
 - Palestine
 - Dawlat Filasṭīn
 - State of Palestine
+
+## synonym:PT
 - República Portuguesa
 - Portuguese Republic
 - Portugal
+
+## synonym:PW
 - República de Palau
 - Beluu er a Belau
 - Republic of Palau
@@ -8070,12 +8372,16 @@
 - Palaos
 - Belau
 - Palau
+
+## synonym:PY
 - Paraguai
 - Paraguái
 - Tetã Paraguái
 - República del Paraguay
 - Republic of Paraguay
 - Paraguay
+
+## synonym:QA
 - Estado do Qatar
 - Estado do Catar
 - Catar
@@ -8083,14 +8389,20 @@
 - Dawlat Qaṭar
 - State of Qatar
 - Qatar
+
+## synonym:RE
 - Reunião
 - Île Bourbon
 - La Réunion
 - Réunion
+
+## synonym:RO
 - Roménia
 - Romênia
 - România
 - Romania
+
+## synonym:RS
 - República da Sérvia
 - Sérvia
 - Republika Srbija
@@ -8099,6 +8411,8 @@
 - Srbija
 - Србија
 - Serbia
+
+## synonym:RU
 - Federação Russa
 - Rússia
 - Rossiyskaya Federatsiya
@@ -8107,6 +8421,8 @@
 - Росси́я
 - Russia
 - Russian Federation
+
+## synonym:RW
 - República do Ruanda
 - República de Ruanda
 - Ruanda
@@ -8116,15 +8432,21 @@
 - Repubulika y'u Rwanda
 - Republic of Rwanda
 - Rwanda
+
+## synonym:SA
 - Reino da Arábia Saudita
 - al-Mamlaka al-ʻArabiyya as-Suʻūdiyya
 - as-Su’ūdiyya
 - Arábia Saudita
 - Kingdom of Saudi Arabia
 - Saudi Arabia
+
+## synonym:SB
 - Ilhas Salomão
 - Islas Salomón
 - Solomon Islands
+
+## synonym:SC
 - República das Seychelles
 - República das Seicheles ou Seychelles
 - Seicheles
@@ -8133,18 +8455,24 @@
 - République des Seychelles
 - Republic of Seychelles
 - Seychelles
+
+## synonym:SD
 - República do Sudão
 - Sudão
 - Jumhūriyyat as-Sūdān
 - as-Sūdān
 - Republic of the Sudan
 - Sudan
+
+## synonym:SE
 - Reino da Suécia
 - Suécia
 - Konungariket Sverige
 - Kingdom of Sweden
 - Sverige
 - Sweden
+
+## synonym:SG
 - Republik Singapura
 - República de Singapura
 - Chiṅkappūr
@@ -8153,6 +8481,8 @@
 - Singapura
 - Republic of Singapore
 - Singapore
+
+## synonym:SH
 - Tristão da Cunha
 - Ascensão
 - Santa Helena
@@ -8161,6 +8491,8 @@
 - Ascension Island
 - Saint Helena
 - Saint Helena, Ascension and Tristan da Cunha
+
+## synonym:SI
 - República da Eslovênia
 - República da Eslovénia
 - Eslovênia
@@ -8169,23 +8501,31 @@
 - Republic of Slovenia
 - Slovenija
 - Slovenia
+
+## synonym:SJ
 - Jan Mayen
 - Svalbard
 - Svalbard e Jan Mayen
 - Svalbard and Jan Mayen Islands
 - Svalbard og Jan Mayen
 - Svalbard and Jan Mayen
+
+## synonym:SK
 - República Eslovaca
 - Eslováquia
 - Slovenská republika
 - Slovak Republic
 - Slovensko
 - Slovakia
+
+## synonym:SL
 - República da Serra Leoa
 - Serra Leoa
 - Salone
 - Republic of Sierra Leone
 - Sierra Leone
+
+## synonym:SM
 - São Marino
 - São Marinho
 - Sereníssima República de San Marino
@@ -8195,6 +8535,8 @@
 - Repubblica di San Marino
 - Republic of San Marino
 - San Marino
+
+## synonym:SN
 - República do Senegal
 - Renndaandi Senegal
 - Réewum Senegaal
@@ -8202,6 +8544,8 @@
 - Republic of Senegal
 - Sénégal
 - Senegal
+
+## synonym:SO
 - República Federal da Somália
 - Somália
 - Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya
@@ -8210,36 +8554,50 @@
 - aṣ-Ṣūmāl
 - Soomaaliya
 - Somalia
+
+## synonym:SR
 - República do Suriname
 - Republiek Suriname
 - Republic of Suriname
 - Surinam
 - Suriname
+
+## synonym:SS
 - República do Sudão do Sul
 - Sudão Meridional
 - Sudão do Sul
 - Paguot Thudä
 - Republic of South Sudan
 - South Sudan
+
+## synonym:ST
 - São Tomé e Príncipe
 - República Democrática de São Tomé e Príncipe
 - Democratic Republic of São Tomé and Príncipe
 - Saint Thomas and Prince
 - Sao Tome and Principe
+
+## synonym:SV
 - República do Salvador
 - Salvador
 - República de El Salvador
 - Republic of El Salvador
 - El Salvador
+
+## synonym:SX
 - Sint Maarten
 - São Martinho paises baixos
 - Sint Maarten (Dutch part)
+
+## synonym:SY
 - República Árabe Síria
 - Síria
 - al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah
 - Sūriyā
 - Syria
 - Syrian Arab Republic
+
+## synonym:AD
 - Principado dos Vales de Andorra
 - Principado de Andorra
 - Principat de les Valls d'Andorra
@@ -8247,6 +8605,8 @@
 - Principat d'Andorra
 - Principality of Andorra
 - Andorra
+
+## synonym:TC
 - Turcas
 - Turcas e Caicos
 - Ilhas Turcas e Caicos
@@ -8257,6 +8617,8 @@
 - Caicos Islands
 - TCI
 - Turks and Caicos Islands
+
+## synonym:TD
 - República do Chade
 - Tchad
 - Tchade
@@ -8266,6 +8628,8 @@
 - Republic of Chad
 - Tshād
 - Chad
+
+## synonym:TF
 - Terres australes françaises
 - French Southern Lands
 - TOM
@@ -8274,10 +8638,14 @@
 - Terres australes et antarctiques françaises
 - French Southern and Antarctic Lands
 - French Southern Territories
+
+## synonym:TG
 - República Togolesa
 - République togolaise
 - Togolese Republic
 - Togo
+
+## synonym:TH
 - Sião
 - Reino da Tailândia
 - Tailândia
@@ -8285,6 +8653,8 @@
 - Siam
 - Kingdom of Thailand
 - Thailand
+
+## synonym:TJ
 - República do Tajiquistão
 - Tojikiston
 - Tadjiquistão
@@ -8292,10 +8662,14 @@
 - Jumhurii Tojikiston
 - Republic of Tajikistan
 - Tajikistan
+
+## synonym:TK
 - Toquelau
 - Tokelau Islands
 - Union Islands
 - Tokelau
+
+## synonym:TL
 - East Timor
 - Democratic Republic of Timor-Leste
 - Repúblika Demokrátika Timór-Leste
@@ -8303,6 +8677,8 @@
 - Timor Leste
 - República Democrática de Timor-Leste
 - Timor-Leste
+
+## synonym:TM
 - República do Turcomenistão
 - Turcomênia
 - Turcomenistão
@@ -8311,6 +8687,8 @@
 - Republic of Turkmenistan
 - Türkmenistan
 - Turkmenistan
+
+## synonym:TN
 - República Tunisina
 - Tunisie
 - Tūnis
@@ -8319,16 +8697,22 @@
 - al-Jumhūrīyah at-Tūnisīyah
 - Republic of Tunisia
 - Tunisia
+
+## synonym:TO
 - Reino de Tonga
 - Puleʻanga Fakatuʻi ʻo Tonga
 - Kingdom of Tonga
 - Tonga
+
+## synonym:TR
 - República da Turquia
 - Turquia
 - Türkiye Cumhuriyeti
 - Republic of Turkey
 - Türkiye
 - Turkey
+
+## synonym:TT
 - Trinidade
 - República de Trindade e Tobago
 - Trinidad e Tobago
@@ -8338,9 +8722,13 @@
 - Trinidad
 - Republic of Trinidad and Tobago
 - Trinidad and Tobago
+
+## synonym:TV
 - Ilhas Ellice
 - Ellice Islands
 - Tuvalu
+
+## synonym:TW
 - Táiwān shěng
 - Província de Taiwan
 - Taiwan, China
@@ -8349,20 +8737,28 @@
 - Taiwan Region
 - Taiwan Province
 - Taiwan, Province of China
+
+## synonym:TZ
 - República Unida da Tanzânia
 - Tanzânia
 - Jamhuri ya Muungano wa Tanzania
 - Tanzania
 - United Republic of Tanzania
+
+## synonym:UA
 - Ucrânia
 - Ukrayina
 - Ukraine
+
+## synonym:UG
 - República do Uganda
 - República de Uganda
 - Eggwanga Yuganda
 - Jamhuri ya Uganda
 - Republic of Uganda
 - Uganda
+
+## synonym:UM
 - Ilhas Menores Afastadas dos Estados Unidos
 - Ilhas Menores Distantes dos Estados Unidos
 - Ilha Wake
@@ -8384,6 +8780,8 @@
 - Howland Island
 - Baker Island
 - United States Minor Outlying Islands
+
+## synonym:US
 - Estados Unidos
 - Estados Unidos da América
 - America
@@ -8392,11 +8790,15 @@
 - USA
 - United States of America
 - United States
+
+## synonym:UY
 - Uruguai
 - República Oriental do Uruguai
 - República Oriental del Uruguay
 - Oriental Republic of Uruguay
 - Uruguay
+
+## synonym:UZ
 - República do Uzbequistão
 - Usbequistão
 - Uzbequistão
@@ -8404,6 +8806,8 @@
 - Republic of Uzbekistan
 - Oʻzbekiston
 - Uzbekistan
+
+## synonym:VA
 - Status Civitatis Vaticanæ
 - Civitas Vaticana
 - Stato della Città del Vaticano
@@ -8418,17 +8822,25 @@
 - Santa Sede
 - Sancta Sedes
 - Holy See (Vatican City State)
+
+## synonym:VC
 - São Vicente
 - São Vicente e Granadinas
 - Saint Vincent
 - Saint Vincent and the Grenadines
+
+## synonym:VE
 - República Bolivariana da Venezuela
 - República Bolivariana de Venezuela
 - Venezuela
 - Bolivarian Republic of Venezuela
+
+## synonym:VG
 - Ilhas Virgens Britânicas
 - BVI
 - British Virgin Islands
+
+## synonym:VI
 - Virgin Islands of the United States
 - American Virgin Islands
 - USVI
@@ -8436,6 +8848,8 @@
 - Ilhas Virgens dos Estados Unidos
 - Ilhas Virgens Americanas
 - U.S. Virgin Islands
+
+## synonym:VN
 - República Socialista do Vietname
 - República Socialista do Vietnã
 - Vietnã
@@ -8443,12 +8857,16 @@
 - Socialist Republic of Vietnam
 - Vietnam
 - Viet Nam
+
+## synonym:VU
 - República de Vanuatu
 - Gloriosa República de Vanuatu
 - République de Vanuatu
 - Ripablik blong Vanuatu
 - Republic of Vanuatu
 - Vanuatu
+
+## synonym:WF
 - Território das Ilhas Wallis e Futuna
 - Wallis e Futuna
 - Uvea mo Futuna
@@ -8456,6 +8874,8 @@
 - Wallis-et-Futuna
 - Territory of the Wallis and Futuna Islands
 - Wallis and Futuna
+
+## synonym:WS
 - Samoa Ocidental
 - Estado Independente da Samoa
 - Estado Independente de Samoa
@@ -8464,6 +8884,8 @@
 - Malo Saʻoloto Tutoʻatasi o Sāmoa
 - Independent State of Samoa
 - Samoa
+
+## synonym:YE
 - República do Iêmen
 - República do Iémen
 - Iêmen
@@ -8473,6 +8895,8 @@
 - Yaman
 - al-Jumhūrīyah al-Yamanīyah
 - Yemen
+
+## synonym:YT
 - Departamento de Maiote
 - Maiote
 - Département de Mayotte
@@ -8480,6 +8904,8 @@
 - Mahori
 - Maore
 - Mayotte
+
+## synonym:ZA
 - República da África do Sul
 - África do Sul
 - iRiphabliki yeSewula Afrika
@@ -8495,12 +8921,16 @@
 - RSA
 - Republic of South Africa
 - South Africa
+
+## synonym:ZM
 - República da Zâmbia
 - Zâmbia
 - Cisi ca Zambia
 - Dziko la Zambia
 - Republic of Zambia
 - Zambia
+
+## synonym:ZW
 - República do Zimbabwe
 - Zimbaué
 - Zimbabué
@@ -8518,12 +8948,16 @@
 - Rhodesia
 - Republic of Zimbabwe
 - Zimbabwe
+
+## synonym:SZ
 - Reino de Essuatíni
 - Essuatíni
 - Umbuso weSwatini
 - Kingdom of Eswatini
 - Eswatini
 - Swaziland
+
+## synonym:AE
 - Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah
 - EAU
 - Emirados Árabes Unidos
@@ -8531,58 +8965,84 @@
 - Emirates
 - al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah
 - United Arab Emirates
+
+## synonym:AF
 - Republica do Afeganistão
 - Afeganistão
 - República Islâmica do Afeganistão
 - Republic of Afghanistan
 - Islamic Republic of Afghanistan
 - Afghanistan
+
+## synonym:AG
 - Antígua
 - Antiga e Barbuda
 - Antígua e Barbuda
 - Barbuda
 - Antigua
 - Antigua and Barbuda
+
+## synonym:AI
 - Anguila
 - Island of Anguilla
 - Anguilla
+
+## synonym:AL
 - Republica da Albânia
 - Albânia
 - Republic of Albania
 - Albania
+
+## synonym:AM
 - República da Arménia
 - Armênia
 - Arménia
 - Republic of Armenia
 - Armenia
+
+## synonym:AO
 - República de Angola
 - Republic of Angola
 - Angola
+
+## synonym:AQ
 - Antártica
 - Antártida
 - Antarctica
+
+## synonym:AR
 - Republic of Argentina
 - República da Argentina
 - República Argentina
 - Argentine Republic
 - Argentina
+
+## synonym:AS
 - Tutuila
 - Sāmoa Amelika
 - Amelika Sāmoa
 - Amerika Sāmoa
 - Samoa Americana
 - American Samoa
+
+## synonym:AT
 - República da Áustria
 - Áustria
 - Republik Österreich
 - Österreich
 - Republic of Austria
 - Austria
+
+## synonym:AU
 - Comunidade da Austrália
 - Austrália
 - Commonwealth of Australia
 - Australia
+
+## synonym:AW
 - Aruba
+
+## synonym:AX
 - Alandia
 - Arquipélago da Aland
 - Arquipélago da Åland
@@ -8593,10 +9053,14 @@
 - Fasta Åland
 - Åland
 - Åland Islands
+
+## synonym:AZ
 - República do Azerbaijão
 - Azerbaijão
 - Republic of Azerbaijan
 - Azerbaijan
+
+## synonym:BA
 - Bósnia
 - Bósnia e Herzegovina
 - Bosna i Hercegovina
@@ -8605,7 +9069,11 @@
 - B&H
 - BiH
 - Bosnia and Herzegovina
+
+## synonym:BB
 - Barbados
+
+## synonym:BD
 - República Popular do Bangladesh
 - Nação Bengali
 - Bangladeche
@@ -8613,6 +9081,8 @@
 - People's Republic of Bangladesh
 - country of Bengal
 - Bangladesh
+
+## synonym:BE
 - Belgien
 - Belgique
 - België
@@ -8623,11 +9093,15 @@
 - Königreich Belgien
 - Kingdom of Belgium
 - Belgium
+
+## synonym:BF
 - Burquina
 - Burquina Fasso
 - Burquina Faso
 - Republic of Burkina Faso
 - Burkina Faso
+
+## synonym:BG
 - Republika Bǎlgarija
 - República da Bulgária
 - Bulgária
@@ -8635,6 +9109,8 @@
 - Republic of Bulgaria
 - Balgariya
 - Bulgaria
+
+## synonym:BH
 - Reino do Bareine
 - Reino do Barein
 - Reino do Barém
@@ -8647,18 +9123,24 @@
 - Kingdom of Bahrain
 - Al-Baḥrayn
 - Bahrain
+
+## synonym:BI
 - República do Burúndi
 - Burúndi
 - République du Burundi
 - Republika y'Uburundi
 - Republic of Burundi
 - Burundi
+
+## synonym:BJ
 - República do Benim
 - Benim
 - Bénin
 - République du Bénin
 - Republic of Benin
 - Benin
+
+## synonym:BL
 - Coletividade de São Bartolomeu
 - São Bartolomeu
 - St. Barts
@@ -8667,19 +9149,27 @@
 - Collectivité territoriale de Saint-Barthélemy
 - Saint-Barthélemy
 - Saint Barthélemy
+
+## synonym:BM
 - Bermudas
 - Ilhas Bermudas
 - Islands of Bermuda
 - Bermuda
+
+## synonym:BN
 - Nation of Brunei, the Abode of Peace
 - Negara Brunei Darussalam
 - Nation of Brunei
 - Brunei
 - Brunei Darussalam
+
+## synonym:BO
 - Bolívia
 - Estado Plurinacional de Bolivia
 - Bolivia
 - Plurinational State of Bolivia
+
+## synonym:BQ
 - Santo Eustáquio
 - Caraíbas Neerlandesas
 - Países Baixos Caribenhos
@@ -8690,30 +9180,42 @@
 - Sint Eustatius
 - Bonaire
 - Bonaire, Sint Eustatius and Saba
+
+## synonym:BR
 - República Federal do Brasil
 - República Federativa do Brasil
 - Federative Republic of Brazil
 - Brasil
 - Brazil
+
+## synonym:BS
 - Comunidade das Bahamas
 - Baamas
 - Commonwealth of The Bahamas
 - Bahamas
+
+## synonym:BT
 - Reino do Butão
 - Butão
 - Druk Gyal Khap
 - Kingdom of Bhutan
 - Bhutan
+
+## synonym:BV
 - Ilha Bouvet
 - Bouvet-øya
 - Bouvetøya
 - Bouvet Island
+
+## synonym:BW
 - República do Botsuana
 - República do Botswana
 - Botsuana
 - Lefatshe la Botswana
 - Republic of Botswana
 - Botswana
+
+## synonym:BY
 - República da Bielorrússia
 - República da Belarus
 - Bielorrússia
@@ -8721,9 +9223,15 @@
 - Belorussia
 - Republic of Belarus
 - Belarus
+
+## synonym:BZ
 - Belize
+
+## synonym:CA
 - Canadá
 - Canada
+
+## synonym:CC
 - Pulu Kokos Keeling
 - Ilhas Cocos Keeling
 - Ilhas Cocos (Keeling)
@@ -8735,6 +9243,8 @@
 - Territory of Cocos (Keeling) Islands
 - Cocos Keeling Islands
 - Cocos (Keeling) Islands
+
+## synonym:CD
 - Congo-Quinxassa
 - Congo R.D.
 - RD Congo
@@ -8751,6 +9261,8 @@
 - République démocratique du Congo
 - Democratic Republic of the Congo
 - The Democratic Republic of the Congo
+
+## synonym:CF
 - República Centro Africana
 - República da África Central
 - República da África-Central
@@ -8759,6 +9271,8 @@
 - Ködörösêse tî Bêafrîka
 - République centrafricaine
 - Central African Republic
+
+## synonym:CG
 - RotC
 - Congo Republic
 - Congo Brazzaville
@@ -8767,6 +9281,8 @@
 - Repubilika ya Kôngo
 - République du Congo
 - Congo
+
+## synonym:CH
 - Confederação Suíça
 - Svizra
 - Svizzera
@@ -8782,6 +9298,8 @@
 - Schweizerische Eidgenossenschaft
 - Swiss Confederation
 - Switzerland
+
+## synonym:CI
 - República da Costa do Marfim
 - Costa do Marfim
 - République de Côte d'Ivoire
@@ -8789,9 +9307,13 @@
 - The Ivory Coast
 - Ivory Coast
 - Côte d'Ivoire
+
+## synonym:CK
 - Ilhas Cook
 - Kūki 'Āirani
 - Cook Islands
+
+## synonym:CL
 - Repūvirika o Tire
 - Chili Ripuwlika
 - Chili Suyu
@@ -8799,6 +9321,8 @@
 - República de Chile
 - Republic of Chile
 - Chile
+
+## synonym:CM
 - República do Cameroun
 - República dos Camarões
 - Camarões
@@ -8807,29 +9331,41 @@
 - Republic of Cameroon
 - Cameroun
 - Cameroon
+
+## synonym:CN
 - RPC
 - República Popular da China
 - Zhōnghuá Rénmín Gònghéguó
 - PRC
 - People's Republic of China
 - China
+
+## synonym:CO
 - República da Colômbia
 - Colômbia
 - República de Colombia
 - Republic of Colombia
 - Colombia
+
+## synonym:CR
 - República da Costa Rica
 - República de Costa Rica
 - Republic of Costa Rica
 - Costa Rica
+
+## synonym:CU
 - República de Cuba
 - Republic of Cuba
 - Cuba
+
+## synonym:CV
 - Repúblika di Kabu Verdi
 - República de Cabo Verde
 - Republic of Cabo Verde
 - Cabo Verde
 - Cape Verde
+
+## synonym:CW
 - Curaçau
 - Country of Curaçao
 - Teritorio Insular di Kòrsou
@@ -8839,6 +9375,8 @@
 - Land Curaçao
 - Kòrsou
 - Curaçao
+
+## synonym:CX
 - Território da Ilha Natal
 - Território da Ilha do Natal
 - Território da Ilha Christmas
@@ -8847,6 +9385,8 @@
 - Ilha Christmas
 - Territory of Christmas Island
 - Christmas Island
+
+## synonym:CY
 - Kypriakí Dimokratía
 - República de Chipre
 - Kýpros
@@ -8858,6 +9398,8 @@
 - Kıbrıs
 - Κύπρος
 - Cyprus
+
+## synonym:CZ
 - República Tcheca
 - República Checa
 - Tchéquia
@@ -8866,6 +9408,8 @@
 - Czechia
 - Česká republika
 - Czech Republic
+
+## synonym:DE
 - República Federal da Alemã
 - República Federal da Alemanha
 - Alemanha
@@ -8873,6 +9417,8 @@
 - Federal Republic of Germany
 - Deutschland
 - Germany
+
+## synonym:DJ
 - República do Djibuti
 - Jibuti
 - Djibuti
@@ -8884,25 +9430,35 @@
 - Jībūtī
 - Yibuuti
 - Djibouti
+
+## synonym:DK
 - Reino da Dinamarca
 - Dinamarca
 - Kongeriget Danmark
 - Kingdom of Denmark
 - Danmark
 - Denmark
+
+## synonym:DM
 - Comunidade da Dominica
 - Domínica
 - Commonwealth of Dominica
 - Dominique
 - Dominica
+
+## synonym:DO
 - República Dominicana
 - Dominican Republic
+
+## synonym:DZ
 - Republica Democrática da Argélia
 - Republica da Argélia
 - Argélia
 - Republic of Algeria
 - Democratic Republic of Algeria
 - Algeria
+
+## synonym:EC
 - República do Equador
 - Equador
 - Ikwayur Runaq Imayka
@@ -8914,6 +9470,8 @@
 - Ekuatur
 - Ikwayur
 - Ecuador
+
+## synonym:EE
 - República da Estônia
 - República da Estónia
 - Estônia
@@ -8923,14 +9481,18 @@
 - Eesti
 - Estonia
 
-## synonym:pt_covid
+## synonym:influenza
 - influenza
 - gripe
+
+## synonym:prevention
 - prevenção
 - prevenir
 - proteção
 - proteger
 - protecção
+
+## synonym:spread
 - propagação
 - transmissão
 - propaga
@@ -8945,6 +9507,8 @@
 - contraida
 - transmitido
 - transmitida
+
+## synonym:COVID
 - COVID
 - COVID-19
 - SARS-CoV-2
@@ -8962,13 +9526,13 @@
 - SARS-CoV2
 - SARSCoV-2
 
-## synonym:pt_quantity
+## synonym:number
 - quantidade
 - número
 - number
 - quantity
 
-## synonym:pt_teach
+## synonym:teach
 - tutoring
 - coached
 - trainings
@@ -8987,22 +9551,28 @@
 - coach
 - teach
 
-## synonym:pt_social_media
+## synonym:facebook
 - facebook
 - face book
+
+## synonym:linkedin
 - linkd in
 - linkdin
 - linkedin
 - linked in
+
+## synonym:instagram
 - ig
 - insta
 - insta gram
 - instragram
+
+## synonym:social media
 - socialmedia
 - social plattform
 - social media
 
-## synonym:pt_name
+## synonym:firstname
 - primeiro nome
 - nome
 - given name
@@ -9012,6 +9582,8 @@
 - first name
 - firstname
 - name
+
+## synonym:surname
 - último nome
 - nome de família
 - apelido
@@ -9022,7 +9594,7 @@
 - last-name
 - family-name
 
-## synonym:pt_cancel
+## synonym:cancel
 - cancelar
 - stop
 - anular
@@ -9033,7 +9605,7 @@
 - abortar
 - revogar
 
-## synonym:pt_sex
+## synonym:sex
 - sex
 - sexual
 - virginity
@@ -9076,18 +9648,24 @@
 - pussies
 - vagina
 
-## synonym:pt_symptoms
+## synonym:cough
 - tosse
+
+## synonym:runny_nose
 - corrimento nasal
 - nariz entupido
 - nariz com ranho
 - corrimento do nariz
 - muco nasal
 - corrimento de muco do nariz
+
+## synonym:sore_throat
 - dor de garganta
 - dor na garganta
 - garganta dorida
 - garganta com dor
+
+## synonym:breathing_difficulty
 - dificuldade respiratória
 - problemas respiratórios
 - falta de ar
@@ -9098,13 +9676,15 @@
 - dificuldade em inspirar
 - dificuldade em obter ar
 - problema em obter ar
+
+## synonym:fever
 - febre
 - pirexia
 - hipertermia
 - temperatura elevada
 - temperatura alta
 
-## synonym:pt_pronouns
+## synonym:you
 - Cosibot
 - Helena
 - ti
@@ -9124,6 +9704,8 @@
 - ya
 - u
 - you
+
+## synonym:I
 - nossas
 - nossa
 - minhas
@@ -9145,7 +9727,7 @@
 - we
 - I
 
-## synonym:pt_geography
+## synonym:country
 - Geórgia
 - Alemanha
 - Gana
@@ -9410,6 +9992,8 @@
 - França
 - Gabão
 - Gâmbia
+
+## synonym:town
 - Bad Lauchstädt
 - Rosenthal
 - Tiruchirappalli
@@ -11794,6 +12378,8 @@
 - Deidesheim
 - Karben
 - Thale
+
+## synonym:languages
 - Ucraniano
 - Esloveno
 - Romeno
@@ -11978,7 +12564,4 @@
 - Tagalo
 - Sylhetti
 - Sueco
-
-## synonym:pt_contact_info
-[]
 
