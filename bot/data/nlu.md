@@ -9727,7 +9727,7 @@
 - we
 - I
 
-## synonym:country
+<!-- ## synonym:country
 - Geórgia
 - Alemanha
 - Gana
@@ -9991,7 +9991,7 @@
 - Finlândia
 - França
 - Gabão
-- Gâmbia
+- Gâmbia -->
 
 ## synonym:town
 - Bad Lauchstädt

@@ -431,7 +431,7 @@ responses:
               {country} existe um valor total de {active_cases} infetados.</speak>
           - type: text
             text: Os últimos dados disponiveis indicam que neste momento em
-              {country} existe um valor total de {active_casesrasa} infetados.
+              {country} existe um valor total de {active_casesquan} infetados.
   utter_pt_covid_situation_infected_critical:
     - custom:
         answers:

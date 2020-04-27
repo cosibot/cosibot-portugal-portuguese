@@ -47,8 +47,10 @@ class ActionSearchStats(Action):
         return "action_search_stats"
 
     def run(self, dispatcher, tracker, domain):
+        
         country_code = next(tracker.get_latest_entity_values("pt_country_code"), None)
-        print(country_code)
+        print("country code é {}".format(country_code))
+        dispatcher.utter_message("A procurar estatísticas sobre {}".format(country_code))
         # date = tracker.get_slot("date")
         decsis_api = DecsisAPI()
         stats = decsis_api.search(country_code)
@@ -57,4 +59,5 @@ class ActionSearchStats(Action):
         return [SlotSet('country', stats['country']), SlotSet('active_cases', stats['active_cases']), 
                 SlotSet('new_cases', stats['new_cases']), SlotSet('total_cases', stats['total_cases']),
                 SlotSet('total_recovered', stats['total_recovered']), SlotSet('total_deaths', stats['total_deaths']),
-                SlotSet('total_tests', stats['total_tests']), SlotSet('new_deaths', stats['new_deaths']), ]
+                SlotSet('total_tests', stats['total_tests']), SlotSet('new_deaths', stats['new_deaths']),
+                SlotSet('total_infected_critical', stats['critical']),  ]
