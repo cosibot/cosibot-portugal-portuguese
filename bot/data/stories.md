@@ -438,3 +438,32 @@
 * pt_vocative_you_welcome
   - utter_pt_vocative_you_welcome
 
+## pt_covid_situation
+* pt_covid_situation
+  - utter_pt_covid_situation
+
+## pt_covid_situation_deaths
+* pt_covid_situation_deaths
+  - utter_pt_covid_situation_deaths
+
+## pt_covid_situation_infected
+* pt_covid_situation_infected
+  - utter_pt_covid_situation_infected
+
+## pt_covid_situation_infected_critical
+* pt_covid_situation_infected_critical
+  - utter_pt_covid_situation_infected_critical
+
+## pt_covid_situation_last_update
+* pt_covid_situation_last_update
+  - utter_pt_covid_situation_last_update
+
+## pt_covid_situation_recovered
+* pt_covid_situation_recovered
+  - utter_pt_covid_situation_recovered
+
+## pt_covid_situation_tested
+* pt_covid_situation_tested
+  - utter_pt_covid_situation_tested
+
+

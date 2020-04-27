@@ -5,6 +5,29 @@ slots:
   bot_version:
     type: text
     initial_value: "0.1"
+  active_cases:
+    type: unfeaturized
+  country:
+    type: text
+  new_cases:
+    type: unfeaturized
+  total_cases:
+    type: unfeaturized
+  total_recovered:
+    type: unfeaturized
+  total_deaths:
+    type: unfeaturized
+  total_tests:
+    type: unfeaturized 
+  total_infected_critical:
+    type: unfeaturized
+
+
+entities:
+  - pt_country_code
+
+actions:
+  - action_search_stats
 
 
 intents:
@@ -264,10 +287,10 @@ responses:
     - custom:
         answers:
           - type: ssml
-              ssml: <speak>Tenho muita pena que se sinta assim. O que posso fazer para mudar
+            ssml: <speak>Tenho muita pena que se sinta assim. O que posso fazer para mudar
                 os seus sentimentos?</speak>
           - type: text
-              text: Tenho muita pena que se sinta assim. O que posso fazer para mudar os seus
+            text: Tenho muita pena que se sinta assim. O que posso fazer para mudar os seus
                 sentimentos?
   utter_pt_user_scared:
     - custom:
@@ -384,6 +407,96 @@ responses:
             ssml: <speak>Vai tudo bem. Espero que por aí também.</speak>
           - type: text
             text: Vai tudo bem. Espero que por aí também.
+  utter_pt_covid_situation:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak></speak>
+          - type: text
+            text: A última atualização indica que 
+  utter_pt_covid_situation_deaths:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>De acordo com a última atualização, em {country} existe um total de 
+              {total_deaths} fatalidades pelo COVID-19.</speak>
+          - type: text
+            text: De acordo com a última atualização, em {country} existe um total de 
+              {total_deaths} fatalidades pelo COVID-19.  
+  utter_pt_covid_situation_infected:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {active_cases} infetados.</speak>
+          - type: text
+            text: Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {active_casesrasa} infetados.
+  utter_pt_covid_situation_infected_critical:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>A última atualização disponível em {country} aponta para 
+              um total de {total_infected_critical} infetados internados na Unidade de Cuidados Intensivos.</speak>
+          - type: text
+            text: A última atualização disponível em {country} aponta para 
+              um total de {total_infected_critical} infetados internados na Unidade de Cuidados Intensivos.
+  utter_pt_covid_situation_last_update:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>Neste momento em {country} existe um valor total de {active_cases} casos ativos. Na última
+              atualização disponível foram identificados {new_cases} novos casos.</speak>
+          - type: text
+            text: Neste momento em {country} existe um valor total de {active_cases} casos ativos. Na última
+              atualização disponível foram identificados {new_cases} novos casos.
+          - type: ssml
+            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {total_cases} casos dos quais {active_cases} 
+              ainda estão ativos, {total_recovered} estão totalmente
+              recuperados e {total_deaths} não sobreviveram.</speak>
+          - type: text
+            text: Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {total_cases} casos dos quais {active_cases} 
+              ainda estão ativos, {total_recovered} estão totalmente
+              recuperados e {total_deaths} não sobreviveram.
+          - type: ssml
+            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {active_cases} casos ativos.</speak>
+          - type: text
+            text: Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {active_cases} casos ativos.
+          - type: ssml
+            ssml: <speak>Neste momento em {country} existe um valor total de
+              {total_cases} casos dos quais {active_cases} ainda estão ativos, 
+              {total_recovered} estão totalmente recuperados e {total_deaths} não
+              sobreviveram.Na ultima atualização existiam {new_cases} novos casos 
+              e {new_deaths} novas fatalidades.</speak>
+          - type: text
+            text: Neste momento em {country} existe um valor total de
+              {total_cases} casos dos quais {active_cases} ainda estão ativos, 
+              {total_recovered} estão totalmente recuperados e {total_deaths} não
+              sobreviveram.Na ultima atualização existiam {new_cases} novos casos 
+              e {new_deaths} novas fatalidades.  
+  utter_pt_covid_situation_recovered:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>Os últimos dados indicam que, no momento, em {country}, há um 
+              total de {total_recovered} casos recuperados.</speak>
+          - type: text
+            text: Os últimos dados indicam que, no momento, em {country}, há um 
+              total de {total_recovered} casos recuperados.
+  utter_pt_covid_situation_tested:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>A última atualização de dados indica que em {country} 
+              foram realizados {total_tests} desde o início de recolha de dados. </speak>
+          - type: text
+            text: A última atualização de dados indica que em {country} 
+              foram realizados {total_tests} desde o início de recolha de dados.
+
   utter_:
     - custom:
         answers:
@@ -489,53 +602,7 @@ responses:
               exemplo, informações sobre medidas preventivas, sintomas
               associados à doença ou como o vírus se espalha.
           - ""
-          - type: text
-            text: Neste momento em $counter_data.country existe um valor total de <?
-              $counter_data.result.data.active_cases ?> casos ativos. Na última
-              atualização disponível foram identificados <?
-              $counter_data.result.data.new_cases ?> novos casos.
-          - type: ssml
-            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
-              $counter_data.country existe um valor total de <?
-              $counter_data.result.data.total_cases ?> casos dos quais <?
-              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
-              $counter_data.result.data.total_recovered ?> estão totalmente
-              recuperados e <? $counter_data.result.data.total_deaths ?> não
-              sobreviveram.</speak>
-          - type: text
-            text: Os últimos dados disponiveis indicam que neste momento em
-              $counter_data.country existe um valor total de <?
-              $counter_data.result.data.total_cases ?> casos dos quais <?
-              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
-              $counter_data.result.data.total_recovered ?> estão totalmente
-              recuperados e <? $counter_data.result.data.total_deaths ?> não
-              sobreviveram.
-          - type: ssml
-            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
-              $counter_data.country existe um valor total de <?
-              $counter_data.result.data.active_cases ?> casos ativos.</speak>
-          - type: text
-            text: Os últimos dados disponiveis indicam que neste momento em
-              $counter_data.country existe um valor total de <?
-              $counter_data.result.data.active_cases ?> casos ativos.
-          - type: ssml
-            ssml: <speak>Neste momento em $counter_data.country existe um valor total de <?
-              $counter_data.result.data.total_cases ?> casos dos quais <?
-              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
-              $counter_data.result.data.total_recovered ?> estão totalmente
-              recuperados e <? $counter_data.result.data.total_deaths ?> não
-              sobreviveram.Na ultima atualização existiam <?
-              $counter_data.result.data.new_cases?> novos casos e  <?
-              $counter_data.result.data.new_deaths?> novas fatalidades.</speak>
-          - type: text
-            text: Neste momento em $counter_data.country existe um valor total de <?
-              $counter_data.result.data.total_cases ?> casos dos quais <?
-              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
-              $counter_data.result.data.total_recovered ?> estão totalmente
-              recuperados e <? $counter_data.result.data.total_deaths ?> não
-              sobreviveram.Na ultima atualização existiam <?
-              $counter_data.result.data.new_cases?> novos casos e  <?
-              $counter_data.result.data.new_deaths?> novas fatalidades.
+          
           - type: ssml
             ssml: <speak>Ocorreu um problema no pedido de informação adicional sobre o
               assunto que pesquisa. No entanto pode pesquisar na Agência Lusa ou
