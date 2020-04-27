@@ -2,6 +2,7 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: "pt"  # your two-letter language code
 pipeline:
+  - name: language_detection.lang_detect_component.CustomLangDetect
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
@@ -19,6 +20,7 @@ pipeline:
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
+  - name: language_detection.lang_change_policy.LangChangePolicy
   - name: MemoizationPolicy
   - name: TEDPolicy
     max_history: 5

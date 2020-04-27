@@ -6,7 +6,10 @@
 
 
 
-from typing import Text
+from typing import Text, Any, Dict, List
+
+import logging 
+logger = logging.getLogger(__name__)
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet
@@ -15,6 +18,8 @@ from rasa_sdk.events import UserUtteranceReverted
 from rasa_sdk.executor import CollectingDispatcher
 from datetime import date
 import time
+
+import requests
 
 class GetTimeValue(Action):
 
@@ -43,3 +48,15 @@ class ActionDefaultFallback(Action):
 
     def run(self, dispatcher, tracker, domain):
         return [UserUtteranceReverted(), FollowupAction("utter_")]
+
+class AskLanguage(Action):
+
+    def name(self):
+        return "action_ask_language"
+
+    def run(self, dispatcher, tracker, domain):
+
+        dispatcher.utter_message(text="Hello, which language would you like to use? English/Englisch or/oder German/Deutsch")
+# FollowupAction(action_listen)
+
+        return [UserUtteranceReverted()]
