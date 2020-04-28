@@ -5863,1007 +5863,1007 @@
 
 
 ## lookup:pricelist
-lookup_tables/pricelist.txt
+data/lookup_tables/pricelist.txt
 
 ## lookup:two
-lookup_tables/two.txt
+data/lookup_tables/two.txt
 
 ## lookup:four
-lookup_tables/four.txt
+data/lookup_tables/four.txt
 
 ## lookup:eight
-lookup_tables/eight.txt
+data/lookup_tables/eight.txt
 
 ## lookup:six
-lookup_tables/six.txt
+data/lookup_tables/six.txt
 
 ## lookup:seven
-lookup_tables/seven.txt
+data/lookup_tables/seven.txt
 
 ## lookup:three
-lookup_tables/three.txt
+data/lookup_tables/three.txt
 
 ## lookup:nine
-lookup_tables/nine.txt
+data/lookup_tables/nine.txt
 
 ## lookup:ten
-lookup_tables/ten.txt
+data/lookup_tables/ten.txt
 
 ## lookup:one
-lookup_tables/one.txt
+data/lookup_tables/one.txt
 
 ## lookup:five
-lookup_tables/five.txt
+data/lookup_tables/five.txt
 
 ## lookup:pet
-lookup_tables/pet.txt
+data/lookup_tables/pet.txt
 
 ## lookup:address
-lookup_tables/address.txt
+data/lookup_tables/address.txt
 
 ## lookup:phone
-lookup_tables/phone.txt
+data/lookup_tables/phone.txt
 
 ## lookup:e-mail
-lookup_tables/e-mail.txt
+data/lookup_tables/e-mail.txt
 
 ## lookup:contact
-lookup_tables/contact.txt
+data/lookup_tables/contact.txt
 
 ## lookup:1
-lookup_tables/1.txt
+data/lookup_tables/1.txt
 
 ## lookup:2
-lookup_tables/2.txt
+data/lookup_tables/2.txt
 
 ## lookup:game
-lookup_tables/game.txt
+data/lookup_tables/game.txt
 
 ## lookup:movie
-lookup_tables/movie.txt
+data/lookup_tables/movie.txt
 
 ## lookup:music
-lookup_tables/music.txt
+data/lookup_tables/music.txt
 
 ## lookup:weather
-lookup_tables/weather.txt
+data/lookup_tables/weather.txt
 
 ## lookup:lotr
-lookup_tables/lotr.txt
+data/lookup_tables/lotr.txt
 
 ## lookup:game
-lookup_tables/game.txt
+data/lookup_tables/game.txt
 
 ## lookup:joke
-lookup_tables/joke.txt
+data/lookup_tables/joke.txt
 
 ## lookup:form of address
-lookup_tables/form of address.txt
+data/lookup_tables/form of address.txt
 
 ## lookup:Mr.
-lookup_tables/Mr..txt
+data/lookup_tables/Mr..txt
 
 ## lookup:Mrs.
-lookup_tables/Mrs..txt
+data/lookup_tables/Mrs..txt
 
 ## lookup:anal
-lookup_tables/anal.txt
+data/lookup_tables/anal.txt
 
 ## lookup:church
-lookup_tables/church.txt
+data/lookup_tables/church.txt
 
 ## lookup:no
-lookup_tables/no.txt
+data/lookup_tables/no.txt
 
 ## lookup:yes
-lookup_tables/yes.txt
+data/lookup_tables/yes.txt
 
 ## lookup:video
-lookup_tables/video.txt
+data/lookup_tables/video.txt
 
 ## lookup:photo
-lookup_tables/photo.txt
+data/lookup_tables/photo.txt
 
 ## lookup:datasheet
-lookup_tables/datasheet.txt
+data/lookup_tables/datasheet.txt
 
 ## lookup:negative_emoticon
-lookup_tables/negative_emoticon.txt
+data/lookup_tables/negative_emoticon.txt
 
 ## lookup:positive_emoticon
-lookup_tables/positive_emoticon.txt
+data/lookup_tables/positive_emoticon.txt
 
 ## lookup:angry
-lookup_tables/angry.txt
+data/lookup_tables/angry.txt
 
 ## lookup:racist
-lookup_tables/racist.txt
+data/lookup_tables/racist.txt
 
 ## lookup:joke
-lookup_tables/joke.txt
+data/lookup_tables/joke.txt
 
 ## lookup:music
-lookup_tables/music.txt
+data/lookup_tables/music.txt
 
 ## lookup:website
-lookup_tables/website.txt
+data/lookup_tables/website.txt
 
 ## lookup:photo
-lookup_tables/photo.txt
+data/lookup_tables/photo.txt
 
 ## lookup:favorite
-lookup_tables/favorite.txt
+data/lookup_tables/favorite.txt
 
 ## lookup:summarize
-lookup_tables/summarize.txt
+data/lookup_tables/summarize.txt
 
 ## lookup:color
-lookup_tables/color.txt
+data/lookup_tables/color.txt
 
 ## lookup:have to
-lookup_tables/have to.txt
+data/lookup_tables/have to.txt
 
 ## lookup:message
-lookup_tables/message.txt
+data/lookup_tables/message.txt
 
 ## lookup:pneumonia vaccine
-lookup_tables/pneumonia vaccine.txt
+data/lookup_tables/pneumonia vaccine.txt
 
 ## lookup:garlic
-lookup_tables/garlic.txt
+data/lookup_tables/garlic.txt
 
 ## lookup:antibiotics
-lookup_tables/antibiotics.txt
+data/lookup_tables/antibiotics.txt
 
 ## lookup:hand dryer
-lookup_tables/hand dryer.txt
+data/lookup_tables/hand dryer.txt
 
 ## lookup:thermal scanner
-lookup_tables/thermal scanner.txt
+data/lookup_tables/thermal scanner.txt
 
 ## lookup:sesame oil
-lookup_tables/sesame oil.txt
+data/lookup_tables/sesame oil.txt
 
 ## lookup:uv lamp
-lookup_tables/uv lamp.txt
+data/lookup_tables/uv lamp.txt
 
 ## lookup:saline
-lookup_tables/saline.txt
+data/lookup_tables/saline.txt
 
 ## lookup:racist
-lookup_tables/racist.txt
+data/lookup_tables/racist.txt
 
 ## lookup:offense
-lookup_tables/offense.txt
+data/lookup_tables/offense.txt
 
 ## lookup:movies
-lookup_tables/movies.txt
+data/lookup_tables/movies.txt
 
 ## lookup:date
-lookup_tables/date.txt
+data/lookup_tables/date.txt
 
 ## lookup:time
-lookup_tables/time.txt
+data/lookup_tables/time.txt
 
 ## lookup:question
-lookup_tables/question.txt
+data/lookup_tables/question.txt
 
 ## lookup:EG
-lookup_tables/EG.txt
+data/lookup_tables/EG.txt
 
 ## lookup:EH
-lookup_tables/EH.txt
+data/lookup_tables/EH.txt
 
 ## lookup:ER
-lookup_tables/ER.txt
+data/lookup_tables/ER.txt
 
 ## lookup:ES
-lookup_tables/ES.txt
+data/lookup_tables/ES.txt
 
 ## lookup:ET
-lookup_tables/ET.txt
+data/lookup_tables/ET.txt
 
 ## lookup:FI
-lookup_tables/FI.txt
+data/lookup_tables/FI.txt
 
 ## lookup:FJ
-lookup_tables/FJ.txt
+data/lookup_tables/FJ.txt
 
 ## lookup:FK
-lookup_tables/FK.txt
+data/lookup_tables/FK.txt
 
 ## lookup:FM
-lookup_tables/FM.txt
+data/lookup_tables/FM.txt
 
 ## lookup:FO
-lookup_tables/FO.txt
+data/lookup_tables/FO.txt
 
 ## lookup:FR
-lookup_tables/FR.txt
+data/lookup_tables/FR.txt
 
 ## lookup:GA
-lookup_tables/GA.txt
+data/lookup_tables/GA.txt
 
 ## lookup:GB
-lookup_tables/GB.txt
+data/lookup_tables/GB.txt
 
 ## lookup:GD
-lookup_tables/GD.txt
+data/lookup_tables/GD.txt
 
 ## lookup:GE
-lookup_tables/GE.txt
+data/lookup_tables/GE.txt
 
 ## lookup:GF
-lookup_tables/GF.txt
+data/lookup_tables/GF.txt
 
 ## lookup:GG
-lookup_tables/GG.txt
+data/lookup_tables/GG.txt
 
 ## lookup:GH
-lookup_tables/GH.txt
+data/lookup_tables/GH.txt
 
 ## lookup:GI
-lookup_tables/GI.txt
+data/lookup_tables/GI.txt
 
 ## lookup:GL
-lookup_tables/GL.txt
+data/lookup_tables/GL.txt
 
 ## lookup:GM
-lookup_tables/GM.txt
+data/lookup_tables/GM.txt
 
 ## lookup:GN
-lookup_tables/GN.txt
+data/lookup_tables/GN.txt
 
 ## lookup:GP
-lookup_tables/GP.txt
+data/lookup_tables/GP.txt
 
 ## lookup:GQ
-lookup_tables/GQ.txt
+data/lookup_tables/GQ.txt
 
 ## lookup:GR
-lookup_tables/GR.txt
+data/lookup_tables/GR.txt
 
 ## lookup:GS
-lookup_tables/GS.txt
+data/lookup_tables/GS.txt
 
 ## lookup:GT
-lookup_tables/GT.txt
+data/lookup_tables/GT.txt
 
 ## lookup:GU
-lookup_tables/GU.txt
+data/lookup_tables/GU.txt
 
 ## lookup:GW
-lookup_tables/GW.txt
+data/lookup_tables/GW.txt
 
 ## lookup:GY
-lookup_tables/GY.txt
+data/lookup_tables/GY.txt
 
 ## lookup:HK
-lookup_tables/HK.txt
+data/lookup_tables/HK.txt
 
 ## lookup:HM
-lookup_tables/HM.txt
+data/lookup_tables/HM.txt
 
 ## lookup:HN
-lookup_tables/HN.txt
+data/lookup_tables/HN.txt
 
 ## lookup:HR
-lookup_tables/HR.txt
+data/lookup_tables/HR.txt
 
 ## lookup:HT
-lookup_tables/HT.txt
+data/lookup_tables/HT.txt
 
 ## lookup:HU
-lookup_tables/HU.txt
+data/lookup_tables/HU.txt
 
 ## lookup:ID
-lookup_tables/ID.txt
+data/lookup_tables/ID.txt
 
 ## lookup:IE
-lookup_tables/IE.txt
+data/lookup_tables/IE.txt
 
 ## lookup:IL
-lookup_tables/IL.txt
+data/lookup_tables/IL.txt
 
 ## lookup:IM
-lookup_tables/IM.txt
+data/lookup_tables/IM.txt
 
 ## lookup:IN
-lookup_tables/IN.txt
+data/lookup_tables/IN.txt
 
 ## lookup:IO
-lookup_tables/IO.txt
+data/lookup_tables/IO.txt
 
 ## lookup:IQ
-lookup_tables/IQ.txt
+data/lookup_tables/IQ.txt
 
 ## lookup:IR
-lookup_tables/IR.txt
+data/lookup_tables/IR.txt
 
 ## lookup:IS
-lookup_tables/IS.txt
+data/lookup_tables/IS.txt
 
 ## lookup:IT
-lookup_tables/IT.txt
+data/lookup_tables/IT.txt
 
 ## lookup:JE
-lookup_tables/JE.txt
+data/lookup_tables/JE.txt
 
 ## lookup:JM
-lookup_tables/JM.txt
+data/lookup_tables/JM.txt
 
 ## lookup:JO
-lookup_tables/JO.txt
+data/lookup_tables/JO.txt
 
 ## lookup:JP
-lookup_tables/JP.txt
+data/lookup_tables/JP.txt
 
 ## lookup:KE
-lookup_tables/KE.txt
+data/lookup_tables/KE.txt
 
 ## lookup:KG
-lookup_tables/KG.txt
+data/lookup_tables/KG.txt
 
 ## lookup:KH
-lookup_tables/KH.txt
+data/lookup_tables/KH.txt
 
 ## lookup:KI
-lookup_tables/KI.txt
+data/lookup_tables/KI.txt
 
 ## lookup:KM
-lookup_tables/KM.txt
+data/lookup_tables/KM.txt
 
 ## lookup:KN
-lookup_tables/KN.txt
+data/lookup_tables/KN.txt
 
 ## lookup:KP
-lookup_tables/KP.txt
+data/lookup_tables/KP.txt
 
 ## lookup:KR
-lookup_tables/KR.txt
+data/lookup_tables/KR.txt
 
 ## lookup:KW
-lookup_tables/KW.txt
+data/lookup_tables/KW.txt
 
 ## lookup:KY
-lookup_tables/KY.txt
+data/lookup_tables/KY.txt
 
 ## lookup:KZ
-lookup_tables/KZ.txt
+data/lookup_tables/KZ.txt
 
 ## lookup:LA
-lookup_tables/LA.txt
+data/lookup_tables/LA.txt
 
 ## lookup:LB
-lookup_tables/LB.txt
+data/lookup_tables/LB.txt
 
 ## lookup:LC
-lookup_tables/LC.txt
+data/lookup_tables/LC.txt
 
 ## lookup:LI
-lookup_tables/LI.txt
+data/lookup_tables/LI.txt
 
 ## lookup:LK
-lookup_tables/LK.txt
+data/lookup_tables/LK.txt
 
 ## lookup:LR
-lookup_tables/LR.txt
+data/lookup_tables/LR.txt
 
 ## lookup:LS
-lookup_tables/LS.txt
+data/lookup_tables/LS.txt
 
 ## lookup:LT
-lookup_tables/LT.txt
+data/lookup_tables/LT.txt
 
 ## lookup:LU
-lookup_tables/LU.txt
+data/lookup_tables/LU.txt
 
 ## lookup:LV
-lookup_tables/LV.txt
+data/lookup_tables/LV.txt
 
 ## lookup:LY
-lookup_tables/LY.txt
+data/lookup_tables/LY.txt
 
 ## lookup:MA
-lookup_tables/MA.txt
+data/lookup_tables/MA.txt
 
 ## lookup:MC
-lookup_tables/MC.txt
+data/lookup_tables/MC.txt
 
 ## lookup:MD
-lookup_tables/MD.txt
+data/lookup_tables/MD.txt
 
 ## lookup:ME
-lookup_tables/ME.txt
+data/lookup_tables/ME.txt
 
 ## lookup:MF
-lookup_tables/MF.txt
+data/lookup_tables/MF.txt
 
 ## lookup:MG
-lookup_tables/MG.txt
+data/lookup_tables/MG.txt
 
 ## lookup:MH
-lookup_tables/MH.txt
+data/lookup_tables/MH.txt
 
 ## lookup:MK
-lookup_tables/MK.txt
+data/lookup_tables/MK.txt
 
 ## lookup:ML
-lookup_tables/ML.txt
+data/lookup_tables/ML.txt
 
 ## lookup:MM
-lookup_tables/MM.txt
+data/lookup_tables/MM.txt
 
 ## lookup:MN
-lookup_tables/MN.txt
+data/lookup_tables/MN.txt
 
 ## lookup:MO
-lookup_tables/MO.txt
+data/lookup_tables/MO.txt
 
 ## lookup:MP
-lookup_tables/MP.txt
+data/lookup_tables/MP.txt
 
 ## lookup:MQ
-lookup_tables/MQ.txt
+data/lookup_tables/MQ.txt
 
 ## lookup:MR
-lookup_tables/MR.txt
+data/lookup_tables/MR.txt
 
 ## lookup:MS
-lookup_tables/MS.txt
+data/lookup_tables/MS.txt
 
 ## lookup:MT
-lookup_tables/MT.txt
+data/lookup_tables/MT.txt
 
 ## lookup:MU
-lookup_tables/MU.txt
+data/lookup_tables/MU.txt
 
 ## lookup:MV
-lookup_tables/MV.txt
+data/lookup_tables/MV.txt
 
 ## lookup:MW
-lookup_tables/MW.txt
+data/lookup_tables/MW.txt
 
 ## lookup:MX
-lookup_tables/MX.txt
+data/lookup_tables/MX.txt
 
 ## lookup:MY
-lookup_tables/MY.txt
+data/lookup_tables/MY.txt
 
 ## lookup:MZ
-lookup_tables/MZ.txt
+data/lookup_tables/MZ.txt
 
 ## lookup:NA
-lookup_tables/NA.txt
+data/lookup_tables/NA.txt
 
 ## lookup:NC
-lookup_tables/NC.txt
+data/lookup_tables/NC.txt
 
 ## lookup:NE
-lookup_tables/NE.txt
+data/lookup_tables/NE.txt
 
 ## lookup:NF
-lookup_tables/NF.txt
+data/lookup_tables/NF.txt
 
 ## lookup:NG
-lookup_tables/NG.txt
+data/lookup_tables/NG.txt
 
 ## lookup:NI
-lookup_tables/NI.txt
+data/lookup_tables/NI.txt
 
 ## lookup:NL
-lookup_tables/NL.txt
+data/lookup_tables/NL.txt
 
 ## lookup:NO
-lookup_tables/NO.txt
+data/lookup_tables/NO.txt
 
 ## lookup:NP
-lookup_tables/NP.txt
+data/lookup_tables/NP.txt
 
 ## lookup:NR
-lookup_tables/NR.txt
+data/lookup_tables/NR.txt
 
 ## lookup:NU
-lookup_tables/NU.txt
+data/lookup_tables/NU.txt
 
 ## lookup:NZ
-lookup_tables/NZ.txt
+data/lookup_tables/NZ.txt
 
 ## lookup:OM
-lookup_tables/OM.txt
+data/lookup_tables/OM.txt
 
 ## lookup:PA
-lookup_tables/PA.txt
+data/lookup_tables/PA.txt
 
 ## lookup:PE
-lookup_tables/PE.txt
+data/lookup_tables/PE.txt
 
 ## lookup:PF
-lookup_tables/PF.txt
+data/lookup_tables/PF.txt
 
 ## lookup:PG
-lookup_tables/PG.txt
+data/lookup_tables/PG.txt
 
 ## lookup:PH
-lookup_tables/PH.txt
+data/lookup_tables/PH.txt
 
 ## lookup:PK
-lookup_tables/PK.txt
+data/lookup_tables/PK.txt
 
 ## lookup:PL
-lookup_tables/PL.txt
+data/lookup_tables/PL.txt
 
 ## lookup:PM
-lookup_tables/PM.txt
+data/lookup_tables/PM.txt
 
 ## lookup:PN
-lookup_tables/PN.txt
+data/lookup_tables/PN.txt
 
 ## lookup:PR
-lookup_tables/PR.txt
+data/lookup_tables/PR.txt
 
 ## lookup:PS
-lookup_tables/PS.txt
+data/lookup_tables/PS.txt
 
 ## lookup:PT
-lookup_tables/PT.txt
+data/lookup_tables/PT.txt
 
 ## lookup:PW
-lookup_tables/PW.txt
+data/lookup_tables/PW.txt
 
 ## lookup:PY
-lookup_tables/PY.txt
+data/lookup_tables/PY.txt
 
 ## lookup:QA
-lookup_tables/QA.txt
+data/lookup_tables/QA.txt
 
 ## lookup:RE
-lookup_tables/RE.txt
+data/lookup_tables/RE.txt
 
 ## lookup:RO
-lookup_tables/RO.txt
+data/lookup_tables/RO.txt
 
 ## lookup:RS
-lookup_tables/RS.txt
+data/lookup_tables/RS.txt
 
 ## lookup:RU
-lookup_tables/RU.txt
+data/lookup_tables/RU.txt
 
 ## lookup:RW
-lookup_tables/RW.txt
+data/lookup_tables/RW.txt
 
 ## lookup:SA
-lookup_tables/SA.txt
+data/lookup_tables/SA.txt
 
 ## lookup:SB
-lookup_tables/SB.txt
+data/lookup_tables/SB.txt
 
 ## lookup:SC
-lookup_tables/SC.txt
+data/lookup_tables/SC.txt
 
 ## lookup:SD
-lookup_tables/SD.txt
+data/lookup_tables/SD.txt
 
 ## lookup:SE
-lookup_tables/SE.txt
+data/lookup_tables/SE.txt
 
 ## lookup:SG
-lookup_tables/SG.txt
+data/lookup_tables/SG.txt
 
 ## lookup:SH
-lookup_tables/SH.txt
+data/lookup_tables/SH.txt
 
 ## lookup:SI
-lookup_tables/SI.txt
+data/lookup_tables/SI.txt
 
 ## lookup:SJ
-lookup_tables/SJ.txt
+data/lookup_tables/SJ.txt
 
 ## lookup:SK
-lookup_tables/SK.txt
+data/lookup_tables/SK.txt
 
 ## lookup:SL
-lookup_tables/SL.txt
+data/lookup_tables/SL.txt
 
 ## lookup:SM
-lookup_tables/SM.txt
+data/lookup_tables/SM.txt
 
 ## lookup:SN
-lookup_tables/SN.txt
+data/lookup_tables/SN.txt
 
 ## lookup:SO
-lookup_tables/SO.txt
+data/lookup_tables/SO.txt
 
 ## lookup:SR
-lookup_tables/SR.txt
+data/lookup_tables/SR.txt
 
 ## lookup:SS
-lookup_tables/SS.txt
+data/lookup_tables/SS.txt
 
 ## lookup:ST
-lookup_tables/ST.txt
+data/lookup_tables/ST.txt
 
 ## lookup:SV
-lookup_tables/SV.txt
+data/lookup_tables/SV.txt
 
 ## lookup:SX
-lookup_tables/SX.txt
+data/lookup_tables/SX.txt
 
 ## lookup:SY
-lookup_tables/SY.txt
+data/lookup_tables/SY.txt
 
 ## lookup:AD
-lookup_tables/AD.txt
+data/lookup_tables/AD.txt
 
 ## lookup:TC
-lookup_tables/TC.txt
+data/lookup_tables/TC.txt
 
 ## lookup:TD
-lookup_tables/TD.txt
+data/lookup_tables/TD.txt
 
 ## lookup:TF
-lookup_tables/TF.txt
+data/lookup_tables/TF.txt
 
 ## lookup:TG
-lookup_tables/TG.txt
+data/lookup_tables/TG.txt
 
 ## lookup:TH
-lookup_tables/TH.txt
+data/lookup_tables/TH.txt
 
 ## lookup:TJ
-lookup_tables/TJ.txt
+data/lookup_tables/TJ.txt
 
 ## lookup:TK
-lookup_tables/TK.txt
+data/lookup_tables/TK.txt
 
 ## lookup:TL
-lookup_tables/TL.txt
+data/lookup_tables/TL.txt
 
 ## lookup:TM
-lookup_tables/TM.txt
+data/lookup_tables/TM.txt
 
 ## lookup:TN
-lookup_tables/TN.txt
+data/lookup_tables/TN.txt
 
 ## lookup:TO
-lookup_tables/TO.txt
+data/lookup_tables/TO.txt
 
 ## lookup:TR
-lookup_tables/TR.txt
+data/lookup_tables/TR.txt
 
 ## lookup:TT
-lookup_tables/TT.txt
+data/lookup_tables/TT.txt
 
 ## lookup:TV
-lookup_tables/TV.txt
+data/lookup_tables/TV.txt
 
 ## lookup:TW
-lookup_tables/TW.txt
+data/lookup_tables/TW.txt
 
 ## lookup:TZ
-lookup_tables/TZ.txt
+data/lookup_tables/TZ.txt
 
 ## lookup:UA
-lookup_tables/UA.txt
+data/lookup_tables/UA.txt
 
 ## lookup:UG
-lookup_tables/UG.txt
+data/lookup_tables/UG.txt
 
 ## lookup:UM
-lookup_tables/UM.txt
+data/lookup_tables/UM.txt
 
 ## lookup:US
-lookup_tables/US.txt
+data/lookup_tables/US.txt
 
 ## lookup:UY
-lookup_tables/UY.txt
+data/lookup_tables/UY.txt
 
 ## lookup:UZ
-lookup_tables/UZ.txt
+data/lookup_tables/UZ.txt
 
 ## lookup:VA
-lookup_tables/VA.txt
+data/lookup_tables/VA.txt
 
 ## lookup:VC
-lookup_tables/VC.txt
+data/lookup_tables/VC.txt
 
 ## lookup:VE
-lookup_tables/VE.txt
+data/lookup_tables/VE.txt
 
 ## lookup:VG
-lookup_tables/VG.txt
+data/lookup_tables/VG.txt
 
 ## lookup:VI
-lookup_tables/VI.txt
+data/lookup_tables/VI.txt
 
 ## lookup:VN
-lookup_tables/VN.txt
+data/lookup_tables/VN.txt
 
 ## lookup:VU
-lookup_tables/VU.txt
+data/lookup_tables/VU.txt
 
 ## lookup:WF
-lookup_tables/WF.txt
+data/lookup_tables/WF.txt
 
 ## lookup:WS
-lookup_tables/WS.txt
+data/lookup_tables/WS.txt
 
 ## lookup:YE
-lookup_tables/YE.txt
+data/lookup_tables/YE.txt
 
 ## lookup:YT
-lookup_tables/YT.txt
+data/lookup_tables/YT.txt
 
 ## lookup:ZA
-lookup_tables/ZA.txt
+data/lookup_tables/ZA.txt
 
 ## lookup:ZM
-lookup_tables/ZM.txt
+data/lookup_tables/ZM.txt
 
 ## lookup:ZW
-lookup_tables/ZW.txt
+data/lookup_tables/ZW.txt
 
 ## lookup:SZ
-lookup_tables/SZ.txt
+data/lookup_tables/SZ.txt
 
 ## lookup:AE
-lookup_tables/AE.txt
+data/lookup_tables/AE.txt
 
 ## lookup:AF
-lookup_tables/AF.txt
+data/lookup_tables/AF.txt
 
 ## lookup:AG
-lookup_tables/AG.txt
+data/lookup_tables/AG.txt
 
 ## lookup:AI
-lookup_tables/AI.txt
+data/lookup_tables/AI.txt
 
 ## lookup:AL
-lookup_tables/AL.txt
+data/lookup_tables/AL.txt
 
 ## lookup:AM
-lookup_tables/AM.txt
+data/lookup_tables/AM.txt
 
 ## lookup:AO
-lookup_tables/AO.txt
+data/lookup_tables/AO.txt
 
 ## lookup:AQ
-lookup_tables/AQ.txt
+data/lookup_tables/AQ.txt
 
 ## lookup:AR
-lookup_tables/AR.txt
+data/lookup_tables/AR.txt
 
 ## lookup:AS
-lookup_tables/AS.txt
+data/lookup_tables/AS.txt
 
 ## lookup:AT
-lookup_tables/AT.txt
+data/lookup_tables/AT.txt
 
 ## lookup:AU
-lookup_tables/AU.txt
+data/lookup_tables/AU.txt
 
 ## lookup:AW
-lookup_tables/AW.txt
+data/lookup_tables/AW.txt
 
 ## lookup:AX
-lookup_tables/AX.txt
+data/lookup_tables/AX.txt
 
 ## lookup:AZ
-lookup_tables/AZ.txt
+data/lookup_tables/AZ.txt
 
 ## lookup:BA
-lookup_tables/BA.txt
+data/lookup_tables/BA.txt
 
 ## lookup:BB
-lookup_tables/BB.txt
+data/lookup_tables/BB.txt
 
 ## lookup:BD
-lookup_tables/BD.txt
+data/lookup_tables/BD.txt
 
 ## lookup:BE
-lookup_tables/BE.txt
+data/lookup_tables/BE.txt
 
 ## lookup:BF
-lookup_tables/BF.txt
+data/lookup_tables/BF.txt
 
 ## lookup:BG
-lookup_tables/BG.txt
+data/lookup_tables/BG.txt
 
 ## lookup:BH
-lookup_tables/BH.txt
+data/lookup_tables/BH.txt
 
 ## lookup:BI
-lookup_tables/BI.txt
+data/lookup_tables/BI.txt
 
 ## lookup:BJ
-lookup_tables/BJ.txt
+data/lookup_tables/BJ.txt
 
 ## lookup:BL
-lookup_tables/BL.txt
+data/lookup_tables/BL.txt
 
 ## lookup:BM
-lookup_tables/BM.txt
+data/lookup_tables/BM.txt
 
 ## lookup:BN
-lookup_tables/BN.txt
+data/lookup_tables/BN.txt
 
 ## lookup:BO
-lookup_tables/BO.txt
+data/lookup_tables/BO.txt
 
 ## lookup:BQ
-lookup_tables/BQ.txt
+data/lookup_tables/BQ.txt
 
 ## lookup:BR
-lookup_tables/BR.txt
+data/lookup_tables/BR.txt
 
 ## lookup:BS
-lookup_tables/BS.txt
+data/lookup_tables/BS.txt
 
 ## lookup:BT
-lookup_tables/BT.txt
+data/lookup_tables/BT.txt
 
 ## lookup:BV
-lookup_tables/BV.txt
+data/lookup_tables/BV.txt
 
 ## lookup:BW
-lookup_tables/BW.txt
+data/lookup_tables/BW.txt
 
 ## lookup:BY
-lookup_tables/BY.txt
+data/lookup_tables/BY.txt
 
 ## lookup:BZ
-lookup_tables/BZ.txt
+data/lookup_tables/BZ.txt
 
 ## lookup:CA
-lookup_tables/CA.txt
+data/lookup_tables/CA.txt
 
 ## lookup:CC
-lookup_tables/CC.txt
+data/lookup_tables/CC.txt
 
 ## lookup:CD
-lookup_tables/CD.txt
+data/lookup_tables/CD.txt
 
 ## lookup:CF
-lookup_tables/CF.txt
+data/lookup_tables/CF.txt
 
 ## lookup:CG
-lookup_tables/CG.txt
+data/lookup_tables/CG.txt
 
 ## lookup:CH
-lookup_tables/CH.txt
+data/lookup_tables/CH.txt
 
 ## lookup:CI
-lookup_tables/CI.txt
+data/lookup_tables/CI.txt
 
 ## lookup:CK
-lookup_tables/CK.txt
+data/lookup_tables/CK.txt
 
 ## lookup:CL
-lookup_tables/CL.txt
+data/lookup_tables/CL.txt
 
 ## lookup:CM
-lookup_tables/CM.txt
+data/lookup_tables/CM.txt
 
 ## lookup:CN
-lookup_tables/CN.txt
+data/lookup_tables/CN.txt
 
 ## lookup:CO
-lookup_tables/CO.txt
+data/lookup_tables/CO.txt
 
 ## lookup:CR
-lookup_tables/CR.txt
+data/lookup_tables/CR.txt
 
 ## lookup:CU
-lookup_tables/CU.txt
+data/lookup_tables/CU.txt
 
 ## lookup:CV
-lookup_tables/CV.txt
+data/lookup_tables/CV.txt
 
 ## lookup:CW
-lookup_tables/CW.txt
+data/lookup_tables/CW.txt
 
 ## lookup:CX
-lookup_tables/CX.txt
+data/lookup_tables/CX.txt
 
 ## lookup:CY
-lookup_tables/CY.txt
+data/lookup_tables/CY.txt
 
 ## lookup:CZ
-lookup_tables/CZ.txt
+data/lookup_tables/CZ.txt
 
 ## lookup:DE
-lookup_tables/DE.txt
+data/lookup_tables/DE.txt
 
 ## lookup:DJ
-lookup_tables/DJ.txt
+data/lookup_tables/DJ.txt
 
 ## lookup:DK
-lookup_tables/DK.txt
+data/lookup_tables/DK.txt
 
 ## lookup:DM
-lookup_tables/DM.txt
+data/lookup_tables/DM.txt
 
 ## lookup:DO
-lookup_tables/DO.txt
+data/lookup_tables/DO.txt
 
 ## lookup:DZ
-lookup_tables/DZ.txt
+data/lookup_tables/DZ.txt
 
 ## lookup:EC
-lookup_tables/EC.txt
+data/lookup_tables/EC.txt
 
 ## lookup:EE
-lookup_tables/EE.txt
+data/lookup_tables/EE.txt
 
 ## lookup:influenza
-lookup_tables/influenza.txt
+data/lookup_tables/influenza.txt
 
 ## lookup:prevention
-lookup_tables/prevention.txt
+data/lookup_tables/prevention.txt
 
 ## lookup:spread
-lookup_tables/spread.txt
+data/lookup_tables/spread.txt
 
 ## lookup:COVID
-lookup_tables/COVID.txt
+data/lookup_tables/COVID.txt
 
 ## lookup:number
-lookup_tables/number.txt
+data/lookup_tables/number.txt
 
 ## lookup:teach
-lookup_tables/teach.txt
+data/lookup_tables/teach.txt
 
 ## lookup:facebook
-lookup_tables/facebook.txt
+data/lookup_tables/facebook.txt
 
 ## lookup:linkedin
-lookup_tables/linkedin.txt
+data/lookup_tables/linkedin.txt
 
 ## lookup:instagram
-lookup_tables/instagram.txt
+data/lookup_tables/instagram.txt
 
 ## lookup:social media
-lookup_tables/social media.txt
+data/lookup_tables/social media.txt
 
 ## lookup:firstname
-lookup_tables/firstname.txt
+data/lookup_tables/firstname.txt
 
 ## lookup:surname
-lookup_tables/surname.txt
+data/lookup_tables/surname.txt
 
 ## lookup:cancel
-lookup_tables/cancel.txt
+data/lookup_tables/cancel.txt
 
 ## lookup:sex
-lookup_tables/sex.txt
+data/lookup_tables/sex.txt
 
 ## lookup:cough
-lookup_tables/cough.txt
+data/lookup_tables/cough.txt
 
 ## lookup:runny_nose
-lookup_tables/runny_nose.txt
+data/lookup_tables/runny_nose.txt
 
 ## lookup:sore_throat
-lookup_tables/sore_throat.txt
+data/lookup_tables/sore_throat.txt
 
 ## lookup:breathing_difficulty
-lookup_tables/breathing_difficulty.txt
+data/lookup_tables/breathing_difficulty.txt
 
 ## lookup:fever
-lookup_tables/fever.txt
+data/lookup_tables/fever.txt
 
 ## lookup:you
-lookup_tables/you.txt
+data/lookup_tables/you.txt
 
 ## lookup:I
-lookup_tables/I.txt
+data/lookup_tables/I.txt
 
 ## lookup:country
-lookup_tables/country.txt
+data/lookup_tables/country.txt
 
 ## lookup:town
-lookup_tables/town.txt
+data/lookup_tables/town.txt
 
 ## lookup:languages
-lookup_tables/languages.txt
+data/lookup_tables/languages.txt
 
