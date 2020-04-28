@@ -9726,8 +9726,8 @@
 - us
 - we
 - I
-
-<!-- ## synonym:country
+<!-- 
+## synonym:country
 - Geórgia
 - Alemanha
 - Gana
@@ -9991,7 +9991,7 @@
 - Finlândia
 - França
 - Gabão
-- Gâmbia -->
+- Gâmbia
 
 ## synonym:town
 - Bad Lauchstädt
@@ -12377,7 +12377,7 @@
 - Teuschnitz
 - Deidesheim
 - Karben
-- Thale
+- Thale -->
 
 ## synonym:languages
 - Ucraniano

@@ -56,8 +56,8 @@ class ActionSearchStats(Action):
         stats = decsis_api.search(country_code)
         # dispatcher.utter_message("Estatísticas COVID-19 em {} (até {}): \n - Novos casos: {}".format(stats['country'], date.today().strftime("%d-%m-%Y"), stats['new_cases']))
 
-        return [SlotSet('country', stats['country']), SlotSet('active_cases', stats['active_cases']), 
-                SlotSet('new_cases', stats['new_cases']), SlotSet('total_cases', stats['total_cases']),
-                SlotSet('total_recovered', stats['total_recovered']), SlotSet('total_deaths', stats['total_deaths']),
-                SlotSet('total_tests', stats['total_tests']), SlotSet('new_deaths', stats['new_deaths']),
-                SlotSet('total_infected_critical', stats['critical']),  ]
+        return [SlotSet('country', stats.get('country', None)), SlotSet('active_cases', stats.get('active_cases', None)), 
+                SlotSet('new_cases', stats.get('new_cases', None)), SlotSet('total_cases', stats.get('total_cases', None)),
+                SlotSet('total_recovered', stats.get('total_recovered', None)), SlotSet('total_deaths', stats.get('total_deaths', None)),
+                SlotSet('total_tests', stats.get('total_tests', None)), SlotSet('new_deaths', stats.get('new_deaths', None)),
+                SlotSet('total_infected_critical', stats.get('critical', None)),  ]

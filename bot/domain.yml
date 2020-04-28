@@ -11,6 +11,8 @@ slots:
     type: text
   new_cases:
     type: unfeaturized
+  new_deaths:
+    type: unfeaturized 
   total_cases:
     type: unfeaturized
   total_recovered:
