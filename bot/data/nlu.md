@@ -2113,6 +2113,28 @@
 - quando é que isto irá terminar?
 - quanto tempo irá durar essa crise?
 
+## intent:pt_covid_current_statistics
+- "[Reinfeld](pt_geography:town):country news."
+- "[Großbreitenbach](pt_geography:town):situação do país"
+- COVID em [Split](pt_geography:town):country
+- COVID-19 em [Taiyuan](pt_geography:town):country
+- Como está a situação em [Nassau](pt_geography:town)_country?
+- Coronavirus em [Osterode Am Harz](pt_geography:town):country
+- Estatísticas actualizadas em [Kleve](pt_geography:town):country
+- Informações [Gliwice](pt_geography:town):country
+- Informações actualizadas [Milwaukee](pt_geography:town):country
+- Informações sobre [Gatineau](pt_geography:town):country
+- Notícias [Zülpich](pt_geography:town):country
+- Notícias atuais [Bangui](pt_geography:town):country
+- Notícias de [Widdern](pt_geography:town):country
+- Notícias sobre o COVID-19
+- Novo coronavírus em [Verona](pt_geography:town):country
+- Situação [Esens](pt_geography:town):country
+- Situação actual em [Guayaquil](pt_geography:town):country
+- Situação actualizada em [Nis](pt_geography:town):country
+- Situação em [Pirmasens](pt_geography:town):country
+- situação
+- Últimas notícias
 
 ## intent:pt_covid_duration
 - Depois dos primeiros sintomas, quanto tempo pode durar a doença?
@@ -2991,399 +3013,382 @@
 - relação covid no mundo
 - situação do covid no mundo
 - situação mundial
-- COVID em [Bermudas Bélgica](pt_geography:town)
-- COVID-19 em [Košice](pt_geography:town)
-- Como está a situação em [Langenfeld](pt_geography:town)?
-- Coronavirus em [Praia](pt_geography:town)
-- Estatísticas actualizadas em [Cingapura](pt_geography:town)
-- Informações [Swansea](pt_geography:town)
-- Informações actualizadas [Darmstadt](pt_geography:town)
-- Informações sobre [Prato](pt_geography:town)
-- Notícias [Gladbach](pt_geography:town)
-- Notícias atuais [Baltimore](pt_geography:town)
-- Notícias de [Ilhas Falkland](pt_geography:town)
-- Notícias sobre o COVID-19
-- Novo coronavírus em [Nordhorn](pt_geography:town)
-- Situação [Nashik](pt_geography:town)
-- Situação actual em [Überlingen](pt_geography:town)
-- Situação actualizada em [Yichang](pt_geography:town)
-- Situação em [Armavir](pt_geography:town)
 
 ## intent:pt_covid_situation_deaths
-- [República Federal da Alemã](pt_country_code:DE) mortes.
-- Contagem mortes em [Nihon](pt_country_code:JP)
-- Contagem mortes no [República da Guiné-Bissau](pt_country_code:GW)
-- Contagem mortos em [República Islâmica do Afeganistão](pt_country_code:AF)
-- Contagem mortos no [Kyrgyzskaya Respublika](pt_country_code:KG)
-- Mortes de [Germany](pt_country_code:DE)
-- Mortes em [República do Uzbequistão](pt_country_code:UZ)
-- Mortes em [Northern Mariana Islands](pt_country_code:MP).
-- Numero de mortos em [Iyonola](pt_country_code:LC) hoje?
-- Número de mortes em [Quiribáti](pt_country_code:KI)
-- Número de mortos [Reino do Barém](pt_country_code:BH).
-- Número de mortos em [Sesel](pt_country_code:SC).
-- Número total de mortes em [Zimbaué](pt_country_code:ZW).
-- Número total de mortos em [Malawi](pt_country_code:MW)?
-- Olá. Quantos mortos existem em [Free Associated State of Puerto Rico](pt_country_code:PR)?
-- Qual é o numero de mortos com covid em [UAE](pt_country_code:AE)?
-- Qual é o número de mortes em [Gànnaar](pt_country_code:MR)?
-- Qual é o número de mortos em [República de Guinea Ecuatorial](pt_country_code:GQ)?
-- Quantos casos de mortos há em [Kingdom of Eswatini](pt_country_code:SZ)?
-- Quantos faleceram em [Reino da Tailândia](pt_country_code:TH)?
-- Quantos morreram em [Polónia](pt_country_code:PL).
-- Quantos mortos existem neste momento em [HIMI](pt_country_code:HM)?
-- Quantos mortos tem [Libéria](pt_country_code:LR)?
-- Quantos mortos tem a [República da Letônia](pt_country_code:LV)?
-- Quantos mortos tem o [Ahvenanmaa](pt_country_code:AX)?
-- qual o numero de mortes em [Estado da Palestina](pt_country_code:PS)?
-- quantas pessoas em [Caicos Islands](pt_country_code:TC) morreram?
-- quantas pessoas morreram em [Mexico](pt_country_code:MX)?
+- "[Eggwanga Yuganda](pt_country_code:UG) mortes."
+- Contagem mortes em [Ilhas Marianas do Norte](pt_country_code:MP)
+- Contagem mortes no [Cisi ca Zambia](pt_country_code:ZM)
+- Contagem mortos em [Svizra](pt_country_code:CH)
+- Contagem mortos no [Northern Ireland](pt_country_code:GB)
+- Mortes de [Republic of Malawi](pt_country_code:MW)
+- Mortes em [République gabonaise](pt_country_code:GA)
+- Mortes em [Yaman](pt_country_code:YE).
+- Numero de mortos em [Fiji](pt_country_code:FJ) hoje?
+- Número de mortes em [Uruguay](pt_country_code:UY)
+- Número de mortos [Repubblica Italiana](pt_country_code:IT).
+- Número de mortos em [Guiné Bissau](pt_country_code:GW).
+- Número total de mortes em [Kyrgyz Republic](pt_country_code:KG).
+- Número total de mortos em [Papua Nova Guiné](pt_country_code:PG)?
+- Olá. Quantos mortos existem em [Wallis and Futuna](pt_country_code:WF)?
+- Qual é o numero de mortos com covid em [Matanitu Tugalala o Viti](pt_country_code:FJ)?
+- Qual é o número de mortes em [Greenland](pt_country_code:GL)?
+- Qual é o número de mortos em [Martinique](pt_country_code:MQ)?
+- Quantos casos de mortos há em [République de Guinée équatoriale](pt_country_code:GQ)?
+- Quantos faleceram em [Caraíbas Neerlandesas](pt_country_code:BQ)?
+- Quantos morreram em [Hayti](pt_country_code:HT).
+- Quantos mortos existem neste momento em [Taneẓroft Tutrimt](pt_country_code:EH)?
+- Quantos mortos tem [São Martinho paises baixos](pt_country_code:SX)?
+- Quantos mortos tem a [Barbados](pt_country_code:BB)?
+- Quantos mortos tem o [Belarus](pt_country_code:BY)?
+- qual o numero de mortes em [Argélia](pt_country_code:DZ)?
+- quantas pessoas em [Etiópia](pt_country_code:ET) morreram?
+- quantas pessoas morreram em [Arménia](pt_country_code:AM)?
 
 ## intent:pt_covid_situation_infected
-- ASUS de covid ativos em [Austrália](pt_country_code:AU)
-- ASUS de covid ativos no [Ayiti](pt_country_code:HT)
-- ASUS de covid em [República da Turquia](pt_country_code:TR)
-- ASUS de covid no [United Republic of Tanzania](pt_country_code:TZ)
-- ASUS de covid no total em [Република Северна Македонија](pt_country_code:MK)
-- ASUS de covid no total no [Reino da Noruega](pt_country_code:NO)
-- Casos ativos de covid em [Mexico](pt_country_code:MX)
-- Casos ativos de covid no [Comunidade das Bahamas](pt_country_code:BS)
-- Casos confirmados ativos em [República das Seychelles](pt_country_code:SC)
-- Casos confirmados em [Ilizwe leZimbabwe](pt_country_code:ZW)
-- Casos de covid em [Pyidaunzu Thanmăda Myăma](pt_country_code:MM)
-- Casos de covid no [Republic of Chile](pt_country_code:CL)
-- Contagem infectada ativa em [Xīnjiāpō](pt_country_code:SG)
-- Contagem infectada ativa no [Dominica](pt_country_code:DM)
-- Contagem infectada em [Índia](pt_country_code:IN)
-- Contagem infectada no [Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya](pt_country_code:SO)
-- Contagem infectada no total em [Saint Pierre and Miquelon](pt_country_code:PM)
-- Contagem infectada no total no [São Cristóvão e Neves](pt_country_code:KN)
-- Contagem infectados ativos em [Türkiye](pt_country_code:TR)
-- Contagem infectados ativos no [Repubrikin Naoero](pt_country_code:NR)
-- Contagem infectados em [Sultanato de Omã](pt_country_code:OM)
-- Contagem infectados no [Kingdom of Tonga](pt_country_code:TO)
-- Contagem infectados no total em [Republika y'Uburundi](pt_country_code:BI)
-- Contagem infectados no total no [Quirguizistão](pt_country_code:KG)
-- Estatísticas de [Repabliki ya Afrika-Borwa](pt_country_code:ZA)
-- Numero de infectados ativos em [Dominican Republic](pt_country_code:DO) hoje?
-- Numero de infectados em [Dhivehi Raajje](pt_country_code:MV) hoje?
-- Numero de infectados no total em [Sri Lanka](pt_country_code:LK) hoje?
-- Número de casos ativos em [Republic of Sierra Leone](pt_country_code:SL)
-- Número de casos em [Aolepān Aorōkin Ṃajeḷ](pt_country_code:MH)
-- Número de casos no total em [Sri Lanca](pt_country_code:LK)
-- Número de infectados ativos em [Northern Ireland](pt_country_code:GB).
-- Número de infectados em [Sierra Leone](pt_country_code:SL).
-- Número de infectados no total em [Santa Lúcia](pt_country_code:LC).
-- Olá. Quantos infetados existem atualmente em [Saint-Martin](pt_country_code:MF)?
-- Olá. Quantos infetados existem em [Cocos (Keeling) Islands](pt_country_code:CC)?
-- Olá. Quantos infetados no total existem em [Republic of Senegal](pt_country_code:SN)?
-- Olá. Quantos total de infetados existem em [República das Honduras](pt_country_code:HN)?
-- Qual é o numero de infetados ativos com covid em [Saba](pt_country_code:BQ)?
-- Qual é o numero de infetados com covid em [República do Uzbequistão](pt_country_code:UZ)?
-- Qual é o numero de infetados no total com covid em [Cypriot Republic](pt_country_code:CY)?
-- Qual é o numero de total de infetados com covid em [Iyonola](pt_country_code:LC)?
-- Qual é o número de casos ativos em [Estado do Qatar](pt_country_code:QA)?
-- Qual é o número de casos confirmados ativos em [Principality of Andorra](pt_country_code:AD)?
-- Qual é o número de casos confirmados em [Irlanda do Norte](pt_country_code:GB)?
-- Qual é o número de casos em [Maurício](pt_country_code:MU)?
-- Qual é o número de casos no total confirmados em [Saint-Pierre e Miquelon](pt_country_code:PM)?
-- Qual é o número de casos no total em [Taiwan, Province of China](pt_country_code:TW)?
-- Qual é o número de infectados ativos em [República da Maurícia](pt_country_code:MU)?
-- Qual é o número de infectados em [Estado da Líbia](pt_country_code:LY)?
-- Qual é o número de infectados no total em [Dominican Republic](pt_country_code:DO)?
-- Quantos casos ativos de corrid em [Nöörje](pt_country_code:NO)
-- Quantos casos ativos em [Suriname](pt_country_code:SR)?
-- Quantos casos ativos existem em [Faroe Islands](pt_country_code:FO)
-- Quantos casos ativos há na [Jamhuuriyadda Federaalka Soomaaliya](pt_country_code:SO)?
-- Quantos casos de corrid em [Canadá](pt_country_code:CA)
-- Quantos casos de infetados ativos há em [Mann](pt_country_code:IM)?
-- Quantos casos de infetados há em [Bosna i Hercegovina](pt_country_code:BA)?
-- Quantos casos de infetados no total há em [Turks and Caicos Islands](pt_country_code:TC)?
-- Quantos casos de total de infetados há em [Rephaboliki ya Afrika Borwa](pt_country_code:ZA)?
-- Quantos casos em [Oman](pt_country_code:OM)?
-- Quantos casos existem em [Benin](pt_country_code:BJ)
-- Quantos casos há na [República da Estônia](pt_country_code:EE)?
-- Quantos casos no total de corrid em [Ilha da Irlanda](pt_country_code:IE)
-- Quantos casos no total em [República da Bulgária](pt_country_code:BG)?
-- Quantos casos no total existem em [Naha ya Zimbabwe](pt_country_code:ZW)
-- Quantos casos no total há na [Republic of Cyprus](pt_country_code:CY)?
-- Quantos infectados ativos existem neste momento em [Togo](pt_country_code:TG)?
-- Quantos infectados existem em [Republica do Afeganistão](pt_country_code:AF)?
-- Quantos infectados existem neste momento em [Piruw Republika](pt_country_code:PE)?
-- Quantos infetados ativos tem [Republic of the Sudan](pt_country_code:SD)?
-- Quantos infetados ativos tem a [Cingapura](pt_country_code:SG)?
-- Quantos infetados ativos tem o [Federated States of Micronesia](pt_country_code:FM)?
-- Quantos infetados no total tem [Éire](pt_country_code:IE)?
-- Quantos infetados no total tem a [RDC](pt_country_code:CD)?
-- Quantos infetados no total tem o [República da Arménia](pt_country_code:AM)?
-- Quantos infetados tem [Republic of South Sudan](pt_country_code:SS)?
-- Quantos infetados tem a [Kingdom of Tonga](pt_country_code:TO)?
-- Quantos infetados tem o [Ruanda](pt_country_code:RW)?
-- Quantos total de infetados tem [as-Sūdān](pt_country_code:SD)?
-- Quantos total de infetados tem a [Svalbard og Jan Mayen](pt_country_code:SJ)?
-- Quantos total de infetados tem o [Slovenija](pt_country_code:SI)?
-- casos no total confirmados em [Japan](pt_country_code:JP)
-- casos no total de covid em [Bolívia](pt_country_code:BO)
-- casos no total de covid no [Al-ʾUrdunn](pt_country_code:JO)
-- qual o numero de casos confirmados ativos em [Wallis e Futuna](pt_country_code:WF)?
-- qual o numero de casos confirmados em [Barbuda](pt_country_code:AG)?
-- qual o numero de casos no total confirmados em [Sultanate of Oman](pt_country_code:OM)?
-- quantas pessoas em [Republic of Cabo Verde](pt_country_code:CV) estao infetadas ?
-- quantas pessoas em [Guåhån](pt_country_code:GU) estao infetadas atualmente?
-- quantas pessoas em [Éire](pt_country_code:IE) estiveram infetadas ?
-- quantas pessoas em [República da Moldova](pt_country_code:MD) tiveram covid ?
-- quantas pessoas em [Czechia](pt_country_code:CZ) têm covid ?
-- quantas pessoas em [Uzbequistão](pt_country_code:UZ) têm covid atualmente?
-- quantas pessoas estiveram infectadas em [Repubblica di San Marino](pt_country_code:SM)
-- quantas pessoas estão infectadas atualmente em [Tunisie](pt_country_code:TN)
-- quantas pessoas estão infectadas em [Mēxihco](pt_country_code:MX)
-- quantos casos ativos de covid-19 há em [República das Maldivas](pt_country_code:MV)?
-- quantos casos ativos há em [Ilha Bouvet](pt_country_code:BV) no momento?
-- quantos casos ativos há no [Oʻzbekiston](pt_country_code:UZ)?
-- quantos casos de covid-19 há em [Beluu er a Belau](pt_country_code:PW)?
-- quantos casos há em [Reino da Jordânia](pt_country_code:JO) no momento?
-- quantos casos há no [Република Србија](pt_country_code:RS)?
-- quantos casos no total de covid-19 há em [República da Moldávia](pt_country_code:MD)?
-- quantos casos no total há em [Republic of India](pt_country_code:IN) no momento?
-- quantos casos no total há no [Macao](pt_country_code:MO)?
+- ASUS de covid ativos em [República Gabonesa](pt_country_code:GA)
+- ASUS de covid ativos no [Republic of Uganda](pt_country_code:UG)
+- ASUS de covid em [Kingdom of Eswatini](pt_country_code:SZ)
+- ASUS de covid no [Mauritania](pt_country_code:MR)
+- ASUS de covid no total em [Espainiako Erresuma](pt_country_code:ES)
+- ASUS de covid no total no [Estado Independente de Samoa](pt_country_code:WS)
+- Casos ativos de covid em [Malawi](pt_country_code:MW)
+- Casos ativos de covid no [República do Líbano](pt_country_code:LB)
+- Casos confirmados ativos em [Balgariya](pt_country_code:BG)
+- Casos confirmados em [TOM](pt_country_code:TF)
+- Casos de covid em [República do Panamá](pt_country_code:PA)
+- Casos de covid no [Dawlat Lībiyā](pt_country_code:LY)
+- Contagem infectada ativa em [Republic of Vanuatu](pt_country_code:VU)
+- Contagem infectada ativa no [al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah](pt_country_code:AE)
+- Contagem infectada em [Kingdom of Denmark](pt_country_code:DK)
+- Contagem infectada no [République d'Haïti](pt_country_code:HT)
+- Contagem infectada no total em [British Indian Ocean Territory](pt_country_code:IO)
+- Contagem infectada no total no [República de Trindade e Tobago](pt_country_code:TT)
+- Contagem infectados ativos em [Iyonola](pt_country_code:LC)
+- Contagem infectados ativos no [Papua Nova Guiné](pt_country_code:PG)
+- Contagem infectados em [Republic of Zambia](pt_country_code:ZM)
+- Contagem infectados no [Território das Ilhas Heard e McDonald](pt_country_code:HM)
+- Contagem infectados no total em [Republic of Mozambique](pt_country_code:MZ)
+- Contagem infectados no total no [Reino Unido](pt_country_code:GB)
+- Estatísticas de [Österreich](pt_country_code:AT)
+- Numero de infectados ativos em [Argentina](pt_country_code:AR) hoje?
+- Numero de infectados em [Federation of Saint Christopher and Nevis](pt_country_code:KN) hoje?
+- Numero de infectados no total em [Åland](pt_country_code:AX) hoje?
+- Número de casos ativos em [South Korea](pt_country_code:KR)
+- Número de casos em [Fidji](pt_country_code:FJ)
+- Número de casos no total em [U.K.](pt_country_code:GB)
+- Número de infectados ativos em [República da África-Central](pt_country_code:CF).
+- Número de infectados em [República de Honduras](pt_country_code:HN).
+- Número de infectados no total em [Bangladesh](pt_country_code:BD).
+- Olá. Quantos infetados existem atualmente em [Caribisch Nederland](pt_country_code:BQ)?
+- Olá. Quantos infetados existem em [Chosŏn](pt_country_code:KP)?
+- Olá. Quantos infetados no total existem em [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah](pt_country_code:SY)?
+- Olá. Quantos total de infetados existem em [Salvador](pt_country_code:SV)?
+- Qual é o numero de infetados ativos com covid em [Republic of Panama](pt_country_code:PA)?
+- Qual é o numero de infetados com covid em [Saint-Barthélemy](pt_country_code:BL)?
+- Qual é o numero de infetados no total com covid em [Åland](pt_country_code:AX)?
+- Qual é o numero de total de infetados com covid em [Msumbiji](pt_country_code:MZ)?
+- Qual é o número de casos ativos em [Konungariket Sverige](pt_country_code:SE)?
+- Qual é o número de casos confirmados ativos em [Ilhas Geórgia do Sul e Sandwich do Sul](pt_country_code:GS)?
+- Qual é o número de casos confirmados em [Quênia](pt_country_code:KE)?
+- Qual é o número de casos em [Gabuutih Ummuuno](pt_country_code:DJ)?
+- Qual é o número de casos no total confirmados em [Palmyra Atoll](pt_country_code:UM)?
+- Qual é o número de casos no total em [Gámbi](pt_country_code:GM)?
+- Qual é o número de infectados ativos em [Ilhas Faroé](pt_country_code:FO)?
+- Qual é o número de infectados em [Niuê](pt_country_code:NU)?
+- Qual é o número de infectados no total em [Tshād](pt_country_code:TD)?
+- Quantos casos ativos de corrid em [Grã-Bretanha](pt_country_code:GB)
+- Quantos casos ativos em [Kingdom of Sweden](pt_country_code:SE)?
+- Quantos casos ativos existem em [Kingman Reef](pt_country_code:UM)
+- Quantos casos ativos há na [Republic of the Equator](pt_country_code:EC)?
+- Quantos casos de corrid em [Reino do Bahrein](pt_country_code:BH)
+- Quantos casos de infetados ativos há em [Niger](pt_country_code:NE)?
+- Quantos casos de infetados há em [Samoa Ocidental](pt_country_code:WS)?
+- Quantos casos de infetados no total há em [Overseas Collectivity of Saint Pierre and Miquelon](pt_country_code:PM)?
+- Quantos casos de total de infetados há em [as-Su’ūdiyya](pt_country_code:SA)?
+- Quantos casos em [Hungria](pt_country_code:HU)?
+- Quantos casos existem em [Republic of Namibia](pt_country_code:NA)
+- Quantos casos há na [República do Suriname](pt_country_code:SR)?
+- Quantos casos no total de corrid em [Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya](pt_country_code:ET)
+- Quantos casos no total em [Ilhas McDonald](pt_country_code:HM)?
+- Quantos casos no total existem em [Repúbliká ng̃ Pilipinas](pt_country_code:PH)
+- Quantos casos no total há na [República Democrática Federal do Nepal](pt_country_code:NP)?
+- Quantos infectados ativos existem neste momento em [Democratic Republic of São Tomé and Príncipe](pt_country_code:ST)?
+- Quantos infectados existem em [Quênia](pt_country_code:KE)?
+- Quantos infectados existem neste momento em [República Federal do Brasil](pt_country_code:BR)?
+- Quantos infetados ativos tem [Norgga gonagasriika](pt_country_code:NO)?
+- Quantos infetados ativos tem a [Kirghizia](pt_country_code:KG)?
+- Quantos infetados ativos tem o [Pitcairn Islands](pt_country_code:PN)?
+- Quantos infetados no total tem [Holanda](pt_country_code:NL)?
+- Quantos infetados no total tem a [Sint Maarten](pt_country_code:MF)?
+- Quantos infetados no total tem o [Federative Republic of Brazil](pt_country_code:BR)?
+- Quantos infetados tem [Agawej](pt_country_code:MR)?
+- Quantos infetados tem a [al-Kuwait](pt_country_code:KW)?
+- Quantos infetados tem o [Zimbabué](pt_country_code:ZW)?
+- Quantos total de infetados tem [Chile Wüdalmapu](pt_country_code:CL)?
+- Quantos total de infetados tem a [Danmark](pt_country_code:DK)?
+- Quantos total de infetados tem o [Cidade do Vaticano](pt_country_code:VA)?
+- casos no total confirmados em [Republic of El Salvador](pt_country_code:SV)
+- casos no total de covid em [Democratic People's Republic of Korea](pt_country_code:KP)
+- casos no total de covid no [República Oriental do Uruguai](pt_country_code:UY)
+- qual o numero de casos confirmados ativos em [Ilhas Geórgia do Sul e Sanduíche do Sul](pt_country_code:GS)?
+- qual o numero de casos confirmados em [République française](pt_country_code:FR)?
+- qual o numero de casos no total confirmados em [República de Angola](pt_country_code:AO)?
+- quantas pessoas em [Saint Thomas and Prince](pt_country_code:ST) estao infetadas ?
+- quantas pessoas em [Confederação Suíça](pt_country_code:CH) estao infetadas atualmente?
+- quantas pessoas em [República do Iémen](pt_country_code:YE) estiveram infetadas ?
+- quantas pessoas em [Principat de Mónegue](pt_country_code:MC) tiveram covid ?
+- quantas pessoas em [British Virgin Islands](pt_country_code:VG) têm covid ?
+- quantas pessoas em [Cingapura](pt_country_code:SG) têm covid atualmente?
+- quantas pessoas estiveram infectadas em [Republic of Fiji](pt_country_code:FJ)
+- quantas pessoas estão infectadas atualmente em [Republic of Slovenia](pt_country_code:SI)
+- quantas pessoas estão infectadas em [Al-Baḥrayn](pt_country_code:BH)
+- quantos casos ativos de covid-19 há em [Montenegro](pt_country_code:ME)?
+- quantos casos ativos há em [French Guinea](pt_country_code:GN) no momento?
+- quantos casos ativos há no [Bangladesh](pt_country_code:BD)?
+- quantos casos de covid-19 há em [Republic of Mozambique](pt_country_code:MZ)?
+- quantos casos há em [República das Filipinas](pt_country_code:PH) no momento?
+- quantos casos há no [Umoja wa Komori](pt_country_code:KM)?
+- quantos casos no total de covid-19 há em [Papua Nova Guiné](pt_country_code:PG)?
+- quantos casos no total há em [Serbia](pt_country_code:RS) no momento?
+- quantos casos no total há no [Great Britain](pt_country_code:GB)?
 
 ## intent:pt_covid_situation_infected_critical
-- ASUS alarmantes de covid em [República Islâmica do Afeganistão](pt_country_code:AF)
-- ASUS alarmantes de covid no [Domínica](pt_country_code:DM)
-- ASUS criticos de covid em [Maurício](pt_country_code:MU)
-- ASUS criticos de covid no [República Federal do Brasil](pt_country_code:BR)
-- ASUS críticos de covid em [Republic of Argentina](pt_country_code:AR)
-- ASUS críticos de covid no [Republic of Maldives](pt_country_code:MV)
-- ASUS graves de covid em [Dawlat al-Kuwait](pt_country_code:KW)
-- ASUS graves de covid no [República Dominicana](pt_country_code:DO)
-- Casos alarmantes de covid em [Santa Helena, Ascensão e Tristão da Cunha](pt_country_code:SH)
-- Casos alarmantes de covid no [Pitcairn, Henderson, Ducie and Oeno Islands](pt_country_code:PN)
-- Casos confirmados alarmantes em [Congo Brazzaville](pt_country_code:CG)
-- Casos confirmados criticos em [Syria](pt_country_code:SY)
-- Casos confirmados críticos em [Baamas](pt_country_code:BS)
-- Casos confirmados graves em [Ilha Jarvis](pt_country_code:UM)
-- Casos criticos de covid em [Cisi ca Zambia](pt_country_code:ZM)
-- Casos criticos de covid no [Commonwealth of Australia](pt_country_code:AU)
-- Casos críticos de covid em [Niuē](pt_country_code:NU)
-- Casos críticos de covid no [Reino de España](pt_country_code:ES)
-- Casos graves de covid em [Antigua and Barbuda](pt_country_code:AG)
-- Casos graves de covid no [Norfolk Island](pt_country_code:NF)
-- Contagem infectada alarmante em [Sérvia](pt_country_code:RS)
-- Contagem infectada alarmante no [U.K.](pt_country_code:GB)
-- Contagem infectada critica em [Bailliage dé Jèrri](pt_country_code:JE)
-- Contagem infectada critica no [Norway](pt_country_code:NO)
-- Contagem infectada crítica em [Bonaire, Sint Eustatius and Saba](pt_country_code:BQ)
-- Contagem infectada crítica no [Slovenija](pt_country_code:SI)
-- Contagem infectados alarmantes em [República dos Camarões](pt_country_code:CM)
-- Contagem infectados alarmantes no [Rússia](pt_country_code:RU)
-- Contagem infectados criticos em [Gànnaar](pt_country_code:MR)
-- Contagem infectados criticos no [Kirghizia](pt_country_code:KG)
-- Contagem infectados críticos em [Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu](pt_country_code:LK)
-- Contagem infectados críticos no [Togo](pt_country_code:TG)
-- Contagem infectados graves em [Germany](pt_country_code:DE)
-- Contagem infectados graves no [South Korea](pt_country_code:KR)
-- Infetados alarmantes em [República Árabe do Egito](pt_country_code:EG)
-- Infetados criticos em [República Democrática de São Tomé e Príncipe](pt_country_code:ST)
-- Infetados críticos em [Estado Plurinacional de Bolivia](pt_country_code:BO)
-- Infetados graves em [Groenlândia](pt_country_code:GL)
-- Numero de infectados alarmantes em [Ruanda](pt_country_code:RW) hoje?
-- Numero de infectados criticos em [Islândia](pt_country_code:IS) hoje?
-- Numero de infectados críticos em [Mexican United States](pt_country_code:MX) hoje?
-- Numero de infectados graves em [Bailiado de Jersey](pt_country_code:JE) hoje?
-- Número de casos alarmantes em [Taiwan Area](pt_country_code:TW)
-- Número de casos criticos em [São Vicente e Granadinas](pt_country_code:VC)
-- Número de casos críticos em [Sao Tome and Principe](pt_country_code:ST)
-- Número de casos graves em [Kongeriket Noreg](pt_country_code:NO)
-- Número de infectados alarmantes em [Dominican Republic](pt_country_code:DO).
-- Número de infectados criticos em [Bangladexe](pt_country_code:BD).
-- Número de infectados críticos em [Jamhuri ya Rwanda](pt_country_code:RW).
-- Número de infectados graves em [Luxemburgo](pt_country_code:LU).
-- Olá. Quantos infetados alarmantes existem em [Piruw Suyu](pt_country_code:PE)?
-- Olá. Quantos infetados criticos existem em [Chosŏn](pt_country_code:KP)?
-- Olá. Quantos infetados críticos existem em [Federal Republic of Germany](pt_country_code:DE)?
-- Olá. Quantos infetados graves existem em [Chile](pt_country_code:CL)?
-- Qual é o numero de infetados alarmantes com covid em [Namhan](pt_country_code:KR)?
-- Qual é o numero de infetados criticos com covid em [Coletividade de São Bartolomeu](pt_country_code:BL)?
-- Qual é o numero de infetados críticos com covid em [Hellas](pt_country_code:GR)?
-- Qual é o numero de infetados graves com covid em [Território da Ilha Norfolque](pt_country_code:NF)?
-- Qual é o número de casos alarmantes em [Falklands](pt_country_code:FK)?
-- Qual é o número de casos confirmados alarmantes em [Ilha da Irlanda](pt_country_code:IE)?
-- Qual é o número de casos confirmados criticos em [Republic of North Macedonia](pt_country_code:MK)?
-- Qual é o número de casos confirmados críticos em [East Timor](pt_country_code:TL)?
-- Qual é o número de casos confirmados graves em [Ilhas Cocos Keeling](pt_country_code:CC)?
-- Qual é o número de casos criticos em [Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah](pt_country_code:JO)?
-- Qual é o número de casos críticos em [Argentina](pt_country_code:AR)?
-- Qual é o número de casos graves em [Reino do Lesoto](pt_country_code:LS)?
-- Qual é o número de infectados alarmantes em [United Arab Emirates](pt_country_code:AE)?
-- Qual é o número de infectados criticos em [Saint Helena](pt_country_code:SH)?
-- Qual é o número de infectados críticos em [Baker Island](pt_country_code:UM)?
-- Qual é o número de infectados graves em [República Federal da Nigéria](pt_country_code:NG)?
-- Quantos casos alarmantes de corrid em [Faroe Islands](pt_country_code:FO)
-- Quantos casos alarmantes em [Free Associated State of Puerto Rico](pt_country_code:PR)?
-- Quantos casos alarmantes existem em [Repubilika ya Kôngo ya Dimokalasi](pt_country_code:CD)
-- Quantos casos alarmantes há na [Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui](pt_country_code:MO)?
-- Quantos casos criticos de corrid em [TOM](pt_country_code:TF)
-- Quantos casos criticos em [Ilhas Cook](pt_country_code:CK)?
-- Quantos casos criticos existem em [Maore](pt_country_code:YT)
-- Quantos casos criticos há na [Danmark](pt_country_code:DK)?
-- Quantos casos críticos de corrid em [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah](pt_country_code:SY)
-- Quantos casos críticos em [Reino da Suécia](pt_country_code:SE)?
-- Quantos casos críticos existem em [Irão](pt_country_code:IR)
-- Quantos casos críticos há na [Cocos (Keeling) Islands](pt_country_code:CC)?
-- Quantos casos de infetados alarmantes há em [Udzima wa Komori](pt_country_code:KM)?
-- Quantos casos de infetados criticos há em [República do Botsuana](pt_country_code:BW)?
-- Quantos casos de infetados críticos há em [Republic of Maldives](pt_country_code:MV)?
-- Quantos casos de infetados graves há em [Taiwan, China](pt_country_code:TW)?
-- Quantos casos graves de corrid em [Ilha Aprazível](pt_country_code:NR)
-- Quantos casos graves em [Ilhas Malvinas](pt_country_code:FK)?
-- Quantos casos graves existem em [Druk Gyal Khap](pt_country_code:BT)
-- Quantos casos graves há na [Paraguái](pt_country_code:PY)?
-- Quantos infectados alarmantes existem neste momento em [Mali](pt_country_code:ML)?
-- Quantos infectados criticos existem neste momento em [South Georgia and the South Sandwich Islands](pt_country_code:GS)?
-- Quantos infectados críticos existem neste momento em [Киргизия](pt_country_code:KG)?
-- Quantos infectados graves existem neste momento em [Pleasant Island](pt_country_code:NR)?
-- Quantos infetados alarmantes tem [aṣ-Ṣūmāl](pt_country_code:SO)?
-- Quantos infetados alarmantes tem o [Emirates](pt_country_code:AE)?
-- Quantos infetados criticos tem [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà](pt_country_code:NG)?
-- Quantos infetados criticos tem o [Mauritanie](pt_country_code:MR)?
-- Quantos infetados críticos tem [Schweiz](pt_country_code:CH)?
-- Quantos infetados críticos tem o [Bonaire](pt_country_code:BQ)?
-- Quantos infetados graves tem [Republic of Suriname](pt_country_code:SR)?
-- Quantos infetados graves tem o [República da Estónia](pt_country_code:EE)?
-- qual o numero de casos confirmados alarmantes em [Wilayah Kepulauan Cocos (Keeling)](pt_country_code:CC)?
-- qual o numero de casos confirmados criticos em [Renndaandi Ginea](pt_country_code:GN)?
-- qual o numero de casos confirmados críticos em [Republic of Honduras](pt_country_code:HN)?
-- qual o numero de casos confirmados graves em [La Grenade](pt_country_code:GD)?
-- quantos casos alarmantes de covid-19 há em [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà](pt_country_code:NG)?
-- quantos casos alarmantes há em [Jamhuriyar Taraiyar Najeriya](pt_country_code:NG) no momento?
-- quantos casos alarmantes há no [Republic of Belarus](pt_country_code:BY)?
-- quantos casos criticos de covid-19 há em [Jamaica](pt_country_code:JM)?
-- quantos casos criticos há em [Portuguese Republic](pt_country_code:PT) no momento?
-- quantos casos criticos há no [Croácia](pt_country_code:HR)?
-- quantos casos críticos de covid-19 há em [Airlann](pt_country_code:IE)?
-- quantos casos críticos há em [Republic of Mozambique](pt_country_code:MZ) no momento?
-- quantos casos críticos há no [República das Seicheles ou Seychelles](pt_country_code:SC)?
-- quantos casos graves de covid-19 há em [República da Lituânia](pt_country_code:LT)?
-- quantos casos graves há em [Nouvelle-Calédonie](pt_country_code:NC) no momento?
-- quantos casos graves há no [Republik Namibia](pt_country_code:NA)?
+- ASUS alarmantes de covid em [Ahvenanmaa](pt_country_code:AX)
+- ASUS alarmantes de covid no [República da Argentina](pt_country_code:AR)
+- ASUS criticos de covid em [Belgique](pt_country_code:BE)
+- ASUS criticos de covid no [Republic of Malawi](pt_country_code:MW)
+- ASUS críticos de covid em [Tailândia](pt_country_code:TH)
+- ASUS críticos de covid no [Gwadloup](pt_country_code:GP)
+- ASUS graves de covid em [România](pt_country_code:RO)
+- ASUS graves de covid no [Afeganistão](pt_country_code:AF)
+- Casos alarmantes de covid em [Ilha do Natal](pt_country_code:CX)
+- Casos alarmantes de covid no [Nova Caledônia](pt_country_code:NC)
+- Casos confirmados alarmantes em [République de Djibouti](pt_country_code:DJ)
+- Casos confirmados criticos em [Czech Republic](pt_country_code:CZ)
+- Casos confirmados críticos em [Republic of Mauritius](pt_country_code:MU)
+- Casos confirmados graves em [Estados Unidos da América](pt_country_code:US)
+- Casos criticos de covid em [ilha Norfolk](pt_country_code:NF)
+- Casos criticos de covid no [Gibraltar](pt_country_code:GI)
+- Casos críticos de covid em [República das Fidji](pt_country_code:FJ)
+- Casos críticos de covid no [Balgariya](pt_country_code:BG)
+- Casos graves de covid em [Ködörösêse tî Bêafrîka](pt_country_code:CF)
+- Casos graves de covid no [République de Côte d'Ivoire](pt_country_code:CI)
+- Contagem infectada alarmante em [Sancta Sedes](pt_country_code:VA)
+- Contagem infectada alarmante no [Aolepān Aorōkin Ṃajeḷ](pt_country_code:MH)
+- Contagem infectada critica em [Ilhas Menores Distantes dos Estados Unidos](pt_country_code:UM)
+- Contagem infectada critica no [Afghanistan](pt_country_code:AF)
+- Contagem infectada crítica em [República de Angola](pt_country_code:AO)
+- Contagem infectada crítica no [Arab Republic of Egypt](pt_country_code:EG)
+- Contagem infectados alarmantes em [Jamhuri ya Rwanda](pt_country_code:RW)
+- Contagem infectados alarmantes no [Irão](pt_country_code:IR)
+- Contagem infectados criticos em [Iêmen](pt_country_code:YE)
+- Contagem infectados criticos no [Norf'k Ailen](pt_country_code:NF)
+- Contagem infectados críticos em [State of Eritrea](pt_country_code:ER)
+- Contagem infectados críticos no [Arquipélago da Aland](pt_country_code:AX)
+- Contagem infectados graves em [Colombia](pt_country_code:CO)
+- Contagem infectados graves no [Antigua and Barbuda](pt_country_code:AG)
+- Infetados alarmantes em [Persia](pt_country_code:IR)
+- Infetados criticos em [Mexico](pt_country_code:MX)
+- Infetados críticos em [Balgariya](pt_country_code:BG)
+- Infetados graves em [Isle of Man](pt_country_code:IM)
+- Numero de infectados alarmantes em [Democratic Republic of the Congo](pt_country_code:CD) hoje?
+- Numero de infectados criticos em [República Socialista do Vietname](pt_country_code:VN) hoje?
+- Numero de infectados críticos em [Saint Kitts](pt_country_code:KN) hoje?
+- Numero de infectados graves em [Ilhas Pitcairn, Henderson, Ducie e Oeno](pt_country_code:PN) hoje?
+- Número de casos alarmantes em [Lituânia](pt_country_code:LT)
+- Número de casos criticos em [Ilhas Sandwich do Sul](pt_country_code:GS)
+- Número de casos críticos em [Comores](pt_country_code:KM)
+- Número de casos graves em [French Republic](pt_country_code:FR)
+- Número de infectados alarmantes em [Territoire des îles Wallis-et-Futuna](pt_country_code:WF).
+- Número de infectados criticos em [Monserrate](pt_country_code:MS).
+- Número de infectados críticos em [Kingdom of Sweden](pt_country_code:SE).
+- Número de infectados graves em [Trinidad e Tobago](pt_country_code:TT).
+- Olá. Quantos infetados alarmantes existem em [Oriental Republic of Uruguay](pt_country_code:UY)?
+- Olá. Quantos infetados criticos existem em [Hagere Ertra](pt_country_code:ER)?
+- Olá. Quantos infetados críticos existem em [Sāmoa Amelika](pt_country_code:AS)?
+- Olá. Quantos infetados graves existem em [Nederland](pt_country_code:NL)?
+- Qual é o numero de infetados alarmantes com covid em [Bailliage de Guernesey](pt_country_code:GG)?
+- Qual é o numero de infetados criticos com covid em [Brasil](pt_country_code:BR)?
+- Qual é o numero de infetados críticos com covid em [Confoederatio Helvetica](pt_country_code:CH)?
+- Qual é o numero de infetados graves com covid em [Federal Republic of Germany](pt_country_code:DE)?
+- Qual é o número de casos alarmantes em [Norf'k Ailen](pt_country_code:NF)?
+- Qual é o número de casos confirmados alarmantes em [Salvador](pt_country_code:SV)?
+- Qual é o número de casos confirmados criticos em [Estado da Cidade do Vaticano](pt_country_code:VA)?
+- Qual é o número de casos confirmados críticos em [Território Britânico do Oceano](pt_country_code:IO)?
+- Qual é o número de casos confirmados graves em [Islas Malvinas](pt_country_code:FK)?
+- Qual é o número de casos criticos em [Republic of Singapore](pt_country_code:SG)?
+- Qual é o número de casos críticos em [Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah](pt_country_code:AE)?
+- Qual é o número de casos graves em [Maldives](pt_country_code:MV)?
+- Qual é o número de infectados alarmantes em [Bangladesh](pt_country_code:BD)?
+- Qual é o número de infectados criticos em [Coletividade de São Bartolomeu](pt_country_code:BL)?
+- Qual é o número de infectados críticos em [Département de Mayotte](pt_country_code:YT)?
+- Qual é o número de infectados graves em [Ilhas Cayman](pt_country_code:KY)?
+- Quantos casos alarmantes de corrid em [Kenya](pt_country_code:KE)
+- Quantos casos alarmantes em [Grupo de Ilhas Pitcairn](pt_country_code:PN)?
+- Quantos casos alarmantes existem em [Reino do Butão](pt_country_code:BT)
+- Quantos casos alarmantes há na [Guame](pt_country_code:GU)?
+- Quantos casos criticos de corrid em [Território Britânico do Oceano](pt_country_code:IO)
+- Quantos casos criticos em [República do Líbano](pt_country_code:LB)?
+- Quantos casos criticos existem em [Islamic Republic of Iran](pt_country_code:IR)
+- Quantos casos criticos há na [Macedônia do Norte](pt_country_code:MK)?
+- Quantos casos críticos de corrid em [Sudão do Sul](pt_country_code:SS)
+- Quantos casos críticos em [República de Nicaragua](pt_country_code:NI)?
+- Quantos casos críticos existem em [Guérnesei](pt_country_code:GG)
+- Quantos casos críticos há na [Síria](pt_country_code:SY)?
+- Quantos casos de infetados alarmantes há em [Republic of Côte d'Ivoire](pt_country_code:CI)?
+- Quantos casos de infetados criticos há em [República da Eslovénia](pt_country_code:SI)?
+- Quantos casos de infetados críticos há em [Republic of the Niger](pt_country_code:NE)?
+- Quantos casos de infetados graves há em [Palau](pt_country_code:PW)?
+- Quantos casos graves de corrid em [Schwiiz](pt_country_code:CH)
+- Quantos casos graves em [Spain](pt_country_code:ES)?
+- Quantos casos graves existem em [Bouvet-øya](pt_country_code:BV)
+- Quantos casos graves há na [Saint Martin (French part)](pt_country_code:MF)?
+- Quantos infectados alarmantes existem neste momento em [Quirguizistão](pt_country_code:KG)?
+- Quantos infectados criticos existem neste momento em [Republic of Fiji](pt_country_code:FJ)?
+- Quantos infectados críticos existem neste momento em [Democratic People's Republic of Korea](pt_country_code:KP)?
+- Quantos infectados graves existem neste momento em [Jamhuriyar Taraiyar Najeriya](pt_country_code:NG)?
+- Quantos infetados alarmantes tem [República de Trindade e Tobago](pt_country_code:TT)?
+- Quantos infetados alarmantes tem o [Umoja wa Komori](pt_country_code:KM)?
+- Quantos infetados criticos tem [República de Uganda](pt_country_code:UG)?
+- Quantos infetados criticos tem o [Palaos](pt_country_code:PW)?
+- Quantos infetados críticos tem [Bailliage de Jersey](pt_country_code:JE)?
+- Quantos infetados críticos tem o [Tunisie](pt_country_code:TN)?
+- Quantos infetados graves tem [Democratic Republic of São Tomé and Príncipe](pt_country_code:ST)?
+- Quantos infetados graves tem o [Mayotte](pt_country_code:YT)?
+- qual o numero de casos confirmados alarmantes em [Quirguistão](pt_country_code:KG)?
+- qual o numero de casos confirmados criticos em [República Francesa](pt_country_code:FR)?
+- qual o numero de casos confirmados críticos em [FSM](pt_country_code:FM)?
+- qual o numero de casos confirmados graves em [Saṅghīya Lokatāntrik Gaṇatantra Nepāl](pt_country_code:NP)?
+- quantos casos alarmantes de covid-19 há em [Kingdom of Spain](pt_country_code:ES)?
+- quantos casos alarmantes há em [Republíki ya Kongó Demokratíki](pt_country_code:CD) no momento?
+- quantos casos alarmantes há no [Collectivité territoriale de Saint-Barthélemy](pt_country_code:BL)?
+- quantos casos criticos de covid-19 há em [Kambiya](pt_country_code:GM)?
+- quantos casos criticos há em [República de Madagáscar](pt_country_code:MG) no momento?
+- quantos casos criticos há no [República da Letônia](pt_country_code:LV)?
+- quantos casos críticos de covid-19 há em [Yaman](pt_country_code:YE)?
+- quantos casos críticos há em [Pākistān](pt_country_code:PK) no momento?
+- quantos casos críticos há no [Espainiako Erresuma](pt_country_code:ES)?
+- quantos casos graves de covid-19 há em [Rzeczpospolita Polska](pt_country_code:PL)?
+- quantos casos graves há em [Republic of Mauritius](pt_country_code:MU) no momento?
+- quantos casos graves há no [República do Iémen](pt_country_code:YE)?
 
 ## intent:pt_covid_situation_last_update
-- Atualização de [Palaos](pt_country_code:PW).
-- Atualização de hoje de [Maurícia](pt_country_code:MU).
-- Atualização de hoje em [Zimbabué](pt_country_code:ZW).
-- Atualização em [Svalbard og Jan Mayen](pt_country_code:SJ).
-- Dados atualizados de [Sultanate of Oman](pt_country_code:OM)?
-- Dados atualizados de infetados e mortes em [French Southern Territories](pt_country_code:TF)?
-- Dados atualizados em [Shango ḽa Zimbabwe](pt_country_code:ZW)?
-- Dados de hoje de casos em [Países Baixos](pt_country_code:NL).
-- Dados de hoje de infetados [Táiwān shěng](pt_country_code:TW).
-- Dados de hoje de mortes [Ilha Esmeralda das Caraíbas](pt_country_code:MS).
-- Dados de hoje de novos casos em [República Oriental del Uruguay](pt_country_code:UY).
-- Dados de hoje de novos infetados [Reiaume d'Espanha](pt_country_code:ES).
-- Dados de hoje de novos mortes [Tobago](pt_country_code:TT).
-- Dados de hoje em [Italy](pt_country_code:IT).
-- Novos casos e mortes em [Congo-Brazzaville](pt_country_code:CG)?
-- Novos casos em [Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya](pt_country_code:ET)?
-- Quantas mais mortes em [São Marinho](pt_country_code:SM) no momento?
-- Quantos mais infetados em [Balgariya](pt_country_code:BG)?
-- Ultima atualização em [Luxemburgo](pt_country_code:LU)
-- Última atualização de casos e mortes em [Aotearoa](pt_country_code:NZ)?
-- Última atualização de casos em [Mexico](pt_country_code:MX)?
-- Última atualização de infetados e mortes em [Congo-Quinxassa](pt_country_code:CD)?
-- Última atualização de infetados em [Republic of Maldives](pt_country_code:MV)?
-- Última atualização de mortes em [United States Minor Outlying Islands](pt_country_code:UM)?
-- Últimos dados de [Aotearoa](pt_country_code:NZ).
-- Últimos dados em [Muso oa Lesotho](pt_country_code:LS).
+- Atualização de [Mozambique](pt_country_code:MZ).
+- Atualização de hoje de [Umoja wa Komori](pt_country_code:KM).
+- Atualização de hoje em [Reino da Tailândia](pt_country_code:TH).
+- Atualização em [Chipre](pt_country_code:CY).
+- Dados atualizados de [Alanda](pt_country_code:AX)?
+- Dados atualizados de infetados e mortes em [Egito](pt_country_code:EG)?
+- Dados atualizados em [República das Filipinas](pt_country_code:PH)?
+- Dados de hoje de casos em [America](pt_country_code:US).
+- Dados de hoje de infetados [Hashemite Kingdom of Jordan](pt_country_code:JO).
+- Dados de hoje de mortes [al-Mamlaka al-ʻArabiyya as-Suʻūdiyya](pt_country_code:SA).
+- Dados de hoje de novos casos em [Rossiya](pt_country_code:RU).
+- Dados de hoje de novos infetados [Croácia](pt_country_code:HR).
+- Dados de hoje de novos mortes [Tuvalu](pt_country_code:TV).
+- Dados de hoje em [República da Eslovénia](pt_country_code:SI).
+- Novos casos e mortes em [República da Indonésia](pt_country_code:ID)?
+- Novos casos em [Guinée équatoriale](pt_country_code:GQ)?
+- Quantas mais mortes em [Região Administrativa de Macau](pt_country_code:MO) no momento?
+- Quantos mais infetados em [Bailiado de Guernsey](pt_country_code:GG)?
+- Ultima atualização em [República de San Marino](pt_country_code:SM)
+- Última atualização de casos e mortes em [U.K.](pt_country_code:GB)?
+- Última atualização de casos em [El Salvador](pt_country_code:SV)?
+- Última atualização de infetados e mortes em [Republic of India](pt_country_code:IN)?
+- Última atualização de infetados em [Republic of the Niger](pt_country_code:NE)?
+- Última atualização de mortes em [Fiji](pt_country_code:FJ)?
+- Últimos dados de [Pérsia](pt_country_code:IR).
+- Últimos dados em [State of Kuwait](pt_country_code:KW).
 
 ## intent:pt_covid_situation_recovered
-- "[Pyidaunzu Thanmăda Myăma](pt_country_code:MM) recuperados."
-- "[Arab Republic of Egypt](pt_country_code:EG) recuperações."
-- Contagem recuperados em [République du Mali](pt_country_code:ML)
-- Contagem recuperados no [Ilhas Virgens dos Estados Unidos](pt_country_code:VI)
-- Contagem recuperações em [Midway Atoll](pt_country_code:UM)
-- Contagem recuperações no [Monserrate](pt_country_code:MS)
-- Numero de recuperados em [Territory of the Wallis and Futuna Islands](pt_country_code:WF) hoje?
-- Numero de recuperações em [São Marino](pt_country_code:SM) hoje?
-- Número de recuperados [The Democratic Republic of the Congo](pt_country_code:CD).
-- Número de recuperados em [British Indian Ocean Territory](pt_country_code:IO)
-- Número de recuperados em [Vuona gånågisrijkka](pt_country_code:NO).
-- Número de recuperações [Pitkern Ailen](pt_country_code:PN).
-- Número de recuperações em [Liechtenstein](pt_country_code:LI)
-- Número de recuperações em [Rossiya](pt_country_code:RU).
-- Número total de recuperados em [Confoederatio Helvetica](pt_country_code:CH).
-- Número total de recuperados em [Lesoto](pt_country_code:LS)?
-- Número total de recuperações em [Estado da Eritreia](pt_country_code:ER).
-- Número total de recuperações em [Tchade](pt_country_code:TD)?
-- Olá. Quantos recuperados existem em [Noreg](pt_country_code:NO)?
-- Olá. Quantos recuperações existem em [Republic of Kazakhstan](pt_country_code:KZ)?
-- Qual é o numero de recuperados com covid em [Reino de Espanha](pt_country_code:ES)?
-- Qual é o numero de recuperações com covid em [Bermuda](pt_country_code:BM)?
-- Qual é o número de recuperados em [Grão-Ducado do Luxemburgo](pt_country_code:LU)?
-- Qual é o número de recuperações em [Republic of Equatorial Guinea](pt_country_code:GQ)?
-- Quantos casos de recuperados há em [República da Coreia](pt_country_code:KR)?
-- Quantos casos de recuperações há em [Soomaaliya](pt_country_code:SO)?
-- Quantos recuperados existem neste momento em [Republic of Finland](pt_country_code:FI)?
-- Quantos recuperados tem [Chad](pt_country_code:TD)?
-- Quantos recuperados tem a [Sāmoa](pt_country_code:WS)?
-- Quantos recuperados tem o [Suomen tasavalta](pt_country_code:FI)?
-- Quantos recuperaram em [Norgga gonagasriika](pt_country_code:NO).
-- Quantos recuperações existem neste momento em [Hanguk](pt_country_code:KR)?
-- Quantos recuperações tem [Republic of Slovenia](pt_country_code:SI)?
-- Quantos recuperações tem a [Australia](pt_country_code:AU)?
-- Quantos recuperações tem o [República da Costa Rica](pt_country_code:CR)?
-- qual o numero de recuperados em [Federation of Saint Christopher and Nevis](pt_country_code:KN)?
-- qual o numero de recuperações em [Principauté de Monaco](pt_country_code:MC)?
-- quantas pessoas em [People's Republic of Bangladesh](pt_country_code:BD) recuperaram?
-- quantas pessoas recuperaram em [Países Baixos](pt_country_code:NL)?
-- recuperados de [ityoppiah federalih demokrasih ummuno](pt_country_code:ET)
-- recuperados em [Belarus](pt_country_code:BY).
-- recuperações de [België](pt_country_code:BE)
-- recuperações em [República de Madagascar](pt_country_code:MG).
+- "[Ilha Bouvet](pt_country_code:BV) recuperados."
+- "[Rzeczpospolita Polska](pt_country_code:PL) recuperações."
+- Contagem recuperados em [Wallis-et-Futuna](pt_country_code:WF)
+- Contagem recuperados no [Reino do Lesoto](pt_country_code:LS)
+- Contagem recuperações em [Groussherzogtum Lëtzebuerg](pt_country_code:LU)
+- Contagem recuperações no [Lietuva](pt_country_code:LT)
+- Numero de recuperados em [Republic of Liberia](pt_country_code:LR) hoje?
+- Numero de recuperações em [Bósnia](pt_country_code:BA) hoje?
+- Número de recuperados [Vietnam](pt_country_code:VN).
+- Número de recuperados em [Kingdom of the Netherlands](pt_country_code:NL)
+- Número de recuperados em [Repubblica di San Marino](pt_country_code:SM).
+- Número de recuperações [TBOI](pt_country_code:IO).
+- Número de recuperações em [FSM](pt_country_code:FM)
+- Número de recuperações em [Irã](pt_country_code:IR).
+- Número total de recuperados em [Republic of Cabo Verde](pt_country_code:CV).
+- Número total de recuperados em [Guinea Bissau](pt_country_code:GW)?
+- Número total de recuperações em [Ilaṅkai](pt_country_code:LK).
+- Número total de recuperações em [São Cristóvão e Neves](pt_country_code:KN)?
+- Olá. Quantos recuperados existem em [République des Seychelles](pt_country_code:SC)?
+- Olá. Quantos recuperações existem em [Hong Kong Special Administrative Region](pt_country_code:HK)?
+- Qual é o numero de recuperados com covid em [Níger](pt_country_code:NE)?
+- Qual é o numero de recuperações com covid em [Estados Unidos Mexicanos](pt_country_code:MX)?
+- Qual é o número de recuperados em [RD Congo](pt_country_code:CD)?
+- Qual é o número de recuperações em [Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu](pt_country_code:LK)?
+- Quantos casos de recuperados há em [Negara Brunei Darussalam](pt_country_code:BN)?
+- Quantos casos de recuperações há em [República Democrática de Timor-Leste](pt_country_code:TL)?
+- Quantos recuperados existem neste momento em [iRiphabhulikhi yeNingizimu Afrika](pt_country_code:ZA)?
+- Quantos recuperados tem [Rephaboliki ya Aforika Borwa](pt_country_code:ZA)?
+- Quantos recuperados tem a [Turquemenistão](pt_country_code:TM)?
+- Quantos recuperados tem o [Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah](pt_country_code:JO)?
+- Quantos recuperaram em [Confederação Suíça](pt_country_code:CH).
+- Quantos recuperações existem neste momento em [Kazakhstan](pt_country_code:KZ)?
+- Quantos recuperações tem [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà](pt_country_code:NG)?
+- Quantos recuperações tem a [Moritani](pt_country_code:MR)?
+- Quantos recuperações tem o [Republic of the Union of Myanmar](pt_country_code:MM)?
+- qual o numero de recuperados em [America](pt_country_code:US)?
+- qual o numero de recuperações em [República de Chipre](pt_country_code:CY)?
+- quantas pessoas em [São Martim](pt_country_code:MF) recuperaram?
+- quantas pessoas recuperaram em [Guiné Bissau](pt_country_code:GW)?
+- recuperados de [Baamas](pt_country_code:BS)
+- recuperados em [Cocos (Keeling) Islands](pt_country_code:CC).
+- recuperações de [Republic of Mali](pt_country_code:ML)
+- recuperações em [al-maġhrib](pt_country_code:MA).
 
 ## intent:pt_covid_situation_tested
-- "[Ilha Esmeralda](pt_country_code:IE) testados."
-- "[Saṅghīya Lokatāntrik Gaṇatantra Nepāl](pt_country_code:NP) testes."
-- Contagem testados em [Republic of Liberia](pt_country_code:LR)
-- Contagem testados no [Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà](pt_country_code:NG)
-- Contagem testes em [Beluu er a Belau](pt_country_code:PW)
-- Contagem testes no [Repubblica di San Marino](pt_country_code:SM)
-- Numero de testados em [Macau](pt_country_code:MO) hoje?
-- Numero de testes em [South Sudan](pt_country_code:SS) hoje?
-- Número de testados [República da Guiné Equatorial](pt_country_code:GQ).
-- Número de testados em [Ilhas Cocos Keeling](pt_country_code:CC)
-- Número de testados em [Republic of Panama](pt_country_code:PA).
-- Número de testes [Costa do Marfim](pt_country_code:CI).
-- Número de testes em [República da Índia](pt_country_code:IN)
-- Número de testes em [Bhārat Gaṇarājya](pt_country_code:IN).
-- Número total de testados em [Ilhas Bermudas](pt_country_code:BM).
-- Número total de testados em [República Popular Democrática da Coreia](pt_country_code:KP)?
-- Número total de testes em [Áustria](pt_country_code:AT).
-- Número total de testes em [iRiphabhuliki yaseNingizimu Afrika](pt_country_code:ZA)?
-- Olá. Quantos testados existem em [Malawi](pt_country_code:MW)?
-- Olá. Quantos testes existem em [São Tomé e Príncipe](pt_country_code:ST)?
-- Qual é o numero de testados com covid em [Czech Republic](pt_country_code:CZ)?
-- Qual é o numero de testes com covid em [Belgique](pt_country_code:BE)?
-- Qual é o número de testados em [Republika Bǎlgarija](pt_country_code:BG)?
-- Qual é o número de testes em [Taiwan, China](pt_country_code:TW)?
-- Quantos casos de testados há em [Mauritania](pt_country_code:MR)?
-- Quantos casos de testes há em [Commonwealth of the Northern Mariana Islands](pt_country_code:MP)?
-- Quantos foram testados em [République togolaise](pt_country_code:TG).
-- Quantos testados existem neste momento em [Amerika Sāmoa](pt_country_code:AS)?
-- Quantos testados tem [Groussherzogtum Lëtzebuerg](pt_country_code:LU)?
-- Quantos testados tem a [Ayiti](pt_country_code:HT)?
-- Quantos testados tem o [Departamento de Maiote](pt_country_code:YT)?
-- Quantos testes existem neste momento em [Keeling Islands](pt_country_code:CC)?
-- Quantos testes tem [República de Moçambique](pt_country_code:MZ)?
-- Quantos testes tem a [Republic of Equatorial Guinea](pt_country_code:GQ)?
-- Quantos testes tem o [Táiwān shěng](pt_country_code:TW)?
-- qual o numero de testados em [Schwiiz](pt_country_code:CH)?
-- qual o numero de testes em [Grupo de Ilhas Pitcairn](pt_country_code:PN)?
-- quantas pessoas em [Turcomênia](pt_country_code:TM) foram testadas?
-- quantas pessoas foram testadas em [TOM](pt_country_code:TF)?
-- testados de [Mexico](pt_country_code:MX)
-- testados em [Republic of Cabo Verde](pt_country_code:CV).
-- testes de [República da África Central](pt_country_code:CF)
-- testes em [Hong Kong](pt_country_code:HK).
+- "[Myanmar](pt_country_code:MM) testados."
+- "[Federal Democratic Republic of Ethiopia](pt_country_code:ET) testes."
+- Contagem testados em [Estados Unidos Mexicanos](pt_country_code:MX)
+- Contagem testados no [SGSSI](pt_country_code:GS)
+- Contagem testes em [Réewum Senegaal](pt_country_code:SN)
+- Contagem testes no [Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu](pt_country_code:LK)
+- Numero de testados em [República de Nauru](pt_country_code:NR) hoje?
+- Numero de testes em [Sāmoa Amelika](pt_country_code:AS) hoje?
+- Número de testados [República do Quirguizistão](pt_country_code:KG).
+- Número de testados em [Sáara Ocidental](pt_country_code:EH)
+- Número de testados em [Britain](pt_country_code:GB).
+- Número de testes [Kazakhstan](pt_country_code:KZ).
+- Número de testes em [Wallis-et-Futuna](pt_country_code:WF)
+- Número de testes em [Zimbábue](pt_country_code:ZW).
+- Número total de testados em [Cocos Keeling Islands](pt_country_code:CC).
+- Número total de testados em [Bareine](pt_country_code:BH)?
+- Número total de testes em [La Réunion](pt_country_code:RE).
+- Número total de testes em [Qatar](pt_country_code:QA)?
+- Olá. Quantos testados existem em [Collectivité territoriale de Saint-Barthélemy](pt_country_code:BL)?
+- Olá. Quantos testes existem em [Territory of Norfolk Island](pt_country_code:NF)?
+- Qual é o numero de testados com covid em [République de Guinée équatoriale](pt_country_code:GQ)?
+- Qual é o numero de testes com covid em [República do Cameroun](pt_country_code:CM)?
+- Qual é o número de testados em [Wake Island](pt_country_code:UM)?
+- Qual é o número de testes em [Barein](pt_country_code:BH)?
+- Quantos casos de testados há em [Groelândia](pt_country_code:GL)?
+- Quantos casos de testes há em [Papua Nova Guiné](pt_country_code:PG)?
+- Quantos foram testados em [República do Quirguizistão](pt_country_code:KG).
+- Quantos testados existem neste momento em [Arábia Saudita](pt_country_code:SA)?
+- Quantos testados tem [Republic of Kiribati](pt_country_code:KI)?
+- Quantos testados tem a [Marrocos](pt_country_code:MA)?
+- Quantos testados tem o [Federation of Saint Christopher and Nevis](pt_country_code:KN)?
+- Quantos testes existem neste momento em [Territoire des îles Wallis-et-Futuna](pt_country_code:WF)?
+- Quantos testes tem [Burkina Faso](pt_country_code:BF)?
+- Quantos testes tem a [Réewum Senegaal](pt_country_code:SN)?
+- Quantos testes tem o [St-Barth](pt_country_code:BL)?
+- qual o numero de testados em [Swaziland](pt_country_code:SZ)?
+- qual o numero de testes em [Slovenija](pt_country_code:SI)?
+- quantas pessoas em [Республика Казахстан](pt_country_code:KZ) foram testadas?
+- quantas pessoas foram testadas em [al-maġhrib](pt_country_code:MA)?
+- testados de [Turquemenistão](pt_country_code:TM)
+- testados em [Democratic Republic of the Congo](pt_country_code:CD).
+- testes de [Turquia](pt_country_code:TR)
+- testes em [Црна Гора](pt_country_code:ME).
 
 ## intent:pt_covid_surfaces
 - Coronavírus persiste por quanto tempo nas superfícies?
@@ -5857,6711 +5862,1008 @@
 
 
 
-## synonym:pricelist
-- base price
-- pays
-- afford
-- payable
-- paid
-- paying
-- pay
-- rate
-- payment
-- payments
-- rates
-- expenditure
-- priced
-- expenditures
-- costing
-- charges
-- expenses
-- fees
-- charge
-- fee
-- expense
-- costs
-- pricing
-- cost
-- prices
-- lists of prices
-- lists with prices
-- pricelists
-- pricelist
-- price-list
-- list of prices
-- list with prices
-- price list
-
-## synonym:two
-- segunda
-- segundo
-- dois
-- "2"
-- two
-- Second
-
-## synonym:four
-- quarta
-- quarto
-- "4"
-- four
-- Fourth
-
-## synonym:eight
-- oitava
-- oitavo
-- oito
-- "8"
-- eight
-- Eighth
-
-## synonym:six
-- sexta
-- sexto
-- seis
-- "6"
-- six
-- Sixth
-
-## synonym:seven
-- sétima
-- sétimo
-- sete
-- "7"
-- seven
-- Seventh
-
-## synonym:three
-- terceira
-- terceiro
-- três
-- "3"
-- three
-- Third
-
-## synonym:nine
-- nona
-- nono
-- nove
-- "9"
-- nine
-- Ninth
-
-## synonym:ten
-- décima
-- décimo
-- dez
-- "10"
-- ten
-- Tenth
-
-## synonym:one
-- primeira
-- primeiro
-- um
-- "1"
-- one
-- First
-
-## synonym:five
-- quinta
-- quinto
-- cinco
-- "5"
-- five
-- Fifth
-
-## synonym:pet
-- animal de estimação
-- gato
-- cão
-- gatos
-- cães
-- animais de estimação
-- mascotes
-- mascote
-- animais de casa
-- animal de casa
-
-## synonym:address
-- morada
-- endereço
-- local
-- location
-- company address
-- addresses
-- address
-
-## synonym:phone
-- número de telemóvel
-- número de telefone
-- telemóveis
-- telefones
-- telemóvel
-- telefone
-- smartphones
-- cellphones
-- telephones
-- mobile
-- cellphone
-- telephone
-- phones
-- mobile phone
-- phone
-
-## synonym:e-mail
-- endereço de e-mail
-- endereço de mail
-- endereço de email
-- mail address
-- email address
-- mail
-- e mail
-- emails
-- email
-- e-mail-address
-- e-mail address
-- e-mail
-
-## synonym:contact
-- contato
-- contacto
-- contact information
-- contact details
-- contacts
-- contact
-
-## synonym:1
-- primeira opção
-- primeira
-- "1"
-- opção 1
-
-## synonym:2
-- segunda opção
-- segunda
-- "2"
-- opção 2
-
-## synonym:game
-- game
-- games
-- play
-- plays
-- gamble
-- gambles
-- Computerspiel
-- computer games
-- gaming
-- playing
-- role plays
-- role play
-
-## synonym:movie
-- película
-- pelicula
-- filme
-- teatro
-- teatros
-- cinamatógrafo
-- cinematografia
-- cinematography
-- filmmaking
-- DVD
-- cinematographer
-- theatres
-- theaters
-- cinemas
-- theatre
-- theater
-- cinematographic
-- cinéma
-- cinematic
-- screenplay
-- cinema
-- movies
-- films
-- film
-- movie
-
-## synonym:music
-- Folk
-- Rave
-- Punk
-- Country
-- Hit Charts
-- Charts
-- Hits
-- Folklore
-- Reggeaton
-- Bachata
-- Bluesrock
-- Rapper
-- Rap
-- Disco
-- Beat
-- Salsa
-- Hiphop
-- Hip Hop
-- Hip-Hop
-- Mambo
-- Lambada
-- Cha-Cha-Cha
-- Choir
-- Reggae
-- Bass
-- Drums
-- Guitars
-- Pianos
-- Funk
-- Gospel
-- Blues
-- classical music
-- Beethoven
-- Mozart
-- Tango
-- Swing
-- Soul
-- Instrumental
-- Heavy Metal
-- Hardrock
-- Ragtime
-- rockmusic
-- pop-music
-- pop
-- rock
-- classic
-- rock-music
-- drummers
-- drum
-- saxaphone
-- saxophones
-- violoncello
-- trumpet
-- banjo
-- harmonica
-- cello
-- tenor
-- violinists
-- flutist
-- guitarists
-- keyboardist
-- trumpeter
-- drummer
-- guitar
-- trombonist
-- saxophonists
-- percussionist
-- guitarist
-- sax
-- violin
-- vocalist
-- saxophonist
-- violinist
-- saxophone
-- vocalists
-- singer
-- piano
-- pianist
-- singers
-- singing
-- melody
-- musical
-- concerts
-- musician
-- melodies
-- song
-- concert
-- jazz
-- musics
-- tunes
-- songs
-- musicians
-- music
-
-## synonym:weather
-- tempo
-- seco
-- húmido
-- nuvens
-- geada
-- nublado
-- calor
-- frio
-- neve
-- sol
-- solarengo
-- chuva
-- vento
-- chuvoso
-- ventoso
-- tornadic
-- windy
-- winter
-- inundations
-- snowdrifts
-- hailstorm
-- thundershowers
-- flood
-- cyclone
-- typhoon
-- tornado
-- tornados
-- climatological
-- mudslides
-- droughts
-- hailstorms
-- tornadoes
-- hurricane
-- thunderstorms
-- floods
-- blizzard
-- hurricanes
-- climatic
-- winds
-- windstorms
-- snowy
-- snowing
-- thunderstorm
-- storm
-- flurries
-- monsoons
-- torrential
-- storms
-- raining
-- blizzards
-- snowstorms
-- snow
-- rainstorm
-- snows
-- snowmelt
-- rainy
-- rainstorms
-- snowfalls
-- snowstorm
-- downpour
-- rain
-- tempertures
-- climate
-- rainfalls
-- snowfall
-- humidities
-- rains
-- rainfall
-- dewpoints
-- forecasting
-- forcast
-- forecasts
-- temprature
-- forecast
-- temp
-- temperatures
-- temperature
-- weather
-
-## synonym:lotr
-- Sméagol
-- Meriadoc
-- Pregrin
-- Shelob
-- Faramir
-- Boromir
-- Éowyn
-- Balrog
-- Saruman
-- Sanwise
-- Bilbo
-- Baggins
-- Frodo
-- Elrond
-- Nazgûl
-- Arwen
-- Gandalf
-- Gimli
-- Legolas
-- Aragorn
-- Galadriel
-- Sauron
-- Gollum
-
-## synonym:game
-- jogos
-- jogo
-- jogar
-- role play
-- role plays
-- playing
-- gaming
-- computer games
-- Computerspiel
-- gambles
-- gamble
-- plays
-- play
-- games
-- game
-
-## synonym:joke
-- brincadeira
-- anedota
-- piada
-- alegre
-- divertido
-- engraçado
-- humoroso
-- cómico
-- humorista
-- humorist
-- comical
-- humourous
-- comedic
-- comedian
-- entertaining
-- humorous
-- amusing
-- comedy
-- humor
-- prank
-- humour
-- pranks
-- jokes
-- joking
-- joke
-
-## synonym:form_of_address
-- form of address
-
-## synonym:Mr
-- Mister
-- Mr
-- male
-- man
-- Sir
-- Mr.
-
-## synonym:Mrs
-- Mrs.
-- Ms
-- Miss
-- Mrs
-- woman
-- female
-- lady
-- Ms.
-
-## synonym:anal
-- anal
-- anus
-- arse
-- ass
-- ballsack
-- balls
-- bastard
-- bitch
-- biatch
-- bloody
-- blowjob
-- blow job
-- bollock
-- bollok
-- boner
-- boob
-- bugger
-- bum
-- butt
-- buttplug
-- clitoris
-- cock
-- coon
-- crap
-- cunt
-- damn
-- dick
-- dildo
-- dyke
-- fag
-- feck
-- fellate
-- fellatio
-- felching
-- fuck
-- f u c k
-- fudgepacker
-- fudge packer
-- flange
-- Goddamn
-- God damn
-- hell
-- homo
-- jerk
-- jizz
-- knobend
-- knob end
-- labia
-- lmao
-- lmfao
-- muff
-- nigger
-- nigga
-- omg
-- penis
-- piss
-- poop
-- prick
-- pube
-- pussy
-- queer
-- scrotum
-- sex
-- shit
-- s hit
-- sh1t
-- slut
-- smegma
-- spunk
-- tit
-- tosser
-- turd
-- twat
-- vagina
-- wank
-- whore
-- wtf
-
-## synonym:church
-- judaism
-- presbytery
-- parishoner
-- rabbis
-- imam
-- preaching
-- calvinistic
-- calvinism
-- mormons
-- christology
-- theologies
-- churches
-- islamist
-- islam
-- lutheran
-- islamists
-- presbyterian
-- imams
-- moslem
-- islamic
-- theologian
-- gospel
-- theological
-- lutherans
-- presbyters
-- muslim
-- moslems
-- calvinist
-- lutheranism
-- presbyterianism
-- pentecostalism
-- shepherd
-- presbyterians
-- pasteur
-- baptist
-- baptists
-- ecclesiastics
-- pentecostals
-- calvinists
-- muslims
-- evangelicalism
-- theologians
-- churchgoers
-- priestly
-- pentecostal
-- theology
-- evangelicals
-- torah
-- clerical
-- chaplain
-- nun
-- bibles
-- evangelists
-- christianity
-- archdioceses
-- bible
-- orthodoxy
-- anglicanism
-- archdiocesan
-- churchmen
-- biblical
-- archbishopric
-- christian
-- protestantism
-- protestants
-- christians
-- parishoners
-- congregants
-- orthodox
-- protestant
-- episcopalians
-- catholicism
-- anglicans
-- evangelical
-- clergies
-- preachers
-- parochial
-- anglican
-- episcopalian
-- catholic
-- archbishops
-- cleric
-- catholics
-- episcopal
-- clerics
-- nuns
-- priesthood
-- bishops
-- archbishop
-- priest
-- ecclesiastical
-- diocesan
-- clergymen
-- clergyman
-- religion
-- bishop
-- vicar
-- dioceses
-- priests
-- religions
-- parishioner
-- reverend
-- clergy
-- preacher
-- basilica
-- pastors
-- parishes
-- archdiocese
-- parishioners
-- diocese
-- religious
-- pastor
-- congregation
-- cathedral
-- chapel
-- parish
-- church
-
-## synonym:no
-- não sigas
-- não seleciones
-- negative
-- nao
-- não
-
-## synonym:yes
-- seleciona
-- segue
-- afirmativo
-- yes
-- sim
-
-## synonym:video
-- trailers
-- trailer
-- footages
-- vids
-- clips
-- movies
-- clip
-- footage
-- videos
-- films
-- movie
-- film
-- video
-
-## synonym:photo
-- sketches
-- drawings
-- draws
-- pix
-- pic
-- shot
-- artwork
-- shots
-- illustration
-- galleries
-- pics
-- photographs
-- img
-- gallery
-- photography
-- drawing
-- photos
-- photograph
-- pictures
-- images
-- image
-- draw
-- picture
-- photo
-
-## synonym:datasheet
-- datasheet
-- data-sheet
-- spec sheet
-- product sheet
-- product datasheet
-
-## synonym:negative_emoticon
-- D
-- )
-- ">"
-- (
-- "%)"
-- "% -)"
-- ;(
-- :-((
-- :(((
-- :((
-- :(
-- ": |"
-- ": {"
-- ": c"
-- ": \\"
-- (-_-)
-- ": ["
-- ": X"
-- ": S"
-- ": L"
-- ": @"
-- ": <"
-- ": /"
-- ": -c"
-- ": -X"
-- :-(
-- -_-
-- :-[
-- :-?
-- ": -."
-- ": - ||"
-- ": - |"
-- ": - ["
-- ": - <"
-- ": - /"
-- ": - &"
-- ": - #"
-- ": ("
-- ": &"
-- ": $"
-- (._.)
-- (= _ =)
-- (> _ <)
-- (> _ <)>
-- (? _?)
-- ': "- ('
-- (_ _) !!
-- (~ _ ~)
-- 3:)
-- ': "('
-- ": #"
-- "',: - |"
-- (- "-)
-- (-.-)
-- "<: - |"
-- "> :("
-- "> :)"
-- ">: /"
-- ">: ["
-- ">: \\"
-- ">;)"
-- D =
-- "D-:"
-- D8
-- "D:"
-- "D: <"
-- D;
-- DX
-- "| -O"
-- "} :)"
-- "',: - l"
-
-## synonym:positive_emoticon
-- "]"
-- -]
-- ^)
-- "0"
-- -)
-- "|"
-- (* _ *
-- )
-- (@ _ @
-- :b
-- :->
-- :-*
-- :-]
-- ^. ^
-- ^_^
-- :>
-- x)
-- x-D
-- xD
-- "| ;-)"
-- "|-)"
-- :-)))
-- :-))
-- "(# ^. ^ #)"
-- (* ^ _ ^ *)
-- (* ^. ^ *)
-- (* _ *)
-- (* _ *;
-- (+ _ +)
-- (@ _ @)
-- (@ _ @;)
-- (O)
-- :)))
-- :))
-- :)
-- ": c)"
-- ": b"
-- ": ^)"
-- ": P"
-- ": D"
-- ": -}"
-- ": -b"
-- ": -]"
-- ": ->"
-- ": -,"
-- ": '-)"
-- ": ')"
-- 8D
-- 8-D
-- 8-)
-- 8)
-- 0^)
-- 0; ^)
-- (^ _ ^) /
-- (^ _ ^.)
-- (^ o ^)
-- (^ · ^)
-- (^ Â· ^)
-- (^.^)
-- (^^)
-- (^^) /
-- (^_^)
-- "* -)"
-- "*)"
-- 0 :)
-- 0 :-)
-- "0: -3"
-- (^ - ^)
-- (^ <^) (^. ^)
-- (^ O ^) /
-- (^ J ^)
-- (^ ^)
-- :3
-- :-P
-- ::-)
-- :-D
-- :-3
-- :--)
-- :D
-- :O)
-- :]
-- :v
-- :}
-- ; -]
-- ; ^)
-- ;)
-- ;-)
-- ;]
-- <3
-- <^! ^>
-- "> ^ _ ^ <"
-- ">: P"
-- B ^ D
-- LOL
-- O:)
-- O:-)
-- X-P
-- XP
-- ^ / ^
-- ^ _ ^
-- :-)
-
-## synonym:angry
-- infuriated
-- irritated
-- disgusted
-- angered
-- furious
-- outraged
-- upset
-- annoyed
-- enraged
-- mad
-- angry
-
-## synonym:racist
-- racist
-- Adolf Hitler
-- Hitler
-- nazi
-- racists
-- bigot
-- bigots
-
-## synonym:joke
-- joke
-- jokes
-- joking
-- anecdote
-- humor
-- humour
-- gag
-- gags
-- humorist
-- comical
-- humourous
-- comedic
-- comedian
-- entertaining
-- humorous
-- amusing
-- comedy
-- prank
-- pranks
-
-## synonym:music
-- music
-- singer
-- singers
-- singing
-- song
-- melody
-- melodies
-- rock-music
-- classic
-- rock
-- pop
-- pop-music
-- rockmusic
-- Ragtime
-- Hardrock
-- Heavy Metal
-- Instrumental
-- Soul
-- Jazz
-- Swing
-- Tango
-- Mozart
-- Beethoven
-- classical music
-- Blues
-- Gospel
-- Funk
-- Piano
-- Pianos
-- Guitar
-- Guitars
-- Drums
-- Bass
-- saxophone
-- Reggae
-- Choir
-- Cha-Cha-Cha
-- Lambada
-- Mambo
-- Hip-Hop
-- Hip Hop
-- Hiphop
-- Salsa
-- Beat
-- Disco
-- Rap
-- Rapper
-- Bluesrock
-- Bachata
-- Reggeaton
-- Folklore
-- Hits
-- Charts
-- Hit Charts
-- Country
-- Punk
-- Rave
-- Folk
-- songs
-- musics
-
-## synonym:website
-- page
-- web sites
-- web site
-- web pages
-- web page
-- links
-- link
-- webpages
-- homepage
-- webpage
-- websites
-- sites
-- site
-- website
-
-## synonym:photo
-- photo
-- picture
-- image
-- photos
-- pictures
-- images
-
-## synonym:favorite
-- favourite
-- favorite
-- favourites
-- favorites
-- preferred
-- beloved
-
-## synonym:summarize
-- succintly
-- concisely
-- summed
-- succinctly
-- succinct
-- concise
-- synopsis
-- summaries
-- summarised
-- summarizes
-- summary
-- summarising
-- summarized
-- summarizing
-- summarise
-- summerization
-- summerize
-
-## synonym:color
-- color
-- colour
-- colors
-- colours
-
-## synonym:have_to
-- can
-- could
-- might
-- would
-- pretending
-- wanna
-- ought
-- wish
-- pretend
-- will
-- want
-- must
-- have to
-
-## synonym:message
-- message
-- description
-- remark
-- comment
-- note
-
-## synonym:pneumonia_vaccine
-- vacinas de pneumonia
-- vacina de pneumonia
-- vacinas da pneumonia
-- vacina da pneumonia
-- pneumonia vaccine
-- pneumonia vaccines
-
-## synonym:garlic
-- alhos
-- alho
-- garlic
-- garlics
-
-## synonym:antibiotics
-- antibióticas
-- antibiótica
-- antibióticos
-- antibiótico
-- antibiotics
-- antibiotic
-
-## synonym:hand_dryer
-- secadores de mãos
-- secador de mão
-- secador de mãos
-- hand dryer
-- hand dryers
-
-## synonym:thermal scanner
-- scanners térmicos
-- scanner térmico
-- thermal scanner
-- thermal scanners
-
-## synonym:sesame_oil
-- sésamo
-- óleo de sésamo
-- sesame oil
-- sesame
-
-## synonym:uv_lamp
-- lâmpadas ultravioleta
-- lâmpadas uv
-- lâmpada uv
-- uv
-- ultravioleta
-- lâmpada ultravioleta
-- uv lamps
-- ultraviolet disinfection lamp
-- ultraviolet disinfection lamps
-- ultraviolet lamp
-- ultraviolet lamps
-
-## synonym:saline
-- salina
-- solução salina
-- salino
-- saline
-- saline solution
-
-## synonym:racist
-- islamicists
-- islamists
-- jihadist
-- radicalisation
-- radicalization
-- nazis
-- subservience
-- nazi
-- fascists
-- stalinism
-- islamofacists
-- islamo
-- totalitarianism
-- bolshevism
-- jihadis
-- naziism
-- fascist
-- fascism
-- jihadists
-- neocons
-- nazism
-- islamism
-- islamofascism
-- jihadism
-- radical
-- islamofascists
-- zionism
-- subjugation
-- enslaved
-- extremists
-- slaves
-- zionist
-- islamofascist
-- semitic
-- zionists
-- slave
-- enslavement
-- radicalism
-- extremist
-- oppression
-- slavery
-- ethnocentricity
-- semites
-- supremacism
-- americanism
-- islamaphobic
-- islamophobes
-- extremism
-- islamaphobia
-- islamophobe
-- semitism
-- racisim
-- nationalistic
-- supremacists
-- antisemite
-- racialism
-- eurocentric
-- ethnical
-- colonialism
-- colonialist
-- semite
-- heterosexist
-- ethnocentrism
-- ethnicity
-- ethnocentric
-- islamophobia
-- supremacist
-- antisemitic
-- homophobe
-- xenophobia
-- racially
-- ethnic
-- xenophobic
-- homophobia
-- racialist
-- homophobic
-- racial
-- racism
-- racists
-- darkies
-- niggaz
-- negroes
-- racist
-- niggas
-- rascist
-- negro
-- niggers
-- nigga
-- Nigger
-
-## synonym:offense
-- nojento
-- idiota
-- ignorante
-- estúpido
-- parvo
-- buttheads
-- fools
-- muthafuckin
-- sucker
-- motherfuckin
-- slutty
-- homophobes
-- bullcrap
-- horny
-- schlong
-- psychos
-- muthafucka
-- crackpots
-- whacko
-- dufus
-- butthead
-- dork
-- dicks
-- hypocrite
-- nutballs
-- whiners
-- numbnuts
-- ahole
-- sickos
-- assclowns
-- niggas
-- homo
-- bigots
-- pussies
-- wackos
-- motherfucking
-- nutbags
-- pricks
-- whackjobs
-- fucks
-- nutjob
-- nutcases
-- hookers
-- dunderheads
-- fatass
-- crybabies
-- nutjobs
-- tards
-- retards
-- ignoramuses
-- boneheads
-- numbskulls
-- butts
-- halfwits
-- horseshit
-- bollocks
-- crappy
-- twats
-- shite
-- arseholes
-- dimwits
-- shitty
-- fuckwits
-- hypocrits
-- brainless
-- nitwits
-- tossers
-- homos
-- imbeciles
-- whores
-- cretins
-- fags
-- cocks
-- hypocrit
-- douchebags
-- fucktards
-- scum
-- dirtbag
-- asses
-- faggots
-- sluts
-- skank
-- cocksuckers
-- motherfuckers
-- bitches
-- scumbags
-- fuckers
-- jerks
-- wankers
-- butt
-- retarded
-- asshats
-- bastards
-- dickheads
-- shitheads
-- dipshits
-- morons
-- biatch
-- arse
-- cunts
-- jackasses
-- idiotic
-- assholes
-- retard
-- moronic
-- shits
-- dumb
-- dumbasses
-- idiots
-- bullshit
-- fool
-- cretin
-- cock
-- stupid
-- dick
-- jerk
-- dickhead
-- doofus
-- fuckwit
-- shitbag
-- assclown
-- ass
-- jackass
-- pussy
-- dimwit
-- fag
-- shit
-- asshat
-- fucktard
-- imbecile
-- douche
-- twat
-- idiot
-- slut
-- whore
-- dumbass
-- wanker
-- asswipe
-- moron
-- faggot
-- dipshit
-- prick
-- arsehole
-- cunt
-- scumbag
-- douchebag
-- shithead
-- cocksucker
-- bitch
-- bastard
-- fucker
-- motherfucker
-- asshole
-
-## synonym:movies
-- movies
-- film
-- films
-- DVD
-- movie
-- cinema
-
-## synonym:date
-- dia do mês
-- dia da semana
-- data
-- dia
-- day
-- datums
-- datum
-- date
-
-## synonym:time
-- tempo
-- horas
-- hours
-- hour
-- time
-- time of day
-
-## synonym:question
-- inquéritos
-- dúvidas
-- perguntas
-- questões
-- inquérito
-- dúvida
-- questão
-- pergunta
-- enquires
-- inquires
-- enquiries
-- inquiries
-- enquiry
-- questions
-- inquiry
-
-## synonym:EG
-- República Árabe do Egipto
-- República Árabe do Egito
-- Egipto
-- Egito
-- Arab Republic of Egypt
-- Egypt
-
-## synonym:EH
-- Aṣ-Ṣaḥrā’ al-Gharbīyah
-- Sáara Ocidental
-- Sara Ocidental
-- Saara Ocidental
-- Sahara Occidental
-- Taneẓroft Tutrimt
-- Western Sahara
-
-## synonym:ER
-- Estado da Eritreia
-- Ertrā
-- Eritreia
-- State of Eritrea
-- Eritrea
-- Dawlat Iritriyá
-- Hagere Ertra
-
-## synonym:ES
-- Reino de Espanha
-- Reino da Espanha
-- Espanha
-- Reiaume d'Espanha
-- Espainiako Erresuma
-- Regne d'Espanya
-- Reino de España
-- Kingdom of Spain
-- España
-- Spain
-
-## synonym:ET
-- República Democrática Federal da Etiópia
-- Etiópia
-- Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya
-- Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa
-- ityoppiah federalih demokrasih ummuno
-- Federal Democratic Republic of Ethiopia
-- Itoobiya
-- Itoophiyaa
-- Itiyoophiyaa
-- Ethiopia
-
-## synonym:FI
-- República da Finlândia
-- Finlândia
-- Republiken Finland
-- Suomen tasavalta
-- Republic of Finland
-- Suomi
-- Finland
-
-## synonym:FJ
-- República das Ilhas Fiji
-- Fidji
-- República das Fidji
-- Fíji
-- República das Fiji
-- República das Fíji
-- Matanitu Tugalala o Viti
-- Republic of Fiji
-- Fiji
-
-## synonym:FK
-- Falklands
-- Ilhas Falkland
-- Islas Malvinas
-- Ilhas Malvinas
-- Falkland
-- Malvinas
-- Falkland Islands (Malvinas)
-
-## synonym:FM
-- Micronésia
-- EFM
-- Estados Federados da Micronésia
-- Micronesia
-- FSM
-- Federated States of Micronesia
-
-## synonym:FO
-- Færeyjar
-- Ilhas Faroés
-- Ilhas Faroé
-- Ilhas Féroe
-- Ilhas Feroe
-- Færøerne
-- Føroyar
-- Faroe Islands
-
-## synonym:FR
-- República Francesa
-- França
-- République française
-- French Republic
-- France
-
-## synonym:GA
-- República Gabonesa
-- Gabão
-- République gabonaise
-- Gabonese Republic
-- Gabon
-
-## synonym:GB
-- Irlanda do Norte
-- Grã-Bretanha
-- Reino Unido da Grã-Bretanha e Irlanda do Norte
-- Reino Unido
-- Northern Ireland
-- Great Britain
-- Britain
-- U.K.
-- UK
-- United Kingdom of Great Britain and Northern Ireland
-- United Kingdom
-
-## synonym:GD
-- Island of Spice
-- Ilha das Especiarias
-- La Grenade
-- Granada
-- Gwenad
-- Grenada
-
-## synonym:GE
-- República da Geórgia
-- Geórgia
-- sakartvelos resp'ublik'a
-- Republic of Georgia
-- Sakartvelo
-- Georgia
-
-## synonym:GF
-- Guyane française
-- Guiana Francesa
-- Department of French Guiana
-- Guyane
-- French Guiana
-
-## synonym:GG
-- Bailliage de Guernesey
-- Bailiwick of Guernsey
-- Bailiado de Guernsey
-- Guernesei
-- Guérnesei
-- Guernesey
-- Guernési
-- Guernsey
-
-## synonym:GH
-- República do Gana
-- Gana
-- Republic of Ghana
-- Ghana
-
-## synonym:GI
-- Gibraltar
-
-## synonym:GL
-- Gronelândia
-- Groelândia
-- Groenlândia
-- Grønland
-- Kalaallit Nunaat
-- Greenland
-
-## synonym:GM
-- República da Gâmbia
-- Gâmbia
-- Republic of The Gambia
-- Gámbi
-- Kambiya
-- Gambia
-
-## synonym:GN
-- Renndaandi Ginea
-- Guinea-Conakry
-- French Guinea
-- Guinée française
-- République de Guinée
-- Republic of Guinea
-- Guinea
-
-## synonym:GP
-- Guadalupe
-- Gwadloup
-- Guadeloupe
-
-## synonym:GQ
-- República da Guiné Equatorial
-- République de Guinée équatoriale
-- República de Guinea Ecuatorial
-- Republic of Equatorial Guinea
-- Guiné Equatorial
-- Guinée équatoriale
-- Guinea Ecuatorial
-- Equatorial Guinea
-
-## synonym:GR
-- Hélade
-- República Helénica
-- República Helênica
-- Elláda
-- Grécia
-- Ellinikí Dimokratía
-- Hellas
-- Hellenic Republic
-- Greece
-
-## synonym:GS
-- Geórgia do Sul
-- Sandwich do Sul
-- Ilhas Sandwich do Sul
-- Ilhas Geórgias do Sul e Sandwich do Sul
-- Ilhas Geórgia do Sul e Sanduíche do Sul
-- Ilhas Geórgia do Sul e Sandwich do Sul
-- South Georgia
-- South Sandwich Islands
-- SGSSI
-- South Georgia and the South Sandwich Islands
-
-## synonym:GT
-- República da Guatemala
-- República de Guatemala
-- Republic of Guatemala
-- Guatemala
-
-## synonym:GU
-- Guame
-- Guão
-- Guåhån
-- Guam
-
-## synonym:GW
-- Guiné Bissau
-- Guinea Bissau
-- República da Guiné-Bissau
-- Republic of Guinea-Bissau
-- Guiné-Bissau
-- Guinea-Bissau
-
-## synonym:GY
-- República Cooperativa da Guiana
-- Guiana
-- Co-operative Republic of Guyana
-- Guyana
-
-## synonym:HK
-- Hēunggóng
-- Xiānggǎng
-- HKSAR
-- Hong Kong Special Administrative Region
-- Hong Kong
-
-## synonym:HM
-- Ilhas McDonald
-- Ilhas Heard
-- Território das Ilhas Heard e McDonald
-- Ilha Heard e as Ilhas McDonald
-- HIMI
-- Heard Island and McDonald Islands
-
-## synonym:HN
-- República das Honduras
-- República de Honduras
-- Republic of Honduras
-- Honduras
-
-## synonym:HR
-- República da Croácia
-- Croácia
-- Republika Hrvatska
-- Republic of Croatia
-- Hrvatska
-- Croatia
-
-## synonym:HT
-- República do Haiti
-- Hayti
-- Repiblik D Ayiti
-- République d'Haïti
-- Republic of Haiti
-- Ayiti
-- Haïti
-- Haiti
-
-## synonym:HU
-- Hungria
-- Magyarország
-- Hungary
-
-## synonym:ID
-- República da Indonésia
-- Indonésia
-- Republik Indonesia
-- Republic of Indonesia
-- Indonesia
-
-## synonym:IE
-- Emerald Isle
-- Ilha Esmeralda
-- Irlanda
-- Ilha da Irlanda
-- Airlann
-- Éire
-- Ireland
-
-## synonym:IL
-- Dawlat Isrā'īl
-- Medīnat Yisrā'el
-- Estado de Israel
-- State of Israel
-- Israel
-
-## synonym:IM
-- Ilha de Man
-- Ellan Vannin
-- Mannin
-- Mann
-- Isle of Man
-
-## synonym:IN
-- República da Índia
-- Índia
-- Bhārat Gaṇarājya
-- Republic of India
-- Bhārat
-- India
-
-## synonym:IO
-- Território Britânico do Oceano
-- Território Britânico do Índico
-- British Indian Territory
-- British Indian Ocean
-- Território Britânico do Oceano Índico
-- TBOI
-- BIOT
-- British Indian Ocean Territory
-
-## synonym:IQ
-- Al-Jumhuriyah Al-Iraqiyah
-- República do Iraque
-- Iraque
-- Komarî Êraq
-- Republic of Iraq
-- Êraq
-- Iraq
-
-## synonym:IR
-- Pérsia
-- República Islâmica do Irão
-- República Islâmica do Irã
-- Irã
-- Irão
-- Jomhuri-ye Eslāmi-ye Irān
-- Persia
-- Islamic Republic of Iran
-
-## synonym:IS
-- Islândia
-- Ísland
-- Iceland
-
-## synonym:IT
-- República Italiana
-- Itália
-- Repubblica Italiana
-- Italian Republic
-- Italia
-- Italy
-
-## synonym:JE
-- Bailiado de Jersey
-- Jérsia
-- Jérsei
-- Bailliage dé Jèrri
-- Bailliage de Jersey
-- Bailiwick of Jersey
-- Jersey
-
-## synonym:JM
-- Jumieka
-- Jamaica
-
-## synonym:JO
-- Reino da Jordânia
-- Reino Haxemita da Jordânia
-- Jordânia
-- Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah
-- Al-ʾUrdunn
-- Kingdom of Jordan
-- Hashemite Kingdom of Jordan
-- Jordan
-
-## synonym:JP
-- Estado do Japão
-- Japão
-- Nihon-koku
-- Nippon-koku
-- Nihon
-- Nippon
-- Japan
-
-## synonym:KE
-- República do Quênia
-- República do Quénia
-- Quênia
-- Quénia
-- Jamhuri ya Kenya
-- Republic of Kenya
-- Kenya
-
-## synonym:KG
-- República do Quirguizistão
-- República do Quirguistão
-- República Quirguiz
-- Quirguízia
-- Quirguizistão
-- Quirguistão
-- Киргизия
-- Kirghizia
-- Kyrgyzskaya Respublika
-- Кыргызская Республика
-- Kırğız Respublikası
-- Кыргыз Республикасы
-- Kyrgyz Republic
-- Kyrgyzstan
-
-## synonym:KH
-- Reino do Camboja
-- Cambodja
-- Camboja
-- Royaume du Cambodge
-- Kingdom of Cambodia
-- Cambodge
-- Kampuchea
-- Cambodia
-
-## synonym:KI
-- República de Quiribáti
-- República de Quiribati
-- República de Kiribati
-- Quiribati
-- Quiribáti
-- Ribaberiki Kiribati
-- Republic of Kiribati
-- Kiribati
-
-## synonym:KM
-- União de Comores
-- União das Comores
-- Comores
-- al-Ittiḥād al-Qamarī
-- al-Ittiḥād al-Qumurī
-- Umoja wa Komori
-- Union des Comores
-- Udzima wa Komori
-- Union of the Comoros
-- Comoros
-
-## synonym:KN
-- Nevis
-- Saint Kitts
-- Federação de São Cristóvão e Névis
-- Federação de São Cristóvão e Neves
-- São Cristóvão e Neves
-- São Cristóvão e Névis
-- Federation of Saint Christopher and Nevis
-- Saint Kitts and Nevis
-
-## synonym:KP
-- República Popular Democrática da Coreia
-- Coreia do Norte
-- Pukchosŏn
-- Chosŏn
-- Chosŏn Minjujuŭi Inmin Konghwaguk
-- DPR Korea
-- DPRK
-- North Korea
-- Democratic People's Republic of Korea
-
-## synonym:KR
-- República da Coreia
-- Coreia do Sul
-- Daehan Minguk
-- Namhan
-- Hanguk
-- South Korea
-- Republic of Korea
-
-## synonym:KW
-- Estado do Kuwait
-- Dawlat al-Kuwait
-- State of Kuwait
-- al-Kuwait
-- Kuwait
-
-## synonym:KY
-- Ilhas Caimão
-- Ilhas Cayman
-- Ilhas Caimã
-- Cayman Islands
-
-## synonym:KZ
-- República do Cazaquistão
-- Qazaqstan
-- Cazaquistão
-- Respublika Kazakhstan
-- Республика Казахстан
-- Qazaqstan Respýblıkasy
-- Қазақстан Республикасы
-- Republic of Kazakhstan
-- Kazakhstan
-
-## synonym:LA
-- République démocratique populaire lao
-- Saþalanalat Paxaþipatai Paxaxōn Lao
-- Lāo
-- Laos
-- Lao People's Democratic Republic
-
-## synonym:LB
-- República do Líbano
-- Liban
-- Líbano
-- République libanaise
-- al-Jumhūrīyah al-Lubnānīyah
-- Lebanese Republic
-- Lubnān
-- Lebanon
-
-## synonym:LC
-- Santa Lúcia
-- Iyonola
-- Sainte-Lucie
-- Saint Lucia
-
-## synonym:LI
-- Principado de Liechtenstein
-- Principado do Liechtenstein
-- Listenstaine
-- Fürstentum Liechtenstein
-- Principality of Liechtenstein
-- Liechtenstein
-
-## synonym:LK
-- Taprobana
-- Ceilão
-- República Democrática Socialista do Sri Lanka
-- Seri Lanca
-- Sri Lanca
-- Ilaṅkai
-- Śrī Laṃkā
-- Democratic Socialist Republic of Sri Lanka
-- Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu
-- Srī Lankā prajātāntrika samājavādī janarajaya
-- Sri Lanka
-
-## synonym:LR
-- República da Libéria
-- Libéria
-- Republic of Liberia
-- Liberia
-
-## synonym:LS
-- Bassutolândia
-- Reino do Lessoto
-- Reino do Lesoto
-- Lessoto
-- Lesoto
-- Muso oa Lesotho
-- Kingdom of Lesotho
-- Lesotho
-
-## synonym:LT
-- República da Lituânia
-- Lituânia
-- Lietuvos Respublika
-- Republic of Lithuania
-- Lietuva
-- Lithuania
-
-## synonym:LU
-- Grão-Ducado de Luxemburgo
-- Grão-Ducado do Luxemburgo
-- Luxemburgo
-- Großherzogtum Luxemburg
-- Grand-Duché de Luxembourg​
-- Groussherzogtum Lëtzebuerg
-- Grand Duchy of Luxembourg
-- Luxemburg
-- Lëtzebuerg
-- Luxembourg
-
-## synonym:LV
-- República da Letônia
-- Letônia
-- Letónia
-- Lețmō Vabāmō
-- Latvijas Republika
-- Republic of Latvia
-- Lețmō
-- Latvija
-- Latvia
-
-## synonym:LY
-- Estado da Líbia
-- Líbia
-- Dawlat Lībiyā
-- State of Libya
-- Lībiyā
-- Libya
-
-## synonym:MA
-- Reino de Marrocos
-- Murakuc
-- Amerruk
-- Marrocos
-- tageldit n lmaɣrib
-- Royaume du Maroc
-- The Western Kingdom
-- al-mamlakah al-maghribiyah
-- Kingdom of Morocco
-- Maroc
-- al-maġhrib
-- Morocco
-
-## synonym:MC
-- Principado de Mônaco
-- Principado do Mónaco
-- Mónaco
-- Principatu de Mùnegu
-- Principat de Mónegue
-- Principato di Monaco
-- Principauté de Monaco
-- Principality of Monaco
-- Monaco
-
-## synonym:MD
-- República da Moldova
-- República da Moldávia
-- Moldávia
-- Republica Moldova
-- Moldova
-- Republic of Moldova
-
-## synonym:ME
-- Црна Гора
-- Crna Gora
-- Montenegro
-
-## synonym:MF
-- São Martim
-- São Martinho parte francesa
-- Sint Maarten
-- Saint-Martin
-- Saint Martin (French part)
-
-## synonym:MG
-- República Malgaxe
-- República de Madagascar
-- República de Madagáscar
-- Madagáscar
-- Malagasy Republic
-- République de Madagascar
-- Repoblikan'i Madagasikara
-- Republic of Madagascar
-- Madagasikara
-- Madagascar
-
-## synonym:MH
-- República das Ilhas Marshall
-- Ilhas Marshall
-- Aolepān Aorōkin Ṃajeḷ
-- Republic of the Marshall Islands
-- Marshall Islands
-
-## synonym:MK
-- Macedónia
-- Macedônia
-- República da Macedónia do Norte
-- República da Macedônia do Norte
-- Severna Makedonija
-- Macedónia do Norte
-- Macedônia do Norte
-- Republika e Maqedonisë së Veriut
-- Република Северна Македонија
-- Republic of North Macedonia
-- Macedonia
-- North Macedonia
-- the Former Yugoslav Republic of Macedonia
-
-## synonym:ML
-- República do Mali
-- Máli
-- Renndaandi Maali
-- Mali ka Fasojamana
-- République du Mali
-- Republic of Mali
-- Mali
-
-## synonym:MM
-- República da União de Myanmar
-- Birmânia
-- Nainngandaw
-- Pyidaunzu Thanmăda Myăma
-- Republic of the Union of Myanmar
-- Burma
-- Myanmar
-
-## synonym:MN
-- Mongolian Nation
-- Mongol Uls
-- mongol nation
-- nação mongol
-- Mongolia
-
-## synonym:MO
-- Região Administrativa de Macau
-- Região Administrativa Especial de Macau
-- Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui
-- Jūng'wàh Yàhnmàhn
-- Macao Special Administrative Region
-- Macau
-- Macao
-
-## synonym:MP
-- Comunidade das Ilhas Marianas do Norte
-- Ilhas Marianas do Norte
-- Ilhas Marianas Setentrionais
-- Nördliche Marianen
-- Islas Marianas del Norte
-- Commonwealth Téél Falúw kka Efáng llól Marianas
-- Sankattan Siha Na Islas Mariånas
-- CNMI
-- Commonwealth of the Northern Mariana Islands
-- Northern Mariana Islands
-
-## synonym:MQ
-- Martinica
-- Matinik
-- Matnik
-- Martinique
-
-## synonym:MR
-- República Islâmica da Mauritânia
-- Mauritânia
-- al-Jumhūrīyah al-Islāmīyah al-Mūrītānīyah
-- République islamique de Mauritanie
-- Islamic Republic of Mauritania
-- Murutaane
-- Gànnaar
-- Moritani
-- Cengit
-- Agawej
-- Mauritanie
-- Mūrītānyā
-- Mauritania
-
-## synonym:MS
-- Emerald Isle of the Caribbean
-- The Emerald Isle of the Caribbean
-- Ilha Esmeralda das Caraíbas
-- Monserrate
-- Montserrat
-
-## synonym:MT
-- República de Malta
-- Repubblika ta' Malta
-- Republic of Malta
-- Malta
-
-## synonym:MU
-- République de Maurice
-- República de Maurício
-- República da Maurícia
-- Maurício
-- Maurícia
-- Repiblik Moris
-- Republic of Mauritius
-- Moris
-- Maurice
-- Mauritius
-
-## synonym:MV
-- República das Maldivas
-- Maldivas
-- Dhivehi Raajje
-- Dhivehi Raajjeyge Jumhooriyyaa
-- Republic of Maldives
-- Maldives
-
-## synonym:MW
-- Charu cha Malaŵi
-- Dziko la Malaŵi
-- Dziko la Malaŵi
-- Republic of Malawi
-- Malawi
-- República do Malawi
-- Malaŵi
-- Malaui
-- Maláui
-- Nyasaland
-
-## synonym:MX
-- Mexican United States
-- EUM
-- Estados Unidos Mexicanos
-- United Mexican States
-- Mēxihco
-- México
-- Mexico
-
-## synonym:MY
-- Malásia
-- Malaysia
-
-## synonym:MZ
-- Muzambhiki
-- Msumbiji
-- Mozambiki
-- República de Moçambique
-- Moçambique
-- Republic of Mozambique
-- Mozambique
-
-## synonym:NA
-- República da Namíbia
-- Namibia ye Lukuluhile
-- Rephaboliki ya Namibia
-- Republika zaNamibia
-- Orepublika yaNamibia
-- Namibiab Republiki dib
-- Republik Namibia
-- Republiek van Namibië
-- Republic of Namibia
-- Namibia
-
-## synonym:NC
-- Nova Caledônia
-- Nova Caledónia
-- Nouvelle-Calédonie
-- New Caledonia
-
-## synonym:NE
-- Níger
-- República do Níger
-- Republic of the Niger
-- République du Niger
-- the Niger
-- Niger
-
-## synonym:NF
-- Território da Ilha Norfolque
-- Território da Ilha Norfolk
-- ilha Norfolque
-- ilha Norfolk
-- Teratri a' Norf'k Ailen
-- Territory of Norfolk Island
-- Norf'k Ailen
-- Norfolk Island
-
-## synonym:NG
-- Nigéria
-- República Federal da Nigéria
-- Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà
-- Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà
-- Jamhuriyar Taraiyar Najeriya
-- Federal Republic of Nigeria
-- Nigeria
-
-## synonym:NI
-- República da Nicarágua
-- Nicarágua
-- República de Nicaragua
-- Republic of Nicaragua
-- Nicaragua
-
-## synonym:NL
-- Reino dos Países Baixos
-- Holanda
-- Países Baixos
-- Kingdom of the Netherlands
-- Nederland
-- Netherlands
-
-## synonym:NO
-- Reino da Noruega
-- Noruega
-- Nöörje
-- Vuodna
-- Norga
-- Noreg
-- Norge
-- Nöörjen gånkarijhke
-- Vuona gånågisrijkka
-- Norgga gonagasriika
-- Kongeriket Noreg
-- Kongeriket Norge
-- Kingdom of Norway
-- Norway
-
-## synonym:NP
-- República Democrática Federal do Nepal
-- Saṅghīya Lokatāntrik Gaṇatantra Nepāl
-- Federal Democratic Republic of Nepal
-- Nepal
-
-## synonym:NR
-- Ilha Aprazível
-- Naoero
-- República de Nauru
-- Pleasant Island
-- Repubrikin Naoero
-- Republic of Nauru
-- Nauru
-
-## synonym:NU
-- Niuê
-- Niuē
-- Niue
-
-## synonym:NZ
-- Nova Zelândia
-- Aotearoa
-- New Zealand
-
-## synonym:OM
-- Saltānat 'Umān
-- Sultanato de Omã
-- Omão
-- Omã
-- Sultanate of Oman
-- Salṭanat ʻUmān
-- Oman
-
-## synonym:PA
-- República del Panamá
-- República do Panamá
-- República de Panamá
-- Republic of Panama
-- Panamá
-- Panama
-
-## synonym:PE
-- Piruw Suyu
-- República del Perú
-- Republic of Peru
-- Piruw Republika
-- Perú
-- Peru
-
-## synonym:PF
-- Polinésia Francesa
-- Pōrīnetia Farāni
-- Polynésie française
-- French Polynesia
-
-## synonym:PG
-- Papua Niu Gini
-- Papua Niugini
-- Papua Nova Guiné
-- Papua-Nova Guiné
-- Independen Stet bilong Papua Niu Gini
-- Independen Stet bilong Papua Niugini
-- Independent State of Papua New Guinea
-- PNG
-- Papua New Guinea
-
-## synonym:PH
-- Repúbliká ng̃ Pilipinas
-- República das Filipinas
-- Republika ng Pilipinas
-- Republic of the Philippines
-- Filipinas
-- Pilipinas
-- Philippines
-
-## synonym:PK
-- República Islâmica do Paquistão
-- Islami Jamahuriat Pakistan
-- Pākistān
-- Paquistão
-- Islāmī Jumhūriyah Pākistān
-- Islamic Republic of Pakistan
-- Pakistan
-
-## synonym:PL
-- República da Polónia
-- Polónia
-- Polônia
-- Rzeczpospolita Polska
-- Republic of Poland
-- Polska
-- Poland
-
-## synonym:PM
-- Coletividade de Ultramar de São Pedro e Miquelão
-- Saint-Pierre e Miquelon
-- São Pedro e Miquelon
-- São Pedro e Miquelão
-- Collectivité d'outre-mer de Saint-Pierre-et-Miquelon
-- Overseas Collectivity of Saint Pierre and Miquelon
-- Saint-Pierre-et-Miquelon
-- Saint Pierre and Miquelon
-
-## synonym:PN
-- Grupo de Ilhas Pitcairn
-- Ilhas Pitcairn, Henderson, Ducie e Oeno
-- Ilhas Picárnia
-- Ilhas Pitcairn
-- Pitcairn, Henderson, Ducie and Oeno Islands
-- Pitkern Ailen
-- Pitcairn Islands
-- Pitcairn
-
-## synonym:PR
-- Estado Livre Associado de Porto Rico
-- Free Associated State of Puerto Rico
-- Estado Libre Asociado de Puerto Rico
-- Commonwealth of Puerto Rico
-- Porto Rico
-- Borinquen
-- Puerto Rico
-
-## synonym:PS
-- Estado da Palestina
-- Filasṭīn
-- Palestine
-- Dawlat Filasṭīn
-- State of Palestine
-
-## synonym:PT
-- República Portuguesa
-- Portuguese Republic
-- Portugal
-
-## synonym:PW
-- República de Palau
-- Beluu er a Belau
-- Republic of Palau
-- Pelew
-- Palaos
-- Belau
-- Palau
-
-## synonym:PY
-- Paraguai
-- Paraguái
-- Tetã Paraguái
-- República del Paraguay
-- Republic of Paraguay
-- Paraguay
-
-## synonym:QA
-- Estado do Qatar
-- Estado do Catar
-- Catar
-- Qaṭar
-- Dawlat Qaṭar
-- State of Qatar
-- Qatar
-
-## synonym:RE
-- Reunião
-- Île Bourbon
-- La Réunion
-- Réunion
-
-## synonym:RO
-- Roménia
-- Romênia
-- România
-- Romania
-
-## synonym:RS
-- República da Sérvia
-- Sérvia
-- Republika Srbija
-- Република Србија
-- Republic of Serbia
-- Srbija
-- Србија
-- Serbia
-
-## synonym:RU
-- Federação Russa
-- Rússia
-- Rossiyskaya Federatsiya
-- Российская Федерация
-- Rossiya
-- Росси́я
-- Russia
-- Russian Federation
-
-## synonym:RW
-- República do Ruanda
-- República de Ruanda
-- Ruanda
-- u Rwanda
-- Jamhuri ya Rwanda
-- République du Rwanda
-- Repubulika y'u Rwanda
-- Republic of Rwanda
-- Rwanda
-
-## synonym:SA
-- Reino da Arábia Saudita
-- al-Mamlaka al-ʻArabiyya as-Suʻūdiyya
-- as-Su’ūdiyya
-- Arábia Saudita
-- Kingdom of Saudi Arabia
-- Saudi Arabia
-
-## synonym:SB
-- Ilhas Salomão
-- Islas Salomón
-- Solomon Islands
-
-## synonym:SC
-- República das Seychelles
-- República das Seicheles ou Seychelles
-- Seicheles
-- Sesel
-- La Repiblik Sesel
-- République des Seychelles
-- Republic of Seychelles
-- Seychelles
-
-## synonym:SD
-- República do Sudão
-- Sudão
-- Jumhūriyyat as-Sūdān
-- as-Sūdān
-- Republic of the Sudan
-- Sudan
-
-## synonym:SE
-- Reino da Suécia
-- Suécia
-- Konungariket Sverige
-- Kingdom of Sweden
-- Sverige
-- Sweden
-
-## synonym:SG
-- Republik Singapura
-- República de Singapura
-- Chiṅkappūr
-- Xīnjiāpō
-- Cingapura
-- Singapura
-- Republic of Singapore
-- Singapore
-
-## synonym:SH
-- Tristão da Cunha
-- Ascensão
-- Santa Helena
-- Santa Helena, Ascensão e Tristão da Cunha
-- Tristan da Cunha
-- Ascension Island
-- Saint Helena
-- Saint Helena, Ascension and Tristan da Cunha
-
-## synonym:SI
-- República da Eslovênia
-- República da Eslovénia
-- Eslovênia
-- Eslovénia
-- Republika Slovenija
-- Republic of Slovenia
-- Slovenija
-- Slovenia
-
-## synonym:SJ
-- Jan Mayen
-- Svalbard
-- Svalbard e Jan Mayen
-- Svalbard and Jan Mayen Islands
-- Svalbard og Jan Mayen
-- Svalbard and Jan Mayen
-
-## synonym:SK
-- República Eslovaca
-- Eslováquia
-- Slovenská republika
-- Slovak Republic
-- Slovensko
-- Slovakia
-
-## synonym:SL
-- República da Serra Leoa
-- Serra Leoa
-- Salone
-- Republic of Sierra Leone
-- Sierra Leone
-
-## synonym:SM
-- São Marino
-- São Marinho
-- Sereníssima República de San Marino
-- República de San Marino
-- Serenissima Repubblica di San Marino
-- Most Serene Republic of San Marino
-- Repubblica di San Marino
-- Republic of San Marino
-- San Marino
-
-## synonym:SN
-- República do Senegal
-- Renndaandi Senegal
-- Réewum Senegaal
-- République du Sénégal
-- Republic of Senegal
-- Sénégal
-- Senegal
-
-## synonym:SO
-- República Federal da Somália
-- Somália
-- Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya
-- Jamhuuriyadda Federaalka Soomaaliya
-- Federal Republic of Somalia
-- aṣ-Ṣūmāl
-- Soomaaliya
-- Somalia
-
-## synonym:SR
-- República do Suriname
-- Republiek Suriname
-- Republic of Suriname
-- Surinam
-- Suriname
-
-## synonym:SS
-- República do Sudão do Sul
-- Sudão Meridional
-- Sudão do Sul
-- Paguot Thudä
-- Republic of South Sudan
-- South Sudan
-
-## synonym:ST
-- São Tomé e Príncipe
-- República Democrática de São Tomé e Príncipe
-- Democratic Republic of São Tomé and Príncipe
-- Saint Thomas and Prince
-- Sao Tome and Principe
-
-## synonym:SV
-- República do Salvador
-- Salvador
-- República de El Salvador
-- Republic of El Salvador
-- El Salvador
-
-## synonym:SX
-- Sint Maarten
-- São Martinho paises baixos
-- Sint Maarten (Dutch part)
-
-## synonym:SY
-- República Árabe Síria
-- Síria
-- al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah
-- Sūriyā
-- Syria
-- Syrian Arab Republic
-
-## synonym:AD
-- Principado dos Vales de Andorra
-- Principado de Andorra
-- Principat de les Valls d'Andorra
-- Principality of the Valleys of Andorra
-- Principat d'Andorra
-- Principality of Andorra
-- Andorra
-
-## synonym:TC
-- Turcas
-- Turcas e Caicos
-- Ilhas Turcas e Caicos
-- Turks and Caicos
-- Caicos
-- Turks
-- Turks Islands
-- Caicos Islands
-- TCI
-- Turks and Caicos Islands
-
-## synonym:TD
-- República do Chade
-- Tchad
-- Tchade
-- Chade
-- Jumhūriyyat Tshād
-- République du Tchad
-- Republic of Chad
-- Tshād
-- Chad
-
-## synonym:TF
-- Terres australes françaises
-- French Southern Lands
-- TOM
-- Territoire d'outre-mer
-- TAAF
-- Terres australes et antarctiques françaises
-- French Southern and Antarctic Lands
-- French Southern Territories
-
-## synonym:TG
-- República Togolesa
-- République togolaise
-- Togolese Republic
-- Togo
-
-## synonym:TH
-- Sião
-- Reino da Tailândia
-- Tailândia
-- Ratcha-anachak Thai
-- Siam
-- Kingdom of Thailand
-- Thailand
-
-## synonym:TJ
-- República do Tajiquistão
-- Tojikiston
-- Tadjiquistão
-- Tajiquistão
-- Jumhurii Tojikiston
-- Republic of Tajikistan
-- Tajikistan
-
-## synonym:TK
-- Toquelau
-- Tokelau Islands
-- Union Islands
-- Tokelau
-
-## synonym:TL
-- East Timor
-- Democratic Republic of Timor-Leste
-- Repúblika Demokrátika Timór-Leste
-- Timor Lorosa'e
-- Timor Leste
-- República Democrática de Timor-Leste
-- Timor-Leste
-
-## synonym:TM
-- República do Turcomenistão
-- Turcomênia
-- Turcomenistão
-- Turquemenistão
-- Türkmenistan Respublikasy
-- Republic of Turkmenistan
-- Türkmenistan
-- Turkmenistan
-
-## synonym:TN
-- República Tunisina
-- Tunisie
-- Tūnis
-- Tunísia
-- République tunisienne
-- al-Jumhūrīyah at-Tūnisīyah
-- Republic of Tunisia
-- Tunisia
-
-## synonym:TO
-- Reino de Tonga
-- Puleʻanga Fakatuʻi ʻo Tonga
-- Kingdom of Tonga
-- Tonga
-
-## synonym:TR
-- República da Turquia
-- Turquia
-- Türkiye Cumhuriyeti
-- Republic of Turkey
-- Türkiye
-- Turkey
-
-## synonym:TT
-- Trinidade
-- República de Trindade e Tobago
-- Trinidad e Tobago
-- Trinidade e Tobago
-- Trindade e Tobago
-- Tobago
-- Trinidad
-- Republic of Trinidad and Tobago
-- Trinidad and Tobago
-
-## synonym:TV
-- Ilhas Ellice
-- Ellice Islands
-- Tuvalu
-
-## synonym:TW
-- Táiwān shěng
-- Província de Taiwan
-- Taiwan, China
-- Taiwan
-- Taiwan Area
-- Taiwan Region
-- Taiwan Province
-- Taiwan, Province of China
-
-## synonym:TZ
-- República Unida da Tanzânia
-- Tanzânia
-- Jamhuri ya Muungano wa Tanzania
-- Tanzania
-- United Republic of Tanzania
-
-## synonym:UA
-- Ucrânia
-- Ukrayina
-- Ukraine
-
-## synonym:UG
-- República do Uganda
-- República de Uganda
-- Eggwanga Yuganda
-- Jamhuri ya Uganda
-- Republic of Uganda
-- Uganda
-
-## synonym:UM
-- Ilhas Menores Afastadas dos Estados Unidos
-- Ilhas Menores Distantes dos Estados Unidos
-- Ilha Wake
-- Atol Palmyra
-- Ilha Navassa
-- Atol Midway
-- Recife Kingman
-- Atol Johnston
-- Ilha Jarvis
-- Ilha Howland
-- Ilha Baker
-- Navassa Island
-- Wake Island
-- Palmyra Atoll
-- Midway Atoll
-- Kingman Reef
-- Johnston Atoll
-- Jarvis Island
-- Howland Island
-- Baker Island
-- United States Minor Outlying Islands
-
-## synonym:US
-- Estados Unidos
-- Estados Unidos da América
-- America
-- US
-- U.S.
-- USA
-- United States of America
-- United States
-
-## synonym:UY
-- Uruguai
-- República Oriental do Uruguai
-- República Oriental del Uruguay
-- Oriental Republic of Uruguay
-- Uruguay
-
-## synonym:UZ
-- República do Uzbequistão
-- Usbequistão
-- Uzbequistão
-- Oʻzbekiston Respublikasi
-- Republic of Uzbekistan
-- Oʻzbekiston
-- Uzbekistan
-
-## synonym:VA
-- Status Civitatis Vaticanæ
-- Civitas Vaticana
-- Stato della Città del Vaticano
-- Estado da Cidade do Vaticano
-- Cidade do Vaticano
-- Vaticano
-- Cidade-Estado do Vaticano
-- Sé Apostólica
-- Santa Sé Apostólica
-- Santa Sé
-- See of Rome
-- Santa Sede
-- Sancta Sedes
-- Holy See (Vatican City State)
-
-## synonym:VC
-- São Vicente
-- São Vicente e Granadinas
-- Saint Vincent
-- Saint Vincent and the Grenadines
-
-## synonym:VE
-- República Bolivariana da Venezuela
-- República Bolivariana de Venezuela
-- Venezuela
-- Bolivarian Republic of Venezuela
-
-## synonym:VG
-- Ilhas Virgens Britânicas
-- BVI
-- British Virgin Islands
-
-## synonym:VI
-- Virgin Islands of the United States
-- American Virgin Islands
-- USVI
-- United States Virgin Islands
-- Ilhas Virgens dos Estados Unidos
-- Ilhas Virgens Americanas
-- U.S. Virgin Islands
-
-## synonym:VN
-- República Socialista do Vietname
-- República Socialista do Vietnã
-- Vietnã
-- Vietname
-- Socialist Republic of Vietnam
-- Vietnam
-- Viet Nam
-
-## synonym:VU
-- República de Vanuatu
-- Gloriosa República de Vanuatu
-- République de Vanuatu
-- Ripablik blong Vanuatu
-- Republic of Vanuatu
-- Vanuatu
-
-## synonym:WF
-- Território das Ilhas Wallis e Futuna
-- Wallis e Futuna
-- Uvea mo Futuna
-- Territoire des îles Wallis-et-Futuna
-- Wallis-et-Futuna
-- Territory of the Wallis and Futuna Islands
-- Wallis and Futuna
-
-## synonym:WS
-- Samoa Ocidental
-- Estado Independente da Samoa
-- Estado Independente de Samoa
-- Western Samoa
-- Sāmoa
-- Malo Saʻoloto Tutoʻatasi o Sāmoa
-- Independent State of Samoa
-- Samoa
-
-## synonym:YE
-- República do Iêmen
-- República do Iémen
-- Iêmen
-- Iémen
-- al-Yama
-- Republic of Yemen
-- Yaman
-- al-Jumhūrīyah al-Yamanīyah
-- Yemen
-
-## synonym:YT
-- Departamento de Maiote
-- Maiote
-- Département de Mayotte
-- Department of Mayotte
-- Mahori
-- Maore
-- Mayotte
-
-## synonym:ZA
-- República da África do Sul
-- África do Sul
-- iRiphabliki yeSewula Afrika
-- Riphabuḽiki ya Afurika Tshipembe
-- iRiphabhulikhi yeNingizimu Afrika
-- Riphabliki ya Afrika Dzonga
-- Rephaboliki ya Afrika Borwa
-- Rephaboliki ya Aforika Borwa
-- Repabliki ya Afrika-Borwa
-- iRiphabliki yomZantsi Afrika
-- iRiphabhuliki yaseNingizimu Afrika
-- Republiek van Suid-Afrika
-- RSA
-- Republic of South Africa
-- South Africa
-
-## synonym:ZM
-- República da Zâmbia
-- Zâmbia
-- Cisi ca Zambia
-- Dziko la Zambia
-- Republic of Zambia
-- Zambia
-
-## synonym:ZW
-- República do Zimbabwe
-- Zimbaué
-- Zimbabué
-- Zimbábue
-- Shango ḽa Zimbabwe
-- Cisi ca Zimbabwe
-- Naha ya Zimbabwe
-- Tiko ra Zimbabwe
-- Inyika yeZimbabwe
-- Zimbabwe Nù
-- Hango yeZimbabwe
-- Dziko la Zimbabwe
-- Ilizwe leZimbabwe
-- Nyika yeZimbabwe
-- Rhodesia
-- Republic of Zimbabwe
-- Zimbabwe
-
-## synonym:SZ
-- Reino de Essuatíni
-- Essuatíni
-- Umbuso weSwatini
-- Kingdom of Eswatini
-- Eswatini
-- Swaziland
-
-## synonym:AE
-- Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah
-- EAU
-- Emirados Árabes Unidos
-- UAE
-- Emirates
-- al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah
-- United Arab Emirates
-
-## synonym:AF
-- Republica do Afeganistão
-- Afeganistão
-- República Islâmica do Afeganistão
-- Republic of Afghanistan
-- Islamic Republic of Afghanistan
-- Afghanistan
-
-## synonym:AG
-- Antígua
-- Antiga e Barbuda
-- Antígua e Barbuda
-- Barbuda
-- Antigua
-- Antigua and Barbuda
-
-## synonym:AI
-- Anguila
-- Island of Anguilla
-- Anguilla
-
-## synonym:AL
-- Republica da Albânia
-- Albânia
-- Republic of Albania
-- Albania
-
-## synonym:AM
-- República da Arménia
-- Armênia
-- Arménia
-- Republic of Armenia
-- Armenia
-
-## synonym:AO
-- República de Angola
-- Republic of Angola
-- Angola
-
-## synonym:AQ
-- Antártica
-- Antártida
-- Antarctica
-
-## synonym:AR
-- Republic of Argentina
-- República da Argentina
-- República Argentina
-- Argentine Republic
-- Argentina
-
-## synonym:AS
-- Tutuila
-- Sāmoa Amelika
-- Amelika Sāmoa
-- Amerika Sāmoa
-- Samoa Americana
-- American Samoa
-
-## synonym:AT
-- República da Áustria
-- Áustria
-- Republik Österreich
-- Österreich
-- Republic of Austria
-- Austria
-
-## synonym:AU
-- Comunidade da Austrália
-- Austrália
-- Commonwealth of Australia
-- Australia
-
-## synonym:AW
-- Aruba
-
-## synonym:AX
-- Alandia
-- Arquipélago da Aland
-- Arquipélago da Åland
-- Ahvenanmaa
-- Alanda
-- Ilhas de Aland
-- Ilhas Åland
-- Fasta Åland
-- Åland
-- Åland Islands
-
-## synonym:AZ
-- República do Azerbaijão
-- Azerbaijão
-- Republic of Azerbaijan
-- Azerbaijan
-
-## synonym:BA
-- Bósnia
-- Bósnia e Herzegovina
-- Bosna i Hercegovina
-- Bosnia
-- Bosnia–Herzegovina
-- B&H
-- BiH
-- Bosnia and Herzegovina
-
-## synonym:BB
-- Barbados
-
-## synonym:BD
-- República Popular do Bangladesh
-- Nação Bengali
-- Bangladeche
-- Bangladexe
-- People's Republic of Bangladesh
-- country of Bengal
-- Bangladesh
-
-## synonym:BE
-- Belgien
-- Belgique
-- België
-- Bélgica
-- Reino da Bélgica
-- Koninkrijk België
-- Royaume de Belgique
-- Königreich Belgien
-- Kingdom of Belgium
-- Belgium
-
-## synonym:BF
-- Burquina
-- Burquina Fasso
-- Burquina Faso
-- Republic of Burkina Faso
-- Burkina Faso
-
-## synonym:BG
-- Republika Bǎlgarija
-- República da Bulgária
-- Bulgária
-- Republika Balgariya
-- Republic of Bulgaria
-- Balgariya
-- Bulgaria
-
-## synonym:BH
-- Reino do Bareine
-- Reino do Barein
-- Reino do Barém
-- Reino do Bahrain
-- Reino do Bahrein
-- Bareine
-- Barein
-- Barém
-- Bahrein
-- Kingdom of Bahrain
-- Al-Baḥrayn
-- Bahrain
-
-## synonym:BI
-- República do Burúndi
-- Burúndi
-- République du Burundi
-- Republika y'Uburundi
-- Republic of Burundi
-- Burundi
-
-## synonym:BJ
-- República do Benim
-- Benim
-- Bénin
-- République du Bénin
-- Republic of Benin
-- Benin
-
-## synonym:BL
-- Coletividade de São Bartolomeu
-- São Bartolomeu
-- St. Barts
-- St. Barths
-- St-Barth
-- Collectivité territoriale de Saint-Barthélemy
-- Saint-Barthélemy
-- Saint Barthélemy
-
-## synonym:BM
-- Bermudas
-- Ilhas Bermudas
-- Islands of Bermuda
-- Bermuda
-
-## synonym:BN
-- Nation of Brunei, the Abode of Peace
-- Negara Brunei Darussalam
-- Nation of Brunei
-- Brunei
-- Brunei Darussalam
-
-## synonym:BO
-- Bolívia
-- Estado Plurinacional de Bolivia
-- Bolivia
-- Plurinational State of Bolivia
-
-## synonym:BQ
-- Santo Eustáquio
-- Caraíbas Neerlandesas
-- Países Baixos Caribenhos
-- BES Islands
-- Caribisch Nederland
-- Caribbean Netherlands
-- Saba
-- Sint Eustatius
-- Bonaire
-- Bonaire, Sint Eustatius and Saba
-
-## synonym:BR
-- República Federal do Brasil
-- República Federativa do Brasil
-- Federative Republic of Brazil
-- Brasil
-- Brazil
-
-## synonym:BS
-- Comunidade das Bahamas
-- Baamas
-- Commonwealth of The Bahamas
-- Bahamas
-
-## synonym:BT
-- Reino do Butão
-- Butão
-- Druk Gyal Khap
-- Kingdom of Bhutan
-- Bhutan
-
-## synonym:BV
-- Ilha Bouvet
-- Bouvet-øya
-- Bouvetøya
-- Bouvet Island
-
-## synonym:BW
-- República do Botsuana
-- República do Botswana
-- Botsuana
-- Lefatshe la Botswana
-- Republic of Botswana
-- Botswana
-
-## synonym:BY
-- República da Bielorrússia
-- República da Belarus
-- Bielorrússia
-- Byelorussia
-- Belorussia
-- Republic of Belarus
-- Belarus
-
-## synonym:BZ
-- Belize
-
-## synonym:CA
-- Canadá
-- Canada
-
-## synonym:CC
-- Pulu Kokos Keeling
-- Ilhas Cocos Keeling
-- Ilhas Cocos (Keeling)
-- Ilhas Keeling
-- Keeling Islands
-- Wilayah Kepulauan Cocos (Keeling)
-- Pulu Kokos (Keeling)
-- Territory of Cocos Keeling Islands
-- Territory of Cocos (Keeling) Islands
-- Cocos Keeling Islands
-- Cocos (Keeling) Islands
-
-## synonym:CD
-- Congo-Quinxassa
-- Congo R.D.
-- RD Congo
-- RDC
-- República Democrática do Congo
-- Ditunga dia Kongu wa Mungalaata
-- Jamhuri ya Kidemokrasia ya Kongo
-- Republíki ya Kongó Demokratíki
-- Repubilika ya Kôngo ya Dimokalasi
-- Congo-Kinshasa
-- DROC
-- DRC
-- DR Congo
-- République démocratique du Congo
-- Democratic Republic of the Congo
-- The Democratic Republic of the Congo
-
-## synonym:CF
-- República Centro Africana
-- República da África Central
-- República da África-Central
-- República Centro-Africana
-- CAR
-- Ködörösêse tî Bêafrîka
-- République centrafricaine
-- Central African Republic
-
-## synonym:CG
-- RotC
-- Congo Republic
-- Congo Brazzaville
-- Congo-Brazzaville
-- Republíki ya Kongó
-- Repubilika ya Kôngo
-- République du Congo
-- Congo
-
-## synonym:CH
-- Confederação Suíça
-- Svizra
-- Svizzera
-- Suisse
-- Schwiiz
-- Schwyz
-- Schweiz
-- Suíça
-- Confoederatio Helvetica
-- Confederaziun svizra
-- Confederazione Svizzera
-- Confédération suisse
-- Schweizerische Eidgenossenschaft
-- Swiss Confederation
-- Switzerland
-
-## synonym:CI
-- República da Costa do Marfim
-- Costa do Marfim
-- République de Côte d'Ivoire
-- Republic of Côte d'Ivoire
-- The Ivory Coast
-- Ivory Coast
-- Côte d'Ivoire
-
-## synonym:CK
-- Ilhas Cook
-- Kūki 'Āirani
-- Cook Islands
-
-## synonym:CL
-- Repūvirika o Tire
-- Chili Ripuwlika
-- Chili Suyu
-- Chile Wüdalmapu
-- República de Chile
-- Republic of Chile
-- Chile
-
-## synonym:CM
-- República do Cameroun
-- República dos Camarões
-- Camarões
-- Renndaandi Kamerun
-- République du Cameroun
-- Republic of Cameroon
-- Cameroun
-- Cameroon
-
-## synonym:CN
-- RPC
-- República Popular da China
-- Zhōnghuá Rénmín Gònghéguó
-- PRC
-- People's Republic of China
-- China
-
-## synonym:CO
-- República da Colômbia
-- Colômbia
-- República de Colombia
-- Republic of Colombia
-- Colombia
-
-## synonym:CR
-- República da Costa Rica
-- República de Costa Rica
-- Republic of Costa Rica
-- Costa Rica
-
-## synonym:CU
-- República de Cuba
-- Republic of Cuba
-- Cuba
-
-## synonym:CV
-- Repúblika di Kabu Verdi
-- República de Cabo Verde
-- Republic of Cabo Verde
-- Cabo Verde
-- Cape Verde
-
-## synonym:CW
-- Curaçau
-- Country of Curaçao
-- Teritorio Insular di Kòrsou
-- Eilandgebied Curaçao
-- Island Territory of Curaçao
-- Pais Kòrsou
-- Land Curaçao
-- Kòrsou
-- Curaçao
-
-## synonym:CX
-- Território da Ilha Natal
-- Território da Ilha do Natal
-- Território da Ilha Christmas
-- Ilha Natal
-- Ilha do Natal
-- Ilha Christmas
-- Territory of Christmas Island
-- Christmas Island
-
-## synonym:CY
-- Kypriakí Dimokratía
-- República de Chipre
-- Kýpros
-- Chipre
-- Kıbrıs Cumhuriyeti
-- Cypriot Republic
-- Κυπριακή Δημοκρατία
-- Republic of Cyprus
-- Kıbrıs
-- Κύπρος
-- Cyprus
-
-## synonym:CZ
-- República Tcheca
-- República Checa
-- Tchéquia
-- Chéquia
-- Česko
-- Czechia
-- Česká republika
-- Czech Republic
-
-## synonym:DE
-- República Federal da Alemã
-- República Federal da Alemanha
-- Alemanha
-- Bundesrepublik Deutschland
-- Federal Republic of Germany
-- Deutschland
-- Germany
-
-## synonym:DJ
-- República do Djibuti
-- Jibuti
-- Djibuti
-- Gabuutih Ummuuno
-- Jamhuuriyadda Jabuuti
-- République de Djibouti
-- Republic of Djibouti
-- Jabuuti
-- Jībūtī
-- Yibuuti
-- Djibouti
-
-## synonym:DK
-- Reino da Dinamarca
-- Dinamarca
-- Kongeriget Danmark
-- Kingdom of Denmark
-- Danmark
-- Denmark
-
-## synonym:DM
-- Comunidade da Dominica
-- Domínica
-- Commonwealth of Dominica
-- Dominique
-- Dominica
-
-## synonym:DO
-- República Dominicana
-- Dominican Republic
-
-## synonym:DZ
-- Republica Democrática da Argélia
-- Republica da Argélia
-- Argélia
-- Republic of Algeria
-- Democratic Republic of Algeria
-- Algeria
-
-## synonym:EC
-- República do Equador
-- Equador
-- Ikwayur Runaq Imayka
-- Ekuatur Nunka
-- Ikwadur Ripuwlika
-- Republic of the Equator
-- República del Ecuador
-- Republic of Ecuador
-- Ekuatur
-- Ikwayur
-- Ecuador
-
-## synonym:EE
-- República da Estônia
-- República da Estónia
-- Estônia
-- Estónia
-- Eesti Vabariik
-- Republic of Estonia
-- Eesti
-- Estonia
-
-## synonym:influenza
-- influenza
-- gripe
-
-## synonym:prevention
-- prevenção
-- prevenir
-- proteção
-- proteger
-- protecção
-
-## synonym:spread
-- propagação
-- transmissão
-- propaga
-- transmite
-- apanhar
-- contrair
-- infetar
-- infeção
-- infetado
-- contraido
-- infetada
-- contraida
-- transmitido
-- transmitida
-
-## synonym:COVID
-- COVID
-- COVID-19
-- SARS-CoV-2
-- novo coronavirus
-- 2019-nCoV
-- o virus
-- a doença
-- covid19
-- 2019ncov
-- covid2019
-- covid-2019
-- 19-ncov
-- 19ncov
-- SARSCoV2
-- SARS-CoV2
-- SARSCoV-2
-
-## synonym:number
-- quantidade
-- número
-- number
-- quantity
-
-## synonym:teach
-- tutoring
-- coached
-- trainings
-- learned
-- training
-- lesson
-- trainers
-- learnt
-- learning
-- coaching
-- trainer
-- taught
-- learn
-- coaches
-- teaching
-- coach
-- teach
-
-## synonym:facebook
-- facebook
-- face book
-
-## synonym:linkedin
-- linkd in
-- linkdin
-- linkedin
-- linked in
-
-## synonym:instagram
-- ig
-- insta
-- insta gram
-- instragram
-
-## synonym:social media
-- socialmedia
-- social plattform
-- social media
-
-## synonym:firstname
-- primeiro nome
-- nome
-- given name
-- christian name
-- forename
-- first-name
-- first name
-- firstname
-- name
-
-## synonym:surname
-- último nome
-- nome de família
-- apelido
-- surname
-- family name
-- last name
-- lastname
-- last-name
-- family-name
-
-## synonym:cancel
-- cancelar
-- stop
-- anular
-- interromper
-- sair
-- desistir
-- cessar
-- abortar
-- revogar
-
-## synonym:sex
-- sex
-- sexual
-- virginity
-- virgin
-- pornography
-- ass
-- blow job
-- bonk
-- buggery
-- anal
-- carnal
-- climax
-- orgasm
-- coitus
-- cottaging
-- cybersex
-- ejaculation
-- ejaculating
-- ejaculate
-- fuck
-- gang bang
-- hanky-panky
-- intercourse
-- ménage à trois
-- nookie
-- one-night stand
-- oral sex
-- penetration
-- sodomy
-- threesome
-- tits
-- penis
-- prick
-- cock
-- wang
-- weenie
-- whang
-- cunt
-- pussy
-- pussies
-- vagina
-
-## synonym:cough
-- tosse
-
-## synonym:runny_nose
-- corrimento nasal
-- nariz entupido
-- nariz com ranho
-- corrimento do nariz
-- muco nasal
-- corrimento de muco do nariz
-
-## synonym:sore_throat
-- dor de garganta
-- dor na garganta
-- garganta dorida
-- garganta com dor
-
-## synonym:breathing_difficulty
-- dificuldade respiratória
-- problemas respiratórios
-- falta de ar
-- problema em respirar
-- dificuldade em respirar
-- problema em inspirar
-- problemas em inspirar
-- dificuldade em inspirar
-- dificuldade em obter ar
-- problema em obter ar
-
-## synonym:fever
-- febre
-- pirexia
-- hipertermia
-- temperatura elevada
-- temperatura alta
-
-## synonym:you
-- Cosibot
-- Helena
-- ti
-- si
-- a senhora
-- o senhor
-- você
-- tu
-- ur
-- youre
-- your
-- yal
-- thou
-- thee
-- yall
-- yourself
-- ya
-- u
-- you
-
-## synonym:I
-- nossas
-- nossa
-- minhas
-- minha
-- nosso
-- nossos
-- meu
-- meus
-- nós
-- mim
-- eu
-- Imma
-- Im
-- our
-- myself
-- me
-- ourselves
-- us
-- we
-- I
-
-## synonym:country
-- Geórgia
-- Alemanha
-- Gana
-- Grécia
-- Granada
-- Guatemala
-- Guiné
-- Guiné-Bissau
-- Guiana
-- Haiti
-- Santa Sé
-- Sé de Roma
-- Honduras
-- Hungria
-- Islândia
-- Índia
-- Indonésia
-- Irã
-- Iraque
-- Irlanda
-- Israel
-- Itália
-- Jamaica
-- Jordânia
-- Cazaquistão
-- Quênia
-- Kiribati
-- Kuwait
-- Quirguistão
-- Laos
-- Letônia
-- Líbano
-- Lesoto
-- Libéria
-- Liechtenstein Líbia
-- Lituânia
-- Madagascar
-- Malawi
-- Malásia
-- Maldivas
-- Mali
-- Malta
-- Ilhas Marshall
-- Mauritânia
-- Maurício
-- México
-- Micronésia
-- Moldávia
-- Mônaco
-- Mongólia
-- Montenegro
-- Marrocos
-- Moçambique
-- Mianmar
-- Birmânia
-- Namíbia
-- Nauru
-- Nepal
-- Holanda
-- Nova Zelândia
-- Nicarágua
-- Níger
-- Nigéria
-- Coréia do Norte
-- Macedônia do Norte
-- Noruega
-- Omã
-- Paquistão
-- Palau
-- Estado da Palestina
-- Panamá
-- Papua Nova Guiné
-- Paraguai
-- Peru
-- Filipinas
-- Polônia
-- Portugal
-- Catar
-- Romênia
-- Rússia
-- Ruanda
-- São Cristóvão e Nevis
-- Santa Lúcia
-- São Vicente e Granadinas
-- Samoa
-- São Marinho
-- São Tomé e Príncipe
-- Arábia Saudita
-- Senegal
-- Sérvia
-- Seychelles
-- Serra Leoa
-- Cingapura
-- Eslováquia
-- Eslovênia
-- Ilhas Salomão
-- Somália
-- Sou África
-- Coréia do Sul
-- Sudão do Sul
-- Espanha
-- Sri Lanka
-- Sudão
-- Suriname
-- Suazilândia
-- Suécia
-- Suíça
-- Síria
-- Tajiquistão
-- Tanzânia
-- Tailândia
-- Timor-Leste
-- Togo
-- Tonga
-- Trinidad e Tobago
-- Tunísia
-- Turquia
-- Turquemenistão
-- Tuvalu
-- Uganda
-- Ucrânia
-- Emirados Árabes Unidos
-- Reino Unido
-- Estados Unidos da América
-- Uruguai
-- Uzbequistão
-- Venezuela
-- Iêmen
-- Zâmbia
-- Zimbábue
-- Shqipëria
-- Dzayer
-- Al-Jazāir
-- Amerika Sāmoa
-- Ngola
-- Anguilla
-- Hayastán
-- Aruba
-- Österreich
-- Åland
-- Ahvenanmaa
-- Azərbaycan
-- Al-Baḥrayn
-- Bielaruś
-- Bermudas Bélgica
-- Drukin
-- Buliwya
-- Wuliwya
-- Volívia
-- Bosna e Hercegovina
-- Ilhas Virgens Britânicas
-- Bulgariya
-- Bălgarija
-- Uburundi
-- Campampea
-- Ilhas Cayman
-- Ködörösêse tê Bêafrîka
-- Tchad
-- Zhodguó
-- Ilha Christmas
-- Ilhas Cocos
-- Komori
-- Juzur al-Qamar
-- República do Congo
-- República y Kongó
-- República y Kongó Demokratíki
-- Jamhuri y Kidemokrasia y Kongo
-- Ilhas Cook
-- Hrva tska
-- Curaçao
-- Kòrsou
-- Kypros
-- Kıbrıs
-- Česká republika
-- Česko
-- Danmark
-- Jībūtī
-- Timor Lorosa'e
-- Misr
-- Masr
-- Guiné Ecuatorial
-- Iritriya
-- Ertra
-- Eesti
-- Eswatini
-- Ityopia
-- Ilhas Falkland
-- Føroyar
-- Ilhas Faroé
-- Færøerne
-- Viti
-- Suomi
-- República Popular da China
-- República do El Salvador
-- Estado da Eritreia
-- Gronelândia
-- Comunidade da Dominica
-- Abkházia
-- Kongo
-- Luxemburgo
-- Japão
-- Afeganistão
-- Albânia
-- Argélia
-- Andorra
-- Angola
-- Antígua e Barbuda
-- Argentina
-- Armênia
-- Austrália
-- Áustria
-- Azerbaijão
-- Bahamas
-- Bahrain
-- Bangladesh
-- Barbados
-- Bielorrússia
-- Bélgica
-- Belize
-- Benim
-- Butão
-- Bolívia
-- Bósnia e Herzegovina
-- Botsuana
-- Brasil
-- Brunei
-- Bulgária
-- Burkina Faso
-- Burundi
-- Costa do Marfim
-- Cabo Verde
-- Camboja
-- Camarões
-- Canadá
-- República Centro-Africana
-- Chade
-- Chile
-- China
-- Colômbia
-- Comores
-- Congo
-- Congo-Brazzaville
-- Costa Rica
-- Croácia
-- Cuba
-- Chipre
-- República Checa
-- República Democrática do Congo
-- Dinamarca
-- Djibuti
-- Dominica
-- República Dominicana
-- Equador
-- Egito
-- El Salvador
-- Guiné Equatorial
-- Eritreia
-- Estônia
-- Etiópia
-- Fiji
-- Finlândia
-- França
-- Gabão
-- Gâmbia
-
-## synonym:town
-- Bad Lauchstädt
-- Rosenthal
-- Tiruchirappalli
-- Langen
-- Engen
-- Waldeck
-- Milan
-- Tyumen
-- Baoding
-- Langenau
-- Enger
-- Waldenbuch
-- Prague
-- Ryazan
-- Nashville
-- Yiwu
-- João Pessoa
-- Salt Lake City
-- Ufa
-- Oslo
-- Lauenburg
-- Rotterdam
-- Bristol
-- Falkenberg
-- Zhenjiang
-- Liverpool
-- Louisville
-- Kaduna
-- Lebach
-- Wassenberg
-- Voronezh
-- Zaragoza
-- Leisnig
-- Weiden In Der Oberpfalz
-- Weiden
-- Aguascalientes
-- Chifeng
-- Lemgo
-- Felsberg
-- Weil Am Rhein
-- Lviv
-- Lengenfeld
-- Feuchtwangen
-- Weilburg
-- Sevilla
-- Santiago
-- Mumbai
-- Ulan-Ude
-- Brno
-- Raleigh
-- Bhilai
-- Kasan
-- Melle
-- Maracay
-- Omsk
-- Kananga
-- Tula Oblast
-- Erbil
-- Samara
-- Tigre
-- Caracas
-- Vienna
-- Warsaw
-- Minsk
-- Rome
-- Berlin
-- Moscow
-- Gwalior
-- Glasgow
-- Taichung
-- Tiruppur
-- Hama
-- Cochabamba
-- Dhanbad
-- Adelaide
-- Zürich
-- Ranchi
-- Yichang
-- Amritsar
-- Santiago De Querétaro
-- Querétaro
-- Maceió
-- Ivano-Frankivsk
-- Denizli
-- Schesslitz
-- Scheßlitz
-- Bad Windsheim
-- Belo Horizonte
-- Debrecen
-- Preston
-- Schenefeld
-- Bad Wimpfen
-- Xi’an
-- Munster
-- Kingston Upon Hull
-- Padova
-- Schelklingen
-- Bad Wilsnack
-- Hangzhou
-- Scheinfeld
-- Bad Wildungen
-- Foshan
-- Vologda
-- Scheibenberg
-- Bad Wildbad
-- Munderkingen
-- Saigon
-- Ho Chi Minh City
-- Osmaniye
-- Timișoara
-- Timisoara
-- Scheer
-- Bad Waldsee
-- Münchenbernsdorf
-- Tampere
-- Cherepovets
-- Schauenstein
-- Bad Vilbel
-- Ahmedabad
-- Nanjing
-- Çorlu
-- Corlu
-- Schalkau
-- Bad Urach
-- Müncheberg
-- Dongguan
-- Katowice
-- Sayda
-- Bad Tölz
-- Münchberg
-- Chengdu
-- Pskov
-- Grodno
-- Hrodna
-- Sassnitz
-- Bad Tennstedt
-- Müllrose
-- Wuhan
-- Vladikavkaz
-- Sassenberg
-- Bad Teinach-Zavelstein
-- Müllheim
-- Lahore
-- Penzlin
-- Gröningen
-- Penzberg
-- Gronau
-- Hagenow
-- Penkun
-- Groitzsch
-- Hagenbach
-- Penig
-- Gröditz
-- Hadamar
-- Hachenburg
-- Haan
-- Gützkow
-- Gütersloh
-- Güstrow
-- Güsten
-- Gunzenhausen
-- Pockau-Lengefeld
-- Günzburg
-- Plön
-- Gundelsheim
-- Plochingen
-- Peitz
-- Grimmen
-- Peine
-- Grimma
-- Pirmasens
-- Grünberg
-- Pegnitz
-- Griesheim
-- Pinneberg
-- Gross-Umstadt
-- Groß-Umstadt
-- Pegau
-- Grevesmühlen
-- Philippsburg
-- Edmonton
-- Sharjah
-- Jodhpur
-- Fushun
-- Prayag
-- Illahabad
-- Prayagraj
-- Allahabad
-- Huainan
-- Gatineau
-- Xining
-- Asansol
-- Tzeki
-- Cixi
-- Medina
-- Ditzingen
-- Kirchen
-- Ciudad Juárez
-- Jining
-- Batam
-- Qiqihar
-- Palembang
-- Virginia Beach
-- Makassar
-- Jabalpur
-- Calgary
-- Aurangabad
-- Auckland
-- Yekaterinburg
-- Raipur
-- Rosario
-- Benin City
-- Nowosibirsk
-- Gaziantep
-- Kaohsiung
-- Almaty
-- Columbus
-- Córdoba
-- Jilin
-- Datong
-- Xianyang
-- Zhuhai
-- Gwangju
-- Varanasi
-- Iasi
-- Kaub
-- Sochi
-- Cordoba
-- Kansas City
-- Charlotte
-- Liuzhou
-- Daqing
-- Davao City
-- Handan
-- Semarang
-- Kahla
-- Cluj-Napoca
-- Vitória
-- Homs
-- Schiraz
-- Linyi
-- Ludhiana
-- Peschawar
-- Mosul
-- Pittsburgh
-- Austin
-- Cincinnati
-- Owen
-- Orlando
-- Valencia
-- Chita
-- Newport
-- Indianapolis
-- Taichow
-- Taizhou
-- Cleveland
-- Nashik
-- Hohhot
-- León
-- Karaj
-- Samut Prakan
-- Calau
-- La Paz
-- Adana
-- Hamburg
-- Perth
-- Isfahan
-- Haikou
-- Xuzhou
-- West Yorkshire
-- Multan
-- Karlsruhe
-- Brazzaville
-- Verona
-- Sacramento
-- Vadodara
-- Nantong
-- Tijuana
-- Agra
-- Barranquilla
-- Bühl
-- Stein
-- Graz
-- Maracaibo
-- Eixample
-- St. Louis
-- Patna
-- Malappuram
-- San Bernardino
-- Riverside
-- Daegu
-- Goiânia
-- Baltimore
-- Gasteiz
-- Vitoria-Gasteiz
-- Dubai
-- Las Vegas
-- Cochin
-- Kochi
-- San Juan
-- Coruña
-- Corunna
-- Vancouver
-- City Of Westminster
-- Orsk
-- Chemnitz
-- Manisa
-- Bonn
-- Southampton
-- Norden
-- Senden
-- Cali
-- Manchester
-- Guayaquil
-- Marino
-- Nis
-- Selb
-- Latina
-- Espoo
-- Neu-Ulm
-- Durban
-- Guiyang
-- Douala
-- Puebla
-- Seattle
-- Aachen
-- Campinas
-- Wuxi
-- Izmir
-- San Diego
-- Granada
-- Gasteiz-Vitoria
-- Tarsus
-- Kiel
-- Halle
-- Saale
-- Bordeaux
-- Lakhnau
-- Muenster
-- Münster
-- Ciudad Lineal
-- Jaipur
-- Casablanca
-- Jaffa
-- Tel Aviv
-- Salvador
-- Salvador Da Bahia
-- Cape Town
-- Porto Alegre
-- Oviedo
-- Kano
-- Santa Cruz De Tenerife
-- Recife
-- Detroit
-- Changchun
-- Kunming
-- Changsha
-- Zhongshan
-- Shantou
-- Montreal
-- Jinan
-- Mesa
-- Jeddah
-- Bergen
-- Melbourne
-- Fortaleza
-- Stockholm
-- Boston
-- Sydney
-- Rheinbach
-- Fukuoka
-- Sumy
-- Galati
-- Vigo
-- Cartagena
-- Guadalajara
-- Abidjan
-- Barcelona
-- Pune
-- Atlanta
-- Münnerstadt
-- Toronto
-- Suzhou
-- Linz
-- Shenyang
-- Münsingen
-- Houston
-- Miami
-- Liège
-- Liege
-- Ipswich
-- Sevastopol
-- Nicosia
-- Poltava
-- Sarstedt
-- Mülheim-Kärlich
-- Chicago
-- Bad Sülze
-- Markkleeberg
-- Mügeln
-- Shenzhen
-- Gliwice
-- Tianjin
-- Kampala
-- Lublin
-- Sutton
-- Petropavlovsk-Kamchatsky
-- Trieste
-- Kiev
-- Leganes
-- Bologna
-- Roth
-- Kiew
-- Tunis
-- Groningen
-- Port Of Spain
-- Riedstadt
-- Bad Freienwalde
-- Regensburg
-- Bucharest
-- Bad König
-- Burgos
-- Amadora
-- Fürth
-- Mönchengladbach
-- Athens
-- Polch
-- Wiesbaden
-- Lisbon
-- Derby
-- Hiroshima
-- Koln
-- Köln
-- Koeln
-- Madrid
-- Bratislava
-- Muenchen
-- Munchen
-- Aken
-- München
-- Paris
-- Lieberose
-- Lille
-- Budapest
-- Birmingham
-- Dublin
-- Zaozhuang
-- Sarajevo
-- Sheffield
-- Pocking
-- Aichach
-- Liebenau
-- Saarbrucken
-- Saarbrücken
-- Saarbruecken
-- Zwickau
-- Innsbruck
-- Gissen
-- Gießen
-- Richmond
-- Wurzburg
-- Würzburg
-- Wuerzburg
-- Hannover
-- Hanover
-- Rizhao
-- Dammam
-- Mérida
-- Évora
-- Portalegre
-- Castelo Branco
-- Beja
-- Faro
-- Portimão
-- Cologne
-- Mexicali
-- Barquisimeto
-- Yongin
-- São Luís
-- Odessa
-- Xiangtan
-- Mendoza
-- Baoji
-- Flöha
-- Leun
-- Klagenfurt
-- Hildesheim
-- Tübingen
-- Ingolstadt
-- Konstanz
-- Pforzheim
-- Mannheim
-- Reutlingen
-- Darmstadt
-- Leverkusen
-- Ludwigsburg
-- Oberhausen
-- Essen
-- Aschaffenburg
-- Nuremburg
-- Göttingen
-- Braunschweig
-- Erlangen
-- Meerut
-- Anshan
-- Töging Am Inn
-- Kassel
-- Kaluga
-- Dierdorf
-- Kelkheim
-- Nice
-- Kirchberg An Der Jagst
-- Treuenbrietzen
-- Kitzscher
-- Kitzingen
-- Donauwörth
-- Trostberg
-- Van
-- Donzdorf
-- Kutahya
-- Kütahya
-- Stoke-On-Trent
-- Dreieich
-- Uhingen
-- Kamensk-Uralskiy
-- Kölleda
-- Drebkau
-- Uffenheim
-- Huambo
-- Königsbrück
-- Ulmen
-- Samsun
-- Kornwestheim
-- Ebersberg
-- Vechta
-- Split
-- Maltepe
-- Bad Buchau
-- Tai’an
-- Köthen
-- Korschenbroich
-- Eberswalde
-- Velbert
-- Saint-Etienne
-- Saint-Étienne
-- Providence
-- Konya
-- Krempe
-- Ehrenfriedersdorf
-- Veringenstadt
-- Walsall
-- Sanliurfa
-- Şanlıurfa
-- Urfa
-- Natal
-- Mandalay
-- Kota
-- Kusel
-- Kuppenheim
-- Ellrich
-- Voerde
-- Kemerovo
-- Ankara
-- Merkendorf
-- Glückstadt
-- Zell Im Wiesental
-- Zeil Am Main
-- Glashütte
-- Zehdenick
-- Gladenbach
-- Zarrentin Am Schaalsee
-- Zahna-Elster
-- Xanten
-- Wyk Auf Föhr
-- Wunstorf
-- Gersfeld
-- Wunsiedel
-- Gerolzhofen
-- Wülfrath
-- Gerolstein
-- Wriezen
-- Gernsheim
-- Wustrow
-- Wörth An Der Donau
-- Gernsbach
-- Wörth Am Rhein
-- Germersheim
-- Wörth Am Main
-- Germering
-- Wörrstadt
-- Gerlingen
-- Geringswalde
-- Wolmirstedt
-- Worms
-- Geretsried
-- Wolkenstein
-- Sëlva
-- Gerbstedt
-- Wolgast
-- Gerabronn
-- Wolfstein
-- Gera
-- Georgsmarienhütte
-- Oryol
-- Orel
-- Salzgitter
-- Bad Schwalbach
-- Leipzig
-- Reading
-- Alicante
-- London
-- São Tomé
-- Krefeld
-- Mössingen
-- Rio De Janeiro
-- Portsmouth
-- Chongqing
-- Mücheln
-- Lagos
-- Istanbul
-- Osaka-Kōbe
-- Funafuti
-- Maulbronn
-- Porto
-- São Paulo
-- Shanghai
-- Delhi
-- Zurich
-- Möckern
-- Newcastle Upon Tyne
-- San Sebastian
-- Bilbao
-- Almeria
-- Le Havre
-- Münstermaifeld
-- Bad Wörishofen
-- Schieder-Schwalenberg
-- Alcala De Henares
-- Münzenberg
-- Bad Wünnenberg
-- Schifferstadt
-- Ostrava
-- Murrhardt
-- Bad Wurzach
-- Schillingsfürst
-- Varna
-- Mostoles
-- Nabburg
-- Baesweiler
-- Schiltach
-- Vladimir
-- Sabadell
-- Dallas
-- Nagold
-- Baiersdorf
-- Schirgiswalde
-- Oradea
-- Surat
-- Philadelphia
-- Harbin
-- Naila
-- Balingen
-- Schkeuditz
-- Jerez De La Frontera
-- Ballenstedt
-- Nassau
-- Schkölen
-- Chernihiv
-- Kielce
-- Nastätten
-- Balve
-- Schleiden
-- Torun
-- Nauen
-- Bamberg
-- Omdurman
-- Nebra
-- Monterrey
-- Dalian
-- Xiamen
-- Zhengzhou
-- Neuenburg Am Rhein
-- Neuenbürg
-- Neuenhaus
-- Neuburg An Der Donau
-- Bebra
-- Schneverdingen
-- Tambov
-- Biysk
-- Neudenau
-- Beckum
-- Schömberg
-- Catania
-- Archway
-- Bedburg
-- Utrecht
-- Neuenstein
-- Medellín
-- Lübeck
-- Gelsenkirchen
-- Erfurt
-- Cottbus
-- Wuppertal
-- Paderborn
-- Osnabrück
-- Magdeburg
-- Nuremberg
-- Duisburg
-- Rostock
-- Kaiserslautern
-- Bochum
-- Bielefeld
-- Nürnberg
-- Bremen
-- Mainz
-- Freiburg
-- Dortmund
-- Macau
-- Duesseldorf
-- Geisa
-- Stuttgart
-- Hongkong
-- Witten
-- Düsseldorf
-- Dusseldorf
-- Bahamas
-- Wissen
-- Frankfurt
-- Munich
-- Geisingen
-- Wolfach
-- Wolfhagen
-- Luebeck
-- Greifswald
-- Ludwigshafen
-- Kempten
-- Freiberg
-- Stralsund
-- Landshut
-- Dresden
-- Fribourg
-- Wolfsburg
-- Salzburg
-- Augsburg
-- Nurnberg
-- Unterhaching
-- Remscheid
-- Deggendorf
-- Gladbach
-- Gummersbach
-- Neuss
-- Goettingen
-- Bad Orb
-- Moers
-- Nagpur
-- Glinde
-- Zell
-- Zell Am Harmersbach
-- Zella-Mehlis
-- Glücksburg
-- Zeitz
-- Glauchau
-- Bengaluru
-- Chennai
-- Seoul
-- Nagoya
-- Johannesburg
-- Hyderabad
-- Bad Schwartau
-- Salzkotten
-- Volzhskiy
-- Hagen
-- Mühlacker
-- Greven
-- Zwiesel
-- Zwingenberg
-- Zwönitz
-- Gransee
-- Grafing Bei München
-- Grafing
-- Greußen
-- Zwenkau
-- Gräfenberg
-- Grebenau
-- Gräfenhainichen
-- Gräfenthal
-- Grafenwöhr
-- Papenburg
-- Pappenheim
-- Grebenstein
-- Parchim
-- Greding
-- Großalmerode
-- Perleberg
-- Groß-Bieberau
-- Petershagen
-- Großbottwar
-- Pfaffenhofen An Der Ilm
-- Großbreitenbach
-- Pfarrkirchen
-- Großenehrich
-- Pfreimd
-- Großenhain
-- Grossenhain
-- Groß-Gerau
-- Pfullendorf
-- Großräschen
-- Pfullingen
-- Großröhrsdorf
-- Grünhain-Beierfeld
-- Pirna
-- Grünsfeld
-- Plattling
-- Grünstadt
-- Plau Am See
-- Guben
-- Plaue
-- Plauen
-- Gudensberg
-- Güglingen
-- Plettenberg
-- Pleystein
-- Gundelfingen An Der Donau
-- Hann. Münden
-- Hannoversch Münden
-- Haiger
-- Haigerloch
-- Hainichen
-- Haiterbach
-- Halberstadt
-- Haldensleben
-- Hallenberg
-- Hallstadt
-- Haltern Am See
-- Hamminkeln
-- Halver
-- Hameln
-- Hamelin
-- Hamm
-- Hammelburg
-- Hanau
-- Harburg
-- Hardegsen
-- Haren
-- Harsewinkel
-- Hartenstein
-- Hartha
-- Harzgerode
-- Haselünne
-- Haslach Im Kinzigtal
-- Haßfurt
-- Hattersheim Am Main
-- Hattingen
-- Hatzfeld
-- Hausach
-- Hauzenberg
-- Havelberg
-- Havelsee
-- Hayingen
-- Hechingen
-- Hecklingen
-- Heide
-- Heideck
-- Heidelberg
-- Heidenau
-- Heidenheim An Der Brenz
-- Heilbad Heiligenstadt
-- Heilbronn
-- Heiligenhafen
-- Heiligenhaus
-- Heilsbronn
-- Heimbach
-- Heimsheim
-- Heinsberg
-- Heitersheim
-- Heldburg
-- Helmbrechts
-- Helmstedt
-- Hemau
-- Hemer
-- Hemmingen
-- Hemmoor
-- Hemsbach
-- Hennef
-- Hennigsdorf
-- Heppenheim
-- Herbolzheim
-- Herborn
-- Herbrechtingen
-- Herbstein
-- Herdecke
-- Herdorf
-- Herford
-- Heringen
-- Hermeskeil
-- Hermsdorf
-- Herne
-- Herrenberg
-- Herrieden
-- Herrnhut
-- Hersbruck
-- Herten
-- Herzberg Am Harz
-- Herzberg
-- Herzogenaurach
-- Herzogenrath
-- Hessisch Lichtenau
-- Hessisch Oldendorf
-- Hettingen
-- Hettstedt
-- Heubach
-- Heusenstamm
-- Hilchenbach
-- Hildburghausen
-- Hilden
-- Hillesheim
-- Hilpoltstein
-- Hirschau
-- Hirschberg
-- Hirschhorn
-- Hitzacker
-- Hochheim Am Main
-- Höchstadt An Der Aisch
-- Höchstädt An Der Donau
-- Hockenheim
-- Hof
-- Hofgeismar
-- Hofheim Am Taunus
-- Hofheim In Unterfranken
-- Hohenberg An Der Eger
-- Hohenleuben
-- Hohenmölsen
-- Hohen Neuendorf
-- Hohenstein-Ernstthal
-- Holzminden
-- Suva
-- Helsinki
-- Horb Am Neckar
-- Hornbach
-- Libreville
-- Hornberg
-- Hörstel
-- Horstmar
-- Ichenhausen
-- Idar-Oberstein
-- Saint George's
-- Illertissen
-- Ilmenau
-- Ilsenburg
-- Ilshofen
-- Immenhausen
-- St. George’s
-- Ingelfingen
-- Accra
-- Tallinn
-- Banjul
-- Höxter
-- Tiflis
-- Tbilisi
-- Hoyerswerda
-- Hückelhoven
-- Hückeswagen
-- Amman
-- Hüfingen
-- Phnom Penh
-- Hünfeld
-- Yaoundé
-- Hungen
-- Ingelheim Am Rhein
-- Iphofen
-- Iserlohn
-- Isny Im Allgäu
-- Isselburg
-- Itzehoe
-- Aach
-- South Ossetia
-- Gersthofen
-- Aden
-- Gescher
-- Würselen
-- Geseke
-- Wurzbach
-- Gevelsberg
-- Geyer
-- Wurzen
-- Giengen An Der Brenz
-- Giengen
-- Giessen
-- Gifhorn
-- Ginsheim-Gustavsburg
-- Gladbeck
-- Mühlberg
-- Zerbst
-- Mühlheim Am Main
-- Mühlhausen
-- Gößnitz
-- Goslar
-- Zittau
-- Görlitz
-- Zirndorf
-- Zörbig
-- Gotha
-- Zossen
-- Zschopau
-- Grabow
-- Zülpich
-- Grafenau
-- Zweibrücken
-- Parsberg
-- Greiz
-- Pasewalk
-- Astana
-- Nairobi
-- Bischkek
-- Abensberg
-- Abenberg
-- Aalen
-- Ahrensburg
-- Ahlen
-- Ahaus
-- Adorf
-- Adenau
-- South Tarawa
-- Achim
-- Adelsheim
-- Achern
-- Doha
-- Jerusalem
-- Tokyo
-- Praia
-- Bissau
-- Georgetown
-- Port-Au-Prince
-- Kingston
-- Tegucigalpa
-- Rom
-- Reykjavík
-- Immenstadt Im Allgäu
-- Immenstadt
-- New Delhi
-- Bagdad
-- Conakry
-- Teheran
-- Husum
-- Hürth
-- Guatemala City
-- Ottawa
-- San José
-- San Salvador
-- Avarua
-- Yamoussoukro
-- Asmara
-- Quito
-- Djibouti City
-- Santo Domingo
-- Copenhagen
-- Roseau
-- Horn-Bad Meinberg
-- Homburg
-- Homberg
-- Ibbenbüren
-- Idstein
-- Hohnstein
-- Höhr-Grenzhausen
-- Hollfeld
-- Holzgerlingen
-- Beijing
-- Peking
-- Taipei
-- Porto-Novo
-- Belmopan
-- Sofia
-- Brasília
-- Santiago De Chile
-- Engels
-- Kelheim
-- Diepholz
-- Todtnau
-- Burgas
-- Kastellaun
-- Tharandt
-- Arnavutkoy
-- Arnavutköy
-- Kerpen
-- Dingelstädt
-- Traunstein
-- Cork
-- Vinnytsia
-- Chaozhou
-- Kirn
-- Dommitzsch
-- Troisdorf
-- Dun Laoghaire
-- Dún Laoghaire
-- Mahilyow
-- Mogilev
-- Klingenberg Am Main
-- Kleve
-- Dormagen
-- Twistringen
-- Brescia
-- Tirana
-- Mainburg
-- Backnang
-- Reinfeld
-- Mariupol
-- Oederan
-- Bruchköbel
-- Stadtilm
-- Bexley
-- Könnern
-- Eberbach
-- Uslar
-- Magnitogorsk
-- Freetown
-- Colombo
-- Brunswick
-- Maxhütte-Haidhof
-- Bad Friedrichshall
-- Rieneck
-- Fes
-- Fez
-- Jacksonville
-- Kroppenstedt
-- Einbeck
-- Viernheim
-- Karabaglar
-- Karabağlar
-- Bangkok
-- Roding
-- Las Palmas De Gran Canaria
-- Las Palmas
-- Sants-Montjuic
-- Sants-Montjuïc
-- Lampertheim
-- Elzach
-- Wächtersbach
-- Kharkiv
-- Leicester
-- Abu Dhabi
-- Miesbach
-- Bad Münstereifel
-- Rothenburg Ob Der Tauber
-- Coventry
-- Laubach
-- Erbendorf
-- Waldkraiburg
-- Moosburg An Der Isar
-- Moosburg
-- Bad Salzungen
-- Aberdeen
-- Lauingen
-- Erwitte
-- Wanfried
-- Perm
-- Genoa
-- Fehmarn
-- Palermo
-- Nottingham
-- Fellbach
-- Weikersheim
-- Bagcilar
-- Bağcılar
-- Krasnodar
-- Leutkirch Im Allgäu
-- Kisangani
-- Forchtenberg
-- Weismain
-- Lichtenau
-- Frankenberg an der Eder
-- Weilheim An Der Teck
-- Weißenfels
-- Frankfurt Am Main
-- Weißenstadt
-- Jamshedpur
-- Forst
-- Weißenberg
-- Lich
-- Frankenau
-- Lichtenfels
-- Frankenthal
-- Weißensee
-- Weissensee
-- Frauenstein
-- Weiterstadt
-- Freiberg Am Neckar
-- Welzow
-- Wemding
-- Freiburg Im Breisgau
-- Wendlingen
-- Freilassing
-- Werben
-- Freinsheim
-- Werdau
-- Neusalza-Spremberg
-- Bersenbrück
-- Schwabach
-- Nalchik
-- Neue Neustadt
-- Neusäß
-- Besigheim
-- Schwäbisch Gmünd
-- Stary Oskol
-- Betzdorf
-- Schwäbisch Hall
-- Hall
-- Ljubljana
-- Sosnowiec
-- Ürümqi
-- Wushi
-- Curitiba
-- Neustadt Am Kulm
-- Betzenstein
-- Schwabmünchen
-- Kremenchuk
-- Taiyuan
-- Sana'a
-- Niedernhall
-- Blomberg
-- Seeland
-- Altona
-- Århus
-- Aarhus
-- Nördlingen
-- Borgholzhausen
-- Sigmaringen
-- Angarsk
-- Nanchang
-- Nossen
-- Borna
-- Sindelfingen
-- Oberviechtach
-- Bredstedt
-- Spenge
-- Lubumbashi
-- Plymouth
-- Ochsenfurt
-- Bremervörde
-- Sprockhövel
-- Milton Keynes
-- Medan
-- Oppenheim
-- Burgdorf
-- Steinheim An Der Murr
-- Thiruvananthapuram
-- Trivandrum
-- Baotou
-- Oschersleben
-- Burladingen
-- Stolpen
-- Yangzhou
-- Otterndorf
-- Clingen
-- Suhl
-- Eindhoven
-- Constanta
-- Constanța
-- Jüterbog
-- Cuxhaven
-- Tauberbischofsheim
-- Vasylevsky Ostrov
-- Jülich
-- Crivitz
-- Tanna
-- Sisli
-- Şişli
-- Delmenhorst
-- Thannhausen
-- Detmold
-- Thum
-- Kirchhain
-- Döbern
-- Trier
-- Torreón
-- Kirtorf
-- Donaueschingen
-- Trossingen
-- Thalheim
-- Kolbermoor
-- Dransfeld
-- Uetersen
-- Santander
-- Königsberg In Bayern
-- Königsberg
-- Drensteinfurt
-- Ulm
-- Prato
-- Maputo
-- Arzberg
-- Rauenberg
-- Abuja
-- Lunzenau
-- Auerbach
-- Regis-Breitingen
-- Paramaribo
-- Meinerzhagen
-- Bad Honnef
-- Rodenberg
-- Vereeniging
-- Laatzen
-- Elsfleth
-- Vöhrenbach
-- Meßkirch
-- Messkirch
-- Bad Liebenwerda
-- Bydgoszcz
-- Langenburg
-- Ennepetal
-- Waldenburg
-- Esenler
-- Mölln
-- Bad Reichenhall
-- Runkel
-- Plovdiv
-- Severodvinsk
-- Laupheim
-- Eschborn
-- Wangen Im Allgäu
-- Üsküdar
-- Ueskuedar
-- Guilin
-- Lehesten
-- Ettlingen
-- Wasungen
-- Yaroslavl
-- Leutershausen
-- Forchheim
-- Weinstadt
-- Lauta
-- Eschershausen
-- Neunburg Vorm Wald
-- Bernburg
-- Schrobenhausen
-- Brasov
-- Brașov
-- Faisalabad
-- Neunkirchen
-- Bernkastel-Kues
-- Schrozberg
-- Komsomolsk-On-Amur
-- Aleppo
-- Neuötting
-- Neustadt
-- Billerbeck
-- Schwarzenbach An Der Saale
-- Sivas
-- Syktyvkar
-- Bischofsheim An Der Rhön
-- Schwarzenborn
-- Moenchengladbach
-- Neustadt In Sachsen
-- Bischofswerda
-- Busan
-- Schwarzenbach Am Wald
-- Neustadt Bei Coburg
-- Neustadt-Glewe
-- Bingen Am Rhein
-- Bingen
-- Schwentinental
-- Surabaya
-- Niederstotzingen
-- Boizenburg
-- Minneapolis-St. Paul
-- Twin Cities
-- Kropyvnytskyi
-- Nieheim
-- St. Petersburg
-- Denver
-- Aurora
-- Kumasi
-- Bonndorf Im Schwarzwald
-- Bonndorf
-- Puente De Vallecas
-- Seifhennersdorf
-- Montpellier
-- Brandenburg An Der Havel
-- Brandenburg
-- Sapporo
-- Rawalpindi
-- Changzhou
-- Coimbatore
-- Bandung
-- Oberharz Am Brocken
-- Rivne
-- Sonneberg
-- Brandis
-- Obermoschel
-- Oberndorf Am Neckar
-- Oberndorf
-- Indore
-- L'hospitalet De Llobregat
-- L'Hospitalet
-- Bremerhaven
-- Obernburg Am Main
-- Obernburg
-- Oderberg
-- Toluca De Lerdo
-- Toluca
-- Sterlitamak
-- Luoyang
-- Mbuji-Mayi
-- Steinau An Der Straße
-- Oppenau
-- Fuencarral-El Pardo
-- Steinbach-Hallenberg
-- Vykhino-Zhulebino
-- St. Ingbert
-- Sankt Ingbert
-- Marienthal
-- St. Georgen Im Schwarzwald
-- Sankt Georgen im Schwarzwald
-- Southend-On-Sea
-- Osterholz-Scharmbeck
-- Velikiy Novgorod
-- Bursa
-- Stößen
-- Bürstadt
-- Osterburg
-- Osterode Am Harz
-- Sulzbach
-- Ostheim Vor Der Rhön
-- Ostheim
-- Osthofen
-- Celle
-- Mecca
-- Östringen
-- Clausthal-Zellerfeld
-- Südliches Anhalt
-- Cochem
-- Otterberg
-- Antakya
-- Saransk
-- Port Harcourt
-- Jarmen
-- Coesfeld
-- Süßen
-- Johanngeorgenstadt
-- Creußen
-- Tangerhütte
-- Sulzbach-Rosenberg
-- Jena
-- Colditz
-- Sulzburg
-- Yinchuan
-- Rajkot
-- Madurai
-- Jiangmen
-- Kongmoon
-- Tabriz
-- Daejeon
-- Demmin
-- Freren
-- Werl
-- Freital
-- Werdohl
-- Freudenberg
-- Werlte
-- Freudenstadt
-- Wermelskirchen
-- Freyburg
-- Wernau
-- Freystadt
-- Werne
-- Friedrichstadt
-- Wesenberg
-- Friedrichsthal
-- Wesselburen
-- Friesack
-- Wesseling
-- Friesoythe
-- Westerburg
-- Fröndenberg
-- Fritzlar
-- Westerstede
-- Fürstenberg/Havel
-- Fürstenfeldbruck
-- Frohburg
-- Wettin-Löbejün
-- Furtwangen Im Schwarzwald
-- Furtwangen
-- Fulda
-- Wetzlar
-- Fürstenau
-- Widdern
-- Wiehl
-- Garching Bei München
-- Garching
-- Willich
-- Willebadessen
-- Windischeschenbach
-- Gebesee
-- Winnenden
-- Garz
-- Gardelegen
-- Wilsdruff
-- Garding
-- Wilster
-- Wismar
-- Gartz
-- Wilthen
-- Gau-Algesheim
-- Windsbach
-- Gedern
-- Winsen
-- Wittlich
-- Geislingen An Der Steige
-- Geislingen
-- Wittingen
-- Wittstock
-- Genthin
-- Wolfratshausen
-- Wolframs-Eschenbach
-- Gengenbach
-- Schleiz
-- Craiova
-- Rennes
-- Neckarbischofsheim
-- Zelenograd
-- Beelitz
-- Schönau Im Schwarzwald
-- Zeytinburnu
-- Northampton
-- Neuhaus Am Rennweg
-- Berching
-- Schönsee
-- Gebze
-- Großschirma
-- Pausa-Mühltroff
-- Grevenbroich
-- Pfungstadt
-- Pattensen
-- Charleroi
-- Valladolid
-- Sankt Goarshausen
-- Bad Sulza
-- Mülheim
-- Mülheim An Der Ruhr
-- Iași
-- Sankt Goar
-- Bad Staffelstein
-- Severny
-- Mühlheim An Der Donau
-- Tilburg
-- Sankt Augustin
-- Bad Sooden-Allendorf
-- Balakovo
-- Islington
-- Sangerhausen
-- Bad Soden-Salmünster
-- Passau
-- Armavir
-- Murmansk
-- Sandersdorf-Brehna
-- Bad Soden
-- Mühldorf Am Inn
-- Ziesar
-- Göppingen
-- Bila Tserkva
-- Kherson
-- Sandau
-- Bad Sobernheim
-- Zierenberg
-- Gommern
-- Dudley
-- Smolensk
-- Salzwedel
-- Bad Segeberg
-- Ziegenrück
-- Golseen
-- Golßen
-- Zeven
-- Goldkronach
-- Zeulenroda-Triebes
-- Goldberg
-- Goch
-- Gnoien
-- Delbrück
-- Birkenhead
-- Pamplona
-- Delitzsch
-- Karlstadt am Main
-- Karlstadt
-- Sunderland
-- Izmit
-- Tirschenreuth
-- Dettelbach
-- Kaufbeuren
-- Geneve
-- Übach-Palenberg
-- Dornburg
-- Klingenthal
-- Makeyevka
-- Makiivka
-- Pontoise
-- Überlingen
-- Dornhan
-- Klötze
-- Hengyang
-- Richtenberg
-- Baden-Baden
-- Marlow
-- Ivanovo
-- Yuzhno-Sakhalinsk
-- Vallendar
-- Ebersbach An Der Fils
-- Korbach
-- Rödental
-- Bad Hönningen
-- Meiningen
-- Mbabane
-- Muratpaşa
-- Muratpasa
-- Verl
-- Eibelstadt
-- Kreuztal
-- Rüdesheim Am Rhein
-- Bad Oldesloe
-- Mittweida
-- Yokohama
-- Waldbröl
-- Endingen
-- Endingen Am Kaiserstuhl
-- Langelsheim
-- Memphis
-- Rüsselsheim
-- Rüsselsheim Am Main
-- Bad Rodach
-- Ruhland
-- Bad Rappenau
-- Mersin
-- Waldershof
-- Ennigerloh
-- Längenfeld
-- Langenfeld
-- Mombasa
-- Sachsenheim
-- Bad Schussenried
-- Long Beach
-- Donetsk
-- Walldorf
-- Erkelenz
-- Lauda-Königshofen
-- Mysuru
-- Mysore
-- Speyer
-- Breisach
-- Oberwesel
-- Spalt
-- Braunsbedra
-- Oberriexingen
-- Spangenberg
-- Obertshausen
-- Merkezefendi
-- Messina
-- Steinbach
-- Burg
-- Olpe
-- Visakhapatnam
-- Burglengenfeld
-- Ornbau
-- Cherkasy
-- Brăila
-- Braila
-- Straubing
-- Buxtehude
-- Teublitz
-- Datteln
-- Kandel
-- Teuchern
-- Daun
-- Kandern
-- Treuen
-- Kirchberg in Tirol
-- Kirchberg
-- Swindon
-- Trochtelfingen
-- Dömitz
-- Kirchheim Unter Teck
-- Kaunas
-- Tuttlingen
-- Dorfen
-- Uelzen
-- Koblenz
-- Wandsbek
-- Riesa
-- Bad Gandersheim
-- Mayen
-- Basseterre
-- Toulouse
-- Turku
-- Velburg
-- Eckartsberga
-- Rodewisch
-- Bad Karlshafen
-- Meissen
-- Duschanbe
-- Leeds
-- Mansfield
-- Vetschau
-- Eichstätt
-- Kronberg
-- Kronberg Im Taunus
-- Port Elizabeth
-- Wiehe
-- Roßleben-Wiehe
-- Bad Lauterberg
-- Merzig
-- Vohburg
-- Elmshorn
-- Kyritz
-- Zlatoust
-- Florence
-- Rottweil
-- Bad Neustadt An Der Saale
-- Mittenwalde
-- Bangui
-- Belgrade
-- Waibstadt
-- Emmerich
-- Emmerich Am Rhein
-- Quetta
-- Barnaul
-- Bahçelievler
-- Bahcelievler
-- Wallenfels
-- Erkrath
-- Lauf An Der Pegnitz
-- Bogor
-- Çankaya
-- Cankaya
-- Wedel
-- Euskirchen
-- Lehrte
-- Khabarovsk
-- Volgograd
-- Walsrode
-- Laufen
-- Hai Phong
-- Ober-Ramstadt
-- Bräunlingen
-- Spaichingen
-- Manaus
-- Sontra
-- Braunlage
-- Obernkirchen
-- Kostroma
-- Shakhty
-- Sankt Blasien
-- St. Blasien
-- Büdelsdorf
-- Olbernhau
-- Taganrog
-- Banja Luka
-- Steinach
-- Oldenburg
-- Yoshkar-Ola
-- Babruysk
-- Bünde
-- Oldenburg In Holstein
-- Sulz
-- Sulz Am Neckar
-- Coburg
-- Overath
-- Vijayawada
-- Sulingen
-- Cloppenburg
-- Ottweiler
-- Tettnang
-- Dassow
-- Kamp-Lintfort
-- Tengen
-- Dargun
-- Kaltennordheim
-- Templin
-- Dannenberg
-- Kaltenkirchen
-- Thessaloniki
-- Vantaa
-- Trebbin
-- Dingolfing
-- Ketzin
-- Syzran
-- Trebsen
-- Dinkelsbühl
-- Kevelaer
-- Çorum
-- Corum
-- Uebigau-Wahrenbrück
-- Dornstetten
-- Victoria
-- Usingen
-- Ebeleben
-- Königs Wusterhausen
-- Yasenevo
-- Szczecin
-- Rinteln
-- Bad Griesbach
-- Meckenheim
-- Kingstown
-- Murcia
-- Siverek
-- Vellberg
-- Edenkoben
-- Krakow Am See
-- Ahvaz
-- Rosenheim
-- Bad Langensalza
-- Meppen
-- Skopje
-- Kyiv
-- Vlotho
-- Ellingen
-- Rötha
-- Bad Marienberg
-- Meuselwitz
-- Port Vila
-- Volkmarsen
-- Elterlein
-- Lahr
-- Izhevsk
-- Łódź
-- Lodz
-- Weener
-- Eutin
-- Leichlingen
-- Goyang
-- Odesa
-- Waltershausen
-- Erlenbach Am Main
-- Laufenburg
-- Wroclaw
-- Antalya
-- Badalona
-- Neumünster
-- Bernau Bei Berlin
-- Schriesheim
-- Nantes
-- Adiyaman
-- Bernsdorf
-- Schüttorf
-- Strasbourg
-- Grozny
-- Schwarzenbek
-- Ghent
-- Nanning
-- Ningbo
-- Bitburg
-- Schweich
-- Niddatal
-- Blankenhain
-- Yakutsk
-- Böblingen
-- Seesen
-- Blackpool
-- Niemegk
-- Sancaktepe
-- Norderstedt
-- Bopfingen
-- Seßlach
-- Northeim
-- Borken
-- Simbach Am Inn
-- Oberasbach
-- Boxberg
-- Sinzig
-- Balikesir
-- Oberkochen
-- Sömmerda
-- Sant Marti
-- Sant Martí
-- Carabanchel
-- Oberursel
-- Breckerfeld
-- Speicher
-- Oberwiesenthal
-- Spremberg
-- Brilon
-- Stadtbergen
-- Ochtrup
-- Breuberg
-- Stadtallendorf
-- Ploiesti
-- Ploiești
-- Olfen
-- Büren
-- Hamburg-Nord
-- Orlamünde
-- Burgkunstadt
-- Ortrand
-- Burg Stargard
-- Stolberg
-- Osterfeld
-- Butzbach
-- Lutsk
-- Strausberg
-- Norwich
-- Elazig
-- Elazığ
-- Stutensee
-- Esenyurt
-- Surgut
-- Jöhstadt
-- Creuzburg
-- Tangermünde
-- Dachau
-- Taunusstein
-- Kalbe
-- Dahn
-- Telgte
-- Marseille
-- Kamenz
-- Dassel
-- Teterow
-- Lyon
-- Kamen
-- Ticino
-- Katzenelnbogen
-- Dessau-Roßlau
-- Themar
-- Fuenlabrada
-- Kelsterbach
-- Dietfurt
-- Tönning
-- Dillingen An Der Donau
-- Dillingen
-- Traben-Trarbach
-- Zabrze
-- Dinklage
-- Treffurt
-- Bytom
-- Arkhangelsk
-- Dissen Am Teutoburger Wald
-- Dissen
-- Döbeln
-- Triberg Im Schwarzwald
-- Triberg
-- Atasehir
-- Ataşehir
-- Klütz
-- Knittlingen
-- Dorsten
-- Ueckermünde
-- Korolyov
-- Nizhny Tagil
-- Königsbrunn
-- Drolshagen
-- Ulrichstein
-- Yingkou
-- Ramallah
-- Ebermannstadt
-- Vacha
-- Harare
-- Marktsteft
-- Bad Elster
-- Rhinow
-- Bryansk
-- Tripoli
-- Lollar
-- Am Ettersberg
-- Külsheim
-- Eisfeld
-- Vilseck
-- Menden
-- Bad Kreuznach
-- Ronnenberg
-- Kahramanmaras
-- Kahramanmaraş
-- Geneva
-- Chandigarh
-- Laichingen
-- Eltmann
-- Vreden
-- Kalininsky
-- Meyenburg
-- Bad Mergentheim
-- Röthenbach An Der Pegnitz
-- Denpasar
-- Landstuhl
-- Emsdetten
-- Waischenfeld
-- Lipetsk
-- Nikosia
-- Mitterteich
-- Bad Oeynhausen
-- Rötz
-- Erkner
-- Walldürn
-- Brussels
-- Umraniye
-- Benxi
-- Lauffen Am Neckar
-- Erlensee
-- Waltrop
-- Lebus
-- Esslingen Am Neckar
-- Esslingen
-- Wasserburg Am Inn
-- Leinfelden-Echterdingen
-- Falkenstein/Harz
-- Wehr
-- Riga
-- Ulyanovsk
-- Krasnoyarsk
-- Weingarten
-- Lenzen
-- Fladungen
-- Weilheim In Oberbayern
-- Putian
-- Lichtenberg
-- Frankenberg
-- Weißenhorn
-- Yancheng
-- Lichtenstein
-- Weißenthurm
-- Franzburg
-- Weißwasser
-- Freising
-- Werder
-- Neuruppin
-- Bernstadt auf dem Eigen
-- Schwaan
-- Belfast
-- Radom
-- Neuwied
-- Bitterfeld-Wolfen
-- Schweinfurt
-- Nizhnekamsk
-- Bocholt
-- Sehnde
-- Kamianske
-- Khimki
-- Nordhausen
-- Boppard
-- Siegburg
-- Trabzon
-- Nürtingen
-- Bottrop
-- Sinsheim
-- Nordhorn
-- Borgentreich
-- Siegen
-- Oberlungwitz
-- Brand-Erbisdorf
-- Sondershausen
-- Ternopil
-- Gdynia
-- Oberzent
-- Springe
-- Elche
-- Petrozavodsk
-- Olching
-- Büdingen
-- Blagoveshchensk
-- Horlivka
-- Ohrdruf
-- Bückeburg
-- Staufenberg
-- Bari
-- Weifang
-- Portland
-- Ochsenhausen
-- Bretten
-- Stade
-- Brisbane
-- Naples
-- Osterwieck
-- Calbe
-- Strehla
-- Mokotow
-- Mokotów
-- Bradford
-- Castrop-Rauxel
-- Stühlingen
-- Swansea
-- Kaarst
-- Daaden
-- Taucha
-- Kaisersesch
-- Dahlen
-- Tecklenburg
-- Dahme
-- Tegernsee
-- Kelbra
-- Diemelstadt
-- Tittmoning
-- Kryvyi Rih
-- Krivoy Rog
-- Salem
-- Lengerich
-- Filderstadt
-- Weil Der Stadt
-- Togliatt
-- Tolyatti
-- Weißenburg In Bayern
-- Weissenburg in Bayern
-- Kollam
-- Wuhu
-- Srinagar
-- Milwaukee
-- Frechen
-- Welzheim
-- Quanzhou
-- Wegberg
-- Leimen
-- Wanzleben-Börde
-- Eschenbach
-- Eschenbach In Der Oberpfalz
-- Lauscha
-- Mianyang
-- Cracow
-- Kraków
-- Krakow
-- Wegeleben
-- Falkensee
-- Leinefelde-Worbis
-- Aligarh
-- Diyarbakir
-- Amsterdam
-- Weida
-- Falkenstein
-- Leipheim
-- Zagreb
-- Finsterwalde
-- Lennestadt
-- Weimar
-- Flensburg
-- Leonberg
-- Weinsberg
-- Florstadt
-- Leutenberg
-- Sulaimaniyya
-- Warburg
-- Vladivostok
-- Lauter-Bernsbach
-- Eschwege
-- Waren
-- Lauterbach
-- Eschweiler
-- Warendorf
-- Turin
-- Suqian
-- Lauterecken
-- Esens
-- Warin
-- Nanchong
-- Lauterstein
-- Espelkamp
-- Warstein
-- Saratov
-- Kayseri
-- Guwahati
-- Leer
-- Ettenheim
-- Wassertrüdingen
-- Zaporizhia
-- Zaporozhye
-- Zaporizhzhia
-- Flörsheim Am Main
-- Weinheim
-- Leuna
-- Puning
-- Neustadt Am Rübenberge
-- Neustadt An Der Donau
-- Beverungen
-- Schwaigern
-- Neustadt An Der Aisch
-- Bexbach
-- Schwalbach Am Taunus
-- Biberach An Der Riß
-- Biberach
-- Biberach an der Riss
-- Schwalmstadt
-- Hamamatsu
-- Neustadt An Der Orla
-- Biedenkopf
-- Schwandorf
-- Hefei
-- Neustadt An Der Waldnaab
-- Schwanebeck
-- Oakland
-- Tangshan
-- Nienburg
-- Bockenem
-- Czestochowa
-- Częstochowa
-- Novorossiysk
-- Neustadt An Der Weinstraße
-- Biesenthal
-- Schwarzatal
-- Fuzhou
-- Bietigheim-Bissingen
-- Shijiazhuang
-- Neustadt In Holstein
-- Birkenfeld
-- Schwarzenberg
-- Wenzhou
-- Neustrelitz
-- Schwarzheide
-- Luton
-- Dzerzhinsk
-- Ibadan
-- Neutraubling
-- Schwedt
-- Hamburg-Mitte
-- Nidda
-- Blankenburg
-- Schwelm
-- Bratsk
-- Nidderau
-- Blaubeuren
-- Schwerin
-- Nideggen
-- Blaustein
-- Schwerte
-- Kanpur
-- Niebüll
-- Bleckede
-- Schwetzingen
-- Maschhad
-- Niedenstein
-- Bleicherode
-- Sebnitz
-- Wolverhampton
-- Chernivtsi
-- Niederkassel
-- Blieskastel
-- Seehausen
-- Eimsbuettel
-- Eimsbüttel
-- Kosice
-- Košice
-- Nieder-Olm
-- Blumberg
-- Seelow
-- Niederstetten
-- Bobingen
-- Seelze
-- Lanzhou
-- Bodenwerder
-- Selbitz
-- Nierstein
-- Bogen
-- Seligenstadt
-- Incheon
-- Niesky
-- Böhlen
-- Selm
-- Nittenau
-- Selters
-- Nordenham
-- Sendenhorst
-- Nizhnevartovsk
-- Norderney
-- Bönnigheim
-- Senftenberg
-- Nortorf
-- Borkum
-- Simmern
-- Bornheim
-- Singen
-- Kozhikode
-- Brackenheim
-- Soest
-- Brake
-- Solingen
-- Oberhof
-- Brakel
-- Solms
-- Zibo
-- Oberkirch
-- Bramsche
-- Soltau
-- Thrissur
-- Braubach
-- Sonnewalde
-- Huizhou
-- Braunfels
-- Sonthofen
-- Oschatz
-- Burgwedel
-- Belgorod
-- Klaipėda
-- Klaipeda
-- Tornesch
-- Dillenburg
-- Kempen
-- Trendelburg
-- Dinslaken
-- Kierspe
-- Triptis
-- Dohna
-- Kirchheimbolanden
-- Königslutter
-- Königslutter Am Elm
-- Königstein Im Taunus
-- Königswinter
-- Königstein
-- Kishinev
-- Chisinau
-- Chișinău
-- Irkutsk
-- Quedlinburg
-- Almere
-- Almere Stad
-- Rodalben
-- Bad Homburg
-- Bad Homburg Vor Der Höhe
-- Meersburg
-- Juba
-- Cardiff
-- Isparta
-- Verden
-- Ehingen
-- Kremmen
-- Basaksehir
-- Viciebsk
-- Vitebsk
-- Ruhla
-- Bad Pyrmont
-- Möckmühl
-- Saarburg
-- Bad Saulgau
-- Mörfelden-Walldorf
-- Málaga
-- Malaga
-- Chelyabinsk
-- Waldmünchen
-- Erding
-- Laucha An Der Unstrut
-- Arnavutkoey
-- Saarlouis
-- Bad Schandau
-- Moringen
-- Poznań
-- Poznan
-- Waldsassen
-- Erftstadt
-- Lauchhammer
-- Sachsenhagen
-- Bad Schmiedeberg
-- Mosbach
-- Guangzhou
-- Göteborg
-- Gothenburg
-- Goeteborg
-- Dnipro
-- Waldshut-Tiengen
-- Lauchheim
-- Zhuzhou
-- Stockach
-- Burgstädt
-- Ortenberg
-- Sternberg
-- Adapazari
-- Burghausen
-- Rybinsk
-- Oranienburg
-- Burgau
-- Steinfurt
-- Olsberg
-- Huai’an
-- Gijón
-- Gijon
-- Stavenhagen
-- Buckow
-- Öhringen
-- Batikent
-- Stromberg
-- Calw
-- Ostfildern
-- Sultanbeyli
-- Prokopyevsk
-- Stendal
-- Bürgel
-- Oranienbaum
-- Oranienbaum-Wörlitz
-- Zhytomyr
-- Steinheim
-- Burgbernheim
-- Volzhsky
-- Teuschnitz
-- Deidesheim
-- Karben
-- Thale
-
-## synonym:languages
-- Ucraniano
-- Esloveno
-- Romeno
-- Português
-- Alemão
-- Valiriano
-- Dothraki
-- Valarin
-- Entish
-- Khuzdul
-- Rohirric
-- Westron
-- Adunaico
-- Sindarin
-- Telerin
-- Quenya
-- Suaíli Élfico
-- Susu
-- Sundanês
-- Árabe do Sudão
-- Espanhol
-- Sorani
-- Somali
-- Eslovaco
-- Cingalês
-- Siciliano
-- Sichuan
-- Shona
-- Xangai
-- Sérvio
-- Samoano
-- Russo
-- Quechua
-- Putian
-- Punjabi
-- Pulaar
-- Pothwari
-- Crioulo
-- Polonês
-- Inglês Pidgin
-- patois
-- pashto
-- papiamento
-- papago
-- pahari
-- oromo
-- norueguês
-- pidgin nigeriano
-- nepalês
-- napolitano
-- navajo
-- montenegrino
-- mongol
-- moldavo
-- mixteco
-- mirpuri
-- marshallês
-- marathi
-- mandinka
-- mandarim
-- maltês
-- malaio
-- Maced oniano
-- Maay
-- Luganda
-- Lituano
-- Lingala
-- Letão
-- Laosiano
-- Lakota
-- Quirguizistão
-- Kurmanji
-- Curdo
-- Krio
-- Kotokoli
-- Kosovan
-- Coreano
-- Kirundi
-- Kinyarwanda
-- Kikuyu
-- Cazaque
-- Caxemira
-- Karenni
-- Karen
-- Kanjobal
-- Javanês
-- Japonês
-- Jakartanese
-- Italiano
-- Inuktitut
-- Indonésio
-- Ilocano
-- Igbo
-- Islandês
-- Ibanag
-- Húngaro
-- Hmong
-- Hindi
-- Hebraico
-- Hausa
-- Hakka-chinês
-- Hakka
-- Crioulo haitiano
-- Gujarati
-- Grego
-- Gorani
-- Newark
-- Georgiano
-- Gaélico-Escocês
-- Gaélico-Irlandês
-- Gaélico
-- Gaddang
-- Fuzhou
-- Fulani
-- Fula
-- Fukienês
-- Francês
-- Flamengo
-- Finlandês
-- Farsi
-- Fante
-- Espanol
-- Estoniano
-- Holandês
-- Diula
-- Dinka
-- Dari
-- Dinamarquês
-- Checo
-- Croata
-- Chuukese
-- Chavacano
-- Chao-Chow
-- Chamorro
-- Caldeu
-- catalão
-- cantonês
-- cambojano
-- cakchiquel
-- birmanês
-- búlgaro
-- bravio
-- bósnio
-- berbere
-- bengali
-- bielorrusso
-- behdini
-- basco
-- bajuni
-- azeri
-- azerbaijano
-- assírio
-- ashante
-- árabe
-- amárico
-- albanês
-- africâner
-- acholi
-- inglês
-- Ioruba Yupik
-- Iídiche
-- Wolof
-- Galês
-- Visayan
-- Vietnamita
-- Uzbeque
-- Uigur
-- Urdu
-- Turco
-- Tshiluba
-- Trique
-- Toucouleur
-- Tonganês
-- Toishanese
-- Tigrínia
-- Tibetano
-- Tailandês
-- Telugu
-- Tâmil
-- Tadjique
-- Taiwan
-- Tagalo
-- Sylhetti
-- Sueco
+## lookup:pricelist
+lookup_tables/pricelist.txt
+
+## lookup:two
+lookup_tables/two.txt
+
+## lookup:four
+lookup_tables/four.txt
+
+## lookup:eight
+lookup_tables/eight.txt
+
+## lookup:six
+lookup_tables/six.txt
+
+## lookup:seven
+lookup_tables/seven.txt
+
+## lookup:three
+lookup_tables/three.txt
+
+## lookup:nine
+lookup_tables/nine.txt
+
+## lookup:ten
+lookup_tables/ten.txt
+
+## lookup:one
+lookup_tables/one.txt
+
+## lookup:five
+lookup_tables/five.txt
+
+## lookup:pet
+lookup_tables/pet.txt
+
+## lookup:address
+lookup_tables/address.txt
+
+## lookup:phone
+lookup_tables/phone.txt
+
+## lookup:e-mail
+lookup_tables/e-mail.txt
+
+## lookup:contact
+lookup_tables/contact.txt
+
+## lookup:1
+lookup_tables/1.txt
+
+## lookup:2
+lookup_tables/2.txt
+
+## lookup:game
+lookup_tables/game.txt
+
+## lookup:movie
+lookup_tables/movie.txt
+
+## lookup:music
+lookup_tables/music.txt
+
+## lookup:weather
+lookup_tables/weather.txt
+
+## lookup:lotr
+lookup_tables/lotr.txt
+
+## lookup:game
+lookup_tables/game.txt
+
+## lookup:joke
+lookup_tables/joke.txt
+
+## lookup:form of address
+lookup_tables/form of address.txt
+
+## lookup:Mr.
+lookup_tables/Mr..txt
+
+## lookup:Mrs.
+lookup_tables/Mrs..txt
+
+## lookup:anal
+lookup_tables/anal.txt
+
+## lookup:church
+lookup_tables/church.txt
+
+## lookup:no
+lookup_tables/no.txt
+
+## lookup:yes
+lookup_tables/yes.txt
+
+## lookup:video
+lookup_tables/video.txt
+
+## lookup:photo
+lookup_tables/photo.txt
+
+## lookup:datasheet
+lookup_tables/datasheet.txt
+
+## lookup:negative_emoticon
+lookup_tables/negative_emoticon.txt
+
+## lookup:positive_emoticon
+lookup_tables/positive_emoticon.txt
+
+## lookup:angry
+lookup_tables/angry.txt
+
+## lookup:racist
+lookup_tables/racist.txt
+
+## lookup:joke
+lookup_tables/joke.txt
+
+## lookup:music
+lookup_tables/music.txt
+
+## lookup:website
+lookup_tables/website.txt
+
+## lookup:photo
+lookup_tables/photo.txt
+
+## lookup:favorite
+lookup_tables/favorite.txt
+
+## lookup:summarize
+lookup_tables/summarize.txt
+
+## lookup:color
+lookup_tables/color.txt
+
+## lookup:have to
+lookup_tables/have to.txt
+
+## lookup:message
+lookup_tables/message.txt
+
+## lookup:pneumonia vaccine
+lookup_tables/pneumonia vaccine.txt
+
+## lookup:garlic
+lookup_tables/garlic.txt
+
+## lookup:antibiotics
+lookup_tables/antibiotics.txt
+
+## lookup:hand dryer
+lookup_tables/hand dryer.txt
+
+## lookup:thermal scanner
+lookup_tables/thermal scanner.txt
+
+## lookup:sesame oil
+lookup_tables/sesame oil.txt
+
+## lookup:uv lamp
+lookup_tables/uv lamp.txt
+
+## lookup:saline
+lookup_tables/saline.txt
+
+## lookup:racist
+lookup_tables/racist.txt
+
+## lookup:offense
+lookup_tables/offense.txt
+
+## lookup:movies
+lookup_tables/movies.txt
+
+## lookup:date
+lookup_tables/date.txt
+
+## lookup:time
+lookup_tables/time.txt
+
+## lookup:question
+lookup_tables/question.txt
+
+## lookup:EG
+lookup_tables/EG.txt
+
+## lookup:EH
+lookup_tables/EH.txt
+
+## lookup:ER
+lookup_tables/ER.txt
+
+## lookup:ES
+lookup_tables/ES.txt
+
+## lookup:ET
+lookup_tables/ET.txt
+
+## lookup:FI
+lookup_tables/FI.txt
+
+## lookup:FJ
+lookup_tables/FJ.txt
+
+## lookup:FK
+lookup_tables/FK.txt
+
+## lookup:FM
+lookup_tables/FM.txt
+
+## lookup:FO
+lookup_tables/FO.txt
+
+## lookup:FR
+lookup_tables/FR.txt
+
+## lookup:GA
+lookup_tables/GA.txt
+
+## lookup:GB
+lookup_tables/GB.txt
+
+## lookup:GD
+lookup_tables/GD.txt
+
+## lookup:GE
+lookup_tables/GE.txt
+
+## lookup:GF
+lookup_tables/GF.txt
+
+## lookup:GG
+lookup_tables/GG.txt
+
+## lookup:GH
+lookup_tables/GH.txt
+
+## lookup:GI
+lookup_tables/GI.txt
+
+## lookup:GL
+lookup_tables/GL.txt
+
+## lookup:GM
+lookup_tables/GM.txt
+
+## lookup:GN
+lookup_tables/GN.txt
+
+## lookup:GP
+lookup_tables/GP.txt
+
+## lookup:GQ
+lookup_tables/GQ.txt
+
+## lookup:GR
+lookup_tables/GR.txt
+
+## lookup:GS
+lookup_tables/GS.txt
+
+## lookup:GT
+lookup_tables/GT.txt
+
+## lookup:GU
+lookup_tables/GU.txt
+
+## lookup:GW
+lookup_tables/GW.txt
+
+## lookup:GY
+lookup_tables/GY.txt
+
+## lookup:HK
+lookup_tables/HK.txt
+
+## lookup:HM
+lookup_tables/HM.txt
+
+## lookup:HN
+lookup_tables/HN.txt
+
+## lookup:HR
+lookup_tables/HR.txt
+
+## lookup:HT
+lookup_tables/HT.txt
+
+## lookup:HU
+lookup_tables/HU.txt
+
+## lookup:ID
+lookup_tables/ID.txt
+
+## lookup:IE
+lookup_tables/IE.txt
+
+## lookup:IL
+lookup_tables/IL.txt
+
+## lookup:IM
+lookup_tables/IM.txt
+
+## lookup:IN
+lookup_tables/IN.txt
+
+## lookup:IO
+lookup_tables/IO.txt
+
+## lookup:IQ
+lookup_tables/IQ.txt
+
+## lookup:IR
+lookup_tables/IR.txt
+
+## lookup:IS
+lookup_tables/IS.txt
+
+## lookup:IT
+lookup_tables/IT.txt
+
+## lookup:JE
+lookup_tables/JE.txt
+
+## lookup:JM
+lookup_tables/JM.txt
+
+## lookup:JO
+lookup_tables/JO.txt
+
+## lookup:JP
+lookup_tables/JP.txt
+
+## lookup:KE
+lookup_tables/KE.txt
+
+## lookup:KG
+lookup_tables/KG.txt
+
+## lookup:KH
+lookup_tables/KH.txt
+
+## lookup:KI
+lookup_tables/KI.txt
+
+## lookup:KM
+lookup_tables/KM.txt
+
+## lookup:KN
+lookup_tables/KN.txt
+
+## lookup:KP
+lookup_tables/KP.txt
+
+## lookup:KR
+lookup_tables/KR.txt
+
+## lookup:KW
+lookup_tables/KW.txt
+
+## lookup:KY
+lookup_tables/KY.txt
+
+## lookup:KZ
+lookup_tables/KZ.txt
+
+## lookup:LA
+lookup_tables/LA.txt
+
+## lookup:LB
+lookup_tables/LB.txt
+
+## lookup:LC
+lookup_tables/LC.txt
+
+## lookup:LI
+lookup_tables/LI.txt
+
+## lookup:LK
+lookup_tables/LK.txt
+
+## lookup:LR
+lookup_tables/LR.txt
+
+## lookup:LS
+lookup_tables/LS.txt
+
+## lookup:LT
+lookup_tables/LT.txt
+
+## lookup:LU
+lookup_tables/LU.txt
+
+## lookup:LV
+lookup_tables/LV.txt
+
+## lookup:LY
+lookup_tables/LY.txt
+
+## lookup:MA
+lookup_tables/MA.txt
+
+## lookup:MC
+lookup_tables/MC.txt
+
+## lookup:MD
+lookup_tables/MD.txt
+
+## lookup:ME
+lookup_tables/ME.txt
+
+## lookup:MF
+lookup_tables/MF.txt
+
+## lookup:MG
+lookup_tables/MG.txt
+
+## lookup:MH
+lookup_tables/MH.txt
+
+## lookup:MK
+lookup_tables/MK.txt
+
+## lookup:ML
+lookup_tables/ML.txt
+
+## lookup:MM
+lookup_tables/MM.txt
+
+## lookup:MN
+lookup_tables/MN.txt
+
+## lookup:MO
+lookup_tables/MO.txt
+
+## lookup:MP
+lookup_tables/MP.txt
+
+## lookup:MQ
+lookup_tables/MQ.txt
+
+## lookup:MR
+lookup_tables/MR.txt
+
+## lookup:MS
+lookup_tables/MS.txt
+
+## lookup:MT
+lookup_tables/MT.txt
+
+## lookup:MU
+lookup_tables/MU.txt
+
+## lookup:MV
+lookup_tables/MV.txt
+
+## lookup:MW
+lookup_tables/MW.txt
+
+## lookup:MX
+lookup_tables/MX.txt
+
+## lookup:MY
+lookup_tables/MY.txt
+
+## lookup:MZ
+lookup_tables/MZ.txt
+
+## lookup:NA
+lookup_tables/NA.txt
+
+## lookup:NC
+lookup_tables/NC.txt
+
+## lookup:NE
+lookup_tables/NE.txt
+
+## lookup:NF
+lookup_tables/NF.txt
+
+## lookup:NG
+lookup_tables/NG.txt
+
+## lookup:NI
+lookup_tables/NI.txt
+
+## lookup:NL
+lookup_tables/NL.txt
+
+## lookup:NO
+lookup_tables/NO.txt
+
+## lookup:NP
+lookup_tables/NP.txt
+
+## lookup:NR
+lookup_tables/NR.txt
+
+## lookup:NU
+lookup_tables/NU.txt
+
+## lookup:NZ
+lookup_tables/NZ.txt
+
+## lookup:OM
+lookup_tables/OM.txt
+
+## lookup:PA
+lookup_tables/PA.txt
+
+## lookup:PE
+lookup_tables/PE.txt
+
+## lookup:PF
+lookup_tables/PF.txt
+
+## lookup:PG
+lookup_tables/PG.txt
+
+## lookup:PH
+lookup_tables/PH.txt
+
+## lookup:PK
+lookup_tables/PK.txt
+
+## lookup:PL
+lookup_tables/PL.txt
+
+## lookup:PM
+lookup_tables/PM.txt
+
+## lookup:PN
+lookup_tables/PN.txt
+
+## lookup:PR
+lookup_tables/PR.txt
+
+## lookup:PS
+lookup_tables/PS.txt
+
+## lookup:PT
+lookup_tables/PT.txt
+
+## lookup:PW
+lookup_tables/PW.txt
+
+## lookup:PY
+lookup_tables/PY.txt
+
+## lookup:QA
+lookup_tables/QA.txt
+
+## lookup:RE
+lookup_tables/RE.txt
+
+## lookup:RO
+lookup_tables/RO.txt
+
+## lookup:RS
+lookup_tables/RS.txt
+
+## lookup:RU
+lookup_tables/RU.txt
+
+## lookup:RW
+lookup_tables/RW.txt
+
+## lookup:SA
+lookup_tables/SA.txt
+
+## lookup:SB
+lookup_tables/SB.txt
+
+## lookup:SC
+lookup_tables/SC.txt
+
+## lookup:SD
+lookup_tables/SD.txt
+
+## lookup:SE
+lookup_tables/SE.txt
+
+## lookup:SG
+lookup_tables/SG.txt
+
+## lookup:SH
+lookup_tables/SH.txt
+
+## lookup:SI
+lookup_tables/SI.txt
+
+## lookup:SJ
+lookup_tables/SJ.txt
+
+## lookup:SK
+lookup_tables/SK.txt
+
+## lookup:SL
+lookup_tables/SL.txt
+
+## lookup:SM
+lookup_tables/SM.txt
+
+## lookup:SN
+lookup_tables/SN.txt
+
+## lookup:SO
+lookup_tables/SO.txt
+
+## lookup:SR
+lookup_tables/SR.txt
+
+## lookup:SS
+lookup_tables/SS.txt
+
+## lookup:ST
+lookup_tables/ST.txt
+
+## lookup:SV
+lookup_tables/SV.txt
+
+## lookup:SX
+lookup_tables/SX.txt
+
+## lookup:SY
+lookup_tables/SY.txt
+
+## lookup:AD
+lookup_tables/AD.txt
+
+## lookup:TC
+lookup_tables/TC.txt
+
+## lookup:TD
+lookup_tables/TD.txt
+
+## lookup:TF
+lookup_tables/TF.txt
+
+## lookup:TG
+lookup_tables/TG.txt
+
+## lookup:TH
+lookup_tables/TH.txt
+
+## lookup:TJ
+lookup_tables/TJ.txt
+
+## lookup:TK
+lookup_tables/TK.txt
+
+## lookup:TL
+lookup_tables/TL.txt
+
+## lookup:TM
+lookup_tables/TM.txt
+
+## lookup:TN
+lookup_tables/TN.txt
+
+## lookup:TO
+lookup_tables/TO.txt
+
+## lookup:TR
+lookup_tables/TR.txt
+
+## lookup:TT
+lookup_tables/TT.txt
+
+## lookup:TV
+lookup_tables/TV.txt
+
+## lookup:TW
+lookup_tables/TW.txt
+
+## lookup:TZ
+lookup_tables/TZ.txt
+
+## lookup:UA
+lookup_tables/UA.txt
+
+## lookup:UG
+lookup_tables/UG.txt
+
+## lookup:UM
+lookup_tables/UM.txt
+
+## lookup:US
+lookup_tables/US.txt
+
+## lookup:UY
+lookup_tables/UY.txt
+
+## lookup:UZ
+lookup_tables/UZ.txt
+
+## lookup:VA
+lookup_tables/VA.txt
+
+## lookup:VC
+lookup_tables/VC.txt
+
+## lookup:VE
+lookup_tables/VE.txt
+
+## lookup:VG
+lookup_tables/VG.txt
+
+## lookup:VI
+lookup_tables/VI.txt
+
+## lookup:VN
+lookup_tables/VN.txt
+
+## lookup:VU
+lookup_tables/VU.txt
+
+## lookup:WF
+lookup_tables/WF.txt
+
+## lookup:WS
+lookup_tables/WS.txt
+
+## lookup:YE
+lookup_tables/YE.txt
+
+## lookup:YT
+lookup_tables/YT.txt
+
+## lookup:ZA
+lookup_tables/ZA.txt
+
+## lookup:ZM
+lookup_tables/ZM.txt
+
+## lookup:ZW
+lookup_tables/ZW.txt
+
+## lookup:SZ
+lookup_tables/SZ.txt
+
+## lookup:AE
+lookup_tables/AE.txt
+
+## lookup:AF
+lookup_tables/AF.txt
+
+## lookup:AG
+lookup_tables/AG.txt
+
+## lookup:AI
+lookup_tables/AI.txt
+
+## lookup:AL
+lookup_tables/AL.txt
+
+## lookup:AM
+lookup_tables/AM.txt
+
+## lookup:AO
+lookup_tables/AO.txt
+
+## lookup:AQ
+lookup_tables/AQ.txt
+
+## lookup:AR
+lookup_tables/AR.txt
+
+## lookup:AS
+lookup_tables/AS.txt
+
+## lookup:AT
+lookup_tables/AT.txt
+
+## lookup:AU
+lookup_tables/AU.txt
+
+## lookup:AW
+lookup_tables/AW.txt
+
+## lookup:AX
+lookup_tables/AX.txt
+
+## lookup:AZ
+lookup_tables/AZ.txt
+
+## lookup:BA
+lookup_tables/BA.txt
+
+## lookup:BB
+lookup_tables/BB.txt
+
+## lookup:BD
+lookup_tables/BD.txt
+
+## lookup:BE
+lookup_tables/BE.txt
+
+## lookup:BF
+lookup_tables/BF.txt
+
+## lookup:BG
+lookup_tables/BG.txt
+
+## lookup:BH
+lookup_tables/BH.txt
+
+## lookup:BI
+lookup_tables/BI.txt
+
+## lookup:BJ
+lookup_tables/BJ.txt
+
+## lookup:BL
+lookup_tables/BL.txt
+
+## lookup:BM
+lookup_tables/BM.txt
+
+## lookup:BN
+lookup_tables/BN.txt
+
+## lookup:BO
+lookup_tables/BO.txt
+
+## lookup:BQ
+lookup_tables/BQ.txt
+
+## lookup:BR
+lookup_tables/BR.txt
+
+## lookup:BS
+lookup_tables/BS.txt
+
+## lookup:BT
+lookup_tables/BT.txt
+
+## lookup:BV
+lookup_tables/BV.txt
+
+## lookup:BW
+lookup_tables/BW.txt
+
+## lookup:BY
+lookup_tables/BY.txt
+
+## lookup:BZ
+lookup_tables/BZ.txt
+
+## lookup:CA
+lookup_tables/CA.txt
+
+## lookup:CC
+lookup_tables/CC.txt
+
+## lookup:CD
+lookup_tables/CD.txt
+
+## lookup:CF
+lookup_tables/CF.txt
+
+## lookup:CG
+lookup_tables/CG.txt
+
+## lookup:CH
+lookup_tables/CH.txt
+
+## lookup:CI
+lookup_tables/CI.txt
+
+## lookup:CK
+lookup_tables/CK.txt
+
+## lookup:CL
+lookup_tables/CL.txt
+
+## lookup:CM
+lookup_tables/CM.txt
+
+## lookup:CN
+lookup_tables/CN.txt
+
+## lookup:CO
+lookup_tables/CO.txt
+
+## lookup:CR
+lookup_tables/CR.txt
+
+## lookup:CU
+lookup_tables/CU.txt
+
+## lookup:CV
+lookup_tables/CV.txt
+
+## lookup:CW
+lookup_tables/CW.txt
+
+## lookup:CX
+lookup_tables/CX.txt
+
+## lookup:CY
+lookup_tables/CY.txt
+
+## lookup:CZ
+lookup_tables/CZ.txt
+
+## lookup:DE
+lookup_tables/DE.txt
+
+## lookup:DJ
+lookup_tables/DJ.txt
+
+## lookup:DK
+lookup_tables/DK.txt
+
+## lookup:DM
+lookup_tables/DM.txt
+
+## lookup:DO
+lookup_tables/DO.txt
+
+## lookup:DZ
+lookup_tables/DZ.txt
+
+## lookup:EC
+lookup_tables/EC.txt
+
+## lookup:EE
+lookup_tables/EE.txt
+
+## lookup:influenza
+lookup_tables/influenza.txt
+
+## lookup:prevention
+lookup_tables/prevention.txt
+
+## lookup:spread
+lookup_tables/spread.txt
+
+## lookup:COVID
+lookup_tables/COVID.txt
+
+## lookup:number
+lookup_tables/number.txt
+
+## lookup:teach
+lookup_tables/teach.txt
+
+## lookup:facebook
+lookup_tables/facebook.txt
+
+## lookup:linkedin
+lookup_tables/linkedin.txt
+
+## lookup:instagram
+lookup_tables/instagram.txt
+
+## lookup:social media
+lookup_tables/social media.txt
+
+## lookup:firstname
+lookup_tables/firstname.txt
+
+## lookup:surname
+lookup_tables/surname.txt
+
+## lookup:cancel
+lookup_tables/cancel.txt
+
+## lookup:sex
+lookup_tables/sex.txt
+
+## lookup:cough
+lookup_tables/cough.txt
+
+## lookup:runny_nose
+lookup_tables/runny_nose.txt
+
+## lookup:sore_throat
+lookup_tables/sore_throat.txt
+
+## lookup:breathing_difficulty
+lookup_tables/breathing_difficulty.txt
+
+## lookup:fever
+lookup_tables/fever.txt
+
+## lookup:you
+lookup_tables/you.txt
+
+## lookup:I
+lookup_tables/I.txt
+
+## lookup:country
+lookup_tables/country.txt
+
+## lookup:town
+lookup_tables/town.txt
+
+## lookup:languages
+lookup_tables/languages.txt
 

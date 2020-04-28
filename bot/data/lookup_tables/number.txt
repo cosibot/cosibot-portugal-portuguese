@@ -1,0 +1,4 @@
+quantidade
+número
+number
+quantity
