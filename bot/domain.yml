@@ -415,9 +415,11 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak></speak>
+            text: <speak>A última atualização indica que, em {country} existe um total {active_cases} casos ativos. 
+              {total_recovered} recuperaram e {total_deaths} não resistiram à COVID-19. </speak>
           - type: text
-            text: A última atualização indica que 
+            text: A última atualização indica que, em {country} existe um total {active_cases} casos ativos. 
+              {total_recovered} recuperaram e {total_deaths} não resistiram à COVID-19. 
   utter_pt_covid_situation_deaths:
     - custom:
         answers:
@@ -435,7 +437,7 @@ responses:
               {country} existe um valor total de {active_cases} infetados.</speak>
           - type: text
             text: Os últimos dados disponiveis indicam que neste momento em
-              {country} existe um valor total de {active_casesquan} infetados.
+              {country} existe um valor total de {active_cases} infetados.
   utter_pt_covid_situation_infected_critical:
     - custom:
         answers:
@@ -500,7 +502,6 @@ responses:
           - type: text
             text: A última atualização de dados indica que em {country} 
               foram realizados {total_tests} desde o início de recolha de dados.
-
   utter_:
     - custom:
         answers:

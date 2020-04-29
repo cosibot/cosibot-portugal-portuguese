@@ -1012,30 +1012,30 @@
 - Tu sabes fatos interessantes?
 
 ## intent:pt_cc_geography
-- A [Holanda](pt_country_code) tem montanhas?
+- A [Holanda](pt_country_code:NL) tem montanhas?
 - América é um continente?
-- Conheces [Itália](pt_country_code)?
+- Conheces [Itália](pt_country_code:IT)?
 - Conheces [Lisboa](pt_geography:town)?
-- Conta-me coisa sobre a [Itália](pt_country_code)
-- [Croácia](pt_country_code) é um bom sítio para visitar?
+- Conta-me coisa sobre a [Itália](pt_country_code:IT)
+- [Croácia](pt_country_code:HR) é um bom sítio para visitar?
 - Diz-me o número de continentes
-- [Escócia](pt_country_code) fica no Reino Unido?
-- Estás em [Macau](pt_country_code)?
+- [Escócia](pt_country_code:GB) fica no Reino Unido?
+- Estás em [Macau](pt_country_code:MO)?
 - Europa é um continente?
 - Há quantos continentes
-- Já estiveste em [Espanha](pt_country_code)?
+- Já estiveste em [Espanha](pt_country_code:ES)?
 - Madeira é uma ilha?
 - O mundo tem quantos continentes?
-- O que me consegues dizer sobre a [Alemanha](pt_country_code)?
+- O que me consegues dizer sobre a [Alemanha](pt_country_code:DE)?
 - O que me consegues dizer sobre a Europa?
-- O que me consegues dizer sobre a [Inglaterra](pt_country_code)?
-- O que sabes sobre a [Inglaterra](pt_country_code)?
+- O que me consegues dizer sobre a [Inglaterra](pt_country_code:GB)?
+- O que sabes sobre a [Inglaterra](pt_country_code:GB)?
 - O que sabes sobre geografia?
-- O que é Valência?
-- Onde fica a [Alemanha](pt_country_code)
+- O que é [Valência](pt_geography:town)?
+- Onde fica a [Alemanha](pt_country_code:DE)
 - Onde fica a América
-- Onde fica a [Inglaterra](pt_country_code)
-- Onde fica a [Itália](pt_country_code)
+- Onde fica a [Inglaterra](pt_country_code:GB)
+- Onde fica a [Itália](pt_country_code:IT)
 - Onde fica [Évora](pt_geography:town)
 - Onde ficam os Alpes?
 - Onde ficam os Himalaias?
@@ -1044,18 +1044,18 @@
 - Quantos países há no mundo?
 - Quantos países tem a Europa?
 - Quantos países tem o mundo?
-- Que montanhas há na [Alemanha](pt_country_code)?
-- Que rios há em [Portugal](pt_country_code)?
-- Que rios há nos [Estados Unidos da América](pt_country_code)?
+- Que montanhas há na [Alemanha](pt_country_code:DE)?
+- Que rios há em [Portugal](pt_country_code:PT)?
+- Que rios há nos [Estados Unidos da América](pt_country_code:US)?
 - Sabes alguma coisa de geografia?
 - Sabes alguma coisa sobre geografia?
-- Sabes onde fica a [França](pt_country_code)?
-- Sabes onde fica a [Itália](pt_country_code)?
+- Sabes onde fica a [França](pt_country_code:FR)?
+- Sabes onde fica a [Itália](pt_country_code:IT)?
 - Sabes onde ficam os Himalaias?
-- Tens uma estrada para a [Bélgica](pt_country_code)?
-- conta-me coisa sobre madrid
-- conta-me coisa sobre o [Nepal](pt_country_code)
-- onde fica a [Zimbabué](pt_country_code)
+- Tens uma estrada para a [Bélgica](pt_country_code:BE)?
+- conta-me coisa sobre [madrid](pt_geography:town)
+- conta-me coisa sobre o [Nepal](pt_country_code:NP)
+- onde fica a [Zimbabué](pt_country_code:ZW)
 
 ## intent:pt_cc_highest_building
 - Edifício mais alto na terra
@@ -2928,7 +2928,7 @@
 - Diga-me os números reais.
 - Em que países é que se detetaram pessoas infetadas?
 - Estatísticas atualizadas do [coronavirus](pt_virus:COVID)
-- Gostaria de saber se há casos em [Évora](pt_geography:town)
+- Gostaria de saber se há casos em [Inglaterra](pt_country_code:GB)
 - Mortos
 - Número de casos
 - Número de casos confirmados
@@ -2969,13 +2969,13 @@
 - Situação atualizada do [coronavírus](pt_virus:COVID)
 - Statistics.
 - casos
-- de corrige no Alentejo
+- de [corrige](pt_virus:COVID) no Alentejo
 - existem números
 - falar sobre os números
 - morte na [alemanha](pt_country_code:DE)
 - numero de ifetados [portugal](pt_country_code:PT)
 - numeros para [portugal](pt_country_code:PT) hoje
-- número de infetados em [lisboa](pt_geography:town)
+- número de infetados em [Grécia](pt_country_code:GR)
 - o que é a contagem de mortes?
 - quais são os números e o galgo hoje
 - qual o numero de casos confirmados em [portugal](pt_country_code:PT)?
@@ -2991,23 +2991,23 @@
 - relação [covid](pt_virus:COVID) no mundo
 - situação do [covid](pt_virus:COVID) no mundo
 - situação mundial
-- [covid](pt_virus:COVID) em [Bermudas Bélgica](pt_geography:town)
-- [COVID-19](pt_virus:COVID) em [Košice](pt_geography:town)
-- Como está a situação em [Langenfeld](pt_geography:town)?
-- Coronavirus em [Praia](pt_geography:town)
-- Estatísticas actualizadas em [Cingapura](pt_geography:town)
-- Informações [Swansea](pt_geography:town)
-- Informações actualizadas [Darmstadt](pt_geography:town)
-- Informações sobre [Prato](pt_geography:town)
-- Notícias [Gladbach](pt_geography:town)
-- Notícias atuais [Baltimore](pt_geography:town)
-- Notícias de [Ilhas Falkland](pt_geography:town)
+- [covid](pt_virus:COVID) em [Bélgica](pt_country_code:BE)
+- [COVID-19](pt_virus:COVID) em [Itália](pt_country_code:IT)
+- Como está a situação em [Ucrânia](pt_country_code:UA)?
+- Coronavirus em [Finlândia](pt_country_code:FI)
+- Estatísticas actualizadas em [Singapura](pt_country_code:SG)
+- Informações [França](pt_country_code:FR)
+- Informações actualizadas [Dinamarca](pt_country_code:DK)
+- Informações sobre [Brasil](pt_country_code:BR)
+- Notícias [Argentina](pt_country_code:AR)
+- Notícias atuais [Venezuela](pt_country_code:VE)
+- Notícias de [Ilhas Falkland](pt_country_code:FK)
 - Notícias sobre o [COVID-19](pt_virus:COVID)
-- [novo coronavírus](pt_virus:COVID) em [Nordhorn](pt_geography:town)
-- Situação [Nashik](pt_geography:town)
-- Situação actual em [Überlingen](pt_geography:town)
-- Situação actualizada em [Yichang](pt_geography:town)
-- Situação em [Armavir](pt_geography:town)
+- [novo coronavírus](pt_virus:COVID) em [Noruega](pt_country_code:NO)
+- Situação [Suécia](pt_country_code:SE)
+- Situação actual em [Suiça](pt_country_code:CH)
+- Situação actualizada em [Polónia](pt_country_code:PL)
+- Situação em [Russia](pt_country_code:RU)
 
 ## intent:pt_covid_situation_deaths
 - [República Federal da Alemã](pt_country_code:DE) mortes.
@@ -6402,7 +6402,7 @@
 - lmfao
 - muff
 - nigger
-- nigga
+<!-- - nigga -->
 - omg
 - penis
 - piss
@@ -7448,7 +7448,7 @@
 - Island of Spice
 - Ilha das Especiarias
 - La Grenade
-- Granada
+<!-- - Granada -->
 - Gwenad
 - Grenada
 
@@ -7532,6 +7532,7 @@
 - República Helênica
 - Elláda
 - Grécia
+- Grecia
 - Ellinikí Dimokratía
 - Hellas
 - Hellenic Republic
@@ -7982,7 +7983,8 @@
 ## synonym:MF
 - São Martim
 - São Martinho parte francesa
-- Sint Maarten
+- Saint Martin
+- Sint Martin
 - Saint-Martin
 - Saint Martin (French part)
 
@@ -8580,7 +8582,7 @@
 
 ## synonym:SV
 - República do Salvador
-- Salvador
+<!-- - Salvador -->
 - República de El Salvador
 - Republic of El Salvador
 - El Salvador
@@ -9193,7 +9195,7 @@
 - Comunidade das Bahamas
 - Baamas
 - Commonwealth of The Bahamas
-- Bahamas
+- Bahaamas
 
 ## synonym:BT
 - Reino do Butão
@@ -9547,6 +9549,7 @@
 - SARSCoVd
 - COVIDd
 - COVID-19d
+- corrige
 
 ## synonym:number
 - quantidade
@@ -10015,7 +10018,7 @@
 - Gabão
 - Gâmbia
 -->
-## synonym:town
+<!-- ## synonym:town
 - Bad Lauchstädt
 - Rosenthal
 - Tiruchirappalli
@@ -10733,7 +10736,7 @@
 - Mainz
 - Freiburg
 - Dortmund
-<!-- - Macau -->
+- Macau 
 - Duesseldorf
 - Geisa
 - Stuttgart
@@ -12399,9 +12402,9 @@
 - Teuschnitz
 - Deidesheim
 - Karben
-- Thale 
+- Thale  -->
 
-## synonym:languages
+<!-- ## synonym:languages
 - Ucraniano
 - Esloveno
 - Romeno
@@ -12514,7 +12517,7 @@
 - Gaélico-Irlandês
 - Gaélico
 - Gaddang
-- Fuzhou
+- Fuzhounese
 - Fulani
 - Fula
 - Fukienês
@@ -12586,4 +12589,4 @@
 - Tagalo
 - Sylhetti
 - Sueco
-
+ -->

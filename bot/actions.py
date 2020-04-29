@@ -50,15 +50,19 @@ class ActionSearchStats(Action):
         
         country_code = next(tracker.get_latest_entity_values("pt_country_code"), None)
         print("country code é {}".format(country_code))
-        print(tracker.latest_message['text'])
+        entity = next((e for e in tracker.latest_message["entities"] if
+                                e['entity'] == 'pt_country_code'), None)
+        print(entity)
 
-        dispatcher.utter_message("A procurar estatísticas sobre {}".format(country_code))
+        input_country = tracker.latest_message['text'][entity['start']:entity['end']]
+        # print(input_country)
+        # dispatcher.utter_message("A procurar estatísticas sobre {}".format(country_code))
         # date = tracker.get_slot("date")
         decsis_api = DecsisAPI()
         stats = decsis_api.search(country_code)
         # dispatcher.utter_message("Estatísticas COVID-19 em {} (até {}): \n - Novos casos: {}".format(stats['country'], date.today().strftime("%d-%m-%Y"), stats['new_cases']))
 
-        return [SlotSet('country', stats.get('country', None)), SlotSet('active_cases', stats.get('active_cases', None)), 
+        return [SlotSet('country', input_country), SlotSet('active_cases', stats.get('active_cases', None)), 
                 SlotSet('new_cases', stats.get('new_cases', None)), SlotSet('total_cases', stats.get('total_cases', None)),
                 SlotSet('total_recovered', stats.get('total_recovered', None)), SlotSet('total_deaths', stats.get('total_deaths', None)),
                 SlotSet('total_tests', stats.get('total_tests', None)), SlotSet('new_deaths', stats.get('new_deaths', None)),
