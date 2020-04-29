@@ -27,6 +27,8 @@ slots:
 
 entities:
   - pt_country_code
+  - pt_geography 
+  - pt_virus
 
 actions:
   - action_search_stats
@@ -1266,13 +1268,13 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Porque é que nunca se vêm elefantes escondidos nas árvores? Porque
+            ssml: <speak>Porque é que nunca se veem elefantes escondidos nas árvores? Porque
               eles são muito bons nisso.</speak>
           - type: ssml
             ssml: <speak>O que é vermelho e se mexe para cima e para baixo? Um tomate num
               elevador.</speak>
           - type: text
-            text: Porque é que nunca se vêm elefantes escondidos nas árvores? Porque eles
+            text: Porque é que nunca se veem elefantes escondidos nas árvores? Porque eles
               são muito bons nisso.
           - type: text
             text: O que é vermelho e se mexe para cima e para baixo? Um tomate num elevador.

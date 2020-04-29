@@ -50,6 +50,8 @@ class ActionSearchStats(Action):
         
         country_code = next(tracker.get_latest_entity_values("pt_country_code"), None)
         print("country code é {}".format(country_code))
+        print(tracker.latest_message['text'])
+
         dispatcher.utter_message("A procurar estatísticas sobre {}".format(country_code))
         # date = tracker.get_slot("date")
         decsis_api = DecsisAPI()

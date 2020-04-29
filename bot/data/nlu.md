@@ -351,12 +351,12 @@
 - Em que línguas és capaz de falar?
 - Em que línguas és fluente?
 - Estás a aprender línguas?
-- Falas Português?
-- Falas alemão?
-- Falas em inglês?
-- Falas espanhol?
-- Falas francês?
-- Falas inglês?
+- Falas [Português](language)?
+- Falas [alemão](language)?
+- Falas em [inglês](language)?
+- Falas [espanhol](language)?
+- Falas [francês](language)?
+- Falas [inglês](language)?
 - Gostas de idiomas?
 - Outra língua.
 - Outro idioma.
@@ -375,7 +375,7 @@
 - Que idiomas és capaz de falar?
 - Que línguas falas?
 - Sobre idiomas.
-- és capaz de me responder em alemão?
+- és capaz de me responder em [alemão](language)?
 
 ## intent:pt_bot_movies
 - Aprecias algum filme?
@@ -1012,50 +1012,50 @@
 - Tu sabes fatos interessantes?
 
 ## intent:pt_cc_geography
-- A Holanda tem montanhas?
+- A [Holanda](pt_country_code) tem montanhas?
 - América é um continente?
-- Conheces Itália?
-- Conheces Lisboa?
-- Conta-me coisa sobre a Itália
-- Croácia é um bom sítio para visitar?
+- Conheces [Itália](pt_country_code)?
+- Conheces [Lisboa](pt_geography:town)?
+- Conta-me coisa sobre a [Itália](pt_country_code)
+- [Croácia](pt_country_code) é um bom sítio para visitar?
 - Diz-me o número de continentes
-- Escócia fica no Reino Unido?
-- Estás em Macau?
+- [Escócia](pt_country_code) fica no Reino Unido?
+- Estás em [Macau](pt_country_code)?
 - Europa é um continente?
 - Há quantos continentes
-- Já estiveste em Espanha?
+- Já estiveste em [Espanha](pt_country_code)?
 - Madeira é uma ilha?
 - O mundo tem quantos continentes?
-- O que me consegues dizer sobre a Alemanha?
+- O que me consegues dizer sobre a [Alemanha](pt_country_code)?
 - O que me consegues dizer sobre a Europa?
-- O que me consegues dizer sobre a Inglaterra?
-- O que sabes sobre a Inglaterra?
+- O que me consegues dizer sobre a [Inglaterra](pt_country_code)?
+- O que sabes sobre a [Inglaterra](pt_country_code)?
 - O que sabes sobre geografia?
 - O que é Valência?
-- Onde fica a Alemanha
+- Onde fica a [Alemanha](pt_country_code)
 - Onde fica a América
-- Onde fica a Inglaterra
-- Onde fica a Itália
-- Onde fica Évora
+- Onde fica a [Inglaterra](pt_country_code)
+- Onde fica a [Itália](pt_country_code)
+- Onde fica [Évora](pt_geography:town)
 - Onde ficam os Alpes?
 - Onde ficam os Himalaias?
 - Onde são os Himalaias?
-- Onde é Braga?
+- Onde é [Braga](pt_geography:town)?
 - Quantos países há no mundo?
 - Quantos países tem a Europa?
 - Quantos países tem o mundo?
-- Que montanhas há na Alemanha?
-- Que rios há em Portugal?
-- Que rios há nos Estados Unidos da América?
+- Que montanhas há na [Alemanha](pt_country_code)?
+- Que rios há em [Portugal](pt_country_code)?
+- Que rios há nos [Estados Unidos da América](pt_country_code)?
 - Sabes alguma coisa de geografia?
 - Sabes alguma coisa sobre geografia?
-- Sabes onde fica a França?
-- Sabes onde fica a Itália?
+- Sabes onde fica a [França](pt_country_code)?
+- Sabes onde fica a [Itália](pt_country_code)?
 - Sabes onde ficam os Himalaias?
-- Tens uma estrada para a Bélgica?
+- Tens uma estrada para a [Bélgica](pt_country_code)?
 - conta-me coisa sobre madrid
-- conta-me coisa sobre o Nepal
-- onde fica a Zimbabué
+- conta-me coisa sobre o [Nepal](pt_country_code)
+- onde fica a [Zimbabué](pt_country_code)
 
 ## intent:pt_cc_highest_building
 - Edifício mais alto na terra
@@ -1583,7 +1583,7 @@
 - Porque é que Deus não cura todos?
 - Porque é que Deus não se mostra?
 - Porque é que Deus odeia o pecado?
-- Porque é que Deus permite a doença?
+- Porque é que Deus permite a [doença](pt_virus:COVID)?
 - Porque é que Deus é tão violento no antigo testamento?
 - Porque é que acreditas em algo que não podes ver?
 - Porque é que coisas más acontecem a coisas boas?
@@ -2020,73 +2020,73 @@
 - És tão sábio
 
 ## intent:pt_coronavirus_info
-- About coronavirus
-- About coronaviruses
-- I don’t know what are coronaviruses
-- I don’t know what is a coronavirus
-- I don’t know what is coronavirus
-- Info on coronavirus
-- Info on coronaviruses
-- O que são coronavirus?
-- O que são os coronavirus?
-- O que é o vírus?
-- O que é p coronavirus
-- O que é um coronavirus?
-- Que mais sabes sobre o coronavírus?
-- Que sabes sobre o Coronavírus?
-- Tell me more about coronavirus
-- Tell me more about coronaviruses
-- Tell me what are coronaviruses
-- Tell me what is a coronavirus
-- Tell me what is coronavirus
-- What are coronaviruses
-- What is a coronavirus
-- coronavirus
-- coronavirus info
-- coronavirus information
-- coronaviruses
-- coronaviruses info
-- coronaviruses information
-- info about coronavirus
-- info about coronaviruses
-- information about coronavirus
-- information about coronaviruses
-- information on coronavirus
-- information on coronaviruses
-- o que é o coronavirus?
-- que é o coronavirus
-- virus
-- what about coronavirus
-- what about coronaviruses
-- what is coronavirus
+- About [coronavirus](pt_virus:COVID)
+- About [coronaviruses](pt_virus:COVID)
+- I don’t know what are [coronaviruses](pt_virus:COVID)
+- I don’t know what is a [coronavirus](pt_virus:COVID)
+- I don’t know what is [coronavirus](pt_virus:COVID)
+- Info on [coronavirus](pt_virus:COVID)
+- Info on [coronaviruses](pt_virus:COVID)
+- O que são [coronavirus](pt_virus:COVID)?
+- O que são os [coronavirus](pt_virus:COVID)?
+- O que é o [vírus](pt_virus:COVID)?
+- O que é p [coronavirus](pt_virus:COVID)
+- O que é um [coronavirus](pt_virus:COVID)?
+- Que mais sabes sobre o [coronavírus](pt_virus:COVID)?
+- Que sabes sobre o [coronavírus](pt_virus:COVID)?
+- Tell me more about [coronavirus](pt_virus:COVID)
+- Tell me more about [coronaviruses](pt_virus:COVID)
+- Tell me what are [coronaviruses](pt_virus:COVID)
+- Tell me what is a [coronavirus](pt_virus:COVID)
+- Tell me what is [coronavirus](pt_virus:COVID)
+- What are [coronaviruses](pt_virus:COVID)
+- What is a [coronavirus](pt_virus:COVID)
+- [coronavirus](pt_virus:COVID)
+- [coronavirus](pt_virus:COVID) info
+- [coronavirus](pt_virus:COVID) information
+- [coronaviruses](pt_virus:COVID)
+- [coronaviruses](pt_virus:COVID) info
+- [coronaviruses](pt_virus:COVID) information
+- info about [coronavirus](pt_virus:COVID)
+- info about [coronaviruses](pt_virus:COVID)
+- information about [coronavirus](pt_virus:COVID)
+- information about [coronaviruses](pt_virus:COVID)
+- information on [coronavirus](pt_virus:COVID)
+- information on [coronaviruses](pt_virus:COVID)
+- o que é o [coronavirus](pt_virus:COVID)?
+- que é o [coronavirus](pt_virus:COVID)
+- [virus](pt_virus:COVID)
+- what about [coronavirus](pt_virus:COVID)
+- what about [coronaviruses](pt_virus:COVID)
+- what is [coronavirus](pt_virus:COVID)
 
 ## intent:pt_covid_aftereffects_immunity
-- As pessoas que já se curaram do covid podem vir a te lo novamente?
+- As pessoas que já se curaram do [covid](pt_virus:COVID) podem vir a te lo novamente?
 - Depois de recuperar as pessoas ficam imunes?
-- Depois de recuperar do coronavirus as pessoas ficam imunes?
-- Depois de ter sido infectado fico imune ao vírus?
+- Depois de recuperar do [coronavirus](pt_virus:COVID) as pessoas ficam imunes?
+- Depois de ter sido infectado fico imune ao [vírus](pt_virus:COVID)?
 - Imunidade
 - Os doentes tratados ficam imunizados?
 - Os doentes tratados podem ser novamente infetados?
-- Uma pessoa infectada com coronavirus fica imune?
+- Uma pessoa infectada com [coronavirus](pt_virus:COVID) fica imune?
 - Uma pessoa infectada fica imune?
-- depois de ser infectado estou imune o vírus?
-- depois de ser infetado estou imune à doença?
+- depois de ser infectado estou imune o [vírus](pt_virus:COVID)?
+- depois de ser infetado estou imune à [doença](pt_virus:COVID)?
 
 ## intent:pt_covid_alike
-- Já houve algum surto com Coronavírus em anos anteriores?
-- Já houve algum surto como o COVID em anos anteriores?
+- Já houve algum surto com [coronavírus](pt_virus:COVID) em anos anteriores?
+- Já houve algum surto como o [covid](pt_virus:COVID) em anos anteriores?
 - Surtos semelhantes a esta pandemia
-- Surtos semelhantes ao coronavirus
-- Surtos semelhantes ao covid
+- Surtos semelhantes ao [coronavirus](pt_virus:COVID)
+- Surtos semelhantes ao [covid](pt_virus:COVID)
 
 ## intent:pt_covid_babys_children
 - As crianças podem infectar as pessoas?
-- As crianças podem transmitir a doença?
-- As crianças podem transmitir a infeção e doença por COVID-19?
-- As crianças transmitem a doença?
-- Os bebés podem transmitir a doença?
-- Os bebés transmitem a doença?
+- As crianças podem transmitir a [doença](pt_virus:COVID)?
+- As crianças podem transmitir a infeção e [doença](pt_virus:COVID) por [COVID-19](pt_virus:COVID)?
+- As crianças transmitem a [doença](pt_virus:COVID)?
+- Os bebés podem transmitir a [doença](pt_virus:COVID)?
+- Os bebés transmitem a [doença](pt_virus:COVID)?
 
 ## intent:pt_covid_close_contact
 - Contacto próximo
@@ -2104,7 +2104,7 @@
 - what is cosibot?
 
 ## intent:pt_covid_crisis_howlong
-- Acreditas que o vírus irá estagnar?
+- Acreditas que o [vírus](pt_virus:COVID) irá estagnar?
 - Quando é que esta crise vai a acabar?
 - Quando é que esta epidemia vai a acabar?
 - Quando é que isto vai a acabar?
@@ -2115,64 +2115,64 @@
 
 
 ## intent:pt_covid_duration
-- Depois dos primeiros sintomas, quanto tempo pode durar a doença?
+- Depois dos primeiros sintomas, quanto tempo pode durar a [doença](pt_virus:COVID)?
 - POsso ficar doente por quanto tempo?
 - Por quanto tempo posso ficar doente?
-- Quanto tempo pode durar a doença?
+- Quanto tempo pode durar a [doença](pt_virus:COVID)?
 - quanto tempo fico doente
 
 ## intent:pt_covid_incubation
-- 2019nCov incubation period.
+- [2019nCov](pt_virus:COVID) incubation period.
 - Diz-me período de incubação.
 - Duração estimada para o período de incubação?
 - Estimar o período de incubação do tempo.
-- Incubação do vírus?
+- Incubação do [vírus](pt_virus:COVID)?
 - Informações sobre o período de incubação.
-- Intervalo de incubação da doença.
-- Intervalo de incubação de coronavírus.
-- Intervalo de incubação do coronavírus.
-- Intervalo entre o contágio do vírus e o início dos sintomas.
-- Intervalo temporal entre a apanha do vírus e o início dos sintomas da doença.
+- Intervalo de incubação da [doença](pt_virus:COVID).
+- Intervalo de incubação de [coronavírus](pt_virus:COVID).
+- Intervalo de incubação do [coronavírus](pt_virus:COVID).
+- Intervalo entre o contágio do [vírus](pt_virus:COVID) e o início dos sintomas.
+- Intervalo temporal entre a apanha do [vírus](pt_virus:COVID) e o início dos sintomas da [doença](pt_virus:COVID).
 - No período de incubação.
 - O período de incubação.
 - O tempo até ao início dos sintomas após contágio.
 - O tempo até ao início dos sintomas.
-- O tempo entre a apanha do vírus e o início dos sintomas da doença.
-- O tempo entre a captura do vírus e o início dos sintomas da doença.
-- O tempo entre a captura do vírus e o início dos sintomas.
-- O tempo entre a captura e o início dos sintomas da doença.
+- O tempo entre a apanha do [vírus](pt_virus:COVID) e o início dos sintomas da [doença](pt_virus:COVID).
+- O tempo entre a captura do [vírus](pt_virus:COVID) e o início dos sintomas da [doença](pt_virus:COVID).
+- O tempo entre a captura do [vírus](pt_virus:COVID) e o início dos sintomas.
+- O tempo entre a captura e o início dos sintomas da [doença](pt_virus:COVID).
 - O tempo entre a captura e o início dos sintomas.
-- O tempo entre o contágio do vírus e o início dos sintomas.
-- Período de incubação 19-nCoV.
-- Período de incubação 19nCov.
-- Período de incubação 2019-nCoV.
-- Período de incubação 2019nCov.
-- Período de incubação COVID-19.
-- Período de incubação COVID-2019.
-- Período de incubação COVID.
-- Período de incubação COVID19.
-- Período de incubação COVID2019.
-- Período de incubação SARS-CoV-2.
-- Período de incubação SARS-CoV2.
-- Período de incubação SARSCoV-2.
-- Período de incubação SARSCoV2.
-- Período de incubação de 19-nCoV.
-- Período de incubação de 19nCov.
-- Período de incubação de SARS-CoV-2.
-- Período de incubação de SARS-CoV2.
-- Período de incubação de SARSCoV-2.
-- Período de incubação de SARSCoV2.
-- Período de incubação do COVID-19.
-- Período de incubação do COVID19.
-- Período de incubação do novo coronavírus?
-- Período de incubação do recente coronavírus.
-- Período de incubação do vírus.
-- Período de incubação novo coronavírus.
+- O tempo entre o contágio do [vírus](pt_virus:COVID) e o início dos sintomas.
+- Período de incubação [19-nCoV](pt_virus:COVID).
+- Período de incubação [19nCov](pt_virus:COVID).
+- Período de incubação [2019-nCoV](pt_virus:COVID).
+- Período de incubação [2019nCov](pt_virus:COVID).
+- Período de incubação [COVID-19](pt_virus:COVID).
+- Período de incubação [COVID-2019](pt_virus:COVID).
+- Período de incubação [covid](pt_virus:COVID).
+- Período de incubação [COVID19](pt_virus:COVID).
+- Período de incubação [COVID2019](pt_virus:COVID).
+- Período de incubação [SARS-Cov-2](pt_virus:COVID).
+- Período de incubação [SARS-CoV2](pt_virus:COVID).
+- Período de incubação [SARSCoV-2](pt_virus:COVID).
+- Período de incubação [SARSCoV2](pt_virus:COVID).
+- Período de incubação de [19-nCoV](pt_virus:COVID).
+- Período de incubação de [19nCov](pt_virus:COVID).
+- Período de incubação de [SARS-Cov-2](pt_virus:COVID).
+- Período de incubação de [SARS-CoV2](pt_virus:COVID).
+- Período de incubação de [SARSCoV-2](pt_virus:COVID).
+- Período de incubação de [SARSCoV2](pt_virus:COVID).
+- Período de incubação do [COVID-19](pt_virus:COVID).
+- Período de incubação do [COVID19](pt_virus:COVID).
+- Período de incubação do [novo coronavírus](pt_virus:COVID)?
+- Período de incubação do recente [coronavírus](pt_virus:COVID).
+- Período de incubação do [vírus](pt_virus:COVID).
+- Período de incubação [novo coronavírus](pt_virus:COVID).
 - Período de incubação.
 - Previsão temporal de incubação.
 - Previsão temporal do período de incubação.
 - Qual o periodo de incubação?
-- Qual o tempo de incubação do vírus?
+- Qual o tempo de incubação do [vírus](pt_virus:COVID)?
 - Qual é o periodo de incubação?
 - Qual é o tempo estimado da incubação?
 - Qual é o tempo estimado de incubação?
@@ -2180,492 +2180,492 @@
 - Qual é o tempo estimado para o período de incubação?
 - Quanto tempo até os sintomas aparecerem?
 - Quanto tempo até que os sintomas apareçam?
-- Quanto tempo dura o período de incubação 19-nCoV?
-- Quanto tempo dura o período de incubação 19nCov?
-- Quanto tempo dura o período de incubação 2019-nCoV?
-- Quanto tempo dura o período de incubação 2019nCov?
-- Quanto tempo dura o período de incubação COVID-19?
-- Quanto tempo dura o período de incubação COVID-2019?
-- Quanto tempo dura o período de incubação COVID19?
-- Quanto tempo dura o período de incubação COVID2019?
-- Quanto tempo dura o período de incubação COVID?
-- Quanto tempo dura o período de incubação SARS-CoV-2?
-- Quanto tempo dura o período de incubação SARS-CoV2?
-- Quanto tempo dura o período de incubação SARSCoV-2?
-- Quanto tempo dura o período de incubação SARSCoV2?
-- Quanto tempo dura o período de incubação da doença?
-- Quanto tempo dura o período de incubação de SARS-CoV-2?
-- Quanto tempo dura o período de incubação de SARS-CoV2?
-- Quanto tempo dura o período de incubação de SARSCoV2?
-- Quanto tempo dura o período de incubação do 19-nCoV?
-- Quanto tempo dura o período de incubação do 19nCov?
-- Quanto tempo dura o período de incubação do COVID-19?
-- Quanto tempo dura o período de incubação do COVID-2019?
-- Quanto tempo dura o período de incubação do COVID19?
-- Quanto tempo dura o período de incubação do COVID2019?
-- Quanto tempo dura o período de incubação do COVID?
-- Quanto tempo dura o período de incubação do SARSCoV-2?
-- Quanto tempo dura o período de incubação do novo coronavírus?
-- Quanto tempo dura o período de incubação do recente coronavírus?
-- Quanto tempo dura o período de incubação do vírus?
-- Quanto tempo dura o período de incubação para 2019-nCoV?
-- Quanto tempo dura o período de incubação para 2019nCov?
+- Quanto tempo dura o período de incubação [19-nCoV](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [19nCov](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [2019-nCoV](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [2019nCov](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [COVID-19](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [COVID-2019](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [COVID19](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [COVID2019](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [covid](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [SARS-Cov-2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [SARS-CoV2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [SARSCoV-2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [SARSCoV2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação da [doença](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação de [SARS-Cov-2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação de [SARS-CoV2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação de [SARSCoV2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [19-nCoV](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [19nCov](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [COVID-19](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [COVID-2019](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [COVID19](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [COVID2019](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [covid](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [SARSCoV-2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [novo coronavírus](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do recente [coronavírus](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [vírus](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação para [2019-nCoV](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação para [2019nCov](pt_virus:COVID)?
 - Quanto tempo dura o período de incubação?
 - Quanto tempo leva até os sintomas?
 - Quanto é o tempo estimado do período de incubação?
 - Sobre o período de incubação.
 - Tempo estimado da estimativa do período de incubação.
 - Tempo estimado do período de incubação.
-- novo período de incubação de coronavírus.
-- novo período de incubação do coronavírus.
-- o período de incubação do vírus.
-- período de incubação da doença.
+- novo período de incubação de [coronavírus](pt_virus:COVID).
+- novo período de incubação do [coronavírus](pt_virus:COVID).
+- o período de incubação do [vírus](pt_virus:COVID).
+- período de incubação da [doença](pt_virus:COVID).
 - período de incubação estimado.
 - tempo estimado para o período de incubação.
 
 ## intent:pt_covid_info
-- 19-nCoV
-- 19-nCoV info
-- 19-nCoV informações
-- 19nCov
-- 19nCov info
-- 19nCov informações
-- 2019-nCoV
-- 2019-nCoV info
-- 2019nCov
-- 2019nCov info
-- 2019nCov informações
-- Atual coronavírus
-- COVID
-- COVID-19
-- COVID-19 info
-- COVID-2019
-- COVID-2019 mais info
-- COVID-2019 mais informação
-- COVID2019
-- COVID2019 info
-- Como começou o COVID-19
-- Conta acerca do 2019-nCoV
-- Conta do COVID
-- Conta mais sobre nCoV
-- Conta mais sobre o novo coronavírus
-- Conta-me info do nCoV
-- Conta-me mais sobre 2019nCov
-- Conta-me mais sobre o 19-nCoV
-- Conta-me mais sobre o 19nCov
-- Conta-me mais sobre o COVID-2019
-- Conte-me a respeito do COVID-19
-- Conte-me mais a respeito do COVID-19
-- Conte-me mais em relação ao 2019-nCoV
-- Conte-me mais sobre 19-nCoV
-- Conte-me mais sobre 19nCov
-- Conte-me mais sobre 2019-nCoV
-- Conte-me mais sobre 2019nCov
-- Conte-me mais sobre COVID
-- Conte-me mais sobre COVID2019
-- Conte-me mais sobre nCoV
-- Conte-me mais sobre o 19-nCoV
-- Conte-me mais sobre o 19nCov
-- Conte-me mais sobre o 2019-nCoV
-- Conte-me mais sobre o 2019nCov
-- Conte-me mais sobre o COVID
-- Conte-me mais sobre o COVID-19
-- Conte-me mais sobre o COVID-2019
-- Conte-me mais sobre o COVID2019
-- Conte-me mais sobre o nCoV
-- Conte-me mais sobre o novo coronavírus
-- Conte-me mais sobre o recente coronavírus
-- Corona
-- Dados sobre coronavírus
-- Dados sobre novos coronavírus
-- Detalhes do 2019-nCoV
-- Detalhes sobre 2019-nCoV
-- Detalhes sobre o COVID-19
-- Diga-me o que é 19-nCoV
-- Diga-me o que é 19nCov
-- Diga-me o que é 2019-nCoV
-- Diga-me o que é 2019nCov
-- Diga-me o que é COVID
-- Diga-me o que é COVID-19
-- Diga-me o que é COVID-2019
-- Diga-me o que é COVID2019
-- Diga-me o que é nCoV
-- Diga-me o que é o 19-nCoV
-- Diga-me o que é o 19nCov
-- Diga-me o que é o 2019-nCoV
-- Diga-me o que é o 2019nCov
-- Diga-me o que é o COVID-19
-- Diga-me o que é o nCoV
-- Diga-me o que é o novo coronavírus
-- Diga-me o que é um 19-nCoV
-- Diga-me o que é um 19nCov
-- Diga-me o que é um 2019-nCoV
-- Diga-me o que é um 2019nCov
-- Diga-me o que é um COVID
-- Diga-me o que é um COVID-19
-- Diga-me o que é um COVID-2019
-- Diga-me o que é um COVID2019
-- Diga-me o que é um nCoV
-- Diga-me o que é um novo coronavírus
-- Diga-me qual é o COVID
-- Diga-me qual é o COVID-2019
-- Diga-me qual é o COVID2019
-- Diga-me qual é o novo coronavírus
-- Diz-me acerca do COVID-19
-- Diz-me informação sobre o COVID2019
-- Diz-me informações sobre o nCoV
-- Diz-me mais sobre o COVID2019
-- Diz-me mais sobre o novo coronavírus
-- Diz-me sobre COVID
-- Diz-me sobre COVID2019
-- Dá-me informação sobre o novo coronavírus
-- Dá-me informações sobre COVID-19
-- Elucida-me sobre COVID
-- Elucida-me sobre o assunto COVID
-- Envia-me informações sobre o COVID-2019
-- Esclarece sobre o recente coronavírus
-- Esclarece-me sobre COVID
-- Esclarece-me sobre o COVID
-- Esclarece-me sobre o novo coronavírus
-- Esclarecimento 2019-nCoV
-- Esclarecimento COVID
-- Esclarecimento do COVID-2019
-- Esclarecimento do coronavírus
-- Esclarecimento sobre nCoV
-- Esclarecimento sobre o 19nCov
-- Esclarecimento sobre o COVID-2019
-- Esclarecimento sobre o novo coronavírus
-- Esclarecimentos do nCoV
-- Esclarecimentos sobre nCoV
-- Explica-me nCoV
-- Fala do COVID-19
-- Fala do recente coronavírus
-- Fala mais sobre o COVID
-- Fala sobre COVID-19
-- Fala-me do COVID-19
-- Fala-me do coronavírus
-- Fala-me mais sobre o 19-nCoV
-- Fala-me mais sobre o novo coronavírus
+- [19-nCoV](pt_virus:COVID)
+- [19-nCoV](pt_virus:COVID) info
+- [19-nCoV](pt_virus:COVID) informações
+- [19nCov](pt_virus:COVID)
+- [19nCov](pt_virus:COVID) info
+- [19nCov](pt_virus:COVID) informações
+- [2019-nCoV](pt_virus:COVID)
+- [2019-nCoV](pt_virus:COVID) info
+- [2019nCov](pt_virus:COVID)
+- [2019nCov](pt_virus:COVID) info
+- [2019nCov](pt_virus:COVID) informações
+- Atual [coronavírus](pt_virus:COVID)
+- [covid](pt_virus:COVID)
+- [COVID-19](pt_virus:COVID)
+- [COVID-19](pt_virus:COVID) info
+- [COVID-2019](pt_virus:COVID)
+- [COVID-2019](pt_virus:COVID) mais info
+- [COVID-2019](pt_virus:COVID) mais informação
+- [COVID2019](pt_virus:COVID)
+- [COVID2019](pt_virus:COVID) info
+- Como começou o [COVID-19](pt_virus:COVID)
+- Conta acerca do [2019-nCoV](pt_virus:COVID)
+- Conta do [covid](pt_virus:COVID)
+- Conta mais sobre [nCov](pt_virus:COVID)
+- Conta mais sobre o [novo coronavírus](pt_virus:COVID)
+- Conta-me info do [nCov](pt_virus:COVID)
+- Conta-me mais sobre [2019nCov](pt_virus:COVID)
+- Conta-me mais sobre o [19-nCoV](pt_virus:COVID)
+- Conta-me mais sobre o [19nCov](pt_virus:COVID)
+- Conta-me mais sobre o [COVID-2019](pt_virus:COVID)
+- Conte-me a respeito do [COVID-19](pt_virus:COVID)
+- Conte-me mais a respeito do [COVID-19](pt_virus:COVID)
+- Conte-me mais em relação ao [2019-nCoV](pt_virus:COVID)
+- Conte-me mais sobre [19-nCoV](pt_virus:COVID)
+- Conte-me mais sobre [19nCov](pt_virus:COVID)
+- Conte-me mais sobre [2019-nCoV](pt_virus:COVID)
+- Conte-me mais sobre [2019nCov](pt_virus:COVID)
+- Conte-me mais sobre [covid](pt_virus:COVID)
+- Conte-me mais sobre [COVID2019](pt_virus:COVID)
+- Conte-me mais sobre [nCov](pt_virus:COVID)
+- Conte-me mais sobre o [19-nCoV](pt_virus:COVID)
+- Conte-me mais sobre o [19nCov](pt_virus:COVID)
+- Conte-me mais sobre o [2019-nCoV](pt_virus:COVID)
+- Conte-me mais sobre o [2019nCov](pt_virus:COVID)
+- Conte-me mais sobre o [covid](pt_virus:COVID)
+- Conte-me mais sobre o [COVID-19](pt_virus:COVID)
+- Conte-me mais sobre o [COVID-2019](pt_virus:COVID)
+- Conte-me mais sobre o [COVID2019](pt_virus:COVID)
+- Conte-me mais sobre o [nCov](pt_virus:COVID)
+- Conte-me mais sobre o [novo coronavírus](pt_virus:COVID)
+- Conte-me mais sobre o recente [coronavírus](pt_virus:COVID)
+- [Corona](pt_virus:COVID)
+- Dados sobre [coronavírus](pt_virus:COVID)
+- Dados sobre novos [coronavírus](pt_virus:COVID)
+- Detalhes do [2019-nCoV](pt_virus:COVID)
+- Detalhes sobre [2019-nCoV](pt_virus:COVID)
+- Detalhes sobre o [COVID-19](pt_virus:COVID)
+- Diga-me o que é [19-nCoV](pt_virus:COVID)
+- Diga-me o que é [19nCov](pt_virus:COVID)
+- Diga-me o que é [2019-nCoV](pt_virus:COVID)
+- Diga-me o que é [2019nCov](pt_virus:COVID)
+- Diga-me o que é [covid](pt_virus:COVID)
+- Diga-me o que é [COVID-19](pt_virus:COVID)
+- Diga-me o que é [COVID-2019](pt_virus:COVID)
+- Diga-me o que é [COVID2019](pt_virus:COVID)
+- Diga-me o que é [nCov](pt_virus:COVID)
+- Diga-me o que é o [19-nCoV](pt_virus:COVID)
+- Diga-me o que é o [19nCov](pt_virus:COVID)
+- Diga-me o que é o [2019-nCoV](pt_virus:COVID)
+- Diga-me o que é o [2019nCov](pt_virus:COVID)
+- Diga-me o que é o [COVID-19](pt_virus:COVID)
+- Diga-me o que é o [nCov](pt_virus:COVID)
+- Diga-me o que é o [novo coronavírus](pt_virus:COVID)
+- Diga-me o que é um [19-nCoV](pt_virus:COVID)
+- Diga-me o que é um [19nCov](pt_virus:COVID)
+- Diga-me o que é um [2019-nCoV](pt_virus:COVID)
+- Diga-me o que é um [2019nCov](pt_virus:COVID)
+- Diga-me o que é um [covid](pt_virus:COVID)
+- Diga-me o que é um [COVID-19](pt_virus:COVID)
+- Diga-me o que é um [COVID-2019](pt_virus:COVID)
+- Diga-me o que é um [COVID2019](pt_virus:COVID)
+- Diga-me o que é um [nCov](pt_virus:COVID)
+- Diga-me o que é um [novo coronavírus](pt_virus:COVID)
+- Diga-me qual é o [covid](pt_virus:COVID)
+- Diga-me qual é o [COVID-2019](pt_virus:COVID)
+- Diga-me qual é o [COVID2019](pt_virus:COVID)
+- Diga-me qual é o [novo coronavírus](pt_virus:COVID)
+- Diz-me acerca do [COVID-19](pt_virus:COVID)
+- Diz-me informação sobre o [COVID2019](pt_virus:COVID)
+- Diz-me informações sobre o [nCov](pt_virus:COVID)
+- Diz-me mais sobre o [COVID2019](pt_virus:COVID)
+- Diz-me mais sobre o [novo coronavírus](pt_virus:COVID)
+- Diz-me sobre [covid](pt_virus:COVID)
+- Diz-me sobre [COVID2019](pt_virus:COVID)
+- Dá-me informação sobre o [novo coronavírus](pt_virus:COVID)
+- Dá-me informações sobre [COVID-19](pt_virus:COVID)
+- Elucida-me sobre [covid](pt_virus:COVID)
+- Elucida-me sobre o assunto [covid](pt_virus:COVID)
+- Envia-me informações sobre o [COVID-2019](pt_virus:COVID)
+- Esclarece sobre o recente [coronavírus](pt_virus:COVID)
+- Esclarece-me sobre [covid](pt_virus:COVID)
+- Esclarece-me sobre o [covid](pt_virus:COVID)
+- Esclarece-me sobre o [novo coronavírus](pt_virus:COVID)
+- Esclarecimento [2019-nCoV](pt_virus:COVID)
+- Esclarecimento [covid](pt_virus:COVID)
+- Esclarecimento do [COVID-2019](pt_virus:COVID)
+- Esclarecimento do [coronavírus](pt_virus:COVID)
+- Esclarecimento sobre [nCov](pt_virus:COVID)
+- Esclarecimento sobre o [19nCov](pt_virus:COVID)
+- Esclarecimento sobre o [COVID-2019](pt_virus:COVID)
+- Esclarecimento sobre o [novo coronavírus](pt_virus:COVID)
+- Esclarecimentos do [nCov](pt_virus:COVID)
+- Esclarecimentos sobre [nCov](pt_virus:COVID)
+- Explica-me [nCov](pt_virus:COVID)
+- Fala do [COVID-19](pt_virus:COVID)
+- Fala do recente [coronavírus](pt_virus:COVID)
+- Fala mais sobre o [covid](pt_virus:COVID)
+- Fala sobre [COVID-19](pt_virus:COVID)
+- Fala-me do [COVID-19](pt_virus:COVID)
+- Fala-me do [coronavírus](pt_virus:COVID)
+- Fala-me mais sobre o [19-nCoV](pt_virus:COVID)
+- Fala-me mais sobre o [novo coronavírus](pt_virus:COVID)
 - Foram os chineses?
-- Info sobre 19nCov
-- Info sobre 2019nCov
-- Info sobre COVID-2019
-- Info sobre COVID2019
-- Info sobre o 19-nCoV
-- Info sobre o 19nCov
-- Info sobre o 2019nCov
-- Info sobre o COVID-2019
-- Info sobre o COVID2019
-- Info sobre o novo coronavírus
-- Info sobre o recente coronavírus
-- Informa-me sobre 19-nCoV
-- Informa-me sobre o 2019nCov
-- Informa-me sobre o novo coronavírus
-- Informação COVID
-- Informação COVID-2019
-- Informação sobre o recente coronavírus
-- Informações COVID
-- Informações do 19-nCoV
-- Informações sobre 2019-nCoV
-- Informações sobre COVID-19
-- Informações sobre o COVID2019
-- Informações sobre o nCoV 2019
-- Manda informação sobre o 2019-nCoV
-- Mostra informações sobre o nCoV
-- Não sei o que é 19-nCoV
-- Não sei o que é 19nCov
-- Não sei o que é 2019-nCoV
-- Não sei o que é 2019nCov
-- Não sei o que é COVID
-- Não sei o que é COVID-19
-- Não sei o que é COVID-2019
-- Não sei o que é COVID2019
-- Não sei o que é nCoV
-- Não sei o que é o 19-nCoV
-- Não sei o que é o 19nCov
-- Não sei o que é o 2019-nCoV
-- Não sei o que é o 2019nCov
-- Não sei o que é o COVID
-- Não sei o que é o COVID-19
-- Não sei o que é o COVID-2019
-- Não sei o que é o COVID2019
-- Não sei o que é o nCoV
-- Não sei o que é o novo coronavírus
-- Não sei o que é o recente coronavírus
-- Não sei qual é o novo coronavírus
-- Não sei qual é o recente coronavírus
-- O que se passa sobre COVID-19
-- O que é COVID
-- O que é a COVID-19?
-- O que é a covid
-- O que é o COVID-19?
-- O que é o Corona vírus?
-- O que é o atual coronavírus
-- O que é o covid-18
-- O que é o covid?
-- O que é o covit19
-- O que é o novo coronavírus
-- O que é o recente coronavírus
-- O que é que é o covid-19
-- O que é um 19-nCoV
-- O que é um 19nCov
-- O que é um 2019-nCoV
-- O que é um 2019nCov
-- O que é um COVID
-- O que é um COVID-19
-- O que é um COVID-2019
-- O que é um COVID2019
-- O que é um nCoV
-- O que é um novo coronavírus
-- Olá olá como é o covid
-- Onde surgiu o vírus?
+- Info sobre [19nCov](pt_virus:COVID)
+- Info sobre [2019nCov](pt_virus:COVID)
+- Info sobre [COVID-2019](pt_virus:COVID)
+- Info sobre [COVID2019](pt_virus:COVID)
+- Info sobre o [19-nCoV](pt_virus:COVID)
+- Info sobre o [19nCov](pt_virus:COVID)
+- Info sobre o [2019nCov](pt_virus:COVID)
+- Info sobre o [COVID-2019](pt_virus:COVID)
+- Info sobre o [COVID2019](pt_virus:COVID)
+- Info sobre o [novo coronavírus](pt_virus:COVID)
+- Info sobre o recente [coronavírus](pt_virus:COVID)
+- Informa-me sobre [19-nCoV](pt_virus:COVID)
+- Informa-me sobre o [2019nCov](pt_virus:COVID)
+- Informa-me sobre o [novo coronavírus](pt_virus:COVID)
+- Informação [covid](pt_virus:COVID)
+- Informação [COVID-2019](pt_virus:COVID)
+- Informação sobre o recente [coronavírus](pt_virus:COVID)
+- Informações [covid](pt_virus:COVID)
+- Informações do [19-nCoV](pt_virus:COVID)
+- Informações sobre [2019-nCoV](pt_virus:COVID)
+- Informações sobre [COVID-19](pt_virus:COVID)
+- Informações sobre o [COVID2019](pt_virus:COVID)
+- Informações sobre o [nCoV 2019](pt_virus:COVID)
+- Manda informação sobre o [2019-nCoV](pt_virus:COVID)
+- Mostra informações sobre o [nCov](pt_virus:COVID)
+- Não sei o que é [19-nCoV](pt_virus:COVID)
+- Não sei o que é [19nCov](pt_virus:COVID)
+- Não sei o que é [2019-nCoV](pt_virus:COVID)
+- Não sei o que é [2019nCov](pt_virus:COVID)
+- Não sei o que é [covid](pt_virus:COVID)
+- Não sei o que é [COVID-19](pt_virus:COVID)
+- Não sei o que é [COVID-2019](pt_virus:COVID)
+- Não sei o que é [COVID2019](pt_virus:COVID)
+- Não sei o que é [nCov](pt_virus:COVID)
+- Não sei o que é o [19-nCoV](pt_virus:COVID)
+- Não sei o que é o [19nCov](pt_virus:COVID)
+- Não sei o que é o [2019-nCoV](pt_virus:COVID)
+- Não sei o que é o [2019nCov](pt_virus:COVID)
+- Não sei o que é o [covid](pt_virus:COVID)
+- Não sei o que é o [COVID-19](pt_virus:COVID)
+- Não sei o que é o [COVID-2019](pt_virus:COVID)
+- Não sei o que é o [COVID2019](pt_virus:COVID)
+- Não sei o que é o [nCov](pt_virus:COVID)
+- Não sei o que é o [novo coronavírus](pt_virus:COVID)
+- Não sei o que é o recente [coronavírus](pt_virus:COVID)
+- Não sei qual é o [novo coronavírus](pt_virus:COVID)
+- Não sei qual é o recente [coronavírus](pt_virus:COVID)
+- O que se passa sobre [COVID-19](pt_virus:COVID)
+- O que é [covid](pt_virus:COVID)
+- O que é a [COVID-19](pt_virus:COVID)?
+- O que é a [covid](pt_virus:COVID)
+- O que é o [COVID-19](pt_virus:COVID)?
+- O que é o [Corona vírus](pt_virus:COVID)?
+- O que é o atual [coronavírus](pt_virus:COVID)
+- O que é o [covid-18](pt_virus:COVID)
+- O que é o [covid](pt_virus:COVID)?
+- O que é o [covit19](pt_virus:COVID)
+- O que é o [novo coronavírus](pt_virus:COVID)
+- O que é o recente [coronavírus](pt_virus:COVID)
+- O que é que é o [COVID-19](pt_virus:COVID)
+- O que é um [19-nCoV](pt_virus:COVID)
+- O que é um [19nCov](pt_virus:COVID)
+- O que é um [2019-nCoV](pt_virus:COVID)
+- O que é um [2019nCov](pt_virus:COVID)
+- O que é um [covid](pt_virus:COVID)
+- O que é um [COVID-19](pt_virus:COVID)
+- O que é um [COVID-2019](pt_virus:COVID)
+- O que é um [COVID2019](pt_virus:COVID)
+- O que é um [nCov](pt_virus:COVID)
+- O que é um [novo coronavírus](pt_virus:COVID)
+- Olá olá como é o [covid](pt_virus:COVID)
+- Onde surgiu o [vírus](pt_virus:COVID)?
 - Qual é a origem do surto?
-- Quando foi detectacta a COVID-19?
-- Que tal 2019-nCoV
-- Que tal 2019nCov
-- Que tal informações sobre COVID
-- Recente coronavírus
-- Recente coronavírus mais info
-- Sobre 19-nCoV
-- Sobre 19nCov
-- Sobre 2019-nCoV
-- Sobre 2019nCov
-- Sobre COVID-19
-- Sobre COVID2019
-- Sobre a COVID
-- Sobre nCoV
-- Sobre o 19-nCoV
-- Sobre o 19nCov
-- Sobre o 2019-nCoV
-- Sobre o 2019nCov
-- Sobre o COVID
-- Sobre o COVID-19
-- Sobre o COVID-2019
-- Sobre o COVID2019
-- Sobre o nCoV
-- Sobre o novo coronavírus
-- Sobre o recente coronavírus
-- Sobre o vírus
+- Quando foi detectacta a [COVID-19](pt_virus:COVID)?
+- Que tal [2019-nCoV](pt_virus:COVID)
+- Que tal [2019nCov](pt_virus:COVID)
+- Que tal informações sobre [covid](pt_virus:COVID)
+- Recente [coronavírus](pt_virus:COVID)
+- Recente [coronavírus](pt_virus:COVID) mais info
+- Sobre [19-nCoV](pt_virus:COVID)
+- Sobre [19nCov](pt_virus:COVID)
+- Sobre [2019-nCoV](pt_virus:COVID)
+- Sobre [2019nCov](pt_virus:COVID)
+- Sobre [COVID-19](pt_virus:COVID)
+- Sobre [COVID2019](pt_virus:COVID)
+- Sobre a [covid](pt_virus:COVID)
+- Sobre [nCov](pt_virus:COVID)
+- Sobre o [19-nCoV](pt_virus:COVID)
+- Sobre o [19nCov](pt_virus:COVID)
+- Sobre o [2019-nCoV](pt_virus:COVID)
+- Sobre o [2019nCov](pt_virus:COVID)
+- Sobre o [covid](pt_virus:COVID)
+- Sobre o [COVID-19](pt_virus:COVID)
+- Sobre o [COVID-2019](pt_virus:COVID)
+- Sobre o [COVID2019](pt_virus:COVID)
+- Sobre o [nCov](pt_virus:COVID)
+- Sobre o [novo coronavírus](pt_virus:COVID)
+- Sobre o recente [coronavírus](pt_virus:COVID)
+- Sobre o [vírus](pt_virus:COVID)
 - a pandemia começou em Wuhan?
-- covid19
-- diz-me informações do assunto 19nCov
-- diz-me informações do assunto 2019nCov
-- diz-me informações sobre COVID2019
-- doença
-- e o 19nCov
-- e o COVID
-- e o COVID-19
-- e o COVID-2019
-- e o COVID2019
-- e o novo coronavírus
-- e quanto ao nCoV
-- fala do assunto COVID-2019
-- fala sobre 19nCov
-- fala sobre 2019nCov
-- fala sobre COVID-2019
-- fala-me informações do assunto COVID2019
-- fala-me sobre o 19-nCoV
-- há informação do novo coronavírus
-- informações 19-nCoV
-- informações 19nCov
-- informações 2019-nCoV
-- informações 2019nCov
-- informações COVID-2019
-- informações COVID2019
-- informações do 2019-nCoV
-- informações do assunto 19-nCoV
-- informações do assunto 19nCov
-- informações do assunto 2019nCov
-- informações do assunto COVID-19
-- informações do assunto COVID-2019
-- informações do assunto COVID2019
-- informações do assunto relacionado com o novo coronavírus
-- informações do coronavírus
-- informações do recente coronavírus
-- informações do tema COVID-19
-- informações nCoV
-- informações recentes sobre coronavírus
-- informações sobre 19-nCoV
-- informações sobre 19nCov
-- informações sobre 2019nCov
-- informações sobre COVID
-- informações sobre COVID-2019
-- informações sobre COVID2019
-- informações sobre nCoV
-- informações sobre novo coronavírus
-- informações sobre novos coronavírus
-- informações sobre o 19-nCoV
-- informações sobre o 19nCov
-- informações sobre o 2019-nCoV
-- informações sobre o 2019nCov
-- informações sobre o COVID-2019
-- informações sobre o nCoV
-- informações sobre o novo coronavírus
-- informações sobre o recente coronavírus
-- nCoV
-- nCoV mais informação
-- novas informações sobre coronavírus
-- novo coronavírus
-- novos dados sobre coronavírus
-- o que é 19-nCoV
-- o que é 19nCov
-- o que é 2019-nCoV
-- o que é 2019nCov
-- o que é COVID-19
-- o que é COVID-2019
-- o que é COVID2019
-- o que é esse vírus?
-- o que é nCoV
-- o que é novo coronavírus
-- o que é o ccovid?
+- [COVID19](pt_virus:COVID)
+- diz-me informações do assunto [19nCov](pt_virus:COVID)
+- diz-me informações do assunto [2019nCov](pt_virus:COVID)
+- diz-me informações sobre [COVID2019](pt_virus:COVID)
+- [doença](pt_virus:COVID)
+- e o [19nCov](pt_virus:COVID)
+- e o [COVID](pt_virus:COVID)
+- e o [COVID-19](pt_virus:COVID)
+- e o [COVID-2019](pt_virus:COVID)
+- e o [COVID2019](pt_virus:COVID)
+- e o [novo coronavírus](pt_virus:COVID)
+- e quanto ao [nCov](pt_virus:COVID)
+- fala do assunto [COVID-2019](pt_virus:COVID)
+- fala sobre [19nCov](pt_virus:COVID)
+- fala sobre [2019nCov](pt_virus:COVID)
+- fala sobre [COVID-2019](pt_virus:COVID)
+- fala-me informações do assunto [COVID2019](pt_virus:COVID)
+- fala-me sobre o [19-nCoV](pt_virus:COVID)
+- há informação do [novo coronavírus](pt_virus:COVID)
+- informações [19-nCoV](pt_virus:COVID)
+- informações [19nCov](pt_virus:COVID)
+- informações [2019-nCoV](pt_virus:COVID)
+- informações [2019nCov](pt_virus:COVID)
+- informações [COVID-2019](pt_virus:COVID)
+- informações [COVID2019](pt_virus:COVID)
+- informações do [2019-nCoV](pt_virus:COVID)
+- informações do assunto [19-nCoV](pt_virus:COVID)
+- informações do assunto [19nCov](pt_virus:COVID)
+- informações do assunto [2019nCov](pt_virus:COVID)
+- informações do assunto [COVID-19](pt_virus:COVID)
+- informações do assunto [COVID-2019](pt_virus:COVID)
+- informações do assunto [COVID2019](pt_virus:COVID)
+- informações do assunto relacionado com o [novo coronavírus](pt_virus:COVID)
+- informações do [coronavírus](pt_virus:COVID)
+- informações do recente [coronavírus](pt_virus:COVID)
+- informações do tema [COVID-19](pt_virus:COVID)
+- informações [nCov](pt_virus:COVID)
+- informações recentes sobre [coronavírus](pt_virus:COVID)
+- informações sobre [19-nCoV](pt_virus:COVID)
+- informações sobre [19nCov](pt_virus:COVID)
+- informações sobre [2019nCov](pt_virus:COVID)
+- informações sobre [covid](pt_virus:COVID)
+- informações sobre [COVID-2019](pt_virus:COVID)
+- informações sobre [COVID2019](pt_virus:COVID)
+- informações sobre [nCov](pt_virus:COVID)
+- informações sobre [novo coronavírus](pt_virus:COVID)
+- informações sobre novos [coronavírus](pt_virus:COVID)
+- informações sobre o [19-nCoV](pt_virus:COVID)
+- informações sobre o [19nCov](pt_virus:COVID)
+- informações sobre o [2019-nCoV](pt_virus:COVID)
+- informações sobre o [2019nCov](pt_virus:COVID)
+- informações sobre o [COVID-2019](pt_virus:COVID)
+- informações sobre o [nCoV](pt_virus:COVID)
+- informações sobre o [novo coronavírus](pt_virus:COVID)
+- informações sobre o recente [coronavírus](pt_virus:COVID)
+- [nCoV](pt_virus:COVID)
+- [nCoV](pt_virus:COVID) mais informação
+- novas informações sobre [coronavírus](pt_virus:COVID)
+- [novo coronavírus](pt_virus:COVID)
+- novos dados sobre [coronavírus](pt_virus:COVID)
+- o que é [19-nCoV](pt_virus:COVID)
+- o que é [19nCov](pt_virus:COVID)
+- o que é [2019-nCoV](pt_virus:COVID)
+- o que é [2019nCov](pt_virus:COVID)
+- o que é [COVID-19](pt_virus:COVID)
+- o que é [COVID-2019](pt_virus:COVID)
+- o que é [COVID2019](pt_virus:COVID)
+- o que é esse [vírus](pt_virus:COVID)?
+- o que é [nCov](pt_virus:COVID)
+- o que é [novo coronavírus](pt_virus:COVID)
+- o que é o [ccovid]?
 - onde começou o surto?
 - onde começou?
 - onde o surto começou?
 - origem pandêmica
 - origem secreta
-- qual a origem do vírus?
-- que informações tens do novo coronavírus
-- que tal 19-nCoV
-- recentes informações sobre coronavírus
-- vírus corona
+- qual a origem do [vírus](pt_virus:COVID)?
+- que informações tens do [novo coronavírus](pt_virus:COVID)
+- que tal [19-nCoV](pt_virus:COVID)
+- recentes informações sobre [coronavírus](pt_virus:COVID)
+- [vírus corona](pt_virus:COVID)
 
 ## intent:pt_covid_meaning
-- COVID-19 nome significado.
-- COVID-19 é o mesmo que o SARS-CoV-2?
-- COVID-19, porquê este nome?
-- Coronavírus SARS-CoV-2
-- Explica a nomenclatura da doença.
-- Explica o nome do vírus.
-- Explique o nome da doença
-- Explique o nome do COVID
-- Explique o nome do COVID-19
-- Explique o nome do SARS-CoV-2
-- Explique o nome do SARS-CoV2
-- Explique o nome do SARSCoV-2
-- Explique o nome do SARSCoV2
-- Explique o nome do vírus
-- Explique o nome do vírus.
+- [COVID-19](pt_virus:COVID) nome significado.
+- [COVID-19](pt_virus:COVID) é o mesmo que o [SARS-Cov-2](pt_virus:COVID)?
+- [COVID-19](pt_virus:COVID), porquê este nome?
+- [coronavírus](pt_virus:COVID) [SARS-Cov-2](pt_virus:COVID)
+- Explica a nomenclatura da [doença](pt_virus:COVID).
+- Explica o nome do [vírus](pt_virus:COVID).
+- Explique o nome da [doença](pt_virus:COVID)
+- Explique o nome do [COVID](pt_virus:COVID)
+- Explique o nome do [COVID-19](pt_virus:COVID)
+- Explique o nome do [SARS-Cov-2](pt_virus:COVID)
+- Explique o nome do [SARS-CoV2](pt_virus:COVID)
+- Explique o nome do [SARSCoV-2](pt_virus:COVID)
+- Explique o nome do [SARSCoV2](pt_virus:COVID)
+- Explique o nome do [vírus](pt_virus:COVID)
+- Explique o nome do [vírus](pt_virus:COVID).
 - Explique o nome.
-- Explique-me o nome COVID-19.
-- Explique-me o nome COVID.
-- Explique-me o nome SARS-CoV2.
-- Explique-me o nome SARSCoV2.
-- Explique-me o nome da SARS-CoV-2.
-- Explique-me o nome da doença.
-- Explique-me o nome do COVID-19.
-- Explique-me o nome do SARS-CoV2.
-- Explique-me o nome do SARSCoV-2.
-- Explique-me o nome do SARSCoV2.
-- Explique-me o nome do vírus.
+- Explique-me o nome [COVID-19](pt_virus:COVID).
+- Explique-me o nome [COVID](pt_virus:COVID).
+- Explique-me o nome [SARS-CoV2](pt_virus:COVID).
+- Explique-me o nome [SARSCoV2](pt_virus:COVID).
+- Explique-me o nome da [SARS-Cov-2](pt_virus:COVID).
+- Explique-me o nome da [doença](pt_virus:COVID).
+- Explique-me o nome do [COVID-19](pt_virus:COVID).
+- Explique-me o nome do [SARS-CoV2](pt_virus:COVID).
+- Explique-me o nome do [SARSCoV-2](pt_virus:COVID).
+- Explique-me o nome do [SARSCoV2](pt_virus:COVID).
+- Explique-me o nome do [vírus](pt_virus:COVID).
 - Explique-me o nome.
-- Explique-me o significado do nome COVID-19.
-- Explique-me o significado do nome COVID.
-- Explique-me o significado do nome SARS-CoV-2.
-- Explique-me o significado do nome SARS-CoV2.
-- Explique-me o significado do nome SARSCoV-2.
-- Explique-me o significado do nome SARSCoV2.
-- Explique-me o significado do nome da SARS-CoV-2.
-- Explique-me o significado do nome da doença.
-- Explique-me o significado do nome do COVID-19.
-- Explique-me o significado do nome do COVID.
-- Explique-me o significado do nome do SARS-CoV2.
-- Explique-me o significado do nome do SARSCoV-2.
-- Explique-me o significado do nome do SARSCoV2.
-- Explique-me o significado do nome do vírus.
+- Explique-me o significado do nome [COVID-19](pt_virus:COVID).
+- Explique-me o significado do nome [COVID](pt_virus:COVID).
+- Explique-me o significado do nome [SARS-Cov-2](pt_virus:COVID).
+- Explique-me o significado do nome [SARS-CoV2](pt_virus:COVID).
+- Explique-me o significado do nome [SARSCoV-2](pt_virus:COVID).
+- Explique-me o significado do nome [SARSCoV2](pt_virus:COVID).
+- Explique-me o significado do nome da [SARS-Cov-2](pt_virus:COVID).
+- Explique-me o significado do nome da [doença](pt_virus:COVID).
+- Explique-me o significado do nome do [COVID-19](pt_virus:COVID).
+- Explique-me o significado do nome do [COVID](pt_virus:COVID).
+- Explique-me o significado do nome do [SARS-CoV2](pt_virus:COVID).
+- Explique-me o significado do nome do [SARSCoV-2](pt_virus:COVID).
+- Explique-me o significado do nome do [SARSCoV2](pt_virus:COVID).
+- Explique-me o significado do nome do [vírus](pt_virus:COVID).
 - Explique-me o significado do nome.
-- Fala do nome do vírus.
-- Nome COVID porquê?
-- Nome COVID-19.
-- Nome COVID.
-- Nome SARS-CoV-2, porquê?
-- Nome SARS-CoV-2.
-- Nome SARS-CoV2, porquê?
-- Nome SARS-CoV2.
-- Nome SARSCoV-2, porquê?
-- Nome SARSCoV-2.
-- Nome SARSCoV2 por quê?
-- Nome SARSCoV2.
-- Nome da doença que significa.
-- Nome da doença, porquê?
-- Nome da doença.
-- Nome do vírus.
+- Fala do nome do [vírus](pt_virus:COVID).
+- Nome [COVID](pt_virus:COVID) porquê?
+- Nome [COVID-19](pt_virus:COVID).
+- Nome [COVID](pt_virus:COVID).
+- Nome [SARS-Cov-2](pt_virus:COVID), porquê?
+- Nome [SARS-Cov-2](pt_virus:COVID).
+- Nome [SARS-CoV2](pt_virus:COVID), porquê?
+- Nome [SARS-CoV2](pt_virus:COVID).
+- Nome [SARSCoV-2](pt_virus:COVID), porquê?
+- Nome [SARSCoV-2](pt_virus:COVID).
+- Nome [SARSCoV2](pt_virus:COVID) por quê?
+- Nome [SARSCoV2](pt_virus:COVID).
+- Nome da [doença](pt_virus:COVID) que significa.
+- Nome da [doença](pt_virus:COVID), porquê?
+- Nome da [doença](pt_virus:COVID).
+- Nome do [vírus](pt_virus:COVID).
 - O que o nome significa?
-- O que significa COVID-19?
-- O que significa SARS-Cov-2?
-- Porque a doença recebeu esse nome?
-- Porque a doença se chama COVID-19?
-- Porque a doença é chamada assim?
-- Porque a doença é nomeada assim?
-- Porque o COVID foi nomeado assim?
-- Porque o COVID recebeu esse nome?
-- Porque o COVID é chamado COVID-19?
-- Porque o COVID é chamado assim?
-- Porque o COVID-19 foi nomeado assim?
-- Porque o COVID-19 recebeu esse nome?
-- Porque o COVID-19 é chamado COVID-19?
-- Porque o COVID-19 é chamado assim?
-- Porque o COVID-19d é chamado assim?
-- Porque o COVIDd é chamado assim?
-- Porque o SARS-CoV-2 foi nomeado assim?
-- Porque o SARS-CoV-2 recebeu esse nome?
-- Porque o SARS-CoV-2 é chamado COVID-19?
-- Porque o SARS-CoV-2 é chamado assim?
-- Porque o SARS-CoV-2d é chamado assim?
-- Porque o SARS-CoV2 foi nomeado assim?
-- Porque o SARS-CoV2 recebeu esse nome?
-- Porque o SARS-CoV2 é chamado COVID-19?
-- Porque o SARS-CoV2 é chamado assim?
-- Porque o SARS-CoV2d é chamado assim?
-- Porque o SARSCoV-2 foi nomeado assim?
-- Porque o SARSCoV-2 recebeu esse nome?
-- Porque o SARSCoV-2 é chamado COVID-19?
-- Porque o SARSCoV-2 é chamado assim?
-- Porque o SARSCoV-2d é chamado assim?
-- Porque o SARSCoV2 foi nomeado assim?
-- Porque o SARSCoV2 recebeu esse nome?
-- Porque o SARSCoV2 é chamado COVID-19?
-- Porque o SARSCoV2 é chamado assim?
-- Porque o SARSCoV2d é chamado assim?
+- O que significa [COVID-19](pt_virus:COVID)?
+- O que significa [SARS-Cov-2](pt_virus:COVID)?
+- Porque a [doença](pt_virus:COVID) recebeu esse nome?
+- Porque a [doença](pt_virus:COVID) se chama [COVID-19](pt_virus:COVID)?
+- Porque a [doença](pt_virus:COVID) é chamada assim?
+- Porque a [doença](pt_virus:COVID) é nomeada assim?
+- Porque o [COVID](pt_virus:COVID) foi nomeado assim?
+- Porque o [COVID](pt_virus:COVID) recebeu esse nome?
+- Porque o [COVID](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
+- Porque o [COVID](pt_virus:COVID) é chamado assim?
+- Porque o [COVID-19](pt_virus:COVID) foi nomeado assim?
+- Porque o [COVID-19](pt_virus:COVID) recebeu esse nome?
+- Porque o [COVID-19](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
+- Porque o [COVID-19](pt_virus:COVID) é chamado assim?
+- Porque o [COVID-19d](pt_virus:COVID) é chamado assim?
+- Porque o [COVIDd](pt_virus:COVID) é chamado assim?
+- Porque o [SARS-Cov-2](pt_virus:COVID) foi nomeado assim?
+- Porque o [SARS-Cov-2](pt_virus:COVID) recebeu esse nome?
+- Porque o [SARS-Cov-2](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
+- Porque o [SARS-Cov-2](pt_virus:COVID) é chamado assim?
+- Porque o [SARS-CoV-2d](pt_virus:COVID) é chamado assim?
+- Porque o [SARS-CoV2](pt_virus:COVID) foi nomeado assim?
+- Porque o [SARS-CoV2](pt_virus:COVID) recebeu esse nome?
+- Porque o [SARS-CoV2](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
+- Porque o [SARS-CoV2](pt_virus:COVID) é chamado assim?
+- Porque o [SARS-CoV2d](pt_virus:COVID) é chamado assim?
+- Porque o [SARSCoV-2](pt_virus:COVID) foi nomeado assim?
+- Porque o [SARSCoV-2](pt_virus:COVID) recebeu esse nome?
+- Porque o [SARSCoV-2](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
+- Porque o [SARSCoV-2](pt_virus:COVID) é chamado assim?
+- Porque o [SARSCoV-2d](pt_virus:COVID) é chamado assim?
+- Porque o [SARSCoV2](pt_virus:COVID) foi nomeado assim?
+- Porque o [SARSCoV2](pt_virus:COVID) recebeu esse nome?
+- Porque o [SARSCoV2](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
+- Porque o [SARSCoV2](pt_virus:COVID) é chamado assim?
+- Porque o [SARSCoV2d](pt_virus:COVID) é chamado assim?
 - Porque o doente é chamado assim?
-- Porque o vírus foi nomeado assim?
-- Porque o vírus recebeu esse nome?
-- Porque o vírus se chama COVID-19?
-- Porque o vírus se chama SARS-Cov-2?
-- Porque o vírus tem este nome?
-- Porque o vírus teve este nome?
-- Porque o vírus é chamado assim?
-- Porque é que a doença se chama assim?
-- Porque é que chamaram a doença assim?
-- Porquê o nome COVID?
-- Porquê o nome SARS-CoV2.
-- Qual o significado do nome do vírus.
-- Que nome é SARS-CoV-2?
-- SARS-CoV-2 nome significado.
-- SARSCoV-2 nome significado.
-- SARSCoV2 porquê?
-- Significado do nome COVID-19.
-- Significado do nome COVID.
-- Significado do nome SARS-CoV-2.
-- Significado do nome SARS-CoV2.
-- Significado do nome SARSCoV-2.
-- Significado do nome SARSCoV2.
-- Significado do nome da SARS-CoV-2.
-- Significado do nome da SARS-CoV2.
-- Significado do nome da SARSCoV-2.
-- Significado do nome da SARSCoV2.
-- Significado do nome da doença.
-- Significado do nome desta doença.
-- Significado do nome desta virose.
-- Significado do nome do COVID-19.
-- Significado do nome do COVID.
-- Significado do nome do vírus.
+- Porque o [vírus](pt_virus:COVID) foi nomeado assim?
+- Porque o [vírus](pt_virus:COVID) recebeu esse nome?
+- Porque o [vírus](pt_virus:COVID) se chama [COVID-19](pt_virus:COVID)?
+- Porque o [vírus](pt_virus:COVID) se chama [SARS-Cov-2](pt_virus:COVID)?
+- Porque o [vírus](pt_virus:COVID) tem este nome?
+- Porque o [vírus](pt_virus:COVID) teve este nome?
+- Porque o [vírus](pt_virus:COVID) é chamado assim?
+- Porque é que a [doença](pt_virus:COVID) se chama assim?
+- Porque é que chamaram a [doença](pt_virus:COVID) assim?
+- Porquê o nome [COVID](pt_virus:COVID)?
+- Porquê o nome [SARS-CoV2](pt_virus:COVID).
+- Qual o significado do nome do [vírus](pt_virus:COVID).
+- Que nome é [SARS-Cov-2](pt_virus:COVID)?
+- [SARS-Cov-2](pt_virus:COVID) nome significado.
+- [SARSCoV-2](pt_virus:COVID) nome significado.
+- [SARSCoV2](pt_virus:COVID) porquê?
+- Significado do nome [COVID-19](pt_virus:COVID).
+- Significado do nome [COVID](pt_virus:COVID).
+- Significado do nome [SARS-Cov-2](pt_virus:COVID).
+- Significado do nome [SARS-CoV2](pt_virus:COVID).
+- Significado do nome [SARSCoV-2](pt_virus:COVID).
+- Significado do nome [SARSCoV2](pt_virus:COVID).
+- Significado do nome da [SARS-Cov-2](pt_virus:COVID).
+- Significado do nome da [SARS-CoV2](pt_virus:COVID).
+- Significado do nome da [SARSCoV-2](pt_virus:COVID).
+- Significado do nome da [SARSCoV2](pt_virus:COVID).
+- Significado do nome da [doença](pt_virus:COVID).
+- Significado do nome desta [doença](pt_virus:COVID).
+- Significado do nome desta [virose](pt_virus:COVID).
+- Significado do nome do [COVID-19](pt_virus:COVID).
+- Significado do nome do [COVID](pt_virus:COVID).
+- Significado do nome do [vírus](pt_virus:COVID).
 - Significado do nome.
-- What does the acronym COVID-19 mean?
-- nome do vírus porquê?
+- What does the acronym [COVID-19](pt_virus:COVID) mean?
+- nome do [vírus](pt_virus:COVID) porquê?
 
 ## intent:pt_covid_mortality_rate
 - Posso morrer?
-- Qual a mortalidade do vírus?
+- Qual a mortalidade do [vírus](pt_virus:COVID)?
 - qual a percentagem de letalidade ?
 - qual a taxa de mortalidade na Europa?
 - qual é a taxa de mortalidade ?
@@ -2684,7 +2684,7 @@
 - As pessoas mais velhas correm maior risco?
 - Doenças pulmonares?
 - Existe uma faixa etária mais em risco do que outras?
-- Faixa etária com possibilidade de doença grave.
+- Faixa etária com possibilidade de [doença](pt_virus:COVID) grave.
 - Faixa etária com saúde mais afetada
 - Faixa etária mais afetada.
 - Faixa etária mais em risco do que as restantes?
@@ -2697,12 +2697,12 @@
 - Perigoso para pessoas com condições médicas pré-existentes?
 - Pessoas com condições médicas pré-existentes estão em maior risco?
 - Pessoas com condições médicas pré-existentes estão mais em risco?
-- Pessoas com doenças auto imunes estão no grupo de risco da COVID 19?
-- Pessoas com possibilidade de risco de ter doença grave de COVID-19.
+- Pessoas com doenças auto imunes estão no grupo de risco da [Covid 19](pt_virus:COVID)?
+- Pessoas com possibilidade de risco de ter [doença](pt_virus:COVID) grave de [COVID-19](pt_virus:COVID).
 - Pessoas com saúde em risco
 - Pessoas com saúde mais debilitada
 - Pessoas em risco
-- Pessoas em risco de doença grave.
+- Pessoas em risco de [doença](pt_virus:COVID) grave.
 - Pessoas mais arriscadas.
 - Pessoas mais em condições mais graves.
 - Quae faixa etária corre o risco de desenvolver doenças graves?
@@ -2713,7 +2713,7 @@
 - Quais pessoas estão em maior risco?
 - Quais pessoas estão mais em risco?
 - Qual é a faixa etária pode estar mais em risco?
-- Que doenças poderão acelerar os efeitos do coronavírus?
+- Que doenças poderão acelerar os efeitos do [coronavírus](pt_virus:COVID)?
 - Quem corre mais risco?
 - Quem corre o risco de desenvolver doenças graves?
 - Quem está em maior risco?
@@ -2735,200 +2735,200 @@
 - Sobre uma faixa etária mais afetada.
 - Sobre uma faixa etária mais em risco.
 - grupos de risco
-- o virus mata?
-- o vírus afecta fatalmente apenas os idosos?
-- É verdade que o vírus afecta fatalmente apenas os idosos?
+- o [virus](pt_virus:COVID) mata?
+- o [vírus](pt_virus:COVID) afecta fatalmente apenas os idosos?
+- É verdade que o [vírus](pt_virus:COVID) afecta fatalmente apenas os idosos?
 
 ## intent:pt_covid_sars
-- Alterações entre novos coronavírus e SARS
-- Alterações entre o novo coronavírus e a síndrome respiratória aguda grave
-- COVID e SARS são o mesmo vírus?
+- Alterações entre novos [coronavírus](pt_virus:COVID) e SARS
+- Alterações entre o [novo coronavírus](pt_virus:COVID) e a síndrome respiratória aguda grave
+- COVID e SARS são o mesmo [vírus](pt_virus:COVID)?
 - COVID e SARS.
 - COVID e Síndrome Respiratória Aguda Grave.
 - COVID é o mesmo que SARS?
 - COVID é o mesmo que Síndrome Respiratória Aguda Grave?
-- COVID-19 e SARS são o mesmo vírus?
-- COVID-19 e SARS.
-- COVID-19 e Síndrome Respiratória Aguda Grave.
-- COVID-19 é o mesmo que SARS?
-- COVID-19 é o mesmo que Síndrome Respiratória Aguda Grave?
-- COVID-2019 e SARS são o mesmo vírus?
-- COVID-2019 e SARS.
-- COVID-2019 e Síndrome Respiratória Aguda Grave.
-- COVID-2019 é o mesmo que SARS?
-- COVID-2019 é o mesmo que Síndrome Respiratória Aguda Grave?
-- COVID19 e SARS são o mesmo vírus?
-- COVID19 e SARS.
-- COVID19 e Síndrome Respiratória Aguda Grave.
-- COVID19 é o mesmo que SARS?
-- COVID19 é o mesmo que Síndrome Respiratória Aguda Grave?
-- COVID2019 e SARS são o mesmo vírus?
-- COVID2019 e SARS.
-- COVID2019 e Síndrome Respiratória Aguda Grave.
-- COVID2019 é o mesmo que SARS?
-- COVID2019 é o mesmo que Síndrome Respiratória Aguda Grave?
-- Diferença entre  a COVID-19 e a SARS.
+- [COVID-19](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
+- [COVID-19](pt_virus:COVID) e SARS.
+- [COVID-19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- [COVID-19](pt_virus:COVID) é o mesmo que SARS?
+- [COVID-19](pt_virus:COVID) é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID-2019](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
+- [COVID-2019](pt_virus:COVID) e SARS.
+- [COVID-2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- [COVID-2019](pt_virus:COVID) é o mesmo que SARS?
+- [COVID-2019](pt_virus:COVID) é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID19](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
+- [COVID19](pt_virus:COVID) e SARS.
+- [COVID19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- [COVID19](pt_virus:COVID) é o mesmo que SARS?
+- [COVID19](pt_virus:COVID) é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID2019](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
+- [COVID2019](pt_virus:COVID) e SARS.
+- [COVID2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- [COVID2019](pt_virus:COVID) é o mesmo que SARS?
+- [COVID2019](pt_virus:COVID) é o mesmo que Síndrome Respiratória Aguda Grave?
+- Diferença entre  a [COVID-19](pt_virus:COVID) e a SARS.
 - Diferenças entre COVID e SARS
 - Diferenças entre COVID e síndrome respiratória aguda grave
-- Diferenças entre COVID-19 e SARS
-- Diferenças entre COVID-19 e Síndrome Respiratória Aguda Grave
-- Diferenças entre COVID-2019 e SARS
-- Diferenças entre COVID-2019 e Síndrome Respiratória Aguda Grave
-- Diferenças entre COVID19 e SARS
-- Diferenças entre COVID19 e Síndrome Respiratória Aguda Grave
-- Diferenças entre COVID2019 e SARS
-- Diferenças entre COVID2019 e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID-19](pt_virus:COVID) e SARS
+- Diferenças entre [COVID-19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID-2019](pt_virus:COVID) e SARS
+- Diferenças entre [COVID-2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID19](pt_virus:COVID) e SARS
+- Diferenças entre [COVID19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID2019](pt_virus:COVID) e SARS
+- Diferenças entre [COVID2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave
 - Diferenças entre SARS e COVID
-- Diferenças entre SARS e COVID-19
-- Diferenças entre SARS e COVID-2019
-- Diferenças entre SARS e COVID19
-- Diferenças entre SARS e COVID2019
-- Diferenças entre SARS e novo coronavírus
-- Diferenças entre novos coronavírus e SARS
-- Diferenças entre o novo coronavírus e a Síndrome Respiratória Aguda Grave
-- Existe diferença entre o novo coronavírus e a Síndrome Respiratória Aguda
+- Diferenças entre SARS e [COVID-19](pt_virus:COVID)
+- Diferenças entre SARS e [COVID-2019](pt_virus:COVID)
+- Diferenças entre SARS e [COVID19](pt_virus:COVID)
+- Diferenças entre SARS e [COVID2019](pt_virus:COVID)
+- Diferenças entre SARS e [novo coronavírus](pt_virus:COVID)
+- Diferenças entre novos [coronavírus](pt_virus:COVID) e SARS
+- Diferenças entre o [novo coronavírus](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave
+- Existe diferença entre o [novo coronavírus](pt_virus:COVID) e a Síndrome Respiratória Aguda
   Grave.
-- Informações do novo coronavírus e a Síndrome Respiratória Aguda Grave.
-- Informações dos novos coronavírus e SARS.
+- Informações do [novo coronavírus](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave.
+- Informações dos novos [coronavírus](pt_virus:COVID) e SARS.
 - Informações sobre COVID e SARS.
 - Informações sobre COVID e Síndrome Respiratória Aguda Grave.
-- Informações sobre COVID-19 e SARS.
-- Informações sobre COVID-19 e Síndrome Respiratória Aguda Grave.
-- Informações sobre COVID-2019 e SARS.
-- Informações sobre COVID-2019 e Síndrome Respiratória Aguda Grave.
-- Informações sobre COVID19 e SARS.
-- Informações sobre COVID19 e Síndrome Respiratória Aguda Grave.
-- Informações sobre COVID2019 e SARS.
-- Informações sobre COVID2019 e Síndrome Respiratória Aguda Grave.
-- Informações sobre SARS e COVID-19.
-- Informações sobre SARS e COVID-2019.
+- Informações sobre [COVID-19](pt_virus:COVID) e SARS.
+- Informações sobre [COVID-19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- Informações sobre [COVID-2019](pt_virus:COVID) e SARS.
+- Informações sobre [COVID-2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- Informações sobre [COVID19](pt_virus:COVID) e SARS.
+- Informações sobre [COVID19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- Informações sobre [COVID2019](pt_virus:COVID) e SARS.
+- Informações sobre [COVID2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- Informações sobre SARS e [COVID-19](pt_virus:COVID).
+- Informações sobre SARS e [COVID-2019](pt_virus:COVID).
 - Informações sobre SARS e COVID.
-- Informações sobre SARS e COVID19.
-- Informações sobre SARS e COVID2019.
-- Informações sobre SARS e novo coronavírus.
-- Informações sobre SARS e novos coronavírus.
-- Informações sobre novos coronavírus e SARS.
-- Informações sobre o novo coronavírus e a síndrome respiratória aguda grave.
-- O SARS é o mesmo que o novo coronavírus?
-- O novo coronavírus é igual à Síndrome Respiratória Aguda Grave?
-- O novo coronavírus é o mesmo que o SARS?
-- O novo coronavírus é o virus do SARS?
+- Informações sobre SARS e [COVID19](pt_virus:COVID).
+- Informações sobre SARS e [COVID2019](pt_virus:COVID).
+- Informações sobre SARS e [novo coronavírus](pt_virus:COVID).
+- Informações sobre SARS e novos [coronavírus](pt_virus:COVID).
+- Informações sobre novos [coronavírus](pt_virus:COVID) e SARS.
+- Informações sobre o [novo coronavírus](pt_virus:COVID) e a síndrome respiratória aguda grave.
+- O SARS é o mesmo que o [novo coronavírus](pt_virus:COVID)?
+- O [novo coronavírus](pt_virus:COVID) é igual à Síndrome Respiratória Aguda Grave?
+- O [novo coronavírus](pt_virus:COVID) é o mesmo que o SARS?
+- O [novo coronavírus](pt_virus:COVID) é o [virus](pt_virus:COVID) do SARS?
 - O que é o sars?
-- O vírus que causa COVID é o mesmo que causa a Síndrome Respiratória Aguda
+- O [vírus](pt_virus:COVID) que causa COVID é o mesmo que causa a Síndrome Respiratória Aguda
   Grave?
-- O vírus que causa COVID-19 e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus](pt_virus:COVID) que causa [COVID-19](pt_virus:COVID) e o que causa a Síndrome Respiratória Aguda Grave
   são os mesmos?
-- O vírus que causa a SARS e o que causa novos coronavírus são os mesmos?
-- O vírus que causa a SARS e o que causa o COVID são os mesmos?
-- O vírus que causa a SARS e o que causa o COVID-19 são os mesmos?
-- O vírus que causa a SARS e o que causa o COVID-2019 são os mesmos?
-- O vírus que causa a SARS e o que causa o COVID19 são os mesmos?
-- O vírus que causa a SARS e o que causa o COVID2019 são os mesmos?
-- O vírus que causa a SARS e o que causa o novo coronavírus são os mesmos?
-- O vírus que causa a SARS é o mesmo que causa o COVID ?
-- O vírus que causa a SARS é o mesmo que causa o COVID-19?
-- O vírus que causa a SARS é o mesmo que causa o COVID-2019?
-- O vírus que causa a SARS é o mesmo que causa o COVID19?
-- O vírus que causa a SARS é o mesmo que causa o COVID2019?
-- O vírus que causa a SARS é o mesmo que causa o novo coronavírus?
-- O vírus que causa o COVID e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa novos [coronavírus](pt_virus:COVID) são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o COVID são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [COVID-19](pt_virus:COVID) são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [COVID-2019](pt_virus:COVID) são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [COVID19](pt_virus:COVID) são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [COVID2019](pt_virus:COVID) são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [novo coronavírus](pt_virus:COVID) são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o COVID ?
+- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [COVID-19](pt_virus:COVID)?
+- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [COVID-2019](pt_virus:COVID)?
+- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [COVID19](pt_virus:COVID)?
+- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [COVID2019](pt_virus:COVID)?
+- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [novo coronavírus](pt_virus:COVID)?
+- O [vírus](pt_virus:COVID) que causa o COVID e o que causa a Síndrome Respiratória Aguda Grave
   são os mesmos?
-- O vírus que causa o COVID e o que causa o SARS são os mesmos?
-- O vírus que causa o COVID é o mesmo que causa o SARS?
-- O vírus que causa o COVID-19 e o que causa o SARS são os mesmos?
-- O vírus que causa o COVID-19 é o mesmo que causa a Síndrome Respiratória Aguda
+- O [vírus](pt_virus:COVID) que causa o COVID e o que causa o SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o COVID é o mesmo que causa o SARS?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) e o que causa o SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) é o mesmo que causa a Síndrome Respiratória Aguda
   Grave?
-- O vírus que causa o COVID-19 é o mesmo que causa o SARS?
-- O vírus que causa o COVID-2019 e o que causa a Síndrome Respiratória Aguda
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) é o mesmo que causa o SARS?
+- O [vírus](pt_virus:COVID) que causa o [COVID-2019](pt_virus:COVID) e o que causa a Síndrome Respiratória Aguda
   Grave são os mesmos?
-- O vírus que causa o COVID-2019 e o que causa o SARS são os mesmos?
-- O vírus que causa o COVID-2019 é o mesmo que causa a Síndrome Respiratória
+- O [vírus](pt_virus:COVID) que causa o [COVID-2019](pt_virus:COVID) e o que causa o SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o [COVID-2019](pt_virus:COVID) é o mesmo que causa a Síndrome Respiratória
   Aguda Grave?
-- O vírus que causa o COVID-2019 é o mesmo que causa o SARS?
-- O vírus que causa o COVID19 e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus](pt_virus:COVID) que causa o [COVID-2019](pt_virus:COVID) é o mesmo que causa o SARS?
+- O [vírus](pt_virus:COVID) que causa o [COVID19](pt_virus:COVID) e o que causa a Síndrome Respiratória Aguda Grave
   são os mesmos?
-- O vírus que causa o COVID19 e o que causa o SARS são os mesmos?
-- O vírus que causa o COVID19 é o mesmo que causa a Síndrome Respiratória Aguda
+- O [vírus](pt_virus:COVID) que causa o [COVID19](pt_virus:COVID) e o que causa o SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o [COVID19](pt_virus:COVID) é o mesmo que causa a Síndrome Respiratória Aguda
   Grave?
-- O vírus que causa o COVID19 é o mesmo que causa o SARS?
-- O vírus que causa o COVID2019 e o que causa a Síndrome Respiratória Aguda
+- O [vírus](pt_virus:COVID) que causa o [COVID19](pt_virus:COVID) é o mesmo que causa o SARS?
+- O [vírus](pt_virus:COVID) que causa o [COVID2019](pt_virus:COVID) e o que causa a Síndrome Respiratória Aguda
   Grave são os mesmos?
-- O vírus que causa o COVID2019 e o que causa o SARS são os mesmos?
-- O vírus que causa o COVID2019 é o mesmo que causa a Síndrome Respiratória
+- O [vírus](pt_virus:COVID) que causa o [COVID2019](pt_virus:COVID) e o que causa o SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o [COVID2019](pt_virus:COVID) é o mesmo que causa a Síndrome Respiratória
   Aguda Grave?
-- O vírus que causa o COVID2019 é o mesmo que causa o SARS?
-- O vírus que causa o novo coronavírus e o que causa a SARS são os mesmos?
-- O vírus que causa o novo coronavírus e o que causa a Síndrome Respiratória
+- O [vírus](pt_virus:COVID) que causa o [COVID2019](pt_virus:COVID) é o mesmo que causa o SARS?
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) e o que causa a SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) e o que causa a Síndrome Respiratória
   Aguda Grave são os mesmos?
-- O vírus que causa o novo coronavírus e o vírus da SARS são os mesmos?
-- O vírus que causa o novo coronavírus e o vírus da Síndrome Respiratória Aguda
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) e o [vírus](pt_virus:COVID) da SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) e o [vírus](pt_virus:COVID) da Síndrome Respiratória Aguda
   Grave são os mesmos?
-- O vírus que causa o novo coronavírus é o mesmo da SARS?
-- O vírus que causa o novo coronavírus é o mesmo que causa a Síndrome
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) é o mesmo da SARS?
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) é o mesmo que causa a Síndrome
   Respiratória Aguda Grave ?
-- O vírus que causa o novo coronavírus é o mesmo que causa a Síndrome
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) é o mesmo que causa a Síndrome
   Respiratória Aguda Grave?
-- O vírus que causa o novo coronavírus é o mesmo que causa o SARS?
-- O vírus que desenvolve a SARS é o mesmo que o novo coronavírus?
-- Recentes coronavírus e SARS.
-- SARS e COVID são o mesmo vírus?
-- SARS e COVID-19 são o mesmo vírus?
-- SARS e COVID-19.
-- SARS e COVID-2019 são o mesmo vírus?
-- SARS e COVID-2019.
-- SARS e COVID.
-- SARS e COVID19 são o mesmo vírus?
-- SARS e COVID19.
-- SARS e COVID2019 são o mesmo vírus?
-- SARS e COVID2019.
-- SARS e novo coronavírus são diferentes
-- SARS e novo coronavírus são o mesmo vírus?
-- SARS e novos coronavírus são o mesmo vírus?
-- SARS é o mesmo que COVID-19?
-- SARS é o mesmo que COVID-2019?
-- SARS é o mesmo que COVID19?
-- SARS é o mesmo que COVID2019?
-- SARS é o mesmo que COVID?
-- SARS é o mesmo que novo coronavírus?
-- Sobre COVID e SARS.
-- Sobre COVID-19 e SARS.
-- Sobre COVID-2019 e SARS.
-- Sobre COVID19 e SARS.
-- Sobre COVID19 e Síndrome Respiratória Aguda Grave.
-- Sobre COVID2019 e SARS.
-- Sobre COVID2019 e Síndrome Respiratória Aguda Grave.
-- Sobre SARS e COVID-19.
-- Sobre SARS e COVID-2019.
-- Sobre SARS e COVID.
-- Sobre SARS e COVID19.
-- Sobre SARS e COVID2019.
-- Sobre novos coronavírus e SARS.
-- Sobre o COVID e a Síndrome Respiratória Aguda Grave.
-- Sobre o COVID-19 e a Síndrome Respiratória Aguda Grave.
-- Sobre o COVID-2019 e a Síndrome Respiratória Aguda Grave.
-- Sobre o novo coronavírus e a síndrome respiratória aguda grave.
-- Síndrome Respiratória Aguda Grave e COVID são o mesmo vírus?
-- Síndrome Respiratória Aguda Grave e COVID-19 são o mesmo vírus?
-- Síndrome Respiratória Aguda Grave e COVID-2019 são o mesmo vírus?
-- Síndrome Respiratória Aguda Grave e COVID19 são o mesmo vírus?
-- Síndrome Respiratória Aguda Grave e COVID2019 são o mesmo vírus?
-- Síndrome respiratória aguda grave e novo coronavírus são o mesmo vírus?
-- novo coronavírus e SARS são o mesmo vírus?
-- novo coronavírus e SARS.
-- novo coronavírus e síndrome respiratória aguda grave.
-- novo coronavírus é diferente da síndrome respiratória aguda grave.
-- novos coronavírus e SARS são o mesmo vírus?
-- novos coronavírus e SARS.
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) é o mesmo que causa o SARS?
+- O [vírus](pt_virus:COVID) que desenvolve a SARS é o mesmo que o [novo coronavírus](pt_virus:COVID)?
+- Recentes [coronavírus](pt_virus:COVID) e SARS.
+- SARS e [COVID](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS e [COVID-19](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS e [COVID-19](pt_virus:COVID).
+- SARS e [COVID-2019](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS e [COVID-2019](pt_virus:COVID).
+- SARS e [COVID](pt_virus:COVID).
+- SARS e [COVID19](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS e [COVID19](pt_virus:COVID).
+- SARS e [COVID2019](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS e [COVID2019](pt_virus:COVID).
+- SARS e [novo coronavírus](pt_virus:COVID) são diferentes
+- SARS e [novo coronavírus](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS e novos [coronavírus](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS é o mesmo que [COVID-19](pt_virus:COVID)?
+- SARS é o mesmo que [COVID-2019](pt_virus:COVID)?
+- SARS é o mesmo que [COVID19](pt_virus:COVID)?
+- SARS é o mesmo que [COVID2019](pt_virus:COVID)?
+- SARS é o mesmo que [COVID](pt_virus:COVID)?
+- SARS é o mesmo que [novo coronavírus](pt_virus:COVID)?
+- Sobre [COVID](pt_virus:COVID) e SARS.
+- Sobre [COVID-19](pt_virus:COVID) e SARS.
+- Sobre [COVID-2019](pt_virus:COVID) e SARS.
+- Sobre [COVID19](pt_virus:COVID) e SARS.
+- Sobre [COVID19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- Sobre [COVID2019](pt_virus:COVID) e SARS.
+- Sobre [COVID2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- Sobre SARS e [COVID-19](pt_virus:COVID).
+- Sobre SARS e [COVID-2019](pt_virus:COVID).
+- Sobre SARS e [COVID](pt_virus:COVID).
+- Sobre SARS e [COVID19](pt_virus:COVID).
+- Sobre SARS e [COVID2019](pt_virus:COVID).
+- Sobre novos [coronavírus](pt_virus:COVID) e SARS.
+- Sobre o [COVID](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave.
+- Sobre o [COVID-19](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave.
+- Sobre o [COVID-2019](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave.
+- Sobre o [novo coronavírus](pt_virus:COVID) e a síndrome respiratória aguda grave.
+- Síndrome Respiratória Aguda Grave e COVID são o mesmo [vírus](pt_virus:COVID)?
+- Síndrome Respiratória Aguda Grave e [COVID-19](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- Síndrome Respiratória Aguda Grave e [COVID-2019](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- Síndrome Respiratória Aguda Grave e [COVID19](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- Síndrome Respiratória Aguda Grave e [COVID2019](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- Síndrome respiratória aguda grave e [novo coronavírus](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- [novo coronavírus](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
+- [novo coronavírus](pt_virus:COVID) e SARS.
+- [novo coronavírus](pt_virus:COVID) e síndrome respiratória aguda grave.
+- [novo coronavírus](pt_virus:COVID) é diferente da síndrome respiratória aguda grave.
+- novos [coronavírus](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
+- novos [coronavírus](pt_virus:COVID) e SARS.
 
 ## intent:pt_covid_situation
-- ASUS de covid no Alentejo
-- Casos de covid no Alentejo
+- ASUS de [covid](pt_virus:COVID) no Alentejo
+- Casos de [covid](pt_virus:COVID) no Alentejo
 - Como estão as contagens no mundo?
 - Contagem infectada
 - Diga-me os números reais.
 - Em que países é que se detetaram pessoas infetadas?
-- Estatísticas atualizadas do Coronavirus
-- Gostaria de saber se há casos em Évora
+- Estatísticas atualizadas do [coronavirus](pt_virus:COVID)
+- Gostaria de saber se há casos em [Évora](pt_geography:town)
 - Mortos
 - Número de casos
 - Número de casos confirmados
@@ -2940,11 +2940,11 @@
 - Número de mortes
 - Número de mortes em todo o mundo.
 - Número de mortos
-- Olá. Quantos infetados existem em portugal?
+- Olá. Quantos infetados existem em [portugal](pt_country_code:PT)?
 - Quais as cidades mais afetadas
 - Quais são as cidades mais afetadas
-- Quais são as estatísticas mais recentes sobre coronavírus?
-- Qual é o numero de internados com covid em portugal?
+- Quais são as estatísticas mais recentes sobre [coronavírus](pt_virus:COVID)?
+- Qual é o numero de internados com [covid](pt_virus:COVID) em [portugal](pt_country_code:PT)?
 - Qual é o número de casos confirmados?
 - Qual é o número de casos?
 - Qual é o número de infectados?
@@ -2952,47 +2952,47 @@
 - Qual é o número de mortos devido ao surto?
 - Quantas infecções existem em todo o mundo?
 - Quantas são as contagens no mundo?
-- Quanto mortos em Portugal por causa do coronavirus?
-- Quantoa mortos em portugal?
-- Quantos casos de corrid no mundo
+- Quanto mortos em [portugal](pt_country_code:PT) por causa do coronavirus?
+- Quantoa mortos em [portugal](pt_country_code:PT)?
+- Quantos casos de [corrid] no mundo
 - Quantos casos de infetados há mundialmente?
-- Quantos casos em Portugal?
-- Quantos casos existem em Portugal
+- Quantos casos em [portugal](pt_country_code:PT)?
+- Quantos casos existem em [portugal](pt_country_code:PT)
 - Quantos casos foram registados hoje?
 - Quantos casos novos ha hoje?
-- Quantos infectados existem neste momento em Portugal?
-- Quantos infetados tem a Turquia?
-- Quantos internados ha em portugal beste momento?
-- Quantos mortos houve em Portugal hoje?
+- Quantos infectados existem neste momento em [portugal](pt_country_code:PT)?
+- Quantos infetados tem a [Turquia](pt_country_code:TR)?
+- Quantos internados ha em [portugal](pt_country_code:PT) beste momento?
+- Quantos mortos houve em [portugal](pt_country_code:PT) hoje?
 - Quantos mortos temos hoje?
 - Sim. Sabes qual o país onde existe o maior número de infectados?
-- Situação atualizada do coronavírus
+- Situação atualizada do [coronavírus](pt_virus:COVID)
 - Statistics.
 - casos
 - de corrige no Alentejo
 - existem números
 - falar sobre os números
-- morte na alemanha
-- numero de ifetados portugal
-- numeros para portugal hoje
-- número de infetados em lisboa
+- morte na [alemanha](pt_country_code:DE)
+- numero de ifetados [portugal](pt_country_code:PT)
+- numeros para [portugal](pt_country_code:PT) hoje
+- número de infetados em [lisboa](pt_geography:town)
 - o que é a contagem de mortes?
 - quais são os números e o galgo hoje
-- qual o numero de casos confirmados em Portugal?
-- qual o numero de pessoas nos cuidados intensivos por causa da covid ?
+- qual o numero de casos confirmados em [portugal](pt_country_code:PT)?
+- qual o numero de pessoas nos cuidados intensivos por causa da [covid](pt_virus:COVID) ?
 - quantas pessoas estão infectadas
 - quantas pessoas morreram hoje?
 - quantas pessoas no mundo estao infetadas ?
-- quantas pessoas no mundo têm covid ?
-- quantos casos de covid-19 há em Portugal?
-- quantos casos há em portugal no momento?
+- quantas pessoas no mundo têm [covid](pt_virus:COVID) ?
+- quantos casos de [COVID-19](pt_virus:COVID) há em [portugal](pt_country_code:PT)?
+- quantos casos há em [portugal](pt_country_code:PT) no momento?
 - quantos casos há no mundo?
-- quantos mortos em portugal?
-- relação covid no mundo
-- situação do covid no mundo
+- quantos mortos em [portugal](pt_country_code:PT)?
+- relação [covid](pt_virus:COVID) no mundo
+- situação do [covid](pt_virus:COVID) no mundo
 - situação mundial
-- COVID em [Bermudas Bélgica](pt_geography:town)
-- COVID-19 em [Košice](pt_geography:town)
+- [covid](pt_virus:COVID) em [Bermudas Bélgica](pt_geography:town)
+- [COVID-19](pt_virus:COVID) em [Košice](pt_geography:town)
 - Como está a situação em [Langenfeld](pt_geography:town)?
 - Coronavirus em [Praia](pt_geography:town)
 - Estatísticas actualizadas em [Cingapura](pt_geography:town)
@@ -3002,8 +3002,8 @@
 - Notícias [Gladbach](pt_geography:town)
 - Notícias atuais [Baltimore](pt_geography:town)
 - Notícias de [Ilhas Falkland](pt_geography:town)
-- Notícias sobre o COVID-19
-- Novo coronavírus em [Nordhorn](pt_geography:town)
+- Notícias sobre o [COVID-19](pt_virus:COVID)
+- [novo coronavírus](pt_virus:COVID) em [Nordhorn](pt_geography:town)
 - Situação [Nashik](pt_geography:town)
 - Situação actual em [Überlingen](pt_geography:town)
 - Situação actualizada em [Yichang](pt_geography:town)
@@ -3025,7 +3025,7 @@
 - Número total de mortes em [Zimbaué](pt_country_code:ZW).
 - Número total de mortos em [Malawi](pt_country_code:MW)?
 - Olá. Quantos mortos existem em [Free Associated State of Puerto Rico](pt_country_code:PR)?
-- Qual é o numero de mortos com covid em [UAE](pt_country_code:AE)?
+- Qual é o numero de mortos com [covid](pt_virus:COVID) em [UAE](pt_country_code:AE)?
 - Qual é o número de mortes em [Gànnaar](pt_country_code:MR)?
 - Qual é o número de mortos em [República de Guinea Ecuatorial](pt_country_code:GQ)?
 - Quantos casos de mortos há em [Kingdom of Eswatini](pt_country_code:SZ)?
@@ -3040,18 +3040,18 @@
 - quantas pessoas morreram em [Mexico](pt_country_code:MX)?
 
 ## intent:pt_covid_situation_infected
-- ASUS de covid ativos em [Austrália](pt_country_code:AU)
-- ASUS de covid ativos no [Ayiti](pt_country_code:HT)
-- ASUS de covid em [República da Turquia](pt_country_code:TR)
-- ASUS de covid no [United Republic of Tanzania](pt_country_code:TZ)
-- ASUS de covid no total em [Република Северна Македонија](pt_country_code:MK)
-- ASUS de covid no total no [Reino da Noruega](pt_country_code:NO)
-- Casos ativos de covid em [Mexico](pt_country_code:MX)
-- Casos ativos de covid no [Comunidade das Bahamas](pt_country_code:BS)
+- ASUS de [covid](pt_virus:COVID) ativos em [Austrália](pt_country_code:AU)
+- ASUS de [covid](pt_virus:COVID) ativos no [Ayiti](pt_country_code:HT)
+- ASUS de [covid](pt_virus:COVID) em [República da Turquia](pt_country_code:TR)
+- ASUS de [covid](pt_virus:COVID) no [United Republic of Tanzania](pt_country_code:TZ)
+- ASUS de [covid](pt_virus:COVID) no total em [Република Северна Македонија](pt_country_code:MK)
+- ASUS de [covid](pt_virus:COVID) no total no [Reino da Noruega](pt_country_code:NO)
+- Casos ativos de [covid](pt_virus:COVID) em [Mexico](pt_country_code:MX)
+- Casos ativos de [covid](pt_virus:COVID) no [Comunidade das Bahamas](pt_country_code:BS)
 - Casos confirmados ativos em [República das Seychelles](pt_country_code:SC)
 - Casos confirmados em [Ilizwe leZimbabwe](pt_country_code:ZW)
-- Casos de covid em [Pyidaunzu Thanmăda Myăma](pt_country_code:MM)
-- Casos de covid no [Republic of Chile](pt_country_code:CL)
+- Casos de [covid](pt_virus:COVID) em [Pyidaunzu Thanmăda Myăma](pt_country_code:MM)
+- Casos de [covid](pt_virus:COVID) no [Republic of Chile](pt_country_code:CL)
 - Contagem infectada ativa em [Xīnjiāpō](pt_country_code:SG)
 - Contagem infectada ativa no [Dominica](pt_country_code:DM)
 - Contagem infectada em [Índia](pt_country_code:IN)
@@ -3078,10 +3078,10 @@
 - Olá. Quantos infetados existem em [Cocos (Keeling) Islands](pt_country_code:CC)?
 - Olá. Quantos infetados no total existem em [Republic of Senegal](pt_country_code:SN)?
 - Olá. Quantos total de infetados existem em [República das Honduras](pt_country_code:HN)?
-- Qual é o numero de infetados ativos com covid em [Saba](pt_country_code:BQ)?
-- Qual é o numero de infetados com covid em [República do Uzbequistão](pt_country_code:UZ)?
-- Qual é o numero de infetados no total com covid em [Cypriot Republic](pt_country_code:CY)?
-- Qual é o numero de total de infetados com covid em [Iyonola](pt_country_code:LC)?
+- Qual é o numero de infetados ativos com [covid](pt_virus:COVID) em [Saba](pt_country_code:BQ)?
+- Qual é o numero de infetados com [covid](pt_virus:COVID) em [República do Uzbequistão](pt_country_code:UZ)?
+- Qual é o numero de infetados no total com [covid](pt_virus:COVID) em [Cypriot Republic](pt_country_code:CY)?
+- Qual é o numero de total de infetados com [covid](pt_virus:COVID) em [Iyonola](pt_country_code:LC)?
 - Qual é o número de casos ativos em [Estado do Qatar](pt_country_code:QA)?
 - Qual é o número de casos confirmados ativos em [Principality of Andorra](pt_country_code:AD)?
 - Qual é o número de casos confirmados em [Irlanda do Norte](pt_country_code:GB)?
@@ -3091,11 +3091,11 @@
 - Qual é o número de infectados ativos em [República da Maurícia](pt_country_code:MU)?
 - Qual é o número de infectados em [Estado da Líbia](pt_country_code:LY)?
 - Qual é o número de infectados no total em [Dominican Republic](pt_country_code:DO)?
-- Quantos casos ativos de corrid em [Nöörje](pt_country_code:NO)
+- Quantos casos ativos de [corrid] em [Nöörje](pt_country_code:NO)
 - Quantos casos ativos em [Suriname](pt_country_code:SR)?
 - Quantos casos ativos existem em [Faroe Islands](pt_country_code:FO)
 - Quantos casos ativos há na [Jamhuuriyadda Federaalka Soomaaliya](pt_country_code:SO)?
-- Quantos casos de corrid em [Canadá](pt_country_code:CA)
+- Quantos casos de [corrid] em [Canadá](pt_country_code:CA)
 - Quantos casos de infetados ativos há em [Mann](pt_country_code:IM)?
 - Quantos casos de infetados há em [Bosna i Hercegovina](pt_country_code:BA)?
 - Quantos casos de infetados no total há em [Turks and Caicos Islands](pt_country_code:TC)?
@@ -3123,8 +3123,8 @@
 - Quantos total de infetados tem a [Svalbard og Jan Mayen](pt_country_code:SJ)?
 - Quantos total de infetados tem o [Slovenija](pt_country_code:SI)?
 - casos no total confirmados em [Japan](pt_country_code:JP)
-- casos no total de covid em [Bolívia](pt_country_code:BO)
-- casos no total de covid no [Al-ʾUrdunn](pt_country_code:JO)
+- casos no total de [covid](pt_virus:COVID) em [Bolívia](pt_country_code:BO)
+- casos no total de [covid](pt_virus:COVID) no [Al-ʾUrdunn](pt_country_code:JO)
 - qual o numero de casos confirmados ativos em [Wallis e Futuna](pt_country_code:WF)?
 - qual o numero de casos confirmados em [Barbuda](pt_country_code:AG)?
 - qual o numero de casos no total confirmados em [Sultanate of Oman](pt_country_code:OM)?
@@ -3137,37 +3137,37 @@
 - quantas pessoas estiveram infectadas em [Repubblica di San Marino](pt_country_code:SM)
 - quantas pessoas estão infectadas atualmente em [Tunisie](pt_country_code:TN)
 - quantas pessoas estão infectadas em [Mēxihco](pt_country_code:MX)
-- quantos casos ativos de covid-19 há em [República das Maldivas](pt_country_code:MV)?
+- quantos casos ativos de [COVID-19](pt_virus:COVID) há em [República das Maldivas](pt_country_code:MV)?
 - quantos casos ativos há em [Ilha Bouvet](pt_country_code:BV) no momento?
 - quantos casos ativos há no [Oʻzbekiston](pt_country_code:UZ)?
-- quantos casos de covid-19 há em [Beluu er a Belau](pt_country_code:PW)?
+- quantos casos de [COVID-19](pt_virus:COVID) há em [Beluu er a Belau](pt_country_code:PW)?
 - quantos casos há em [Reino da Jordânia](pt_country_code:JO) no momento?
 - quantos casos há no [Република Србија](pt_country_code:RS)?
-- quantos casos no total de covid-19 há em [República da Moldávia](pt_country_code:MD)?
+- quantos casos no total de [COVID-19](pt_virus:COVID) há em [República da Moldávia](pt_country_code:MD)?
 - quantos casos no total há em [Republic of India](pt_country_code:IN) no momento?
 - quantos casos no total há no [Macao](pt_country_code:MO)?
 
 ## intent:pt_covid_situation_infected_critical
-- ASUS alarmantes de covid em [República Islâmica do Afeganistão](pt_country_code:AF)
-- ASUS alarmantes de covid no [Domínica](pt_country_code:DM)
-- ASUS criticos de covid em [Maurício](pt_country_code:MU)
-- ASUS criticos de covid no [República Federal do Brasil](pt_country_code:BR)
-- ASUS críticos de covid em [Republic of Argentina](pt_country_code:AR)
-- ASUS críticos de covid no [Republic of Maldives](pt_country_code:MV)
-- ASUS graves de covid em [Dawlat al-Kuwait](pt_country_code:KW)
-- ASUS graves de covid no [República Dominicana](pt_country_code:DO)
-- Casos alarmantes de covid em [Santa Helena, Ascensão e Tristão da Cunha](pt_country_code:SH)
-- Casos alarmantes de covid no [Pitcairn, Henderson, Ducie and Oeno Islands](pt_country_code:PN)
+- ASUS alarmantes de [covid](pt_virus:COVID) em [República Islâmica do Afeganistão](pt_country_code:AF)
+- ASUS alarmantes de [covid](pt_virus:COVID) no [Domínica](pt_country_code:DM)
+- ASUS criticos de cov[id em [Maurício](pt_country_code:MU)
+- ASUS criticos de [covid](pt_virus:COVID) no [República Federal do Brasil](pt_country_code:BR)
+- ASUS críticos de [covid](pt_virus:COVID) em [Republic of Argentina](pt_country_code:AR)
+- ASUS críticos de [covid](pt_virus:COVID) no [Republic of Maldives](pt_country_code:MV)
+- ASUS graves de [covid](pt_virus:COVID) em [Dawlat al-Kuwait](pt_country_code:KW)
+- ASUS graves de [covid](pt_virus:COVID) no [República Dominicana](pt_country_code:DO)
+- Casos alarmantes de [covid](pt_virus:COVID) em [Santa Helena, Ascensão e Tristão da Cunha](pt_country_code:SH)
+- Casos alarmantes de [covid](pt_virus:COVID) no [Pitcairn, Henderson, Ducie and Oeno Islands](pt_country_code:PN)
 - Casos confirmados alarmantes em [Congo Brazzaville](pt_country_code:CG)
 - Casos confirmados criticos em [Syria](pt_country_code:SY)
 - Casos confirmados críticos em [Baamas](pt_country_code:BS)
 - Casos confirmados graves em [Ilha Jarvis](pt_country_code:UM)
-- Casos criticos de covid em [Cisi ca Zambia](pt_country_code:ZM)
-- Casos criticos de covid no [Commonwealth of Australia](pt_country_code:AU)
-- Casos críticos de covid em [Niuē](pt_country_code:NU)
-- Casos críticos de covid no [Reino de España](pt_country_code:ES)
-- Casos graves de covid em [Antigua and Barbuda](pt_country_code:AG)
-- Casos graves de covid no [Norfolk Island](pt_country_code:NF)
+- Casos criticos de [covid](pt_virus:COVID) em [Cisi ca Zambia](pt_country_code:ZM)
+- Casos criticos de [covid](pt_virus:COVID) no [Commonwealth of Australia](pt_country_code:AU)
+- Casos críticos de [covid](pt_virus:COVID) em [Niuē](pt_country_code:NU)
+- Casos críticos de [covid](pt_virus:COVID) no [Reino de España](pt_country_code:ES)
+- Casos graves de [covid](pt_virus:COVID) em [Antigua and Barbuda](pt_country_code:AG)
+- Casos graves de [covid](pt_virus:COVID) no [Norfolk Island](pt_country_code:NF)
 - Contagem infectada alarmante em [Sérvia](pt_country_code:RS)
 - Contagem infectada alarmante no [U.K.](pt_country_code:GB)
 - Contagem infectada critica em [Bailliage dé Jèrri](pt_country_code:JE)
@@ -3202,10 +3202,10 @@
 - Olá. Quantos infetados criticos existem em [Chosŏn](pt_country_code:KP)?
 - Olá. Quantos infetados críticos existem em [Federal Republic of Germany](pt_country_code:DE)?
 - Olá. Quantos infetados graves existem em [Chile](pt_country_code:CL)?
-- Qual é o numero de infetados alarmantes com covid em [Namhan](pt_country_code:KR)?
-- Qual é o numero de infetados criticos com covid em [Coletividade de São Bartolomeu](pt_country_code:BL)?
-- Qual é o numero de infetados críticos com covid em [Hellas](pt_country_code:GR)?
-- Qual é o numero de infetados graves com covid em [Território da Ilha Norfolque](pt_country_code:NF)?
+- Qual é o numero de infetados alarmantes com [covid](pt_virus:COVID) em [Namhan](pt_country_code:KR)?
+- Qual é o numero de infetados criticos com [covid](pt_virus:COVID) em [Coletividade de São Bartolomeu](pt_country_code:BL)?
+- Qual é o numero de infetados críticos com [covid](pt_virus:COVID) em [Hellas](pt_country_code:GR)?
+- Qual é o numero de infetados graves com [covid](pt_virus:COVID) em [Território da Ilha Norfolque](pt_country_code:NF)?
 - Qual é o número de casos alarmantes em [Falklands](pt_country_code:FK)?
 - Qual é o número de casos confirmados alarmantes em [Ilha da Irlanda](pt_country_code:IE)?
 - Qual é o número de casos confirmados criticos em [Republic of North Macedonia](pt_country_code:MK)?
@@ -3254,16 +3254,16 @@
 - qual o numero de casos confirmados criticos em [Renndaandi Ginea](pt_country_code:GN)?
 - qual o numero de casos confirmados críticos em [Republic of Honduras](pt_country_code:HN)?
 - qual o numero de casos confirmados graves em [La Grenade](pt_country_code:GD)?
-- quantos casos alarmantes de covid-19 há em [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà](pt_country_code:NG)?
+- quantos casos alarmantes de [COVID-19](pt_virus:COVID) há em [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà](pt_country_code:NG)?
 - quantos casos alarmantes há em [Jamhuriyar Taraiyar Najeriya](pt_country_code:NG) no momento?
 - quantos casos alarmantes há no [Republic of Belarus](pt_country_code:BY)?
-- quantos casos criticos de covid-19 há em [Jamaica](pt_country_code:JM)?
+- quantos casos criticos de [COVID-19](pt_virus:COVID) há em [Jamaica](pt_country_code:JM)?
 - quantos casos criticos há em [Portuguese Republic](pt_country_code:PT) no momento?
 - quantos casos criticos há no [Croácia](pt_country_code:HR)?
-- quantos casos críticos de covid-19 há em [Airlann](pt_country_code:IE)?
+- quantos casos críticos de [COVID-19](pt_virus:COVID) há em [Airlann](pt_country_code:IE)?
 - quantos casos críticos há em [Republic of Mozambique](pt_country_code:MZ) no momento?
 - quantos casos críticos há no [República das Seicheles ou Seychelles](pt_country_code:SC)?
-- quantos casos graves de covid-19 há em [República da Lituânia](pt_country_code:LT)?
+- quantos casos graves de [COVID-19](pt_virus:COVID) há em [República da Lituânia](pt_country_code:LT)?
 - quantos casos graves há em [Nouvelle-Calédonie](pt_country_code:NC) no momento?
 - quantos casos graves há no [Republik Namibia](pt_country_code:NA)?
 
@@ -3316,8 +3316,8 @@
 - Número total de recuperações em [Tchade](pt_country_code:TD)?
 - Olá. Quantos recuperados existem em [Noreg](pt_country_code:NO)?
 - Olá. Quantos recuperações existem em [Republic of Kazakhstan](pt_country_code:KZ)?
-- Qual é o numero de recuperados com covid em [Reino de Espanha](pt_country_code:ES)?
-- Qual é o numero de recuperações com covid em [Bermuda](pt_country_code:BM)?
+- Qual é o numero de recuperados com [covid](pt_virus:COVID) em [Reino de Espanha](pt_country_code:ES)?
+- Qual é o numero de recuperações com [covid](pt_virus:COVID) em [Bermuda](pt_country_code:BM)?
 - Qual é o número de recuperados em [Grão-Ducado do Luxemburgo](pt_country_code:LU)?
 - Qual é o número de recuperações em [Republic of Equatorial Guinea](pt_country_code:GQ)?
 - Quantos casos de recuperados há em [República da Coreia](pt_country_code:KR)?
@@ -3361,8 +3361,8 @@
 - Número total de testes em [iRiphabhuliki yaseNingizimu Afrika](pt_country_code:ZA)?
 - Olá. Quantos testados existem em [Malawi](pt_country_code:MW)?
 - Olá. Quantos testes existem em [São Tomé e Príncipe](pt_country_code:ST)?
-- Qual é o numero de testados com covid em [Czech Republic](pt_country_code:CZ)?
-- Qual é o numero de testes com covid em [Belgique](pt_country_code:BE)?
+- Qual é o numero de testados com [covid](pt_virus:COVID) em [Czech Republic](pt_country_code:CZ)?
+- Qual é o numero de testes com [covid](pt_virus:COVID) em [Belgique](pt_country_code:BE)?
 - Qual é o número de testados em [Republika Bǎlgarija](pt_country_code:BG)?
 - Qual é o número de testes em [Taiwan, China](pt_country_code:TW)?
 - Quantos casos de testados há em [Mauritania](pt_country_code:MR)?
@@ -3386,76 +3386,76 @@
 - testes em [Hong Kong](pt_country_code:HK).
 
 ## intent:pt_covid_surfaces
-- Coronavírus persiste por quanto tempo nas superfícies?
-- Durabilidade SARS-Cov-2 em superfícies.
-- Durabilidade do SARS-Cov-2 em superfícies.
-- Durabilidade do coronavírus em superfícies.
-- Durabilidade do novo coronavírus em superfícies.
-- Durabilidade do vírus em superfícies.
+- [coronavírus](pt_virus:COVID) persiste por quanto tempo nas superfícies?
+- Durabilidade [SARS-Cov-2](pt_virus:COVID) em superfícies.
+- Durabilidade do [SARS-Cov-2](pt_virus:COVID) em superfícies.
+- Durabilidade do [coronavírus](pt_virus:COVID) em superfícies.
+- Durabilidade do [novo coronavírus](pt_virus:COVID) em superfícies.
+- Durabilidade do [vírus](pt_virus:COVID) em superfícies.
 - E no papel quanto tempo leva a se tornar inactivo
-- Intervalo temporal de existência do vírus nas superfícies?
-- Nova durabilidade do coronavírus em superfícies.
-- Novas superfícies de durabilidade para coronavírus.
-- Novas superfícies de sobrevivência ao coronavírus.
-- Periodo de durabilidade do coronavírus em superfícies.
-- Periodo de existência do vírus em superfícies.
-- Por quanto tempo o SARS-Cov-2 persiste em superfícies?
-- Por quanto tempo o SARS-Cov-2 pode exisitir em superfícies?
-- Por quanto tempo o SARS-Cov-2 pode persistir em superfícies?
-- Por quanto tempo o SARS-Cov-2 pode sobreviver em superfícies?
-- Por quanto tempo o SARS-Cov-2 que causa o COVID-19 persiste nas superfícies?
-- Por quanto tempo o coronavírus persiste em superfícies?
-- Por quanto tempo o coronavírus persiste nas superfícies?
-- Por quanto tempo o coronavírus pode sobreviver em superfícies?
-- Por quanto tempo o coronavírus que causa o COVID-19 persiste nas superfícies?
-- Por quanto tempo o novo coronavírus persiste nas superfícies?
-- Por quanto tempo o novo coronavírus pode persistir em superfícies?
-- Por quanto tempo o novo coronavírus pode sobreviver em superfícies?
-- Por quanto tempo o novo coronavírus que causa o COVID-19 persiste nas
+- Intervalo temporal de existência do [vírus](pt_virus:COVID) nas superfícies?
+- Nova durabilidade do [coronavírus](pt_virus:COVID) em superfícies.
+- Novas superfícies de durabilidade para [coronavírus](pt_virus:COVID).
+- Novas superfícies de sobrevivência ao [coronavírus](pt_virus:COVID).
+- Periodo de durabilidade do [coronavírus](pt_virus:COVID) em superfícies.
+- Periodo de existência do [vírus](pt_virus:COVID) em superfícies.
+- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) persiste em superfícies?
+- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) pode exisitir em superfícies?
+- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) pode persistir em superfícies?
+- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) pode sobreviver em superfícies?
+- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) persiste nas superfícies?
+- Por quanto tempo o [coronavírus](pt_virus:COVID) persiste em superfícies?
+- Por quanto tempo o [coronavírus](pt_virus:COVID) persiste nas superfícies?
+- Por quanto tempo o [coronavírus](pt_virus:COVID) pode sobreviver em superfícies?
+- Por quanto tempo o [coronavírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) persiste nas superfícies?
+- Por quanto tempo o [novo coronavírus](pt_virus:COVID) persiste nas superfícies?
+- Por quanto tempo o [novo coronavírus](pt_virus:COVID) pode persistir em superfícies?
+- Por quanto tempo o [novo coronavírus](pt_virus:COVID) pode sobreviver em superfícies?
+- Por quanto tempo o [novo coronavírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) persiste nas
   superfícies?
-- Por quanto tempo o novo coronavírus que causa o COVID-19 sobrevive em
+- Por quanto tempo o [novo coronavírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) sobrevive em
   superfícies?
-- Por quanto tempo o vírus persiste em superfícies?
-- Por quanto tempo o vírus pode persistir em superfícies?
-- Por quanto tempo o vírus pode sobreviver em superfícies?
-- Por quanto tempo o vírus que causa o COVID-19 persiste nas superfícies?
-- Por quanto tempo o vírus que causa o COVID-19 sobrevive em superfícies?
-- Por quanto tempo o vírus se mantem nas superfícies?
-- Quanto tempo o SARS-Cov-2 existe em superfícies?
-- Quanto tempo o SARS-Cov-2 persiste nas superfícies?
-- Quanto tempo o SARS-Cov-2 pode sobreviver em superfícies?
-- Quanto tempo o SARS-Cov-2 que causa o COVID-19 sobrevive em superfícies?
-- Quanto tempo o SARS-Cov-2 sobrevive em superfícies?
-- Quanto tempo o coronavírus pode sobreviver em superfícies?
-- Quanto tempo o coronavírus que causa o COVID-19 sobrevive em superfícies?
-- Quanto tempo o coronavírus sobrevive em superfícies?
-- Quanto tempo o novo coronavírus pode sobreviver em superfícies?
-- Quanto tempo o novo coronavírus sobrevive em superfícies?
-- Quanto tempo o novo coronavírus sobrevive nas superfícies?
-- Quanto tempo o virus se mantem vivo em objetos?
-- Quanto tempo o vírus pode sobreviver em superfícies?
-- Quanto tempo o vírus sobrevive em superfícies?
+- Por quanto tempo o [vírus](pt_virus:COVID) persiste em superfícies?
+- Por quanto tempo o [vírus](pt_virus:COVID) pode persistir em superfícies?
+- Por quanto tempo o [vírus](pt_virus:COVID) pode sobreviver em superfícies?
+- Por quanto tempo o [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) persiste nas superfícies?
+- Por quanto tempo o [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) sobrevive em superfícies?
+- Por quanto tempo o [vírus](pt_virus:COVID) se mantem nas superfícies?
+- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) existe em superfícies?
+- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) persiste nas superfícies?
+- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) pode sobreviver em superfícies?
+- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) sobrevive em superfícies?
+- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) sobrevive em superfícies?
+- Quanto tempo o [coronavírus](pt_virus:COVID) pode sobreviver em superfícies?
+- Quanto tempo o [coronavírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) sobrevive em superfícies?
+- Quanto tempo o [coronavírus](pt_virus:COVID) sobrevive em superfícies?
+- Quanto tempo o [novo coronavírus](pt_virus:COVID) pode sobreviver em superfícies?
+- Quanto tempo o [novo coronavírus](pt_virus:COVID) sobrevive em superfícies?
+- Quanto tempo o [novo coronavírus](pt_virus:COVID) sobrevive nas superfícies?
+- Quanto tempo o [virus](pt_virus:COVID) se mantem vivo em objetos?
+- Quanto tempo o [vírus](pt_virus:COVID) pode sobreviver em superfícies?
+- Quanto tempo o [vírus](pt_virus:COVID) sobrevive em superfícies?
 - Sobrevivência em superfícies.
-- Superfícies de durabilidade SARS-Cov-2.
-- Superfícies de durabilidade do vírus.
-- Superfícies de durabilidade para coronavírus.
-- Superfícies de sobrevivência SARS-Cov-2.
-- Superfícies de sobrevivência ao coronavírus.
-- Superfícies de sobrevivência de vírus.
-- Tempo que o coronavírus persiste nas superfícies?
-- Tempo que o novo coronavírus persiste nas superfícies?
-- coronavírus persiste nas superfícies?
-- coronavírus pode sobreviver por quanto tempo em superfícies?
-- gostaria de saber o tempo que leva o Covid 19 a tornar-se inativo nas
+- Superfícies de durabilidade [SARS-Cov-2](pt_virus:COVID).
+- Superfícies de durabilidade do [vírus](pt_virus:COVID).
+- Superfícies de durabilidade para [coronavírus](pt_virus:COVID).
+- Superfícies de sobrevivência [SARS-Cov-2](pt_virus:COVID).
+- Superfícies de sobrevivência ao [coronavírus](pt_virus:COVID).
+- Superfícies de sobrevivência de [vírus](pt_virus:COVID).
+- Tempo que o [coronavírus](pt_virus:COVID) persiste nas superfícies?
+- Tempo que o [novo coronavírus](pt_virus:COVID) persiste nas superfícies?
+- [coronavírus](pt_virus:COVID) persiste nas superfícies?
+- [coronavírus](pt_virus:COVID) pode sobreviver por quanto tempo em superfícies?
+- gostaria de saber o tempo que leva o [Covid 19](pt_virus:COVID) a tornar-se inativo nas
   diferentes superficies
-- gostaria de saber o tempo que leva o Covid 19 a tornar-se inativo nas
+- gostaria de saber o tempo que leva o [Covid 19](pt_virus:COVID) a tornar-se inativo nas
   diferentes superficies e na nossa pele também
-- o coronavírus sobrevive em superfícies por quanto tempo?
-- o novo coronavírus persiste nas superfícies por quanto tempo?
-- se andar de elevador depois de uma pessoa infetada apanho virus?
-- tempo de persistência do novo coronavírus em superfícies?
-- tempo médio de sobrevivência do vírus em superfícies?
-- é verdade que o coronavírus pode ficar vários dias em superficies metálicas?
+- o [coronavírus](pt_virus:COVID) sobrevive em superfícies por quanto tempo?
+- o [novo coronavírus](pt_virus:COVID) persiste nas superfícies por quanto tempo?
+- se andar de elevador depois de uma pessoa infetada apanho [virus](pt_virus:COVID)?
+- tempo de persistência do [novo coronavírus](pt_virus:COVID) em superfícies?
+- tempo médio de sobrevivência do [vírus](pt_virus:COVID) em superfícies?
+- é verdade que o [coronavírus](pt_virus:COVID) pode ficar vários dias em superficies metálicas?
 
 ## intent:pt_covid_symptoms
 - 37 de febre é sintoma?
@@ -3464,11 +3464,11 @@
 - Gostaria de ver quais são os sintomas
 - Informações sobre os sintomas.
 - Olá Quais são os sintomas
-- Os sintomas da doença.
+- Os sintomas da [doença](pt_virus:COVID).
 - Os sintomas da infecção.
-- Os sintomas de COVID-19.
+- Os sintomas de [COVID-19](pt_virus:COVID).
 - Os sintomas.
-- Podes descrever a doença?
+- Podes descrever a [doença](pt_virus:COVID)?
 - Quais is sintomas?
 - Quais os principais sintomas?
 - Quais os sintomas de quem está infetado
@@ -3478,82 +3478,82 @@
 - Quais podem ser sinais de infecção?
 - Quais podem ser sintomas de infecção?
 - Quais sintomas aparecem?
-- Quais sintomas estão relacionados com a doença?
+- Quais sintomas estão relacionados com a [doença](pt_virus:COVID)?
 - Quais sintomas estão relacionados com a infecção?
-- Quais sintomas estão relacionados com o COVID-19?
+- Quais sintomas estão relacionados com o [COVID-19](pt_virus:COVID)?
 - Quais são os possiveis sinais de infecção?
 - Quais são os possivéis sintomas da infecção?
-- Quais são os sintomas da covid?
-- Quais são os sintomas da doença?
+- Quais são os sintomas da [covid](pt_virus:COVID)?
+- Quais são os sintomas da [doença](pt_virus:COVID)?
 - Quais são os sintomas da infecção?
-- Quais são os sintomas do COVID-19?
-- Quais são os sintomas relacionados à doença?
+- Quais são os sintomas do [COVID-19](pt_virus:COVID)?
+- Quais são os sintomas relacionados à [doença](pt_virus:COVID)?
 - Quais são os sintomas relacionados à infecção?
 - Quais são os sintomas?
 - Qual é a sintomatologia de infecção?
 - Que sintomas da infecção existem?
-- Que sintomas são experienciados com COVID-19?
+- Que sintomas são experienciados com [COVID-19](pt_virus:COVID)?
 - Que sintomas são frequentes?
-- Quem pega o vírus desenvolve quais sintomas?
+- Quem pega o [vírus](pt_virus:COVID) desenvolve quais sintomas?
 - Sinais de infecção.
 - Sinal de infecção.
 - Sintomas
-- Sintomas da doença?
+- Sintomas da [doença](pt_virus:COVID)?
 - Sintomas da infecção?
 - Sintomatologia
 - Sobre os sintomas.
 - Tenho tosse, estarei infectado?
-- Ter febre é sintoma de covid?
-- Tipo de sintomas do COVID-19?
+- Ter febre é sintoma de [covid](pt_virus:COVID)?
+- Tipo de sintomas do [COVID-19](pt_virus:COVID)?
 - Tosse é sintoma?
 - Tudo bem. Fala-me sobre os sintomas.
 - quais os sintomas
 - quais sintomas
 - qual é o principal sintoma?
-- queria saber se posso estar infetado com covid-19
-- sintomas associados à doença
+- queria saber se posso estar infetado com [COVID-19](pt_virus:COVID)
+- sintomas associados à [doença](pt_virus:COVID)
 
 ## intent:pt_covid_worry
-- A doença deve me deixar preocupado?
-- Como proceder sobre preocupações com a doença.
+- A [doença](pt_virus:COVID) deve me deixar preocupado?
+- Como proceder sobre preocupações com a [doença](pt_virus:COVID).
 - Como proceder sobre preocupações com o surto.
-- Como proceder sobre preocupações com o vírus.
+- Como proceder sobre preocupações com o [vírus](pt_virus:COVID).
 - Deverei estar preocupado com o surto?
-- Devo estar preocupado com o vírus?
-- Devo me preocupar com COVID-19?
-- Devo me preocupar com a doença?
+- Devo estar preocupado com o [vírus](pt_virus:COVID)?
+- Devo me preocupar com [COVID-19](pt_virus:COVID)?
+- Devo me preocupar com a [doença](pt_virus:COVID)?
 - Devo me preocupar com o surto?
-- Devo me preocupar com o vírus?
-- E se eu pegar o vírus?
-- Este vírus deve me deixar preocupada.
+- Devo me preocupar com o [vírus](pt_virus:COVID)?
+- E se eu pegar o [vírus](pt_virus:COVID)?
+- Este [vírus](pt_virus:COVID) deve me deixar preocupada.
 - Estou afligida com o surto.
-- Estou angustiada com a doença.
+- Estou angustiada com a [doença](pt_virus:COVID).
 - Estou preocupada
-- Estou preocupado com a doença.
+- Estou preocupado com a [doença](pt_virus:COVID).
 - Estou preocupado com o surto.
-- Estou preocupado com o vírus.
+- Estou preocupado com o [vírus](pt_virus:COVID).
 - Estou preocupado.
 - Eu tenho medo.
-- O COVID-19 deve me deixar preocupado?
+- O [COVID-19](pt_virus:COVID) deve me deixar preocupado?
 - O que fazer para canalizar a preocupação?
 - O que fazer para canalizar as preocupações?
 - O que fazer para canalizar o medo?
-- O vírus é grave?
+- O [vírus](pt_virus:COVID) é grave?
 - Quais as fontes fidedignas de informação?
 - Sofro de ansiedade por causa do surto.
-- Tenho medo de pegar o vírus.
-- Tenho medo do vírus.
+- Tenho medo de pegar o [vírus](pt_virus:COVID).
+- Tenho medo do [vírus](pt_virus:COVID).
 - complicada esta situação.
 - empatia
 
 ## intent:pt_de_covid_pregnancy
 - As mulheres grávidas são mais suscetíveis à infeção ou têm maior risco de
-  doenças graves, morbidade ou mortalidade com o COVID-19, em comparação com o
+  doenças graves, morbidade ou mortalidade com o [COVID-19](pt_virus:COVID), em comparação com o
   público em geral?
 - As mulheres grávidas são mais suscetíveis à infeção?
 - Estou grávida, devo estar preocupada?
-- Gravidez e covid
-- Mulheres grávidas e covid
+- Gravidez e [covid](pt_virus:COVID)
+- Mulheres grávidas e [covid](pt_virus:COVID)
 
 ## intent:pt_features_date
 - Consegues dizer a data de hoje?
@@ -4025,20 +4025,20 @@
 - Usando uma máscara.
 
 ## intent:pt_myth_alcohol
-- A pulverização de cloro em todo o corpo pode matar o novo coronavírus?
-- A pulverização de álcool em todo o corpo mata o vírus.
-- A pulverização de álcool em todo o corpo pode matar o novo coronavírus?
+- A pulverização de cloro em todo o corpo pode matar o [novo coronavírus](pt_virus:COVID)?
+- A pulverização de álcool em todo o corpo mata o [vírus](pt_virus:COVID).
+- A pulverização de álcool em todo o corpo pode matar o [novo coronavírus](pt_virus:COVID)?
 - Devo por cloro em todo o corpo.
 - Pulverização de cloro.
 - Usar álcool em todo o corpo.
 - cloro em todo o corpo.
 - se eu me cobrir de álcool
-- se eu me cobrir de álcool, o vírus sairá
+- se eu me cobrir de álcool, o [vírus](pt_virus:COVID) sairá
 - Álcool em spray.
 - Álcool em todo o corpo.
 
 ## intent:pt_myth_packages
-- Pacotes com vírus.
+- Pacotes com [vírus](pt_virus:COVID).
 - Pacotes de países infectados.
 - Pacotes de áreas infectadas.
 - Pacotes infectados.
@@ -4048,14 +4048,14 @@
 - cartas de países infectados.
 - letras infectadas.
 - posso receber uma carta de uma área infectada?
-- É seguro receber um pacote de qualquer área em que o COVID-19 tenha sido
+- É seguro receber um pacote de qualquer área em que o [COVID-19](pt_virus:COVID) tenha sido
   relatado?
-- É seguro receber uma carta de qualquer área em que o COVID-19 tenha sido
+- É seguro receber uma carta de qualquer área em que o [COVID-19](pt_virus:COVID) tenha sido
   relatado?
 
 ## intent:pt_myth_transmission_hot_areas
-- O Covid-19 enfraquece em alta temperatura?
-- O clima quente vai parar o surto de COVID-19?
+- O [COVID-19](pt_virus:COVID) enfraquece em alta temperatura?
+- O clima quente vai parar o surto de [COVID-19](pt_virus:COVID)?
 
 ## intent:pt_patient_home
 - Alguns intfetados não são internados?
@@ -4088,30 +4088,30 @@
 - Sou estrangeiro e estou doente.
 
 ## intent:pt_portugal_ill_no_covid
-- Estou a precisar de um médico, mas não tenho COVID.
+- Estou a precisar de um médico, mas não tenho [covid](pt_virus:COVID).
 - Os utentes devem contactar o SNS24 diretamente?
 - Os utentes devem contactar os CSP diretamente ou apenas através do SNS24?
 - Os utentes devem contactar os CSP diretamente?
-- Os utentes sem suspeita de COVID-19 devem contactar quem?
-- Quem devem contactar os utentes sem suspeita de COVID-19?
+- Os utentes sem suspeita de [COVID-19](pt_virus:COVID) devem contactar quem?
+- Quem devem contactar os utentes sem suspeita de [COVID-19](pt_virus:COVID)?
 
 ## intent:pt_portugal_rates
-- Qual é a percentagem de casos de doença grave por COVID-19?
-- Qual é a percentagem de casos de doença grave?
-- Qual é a percentagem de casos de doença ligeira e grave por COVID-19?
-- Qual é a percentagem de casos de doença ligeira e grave?
-- Qual é a percentagem de casos de doença ligeira por COVID-19?
-- Qual é a percentagem de casos de doença ligeira?
+- Qual é a percentagem de casos de [doença](pt_virus:COVID) grave por [COVID-19](pt_virus:COVID)?
+- Qual é a percentagem de casos de [doença](pt_virus:COVID) grave?
+- Qual é a percentagem de casos de [doença](pt_virus:COVID) ligeira e grave por [COVID-19](pt_virus:COVID)?
+- Qual é a percentagem de casos de [doença](pt_virus:COVID) ligeira e grave?
+- Qual é a percentagem de casos de [doença](pt_virus:COVID) ligeira por [COVID-19](pt_virus:COVID)?
+- Qual é a percentagem de casos de [doença](pt_virus:COVID) ligeira?
 
 ## intent:pt_prevention_clean_hands
-- A limpeza das mãos impedirá a captura do vírus?
-- A limpeza das mãos impedirá a infecção da doença?
+- A limpeza das mãos impedirá a captura do [vírus](pt_virus:COVID)?
+- A limpeza das mãos impedirá a infecção da [doença](pt_virus:COVID)?
 - Importância da limpeza das mãos.
 - Importância de lavar as mãos.
 - Importância de ter as mãos limpas.
 - Lavando as mãos
-- Lavar as mãos evita que a doença se manifeste?
-- Lavar as mãos impedirá a captura do vírus?
+- Lavar as mãos evita que a [doença](pt_virus:COVID) se manifeste?
+- Lavar as mãos impedirá a captura do [vírus](pt_virus:COVID)?
 - Lavar minhas mãos com sabão reduzirá minhas chances de ser infectado?
 - Lave as mãos
 - Limpando as mãos
@@ -4172,37 +4172,37 @@
 
 ## intent:pt_prevention_food
 - O que devo fazer à fruta que comprei no supermercado?
-- O vírus transmite-se pela comida?
+- O [vírus](pt_virus:COVID) transmite-se pela comida?
 - Que cuidados devo ter na preparação e confeção de alimentos?
 - É seguro trazer as compras para casa?
 
 ## intent:pt_prevention_general
 - Como evitar o contágio
 - Como evitar?
-- Como me devo proteger do Covid19?
+- Como me devo proteger do [COVID19](pt_virus:COVID)?
 - Como me devo proteger?
 - Como posso evitar
 - Como posso evitar o contágio?
 - Como posso prevenir o contágio?
-- Como posso previnir o covid?
-- Como reduzir as chances de propagação da doença?
-- Como reduzir as chances de propagação do vírus?
+- Como posso previnir o [covid](pt_virus:COVID)?
+- Como reduzir as chances de propagação da [doença](pt_virus:COVID)?
+- Como reduzir as chances de propagação do [vírus](pt_virus:COVID)?
 - Como reduzir as chances de ser infectado?
-- Como é que eu poderei evitar ser contaminado com este novo coronavirus
-- Como é que eu poderei evitar ser contaminado com este novo coronavirus Agora
+- Como é que eu poderei evitar ser contaminado com este novo [coronavirus](pt_virus:COVID)
+- Como é que eu poderei evitar ser contaminado com este novo [coronavirus](pt_virus:COVID) Agora
   que o mundo está assim um caos
-- Como é que eu poderei evitar ser contaminado com este novo virus
+- Como é que eu poderei evitar ser contaminado com este novo [virus](pt_virus:COVID)
 - Medidas de proteção necessárias.
-- Medidas de proteção para prevenir a doença.
+- Medidas de proteção para prevenir a [doença](pt_virus:COVID).
 - Medidas de proteção.
 - Medidas preventivas a usar.
-- Medidas preventivas para proteger contra vírus.
+- Medidas preventivas para proteger contra [vírus](pt_virus:COVID).
 - Medidas preventivas.
 - Muito bem. Obrigada. Que sabes sobre as medidas preventivas?
-- O que fazer para evitar a propagação da doença?
-- O que fazer para me proteger do vírus?
-- O que fazer para se proteger do vírus?
-- O que posso fazer para impedir a propagação da doença?
+- O que fazer para evitar a propagação da [doença](pt_virus:COVID)?
+- O que fazer para me proteger do [vírus](pt_virus:COVID)?
+- O que fazer para se proteger do [vírus](pt_virus:COVID)?
+- O que posso fazer para impedir a propagação da [doença](pt_virus:COVID)?
 - O que posso fazer para me proteger e impedir a propagação de doenças?
 - O que posso fazer para me proteger?
 - Olá Helena! Que sabes sobre os métodos de prevenção?
@@ -4214,18 +4214,18 @@
 - Proteção de infecção.
 - Quais precauções devem ser tomadas?
 - Quais são as medidas preventivas?
-- Quais são os seus conselhos relacionados com covid-19
+- Quais são os seus conselhos relacionados com [COVID-19](pt_virus:COVID)
 - Que medidas posso tomar?
 - Que sabes sobre os métodos de prevenção?
-- Quero saber como prevenir a doença
+- Quero saber como prevenir a [doença](pt_virus:COVID)
 - como ajudar
-- como posso lutar contra covid-19
+- como posso lutar contra [COVID-19](pt_virus:COVID)
 - diz-me o que devo fazer para evitar a propagaçao
-- diz-me o que devo fazer para evitar a propagaçao do corona virus
+- diz-me o que devo fazer para evitar a propagaçao do [corona virus](pt_virus:COVID)
 - medidas
 - medidas de prevenção
-- o que devo fazer para evitar a propagaçao do corona virus
-- quais são os conselhos para combater a covid-19
+- o que devo fazer para evitar a propagaçao do [corona virus](pt_virus:COVID)
+- quais são os conselhos para combater a [COVID-19](pt_virus:COVID)
 - quais são seus conselhos?
 - que medidas preventivas se devem tomar
 - vamos ajudar
@@ -4260,11 +4260,11 @@
 - Se tiver febre o que faço?
 - Será aconselhável ficar em casa?
 - Será melhor ficar em casa se me sentir mal?
-- Sinto sintomas leves de doença, devo ficar em casa?
+- Sinto sintomas leves de [doença](pt_virus:COVID), devo ficar em casa?
 - Sinto-me um pouco doente, devo ficar em casa?
 - Sinto-me um pouco doente, fico em casa?
 - Tenho febre
-- Tenho sintomas leves de doença, devo ficar em casa?
+- Tenho sintomas leves de [doença](pt_virus:COVID), devo ficar em casa?
 - Tenho sintomas ligeiros, devo ficar em casa?
 - We tiver febre o que faço?
 - febre
@@ -4272,27 +4272,27 @@
 - tenho dores no corpo mas não tenho febre
 
 ## intent:pt_prevention_informed
-- Acreditas que nem todas as notícias sobre a COVID-19 são verídicas?
+- Acreditas que nem todas as notícias sobre a [COVID-19](pt_virus:COVID) são verídicas?
 - Devo acompanhar as notícias regularmente?
-- Devo acompanhar as notícias relacionadas à doença?
-- Devo acompanhar as notícias sobre o vírus?
+- Devo acompanhar as notícias relacionadas à [doença](pt_virus:COVID)?
+- Devo acompanhar as notícias sobre o [vírus](pt_virus:COVID)?
 - Devo acompanhar as notícias?
-- Devo acompanhar regularmente as notícias sobre o vírus?
-- Devo ficar ciente das informações mais recentes sobre o surto de COVID-19?
+- Devo acompanhar regularmente as notícias sobre o [vírus](pt_virus:COVID)?
+- Devo ficar ciente das informações mais recentes sobre o surto de [COVID-19](pt_virus:COVID)?
 - Devo me manter informado regularmente?
 - Devo me manter informado?
-- Devo seguir as notícias relacionadas ao COVID-19?
-- Devo seguir as notícias relacionadas ao vírus?
+- Devo seguir as notícias relacionadas ao [COVID-19](pt_virus:COVID)?
+- Devo seguir as notícias relacionadas ao [vírus](pt_virus:COVID)?
 - Devo verificar regularmente as últimas notícias?
 - Mantenha-se atualizado.
 - Mantenha-se informado.
 - Mitos
-- Podes falar sobre alguns mitos relacionados com a COVID-19?
-- Por que devo acompanhar as notícias relacionadas ao COVID-19?
-- Por que devo acompanhar as notícias relacionadas ao vírus?
-- Por que devo acompanhar as notícias relacionadas à doença?
+- Podes falar sobre alguns mitos relacionados com a [COVID-19](pt_virus:COVID)?
+- Por que devo acompanhar as notícias relacionadas ao [COVID-19](pt_virus:COVID)?
+- Por que devo acompanhar as notícias relacionadas ao [vírus](pt_virus:COVID)?
+- Por que devo acompanhar as notícias relacionadas à [doença](pt_virus:COVID)?
 - Por que devo estar ciente das informações mais recentes sobre o surto de
-  COVID-19?
+  [COVID-19](pt_virus:COVID)?
 - Por que devo verificar regularmente as últimas notícias?
 - Por que é importante acompanhar as notícias?
 - Por que é importante manter-se informado?
@@ -4301,23 +4301,23 @@
 - É importante manter-se informado?
 
 ## intent:pt_prevention_measures
-- A automedicação é eficaz contra o COVID-19?
-- A automedicação, como antibióticos, é eficaz contra o COVID-19?
-- Devo fumar para evitar o COVID-2019?
-- Devo tomar automedicação para prevenir COVID-19?
-- Devo tomar automedicação, como antibióticos, para prevenir o COVID-19?
-- Devo tomar remédios tradicionais à base de plantas para evitar o COVID-2019?
-- Devo usar várias máscaras para evitar COVID-19?
+- A automedicação é eficaz contra o [COVID-19](pt_virus:COVID)?
+- A automedicação, como antibióticos, é eficaz contra o [COVID-19](pt_virus:COVID)?
+- Devo fumar para evitar o [COVID-2019](pt_virus:COVID)?
+- Devo tomar automedicação para prevenir [COVID-19](pt_virus:COVID)?
+- Devo tomar automedicação, como antibióticos, para prevenir o [COVID-19](pt_virus:COVID)?
+- Devo tomar remédios tradicionais à base de plantas para evitar o [COVID-2019](pt_virus:COVID)?
+- Devo usar várias máscaras para evitar [COVID-19](pt_virus:COVID)?
 - Existe algo que eu não deva fazer?
-- Existem medidas não eficazes contra o COVID-19?
-- Existem medidas que não são eficazes contra o COVID-19?
+- Existem medidas não eficazes contra o [COVID-19](pt_virus:COVID)?
+- Existem medidas que não são eficazes contra o [COVID-19](pt_virus:COVID)?
 - Medidas não efetivas.
 - Medidas não eficazes.
-- O fumo é eficaz contra o COVID-2019?
-- O uso de várias máscaras é eficaz contra o COVID-2019?
-- Que medidas não são eficazes contra o COVID-19?
-- Tomar remédios tradicionais à base de plantas é eficaz contra o COVID-2019?
-- o que não devo fazer para me proteger contra o vírus?
+- O fumo é eficaz contra o [COVID-2019](pt_virus:COVID)?
+- O uso de várias máscaras é eficaz contra o [COVID-2019](pt_virus:COVID)?
+- Que medidas não são eficazes contra o [COVID-19](pt_virus:COVID)?
+- Tomar remédios tradicionais à base de plantas é eficaz contra o [COVID-2019](pt_virus:COVID)?
+- o que não devo fazer para me proteger contra o [vírus](pt_virus:COVID)?
 - o que não devo fazer?
 
 ## intent:pt_prevention_medical_attention
@@ -4353,12 +4353,12 @@
 - Estou com febre.
 - Estou com tosse.
 - Estou infectado, o que devo fazer?
-- Eu tenho o vírus?
+- Eu tenho o [vírus](pt_virus:COVID)?
 - Minha temperatura está acima de 38 graus, devo me preocupar?
 - Minha temperatura está acima de 38 graus.
 - Minha temperatura está acima de 39 graus. Devo me preocupar?
-- Não sei o que fazer se tiver o vírus.
-- Não sei se tenho o vírus.
+- Não sei o que fazer se tiver o [vírus](pt_virus:COVID).
+- Não sei se tenho o [vírus](pt_virus:COVID).
 - O que devo fazer se tiver sintomas?
 - O que fazer em caso de dificuldade em respirar?
 - O que fazer em caso de febre, tosse e dificuldade em respirar?
@@ -4387,69 +4387,69 @@
 - sou grupo de risco e estou com sintomas
 
 ## intent:pt_prevention_medicine
-- Acreditas que poderá existir cura para o vírus?
+- Acreditas que poderá existir cura para o [vírus](pt_virus:COVID)?
 - De que formas podem ser tratados os sintomas?
-- Existe algum medicamento para tratar COVID-19?
+- Existe algum medicamento para tratar [COVID-19](pt_virus:COVID)?
 - Existe algum medicamento?
-- Existe tratamento para COVID-19?
-- Existe um medicamento para COVID-19?
-- Existe um medicamento para o COVID-19?
-- Existe um medicamento para tratar COVID-19?
+- Existe tratamento para [COVID-19](pt_virus:COVID)?
+- Existe um medicamento para [COVID-19](pt_virus:COVID)?
+- Existe um medicamento para o [COVID-19](pt_virus:COVID)?
+- Existe um medicamento para tratar [COVID-19](pt_virus:COVID)?
 - Existe um medicamento?
 - Existe um tratamento?
-- Existe uma vacina para COVID-19?
-- Existe uma vacina para tratar COVID-19?
-- Existe uma vacina, medicamento ou tratamento para o COVID-19?
+- Existe uma vacina para [COVID-19](pt_virus:COVID)?
+- Existe uma vacina para tratar [COVID-19](pt_virus:COVID)?
+- Existe uma vacina, medicamento ou tratamento para o [COVID-19](pt_virus:COVID)?
 - Existe uma vacina, medicamento ou tratamento?
 - Existe vacina ?
-- Existe vacina para o vírus?
-- Existem medicamentos para COVID-19.
-- Há algum medicamento para COVID-19.
-- Há disponibilidade de medicamentos para tratar COVID-19.
-- Informação de medicamento para tratar COVID-19.
+- Existe vacina para o [vírus](pt_virus:COVID)?
+- Existem medicamentos para [COVID-19](pt_virus:COVID).
+- Há algum medicamento para [COVID-19](pt_virus:COVID).
+- Há disponibilidade de medicamentos para tratar [COVID-19](pt_virus:COVID).
+- Informação de medicamento para tratar [COVID-19](pt_virus:COVID).
 - Mas como tratar os sintomas?
-- Posso tomar aspirina para covid?
+- Posso tomar aspirina para [covid](pt_virus:COVID)?
 - Posso tomar aspirina?
 - Qual é a cura?
 - Quando chega a vacina?
 - Relativamente à vacina? Ouve se dizer que já se descobriu o fármaco que
-  consegue destruir o COVID-19 em 48 horas... é verdade?
+  consegue destruir o [COVID-19](pt_virus:COVID) em 48 horas... é verdade?
 - Sobre drogas.
-- Sobre medicamentos para COVID-19.
-- Sobre medicamentos para tratar COVID-19.
+- Sobre medicamentos para [COVID-19](pt_virus:COVID).
+- Sobre medicamentos para tratar [COVID-19](pt_virus:COVID).
 - Sobre medicamentos.
-- Sobre o tratamento para COVID-19.
+- Sobre o tratamento para [COVID-19](pt_virus:COVID).
 - Sobre o tratamento.
-- Sobre um medicamento para COVID-19.
-- Sobre um medicamento para tratar COVID-19.
+- Sobre um medicamento para [COVID-19](pt_virus:COVID).
+- Sobre um medicamento para tratar [COVID-19](pt_virus:COVID).
 - Sobre um medicamento.
-- Sobre um tratamento para COVID-19.
+- Sobre um tratamento para [COVID-19](pt_virus:COVID).
 - Sobre um tratamento.
 - Sobre uma droga.
-- Sobre uma vacina para COVID-19.
-- Sobre uma vacina para tratar COVID-19.
-- Sobre uma vacina, medicamento ou tratamento para COVID-19.
+- Sobre uma vacina para [COVID-19](pt_virus:COVID).
+- Sobre uma vacina para tratar [COVID-19](pt_virus:COVID).
+- Sobre uma vacina, medicamento ou tratamento para [COVID-19](pt_virus:COVID).
 - Sobre uma vacina, medicamento ou tratamento.
 - Sobre uma vacina.
-- Sobre vacinas para COVID-19.
-- Sobre vacinas para tratar COVID-19.
-- Sobre vacinas, medicamentos ou tratamentos para COVID-19.
+- Sobre vacinas para [COVID-19](pt_virus:COVID).
+- Sobre vacinas para tratar [COVID-19](pt_virus:COVID).
+- Sobre vacinas, medicamentos ou tratamentos para [COVID-19](pt_virus:COVID).
 - Sobre vacinas, medicamentos ou tratamentos.
 - Sobre vacinas.
 - Tratamento por vacina?
 - Tudo bem. Mas como tratar os sintomas?
 - Vacina
-- como curar esta doença?
+- como curar esta [doença](pt_virus:COVID)?
 - como está o tratamento
 - como tratar os sintomas?
 - existe uma vacina?
-- existem medicamentos para prevenir a doença?
-- existem vacinas para prevenir a doença?
-- já existe vacina para o virus?
+- existem medicamentos para prevenir a [doença](pt_virus:COVID)?
+- existem vacinas para prevenir a [doença](pt_virus:COVID)?
+- já existe vacina para o [virus](pt_virus:COVID)?
 - medicação
 - para quando um tratamento ?
 - remédio
-- vacina covid-19
+- vacina [COVID-19](pt_virus:COVID)
 - vacina disponivel?
 
 ## intent:pt_prevention_respiratory_hygiene
@@ -4616,21 +4616,21 @@
 - world health organization
 
 ## intent:pt_spread_air
-- Dizem que o covid 19 se transmite pelo ar é verdade?
+- Dizem que o [Covid 19](pt_virus:COVID) se transmite pelo ar é verdade?
 - Então e o bicho transmite-se pelo ar?
 - Espalhando pelo ar.
-- O vírus está espalhado pelo ar?
-- O vírus pode se espalhar pelo ar?
-- O vírus pode ser propagado pelo ar?
-- O vírus pode ser transmitido pelo ar?
-- O vírus que causa a disseminação do COVID-19 pelo ar?
-- O vírus que causa o COVID-19 pode se espalhar pelo ar?
-- O vírus que causa o COVID-19 pode ser propagado pelo ar?
-- O vírus que causa o COVID-19 pode ser transmitido pelo ar?
-- O vírus que causa o COVID-19 é propagado pelo ar?
-- O vírus que causa o COVID-19 é transmitido pelo ar?
-- O vírus é propagado pelo ar?
-- O vírus é transmitido pelo ar?
+- O [vírus](pt_virus:COVID) está espalhado pelo ar?
+- O [vírus](pt_virus:COVID) pode se espalhar pelo ar?
+- O [vírus](pt_virus:COVID) pode ser propagado pelo ar?
+- O [vírus](pt_virus:COVID) pode ser transmitido pelo ar?
+- O [vírus](pt_virus:COVID) que causa a disseminação do [COVID-19](pt_virus:COVID) pelo ar?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) pode se espalhar pelo ar?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) pode ser propagado pelo ar?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) pode ser transmitido pelo ar?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) é propagado pelo ar?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) é transmitido pelo ar?
+- O [vírus](pt_virus:COVID) é propagado pelo ar?
+- O [vírus](pt_virus:COVID) é transmitido pelo ar?
 - Pode ser espalhado pelo ar?
 - Pode ser propagado pelo ar?
 - Pode ser transmitido por via aérea?
@@ -4640,305 +4640,305 @@
 - Transmissão aérea.
 - Transmissão por via aérea.
 - Transmite-se pelo ar?
-- É possível a propagação do vírus pelo ar?
+- É possível a propagação do [vírus](pt_virus:COVID) pelo ar?
 - É possível espalhar por via aérea?
-- É possível que o vírus seja espalhado pelo ar?
-- É possível que o vírus seja passado por via aérea?
-- É possível que o vírus seja propagado pelo ar?
-- É possível que o vírus seja transmitido por via aérea?
+- É possível que o [vírus](pt_virus:COVID) seja espalhado pelo ar?
+- É possível que o [vírus](pt_virus:COVID) seja passado por via aérea?
+- É possível que o [vírus](pt_virus:COVID) seja propagado pelo ar?
+- É possível que o [vírus](pt_virus:COVID) seja transmitido por via aérea?
 - É possível ser enviado pelo ar?
 - É possível ser espalhado por via aérea?
 - É possível ser propagado pelo ar?
 - É possível ser transmitido por via aérea?
 - É possível transferir por via aérea?
 - É possível transmitir por via aérea?
-- é verdade que o coronavirus se transmite através do ar?
+- é verdade que o [coronavirus](pt_virus:COVID) se transmite através do ar?
 
 ## intent:pt_spread_animals
 - Animal
-- Os animais podem espalhar COVID-19 aos seres humanos?
-- Os animais podem espalhar COVID-19?
-- Os animais podem espalhar o vírus para os seres humanos?
-- Os animais podem espalhar o vírus?
+- Os animais podem espalhar [COVID-19](pt_virus:COVID) aos seres humanos?
+- Os animais podem espalhar [COVID-19](pt_virus:COVID)?
+- Os animais podem espalhar o [vírus](pt_virus:COVID) para os seres humanos?
+- Os animais podem espalhar o [vírus](pt_virus:COVID)?
 - Os animais podem me infectar?
-- Os seres humanos podem se infectar com o COVID-19 de uma fonte animal?
-- Os seres humanos podem se infectar com o vírus de animais?
-- Os seres humanos podem ser infectados com o COVID-19 a partir de fontes
+- Os seres humanos podem se infectar com o [COVID-19](pt_virus:COVID) de uma fonte animal?
+- Os seres humanos podem se infectar com o [vírus](pt_virus:COVID) de animais?
+- Os seres humanos podem ser infectados com o [COVID-19](pt_virus:COVID) a partir de fontes
   animais?
-- Os seres humanos podem ser infectados com o COVID-19 de animais?
-- Os seres humanos podem ser infectados com o COVID-19 de um animal?
-- Os seres humanos podem ser infectados com o vírus da fonte de animais?
-- Os seres humanos podem ser infectados com o vírus de um animal?
-- Os seres humanos podem ser infectados com o vírus de uma fonte animal?
-- Posso estar infectado com COVID-19 de um animal?
-- Posso estar infectado com o vírus de animais?
-- Posso estar infectado com o vírus de um animal?
-- Posso pegar o COVID-19 da fonte de animais?
-- Posso pegar o COVID-19 de animais?
-- Posso pegar o COVID-19 de um animal?
-- Posso pegar o COVID-19 de uma fonte animal?
-- Posso pegar o vírus da fonte de animais?
-- Posso pegar o vírus de animais?
-- Posso pegar o vírus de um animal?
-- Posso pegar o vírus de uma fonte animal?
-- Posso ser infectado com COVID-19 de animais?
-- Um animal pode espalhar COVID-19?
-- Um animal pode espalhar o COVID-19 para humanos?
-- Um animal pode espalhar o vírus para os seres humanos?
-- Um animal pode espalhar o vírus?
+- Os seres humanos podem ser infectados com o [COVID-19](pt_virus:COVID) de animais?
+- Os seres humanos podem ser infectados com o [COVID-19](pt_virus:COVID) de um animal?
+- Os seres humanos podem ser infectados com o [vírus](pt_virus:COVID) da fonte de animais?
+- Os seres humanos podem ser infectados com o [vírus](pt_virus:COVID) de um animal?
+- Os seres humanos podem ser infectados com o [vírus](pt_virus:COVID) de uma fonte animal?
+- Posso estar infectado com [COVID-19](pt_virus:COVID) de um animal?
+- Posso estar infectado com o [vírus](pt_virus:COVID) de animais?
+- Posso estar infectado com o [vírus](pt_virus:COVID) de um animal?
+- Posso pegar o [COVID-19](pt_virus:COVID) da fonte de animais?
+- Posso pegar o [COVID-19](pt_virus:COVID) de animais?
+- Posso pegar o [COVID-19](pt_virus:COVID) de um animal?
+- Posso pegar o [COVID-19](pt_virus:COVID) de uma fonte animal?
+- Posso pegar o [vírus](pt_virus:COVID) da fonte de animais?
+- Posso pegar o [vírus](pt_virus:COVID) de animais?
+- Posso pegar o [vírus](pt_virus:COVID) de um animal?
+- Posso pegar o [vírus](pt_virus:COVID) de uma fonte animal?
+- Posso ser infectado com [COVID-19](pt_virus:COVID) de animais?
+- Um animal pode espalhar [COVID-19](pt_virus:COVID)?
+- Um animal pode espalhar o [COVID-19](pt_virus:COVID) para humanos?
+- Um animal pode espalhar o [vírus](pt_virus:COVID) para os seres humanos?
+- Um animal pode espalhar o [vírus](pt_virus:COVID)?
 - Um animal pode me infectar?
 
 ## intent:pt_spread_feces
-- Captura do vírus através de excrementos.
-- Captura do vírus através de fezes.
-- Captura do vírus através do cocô.
+- Captura do [vírus](pt_virus:COVID) através de excrementos.
+- Captura do [vírus](pt_virus:COVID) através de fezes.
+- Captura do [vírus](pt_virus:COVID) através do cocô.
 - Espalhando excrementos.
 - Espalhando pelo cocô.
 - Espalhe pelas fezes.
 - Espalhe pelo cocô.
 - Espalhe por excrementos.
-- Fezes de alguém infectado podem transmitir o vírus?
+- Fezes de alguém infectado podem transmitir o [vírus](pt_virus:COVID)?
 - Infecção através de cocô.
 - Infecção por excrementos.
 - Infecção por fezes.
-- O vírus pode ser capturado através de cocô?
-- O vírus pode ser capturado através de excrementos?
-- O vírus pode ser pego através de fezes?
-- Pegue o vírus através das fezes.
-- Pegue o vírus através de excrementos.
-- Pegue o vírus através do cocô.
-- Posso pegar o COVID-19 do cocô de alguém com a doença?
-- Posso pegar o COVID-19 do cocô de uma pessoa infectada?
-- Posso pegar o COVID-19 dos excrementos de alguém com a doença?
-- Posso pegar o COVID-19 dos excrementos de uma pessoa infectada?
-- Posso pegar o COVID-19 nas fezes de alguém com a doença?
-- Posso pegar o COVID-19 nas fezes de uma pessoa infectada?
-- Posso pegar o vírus através de excrementos?
-- Posso pegar o vírus através de fezes?
-- Posso pegar o vírus através do cocô?
-- Risco de pegar COVID-19 nas fezes de alguém com a doença.
-- Risco de pegar COVID-19 nas fezes de uma pessoa infectada.
-- Risco de pegar COVID-19 nos excrementos de alguém com a doença.
-- Risco de pegar COVID-19 nos excrementos de uma pessoa infectada.
-- Risco de pegar o COVID-19 do cocô de alguém com a doença.
-- Risco de pegar o COVID-19 do cocô de uma pessoa infectada.
+- O [vírus](pt_virus:COVID) pode ser capturado através de cocô?
+- O [vírus](pt_virus:COVID) pode ser capturado através de excrementos?
+- O [vírus](pt_virus:COVID) pode ser pego através de fezes?
+- Pegue o [vírus](pt_virus:COVID) através das fezes.
+- Pegue o [vírus](pt_virus:COVID) através de excrementos.
+- Pegue o [vírus](pt_virus:COVID) através do cocô.
+- Posso pegar o [COVID-19](pt_virus:COVID) do cocô de alguém com a [doença](pt_virus:COVID)?
+- Posso pegar o [COVID-19](pt_virus:COVID) do cocô de uma pessoa infectada?
+- Posso pegar o [COVID-19](pt_virus:COVID) dos excrementos de alguém com a [doença](pt_virus:COVID)?
+- Posso pegar o [COVID-19](pt_virus:COVID) dos excrementos de uma pessoa infectada?
+- Posso pegar o [COVID-19](pt_virus:COVID) nas fezes de alguém com a [doença](pt_virus:COVID)?
+- Posso pegar o [COVID-19](pt_virus:COVID) nas fezes de uma pessoa infectada?
+- Posso pegar o [vírus](pt_virus:COVID) através de excrementos?
+- Posso pegar o [vírus](pt_virus:COVID) através de fezes?
+- Posso pegar o [vírus](pt_virus:COVID) através do cocô?
+- Risco de pegar [COVID-19](pt_virus:COVID) nas fezes de alguém com a [doença](pt_virus:COVID).
+- Risco de pegar [COVID-19](pt_virus:COVID) nas fezes de uma pessoa infectada.
+- Risco de pegar [COVID-19](pt_virus:COVID) nos excrementos de alguém com a [doença](pt_virus:COVID).
+- Risco de pegar [COVID-19](pt_virus:COVID) nos excrementos de uma pessoa infectada.
+- Risco de pegar o [COVID-19](pt_virus:COVID) do cocô de alguém com a [doença](pt_virus:COVID).
+- Risco de pegar o [COVID-19](pt_virus:COVID) do cocô de uma pessoa infectada.
 
 ## intent:pt_spread_general
-- COVID-19 espalhando.
-- Como a doença se dissemina?
-- Como a doença se espalha.
-- Como a doença se espalha?
-- Como a doença se propaga.
-- Como a doença se propaga?
-- Como a doença se transmite?
-- Como o COVID-19 se espalha.
-- Como o COVID-19 se espalha?
-- Como o COVID-19 se propaga.
-- Como o COVID-19 se propaga?
-- Como o coronavírus se espalha.
-- Como o coronavírus se espalha?
-- Como o coronavírus se propaga.
-- Como o coronavírus se propaga?
-- Como o se espalha o COVID-19?
-- Como o vírus se espalha.
-- Como o vírus se espalha?
-- Como o vírus se propaga.
-- Como o vírus se propaga?
-- Como o vírus se transmite?
-- Como posso apanhar o virus?
-- Como posso apanhar o vírus?
-- Como se espalha o coronavírus.
-- Como se espalha o coronavírus?
-- Como se espalha ocoronavírus.
+- [COVID-19](pt_virus:COVID) espalhando.
+- Como a [doença](pt_virus:COVID) se dissemina?
+- Como a [doença](pt_virus:COVID) se espalha.
+- Como a [doença](pt_virus:COVID) se espalha?
+- Como a [doença](pt_virus:COVID) se propaga.
+- Como a [doença](pt_virus:COVID) se propaga?
+- Como a [doença](pt_virus:COVID) se transmite?
+- Como o [COVID-19](pt_virus:COVID) se espalha.
+- Como o [COVID-19](pt_virus:COVID) se espalha?
+- Como o [COVID-19](pt_virus:COVID) se propaga.
+- Como o [COVID-19](pt_virus:COVID) se propaga?
+- Como o [coronavírus](pt_virus:COVID) se espalha.
+- Como o [coronavírus](pt_virus:COVID) se espalha?
+- Como o [coronavírus](pt_virus:COVID) se propaga.
+- Como o [coronavírus](pt_virus:COVID) se propaga?
+- Como o se espalha o [COVID-19](pt_virus:COVID)?
+- Como o [vírus](pt_virus:COVID) se espalha.
+- Como o [vírus](pt_virus:COVID) se espalha?
+- Como o [vírus](pt_virus:COVID) se propaga.
+- Como o [vírus](pt_virus:COVID) se propaga?
+- Como o [vírus](pt_virus:COVID) se transmite?
+- Como posso apanhar o [virus](pt_virus:COVID)?
+- Como posso apanhar o [vírus](pt_virus:COVID)?
+- Como se espalha o [coronavírus](pt_virus:COVID).
+- Como se espalha o [coronavírus](pt_virus:COVID)?
+- Como se espalha [ocoronavírus].
 - Como se espalha.
 - Como se espalha?
-- Como se move o vírus?
-- Como se multiplica a doença.
-- Como se multiplica o vírus.
-- Como se propaga COVID-19?
-- Como se propaga o coronavírus?
-- Como se propaga o vírus
+- Como se move o [vírus](pt_virus:COVID)?
+- Como se multiplica a [doença](pt_virus:COVID).
+- Como se multiplica o [vírus](pt_virus:COVID).
+- Como se propaga [COVID-19](pt_virus:COVID)?
+- Como se propaga o [coronavírus](pt_virus:COVID)?
+- Como se propaga o [vírus](pt_virus:COVID)
 - Como se propaga.
 - Como se propaga?
 - Como se transmite?
-- Como é feita a transmissão do coronavírus.
+- Como é feita a transmissão do [coronavírus](pt_virus:COVID).
 - Como é que o coronavirus se transmite ?
 - Como é que o viros se espalha
-- Como é que se passa o vírus
+- Como é que se passa o [vírus](pt_virus:COVID)
 - Como é transmitido
-- Disseminação COVID-19.
-- Disseminação da doença.
-- Disseminação de vírus.
-- Disseminação do coronavírus.
-- Disseminação do vírus.
-- Divulgação do COVID-19.
-- Espalhar o vírus.
-- Esquema de propagação de COVID-19.
+- Disseminação [COVID-19](pt_virus:COVID).
+- Disseminação da [doença](pt_virus:COVID).
+- Disseminação de [vírus](pt_virus:COVID).
+- Disseminação do [coronavírus](pt_virus:COVID).
+- Disseminação do [vírus](pt_virus:COVID).
+- Divulgação do [COVID-19](pt_virus:COVID).
+- Espalhar o [vírus](pt_virus:COVID).
+- Esquema de propagação de [COVID-19](pt_virus:COVID).
 - Formas de transmissão
-- Maneira de propagação da doença.
-- Modo como a doença se dissemina.
-- Modo de propagação de coronavírus.
-- Modo de propagação do vírus.
-- Multiplicação da doença.
-- Proliferar o vírus.
+- Maneira de propagação da [doença](pt_virus:COVID).
+- Modo como a [doença](pt_virus:COVID) se dissemina.
+- Modo de propagação de [coronavírus](pt_virus:COVID).
+- Modo de propagação do [vírus](pt_virus:COVID).
+- Multiplicação da [doença](pt_virus:COVID).
+- Proliferar o [vírus](pt_virus:COVID).
 - Propagação
-- Propagação COVID-19.
-- Propagação da doença.
-- Propagação de COVID-19.
-- Propagação de coronavírus.
-- Propagação de doença.
-- Propagação do vírus.
+- Propagação [COVID-19](pt_virus:COVID).
+- Propagação da [doença](pt_virus:COVID).
+- Propagação de [COVID-19](pt_virus:COVID).
+- Propagação de [coronavírus](pt_virus:COVID).
+- Propagação de [doença](pt_virus:COVID).
+- Propagação do [vírus](pt_virus:COVID).
 - Quais são as formas de contágio?
-- Sobre como a doença se espalha.
-- Sobre como a doença se propaga.
+- Sobre como a [doença](pt_virus:COVID) se espalha.
+- Sobre como a [doença](pt_virus:COVID) se propaga.
 - Sobre como ele se propaga.
-- Sobre como o COVID-19 se espalha.
-- Sobre como o COVID-19 se propaga.
-- Sobre como o coronavírus se espalha.
-- Sobre como o coronavírus se propaga.
-- Sobre como o vírus se espalha.
-- Sobre como o vírus se propaga.
+- Sobre como o [COVID-19](pt_virus:COVID) se espalha.
+- Sobre como o [COVID-19](pt_virus:COVID) se propaga.
+- Sobre como o [coronavírus](pt_virus:COVID) se espalha.
+- Sobre como o [coronavírus](pt_virus:COVID) se propaga.
+- Sobre como o [vírus](pt_virus:COVID) se espalha.
+- Sobre como o [vírus](pt_virus:COVID) se propaga.
 - Sobre como se espalha.
-- Spread COVID-19.
-- Transmissão COVID-19.
-- Transmissão da doença.
-- Transmissão do vírus.
-- como esse vírus funciona?
-- como o covid se espalha?
-- como o vírus é transmitido
-- como se espalha o virus?
+- Spread [COVID-19](pt_virus:COVID).
+- Transmissão [COVID-19](pt_virus:COVID).
+- Transmissão da [doença](pt_virus:COVID).
+- Transmissão do [vírus](pt_virus:COVID).
+- como esse [vírus](pt_virus:COVID) funciona?
+- como o [covid](pt_virus:COVID) se espalha?
+- como o [vírus](pt_virus:COVID) é transmitido
+- como se espalha o [virus](pt_virus:COVID)?
 - como é a transmissão
-- como é propagado o covid-19
-- como é transmitido o covid 19?
-- cómo se propagó el virus
+- como é propagado o [COVID-19](pt_virus:COVID)
+- como é transmitido o [Covid 19](pt_virus:COVID)?
+- cómo se propagó el [virus](pt_virus:COVID)
 - transmissão
 
 ## intent:pt_spread_no_symptoms
-- Alguém que não tem sintomas pode disseminar o vírus?
+- Alguém que não tem sintomas pode disseminar o [vírus](pt_virus:COVID)?
 - Alguém que não tem sintomas pode ser infeccioso?
-- Alguém que não tem sintomas pode transmitir o vírus?
-- Alguém sem sintomas pode dispersar o vírus?
-- Alguém sem sintomas pode disseminar o vírus?
-- Alguém sem sintomas pode espalhar o vírus?
-- Alguém sem sintomas pode me pegar o COVID-19?
+- Alguém que não tem sintomas pode transmitir o [vírus](pt_virus:COVID)?
+- Alguém sem sintomas pode dispersar o [vírus](pt_virus:COVID)?
+- Alguém sem sintomas pode disseminar o [vírus](pt_virus:COVID)?
+- Alguém sem sintomas pode espalhar o [vírus](pt_virus:COVID)?
+- Alguém sem sintomas pode me pegar o [COVID-19](pt_virus:COVID)?
 - Alguém sem sintomas pode ser infeccioso?
-- Alguém sem sintomas pode transmitir o vírus?
-- As pessoas sem sintomas podem transmitir o vírus?
-- O COVID-19 pode ser detectado em alguém que não apresenta sintomas?
-- O COVID-19 pode ser detectado em alguém sem sintomas?
-- O COVID-19 pode ser detectado por alguém sem sintomas?
-- O COVID-19 pode ser detectado por uma pessoa que não apresenta sintomas?
-- O COVID-19 pode ser disseminado por uma pessoa sem sintomas?
-- O COVID-19 pode ser transmitido por uma pessoa sem sintomas?
-- O vírus pode ser adquirido através de alguém sem sintomas?
-- O vírus pode ser contraido vindo de alguém assintomático?
-- O vírus pode ser detectado em alguém que não apresenta sintomas?
-- O vírus pode ser detectado em alguém sem sintomas?
-- O vírus pode ser detectado em pessoas que não apresentam sintomas?
-- O vírus pode ser detectado em pessoas sem sintomas?
-- O vírus pode ser espalhado por uma pessoa sem sintomas?
-- O vírus pode ser propagado numa pessoa sem sintomas?
+- Alguém sem sintomas pode transmitir o [vírus](pt_virus:COVID)?
+- As pessoas sem sintomas podem transmitir o [vírus](pt_virus:COVID)?
+- O [COVID-19](pt_virus:COVID) pode ser detectado em alguém que não apresenta sintomas?
+- O [COVID-19](pt_virus:COVID) pode ser detectado em alguém sem sintomas?
+- O [COVID-19](pt_virus:COVID) pode ser detectado por alguém sem sintomas?
+- O [COVID-19](pt_virus:COVID) pode ser detectado por uma pessoa que não apresenta sintomas?
+- O [COVID-19](pt_virus:COVID) pode ser disseminado por uma pessoa sem sintomas?
+- O [COVID-19](pt_virus:COVID) pode ser transmitido por uma pessoa sem sintomas?
+- O [vírus](pt_virus:COVID) pode ser adquirido através de alguém sem sintomas?
+- O [vírus](pt_virus:COVID) pode ser contraido vindo de alguém assintomático?
+- O [vírus](pt_virus:COVID) pode ser detectado em alguém que não apresenta sintomas?
+- O [vírus](pt_virus:COVID) pode ser detectado em alguém sem sintomas?
+- O [vírus](pt_virus:COVID) pode ser detectado em pessoas que não apresentam sintomas?
+- O [vírus](pt_virus:COVID) pode ser detectado em pessoas sem sintomas?
+- O [vírus](pt_virus:COVID) pode ser espalhado por uma pessoa sem sintomas?
+- O [vírus](pt_virus:COVID) pode ser propagado numa pessoa sem sintomas?
 - Pessoas assintomáticas podem ser infecciosas?
-- Pessoas assintomáticas podem transmitir o vírus?
+- Pessoas assintomáticas podem transmitir o [vírus](pt_virus:COVID)?
 - Pessoas que não apresentam sintomas podem ser infecciosas?
-- Pessoas que não apresentam sintomas podem transmitir COVID-19?
-- Pessoas que não apresentam sintomas podem transmitir o vírus?
+- Pessoas que não apresentam sintomas podem transmitir [COVID-19](pt_virus:COVID)?
+- Pessoas que não apresentam sintomas podem transmitir o [vírus](pt_virus:COVID)?
 - Pessoas que não apresentam sintomas podem transmitir?
-- Pessoas sem sintomas podem espalhar COVID-19?
+- Pessoas sem sintomas podem espalhar [COVID-19](pt_virus:COVID)?
 - Pessoas sem sintomas podem espalhar?
 - Pessoas sem sintomas podem ser infecciosas?
-- Pessoas sem sintomas podem transmitir COVID-19?
+- Pessoas sem sintomas podem transmitir [COVID-19](pt_virus:COVID)?
 - Pessoas sem sintomas podem transmitir?
-- Pessoas sem sintomas visíveis podem transmitir o vírus?
-- Posso adquirir COVID-19 de pessoas sem sintomas?
-- Posso adquirir o vírus de alguém sem sintomas?
-- Posso adquirir o vírus de uma pessoa sem sintomas?
-- Posso apanhar COVID-19 de pessoas sem sintomas?
-- Posso apanhar o COVID-19 de alguém que não apresenta sintomas?
-- Posso apanhar o COVID-19 de alguém sem sintomas?
-- Posso apanhar o COVID-19 de pessoas assintomáticas?
-- Posso apanhar o COVID-19 de pessoas que não apresentam sintomas?
-- Posso apanhar o COVID-19 de pessoas sem sintomas?
-- Posso apanhar o COVID-19 de uma pessoa que não apresenta sintomas visíveis?
-- Posso apanhar o COVID-19 de uma pessoa que não apresenta sintomas?
-- Posso apanhar o COVID-19 de uma pessoa sem sintomas?
-- Posso apanhar o COVID-19 por uma pessoa assintomática?
-- Posso apanhar o COVID-19 por uma pessoa sem sintomas?
-- Posso apanhar o vírus de alguém que não apresenta sintomas?
-- Posso apanhar o vírus de alguém sem sintomas?
-- Posso apanhar o vírus de pessoas que não apresentam sintomas?
-- Posso apanhar o vírus de pessoas sem sintomas?
-- Posso apanhar o vírus de uma pessoa que não apresenta sintomas?
-- Posso apanhar o vírus de uma pessoa sem sintomas?
-- Posso contrair o COVID-19 de alguém que não apresenta sintomas?
-- Posso contrair o vírus de alguém que não apresenta sintomas?
-- Posso contrair o vírus de pessoas assintomáticas?
-- Posso contrair o vírus de uma pessoa que não mostra sintomas?
-- Posso ficar com o vírus através de pessoas sem sintomas?
-- Posso ficar contaminado com o vírus por pessoas que não demonstram sintomas?
-- Posso ficar contaminado pelo vírus de uma pessoa sem sintomas?
+- Pessoas sem sintomas visíveis podem transmitir o [vírus](pt_virus:COVID)?
+- Posso adquirir [COVID-19](pt_virus:COVID) de pessoas sem sintomas?
+- Posso adquirir o [vírus](pt_virus:COVID) de alguém sem sintomas?
+- Posso adquirir o [vírus](pt_virus:COVID) de uma pessoa sem sintomas?
+- Posso apanhar [COVID-19](pt_virus:COVID) de pessoas sem sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de alguém que não apresenta sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de alguém sem sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de pessoas assintomáticas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de pessoas que não apresentam sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de pessoas sem sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de uma pessoa que não apresenta sintomas visíveis?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de uma pessoa que não apresenta sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de uma pessoa sem sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) por uma pessoa assintomática?
+- Posso apanhar o [COVID-19](pt_virus:COVID) por uma pessoa sem sintomas?
+- Posso apanhar o [vírus](pt_virus:COVID) de alguém que não apresenta sintomas?
+- Posso apanhar o [vírus](pt_virus:COVID) de alguém sem sintomas?
+- Posso apanhar o [vírus](pt_virus:COVID) de pessoas que não apresentam sintomas?
+- Posso apanhar o [vírus](pt_virus:COVID) de pessoas sem sintomas?
+- Posso apanhar o [vírus](pt_virus:COVID) de uma pessoa que não apresenta sintomas?
+- Posso apanhar o [vírus](pt_virus:COVID) de uma pessoa sem sintomas?
+- Posso contrair o [COVID-19](pt_virus:COVID) de alguém que não apresenta sintomas?
+- Posso contrair o [vírus](pt_virus:COVID) de alguém que não apresenta sintomas?
+- Posso contrair o [vírus](pt_virus:COVID) de pessoas assintomáticas?
+- Posso contrair o [vírus](pt_virus:COVID) de uma pessoa que não mostra sintomas?
+- Posso ficar com o [vírus](pt_virus:COVID) através de pessoas sem sintomas?
+- Posso ficar contaminado com o [vírus](pt_virus:COVID) por pessoas que não demonstram sintomas?
+- Posso ficar contaminado pelo [vírus](pt_virus:COVID) de uma pessoa sem sintomas?
 - Posso ficar contaminado por pessoas sem sintomas?
-- Posso ficar doente com COVID-19 por uma pessoa que não apresenta sintomas?
-- Posso ser contagiado com COVID-19 de pessoas sem sintomas?
-- Posso ter COVID-19 vindo de pessoas que não apresentam sintomas?
-- Posso ter o vírus vindo de uma pessoa sem sintomas?
-- Risco de apanhar COVID-19 de alguém sem sintomas.
-- Risco de apanhar COVID-19 de uma pessoa que não apresenta sintomas.
-- Risco de apanhar COVID-19 de uma pessoa que não tem sintomas.
-- Risco de apanhar COVID-19 de uma pessoa sem sintomas.
-- Risco de apanhar o COVID-19 de alguém que não tem sintomas.
-- Risco de apanhar o COVID-19 de alguém sem sintomas.
-- Risco de apanhar o vírus de alguém que não apresenta sintomas.
-- Risco de apanhar o vírus de alguém sem sintomas.
-- Risco de apanhar o vírus de uma pessoa que não apresenta sintomas.
-- Risco de apanhar o vírus de uma pessoa sem sintomas.
-- Risco de contrair o vírus de uma pessoa sem sintomas.
-- Risco de contágio do vírus por alguém sem sintomas.
-- Uma pessoa assintomática pode me passar COVID-19?
+- Posso ficar doente com [COVID-19](pt_virus:COVID) por uma pessoa que não apresenta sintomas?
+- Posso ser contagiado com [COVID-19](pt_virus:COVID) de pessoas sem sintomas?
+- Posso ter [COVID-19](pt_virus:COVID) vindo de pessoas que não apresentam sintomas?
+- Posso ter o [vírus](pt_virus:COVID) vindo de uma pessoa sem sintomas?
+- Risco de apanhar [COVID-19](pt_virus:COVID) de alguém sem sintomas.
+- Risco de apanhar [COVID-19](pt_virus:COVID) de uma pessoa que não apresenta sintomas.
+- Risco de apanhar [COVID-19](pt_virus:COVID) de uma pessoa que não tem sintomas.
+- Risco de apanhar [COVID-19](pt_virus:COVID) de uma pessoa sem sintomas.
+- Risco de apanhar o [COVID-19](pt_virus:COVID) de alguém que não tem sintomas.
+- Risco de apanhar o [COVID-19](pt_virus:COVID) de alguém sem sintomas.
+- Risco de apanhar o [vírus](pt_virus:COVID) de alguém que não apresenta sintomas.
+- Risco de apanhar o [vírus](pt_virus:COVID) de alguém sem sintomas.
+- Risco de apanhar o [vírus](pt_virus:COVID) de uma pessoa que não apresenta sintomas.
+- Risco de apanhar o [vírus](pt_virus:COVID) de uma pessoa sem sintomas.
+- Risco de contrair o [vírus](pt_virus:COVID) de uma pessoa sem sintomas.
+- Risco de contágio do [vírus](pt_virus:COVID) por alguém sem sintomas.
+- Uma pessoa assintomática pode me passar [COVID-19](pt_virus:COVID)?
 - Uma pessoa assintomática pode ser infecciosa?
 
 ## intent:pt_spread_pets
 - Animais domésticos
-- Meu animal de estimação pode espalhar o vírus?
+- Meu animal de estimação pode espalhar o [vírus](pt_virus:COVID)?
 - Meu cão da família pode me infectar?
-- Meu cão pode espalhar a doença?
-- Meu cão pode espalhar o vírus?
-- Meu gato da família pode apanhar o vírus?
-- Meu gato da família pode espalhar a doença?
-- Meu gato da família pode espalhar o vírus?
+- Meu cão pode espalhar a [doença](pt_virus:COVID)?
+- Meu cão pode espalhar o [vírus](pt_virus:COVID)?
+- Meu gato da família pode apanhar o [vírus](pt_virus:COVID)?
+- Meu gato da família pode espalhar a [doença](pt_virus:COVID)?
+- Meu gato da família pode espalhar o [vírus](pt_virus:COVID)?
 - Meu gato da família pode me infectar?
-- O cão da minha família pode espalhar a doença?
-- O cão da minha família pode espalhar o vírus?
-- O meu animal de companhia pode apanhar o vírus?
-- O meu animal de companhia pode espalhar a doença?
-- O meu animal de companhia pode espalhar o vírus?
+- O cão da minha família pode espalhar a [doença](pt_virus:COVID)?
+- O cão da minha família pode espalhar o [vírus](pt_virus:COVID)?
+- O meu animal de companhia pode apanhar o [vírus](pt_virus:COVID)?
+- O meu animal de companhia pode espalhar a [doença](pt_virus:COVID)?
+- O meu animal de companhia pode espalhar o [vírus](pt_virus:COVID)?
 - O meu animal de companhia pode me infectar?
-- O meu animal de estimação da família pode apanhar o vírus?
-- O meu animal de estimação da família pode espalhar a doença?
-- O meu animal de estimação da família pode espalhar o virus?
-- O meu animal de estimação da família pode espalhar o vírus?
+- O meu animal de estimação da família pode apanhar o [vírus](pt_virus:COVID)?
+- O meu animal de estimação da família pode espalhar a [doença](pt_virus:COVID)?
+- O meu animal de estimação da família pode espalhar o [virus](pt_virus:COVID)?
+- O meu animal de estimação da família pode espalhar o [vírus](pt_virus:COVID)?
 - O meu animal de estimação da família pode me infectar?
-- O meu animal de estimação pode apanhar o vírus?
-- O meu animal de estimação pode apanhar ou espalhar o vírus?
-- O meu animal de estimação pode espalhar a doença?
+- O meu animal de estimação pode apanhar o [vírus](pt_virus:COVID)?
+- O meu animal de estimação pode apanhar ou espalhar o [vírus](pt_virus:COVID)?
+- O meu animal de estimação pode espalhar a [doença](pt_virus:COVID)?
 - O meu animal de estimação pode me infectar?
-- O meu animal de estimação pode transmitir o virus à família?
+- O meu animal de estimação pode transmitir o [virus](pt_virus:COVID) à família?
 - O meu cachorro pode me infectar?
-- O meu cão da família pode apanhar o vírus?
-- O meu cão pode apanhar o vírus?
-- O meu gato pode apanhar o vírus?
-- O meu gato pode espalhar a doença?
-- O meu gato pode espalhar o vírus?
+- O meu cão da família pode apanhar o [vírus](pt_virus:COVID)?
+- O meu cão pode apanhar o [vírus](pt_virus:COVID)?
+- O meu gato pode apanhar o [vírus](pt_virus:COVID)?
+- O meu gato pode espalhar a [doença](pt_virus:COVID)?
+- O meu gato pode espalhar o [vírus](pt_virus:COVID)?
 - O meu gato pode me infectar?
-- Os animais domésticos podem transmitir o COVID-19?
-- Posso apanhar o COVID-19 do cão da minha família?
-- Posso apanhar o COVID-19 do meu animal de companhia?
-- Posso apanhar o COVID-19 do meu animal de estimação da família?
-- Posso apanhar o COVID-19 do meu animal de estimação?
-- Posso apanhar o COVID-19 do meu cachorro?
-- Posso apanhar o COVID-19 do meu gato de família?
-- Posso apanhar o COVID-19 do meu gato?
-- Posso apanhar o virus pelo meu animal de companhia?
+- Os animais domésticos podem transmitir o [COVID-19](pt_virus:COVID)?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do cão da minha família?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do meu animal de companhia?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do meu animal de estimação da família?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do meu animal de estimação?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do meu cachorro?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do meu gato de família?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do meu gato?
+- Posso apanhar o [virus](pt_virus:COVID) pelo meu animal de companhia?
 - Posso ficar doente através de animais de companhia?
 - Posso ser infetado pelo animal de estimação da minha família?
 - Posso ser infetado pelo cão da minha família?
@@ -4947,26 +4947,26 @@
 - Posso ser infetado pelo meu animal de estimação?
 - Posso ser infetado pelo meu cão?
 - Posso ser infetado pelo meu gato?
-- É possível apanhar a doença vinda dos cães da família?
-- É possível apanhar o vírus de animais de companhia?
-- É possível apanhar o vírus de animais de estimação?
-- É possível apanhar o vírus de cães da família?
-- É possível apanhar o vírus de cães?
-- É possível apanhar o vírus de gatos da família?
-- É possível apanhar o vírus de gatos?
-- É possível apanhar o vírus do cão da minha família?
-- É possível apanhar o vírus do meu animal de companhia?
-- É possível apanhar o vírus do meu animal de estimação?
-- É possível apanhar o vírus do meu cão?
-- É possível apanhar o vírus do meu gato da família?
-- É possível apanhar o vírus do meu gato?
-- É possível apanhar o vírus em animais de estimação da família?
-- É possível apanhar o vírus no meu animal de estimação da família?
-- É possível contrair o virus através de cães?
+- É possível apanhar a [doença](pt_virus:COVID) vinda dos cães da família?
+- É possível apanhar o [vírus](pt_virus:COVID) de animais de companhia?
+- É possível apanhar o [vírus](pt_virus:COVID) de animais de estimação?
+- É possível apanhar o [vírus](pt_virus:COVID) de cães da família?
+- É possível apanhar o [vírus](pt_virus:COVID) de cães?
+- É possível apanhar o [vírus](pt_virus:COVID) de gatos da família?
+- É possível apanhar o [vírus](pt_virus:COVID) de gatos?
+- É possível apanhar o [vírus](pt_virus:COVID) do cão da minha família?
+- É possível apanhar o [vírus](pt_virus:COVID) do meu animal de companhia?
+- É possível apanhar o [vírus](pt_virus:COVID) do meu animal de estimação?
+- É possível apanhar o [vírus](pt_virus:COVID) do meu cão?
+- É possível apanhar o [vírus](pt_virus:COVID) do meu gato da família?
+- É possível apanhar o [vírus](pt_virus:COVID) do meu gato?
+- É possível apanhar o [vírus](pt_virus:COVID) em animais de estimação da família?
+- É possível apanhar o [vírus](pt_virus:COVID) no meu animal de estimação da família?
+- É possível contrair o [virus](pt_virus:COVID) através de cães?
 - É possível estar infetado pelo meu gato de família?
 - É possível estar infetado pelo meu gato?
 - É possível estar infetado por gatos de família?
-- É possível o meu gato de família ter me passado o virus?
+- É possível o meu gato de família ter me passado o [virus](pt_virus:COVID)?
 - É possível ser contaminado por animais de estimação da família?
 - É possível ser contaminado por animais de estimação?
 - É possível ser infetado pelo cachorro da minha família?
@@ -4987,69 +4987,69 @@
 - É possível vir a ser infetado por gatos?
 
 ## intent:pt_spread_risk
-- Chances de apanhar COVID-19.
-- Chances de apanhar o vírus.
-- Chances de contrair o vírus.
-- Chances de encontrar contagiado com COVID-19.
-- Chances de estar com COVID-19.
-- Chances de estar contaminado pelo vírus.
-- Chances de estar doente pelo vírus.
-- Chances de estar infetado pelo COVID-19.
-- Chances de estar infetado pelo vírus.
-- Chances de estar infetado por COVID-19.
-- Chances de ficar com o vírus.
-- Chances de possuir o vírus.
-- Chances de ser infetado pelo COVID-19.
-- Chances de ter COVID-19.
-- Gostaria de saber qual a probabilidade de contrair covid-19, devido à minha
+- Chances de apanhar [COVID-19](pt_virus:COVID).
+- Chances de apanhar o [vírus](pt_virus:COVID).
+- Chances de contrair o [vírus](pt_virus:COVID).
+- Chances de encontrar contagiado com [COVID-19](pt_virus:COVID).
+- Chances de estar com [COVID-19](pt_virus:COVID).
+- Chances de estar contaminado pelo [vírus](pt_virus:COVID).
+- Chances de estar doente pelo [vírus](pt_virus:COVID).
+- Chances de estar infetado pelo [COVID-19](pt_virus:COVID).
+- Chances de estar infetado pelo [vírus](pt_virus:COVID).
+- Chances de estar infetado por [COVID-19](pt_virus:COVID).
+- Chances de ficar com o [vírus](pt_virus:COVID).
+- Chances de possuir o [vírus](pt_virus:COVID).
+- Chances de ser infetado pelo [COVID-19](pt_virus:COVID).
+- Chances de ter [COVID-19](pt_virus:COVID).
+- Gostaria de saber qual a probabilidade de contrair [COVID-19](pt_virus:COVID), devido à minha
   profissão.
-- Quaais são as probabilidadas de apanhar o vírus?
-- Quais são as chances de apanhar COVID-19?
-- Quais são as chances de apanhar o COVID-19?
-- Quais são as chances de apanhar o vírus?
-- Quais são as chances de ficar o vírus?
-- Quais são as chances de poder ser infetado pelo COVID-19?
-- Quais são as chances de ser conatminado pelo vírus?
-- Quais são as chances de ser infetado pelo COVID-19?
-- Quais são as chances de ser infetado pelo vírus?
-- Qual a probabilidade de apanhar o vírus?
-- Qual a probabilidade de eu apanhar o COVID-19?
-- Qual a probabilidade de eu estar com COVID-19?
-- Qual a probabilidade de eu estar infetado pelo COVID-19?
-- Qual a probabilidade de eu estar infetado pelo vírus?
-- Qual a probabilidade de eu o vírus me ter infetado?
-- Qual a probabilidade de eu ser contagiado com COVID-19?
+- Quaais são as probabilidadas de apanhar o [vírus](pt_virus:COVID)?
+- Quais são as chances de apanhar [COVID-19](pt_virus:COVID)?
+- Quais são as chances de apanhar o [COVID-19](pt_virus:COVID)?
+- Quais são as chances de apanhar o [vírus](pt_virus:COVID)?
+- Quais são as chances de ficar o [vírus](pt_virus:COVID)?
+- Quais são as chances de poder ser infetado pelo [COVID-19](pt_virus:COVID)?
+- Quais são as chances de ser conatminado pelo [vírus](pt_virus:COVID)?
+- Quais são as chances de ser infetado pelo [COVID-19](pt_virus:COVID)?
+- Quais são as chances de ser infetado pelo [vírus](pt_virus:COVID)?
+- Qual a probabilidade de apanhar o [vírus](pt_virus:COVID)?
+- Qual a probabilidade de eu apanhar o [COVID-19](pt_virus:COVID)?
+- Qual a probabilidade de eu estar com [COVID-19](pt_virus:COVID)?
+- Qual a probabilidade de eu estar infetado pelo [COVID-19](pt_virus:COVID)?
+- Qual a probabilidade de eu estar infetado pelo [vírus](pt_virus:COVID)?
+- Qual a probabilidade de eu o [vírus](pt_virus:COVID) me ter infetado?
+- Qual a probabilidade de eu ser contagiado com [COVID-19](pt_virus:COVID)?
 - Qual o risco de ficar infetado?
-- Qual o risco para Portugal?
-- Que chances tenho de apanhar COVID-19?
-- Que chances tenho de apanhar o vírus?
-- Que chances tenho de estar infetado pelo COVID-19?
-- Que chances tenho de estar infetado pelo vírus?
-- Que chances tenho de possuir COVID-19?
-- Que chances tenho de possuir o vírus?
-- Que chances tenho para apanhar o COVID-19?
-- Que chances tenho para apanhar o vírus?
-- Risco de apanhar COVID-19.
-- Risco de apanhar o vírus.
-- Risco de contrair o vírus.
-- Risco de ser contaminado pelo COVID-19.
-- Risco de ser contrair o vírus.
-- Risco de ser infetado pelo COVID-19.
-- Risco de ser infetado pelo vírus.
-- Risco de ter COVID-19.
+- Qual o risco para [Portugal](pt_country_code:PT)?
+- Que chances tenho de apanhar [COVID-19](pt_virus:COVID)?
+- Que chances tenho de apanhar o [vírus](pt_virus:COVID)?
+- Que chances tenho de estar infetado pelo [COVID-19](pt_virus:COVID)?
+- Que chances tenho de estar infetado pelo [vírus](pt_virus:COVID)?
+- Que chances tenho de possuir [COVID-19](pt_virus:COVID)?
+- Que chances tenho de possuir o [vírus](pt_virus:COVID)?
+- Que chances tenho para apanhar o [COVID-19](pt_virus:COVID)?
+- Que chances tenho para apanhar o [vírus](pt_virus:COVID)?
+- Risco de apanhar [COVID-19](pt_virus:COVID).
+- Risco de apanhar o [vírus](pt_virus:COVID).
+- Risco de contrair o [vírus](pt_virus:COVID).
+- Risco de ser contaminado pelo [COVID-19](pt_virus:COVID).
+- Risco de ser contrair o [vírus](pt_virus:COVID).
+- Risco de ser infetado pelo [COVID-19](pt_virus:COVID).
+- Risco de ser infetado pelo [vírus](pt_virus:COVID).
+- Risco de ter [COVID-19](pt_virus:COVID).
 - Trabalho numa Câmara Municipal, na recolha do lixo. Temos várias medidas de
   prevenção, mas toda a minha família está em casa. Em teletrbalho, é os miúdos
   como é do conhecimento geral estão sem aulas. Gostaria de saber qual a
-  probabilidade de contrair covid-19, devido à minha profissão.
+  probabilidade de contrair [COVID-19](pt_virus:COVID), devido à minha profissão.
 - posso estar infetado?
-- qual o risco de contrair a doença?
+- qual o risco de contrair a [doença](pt_virus:COVID)?
 - risco
 
 ## intent:pt_spread_surfaces_food_objects
-- O COVID-19 pode ser transmitido através de alimentos, incluindo os
+- O [COVID-19](pt_virus:COVID) pode ser transmitido através de alimentos, incluindo os
   refrigerados e congelados?
-- O COVID-19 pode ser transmitido através de alimentos?
-- O virus pode ser transmitido através de alimentos?
+- O [COVID-19](pt_virus:COVID) pode ser transmitido através de alimentos?
+- O [virus](pt_virus:COVID) pode ser transmitido através de alimentos?
 - Transmissão através de alimentos
 
 ## intent:pt_state_emergency_info
@@ -5071,8 +5071,8 @@
 - quão seguro é ir a um supermercado
 
 ## intent:pt_test_general
-- Devo ser testado para o COVID-19?
-- despiste de covid-19
+- Devo ser testado para o [COVID-19](pt_virus:COVID)?
+- despiste de [COVID-19](pt_virus:COVID)
 - o exame é necessário?
 - tenho de fazer o teste?
 
@@ -5080,10 +5080,10 @@
 - Quantos testes devem ser feitos por dia?
 - Quantos testes são feitos por dia?
 - Testes por dia?
-- quantos testes ao covid  foram realizados diariamente em portugal ?
-- quantos testes ao covid foram realizados diariamente em portugal nos ultimos 5
+- quantos testes ao [covid](pt_virus:COVID)  foram realizados diariamente em portugal ?
+- quantos testes ao [covid](pt_virus:COVID) foram realizados diariamente em portugal nos ultimos 5
   dias ?
-- quantos testes ao covid foram realizados diariamente em portugal nos ultimos
+- quantos testes ao [covid](pt_virus:COVID) foram realizados diariamente em portugal nos ultimos
   dias ?
 - quantos testes foramrealizados diariamente em portugal ?
 - quantos testes são realizados diariamente em portugal ?
@@ -5096,17 +5096,17 @@
 - O teste testa o quê?
 
 ## intent:pt_test_where
-- Onde fazer o teste de covid-19?
+- Onde fazer o teste de [COVID-19](pt_virus:COVID)?
 - Onde posso fazer o despiste?
 - Onde posso fazer o teste?
 - Onde posso fazer um teste?
 - Onde posso ser testada?
 - Onde posso ser testado?
-- Onde é feito o teste da COVID-19?
+- Onde é feito o teste da [COVID-19](pt_virus:COVID)?
 - Onde é feito o teste?
 - Posso fazer o teste em casa?
 - onde fazer o teste?
-- onde são os centros de testes covid-19
+- onde são os centros de testes [COVID-19](pt_virus:COVID)
 
 ## intent:pt_travel_after
 - Acabei de voltar de uma viagem.
@@ -5154,7 +5154,7 @@
 - Estou planeando viajar de férias.
 - Estou planeando viajar.
 - Estou viajando em breve.
-- Impacto do virus no planeamento de férias.
+- Impacto do [virus](pt_virus:COVID) no planeamento de férias.
 - O que antecipar antes da viagem?
 - O que antecipar antes de viajar?
 - O que devo fazer antes de viajar?
@@ -7435,6 +7435,7 @@
 - Grã-Bretanha
 - Reino Unido da Grã-Bretanha e Irlanda do Norte
 - Reino Unido
+- Inglaterra
 - Northern Ireland
 - Great Britain
 - Britain
@@ -9509,22 +9510,43 @@
 - transmitida
 
 ## synonym:COVID
-- COVID
-- COVID-19
-- SARS-CoV-2
 - novo coronavirus
+- virus
+- doença
+- vírus
+- coronavírus
+- 2019nCov
 - 2019-nCoV
-- o virus
-- a doença
-- covid19
-- 2019ncov
-- covid2019
-- covid-2019
-- 19-ncov
-- 19ncov
+- SARSCoV-2
+- COVID
+- COVID2019
+- COVID19
+- COVID-2019
+- COVID-19
+- 19nCov
+- 19-nCoV
 - SARSCoV2
 - SARS-CoV2
-- SARSCoV-2
+- SARS-CoV-2
+- coronaviruses
+- nCoV
+- Corona
+- Covid 19
+- corrid
+- ocoronavírus
+- corona virus
+- covid-18
+- Corona vírus
+- covit19
+- nCoV 2019
+- novo coronavírus
+- vírus corona
+- ccovid
+- virose
+- SARSCoV-2d
+- SARSCoVd
+- COVIDd
+- COVID-19d
 
 ## synonym:number
 - quantidade
@@ -9992,7 +10014,7 @@
 - França
 - Gabão
 - Gâmbia
-
+-->
 ## synonym:town
 - Bad Lauchstädt
 - Rosenthal
@@ -10711,7 +10733,7 @@
 - Mainz
 - Freiburg
 - Dortmund
-- Macau
+<!-- - Macau -->
 - Duesseldorf
 - Geisa
 - Stuttgart
@@ -12377,7 +12399,7 @@
 - Teuschnitz
 - Deidesheim
 - Karben
-- Thale -->
+- Thale 
 
 ## synonym:languages
 - Ucraniano

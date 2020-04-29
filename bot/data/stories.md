@@ -439,7 +439,7 @@
   - utter_pt_vocative_you_welcome
 
 ## pt_covid_situation
-* pt_covid_situation{"pt_country_code" : "Portugal"}
+* pt_covid_situation{"pt_country_code" : "Estados Unidos da América"}
   - action_search_stats
   - slot{"active_cases": "16300"}
   - slot{"country": "Portugal"}
@@ -452,7 +452,7 @@
   - utter_pt_covid_situation
 
 ## pt_covid_situation_deaths
-* pt_covid_situation_deaths
+* pt_covid_situation_deaths{"pt_country_code":"Suécia"}
   - action_search_stats
   - slot{"active_cases": "16300"}
   - slot{"country": "Portugal"}
@@ -465,7 +465,7 @@
   - utter_pt_covid_situation_deaths
 
 ## pt_covid_situation_infected
-* pt_covid_situation_infected
+* pt_covid_situation_infected{"pt_country_code":"Itália"}
   - action_search_stats
   - slot{"active_cases": "16300"}
   - slot{"country": "Portugal"}
@@ -478,7 +478,7 @@
   - utter_pt_covid_situation_infected
 
 ## pt_covid_situation_infected_critical
-* pt_covid_situation_infected_critical
+* pt_covid_situation_infected_critical{"pt_country_code":"Espanha"}
   - action_search_stats
   - slot{"active_cases": "16300"}
   - slot{"country": "Portugal"}
@@ -491,7 +491,7 @@
   - utter_pt_covid_situation_infected_critical
 
 ## pt_covid_situation_last_update
-* pt_covid_situation_last_update
+* pt_covid_situation_last_update{"pt_country_code":"Inglaterra"}
   - action_search_stats
   - slot{"active_cases": "16300"}
   - slot{"country": "Portugal"}
@@ -504,7 +504,7 @@
   - utter_pt_covid_situation_last_update
 
 ## pt_covid_situation_recovered
-* pt_covid_situation_recovered
+* pt_covid_situation_recovered{"pt_country_code":"Alemanha"}
   - action_search_stats
   - slot{"active_cases": "16300"}
   - slot{"country": "Portugal"}
@@ -517,7 +517,7 @@
   - utter_pt_covid_situation_recovered
 
 ## pt_covid_situation_tested
-* pt_covid_situation_tested
+* pt_covid_situation_tested{"pt_country_code":"Portugal"}
   - action_search_stats
   - slot{"active_cases": "16300"}
   - slot{"country": "Portugal"}
