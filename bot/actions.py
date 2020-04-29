@@ -7,14 +7,13 @@
 
 
 from typing import Text
-
+import requests
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import SlotSet
-from rasa_sdk.events import FollowupAction
-from rasa_sdk.events import UserUtteranceReverted
-from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import SlotSet, FollowupAction, UserUtteranceReverted
 from datetime import date
 import time
+from googleapiclient.discovery import build
+from bot.secret import *
 
 class GetTimeValue(Action):
 
@@ -43,3 +42,17 @@ class ActionDefaultFallback(Action):
 
     def run(self, dispatcher, tracker, domain):
         return [UserUtteranceReverted(), FollowupAction("utter_")]
+
+class ActionGoogleCustomSearch(Action):
+    def name(self) -> Text:
+        return "action_google_custom_search"
+
+    def google_search(self, search_term):
+        service = build("customsearch", "v1", developerKey=api_key)
+        res = service.cse().list(q=search_term, cx=cse_id).execute()
+        return res['items']
+
+    def run(self, dispatcher, tracker, domain):
+        search_term = next(tracker.get_latest_entity_values("pt_search_term"), None)
+        self.google_search(search_term)
+        return []

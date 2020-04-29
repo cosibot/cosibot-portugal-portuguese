@@ -147,6 +147,9 @@ slots:
   bot_date:
     type: text
 
+entities:
+  - pt_search_term
+
 responses:
   utter_pt_portugal_rates:
     - custom:
@@ -2720,3 +2723,4 @@ actions:
   - action_get_date
   - action_get_time
   - action_default_fallback
+  - action_google_custom_search
