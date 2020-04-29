@@ -13,11 +13,11 @@ from fasttext import load_model
 
 class CustomLangDetect(Component):
     """Component to detect language of user input and pass down the language code
-        in th pipeline in order to trigger a switch agent action"""
+       in th pipeline in order to trigger a switch agent action"""
 
     name = "language_detect"
-    provides = ["entities"]
-    requires = ["text"]
+    # provides = ["entities"]
+    # requires = ["text"]
 
 
     # Which components are required by this component.
@@ -66,9 +66,9 @@ class CustomLangDetect(Component):
         """Convert model output into the Rasa NLU compatible output format."""
 
         entity = {"value": value,
-                "confidence": confidence,
-                "entity": "language_code",
-                "extractor": "language_detector"}
+                  "confidence": confidence,
+                  "entity": "bot_language_code",
+                  "extractor": "language_detector"}
 
         return entity
 
@@ -85,7 +85,7 @@ class CustomLangDetect(Component):
         of components previous to this one."""
 
         if not self._model:
-            language_codes = None
+            language_code = None
         
         else:
             text = message.get("text")
