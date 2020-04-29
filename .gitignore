@@ -1,3 +1,9 @@
+# Bot files
+bot/models
+
+# vs code
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -130,3 +136,10 @@ dmypy.json
 
 #API Keys
 bot/secret.py
+
+# Project specifics
+bot/models/
+*.iml
+scripts/node_modules/
+scripts/package-lock.json
+scripts/output/

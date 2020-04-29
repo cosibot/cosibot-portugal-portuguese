@@ -1,3 +1,47 @@
+slots:
+  bot_name:
+    type: text
+    initial_value: "Helena"
+  bot_version:
+    type: text
+    initial_value: "0.0.1"
+  bot_time:
+    type: text
+  bot_date:
+    type: text
+  active_cases:
+    type: unfeaturized
+  country:
+    type: text
+  new_cases:
+    type: unfeaturized
+  new_deaths:
+    type: unfeaturized
+  total_cases:
+    type: unfeaturized
+  total_recovered:
+    type: unfeaturized
+  total_deaths:
+    type: unfeaturized
+  total_tests:
+    type: unfeaturized
+  total_infected_critical:
+    type: unfeaturized
+
+
+entities:
+  - pt_country_code
+  - pt_geography
+  - pt_virus
+  - pt_search_term
+  -
+actions:
+  - action_search_stats
+  - action_get_date
+  - action_get_time
+  - action_default_fallback
+  - action_google_custom_search
+
 intents:
   - pt_bot_appearance
   - pt_bot_availability
@@ -135,20 +179,6 @@ intents:
   - pt_vocative_yes
   - pt_vocative_you_welcome
 
-slots:
-  bot_name:
-    type: text
-    initial_value: "Helena"
-  bot_version:
-    type: text
-    initial_value: "0.0.1"
-  bot_time:
-    type: text
-  bot_date:
-    type: text
-
-entities:
-  - pt_search_term
 
 responses:
   utter_pt_portugal_rates:
@@ -250,10 +280,12 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Grita-o ao mundo!</speak>
-          - type: ssml
-            ssml: <speak>Ainda bem que está feliz!</speak>
           - type: text
             text: Grita-o ao mundo!
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Ainda bem que está feliz!</speak>
           - type: text
             text: Ainda bem que está feliz!
   utter_pt_user_angry:
@@ -262,14 +294,16 @@ responses:
           - type: ssml
             ssml: <speak>Por favor, não se zangue comigo. Eu quero ajudá-lo o melhor que
               posso.</speak>
-          - type: ssml
-            ssml: <speak>Tenho muita pena que se sinta assim. O que posso fazer para mudar
-              os seus sentimentos?</speak>
           - type: text
             text: Por favor, não se zangue comigo. Eu quero ajudá-lo o melhor que posso.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Tenho muita pena que se sinta assim. O que posso fazer para mudar
+                os seus sentimentos?</speak>
           - type: text
             text: Tenho muita pena que se sinta assim. O que posso fazer para mudar os seus
-              sentimentos?
+                sentimentos?
   utter_pt_user_scared:
     - custom:
         answers:
@@ -288,11 +322,13 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Seria um prazer ser seu amigo.</speak>
+          - type: text
+            text: Seria um prazer ser seu amigo.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Seria um grande prazer meu se eu pudesse chamá-lo de meu
               amigo.</speak>
-          - type: text
-            text: Seria um prazer ser seu amigo.
           - type: text
             text: Seria um grande prazer meu se eu pudesse chamá-lo de meu amigo.
   utter_pt_user_particles:
@@ -306,12 +342,15 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Sinto-me lisonjeado. Infelizmente, não posso aceitar o seu
+            ssml: <speak>Sinto-me lisonjeada. Infelizmente, não posso aceitar o seu
               amor.</speak>
-          - type: ssml
-            ssml: <speak>Lamento, mas não nos vejo como compatíveis.</speak>
           - type: text
             text: Sinto-me lisonjeada. Infelizmente, não posso aceitar o seu amor.
+
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Lamento, mas não nos vejo como compatíveis.</speak>
           - type: text
             text: Lamento, mas não nos vejo como compatíveis.
   utter_pt_user_no_further_questions:
@@ -319,12 +358,15 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Muito bem.</speak>
+          - type: text
+            text: Muito bem.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Certo.</speak>
           - type: text
-            text: Muito bem.
-          - type: text
             text: Certo.
+
   utter_pt_user_thumbs_up:
     - custom:
         answers:
@@ -337,27 +379,136 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Adeus! Tenha um bom dia!</speak>
+          - type: text
+            text: Adeus! Tenha um bom dia!
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Adeus! Tenha um ótimo dia!</speak>
+          - type: text
+            text: Adeus! Tenha um ótimo dia!
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Adeus! Obrigada pela sua visita!</speak>
           - type: text
-            text: Adeus! Tenha um bom dia!
-          - type: text
-            text: Adeus! Tenha um ótimo dia!
-          - type: text
             text: Adeus! Obrigada pela sua visita!
+
+  utter_pt_init:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Olá! Chamo-me {bot_name} e estou aqui para esclarecer dúvidas acerca da
+              Covid 19, tais como evitar a propagação, ou esclarecer alguns
+              mitos que se leem por aí. Como posso ajudá-lo?</speak>
+          - type: text
+            text: Olá! Chamo-me {bot_name} e estou aqui para esclarecer dúvidas acerca da
+                  COVID-19, tais como evitar a propagação, ou esclarecer alguns
+                  mitos que se leem por aí. Como posso ajudá-lo?
+
   utter_pt_greeting_how_are_you:
     - custom:
         answers:
           - type: ssml
             ssml: <speak>Eu estou bem! Espero que consigo também.</speak>
+          - type: text
+            text: Eu estou bem! Espero que consigo também.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Vai tudo bem. Espero que por aí também.</speak>
           - type: text
-            text: Eu estou bem! Espero que consigo também.
-          - type: text
             text: Vai tudo bem. Espero que por aí também.
+  utter_pt_covid_situation:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak></speak>
+          - type: text
+            text: A última atualização indica que
+  utter_pt_covid_situation_deaths:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>De acordo com a última atualização, em {country} existe um total de
+              {total_deaths} fatalidades pelo COVID-19.</speak>
+          - type: text
+            text: De acordo com a última atualização, em {country} existe um total de
+              {total_deaths} fatalidades pelo COVID-19.
+  utter_pt_covid_situation_infected:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {active_cases} infetados.</speak>
+          - type: text
+            text: Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {active_casesquan} infetados.
+  utter_pt_covid_situation_infected_critical:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>A última atualização disponível em {country} aponta para
+              um total de {total_infected_critical} infetados internados na Unidade de Cuidados Intensivos.</speak>
+          - type: text
+            text: A última atualização disponível em {country} aponta para
+              um total de {total_infected_critical} infetados internados na Unidade de Cuidados Intensivos.
+  utter_pt_covid_situation_last_update:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>Neste momento em {country} existe um valor total de {active_cases} casos ativos. Na última
+              atualização disponível foram identificados {new_cases} novos casos.</speak>
+          - type: text
+            text: Neste momento em {country} existe um valor total de {active_cases} casos ativos. Na última
+              atualização disponível foram identificados {new_cases} novos casos.
+          - type: ssml
+            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {total_cases} casos dos quais {active_cases}
+              ainda estão ativos, {total_recovered} estão totalmente
+              recuperados e {total_deaths} não sobreviveram.</speak>
+          - type: text
+            text: Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {total_cases} casos dos quais {active_cases}
+              ainda estão ativos, {total_recovered} estão totalmente
+              recuperados e {total_deaths} não sobreviveram.
+          - type: ssml
+            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {active_cases} casos ativos.</speak>
+          - type: text
+            text: Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {active_cases} casos ativos.
+          - type: ssml
+            ssml: <speak>Neste momento em {country} existe um valor total de
+              {total_cases} casos dos quais {active_cases} ainda estão ativos,
+              {total_recovered} estão totalmente recuperados e {total_deaths} não
+              sobreviveram.Na ultima atualização existiam {new_cases} novos casos
+              e {new_deaths} novas fatalidades.</speak>
+          - type: text
+            text: Neste momento em {country} existe um valor total de
+              {total_cases} casos dos quais {active_cases} ainda estão ativos,
+              {total_recovered} estão totalmente recuperados e {total_deaths} não
+              sobreviveram.Na ultima atualização existiam {new_cases} novos casos
+              e {new_deaths} novas fatalidades.
+  utter_pt_covid_situation_recovered:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>Os últimos dados indicam que, no momento, em {country}, há um
+              total de {total_recovered} casos recuperados.</speak>
+          - type: text
+            text: Os últimos dados indicam que, no momento, em {country}, há um
+              total de {total_recovered} casos recuperados.
+  utter_pt_covid_situation_tested:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>A última atualização de dados indica que em {country}
+              foram realizados {total_tests} desde o início de recolha de dados. </speak>
+          - type: text
+            text: A última atualização de dados indica que em {country}
+              foram realizados {total_tests} desde o início de recolha de dados.
+
   utter_:
     - custom:
         answers:
@@ -463,53 +614,7 @@ responses:
               exemplo, informações sobre medidas preventivas, sintomas
               associados à doença ou como o vírus se espalha.
           - ""
-          - type: text
-            text: Neste momento em $counter_data.country existe um valor total de <?
-              $counter_data.result.data.active_cases ?> casos ativos. Na última
-              atualização disponível foram identificados <?
-              $counter_data.result.data.new_cases ?> novos casos.
-          - type: ssml
-            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
-              $counter_data.country existe um valor total de <?
-              $counter_data.result.data.total_cases ?> casos dos quais <?
-              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
-              $counter_data.result.data.total_recovered ?> estão totalmente
-              recuperados e <? $counter_data.result.data.total_deaths ?> não
-              sobreviveram.</speak>
-          - type: text
-            text: Os últimos dados disponiveis indicam que neste momento em
-              $counter_data.country existe um valor total de <?
-              $counter_data.result.data.total_cases ?> casos dos quais <?
-              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
-              $counter_data.result.data.total_recovered ?> estão totalmente
-              recuperados e <? $counter_data.result.data.total_deaths ?> não
-              sobreviveram.
-          - type: ssml
-            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
-              $counter_data.country existe um valor total de <?
-              $counter_data.result.data.active_cases ?> casos ativos.</speak>
-          - type: text
-            text: Os últimos dados disponiveis indicam que neste momento em
-              $counter_data.country existe um valor total de <?
-              $counter_data.result.data.active_cases ?> casos ativos.
-          - type: ssml
-            ssml: <speak>Neste momento em $counter_data.country existe um valor total de <?
-              $counter_data.result.data.total_cases ?> casos dos quais <?
-              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
-              $counter_data.result.data.total_recovered ?> estão totalmente
-              recuperados e <? $counter_data.result.data.total_deaths ?> não
-              sobreviveram.Na ultima atualização existiam <?
-              $counter_data.result.data.new_cases?> novos casos e  <?
-              $counter_data.result.data.new_deaths?> novas fatalidades.</speak>
-          - type: text
-            text: Neste momento em $counter_data.country existe um valor total de <?
-              $counter_data.result.data.total_cases ?> casos dos quais <?
-              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
-              $counter_data.result.data.total_recovered ?> estão totalmente
-              recuperados e <? $counter_data.result.data.total_deaths ?> não
-              sobreviveram.Na ultima atualização existiam <?
-              $counter_data.result.data.new_cases?> novos casos e  <?
-              $counter_data.result.data.new_deaths?> novas fatalidades.
+
           - type: ssml
             ssml: <speak>Ocorreu um problema no pedido de informação adicional sobre o
               assunto que pesquisa. No entanto pode pesquisar na Agência Lusa ou
@@ -1171,13 +1276,13 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Porque é que nunca se vêm elefantes escondidos nas árvores? Porque
+            ssml: <speak>Porque é que nunca se veem elefantes escondidos nas árvores? Porque
               eles são muito bons nisso.</speak>
           - type: ssml
             ssml: <speak>O que é vermelho e se mexe para cima e para baixo? Um tomate num
               elevador.</speak>
           - type: text
-            text: Porque é que nunca se vêm elefantes escondidos nas árvores? Porque eles
+            text: Porque é que nunca se veem elefantes escondidos nas árvores? Porque eles
               são muito bons nisso.
           - type: text
             text: O que é vermelho e se mexe para cima e para baixo? Um tomate num elevador.
@@ -2719,8 +2824,3 @@ responses:
             text: Há mais alguma pergunta que eu possa responder?
           - type: text
             text: Que mais posso fazer por si?
-actions:
-  - action_get_date
-  - action_get_time
-  - action_default_fallback
-  - action_google_custom_search
