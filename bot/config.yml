@@ -21,7 +21,8 @@ pipeline:
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: language_detection.lang_change_policy.LangChangePolicy
-    fallback_action_name: 'utter_pt_bot_languages'
+    lang_detect_threshold: 0.5
+    fallback_action_name: "action_ask_language"
   - name: MemoizationPolicy
   - name: TEDPolicy
     max_history: 5
