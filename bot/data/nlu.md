@@ -1,3 +1,9 @@
+## intent:start
+- /start
+- /start
+- /start_conversation
+- /start_chat
+
 ## intent:pt_bot_appearance
 - Achas-te atraente?
 - Atraente?
@@ -5856,7 +5862,7 @@
 - Sem problemas.
 
 
-
+<!--
 ## synonym:pricelist
 - base price
 - pays
@@ -6401,9 +6407,9 @@
 - lmao
 - lmfao
 - muff
-- nigger
+- nigger-->
 <!-- - nigga -->
-- omg
+<!--- omg
 - penis
 - piss
 - poop
@@ -6968,7 +6974,7 @@
 - remark
 - comment
 - note
-
+-->
 ## synonym:pneumonia_vaccine
 - vacinas de pneumonia
 - vacina de pneumonia
@@ -7029,7 +7035,7 @@
 - salino
 - saline
 - saline solution
-
+<!--
 ## synonym:racist
 - islamicists
 - islamists
@@ -7318,7 +7324,7 @@
 - enquiry
 - questions
 - inquiry
-
+-->
 ## synonym:EG
 - República Árabe do Egipto
 - República Árabe do Egito
@@ -9550,7 +9556,7 @@
 - COVIDd
 - COVID-19d
 - corrige
-
+<!--
 ## synonym:number
 - quantidade
 - número
@@ -9672,7 +9678,7 @@
 - pussy
 - pussies
 - vagina
-
+-->
 ## synonym:cough
 - tosse
 

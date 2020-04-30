@@ -2,6 +2,9 @@ slots:
   bot_name:
     type: text
     initial_value: "Helena"
+  bot_introduced:
+    type: bool
+    initial_value: False
   bot_version:
     type: text
     initial_value: "0.1"
@@ -26,15 +29,16 @@ slots:
 
 
 entities:
-  - pt_country_code
-  - pt_geography 
+  - pt_country_code 
   - pt_virus
 
 actions:
   - action_search_stats
+  - action_check_Bot_Introduced
 
 
 intents:
+  - start
   - pt_bot_appearance
   - pt_bot_availability
   - pt_bot_books
@@ -173,6 +177,13 @@ intents:
 
 
 responses:
+  utter_pt_welcome:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da Covid 19, tais como evitar a propagação, ou esclarecer alguns mitos que se leem por aí. Como posso ajudá-lo?</speak>
+          - type: text
+            text: Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da Covid 19, tais como evitar a propagação, ou esclarecer alguns mitos que se leem por aí. Como posso ajudá-lo? 
   utter_pt_portugal_rates:
     - custom:
         answers:
@@ -366,6 +377,27 @@ responses:
             ssml: <speak>Agradeço imenso o seu like.</speak>
           - type: text
             text: Agradeço imenso o seu like.
+  
+  utter_pt_greeting_hello:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Olá, em que posso ajudá-lo?</speak>
+          - type: text
+            text: Olá, em que posso ajudá-lo?
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Olá! Em que posso ser útil?</speak>
+          - type: text
+            text: Olá! Em que posso ser útil?
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Saudações! O que posso fazer por si?</speak>
+          - type: text
+            text: Saudações! O que posso fazer por si?
+            
   utter_pt_greeting_goodbye:
     - custom:
         answers:
