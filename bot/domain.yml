@@ -135,6 +135,10 @@ intents:
   - pt_vocative_yes
   - pt_vocative_you_welcome
 
+entities:
+  - language
+  - bot_language_code
+
 slots:
   bot_name:
     type: text
@@ -146,6 +150,17 @@ slots:
     type: text
   bot_date:
     type: text
+  language_slot:
+    type: categorical
+    values:
+    - 'pt'
+    initial_value: 'pt'
+
+actions:
+  - action_get_date
+  - action_get_time
+  - action_default_fallback
+  - action_ask_language
 
 responses:
   utter_pt_portugal_rates:
@@ -2716,8 +2731,3 @@ responses:
             text: Há mais alguma pergunta que eu possa responder?
           - type: text
             text: Que mais posso fazer por si?
-actions:
-  - action_get_date
-  - action_get_time
-  - action_default_fallback
-  - action_ask_language

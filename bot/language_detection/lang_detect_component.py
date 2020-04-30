@@ -13,7 +13,7 @@ from fasttext import load_model
 
 class CustomLangDetect(Component):
     """Component to detect language of user input and pass down the language code
-       in th pipeline in order to trigger a switch agent action"""
+       in the pipeline in order to trigger a switch agent action"""
 
     name = "language_detect"
     # provides = ["entities"]
@@ -68,7 +68,7 @@ class CustomLangDetect(Component):
         entity = {"value": value,
                   "confidence": confidence,
                   "entity": "bot_language_code",
-                  "extractor": "language_detector"}
+                  "extractor": "language_detect"}
 
         return entity
 
