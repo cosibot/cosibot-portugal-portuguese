@@ -2920,6 +2920,11 @@
 - novos [coronavírus](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
 - novos [coronavírus](pt_virus:COVID) e SARS.
 
+## intent:pt_country
+- em [Portugal](pt_country_code:PT)
+- [Espanha](pt_country_code:ES)
+- na [Grécia](pt_country_code:GR)
+
 ## intent:pt_covid_situation
 - ASUS de [covid](pt_virus:COVID) no Alentejo
 - Casos de [covid](pt_virus:COVID) no Alentejo

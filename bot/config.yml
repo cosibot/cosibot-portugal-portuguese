@@ -20,6 +20,7 @@ pipeline:
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: MemoizationPolicy
+    max_history: 5
   - name: TEDPolicy
     max_history: 5
     epochs: 100

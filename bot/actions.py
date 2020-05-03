@@ -4,12 +4,13 @@
 # See this guide on how to implement these action:
 # https://rasa.com/docs/rasa/core/actions/#custom-actions/
 
+from typing import Text
 
 import requests
 from datetime import date
 
 from rasa_sdk import Action
-from rasa_sdk.events import SlotSet
+from rasa_sdk.events import SlotSet, FollowupAction
 
 class DecsisAPI:
 
@@ -49,20 +50,27 @@ class ActionSearchStats(Action):
     def run(self, dispatcher, tracker, domain):
         
         country_code = next(tracker.get_latest_entity_values("pt_country_code"), None)
-        print("country code é {}".format(country_code))
-        entity = next((e for e in tracker.latest_message["entities"] if
-                                e['entity'] == 'pt_country_code'), None)
-        print(entity)
-
-        input_country = tracker.latest_message['text'][entity['start']:entity['end']]
+        print("country code is {}".format(country_code))
         # print(input_country)
         # dispatcher.utter_message("A procurar estatísticas sobre {}".format(country_code))
         # date = tracker.get_slot("date")
         decsis_api = DecsisAPI()
         stats = decsis_api.search(country_code)
         # dispatcher.utter_message("Estatísticas COVID-19 em {} (até {}): \n - Novos casos: {}".format(stats['country'], date.today().strftime("%d-%m-%Y"), stats['new_cases']))
+        if not stats:
+            # dispatcher.utter_message("Deseja adicionar um país à pesquisa?") #Add options
 
-        return [SlotSet('country', input_country), SlotSet('active_cases', stats.get('active_cases', None)), 
+            return [FollowupAction("utter_pt_want_to_add_country")]
+        
+        else:
+
+            entity = next((e for e in tracker.latest_message["entities"] if
+                                e['entity'] == 'pt_country_code'), None)
+            print(entity)
+
+            input_country = tracker.latest_message['text'][entity['start']:entity['end']]
+            
+            return [SlotSet('country', input_country), SlotSet('active_cases', stats.get('active_cases', None)), 
                 SlotSet('new_cases', stats.get('new_cases', None)), SlotSet('total_cases', stats.get('total_cases', None)),
                 SlotSet('total_recovered', stats.get('total_recovered', None)), SlotSet('total_deaths', stats.get('total_deaths', None)),
                 SlotSet('total_tests', stats.get('total_tests', None)), SlotSet('new_deaths', stats.get('new_deaths', None)),

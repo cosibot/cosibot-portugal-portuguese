@@ -23,6 +23,9 @@ slots:
     type: unfeaturized 
   total_infected_critical:
     type: unfeaturized
+  pt_country_code:
+    type: unfeaturized
+    auto_fill: false
 
 
 entities:
@@ -92,6 +95,7 @@ intents:
   - pt_covid_pandemic
   - pt_covid_preexisting_illness
   - pt_covid_sars
+  - pt_country
   - pt_covid_situation
   - pt_covid_situation_deaths
   - pt_covid_situation_infected
@@ -385,7 +389,6 @@ responses:
             ssml: <speak>Adeus! Obrigada pela sua visita!</speak>
           - type: text
             text: Adeus! Obrigada pela sua visita!
-
   utter_pt_init:
     - custom:
         answers:
@@ -502,6 +505,26 @@ responses:
           - type: text
             text: A última atualização de dados indica que em {country} 
               foram realizados {total_tests} desde o início de recolha de dados.
+  utter_pt_want_to_add_country:
+    - custom:
+        answers:
+          - type: text
+            text: Deseja adicionar um país à sua pesquisa?
+          - type: ssml
+            text: <speak>Deseja adicionar um país à sua pesquisa?</speak>
+          - type: multichoice
+            options:
+              - label: Sim
+                value: Sim
+              - label: Não
+                value: Não
+  utter_pt_ask_which_country:
+    - custom:
+        answers:
+          - type: text
+            text: Que país devo adicionar à sua pesquisa?
+          - type: ssml
+            text: <speak>Que país devo adicionar à sua pesquisa?</speak>
   utter_:
     - custom:
         answers:
