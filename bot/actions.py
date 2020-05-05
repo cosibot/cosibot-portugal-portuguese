@@ -56,10 +56,11 @@ class ActionSearchStats(Action):
         # date = tracker.get_slot("date")
         decsis_api = DecsisAPI()
         stats = decsis_api.search(country_code)
+        print(stats)
         # dispatcher.utter_message("Estatísticas COVID-19 em {} (até {}): \n - Novos casos: {}".format(stats['country'], date.today().strftime("%d-%m-%Y"), stats['new_cases']))
         if not stats:
             # dispatcher.utter_message("Deseja adicionar um país à pesquisa?") #Add options
-
+            print("not stats")
             return [FollowupAction("utter_pt_want_to_add_country")]
         
         else:

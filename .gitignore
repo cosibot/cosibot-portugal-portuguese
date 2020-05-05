@@ -1,5 +1,6 @@
 # Bot files
 bot/models
+bot/results
 
 # vs code 
 .vscode

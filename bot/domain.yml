@@ -23,9 +23,6 @@ slots:
     type: unfeaturized 
   total_infected_critical:
     type: unfeaturized
-  pt_country_code:
-    type: unfeaturized
-    auto_fill: false
 
 
 entities:

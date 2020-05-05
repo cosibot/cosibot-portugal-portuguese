@@ -2924,6 +2924,212 @@
 - em [Portugal](pt_country_code:PT)
 - [Espanha](pt_country_code:ES)
 - na [Grécia](pt_country_code:GR)
+- na [Suiça](pt_country_code:CH)
+- no [Zimbabué](pt_country_code:ZW)
+- [Egipto](pt_country_code:EG)
+- [Sara Ocidental](pt_country_code:EH)
+- [Eritrea](pt_country_code:ER)
+- [Etiópia](pt_country_code:ET)
+- [Finlândia](pt_country_code:FI)
+- [Fidji](pt_country_code:FJ)
+- [Falkland](pt_country_code:FK)
+- [Micronesia](pt_country_code:FM)
+- [Ilhas Faroé](pt_country_code:FO)
+- [França](pt_country_code:FR)
+- [Gabão](pt_country_code:GA)
+- [Reino Unido](pt_country_code:GB)
+- [Granada](pt_country_code:GD)
+- [Geórgia](pt_country_code:GE)
+- [Guyane](pt_country_code:GF)
+- [Bailado de Guernsey](pt_country_code:GG)
+- [Gibraltar](pt_country_code:GI)
+- [Gronelandia](pt_country_code:GL)
+- [Gambia](pt_country_code:GM)
+- [Guinea](pt_country_code:GN)
+- [Guadalupe](pt_country_code:GP)
+- [Geórgia do Sul](pt_country_code:GS)
+- [Guatemala](pt_country_code:GT)
+- [Guam](pt_country_code:GU)
+- [Guiné-Bissau](pt_country_code:GW)
+- [Guiana](pt_country_code:GY)
+- [Hong Kong](pt_country_code:HK)
+- [Ilhas Heard](pt_country_code:HM)
+- [Honduras](pt_country_code:HN)
+- [Croacia](pt_country_code:HR)
+- [Haiti](pt_country_code:HT)
+- [Hungria](pt_country_code:HU)
+- [Indonesia](pt_country_code:ID)
+- [Irlanda](pt_country_code:IE)
+- [Israel](pt_country_code:IL)
+- [Mann](pt_country_code:IM)
+- [India](pt_country_code:IN)
+- [Território Britânico do Oceano](pt_country_code:IO)
+- [Iraq](pt_country_code:IQ)
+- [Irão](pt_country_code:IR)
+- [Islandia](pt_country_code:IS)
+- [Italia](pt_country_code:IT)
+- [Jersey](pt_country_code:JE)
+- [Jamaica](pt_country_code:JM)
+- [Jordania](pt_country_code:JO)
+- [Japão](pt_country_code:JP)
+- [Kenya](pt_country_code:KE)
+- [Quirguistão](pt_country_code:KG)
+- [Cambodja](pt_country_code:KH)
+- [Kiribati](pt_country_code:KI)
+- [Comoros](pt_country_code:KM)
+- [Nevis](pt_country_code:KN)
+- [DPRK](pt_country_code:KP)
+- [Coreia do Sul](pt_country_code:KR)
+- [Kuwait](pt_country_code:KW)
+- [Ilhas Caimão](pt_country_code:KY)
+- [Cazaquistão](pt_country_code:KZ)
+- [Laos](pt_country_code:LA)
+- [Líbano](pt_country_code:LB)
+- [Santa Lúcia](pt_country_code:LC)
+- [Sri Lanka](pt_country_code:LK)
+- [Liberia](pt_country_code:LR)
+- [Lithuania](pt_country_code:LT)
+- [Lesoto](pt_country_code:LS)
+- [Luxemburgo](pt_country_code:LU)
+- [Latvia](pt_country_code:LV)
+- [Líbia](pt_country_code:LY)
+- [Marrocos](pt_country_code:MA)
+- [Monaco](pt_country_code:MC)
+- [Moldávia](pt_country_code:MD)
+- [Montenegro](pt_country_code:ME)
+- [Saint Martin](pt_country_code:MF)
+- [Madagáscar](pt_country_code:MG)
+- [Ilhas Marshall](pt_country_code:MH)
+- [Macedónia](pt_country_code:MK)
+- [Máli](pt_country_code:ML)
+- [Myanmar](pt_country_code:MN)
+- [Mongolia](pt_country_code:MN)
+- [Macau](pt_country_code:MO)
+- [CNMI](pt_country_code:MP)
+- [Martinique](pt_country_code:MQ)
+- [Mauritania](pt_country_code:MR)
+- [Monserrate](pt_country_code:MS)
+- [Malta](pt_country_code:MT)
+- [Maurice](pt_country_code:MU)
+- [Maldivas](pt_country_code:MV)
+- [Malawi](pt_country_code:MW)
+- [Mexico](pt_country_code:MX)
+- [Malásia](pt_country_code:MY)
+- [Moçambique](pt_country_code:MZ)
+- [Namibia](pt_country_code:NA)
+- [Nova Caledónia](pt_country_code:NC)
+- [Niger](pt_country_code:NE)
+- [Norfolk Island](pt_country_code:NF)
+- [Nigeria](pt_country_code:NG)
+- [Nicaragua](pt_country_code:NI)
+- [Holanda](pt_country_code:NL)
+- [Noruega](pt_country_code:NO)
+- [Nepal](pt_country_code:NP)
+- [Nauru](pt_country_code:NR)
+- [Niuê](pt_country_code:NU)
+- [Nova Zelândia](pt_country_code:NZ)
+- [Omão](pt_country_code:OM)
+- [Panama](pt_country_code:PA)
+- [Peru](pt_country_code:PE)
+- [Polinésia Francesa](pt_country_code:PF)
+- [PNG](pt_country_code:PG)
+- [Filipinas](pt_country_code:PH)
+- [Paquistão](pt_country_code:PK)
+- [Polónia](pt_country_code:PL)
+- [São Pedro e Miquelon](pt_country_code:PM)
+- [Pitcairn](pt_country_code:PN)
+- [Porto Rico](pt_country_code:PR)
+- [Palestine](pt_country_code:PS)
+- [Palau](pt_country_code:PW)
+- [Paraguay](pt_country_code:PY)
+- [Qatar](pt_country_code:QA)
+- [Reunião](pt_country_code:RE)
+- [Roménia](pt_country_code:RO)
+- [Sérvia](pt_country_code:RS)
+- [Russia](pt_country_code:RU)
+- [Ruanda](pt_country_code:RW)
+- [Arábia Saudita](pt_country_code:SA)
+- [Ilhas Salomão](pt_country_code:SB)
+- [Seicheles](pt_country_code:SC)
+- [Sudão](pt_country_code:SD)
+- [Suécia](pt_country_code:SE)
+- [Singapura](pt_country_code:SH)
+- [Ascensão](pt_country_code:SH)
+- [Eslovénia](pt_country_code:SI)
+- [Svalbard](pt_country_code:SJ)
+- [Eslováquia](pt_country_code:SK)
+- [Serra Leoa](pt_country_code:SL)
+- [São Marino](pt_country_code:SM)
+- [Senegal](pt_country_code:SN)
+- [Somália](pt_country_code:SO)
+- [Suriname](pt_country_code:SR)
+- [South Sudan](pt_country_code:SS)
+- [São Tomé e Príncipe](pt_country_code:ST)
+- [Salvador](pt_country_code:SV)
+- [Sint Maarten](pt_country_code:SX)
+- [Síria](pt_country_code:SY)
+- [Andorra](pt_country_code:AD)
+- [Turcas e Caicos](pt_country_code:TC)
+- [Chade](pt_country_code:TD)
+- [TAAF](pt_country_code:TF)
+- [Togo](pt_country_code:TG)
+- [Tailândia](pt_country_code:TH)
+- [Tajiquistão](pt_country_code:TJ)
+- [Tokelau](pt_country_code:TK)
+- [Timor Leste](pt_country_code:TL)
+- [Turquemenistão](pt_country_code:TM)
+- [Tunísia](pt_country_code:TN)
+- [Tonga](pt_country_code:TO)
+- [Turkey](pt_country_code:TR)
+- [Trinidade e Tobago](pt_country_code:TT)
+- [Tuvalu](pt_country_code:TV)
+- [Taiwan](pt_country_code:YW)
+- [Tanzania](pt_country_code:TZ)
+- [Ucrânia](pt_country_code:UA)
+- [Uganda](pt_country_code:UG)
+- [Ilha Wake](pt_country_code:UM)
+- [Estados Unidos](pt_country_code:US)
+- [Uruguai](pt_country_code:UY)
+- [Uzbekistan](pt_country_code:UZ)
+- [Santa Sé](pt_country_code:VA)
+- [São Vicente](pt_country_code:VC)
+- [Venezuela](pt_country_code:VE)
+- [Ilhas Virgens Britânicas](pt_country_code:VG)
+- [American Virgin Islands](pt_country_code:VI)
+- [Vietname](pt_country_code:VN)
+- [Vanuatu](pt_country_code:VU)
+- [Wallis and Futuna](pt_country_code:WF)
+- [Samoa](pt_country_code:WS)
+- [Iémen](pt_country_code:YE)
+- [Maore](pt_country_code:YT)
+- [RSA](pt_country_code:ZA)
+- [República da Zâmbia](pt_country_code:ZM)
+- [Swaziland](pt_country_code:SZ)
+- [Emirates](pt_country_code:AE)
+- [Afeganistão](pt_country_code:AF)
+- [Antígua](pt_country_code:AG)
+- [Anguila](pt_country_code:AI)
+- [Albânia](pt_country_code:AL)
+- [Armênia](pt_country_code:AM)
+- [Angola](pt_country_code:AO)
+- [Antarctica](pt_country_code:AQ)
+- [Argentina](pt_country_code:AR)
+- [Tutuila](pt_country_code:AS)
+- [Austria](pt_country_code:AT)
+- [Australia](pt_country_code:AU)
+- [Aruba](pt_country_code:AW)
+- [Alanda](pt_country_code:AX)
+- [Azerbaijan](pt_country_code:AZ)
+- [Bosnia](pt_country_code:BA)
+- [Barbados](pt_country_code:BB)
+- [Bangladesh](pt_country_code:BD)
+- [Bélgica](pt_country_code:BE)
+
+
+
+
+
+
 
 ## intent:pt_covid_situation
 - ASUS de [covid](pt_virus:COVID) no Alentejo
@@ -3155,7 +3361,7 @@
 ## intent:pt_covid_situation_infected_critical
 - ASUS alarmantes de [covid](pt_virus:COVID) em [República Islâmica do Afeganistão](pt_country_code:AF)
 - ASUS alarmantes de [covid](pt_virus:COVID) no [Domínica](pt_country_code:DM)
-- ASUS criticos de cov[id em [Maurício](pt_country_code:MU)
+- ASUS criticos de covid em [Maurício](pt_country_code:MU)
 - ASUS criticos de [covid](pt_virus:COVID) no [República Federal do Brasil](pt_country_code:BR)
 - ASUS críticos de [covid](pt_virus:COVID) em [Republic of Argentina](pt_country_code:AR)
 - ASUS críticos de [covid](pt_virus:COVID) no [Republic of Maldives](pt_country_code:MV)
@@ -3174,7 +3380,7 @@
 - Casos graves de [covid](pt_virus:COVID) em [Antigua and Barbuda](pt_country_code:AG)
 - Casos graves de [covid](pt_virus:COVID) no [Norfolk Island](pt_country_code:NF)
 - Contagem infectada alarmante em [Sérvia](pt_country_code:RS)
-- Contagem infectada alarmante no [U.K.](pt_country_code:GB)
+- Contagem infectada alarmante no [UK](pt_country_code:GB)
 - Contagem infectada critica em [Bailliage dé Jèrri](pt_country_code:JE)
 - Contagem infectada critica no [Norway](pt_country_code:NO)
 - Contagem infectada crítica em [Bonaire, Sint Eustatius and Saba](pt_country_code:BQ)
@@ -3223,15 +3429,15 @@
 - Qual é o número de infectados criticos em [Saint Helena](pt_country_code:SH)?
 - Qual é o número de infectados críticos em [Baker Island](pt_country_code:UM)?
 - Qual é o número de infectados graves em [República Federal da Nigéria](pt_country_code:NG)?
-- Quantos casos alarmantes de corrid em [Faroe Islands](pt_country_code:FO)
+- Quantos casos alarmantes de [corrid](pt_virus:COVID) em [Faroe Islands](pt_country_code:FO)
 - Quantos casos alarmantes em [Free Associated State of Puerto Rico](pt_country_code:PR)?
 - Quantos casos alarmantes existem em [Repubilika ya Kôngo ya Dimokalasi](pt_country_code:CD)
 - Quantos casos alarmantes há na [Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui](pt_country_code:MO)?
-- Quantos casos criticos de corrid em [TOM](pt_country_code:TF)
+- Quantos casos criticos de [corrid](pt_virus:COVID) em [TOM](pt_country_code:TF)
 - Quantos casos criticos em [Ilhas Cook](pt_country_code:CK)?
 - Quantos casos criticos existem em [Maore](pt_country_code:YT)
 - Quantos casos criticos há na [Danmark](pt_country_code:DK)?
-- Quantos casos críticos de corrid em [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah](pt_country_code:SY)
+- Quantos casos críticos de [corrid](pt_virus:COVID) em [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah](pt_country_code:SY)
 - Quantos casos críticos em [Reino da Suécia](pt_country_code:SE)?
 - Quantos casos críticos existem em [Irão](pt_country_code:IR)
 - Quantos casos críticos há na [Cocos (Keeling) Islands](pt_country_code:CC)?
@@ -3255,7 +3461,7 @@
 - Quantos infetados críticos tem o [Bonaire](pt_country_code:BQ)?
 - Quantos infetados graves tem [Republic of Suriname](pt_country_code:SR)?
 - Quantos infetados graves tem o [República da Estónia](pt_country_code:EE)?
-- qual o numero de casos confirmados alarmantes em [Wilayah Kepulauan Cocos (Keeling)](pt_country_code:CC)?
+- qual o numero de casos confirmados alarmantes em [Wilayah Kepulauan Cocos Keeling](pt_country_code:CC)?
 - qual o numero de casos confirmados criticos em [Renndaandi Ginea](pt_country_code:GN)?
 - qual o numero de casos confirmados críticos em [Republic of Honduras](pt_country_code:HN)?
 - qual o numero de casos confirmados graves em [La Grenade](pt_country_code:GD)?
@@ -7453,7 +7659,7 @@
 - Island of Spice
 - Ilha das Especiarias
 - La Grenade
-<!-- - Granada -->
+- Granada
 - Gwenad
 - Grenada
 
@@ -7493,6 +7699,7 @@
 
 ## synonym:GL
 - Gronelândia
+- Gronelandia
 - Groelândia
 - Groenlândia
 - Grønland
@@ -7722,6 +7929,7 @@
 - Reino da Jordânia
 - Reino Haxemita da Jordânia
 - Jordânia
+- Jordania
 - Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah
 - Al-ʾUrdunn
 - Kingdom of Jordan
@@ -8364,6 +8572,7 @@
 - Estado da Palestina
 - Filasṭīn
 - Palestine
+- Palestina
 - Dawlat Filasṭīn
 - State of Palestine
 
@@ -8587,7 +8796,7 @@
 
 ## synonym:SV
 - República do Salvador
-<!-- - Salvador -->
+- Salvador
 - República de El Salvador
 - Republic of El Salvador
 - El Salvador
@@ -9246,6 +9455,7 @@
 - Ilhas Keeling
 - Keeling Islands
 - Wilayah Kepulauan Cocos (Keeling)
+- Wilayah Kepulauan Cocos Keeling
 - Pulu Kokos (Keeling)
 - Territory of Cocos Keeling Islands
 - Territory of Cocos (Keeling) Islands
