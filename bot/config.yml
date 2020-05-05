@@ -2,7 +2,7 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: "pt"  # your two-letter language code
 pipeline:
-  - name: language_detection.lang_detect_component.CustomLangDetect
+  # - name: language_detection.lang_detect_component.CustomLangDetect
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
@@ -23,12 +23,9 @@ policies:
   - name: language_detection.lang_change_policy.LangChangePolicy
     lang_detect_threshold: 0.5
     fallback_action_name: 'utter_pt_bot_languages'
+    model_path: "./language_detection/lid.176.ftz"
   - name: MemoizationPolicy
   - name: TEDPolicy
     max_history: 5
     epochs: 100
   - name: MappingPolicy
-  - name: "FallbackPolicy"
-    nlu_threshold: 0.4
-    core_threshold: 0.3
-    fallback_action_name: 'action_default_fallback'
