@@ -23,6 +23,8 @@ slots:
     type: unfeaturized 
   total_infected_critical:
     type: unfeaturized
+  search_successful:
+    type: bool
 
 
 entities:

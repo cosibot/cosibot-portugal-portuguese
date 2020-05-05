@@ -3125,12 +3125,6 @@
 - [Bangladesh](pt_country_code:BD)
 - [Bélgica](pt_country_code:BE)
 
-
-
-
-
-
-
 ## intent:pt_covid_situation
 - ASUS de [covid](pt_virus:COVID) no Alentejo
 - Casos de [covid](pt_virus:COVID) no Alentejo
