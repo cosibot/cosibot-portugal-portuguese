@@ -1,3 +1,12 @@
+## start
+* start{"bot_introduced": "False"}
+  - action_check_Bot_Introduced
+  - utter_pt_welcome
+
+## start
+* start{"bot_introduced": "True"}
+  - utter_pt_greeting_hello
+
 ## pt_bot_appearance
 * pt_bot_appearance
   - utter_pt_bot_appearance
@@ -205,6 +214,10 @@
 ## pt_features_time
 * pt_features_time
   - utter_pt_features_time
+
+## pt_greeting_hello
+* pt_greeting_hello
+  - utter_pt_greeting_hello
 
 ## pt_greeting_goodbye
 * pt_greeting_goodbye
