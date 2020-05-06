@@ -158,8 +158,8 @@ class ActionSearchStats(Action):
 
             input_country = tracker.latest_message['text'][entity['start']:entity['end']]
             
-            return [SlotSet('search_successful', 'ok'), SlotSet('country', input_country), SlotSet('active_cases', stats.get('active_cases', None)), 
-                SlotSet('new_cases', stats.get('new_cases', None)), SlotSet('total_cases', stats.get('total_cases', None)),
-                SlotSet('total_recovered', stats.get('total_recovered', None)), SlotSet('total_deaths', stats.get('total_deaths', None)),
-                SlotSet('total_tests', stats.get('total_tests', None)), SlotSet('new_deaths', stats.get('new_deaths', None)),
-                SlotSet('total_infected_critical', stats.get('critical', None)),  ]
+            return [SlotSet('search_successful', 'ok'), SlotSet('country', input_country), SlotSet('active_cases', int(stats.get('active_cases', None))), 
+                SlotSet('new_cases', int(stats.get('new_cases', None))), SlotSet('total_cases', int(stats.get('total_cases', None))),
+                SlotSet('total_recovered', int(stats.get('total_recovered', None))), SlotSet('total_deaths', int(stats.get('total_deaths', None))),
+                SlotSet('total_tests', int(stats.get('total_tests', None))), SlotSet('new_deaths', int(stats.get('new_deaths', None))),
+                SlotSet('total_infected_critical', int(stats.get('critical', None))),  ]
