@@ -24,7 +24,12 @@ slots:
   total_infected_critical:
     type: unfeaturized
   search_successful:
-    type: bool
+    type: categorical
+    values:
+      - ok
+      - inexistent-country
+      - wrong-country
+      - not-ok
 
 
 entities:
@@ -524,6 +529,33 @@ responses:
             text: Que país devo adicionar à sua pesquisa?
           - type: ssml
             text: <speak>Que país devo adicionar à sua pesquisa?</speak>
+  utter_pt_covid_no_country_current_statistics:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O país que procura não está disponível. Para acompanhar a situação ao momento do novo coronavírus em
+              Portugal e no mundo, clique nos links apresentados abaixo.</speak>
+          - type: html
+            text: <p>Para acompanhar a situação ao momento do novo coronavírus em Portugal e
+              no mundo, clique nos links apresentados abaixo:</p>
+          - type: links
+            links:
+              - title: Situação COVID-19 Portugal
+                url: https://esriportugal.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3PGXAR1R8kkr9dMAzz8BV83QeAVl8-WHNHfGRQBuj8eShqJtb1_Ib_mAk#/acf023da9a0b4f9dbb2332c13f635829
+          - type: links
+            links:
+              - title: Situação COVID-19 Mundo
+                url: https://who.sprinklr.com/
+          - type: hints
+            options:
+              - label: SobreCOVID-19
+                value: Sobre COVID-19
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
   utter_:
     - custom:
         answers:
