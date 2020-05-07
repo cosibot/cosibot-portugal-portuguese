@@ -438,3 +438,6 @@
 * pt_vocative_you_welcome
   - utter_pt_vocative_you_welcome
 
+## pt_change_bot
+* pt_bot_change_bot{"preferred_lang": "en"}
+  - slot{"preferred_lang": "de"}

@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Rasa Core Visualisation</title>
+    <script src="https://dagrejs.github.io/project/dagre-d3/latest/dagre-d3.min.js"></script>
+    <script src="https://dagrejs.github.io/project/dagre/latest/dagre.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://dagrejs.github.io/project/graphlib-dot/v0.6.3/graphlib-dot.js"></script>
+</head>
+<body>
+<div id="errormsg" style="color: #b00"></div>
+<svg>
+    <style>
+        .node.invisible > rect {
+            display: none;
+        }
+
+        .node.start > rect {
+            fill: #7f7;
+            rx: 30;
+            ry: 18;
+        }
+
+        .node.end > rect {
+            fill: #f77;
+            rx: 30;
+            ry: 18;
+        }
+
+        .node:not(.active) > rect, .node:not(.active) > .label {
+            opacity: 0.4;
+        }
+
+        .edgePath:not(.active) path {
+            opacity: 0.4;
+        }
+
+        .node.ellipsis > rect {
+            fill: #CCC;
+        }
+
+        .node.intent > rect {
+            fill: #7ff;
+        }
+
+        .node.dashed > rect {
+            stroke-dasharray: 5;
+        }
+
+        text {
+            font-weight: 300;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serf, serif;
+            font-size: 14px;
+            color: #1f1d1d;
+        }
+
+        .node rect {
+            stroke: #444;
+            fill: #fff;
+            stroke-width: 1.5px;
+        }
+
+        .edgePath path {
+            stroke: #333;
+            stroke-width: 1.5px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 0;
+            height: 100%;
+            width: 100%
+        }
+    </style>
+    <g></g>
+</svg>
+<script>
+
+  function serveGraph() {
+    let oldInputGraphValue;
+
+    const url = 'visualization.dot';
+    const refreshInterval = 500;
+
+    // trigger a refresh by fetching an updated graph
+    setInterval(function () {
+      fetch(url).then(r => r.text()).then(dot => {
+        document.getElementById('errormsg').innerHTML = '';
+        if (oldInputGraphValue === dot) return;
+
+        oldInputGraphValue = dot;
+        drawGraph(dot);
+      }).catch(err => {
+        document.getElementById('errormsg').innerHTML =
+          'Failed to update plot. (' + err.message + ')';
+      });
+    }, refreshInterval);
+  }
+
+  function drawGraph(graph) {
+    let g = graphlibDot.read(graph);
+    // Set margins, if not present
+    if (!g.graph().hasOwnProperty("marginx") &&
+      !g.graph().hasOwnProperty("marginy")) {
+      g.graph().marginx = 20;
+      g.graph().marginy = 20;
+    }
+    g.graph().transition = function (selection) {
+      return selection.transition().duration(300);
+    };
+    // Render the graph into svg g
+    d3.select("svg g").call(render, g);
+  }
+  // Set up zoom support
+  const svg = d3.select("svg"),
+    inner = d3.select("svg g"),
+    zoom = d3.zoom().on("zoom", function () {
+      inner.attr("transform", d3.event.transform);
+    });
+  svg.call(zoom);
+
+  // Create and configure the renderer
+  const render = dagreD3.render();
+
+  let isClient = false;
+  isClient = true;
+
+  if (isClient) {
+    // Mark all nodes and their edges as active
+    cssRules = document.styleSheets[0].cssRules;
+    cssRules[3].style.opacity = 1;
+    cssRules[4].style.opacity = 1;
+
+    let graph;
+    graph = `digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+"-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
+1 [class="", fontsize=12, label=utter_pt_user_friend];
+2 [class="", fontsize=12, label=utter_pt_user_happy];
+3 [class="", fontsize=12, label=utter_pt_user_love];
+4 [class="", fontsize=12, label=utter_pt_user_no_further_questions];
+5 [class="", fontsize=12, label=utter_pt_user_particles];
+6 [class="", fontsize=12, label=utter_pt_user_scared];
+7 [class="", fontsize=12, label=utter_pt_vocative_call];
+8 [class="", fontsize=12, label=utter_pt_vocative_help];
+9 [class="", fontsize=12, label=utter_pt_vocative_sorry];
+10 [class="", fontsize=12, label=utter_pt_vocative_thank_you];
+11 [class="", fontsize=12, label=utter_pt_bot_name];
+12 [class="", fontsize=12, label=utter_pt_vocative_you_welcome];
+13 [class="", fontsize=12, label=utter_pt_bot_origin];
+14 [class="", fontsize=12, label=utter_pt_bot_personality];
+15 [class="", fontsize=12, label=utter_pt_bot_real];
+16 [class="", fontsize=12, label=utter_pt_bot_residence];
+17 [class="", fontsize=12, label=utter_pt_bot_sexual];
+18 [class="", fontsize=12, label=utter_pt_bot_version];
+19 [class="", fontsize=12, label=utter_pt_cc_chicken_egg];
+20 [class="", fontsize=12, label=utter_pt_cc_joke];
+21 [class="", fontsize=12, label=utter_pt_cc_lets_talk];
+22 [class="", fontsize=12, label=utter_pt_bot_appearance];
+23 [class="", fontsize=12, label=utter_pt_cc_moon];
+24 [class="", fontsize=12, label=utter_pt_cc_newspaper];
+25 [class="", fontsize=12, label=utter_pt_cc_philosophical];
+26 [class="", fontsize=12, label=utter_pt_cc_politics];
+27 [class="", fontsize=12, label=utter_pt_cc_religion];
+28 [class="", fontsize=12, label=utter_pt_cc_weather];
+29 [class="", fontsize=12, label=utter_pt_comment_negative];
+30 [class="", fontsize=12, label=utter_pt_comment_offense];
+31 [class="", fontsize=12, label=utter_pt_comment_positive];
+32 [class="", fontsize=12, label=utter_pt_comment_racist];
+33 [class="", fontsize=12, label=utter_pt_bot_availability];
+34 [class="", fontsize=12, label=utter_pt_comment_smart];
+35 [class="", fontsize=12, label=utter_pt_coronavirus_info];
+36 [class="", fontsize=12, label=utter_pt_covid_aftereffects_immunity];
+37 [class="", fontsize=12, label=utter_pt_covid_alike];
+38 [class="", fontsize=12, label=utter_pt_covid_babys_children];
+39 [class="", fontsize=12, label=utter_pt_covid_close_contact];
+40 [class="", fontsize=12, label=utter_pt_covid_community_transmission];
+41 [class="", fontsize=12, label=utter_pt_covid_cosibot];
+42 [class="", fontsize=12, label=utter_pt_covid_crisis_howlong];
+43 [class="", fontsize=12, label=utter_pt_covid_current_statistics];
+44 [class="", fontsize=12, label=utter_pt_bot_books];
+45 [class="", fontsize=12, label=utter_pt_covid_duration];
+46 [class="", fontsize=12, label=utter_pt_covid_incubation];
+47 [class="", fontsize=12, label=utter_pt_covid_info];
+48 [class="", fontsize=12, label=utter_pt_covid_meaning];
+49 [class="", fontsize=12, label=utter_pt_covid_mortality_rate];
+50 [class="", fontsize=12, label=utter_pt_covid_pandemic];
+51 [class="", fontsize=12, label=utter_pt_covid_preexisting_illness];
+52 [class="", fontsize=12, label=utter_pt_covid_sars];
+53 [class="", fontsize=12, label=utter_pt_covid_surfaces];
+54 [class="", fontsize=12, label=utter_pt_covid_symptoms];
+55 [class="", fontsize=12, label=utter_pt_bot_capabilities];
+56 [class="", fontsize=12, label=utter_pt_covid_worry];
+57 [class="", fontsize=12, label=action_get_date];
+58 [class="", fontsize=12, label=action_get_time];
+59 [class="", fontsize=12, label=utter_pt_greeting_goodbye];
+60 [class="", fontsize=12, label=utter_pt_greeting_how_are_you];
+61 [class="", fontsize=12, label=utter_pt_mask_general];
+62 [class="", fontsize=12, label=utter_pt_mask_use_after];
+63 [class="", fontsize=12, label=utter_pt_mask_use_put];
+64 [class="", fontsize=12, label=utter_pt_myth_alcohol];
+65 [class="", fontsize=12, label=utter_pt_myth_packages];
+66 [class="", fontsize=12, label=utter_pt_bot_fear];
+67 [class="", fontsize=12, label=utter_pt_myth_transmission_hot_areas];
+68 [class="", fontsize=12, label=utter_pt_patient_home];
+69 [class="", fontsize=12, label=utter_pt_patient_referral];
+70 [class="", fontsize=12, label=utter_pt_portugal_government_measures];
+71 [class="", fontsize=12, label=utter_pt_portugal_ill_foreigner];
+72 [class="", fontsize=12, label=utter_pt_portugal_ill_no_covid];
+73 [class="", fontsize=12, label=utter_pt_portugal_rates];
+74 [class="", fontsize=12, label=utter_pt_prevention_clean_hands];
+75 [class="", fontsize=12, label=utter_pt_prevention_distance];
+76 [class="", fontsize=12, label=utter_pt_prevention_entering_home];
+77 [class="", fontsize=12, label=utter_pt_bot_goal];
+78 [class="", fontsize=12, label=utter_pt_prevention_food];
+79 [class="", fontsize=12, label=utter_pt_prevention_general];
+80 [class="", fontsize=12, label=utter_pt_prevention_gloves];
+81 [class="", fontsize=12, label=utter_pt_prevention_home];
+82 [class="", fontsize=12, label=utter_pt_prevention_measures];
+83 [class="", fontsize=12, label=utter_pt_prevention_medicine];
+84 [class="", fontsize=12, label=utter_pt_prevention_respiratory_hygiene];
+85 [class="", fontsize=12, label=utter_pt_prevention_touch];
+86 [class="", fontsize=12, label=utter_pt_quarantine_children];
+87 [class="", fontsize=12, label=utter_pt_quarantine_dos_and_donts];
+88 [class="", fontsize=12, label=utter_pt_bot_languages];
+89 [class="", fontsize=12, label=utter_pt_quarantine_toiletpaper];
+90 [class="", fontsize=12, label=utter_pt_sources];
+91 [class="", fontsize=12, label=utter_pt_spread_air];
+92 [class="", fontsize=12, label=utter_pt_spread_animals];
+93 [class="", fontsize=12, label=utter_pt_spread_feces];
+94 [class="", fontsize=12, label=utter_pt_spread_general];
+95 [class="", fontsize=12, label=utter_pt_spread_no_symptoms];
+96 [class="", fontsize=12, label=utter_pt_spread_pets];
+97 [class="", fontsize=12, label=utter_pt_spread_risk];
+98 [class="", fontsize=12, label=utter_pt_spread_surfaces_food_objects];
+99 [class="", fontsize=12, label=utter_pt_bot_movies];
+100 [class="", fontsize=12, label=utter_pt_state_emergency_info];
+101 [class="", fontsize=12, label=utter_pt_state_emergency_run];
+102 [class="", fontsize=12, label=utter_pt_test_general];
+103 [class="", fontsize=12, label=utter_pt_test_per_day];
+104 [class="", fontsize=12, label=utter_pt_test_what];
+105 [class="", fontsize=12, label=utter_pt_test_where];
+106 [class="", fontsize=12, label=utter_pt_travel_after];
+107 [class="", fontsize=12, label=utter_pt_travel_before];
+108 [class="", fontsize=12, label=utter_pt_travel_while];
+109 [class="", fontsize=12, label=utter_pt_user_angry];
+110 [class="", fontsize=12, label=utter_pt_bot_music];
+111 [class=intent, fillcolor=lightblue, label="Gostarias de ser meu amigo", shape=rect, style=filled];
+112 [class=intent, fillcolor=lightblue, label="Estou de bom humor", shape=rect, style=filled];
+113 [class=intent, fillcolor=lightblue, label="Consegues amar-me", shape=rect, style=filled];
+114 [class=intent, fillcolor=lightblue, label="Ajudaste-me com tudo, obrigado.", shape=rect, style=filled];
+115 [class=intent, fillcolor=lightblue, label=Shh, shape=rect, style=filled];
+116 [class=intent, fillcolor=lightblue, label="Estou muito assustada!", shape=rect, style=filled];
+117 [class=intent, fillcolor=lightblue, label="estás a ler", shape=rect, style=filled];
+118 [class=intent, fillcolor=lightblue, label="Podes dar-me uma ajuda", shape=rect, style=filled];
+119 [class=intent, fillcolor=lightblue, label="peço imensa desculpa", shape=rect, style=filled];
+120 [class=intent, fillcolor=lightblue, label=Orbigado, shape=rect, style=filled];
+121 [class=intent, fillcolor=lightblue, label="Sabes quem és?", shape=rect, style=filled];
+122 [class=intent, fillcolor=lightblue, label="Fico feliz de ajudar.", shape=rect, style=filled];
+123 [class=intent, fillcolor=lightblue, label="Diz-me a tua origem", shape=rect, style=filled];
+124 [class=intent, fillcolor=lightblue, label="És muito amigável?", shape=rect, style=filled];
+125 [class=intent, fillcolor=lightblue, label="Não preferias ser humano?", shape=rect, style=filled];
+126 [class=intent, fillcolor=lightblue, label="Onde é a tua casa?", shape=rect, style=filled];
+127 [class=intent, fillcolor=lightblue, label="Gostas de homens?", shape=rect, style=filled];
+128 [class=intent, fillcolor=lightblue, label="Qual é a tua versão?", shape=rect, style=filled];
+129 [class=intent, fillcolor=lightblue, label="Podes dizer-me quem veio primeiro? O ovo ou a galinha?", shape=rect, style=filled];
+130 [class=intent, fillcolor=lightblue, label="Dá-me algo engraçado", shape=rect, style=filled];
+131 [class=intent, fillcolor=lightblue, label="Que tal uma conversa?", shape=rect, style=filled];
+132 [class=intent, fillcolor=lightblue, label="Tens uma imagem de ti?", shape=rect, style=filled];
+133 [class=intent, fillcolor=lightblue, label="Diz-me a distância da lua", shape=rect, style=filled];
+134 [class=intent, fillcolor=lightblue, label="Gostas de ler o jornal?", shape=rect, style=filled];
+135 [class=intent, fillcolor=lightblue, label="De onde é que vêm os pensamentos?", shape=rect, style=filled];
+136 [class=intent, fillcolor=lightblue, label="O que achas do Donald Trump", shape=rect, style=filled];
+137 [class=intent, fillcolor=lightblue, label="Acreditas em Deus?", shape=rect, style=filled];
+138 [class=intent, fillcolor=lightblue, label="Como estará o tempo?", shape=rect, style=filled];
+139 [class=intent, fillcolor=lightblue, label="Não sabes nada.", shape=rect, style=filled];
+140 [class=intent, fillcolor=lightblue, label="Tu és uma merda", shape=rect, style=filled];
+141 [class=intent, fillcolor=lightblue, label="És tão atencioso.", shape=rect, style=filled];
+142 [class=intent, fillcolor=lightblue, label="Pessoas de cor não dão valor à educação", shape=rect, style=filled];
+143 [class=intent, fillcolor=lightblue, label="A disponibilidade do bot.", shape=rect, style=filled];
+144 [class=intent, fillcolor=lightblue, label="Provaste ser inteligente", shape=rect, style=filled];
+145 [class=intent, fillcolor=lightblue, label="O que é o vírus?", shape=rect, style=filled];
+146 [class=intent, fillcolor=lightblue, label="Os doentes tratados ficam imunizados?", shape=rect, style=filled];
+147 [class=intent, fillcolor=lightblue, label="Surtos semelhantes a esta pandemia", shape=rect, style=filled];
+148 [class=intent, fillcolor=lightblue, label="As crianças transmitem a doença?", shape=rect, style=filled];
+149 [class=intent, fillcolor=lightblue, label="Contacto próximo", shape=rect, style=filled];
+150 [class=intent, fillcolor=lightblue, label="Área de transmissão comunitária.", shape=rect, style=filled];
+151 [class=intent, fillcolor=lightblue, label=Cosibot, shape=rect, style=filled];
+152 [class=intent, fillcolor=lightblue, label="durante quanto tempo vai durar o surto ?", shape=rect, style=filled];
+153 [class=intent, fillcolor=lightblue, label="/pt_covid_current_statistics", shape=rect, style=filled];
+154 [class=intent, fillcolor=lightblue, label="O que é que tu gostas de ler?", shape=rect, style=filled];
+155 [class=intent, fillcolor=lightblue, label="POsso ficar doente por quanto tempo?", shape=rect, style=filled];
+156 [class=intent, fillcolor=lightblue, label="Qual é o tempo estimado da incubação?", shape=rect, style=filled];
+157 [class=intent, fillcolor=lightblue, label="informações sobre 2019nCov", shape=rect, style=filled];
+158 [class=intent, fillcolor=lightblue, label="Explique-me o significado do nome da doença.", shape=rect, style=filled];
+159 [class=intent, fillcolor=lightblue, label="qual é a taxa de mortalidade ?", shape=rect, style=filled];
+160 [class=intent, fillcolor=lightblue, label="Definição de pandemia.", shape=rect, style=filled];
+161 [class=intent, fillcolor=lightblue, label="Quem pode estar mais em risco?", shape=rect, style=filled];
+162 [class=intent, fillcolor=lightblue, label="Sobre COVID e SARS.", shape=rect, style=filled];
+163 [class=intent, fillcolor=lightblue, label="coronavírus persiste nas superfícies?", shape=rect, style=filled];
+164 [class=intent, fillcolor=lightblue, label="Quais são os possiveis sinais de infecção?", shape=rect, style=filled];
+165 [class=intent, fillcolor=lightblue, label="O que sabes fazer?", shape=rect, style=filled];
+166 [class=intent, fillcolor=lightblue, label="Como proceder sobre preocupações com o surto.", shape=rect, style=filled];
+167 [class=intent, fillcolor=lightblue, label="Podes dizer-me a data de hoje?", shape=rect, style=filled];
+168 [class=intent, fillcolor=lightblue, label="Diz-me a hora, por favor.", shape=rect, style=filled];
+169 [class=intent, fillcolor=lightblue, label="Obrigado Até mais logo", shape=rect, style=filled];
+170 [class=intent, fillcolor=lightblue, label="Como Estás hoje?", shape=rect, style=filled];
+171 [class=intent, fillcolor=lightblue, label="devo usar máscaras ? sim ou nao ?", shape=rect, style=filled];
+172 [class=intent, fillcolor=lightblue, label="Depois de usar uma máscara.", shape=rect, style=filled];
+173 [class=intent, fillcolor=lightblue, label="Como usar uma máscara descartável.", shape=rect, style=filled];
+174 [class=intent, fillcolor=lightblue, label="A pulverização de álcool em todo o corpo pode matar o novo coronavírus?", shape=rect, style=filled];
+175 [class=intent, fillcolor=lightblue, label="É seguro receber uma carta de qualquer área em que o COVID-19 tenha sido", shape=rect, style=filled];
+176 [class=intent, fillcolor=lightblue, label="Tens medos?", shape=rect, style=filled];
+177 [class=intent, fillcolor=lightblue, label="O clima quente vai parar o surto de COVID-19?", shape=rect, style=filled];
+178 [class=intent, fillcolor=lightblue, label="É sempre necessário o internamento?", shape=rect, style=filled];
+179 [class=intent, fillcolor=lightblue, label="Como são encaminhados os doentes?", shape=rect, style=filled];
+180 [class=intent, fillcolor=lightblue, label="Medidas do governo", shape=rect, style=filled];
+181 [class=intent, fillcolor=lightblue, label="Estou doente e não tenho médico de família.", shape=rect, style=filled];
+182 [class=intent, fillcolor=lightblue, label="Os utentes devem contactar o SNS24 diretamente?", shape=rect, style=filled];
+183 [class=intent, fillcolor=lightblue, label="Qual é a percentagem de casos de doença ligeira e grave por COVID-19?", shape=rect, style=filled];
+184 [class=intent, fillcolor=lightblue, label="Limpando as mãos", shape=rect, style=filled];
+185 [class=intent, fillcolor=lightblue, label="Qual é a distância segura de pessoas que tossem ou espirram?", shape=rect, style=filled];
+186 [class=intent, fillcolor=lightblue, label="Entrar em casa", shape=rect, style=filled];
+187 [class=intent, fillcolor=lightblue, label="Diz-me o que é que tu queres atingir", shape=rect, style=filled];
+188 [class=intent, fillcolor=lightblue, label="O vírus transmite-se pela comida?", shape=rect, style=filled];
+189 [class=intent, fillcolor=lightblue, label="Como posso evitar", shape=rect, style=filled];
+190 [class=intent, fillcolor=lightblue, label="E luvas?", shape=rect, style=filled];
+191 [class=intent, fillcolor=lightblue, label="Se me sentir mal, devo ficar em casa?", shape=rect, style=filled];
+192 [class=intent, fillcolor=lightblue, label="Devo usar várias máscaras para evitar COVID-19?", shape=rect, style=filled];
+193 [class=intent, fillcolor=lightblue, label="Existe uma vacina, medicamento ou tratamento para o COVID-19?", shape=rect, style=filled];
+194 [class=intent, fillcolor=lightblue, label="Cobrindo a boca e o nariz durante a tosse.", shape=rect, style=filled];
+195 [class=intent, fillcolor=lightblue, label="Deve-se evitar tocar na boca?", shape=rect, style=filled];
+196 [class=intent, fillcolor=lightblue, label="E para quem precisa ficar em casa a cuidar de filhos ou netos, como é feito o", shape=rect, style=filled];
+197 [class=intent, fillcolor=lightblue, label="posso sair à rua?", shape=rect, style=filled];
+198 [class=intent, fillcolor=lightblue, label="Consegues falar noutras línguas?", shape=rect, style=filled];
+199 [class=intent, fillcolor=lightblue, label="Porque é as pessoas andam a comprar tanto papel higiénico?", shape=rect, style=filled];
+200 [class=intent, fillcolor=lightblue, label="De onde é retirada a informação?", shape=rect, style=filled];
+201 [class=intent, fillcolor=lightblue, label="é verdade que o coronavirus se transmite através do ar?", shape=rect, style=filled];
+202 [class=intent, fillcolor=lightblue, label="Um animal pode me infectar?", shape=rect, style=filled];
+203 [class=intent, fillcolor=lightblue, label="Captura do vírus através de fezes.", shape=rect, style=filled];
+204 [class=intent, fillcolor=lightblue, label="Como se propaga COVID-19?", shape=rect, style=filled];
+205 [class=intent, fillcolor=lightblue, label="Posso apanhar COVID-19 de pessoas sem sintomas?", shape=rect, style=filled];
+206 [class=intent, fillcolor=lightblue, label="O meu gato pode me infectar?", shape=rect, style=filled];
+207 [class=intent, fillcolor=lightblue, label="Que chances tenho para apanhar o vírus?", shape=rect, style=filled];
+208 [class=intent, fillcolor=lightblue, label="O virus pode ser transmitido através de alimentos?", shape=rect, style=filled];
+209 [class=intent, fillcolor=lightblue, label="Gostas de filmes", shape=rect, style=filled];
+210 [class=intent, fillcolor=lightblue, label="o que é estado de emergência?", shape=rect, style=filled];
+211 [class=intent, fillcolor=lightblue, label="Posso sair à rua para fazer desporto?", shape=rect, style=filled];
+212 [class=intent, fillcolor=lightblue, label="o exame é necessário?", shape=rect, style=filled];
+213 [class=intent, fillcolor=lightblue, label="quantos testes ao covid foram realizados diariamente em portugal nos ultimos", shape=rect, style=filled];
+214 [class=intent, fillcolor=lightblue, label="O que é colhido para o teste?", shape=rect, style=filled];
+215 [class=intent, fillcolor=lightblue, label="Onde é feito o teste?", shape=rect, style=filled];
+216 [class=intent, fillcolor=lightblue, label="Depois de continuar o processo.", shape=rect, style=filled];
+217 [class=intent, fillcolor=lightblue, label="Tenho um horário de viagem.", shape=rect, style=filled];
+218 [class=intent, fillcolor=lightblue, label="Processo durante a viagem.", shape=rect, style=filled];
+219 [class=intent, fillcolor=lightblue, label="Estou exasperado", shape=rect, style=filled];
+220 [class=intent, fillcolor=lightblue, label="Qual é o teu grupo musical preferido?", shape=rect, style=filled];
+0 -> 111  [class="", key=0];
+0 -> 112  [class="", key=0];
+0 -> 113  [class="", key=0];
+0 -> 114  [class="", key=0];
+0 -> 115  [class="", key=0];
+0 -> 116  [class="", key=0];
+0 -> 117  [class="", key=0];
+0 -> 118  [class="", key=0];
+0 -> 119  [class="", key=0];
+0 -> 120  [class="", key=0];
+0 -> 121  [class="", key=0];
+0 -> 122  [class="", key=0];
+0 -> 123  [class="", key=0];
+0 -> 124  [class="", key=0];
+0 -> 125  [class="", key=0];
+0 -> 126  [class="", key=0];
+0 -> 127  [class="", key=0];
+0 -> 128  [class="", key=0];
+0 -> 129  [class="", key=0];
+0 -> 130  [class="", key=0];
+0 -> 131  [class="", key=0];
+0 -> 132  [class="", key=0];
+0 -> 133  [class="", key=0];
+0 -> 134  [class="", key=0];
+0 -> 135  [class="", key=0];
+0 -> 136  [class="", key=0];
+0 -> 137  [class="", key=0];
+0 -> 138  [class="", key=0];
+0 -> 139  [class="", key=0];
+0 -> 140  [class="", key=0];
+0 -> 141  [class="", key=0];
+0 -> 142  [class="", key=0];
+0 -> 143  [class="", key=0];
+0 -> 144  [class="", key=0];
+0 -> 145  [class="", key=0];
+0 -> 146  [class="", key=0];
+0 -> 147  [class="", key=0];
+0 -> 148  [class="", key=0];
+0 -> 149  [class="", key=0];
+0 -> 150  [class="", key=0];
+0 -> 151  [class="", key=0];
+0 -> 152  [class="", key=0];
+0 -> 153  [class="", key=0];
+0 -> 154  [class="", key=0];
+0 -> 155  [class="", key=0];
+0 -> 156  [class="", key=0];
+0 -> 157  [class="", key=0];
+0 -> 158  [class="", key=0];
+0 -> 159  [class="", key=0];
+0 -> 160  [class="", key=0];
+0 -> 161  [class="", key=0];
+0 -> 162  [class="", key=0];
+0 -> 163  [class="", key=0];
+0 -> 164  [class="", key=0];
+0 -> 165  [class="", key=0];
+0 -> 166  [class="", key=0];
+0 -> 167  [class="", key=0];
+0 -> 168  [class="", key=0];
+0 -> 169  [class="", key=0];
+0 -> 170  [class="", key=0];
+0 -> 171  [class="", key=0];
+0 -> 172  [class="", key=0];
+0 -> 173  [class="", key=0];
+0 -> 174  [class="", key=0];
+0 -> 175  [class="", key=0];
+0 -> 176  [class="", key=0];
+0 -> 177  [class="", key=0];
+0 -> 178  [class="", key=0];
+0 -> 179  [class="", key=0];
+0 -> 180  [class="", key=0];
+0 -> 181  [class="", key=0];
+0 -> 182  [class="", key=0];
+0 -> 183  [class="", key=0];
+0 -> 184  [class="", key=0];
+0 -> 185  [class="", key=0];
+0 -> 186  [class="", key=0];
+0 -> 187  [class="", key=0];
+0 -> 188  [class="", key=0];
+0 -> 189  [class="", key=0];
+0 -> 190  [class="", key=0];
+0 -> 191  [class="", key=0];
+0 -> 192  [class="", key=0];
+0 -> 193  [class="", key=0];
+0 -> 194  [class="", key=0];
+0 -> 195  [class="", key=0];
+0 -> 196  [class="", key=0];
+0 -> 197  [class="", key=0];
+0 -> 198  [class="", key=0];
+0 -> 199  [class="", key=0];
+0 -> 200  [class="", key=0];
+0 -> 201  [class="", key=0];
+0 -> 202  [class="", key=0];
+0 -> 203  [class="", key=0];
+0 -> 204  [class="", key=0];
+0 -> 205  [class="", key=0];
+0 -> 206  [class="", key=0];
+0 -> 207  [class="", key=0];
+0 -> 208  [class="", key=0];
+0 -> 209  [class="", key=0];
+0 -> 210  [class="", key=0];
+0 -> 211  [class="", key=0];
+0 -> 212  [class="", key=0];
+0 -> 213  [class="", key=0];
+0 -> 214  [class="", key=0];
+0 -> 215  [class="", key=0];
+0 -> 216  [class="", key=0];
+0 -> 217  [class="", key=0];
+0 -> 218  [class="", key=0];
+0 -> 219  [class="", key=0];
+0 -> 220  [class="", key=0];
+1 -> "-1"  [class="", key=NONE, label=""];
+2 -> "-1"  [class="", key=NONE, label=""];
+3 -> "-1"  [class="", key=NONE, label=""];
+4 -> "-1"  [class="", key=NONE, label=""];
+5 -> "-1"  [class="", key=NONE, label=""];
+6 -> "-1"  [class="", key=NONE, label=""];
+7 -> "-1"  [class="", key=NONE, label=""];
+8 -> "-1"  [class="", key=NONE, label=""];
+9 -> "-1"  [class="", key=NONE, label=""];
+10 -> "-1"  [class="", key=NONE, label=""];
+11 -> "-1"  [class="", key=NONE, label=""];
+12 -> "-1"  [class="", key=NONE, label=""];
+13 -> "-1"  [class="", key=NONE, label=""];
+14 -> "-1"  [class="", key=NONE, label=""];
+15 -> "-1"  [class="", key=NONE, label=""];
+16 -> "-1"  [class="", key=NONE, label=""];
+17 -> "-1"  [class="", key=NONE, label=""];
+18 -> "-1"  [class="", key=NONE, label=""];
+19 -> "-1"  [class="", key=NONE, label=""];
+20 -> "-1"  [class="", key=NONE, label=""];
+21 -> "-1"  [class="", key=NONE, label=""];
+22 -> "-1"  [class="", key=NONE, label=""];
+23 -> "-1"  [class="", key=NONE, label=""];
+24 -> "-1"  [class="", key=NONE, label=""];
+25 -> "-1"  [class="", key=NONE, label=""];
+26 -> "-1"  [class="", key=NONE, label=""];
+27 -> "-1"  [class="", key=NONE, label=""];
+28 -> "-1"  [class="", key=NONE, label=""];
+29 -> "-1"  [class="", key=NONE, label=""];
+30 -> "-1"  [class="", key=NONE, label=""];
+31 -> "-1"  [class="", key=NONE, label=""];
+32 -> "-1"  [class="", key=NONE, label=""];
+33 -> "-1"  [class="", key=NONE, label=""];
+34 -> "-1"  [class="", key=NONE, label=""];
+35 -> "-1"  [class="", key=NONE, label=""];
+36 -> "-1"  [class="", key=NONE, label=""];
+37 -> "-1"  [class="", key=NONE, label=""];
+38 -> "-1"  [class="", key=NONE, label=""];
+39 -> "-1"  [class="", key=NONE, label=""];
+40 -> "-1"  [class="", key=NONE, label=""];
+41 -> "-1"  [class="", key=NONE, label=""];
+42 -> "-1"  [class="", key=NONE, label=""];
+43 -> "-1"  [class="", key=NONE, label=""];
+44 -> "-1"  [class="", key=NONE, label=""];
+45 -> "-1"  [class="", key=NONE, label=""];
+46 -> "-1"  [class="", key=NONE, label=""];
+47 -> "-1"  [class="", key=NONE, label=""];
+48 -> "-1"  [class="", key=NONE, label=""];
+49 -> "-1"  [class="", key=NONE, label=""];
+50 -> "-1"  [class="", key=NONE, label=""];
+51 -> "-1"  [class="", key=NONE, label=""];
+52 -> "-1"  [class="", key=NONE, label=""];
+53 -> "-1"  [class="", key=NONE, label=""];
+54 -> "-1"  [class="", key=NONE, label=""];
+55 -> "-1"  [class="", key=NONE, label=""];
+56 -> "-1"  [class="", key=NONE, label=""];
+57 -> "-1"  [class="", key=NONE, label=""];
+58 -> "-1"  [class="", key=NONE, label=""];
+59 -> "-1"  [class="", key=NONE, label=""];
+60 -> "-1"  [class="", key=NONE, label=""];
+61 -> "-1"  [class="", key=NONE, label=""];
+62 -> "-1"  [class="", key=NONE, label=""];
+63 -> "-1"  [class="", key=NONE, label=""];
+64 -> "-1"  [class="", key=NONE, label=""];
+65 -> "-1"  [class="", key=NONE, label=""];
+66 -> "-1"  [class="", key=NONE, label=""];
+67 -> "-1"  [class="", key=NONE, label=""];
+68 -> "-1"  [class="", key=NONE, label=""];
+69 -> "-1"  [class="", key=NONE, label=""];
+70 -> "-1"  [class="", key=NONE, label=""];
+71 -> "-1"  [class="", key=NONE, label=""];
+72 -> "-1"  [class="", key=NONE, label=""];
+73 -> "-1"  [class="", key=NONE, label=""];
+74 -> "-1"  [class="", key=NONE, label=""];
+75 -> "-1"  [class="", key=NONE, label=""];
+76 -> "-1"  [class="", key=NONE, label=""];
+77 -> "-1"  [class="", key=NONE, label=""];
+78 -> "-1"  [class="", key=NONE, label=""];
+79 -> "-1"  [class="", key=NONE, label=""];
+80 -> "-1"  [class="", key=NONE, label=""];
+81 -> "-1"  [class="", key=NONE, label=""];
+82 -> "-1"  [class="", key=NONE, label=""];
+83 -> "-1"  [class="", key=NONE, label=""];
+84 -> "-1"  [class="", key=NONE, label=""];
+85 -> "-1"  [class="", key=NONE, label=""];
+86 -> "-1"  [class="", key=NONE, label=""];
+87 -> "-1"  [class="", key=NONE, label=""];
+88 -> "-1"  [class="", key=NONE, label=""];
+89 -> "-1"  [class="", key=NONE, label=""];
+90 -> "-1"  [class="", key=NONE, label=""];
+91 -> "-1"  [class="", key=NONE, label=""];
+92 -> "-1"  [class="", key=NONE, label=""];
+93 -> "-1"  [class="", key=NONE, label=""];
+94 -> "-1"  [class="", key=NONE, label=""];
+95 -> "-1"  [class="", key=NONE, label=""];
+96 -> "-1"  [class="", key=NONE, label=""];
+97 -> "-1"  [class="", key=NONE, label=""];
+98 -> "-1"  [class="", key=NONE, label=""];
+99 -> "-1"  [class="", key=NONE, label=""];
+100 -> "-1"  [class="", key=NONE, label=""];
+101 -> "-1"  [class="", key=NONE, label=""];
+102 -> "-1"  [class="", key=NONE, label=""];
+103 -> "-1"  [class="", key=NONE, label=""];
+104 -> "-1"  [class="", key=NONE, label=""];
+105 -> "-1"  [class="", key=NONE, label=""];
+106 -> "-1"  [class="", key=NONE, label=""];
+107 -> "-1"  [class="", key=NONE, label=""];
+108 -> "-1"  [class="", key=NONE, label=""];
+109 -> "-1"  [class="", key=NONE, label=""];
+110 -> "-1"  [class="", key=NONE, label=""];
+111 -> 1  [class="", key=0];
+112 -> 2  [class="", key=0];
+113 -> 3  [class="", key=0];
+114 -> 4  [class="", key=0];
+115 -> 5  [class="", key=0];
+116 -> 6  [class="", key=0];
+117 -> 7  [class="", key=0];
+118 -> 8  [class="", key=0];
+119 -> 9  [class="", key=0];
+120 -> 10  [class="", key=0];
+121 -> 11  [class="", key=0];
+122 -> 12  [class="", key=0];
+123 -> 13  [class="", key=0];
+124 -> 14  [class="", key=0];
+125 -> 15  [class="", key=0];
+126 -> 16  [class="", key=0];
+127 -> 17  [class="", key=0];
+128 -> 18  [class="", key=0];
+129 -> 19  [class="", key=0];
+130 -> 20  [class="", key=0];
+131 -> 21  [class="", key=0];
+132 -> 22  [class="", key=0];
+133 -> 23  [class="", key=0];
+134 -> 24  [class="", key=0];
+135 -> 25  [class="", key=0];
+136 -> 26  [class="", key=0];
+137 -> 27  [class="", key=0];
+138 -> 28  [class="", key=0];
+139 -> 29  [class="", key=0];
+140 -> 30  [class="", key=0];
+141 -> 31  [class="", key=0];
+142 -> 32  [class="", key=0];
+143 -> 33  [class="", key=0];
+144 -> 34  [class="", key=0];
+145 -> 35  [class="", key=0];
+146 -> 36  [class="", key=0];
+147 -> 37  [class="", key=0];
+148 -> 38  [class="", key=0];
+149 -> 39  [class="", key=0];
+150 -> 40  [class="", key=0];
+151 -> 41  [class="", key=0];
+152 -> 42  [class="", key=0];
+153 -> 43  [class="", key=0];
+154 -> 44  [class="", key=0];
+155 -> 45  [class="", key=0];
+156 -> 46  [class="", key=0];
+157 -> 47  [class="", key=0];
+158 -> 48  [class="", key=0];
+159 -> 49  [class="", key=0];
+160 -> 50  [class="", key=0];
+161 -> 51  [class="", key=0];
+162 -> 52  [class="", key=0];
+163 -> 53  [class="", key=0];
+164 -> 54  [class="", key=0];
+165 -> 55  [class="", key=0];
+166 -> 56  [class="", key=0];
+167 -> 57  [class="", key=0];
+168 -> 58  [class="", key=0];
+169 -> 59  [class="", key=0];
+170 -> 60  [class="", key=0];
+171 -> 61  [class="", key=0];
+172 -> 62  [class="", key=0];
+173 -> 63  [class="", key=0];
+174 -> 64  [class="", key=0];
+175 -> 65  [class="", key=0];
+176 -> 66  [class="", key=0];
+177 -> 67  [class="", key=0];
+178 -> 68  [class="", key=0];
+179 -> 69  [class="", key=0];
+180 -> 70  [class="", key=0];
+181 -> 71  [class="", key=0];
+182 -> 72  [class="", key=0];
+183 -> 73  [class="", key=0];
+184 -> 74  [class="", key=0];
+185 -> 75  [class="", key=0];
+186 -> 76  [class="", key=0];
+187 -> 77  [class="", key=0];
+188 -> 78  [class="", key=0];
+189 -> 79  [class="", key=0];
+190 -> 80  [class="", key=0];
+191 -> 81  [class="", key=0];
+192 -> 82  [class="", key=0];
+193 -> 83  [class="", key=0];
+194 -> 84  [class="", key=0];
+195 -> 85  [class="", key=0];
+196 -> 86  [class="", key=0];
+197 -> 87  [class="", key=0];
+198 -> 88  [class="", key=0];
+199 -> 89  [class="", key=0];
+200 -> 90  [class="", key=0];
+201 -> 91  [class="", key=0];
+202 -> 92  [class="", key=0];
+203 -> 93  [class="", key=0];
+204 -> 94  [class="", key=0];
+205 -> 95  [class="", key=0];
+206 -> 96  [class="", key=0];
+207 -> 97  [class="", key=0];
+208 -> 98  [class="", key=0];
+209 -> 99  [class="", key=0];
+210 -> 100  [class="", key=0];
+211 -> 101  [class="", key=0];
+212 -> 102  [class="", key=0];
+213 -> 103  [class="", key=0];
+214 -> 104  [class="", key=0];
+215 -> 105  [class="", key=0];
+216 -> 106  [class="", key=0];
+217 -> 107  [class="", key=0];
+218 -> 108  [class="", key=0];
+219 -> 109  [class="", key=0];
+220 -> 110  [class="", key=0];
+}
+`;
+    drawGraph(graph);
+  } else {
+    serveGraph();
+  }
+
+
+</script>
+</body>
+</html>

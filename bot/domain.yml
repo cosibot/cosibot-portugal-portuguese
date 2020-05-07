@@ -1,4 +1,5 @@
 intents:
+  - pt_bot_change_bot: {triggers: utter_pt_command_change_bot}
   - pt_bot_appearance
   - pt_bot_availability
   - pt_bot_books
@@ -138,6 +139,7 @@ intents:
 entities:
   - language
   - bot_language_code
+  - preferred_lang
 
 slots:
   bot_name:
@@ -150,17 +152,20 @@ slots:
     type: text
   bot_date:
     type: text
-  language_slot:
+  preferred_lang:
     type: categorical
     values:
     - 'pt'
+    - 'en'
+    - 'de'
     initial_value: 'pt'
+  
 
 actions:
   - action_get_date
   - action_get_time
   - action_default_fallback
-  - action_ask_language
+  - action_change_preferred_language
 
 responses:
   utter_pt_portugal_rates:
@@ -559,23 +564,64 @@ responses:
             text: Eu sou uma mulher comum, assim como muitas outras mulheres ao redor do
               mundo. Acho que não importa como eu pareço, mas que informações
               posso fornecer.
+  # utter_pt_bot_languages:
+  #   - custom:
+  #       answers:
+  #         - type: ssml
+  #           ssml: <speak>Fui instruída a comunicar apenas em português, mas há versões
+  #             minhas em alemão e inglês. Se estiver interessado em falar com
+  #             elas, por favor, siga um dos links.</speak>
+  #         - type: text
+  #           text: "Fui instruída a comunicar apenas em português, mas há versões minhas em
+  #             alemão e inglês. Se estiver interessado em falar com elas, por
+  #             favor, siga um dos links:"
+  #         - type: links
+  #           links:
+  #             - title: Cosibot Alemão
+  #               url: https://de.cosibot.org/start
+  #             - title: Cosibot Inglês
+  #               url: https://int.cosibot.org/chat
+  # utter_pt_bot_languages:
+  #   - custom:
+  #       answers:
+  #         - type: ssml
+  #           ssml: <speak>Fui instruída a comunicar apenas em português, mas há versões
+  #             minhas em alemão e inglês. Se estiver interessado em falar com
+  #             elas, por favor, siga um dos links.</speak>
+  #         - type: text
+  #           text: "Fui instruída a comunicar apenas em português, mas há versões minhas em
+  #             alemão e inglês. Se estiver interessado em falar com elas, por
+  #             favor, siga um dos links:"
+  #         - type: multichoice
+  #           options:
+  #             - title: Cosibot Alemão
+  #               url: https://de.cosibot.org/start
+  #             - title: Cosibot Inglês
+  #               url: https://int.cosibot.org/chat
   utter_pt_bot_languages:
+    - text: Fui instruída a comunicar apenas em português, mas há versões
+            minhas em alemão e inglês. Se estiver interessado em falar com
+            elas, por favor, escolha uma das opções.
+      buttons:
+        - title: Cosibot Alemão
+          payload: '/pt_bot_change_bot{"preferred_lang": "de"}'
+        - title: Cosibot Inglês
+          payload: '/pt_bot_change_bot{"preferred_lang": "en"}'
+  utter_pt_command_change_bot:
     - custom:
         answers:
-          - type: ssml
-            ssml: <speak>Fui instruída a comunicar apenas em português, mas há versões
-              minhas em alemão e inglês. Se estiver interessado em falar com
-              elas, por favor, siga um dos links.</speak>
-          - type: text
-            text: "Fui instruída a comunicar apenas em português, mas há versões minhas em
-              alemão e inglês. Se estiver interessado em falar com elas, por
-              favor, siga um dos links:"
-          - type: links
-            links:
-              - title: Cosibot Alemão
-                url: https://de.cosibot.org/start
-              - title: Cosibot Inglês
-                url: https://int.cosibot.org/chat
+          - type: command
+            name: "open-url"
+            params:
+              - key: "url"
+                value: "google.com"
+              # - key: "language"
+              #   value: {preferred_lang}
+  # utter_pt_command_change_bot:
+  #   - custom:
+  #       answers:
+  #         - type: text
+  #           text: Cheguei aqui
   utter_pt_bot_music:
     - custom:
         answers:
