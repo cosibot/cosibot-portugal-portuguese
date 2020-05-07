@@ -439,5 +439,7 @@
   - utter_pt_vocative_you_welcome
 
 ## pt_change_bot
-* pt_bot_change_bot{"preferred_lang": "en"}
+* pt_bot_change_bot{"preferred_lang": "Cosibot Inglês"}
+  - action_change_preferred_language
   - slot{"preferred_lang": "de"}
+  - utter_pt_command_change_bot

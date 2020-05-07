@@ -21,7 +21,7 @@ pipeline:
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: language_detection.lang_change_policy.LangChangePolicy
-    lang_detect_threshold: 0.5
+    lang_detect_threshold: 0.7
     fallback_action_name: 'utter_pt_bot_languages'
     model_path: "./language_detection/lid.176.ftz"
   - name: MemoizationPolicy

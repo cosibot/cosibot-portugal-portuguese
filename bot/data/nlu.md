@@ -1,10 +1,10 @@
-<!-- ## intent:pt_bot_change_bot
-- [Cosibot Alemão](preferred_lang:de_lang)
-- [Cosibot Inglês](preferred_lang:en_lang) -->
-
 ## intent:pt_bot_change_bot
+- [Cosibot Alemão](preferred_lang:de_lang)
+- [Cosibot Inglês](preferred_lang:en_lang)
+
+<!-- ## intent:pt_bot_change_bot
 - Cosibot Alemão
-- Cosibot Inglês
+- Cosibot Inglês -->
 
 ## intent:pt_bot_appearance
 - Achas-te atraente?

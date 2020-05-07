@@ -58,6 +58,7 @@ class ChangePreferredLanguage(Action):
         preferred_lang = next(tracker.get_latest_entity_values("preferred_lang"), None)
 
         lang_code = preferred_lang.split('_')[0]
+        print("lang_code: {}".format(lang_code))
         """ 
             if predicted lang = eng 
                 return [FollowupAction("utter_pt_ask_change_bot_language")]
