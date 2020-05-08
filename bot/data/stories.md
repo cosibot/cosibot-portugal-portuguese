@@ -209,11 +209,11 @@
 
 ## pt_features_date
 * pt_features_date
-  - utter_pt_features_date
+  - action_get_date
 
 ## pt_features_time
 * pt_features_time
-  - utter_pt_features_time
+  - action_get_time
 
 ## pt_greeting_hello
 * pt_greeting_hello
@@ -451,6 +451,7 @@
 * pt_vocative_you_welcome
   - utter_pt_vocative_you_welcome
 
+<<<<<<< HEAD
 <!-- 
 GENERAL SITUATION 
 -->
@@ -899,3 +900,10 @@ TESTED
 * pt_vocative_no
   - utter_pt_covid_current_statistics
 
+=======
+## pt_change_bot
+* pt_bot_change_bot{"preferred_lang": "Cosibot Inglês"}
+  - action_change_preferred_language
+  - slot{"preferred_lang": "de"}
+  - utter_pt_command_change_bot
+>>>>>>> policy_only_custom_buttons

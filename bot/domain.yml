@@ -8,6 +8,10 @@ slots:
   bot_version:
     type: text
     initial_value: "0.1"
+  bot_time:
+    type: text
+  bot_date:
+    type: text
   active_cases:
     type: unfeaturized
   country:
@@ -33,19 +37,38 @@ slots:
       - inexistent-country
       - wrong-country
       - not-ok
+  language_slot:
+    type: categorical
+    values:
+    - 'pt'
+    initial_value: 'pt'
+  preferred_lang:
+    type: categorical
+    values:
+    - 'pt'
+    - 'en'
+    - 'de'
+    initial_value: 'pt'
 
 
 entities:
   - pt_country_code 
   - pt_virus
-
+  - language
+  - bot_language_code
+  - preferred_lang
+  
 actions:
+  - action_get_date
+  - action_get_time
+  # - action_default_fallback
+  - action_change_preferred_language
   - action_search_stats
   - action_check_Bot_Introduced
 
-
 intents:
   - start
+  - pt_bot_change_bot
   - pt_bot_appearance
   - pt_bot_availability
   - pt_bot_books
@@ -182,7 +205,6 @@ intents:
   - pt_vocative_thank_you
   - pt_vocative_yes
   - pt_vocative_you_welcome
-
 
 responses:
   utter_pt_welcome:
@@ -737,17 +759,41 @@ responses:
           - type: ssml
             ssml: <speak>Fui instruída a comunicar apenas em português, mas há versões
               minhas em alemão e inglês. Se estiver interessado em falar com
-              elas, por favor, siga um dos links.</speak>
+              elas, por favor, escolha uma das opções.</speak>
           - type: text
             text: "Fui instruída a comunicar apenas em português, mas há versões minhas em
               alemão e inglês. Se estiver interessado em falar com elas, por
-              favor, siga um dos links:"
-          - type: links
-            links:
+              favor, escolha uma das opções:"
+          - type: multichoice
+            options:
               - title: Cosibot Alemão
-                url: https://de.cosibot.org/start
+                payload: '/pt_bot_change_bot{"preferred_lang": "de"}'
               - title: Cosibot Inglês
-                url: https://int.cosibot.org/chat
+                payload: '/pt_bot_change_bot{"preferred_lang": "en"}'
+  # utter_pt_bot_languages:
+  #   - text: Fui instruída a comunicar apenas em português, mas há versões
+  #           minhas em alemão e inglês. Se estiver interessado em falar com
+  #           elas, por favor, escolha uma das opções.
+  #     buttons:
+  #       - title: Cosibot Alemão
+  #         payload: '/pt_bot_change_bot{"preferred_lang": "de"}'
+  #       - title: Cosibot Inglês
+  #         payload: '/pt_bot_change_bot{"preferred_lang": "en"}'
+  utter_pt_command_change_bot:
+    - custom:
+        answers:
+          - type: command
+            name: "open-url"
+            params:
+              - key: "url"
+                value: "google.com/{preferred_lang}"
+              # - key: "language"
+              #   value: {preferred_lang}
+  # utter_pt_command_change_bot:
+  #   - custom:
+  #       answers:
+  #         - type: text
+  #           text: Cheguei aqui
   utter_pt_bot_music:
     - custom:
         answers:
@@ -2678,32 +2724,32 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>São <say-as interpret-as='time'
-              format='hm24'>$time</say-as>.</speak>
+              format='hm24'>{bot_time}</say-as>.</speak>
           - type: ssml
             ssml: <speak>Neste momento são <say-as interpret-as='time'
-              format='hm24'>$time</say-as>.</speak>
+              format='hm24'>{bot_time}</say-as>.</speak>
           - type: ssml
             ssml: <speak>Agora são <say-as interpret-as='time'
-              format='hm24'>$time</say-as>.</speak>
+              format='hm24'>{bot_time}</say-as>.</speak>
           - type: text
-            text: São $time.
+            text: São {bot_time}.
           - type: text
-            text: Neste momento são $time.
+            text: Neste momento são {bot_time}.
           - type: text
-            text: Agora são $time.
+            text: Agora são {bot_time}.
   utter_pt_features_date:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Hoje é <say-as interpret-as='date' format='dm'> $date
+            ssml: <speak>Hoje é <say-as interpret-as='date' format='dm'> {bot_date}
               </say-as>.</speak>
           - type: ssml
-            ssml: <speak>É o <say-as interpret-as='date' format='dm'> $date
+            ssml: <speak>É o <say-as interpret-as='date' format='dm'> {bot_date}
               </say-as>.</speak>
           - type: text
-            text: Hoje é $date.
+            text: Hoje é {bot_date}.
           - type: text
-            text: É o $date.
+            text: É o {bot_date}.
   utter_pt_spread_pets:
     - custom:
         answers:

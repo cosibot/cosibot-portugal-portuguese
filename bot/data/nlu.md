@@ -5,6 +5,14 @@
 - /start_chat
 - get started
 
+## intent:pt_bot_change_bot
+- [Cosibot Alemão](preferred_lang:de_lang)
+- [Cosibot Inglês](preferred_lang:en_lang)
+
+<!-- ## intent:pt_bot_change_bot
+- Cosibot Alemão
+- Cosibot Inglês -->
+
 ## intent:pt_bot_appearance
 - Achas-te atraente?
 - Atraente?
@@ -3406,7 +3414,7 @@
 ## intent:pt_covid_situation_infected_critical
 - ASUS alarmantes de [covid](pt_virus:COVID) em [República Islâmica do Afeganistão](pt_country_code:AF)
 - ASUS alarmantes de [covid](pt_virus:COVID) no [Domínica](pt_country_code:DM)
-- ASUS criticos de covid em [Maurício](pt_country_code:MU)
+- ASUS criticos de [covid](pt_virus:COVID) em [Maurício](pt_country_code:MU)
 - ASUS criticos de [covid](pt_virus:COVID) no [República Federal do Brasil](pt_country_code:BR)
 - ASUS críticos de [covid](pt_virus:COVID) em [Republic of Argentina](pt_country_code:AR)
 - ASUS críticos de [covid](pt_virus:COVID) no [Republic of Maldives](pt_country_code:MV)
@@ -6111,6 +6119,8 @@
 - Sem problema, Helena.
 - Sem problemas.
 
+## synonym:en_lang
+- Cosibot Inglês
 
 <!--
 ## synonym:pricelist
@@ -7704,7 +7714,7 @@
 - Island of Spice
 - Ilha das Especiarias
 - La Grenade
-- Granada
+<!-- - Granada -->
 - Gwenad
 - Grenada
 
@@ -8841,7 +8851,7 @@
 
 ## synonym:SV
 - República do Salvador
-- Salvador
+<!-- - Salvador -->
 - República de El Salvador
 - Republic of El Salvador
 - El Salvador
