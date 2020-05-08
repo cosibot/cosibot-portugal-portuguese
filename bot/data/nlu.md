@@ -3,6 +3,7 @@
 - /start
 - /start_conversation
 - /start_chat
+- get started
 
 ## intent:pt_bot_appearance
 - Achas-te atraente?
