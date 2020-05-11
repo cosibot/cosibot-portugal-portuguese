@@ -6119,6 +6119,18 @@
 - Sem problema, Helena.
 - Sem problemas.
 
+## intent:pt_news_request
+- Quais são as últimas noticias?
+- Fala-me de noticias.
+- Diz-me as noticias
+- Quais são as noticias relacionadas
+- Faz-me um update das noticias
+- Noticias sobre [coronavirus](pt_virus:COVID)
+- Noticias sobre [virus](pt_virus:COVID)
+- noticias
+- Que noticias tens
+- Quais são as noticias que sabes
+
 ## synonym:en_lang
 - Cosibot Inglês
 

@@ -1,4 +1,11 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
 slots:
+  total_nr_tries:
+    type: float
+    initial_value: 0.0
   bot_name:
     type: text
     initial_value: "Helena"
@@ -61,10 +68,155 @@ entities:
 actions:
   - action_get_date
   - action_get_time
-  # - action_default_fallback
+  - action_default_fallback
   - action_change_preferred_language
   - action_search_stats
   - action_check_Bot_Introduced
+  - action_get_news_request
+  - utter_pt_welcome
+  - utter_pt_ask_country
+  - utter_pt_ask_which_country
+  - utter_pt_bot_appearance
+  - utter_pt_bot_availability
+  - utter_pt_bot_books
+  - utter_pt_bot_capabilities
+  - utter_pt_bot_fear
+  - utter_pt_bot_goal
+  - utter_pt_bot_languages
+  - utter_pt_bot_movies
+  - utter_pt_bot_music
+  - utter_pt_bot_name
+  - utter_pt_bot_origin
+  - utter_pt_bot_personality
+  - utter_pt_bot_real
+  - utter_pt_bot_residence
+  - utter_pt_bot_sexual
+  - utter_pt_bot_version
+  - utter_pt_cc_chicken_egg
+  - utter_pt_cc_joke
+  - utter_pt_cc_lets_talk
+  - utter_pt_cc_moon
+  - utter_pt_cc_newspaper
+  - utter_pt_cc_philosophical
+  - utter_pt_cc_politics
+  - utter_pt_cc_religion
+  - utter_pt_cc_weather
+  - utter_pt_comment_negative
+  - utter_pt_comment_offense
+  - utter_pt_comment_positive
+  - utter_pt_comment_racist
+  - utter_pt_comment_smart
+  - utter_pt_coronavirus_info
+  - utter_pt_covid_aftereffects_immunity
+  - utter_pt_covid_alike
+  - utter_pt_covid_babys_children
+  - utter_pt_covid_close_contact
+  - utter_pt_covid_community_transmission
+  - utter_pt_covid_cosibot
+  - utter_pt_covid_crisis_howlong
+  - utter_pt_covid_current_statistics
+  - utter_pt_covid_duration
+  - utter_pt_covid_incubation
+  - utter_pt_covid_influenza
+  - utter_pt_covid_info
+  - utter_pt_covid_meaning
+  - utter_pt_covid_mortality_rate
+  - utter_pt_covid_no_country_current_statistics
+  - utter_pt_covid_pandemic
+  - utter_pt_covid_preexisting_illness
+  - utter_pt_covid_pregnancy
+  - utter_pt_covid_sars
+  - utter_pt_covid_situation
+  - utter_pt_covid_situation_deaths
+  - utter_pt_covid_situation_infected
+  - utter_pt_covid_situation_infected_critical
+  - utter_pt_covid_situation_last_update
+  - utter_pt_covid_situation_recovered
+  - utter_pt_covid_situation_tested
+  - utter_pt_covid_surfaces
+  - utter_pt_covid_symptoms
+  - utter_pt_covid_worry
+  - utter_pt_features_date
+  - utter_pt_features_time
+  - utter_pt_further_questions
+  - utter_pt_greeting_goodbye
+  - utter_pt_greeting_hello
+  - utter_pt_greeting_how_are_you
+  - utter_pt_init
+  - utter_pt_mask_general
+  - utter_pt_mask_use_after
+  - utter_pt_mask_use_put
+  - utter_pt_myth_alcohol
+  - utter_pt_myth_antibiotics
+  - utter_pt_myth_garlic
+  - utter_pt_myth_hand_dryer
+  - utter_pt_myth_packages
+  - utter_pt_myth_pneumonia_vaccine
+  - utter_pt_myth_saline
+  - utter_pt_myth_sesame_oil
+  - utter_pt_myth_thermal_scanner
+  - utter_pt_myth_transmission_hot_areas
+  - utter_pt_myth_uv_lamps
+  - utter_pt_patient_home
+  - utter_pt_patient_referral
+  - utter_pt_portugal_government_measures
+  - utter_pt_portugal_ill_foreigner
+  - utter_pt_portugal_ill_no_covid
+  - utter_pt_portugal_rates
+  - utter_pt_prevenion_medical_attention
+  - utter_pt_prevention_clean_hands
+  - utter_pt_prevention_distance
+  - utter_pt_prevention_entering_home
+  - utter_pt_prevention_food
+  - utter_pt_prevention_general
+  - utter_pt_prevention_gloves
+  - utter_pt_prevention_home
+  - utter_pt_prevention_information
+  - utter_pt_prevention_measures
+  - utter_pt_prevention_medicine
+  - utter_pt_prevention_respiratory_hygiene
+  - utter_pt_prevention_touch
+  - utter_pt_quarantine_children
+  - utter_pt_quarantine_dos_and_donts
+  - utter_pt_quarantine_toiletpaper
+  - utter_pt_sources
+  - utter_pt_spread_air
+  - utter_pt_spread_animals
+  - utter_pt_spread_feces
+  - utter_pt_spread_general
+  - utter_pt_spread_no_symptoms
+  - utter_pt_spread_pets
+  - utter_pt_spread_risk
+  - utter_pt_spread_surfaces_food_objects
+  - utter_pt_state_emergency_groceries
+  - utter_pt_state_emergency_info
+  - utter_pt_state_emergency_run
+  - utter_pt_test_general
+  - utter_pt_test_per_day
+  - utter_pt_test_what
+  - utter_pt_test_where
+  - utter_pt_travel_after
+  - utter_pt_travel_before
+  - utter_pt_travel_while
+  - utter_pt_user_angry
+  - utter_pt_user_friend
+  - utter_pt_user_happy
+  - utter_pt_user_love
+  - utter_pt_user_no_further_questions
+  - utter_pt_user_particles
+  - utter_pt_user_scared
+  - utter_pt_user_thumbs_up
+  - utter_pt_vocative_call
+  - utter_pt_vocative_help
+  - utter_pt_vocative_sorry
+  - utter_pt_vocative_thank_you
+  - utter_pt_vocative_you_welcome
+  - utter_pt_want_to_add_country
+  - utter_fallback_request_hasdata
+  - utter_fallback_request_emptyanswer
+  - utter_fallback_first
+  - utter_news_request_hasdata
+  - utter_news_request_emptyanswer
 
 intents:
   - start
@@ -205,6 +357,7 @@ intents:
   - pt_vocative_thank_you
   - pt_vocative_yes
   - pt_vocative_you_welcome
+  - pt_news_request
 
 responses:
   utter_pt_welcome:
@@ -614,35 +767,6 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Não consigo encontrar a informação que procura. Aconselho que
-              visite os websites das agências de noticias Lusa e RTP para obter
-              mais noticias.</speak>
-          - type: text
-            text: Não consigo encontrar a informação que procura. Aconselho que visite os
-              websites das agências de noticias Lusa e RTP para obter mais
-              noticias.
-          - type: links
-            links:
-              - title: Agência Lusa
-                url: https://www.lusa.pt/covid19
-              - title: RTP
-                url: https://www.rtp.pt/noticias/
-          - type: ssml
-            ssml: <speak>Neste momento não possuo a informação que está à procura. Se
-              quiser, pode visitar o website do Serviço Nacional de Saúde e da
-              Direção Geral de Saúde para obter mais informação sobre este
-              surto.</speak>
-          - type: text
-            text: Neste momento não possuo a informação que está à procura. Se quiser, pode
-              visitar o website do Serviço Nacional de Saúde e da Direção Geral
-              de Saúde para obter mais informação sobre este surto.
-          - type: links
-            links:
-              - title: SNS24 (COVID-19)
-                url: https://www.sns24.gov.pt/alerta/novo-coronavirus/
-              - title: DGS (COVID-19)
-                url: https://covid19.min-saude.pt/
-          - type: ssml
             ssml: <speak>Olá, em que posso ajudá-lo?</speak>
           - type: ssml
             ssml: <speak>Olá! Em que posso ser útil?</speak>
@@ -680,42 +804,7 @@ responses:
               - label: Sim
                 value: Sim
               - label: Não
-                value: Não
-          - type: ssml
-            ssml: <speak>Pode ler sobre as últimas noticias nos links fornecidos
-              abaixo:</speak>
-          - type: text
-            text: "Pode ler sobre as últimas noticias nos links fornecidos abaixo:"
-          - ""
-          - type: hints
-            options:
-              - label: Sobre COVID-19
-                value: Sobre COVID-19
-              - label: Medidas Preventivas
-                value: Medidas Preventivas
-              - label: Transmissão
-                value: Transmissão
-              - label: Sintomas
-                value: Sintomas
-          - type: ssml
-            ssml: <speak>Fazendo uma pesquisa no website do Serviço Nacional de Saúde e da
-              Direção Geral de Saúde, encontrei os seguintes links:</speak>
-          - type: text
-            text: "Fazendo uma pesquisa no website do Serviço Nacional de Saúde e da Direção
-              Geral de Saúde, encontrei os seguintes links:"
-          - ""
-          - type: ssml
-            ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua
-              pergunta, mas em breve já serei capaz de respondê-la. Pode
-              pedir-me, por exemplo, informações sobre medidas preventivas,
-              sintomas associados à doença ou como o vírus se espalha.</speak>
-          - type: text
-            text: Peço desculpa mas de momento não tenho resposta para a sua pergunta, mas
-              em breve já serei capaz de respondê-la. Pode pedir-me, por
-              exemplo, informações sobre medidas preventivas, sintomas
-              associados à doença ou como o vírus se espalha.
-          - ""
-          
+                value: Não       
           - type: ssml
             ssml: <speak>Ocorreu um problema no pedido de informação adicional sobre o
               assunto que pesquisa. No entanto pode pesquisar na Agência Lusa ou
@@ -2949,3 +3038,84 @@ responses:
             text: Há mais alguma pergunta que eu possa responder?
           - type: text
             text: Que mais posso fazer por si?
+    
+  utter_fallback_first:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua
+              pergunta, mas em breve já serei capaz de respondê-la. Pode
+              pedir-me, por exemplo, informações sobre medidas preventivas,
+              sintomas associados à doença ou como o vírus se espalha.</speak>
+          - type: text
+            text: Peço desculpa mas de momento não tenho resposta para a sua pergunta, mas
+              em breve já serei capaz de respondê-la. Pode pedir-me, por
+              exemplo, informações sobre medidas preventivas, sintomas
+              associados à doença ou como o vírus se espalha.
+  
+  utter_fallback_request_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Fazendo uma pesquisa no website do Serviço Nacional de Saúde e da
+              Direção Geral de Saúde, encontrei os seguintes links:</speak>
+          - type: text
+            text: "Fazendo uma pesquisa no website do Serviço Nacional de Saúde e da Direção
+              Geral de Saúde, encontrei os seguintes links:"
+
+  utter_news_request_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Pode ler sobre as últimas noticias nos links fornecidos
+              abaixo:</speak>
+          - type: text
+            text: "Pode ler sobre as últimas noticias nos links fornecidos abaixo:"
+          - type: hints
+            options:
+              - label: Sobre COVID-19
+                value: Sobre COVID-19
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
+
+  utter_fallback_request_emptyanswer:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Neste momento não possuo a informação que está à procura. Se
+              quiser, pode visitar o website do Serviço Nacional de Saúde e da
+              Direção Geral de Saúde para obter mais informação sobre este
+              surto.</speak>
+          - type: text
+            text: Neste momento não possuo a informação que está à procura. Se quiser, pode
+              visitar o website do Serviço Nacional de Saúde e da Direção Geral
+              de Saúde para obter mais informação sobre este surto.
+          - type: links
+            links:
+              - title: SNS24 (COVID-19)
+                url: https://www.sns24.gov.pt/alerta/novo-coronavirus/
+              - title: DGS (COVID-19)
+                url: https://covid19.min-saude.pt/
+
+
+  utter_news_request_emptyanswer:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Não consigo encontrar a informação que procura. Aconselho que
+              visite os websites das agências de noticias Lusa e RTP para obter
+              mais noticias.</speak>
+          - type: text
+            text: Não consigo encontrar a informação que procura. Aconselho que visite os
+              websites das agências de noticias Lusa e RTP para obter mais
+              noticias.
+          - type: links
+            links:
+              - title: Agência Lusa
+                url: https://www.lusa.pt/covid19
+              - title: RTP
+                url: https://www.rtp.pt/noticias/

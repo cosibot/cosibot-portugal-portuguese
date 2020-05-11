@@ -451,7 +451,6 @@
 * pt_vocative_you_welcome
   - utter_pt_vocative_you_welcome
 
-<<<<<<< HEAD
 <!-- 
 GENERAL SITUATION 
 -->
@@ -900,10 +899,12 @@ TESTED
 * pt_vocative_no
   - utter_pt_covid_current_statistics
 
-=======
 ## pt_change_bot
 * pt_bot_change_bot{"preferred_lang": "Cosibot Inglês"}
   - action_change_preferred_language
   - slot{"preferred_lang": "de"}
   - utter_pt_command_change_bot
->>>>>>> policy_only_custom_buttons
+
+## pt_news_request
+* pt_news_request
+  - action_get_news_request
