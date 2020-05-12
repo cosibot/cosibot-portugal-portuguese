@@ -487,6 +487,7 @@
 - Sabes quem és?
 - como te chamas
 - quem és?
+- Como você se chama
 
 ## intent:pt_bot_origin
 - Como foste criado?
@@ -728,6 +729,7 @@
 - És heterossexual?
 - És homossexual?
 - És virgem?
+- amnda oteuzaper
 
 ## intent:pt_bot_sing
 - Acha que sabe cantar?
@@ -2685,6 +2687,7 @@
 - qual a taxa de mortalidade na Europa?
 - qual é a taxa de mortalidade ?
 - É perigoso?
+- Pode se morrer de [covid](pt_virus:COVID)?
 
 ## intent:pt_covid_pandemic
 - Definição de pandemia.
@@ -2753,6 +2756,7 @@
 - o [virus](pt_virus:COVID) mata?
 - o [vírus](pt_virus:COVID) afecta fatalmente apenas os idosos?
 - É verdade que o [vírus](pt_virus:COVID) afecta fatalmente apenas os idosos?
+- Diabetes
 
 ## intent:pt_covid_sars
 - Alterações entre novos [coronavírus](pt_virus:COVID) e SARS
@@ -3272,6 +3276,7 @@
 - Situação actual em [Suiça](pt_country_code:CH)
 - Situação actualizada em [Polónia](pt_country_code:PL)
 - Situação em [Russia](pt_country_code:RU)
+- Quais são os países com mais casos?
 
 ## intent:pt_covid_situation_deaths
 - [República Federal da Alemã](pt_country_code:DE) mortes.
@@ -3558,6 +3563,7 @@
 - Última atualização de mortes em [United States Minor Outlying Islands](pt_country_code:UM)?
 - Últimos dados de [Aotearoa](pt_country_code:NZ).
 - Últimos dados em [Muso oa Lesotho](pt_country_code:LS).
+- Fala sobre atualização de casos
 
 ## intent:pt_covid_situation_recovered
 - "[Pyidaunzu Thanmăda Myăma](pt_country_code:MM) recuperados."
@@ -3648,6 +3654,7 @@
 - testados em [Republic of Cabo Verde](pt_country_code:CV).
 - testes de [República da África Central](pt_country_code:CF)
 - testes em [Hong Kong](pt_country_code:HK).
+- Quantos testes foram realizados até à data?   
 
 ## intent:pt_covid_surfaces
 - [coronavírus](pt_virus:COVID) persiste por quanto tempo nas superfícies?
@@ -3720,6 +3727,7 @@
 - tempo de persistência do [novo coronavírus](pt_virus:COVID) em superfícies?
 - tempo médio de sobrevivência do [vírus](pt_virus:COVID) em superfícies?
 - é verdade que o [coronavírus](pt_virus:COVID) pode ficar vários dias em superficies metálicas?
+- Durante quanto tempo pode o [vírus](pt_virus:COVID) sobreviver fora do corpo humano?
 
 ## intent:pt_covid_symptoms
 - 37 de febre é sintoma?
@@ -3776,8 +3784,10 @@
 - qual é o principal sintoma?
 - queria saber se posso estar infetado com [COVID-19](pt_virus:COVID)
 - sintomas associados à [doença](pt_virus:COVID)
+- Dores de cabeça tambem sao sintimaa?
 
 ## intent:pt_covid_worry
+- Preocupação com o surto
 - A [doença](pt_virus:COVID) deve me deixar preocupado?
 - Como proceder sobre preocupações com a [doença](pt_virus:COVID).
 - Como proceder sobre preocupações com o surto.
@@ -3810,7 +3820,7 @@
 - complicada esta situação.
 - empatia
 
-## intent:pt_de_covid_pregnancy
+## intent:pt_covid_pregnancy
 - As mulheres grávidas são mais suscetíveis à infeção ou têm maior risco de
   doenças graves, morbidade ou mortalidade com o [COVID-19](pt_virus:COVID), em comparação com o
   público em geral?
@@ -3818,6 +3828,7 @@
 - Estou grávida, devo estar preocupada?
 - Gravidez e [covid](pt_virus:COVID)
 - Mulheres grávidas e [covid](pt_virus:COVID)
+- complicações na gravidez
 
 ## intent:pt_features_date
 - Consegues dizer a data de hoje?
@@ -4104,6 +4115,7 @@
 - ei tu
 - hi
 - oi
+- Bon dia
 
 ## intent:pt_greeting_how_are_you
 - Como Estás hoje?
@@ -4141,6 +4153,7 @@
 - que tal vai
 - só queria perguntar como tem sido o teu dia
 - tudo bem por aí ?
+- Olá boa tarde tudo bem
 
 ## intent:pt_mask_general
 - Devemos ou não usar máscara?
@@ -4232,6 +4245,7 @@
 - O que fazer com uma máscara médica usada?
 - O que fazer com uma máscara usada?
 - descartar
+- Como retirar a máscara?
 
 ## intent:pt_mask_use_put
 - Antes de colocar uma máscara descartável.
@@ -4300,6 +4314,7 @@
 - se eu me cobrir de álcool, o [vírus](pt_virus:COVID) sairá
 - Álcool em spray.
 - Álcool em todo o corpo.
+- Alcóol eficácia 
 
 ## intent:pt_myth_packages
 - Pacotes com [vírus](pt_virus:COVID).
@@ -4312,10 +4327,9 @@
 - cartas de países infectados.
 - letras infectadas.
 - posso receber uma carta de uma área infectada?
-- É seguro receber um pacote de qualquer área em que o [COVID-19](pt_virus:COVID) tenha sido
-  relatado?
-- É seguro receber uma carta de qualquer área em que o [COVID-19](pt_virus:COVID) tenha sido
-  relatado?
+- É seguro receber um pacote de qualquer área em que o [COVID-19](pt_virus:COVID) tenha sido relatado?
+- É seguro receber uma carta de qualquer área em que o [COVID-19](pt_virus:COVID) tenha sido relatado?
+- posso receber encomendas?
 
 ## intent:pt_myth_transmission_hot_areas
 - O [COVID-19](pt_virus:COVID) enfraquece em alta temperatura?
@@ -4400,6 +4414,7 @@
 - Sobre como lavar as mãos.
 - devo lavar as mãos
 - É necessário lavar a cada quanto tempo?
+- Quais formas devo manter a higiene?
 
 ## intent:pt_prevention_distance
 - A que distância devo estar de alguém a tossir ou espirrar?
@@ -4426,6 +4441,7 @@
 - Qual é a distância segura das pessoas?
 - Qual é a distância segura de pessoas que tossem ou espirram?
 - Qual é a distância segura?
+- Qual a distância de afastamento
 
 ## intent:pt_prevention_entering_home
 - Entrar em casa
@@ -4433,6 +4449,7 @@
 - Que cuidados ter ao entrar em casa?
 - Tenho de deixar os sapatos na rua?
 - devo lavar os sapatos antes de entrar em casa?
+- Devo mudar de roupa ao chegar a casa?
 
 ## intent:pt_prevention_food
 - O que devo fazer à fruta que comprei no supermercado?
@@ -4493,6 +4510,7 @@
 - quais são seus conselhos?
 - que medidas preventivas se devem tomar
 - vamos ajudar
+- . Medidas de segurança
 
 ## intent:pt_prevention_gloves
 - Aconselharias a uso de luvas?
@@ -4835,8 +4853,7 @@
 - É importante não tocar nos olhos?
 
 ## intent:pt_quarantine_children
-- E para quem precisa ficar em casa a cuidar de filhos ou netos, como é feito o
-  pagamento da remuneração?
+- E para quem precisa ficar em casa a cuidar de filhos ou netos, como é feito o pagamento da remuneração?
 - E para quem precisa ficar em casa a cuidar de filhos ou netos?
 - Há subsídios para apoio à família?
 - Que apoios tenho para ficar em casa com os meus filhos?
@@ -4846,6 +4863,7 @@
 - finanças
 - há subsídios de apoio às famílias?
 - há subsídios para apoio às famílias?
+- Tenho alguma ajuda para ficar em casa com os meus filhos?
 
 ## intent:pt_quarantine_dos_and_donts
 - Em casa, em isolamento profilatico sem saidas sociais, devo manter com os meus
@@ -5076,6 +5094,7 @@
 - como é transmitido o [Covid 19](pt_virus:COVID)?
 - cómo se propagó el [virus](pt_virus:COVID)
 - transmissão
+- Obrigado. Já agora como é que o [vírus](pt_virus:COVID) se espalha? 
 
 ## intent:pt_spread_no_symptoms
 - Alguém que não tem sintomas pode disseminar o [vírus](pt_virus:COVID)?
@@ -5326,6 +5345,7 @@
 - Posso correr na rua?
 - Posso ir correr?
 - Posso sair à rua para fazer desporto?
+- posso continuar a praticar atividade fisica na cidade sozinho? 
 
 ## intent:pt_stayhomeinfo_supermarket
 - Existem constrangimentos no abastecimento de bens e produtos em Portugal face
@@ -5333,12 +5353,14 @@
 - O que devo fazer quando vou às compras?
 - Posso ir ao supermercado?
 - quão seguro é ir a um supermercado
+- Que cuidados devo ter no supermercado
 
 ## intent:pt_test_general
 - Devo ser testado para o [COVID-19](pt_virus:COVID)?
 - despiste de [COVID-19](pt_virus:COVID)
 - o exame é necessário?
 - tenho de fazer o teste?
+- Como fazer um teste de [Covid19](pt_virus:COVID)?
 
 ## intent:pt_test_per_day
 - Quantos testes devem ser feitos por dia?
@@ -5791,6 +5813,7 @@
 - Obrigado pelo teu tempo
 - Por agora não tenho mais perguntas.
 - é tudo
+- Por agora é tudo, obrigado.
 
 ## intent:pt_user_particles
 - Aaha
@@ -5810,6 +5833,7 @@
 - Uh
 - Uhm
 - Um
+- Não tem mal. Obrigada. 
 
 ## intent:pt_user_scared
 - Assustaram-me.
@@ -5913,6 +5937,7 @@
 - Vais auxiliar-me
 - help
 - preciso de assistência.
+- Responde por favor
 
 ## intent:pt_vocative_no
 - Claro que não.
@@ -5945,6 +5970,7 @@
 - não senhor
 - não senhora
 - só quando os porcos voarem
+- nope
 
 ## intent:pt_vocative_sorry
 - As minhas desculpas.
@@ -6103,6 +6129,7 @@
 - yah
 - yep
 - é claro
+- Ah sim agora eu entendo
 
 ## intent:pt_vocative_you_welcome
 - De nada.
@@ -6130,6 +6157,153 @@
 - noticias
 - Que noticias tens
 - Quais são as noticias que sabes
+
+## intent: pt_covid_ibuprofen 
+- Ibuprofeno 
+- Ibuprofen 
+- Posso tomar Brufen? 
+- Ipubrufen 
+- Posso tomar ibuprofeno? 
+- Ipubrufeno 
+- Posso tomar aspirina 
+- posso tomar iboprufeno?
+
+## intent: pt_covid_sex 
+- Sexo e coronavirus 
+- Covid e atividades sexuais 
+- Atividades sexuais 
+- Sexo e covid 
+- Actividades sexuais 
+- Coronavirus e relações sexuais 
+- Relações sexuais e covid 
+- Coronavirus e atividades sexuais 
+- É verdad que nao se pode fazer sexo?se fizer cuales os cuidados? 
+- E actividade sexual? 
+- Coronavirus e sexo 
+- Covid 19 e atividades sexuais 
+- Covid 19 e relações sexuais 
+- Relações sexuais 
+- Sexo transmite covid? 
+- Actividade sexual é contagiosa? 
+- Sexo coronavirus? 
+
+## intent: pt_deconfinement_establishments 
+- Plano de desconfinamento portugal 
+- plano de desconfinamento 
+- Fases do plano de desconfinamento 
+- Que me podes dizer sobre a reabertura de estabelecimentos 
+- Estabelecimentos que podem abrir 
+- Quais os estabelecimentos que podem voltar a abrir? 
+- sou cabeleireira, posso reabrir o meu negócio? 
+- desconfinamento 
+- que estabelecimentos vão abrir? 
+- Onde posso consultar o plano de desconfinamento? 
+
+## intent: pt_economy_consequences 
+- Economia e [coronavirus](pt_virus:COVID) 
+- Quais são as consequências do COVID-19 na Economia? 
+- Consequências economicas 
+- Okay. Mas efectivamente, este surto está a ter um impacto muito negativo na Economia. 
+- Dá-me informação sobre o impacto na Economia. 
+- Economia 
+
+## intent: pt_portugal_elders 
+- Os idosos são obrigados a ficar em casa? 
+- os idosos podem sair de casa em Portugal? 
+- Os idosos podem sair de casa? 
+- Os idosos podem sair à rua? 
+- Os idosos podem andar na rua? 
+- Idosos e sair de casa 
+- idosos podem sair de casa? 
+- sou idoso, posso ver meus netos? 
+
+## intent: pt_quarantine_general 
+- O que é o isolamento? 
+- O que é a quarentena? 
+- Isolamento profilático 
+- O que é a quarentena e o isolamento? 
+- Consegues definir "quarentena"? 
+- Isolamento 
+- O que é o isolamento profilático? 
+- Quarentena 
+- isolamento é bom? 
+
+## intent: pt_spread_phases 
+- Em que fase do surto está Portugal? 
+- fases de contágio 
+- Em que fase de transmissão estamos atualmente?
+
+## intent: pt_spread_washing_clothes 
+- desinfectar roupa 
+- A que temperatura devo lavar a roupa? 
+- Lavar roupa 
+- Há uma temperatura mínima para lavar a roupa quando há um caso confirmado de COVID-19 em casa? 
+- Temperatura lavar roupa. 
+- Temperatura ideal para lavar roupa 
+- Lavar a roupa a que temperatura? 
+- Temperatura para lavar roupa e matar o virus 
+- cuidados com a roupa 
+
+## intent: pt_state_calamity 
+- Estado de calamidade 
+- E depois do estado de emergência vem o quê? 
+- Calamidade pública 
+- O que é o estado de calamidade? 
+- estado de emergência e estado de calamidade qual a diferença? 
+- O que significa estado de calamidade? 
+- o que acontece após o estado de emergência? 
+- o que acontece após o estado de emergência em Portugal? 
+
+## intent: pt_state_emergency_end 
+- Situação de emergência em Portugal, até quando? 
+- Até quando dura o estado de emergência em Portugal? 
+- Por quanto tempo foi declarado o estado e emergência? 
+- Quando termina o estado de emergência? 
+- até quando dura o estado de emrgência em Portugal? 
+- Quantas vezes foi renovado o estado de emergência? 
+- Até que data é o estado de emergência em Portugal? 
+- até quando durará o estado de emergência em Portugal? 
+- Quantas vezes foi renovado o Estado de Emergência até hoje? 
+- Data de fim do Estado de Emergência? 
+- Data de fim do estado de emergencia em portugal? 
+- Quando foi declarado o Estado de Emergência em Portugal? 
+- quando finaliza o estado de emergência em Portugal? 
+- Quando acaba o estado de emergência em portugal? 
+- Qual é a data de fim do estado de emergência em Portugal? 
+- quando acaba o EStado de emergência? 
+
+## intent: pt_user_laugh 
+- Tu és mesmo engraçado 
+- sorriso 
+- sorrindo 
+- rolar pelo chão a rir 
+- rir 
+- rindo pelas costuras 
+- rindo alto 
+- Ok haha 
+- looool 
+- lool 
+- lol 
+- Isto é engraçado. 
+- isso foi muito engraçado 
+- isso é engraçado 
+- hehe 
+- hahahaha 
+- hahaha 
+- haha 
+- hah 
+- ha 
+- fazes-me rir 
+- és engraçado 
+- és bom em fazer as pessoas rir 
+- és bom a fazer as pessoas rir 
+- ahahahah 
+- ahahaha 
+- ahaha 
+- ahah 
+
+
+
 
 ## synonym:en_lang
 - Cosibot Inglês
@@ -9832,6 +10006,9 @@
 - COVIDd
 - COVID-19d
 - corrige
+
+
+
 <!--
 ## synonym:number
 - quantidade

@@ -70,6 +70,9 @@ class ActionSearchStats(Action):
         decsis_api = DecsisAPI()
         stats = decsis_api.search(country_code)
 
+        # tracker_current_state = tracker.current_state()
+        # dispatcher.utter_message(text=str(tracker_current_state))
+
         if country_code is not None: 
 
             if stats['code'] == 200 and not stats['has_data'] and len(country_code) == 2:

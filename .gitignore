@@ -1,13 +1,10 @@
 # Bot files
 bot/models
-<<<<<<< HEAD
-bot/results
 
-# vs code 
-=======
+# scripts
+scripts/python
 
 # VS code 
->>>>>>> policy_only_custom_buttons
 .vscode
 
 # Byte-compiled / optimized / DLL files

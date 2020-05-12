@@ -187,6 +187,10 @@
 * pt_covid_pandemic
   - utter_pt_covid_pandemic
 
+## pt_covid_pregnancy
+* pt_covid_pregnancy
+	- utter_pt_covid_pregnancy
+
 ## pt_covid_preexisting_illness
 * pt_covid_preexisting_illness
   - utter_pt_covid_preexisting_illness
@@ -510,7 +514,7 @@ GENERAL SITUATION
 ## pt_covid_situation_unhappy_with_dashboard
 * pt_covid_situation{"pt_country_code" : "Portugal"}
   - action_search_stats
-  - slot{"search_successful": "False"}
+  - slot{"search_successful": "wrong-country"}
   - utter_pt_want_to_add_country
 * pt_vocative_no
   - utter_pt_covid_current_statistics
@@ -522,7 +526,7 @@ DEATHS
 ## pt_covid_situation_deaths_happy
 * pt_covid_situation_deaths{"pt_country_code":"Suécia"}
   - action_search_stats
-  - slot{"search_successful": "True"}
+  - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
   - slot{"country": "Suécia"}
   - slot{"new_cases": "517"}
@@ -539,16 +543,36 @@ DEATHS
   - slot{"search_successful": "not-ok"}
   - utter_pt_covid_current_statistics
 
-## pt_covid_situation_deaths_unhappy_with_country
-* pt_covid_situation_deaths{"pt_country_code":"Suécia"}
+## pt_covid_situation_deaths_unhappy_general_with_country
+* pt_covid_situation_deaths
   - action_search_stats
-  - slot{"search_successful": "False"}
+  - slot{"search_successful": "wrong-country"}
   - utter_pt_want_to_add_country
 * pt_vocative_yes
   - utter_pt_ask_which_country
 * pt_country{"pt_country_code":"Suécia"}
   - action_search_stats
-  - slot{"search_successful": "True"}
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Suécia"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_deaths
+
+## pt_covid_situation_deaths_unhappy_with_country
+* pt_covid_situation_deaths{"pt_country_code":"Suécia"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code":"Suécia"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
   - slot{"country": "Suécia"}
   - slot{"new_cases": "517"}
@@ -859,7 +883,7 @@ TESTED
   - slot{"search_successful": "not-ok"}
   - utter_pt_covid_current_statistics
 
-## pt_covid_situation_tested_happy
+## pt_covid_situation_tested_unhappy_with_country
 * pt_covid_situation_tested{"pt_country_code":"Portugal"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
@@ -908,3 +932,99 @@ TESTED
 ## pt_news_request
 * pt_news_request
   - action_get_news_request
+
+## pt_quarantine_general
+* pt_quarantine_general
+  - utter_pt_quarantine_general
+
+## pt_prevention_medical_attention
+* pt_prevention_medical_attention
+  - utter_pt_prevention_medical_attention
+
+## pt_prevention_informed
+* pt_prevention_informed
+  - utter_pt_prevention_informed
+
+## pt_cc_fun_fact
+* pt_cc_fun_fact
+  - utter_pt_cc_fun_fact
+
+## pt_economy_consequences
+* pt_economy_consequences
+  - utter_pt_economy_consequences
+
+## pt_stayhomeinfo_supermarket
+* pt_stayhomeinfo_supermarket
+  - utter_pt_stayhomeinfo_supermarket
+
+## pt_bot_sports
+* pt_bot_sports
+  - utter_pt_bot_sports
+
+## pt_user_no_data
+* pt_user_no_data
+  - utter_pt_user_no_data
+
+## pt_bot_games
+* pt_bot_games
+  - utter_pt_bot_games
+
+## pt_deconfinement_establishments
+* pt_deconfinement_establishments
+  - utter_pt_deconfinement_establishments
+
+## pt_state_calamity
+* pt_state_calamity
+  - utter_pt_state_calamity
+
+## pt_spread_phases
+* pt_spread_phases
+  - utter_pt_spread_phases
+
+## pt_bot_sing
+* pt_bot_sing
+  - utter_pt_bot_sing
+
+## pt_bot_personal_questions
+* pt_bot_personal_questions
+  - utter_pt_bot_personal_questions
+
+## pt_user_laugh
+* pt_user_laugh
+  - utter_pt_user_laugh
+
+## pt_portugal_elders
+* pt_portugal_elders
+  - utter_pt_portugal_elders
+
+## pt_bot_worst_experience
+* pt_bot_worst_experience
+  - utter_pt_bot_worst_experience
+
+## pt_cc_deepest_point
+* pt_cc_deepest_point
+  - utter_pt_cc_deepest_point
+
+## pt_cc_geography
+* pt_cc_geography
+  - utter_pt_cc_geography
+
+## pt_covid_sex
+* pt_covid_sex
+  - utter_pt_covid_sex
+
+## pt_spread_washing_clothes
+* pt_spread_washing_clothes
+  - utter_pt_spread_washing_clothes
+
+## pt_cc_highest_building
+* pt_cc_highest_building
+  - utter_pt_cc_highest_building
+
+## pt_state_emergency_end
+* pt_state_emergency_end
+  - utter_pt_state_emergency_end
+
+## pt_covid_ibuprofen
+* pt_covid_ibuprofen
+  - utter_pt_covid_ibuprofen

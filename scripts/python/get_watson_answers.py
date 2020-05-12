@@ -1,6 +1,7 @@
 import json
 import shutil
 import os
+from os.path import join, exists
 from ibm_watson import AssistantV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
     
@@ -24,7 +25,7 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 #### workspace_id from the skill where the answers are
 #### version of the api
 config = {
-    "workspace_id": '8ae11b1b-d386-49d3-b54a-ae78b1c155c8',
+    "workspace_id": 'd385cab3-de06-4774-8fa3-c9ce2218a43f',
     "version":'2020-04-01'
 }
 
@@ -47,39 +48,52 @@ response=assistant.list_intents(
     page_limit=1000
 ).get_result()
 
+intents_to_add = ['pt_quarantine_general', 'pt_spread_phases', 'pt_spread_washing_clothes', 'pt_state_calamity', 
+                'pt_state_emergency_end', 'pt_user_laugh',  'pt_covid_ibuprofen',
+                'pt_prevention_informed', 'utter_pt_bot_hobbies', 'pt_portugal_elders',
+                'pt_stayhomeinfo_supermarket', 'pt_user_no_data', 'pt_bot_personal_questions',
+                'pt_bot_sing', 'pt_bot_sports', 'pt_bot_worst_experience', 'pt_cc_deepest_point', 
+                'pt_cc_fun_fact', 'pt_cc_geography', 'pt_cc_highest_building', 'pt_covid_sex', 
+                'pt_deconfinement_establishments', 'pt_bot_games', 'pt_economy_consequences',
+                'pt_portugal_elders', 'pt_prevention_medical_attention'     ]
+dir_name = './examples'
+if not exists(dir_name):
+    os.makedirs(dir_name)                
+
 intent_list = response["intents"]
 
 # get one example for each intent
 # send a message
 # grab the answer and stores in file
 for intent in intent_list:
-    print('--', intent["intent"],)
-    response=assistant.get_intent(
-        workspace_id=config["workspace_id"],
-        intent=intent["intent"],
-        export=True
-    ).get_result()
+    if intent['intent'] in intents_to_add:
+        print('--', intent["intent"],)
+        response=assistant.get_intent(
+            workspace_id=config["workspace_id"],
+            intent=intent["intent"],
+            export=True
+        ).get_result()
 
-    request_example = response["examples"][0]
+        request_example = response["examples"][0]
 
-    response = assistant.message(
-        workspace_id=config["workspace_id"],
-        input={
-            'text': request_example["text"]
+        response = assistant.message(
+            workspace_id=config["workspace_id"],
+            input={
+                'text': request_example["text"]
+            }
+        ).get_result()
+
+        answers_output = {
+            "answers":[]
         }
-    ).get_result()
 
-    answers_output = {
-        "answers":[]
-    }
-
-    for answer in response["output"]["generic"]:
-        answers_output["answers"].append(json.loads(answer["text"], strict=False))
+        for answer in response["output"]["generic"]:
+            answers_output["answers"].append(json.loads(answer["text"], strict=False))
 
 
-    with open('examples\{}.json'.format(intent["intent"]), 'w', encoding='utf-8') as f:
-        f.write(json.dumps(answers_output, ensure_ascii=False, indent=2))
+        with open(join(dir_name, '{}.json'.format(intent["intent"])), 'w', encoding='utf-8') as f:
+            f.write(json.dumps(answers_output, ensure_ascii=False, indent=2))
 
-    
+        
 
 print("...... END")  

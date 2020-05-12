@@ -1,0 +1,144 @@
+[
+  {
+    "text": "novo período de incubação de coronavírus.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 40,
+        "value": "COVID",
+        "entity": "pt_virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pt_virus",
+        "start": 0,
+        "end": 4,
+        "value": "novo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "pt_virus",
+        "start": 29,
+        "end": 40,
+        "value": "COVID",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "novo período de incubação do coronavírus.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 40,
+        "value": "COVID",
+        "entity": "pt_virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pt_virus",
+        "start": 0,
+        "end": 4,
+        "value": "novo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "pt_virus",
+        "start": 29,
+        "end": 40,
+        "value": "COVID",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "COVID e SARS.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pt_virus",
+        "start": 0,
+        "end": 5,
+        "value": "COVID",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "O vírus que causa a SARS e o que causa o COVID são os mesmos?",
+    "entities": [
+      {
+        "start": 2,
+        "end": 7,
+        "value": "COVID",
+        "entity": "pt_virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pt_virus",
+        "start": 2,
+        "end": 7,
+        "value": "COVID",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "pt_virus",
+        "start": 41,
+        "end": 46,
+        "value": "COVID",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "O vírus que causa a SARS é o mesmo que causa o COVID ?",
+    "entities": [
+      {
+        "start": 2,
+        "end": 7,
+        "value": "COVID",
+        "entity": "pt_virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pt_virus",
+        "start": 2,
+        "end": 7,
+        "value": "COVID",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "pt_virus",
+        "start": 47,
+        "end": 52,
+        "value": "COVID",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

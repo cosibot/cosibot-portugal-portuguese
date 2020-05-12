@@ -48,7 +48,7 @@ class LangChangePolicy(Policy):
         self.lang_detect_threshold = lang_detect_threshold
         self.fallback_action_name = fallback_action_name
         self.model_path = model_path
-        print(self.model_path)
+        # print(self.model_path)
         self.model = model or self._default_model(self.model_path)
 
         # attributes that need to be restored after loading
@@ -59,7 +59,7 @@ class LangChangePolicy(Policy):
     
     @staticmethod
     def _default_model(path) -> Any:
-        print(path)
+        # print(path)
         return load_model(path)
 
     @property
@@ -83,7 +83,7 @@ class LangChangePolicy(Policy):
             if fetcher is not None:
                 user_utter = fetcher.as_dict().get("text")
                 language_prediction = self.model.predict(user_utter)
-                print(language_prediction)
+                # print(language_prediction)
                 return language_prediction
 
         def Q_lang_detect_above_threshold(prediction):
