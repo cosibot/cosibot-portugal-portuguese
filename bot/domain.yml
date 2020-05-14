@@ -56,7 +56,12 @@ slots:
     - 'en'
     - 'de'
     initial_value: 'pt'
+  pt_country_code:
+    type: unfeaturized
+    # auto_fill: false
 
+forms: 
+  - stats_form
 
 entities:
   - pt_country_code 
