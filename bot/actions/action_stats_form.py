@@ -58,8 +58,8 @@ class StatsForm(FormAction):
         return "stats_form"
 
     @staticmethod
-    def required_slots(tracker: Tracker) -> Text:
-        return "pt_country_code"
+    def required_slots(tracker: Tracker) -> List[Text]:
+        return ["pt_country_code"]
     
     def submit(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict]:
 
