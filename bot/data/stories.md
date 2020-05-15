@@ -459,27 +459,68 @@
 
 ## happy stats_form path
 * pt_covid_situation
+  - action_save_intent
   - stats_form
   - form{"name": "stats_form"}
   - form{"name": null}
   - utter_pt_covid_situation
 
-## unhappy stats_form path #1
+<!-- ## unhappy stats_form path #1
 * pt_covid_situation
+  - action_save_intent
   - stats_form
   - form{"name": "stats_form"}
 * pt_vocative_no
-  <!-- - action_deactivate_form -->
+
   - form{"name": null}
-  - utter_pt_vocative_you_welcome
+  - utter_pt_vocative_you_welcome -->
+## generated story unhappy path
+* pt_covid_situation_infected_critical
+    - action_save_intent
+    <!-- - slot{"user_intent": "pt_covid_situation_infected_critical"} -->
+    - stats_form
+    - form{"name": "stats_form"}
+    <!-- - slot{"requested_slot": "pt_country_code"} -->
+* pt_vocative_no
+    - utter_ask_pt_country_code
+    - action_listen
+* form: pt_country{"pt_country_code": "PT"}
+    <!-- - slot{"pt_country_code": "PT"} -->
+    - stats_form
+    <!-- - slot{"pt_country_code": "PT"}
+    - slot{"search_successful": "ok"}
+    - slot{"input_country": "Portugal"}
+    - slot{"active_cases": 23937}
+    - slot{"new_cases": 187}
+    - slot{"total_cases": 28319}
+    - slot{"total_recovered": 3198}
+    - slot{"total_deaths": 1184}
+    - slot{"total_tests": 582341}
+    - slot{"new_deaths": 9}
+    - slot{"total_infected_critical": 108}
+    - slot{"pt_country_code": null} -->
+    - form: followup{"name": "utter_pt_covid_situation_infected_critical"}
+    - form{"name": null}
+    <!-- - slot{"requested_slot": null} -->
+    - utter_pt_covid_situation_infected_critical
 
 ## unhappy stats_form path #2
 * pt_covid_situation
+  - action_save_intent
   - stats_form
   - form{"name": "stats_form"}
 * pt_bot_stop 
   - form{"name": null}
   - utter_pt_vocative_you_welcome
+
+## happy recovered stats_form path
+* pt_covid_situation_recovered
+  - action_save_intent
+  - stats_form
+  - form{"name": "stats_form"}
+  - form{"name": null}
+  - utter_pt_covid_situation_recovered
+
 <!-- ## unhappy stats_form path #2
 * pt_covid_situation
   - stats_form
