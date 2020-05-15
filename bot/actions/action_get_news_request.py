@@ -21,7 +21,7 @@ news_config = {
 }
 
 
-class ActionDefaultFallback(Action):
+class ActionGetNews(Action):
     def name(self) -> Text:
         return "action_get_news_request"
 

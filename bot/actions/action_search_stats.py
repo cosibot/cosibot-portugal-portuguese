@@ -64,6 +64,11 @@ class ActionSearchStats(Action):
     def run(self, dispatcher, tracker, domain):
         
         country_code = next(tracker.get_latest_entity_values("pt_country_code"), None)
+        
+        if country_code is None and tracker.get_slot("pt_country_code") == "PT":
+            country_code = "PT"
+        
+        #country_code = tracker.get_slot("pt_country_code")
         print("country code is {}".format(country_code))
 
         # date = tracker.get_slot("date")
@@ -86,11 +91,14 @@ class ActionSearchStats(Action):
                 return [SlotSet('search_successful', 'not-ok'), FollowupAction("utter_pt_covid_current_statistics")]
             elif stats['code'] == 200 and stats['has_data']:
                 print('ok')
-                entity = next((e for e in tracker.latest_message["entities"] if
+                try:
+                    entity = next((e for e in tracker.latest_message["entities"] if
                                     e['entity'] == 'pt_country_code'), None)
-                print(entity)
-
-                input_country = tracker.latest_message['text'][entity['start']:entity['end']]
+                    print(entity)
+                    input_country = tracker.latest_message['text'][entity['start']:entity['end']]
+                except:
+                    if country_code == "PT" and tracker.get_slot("pt_country_code") == "PT":
+                        input_country = "Portugal"
                 
                 return [SlotSet('search_successful', 'ok'), SlotSet('country', input_country), SlotSet('active_cases', int(stats.get('active_cases', None))), 
                     SlotSet('new_cases', int(stats.get('new_cases', None))), SlotSet('total_cases', int(stats.get('total_cases', None))),

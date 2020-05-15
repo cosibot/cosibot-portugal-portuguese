@@ -147,3 +147,4 @@ bot/models/
 scripts/node_modules/
 scripts/package-lock.json
 scripts/output/
+bot/story_graph.dot

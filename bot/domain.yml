@@ -56,7 +56,32 @@ slots:
     - 'en'
     - 'de'
     initial_value: 'pt'
-
+  pt_country_municipal:
+    type: text
+  country_municipal:
+    type: text
+  country_municipal_confirmed_accum:
+    type: unfeaturized
+  country_municipal_search_successful:
+    type: categorical
+    values:
+      - ok
+      - empty
+      - not-ok
+  pt_country_code:
+    type: text
+  pt_country_region:
+    type: text
+  country_region:
+    type: text
+  country_region_confirmed_accum:
+    type: unfeaturized
+  country_region_search_successful:
+    type: categorical
+    values:
+      - ok
+      - empty
+      - not-ok
 
 entities:
   - pt_country_code 
@@ -64,6 +89,8 @@ entities:
   - language
   - bot_language_code
   - preferred_lang
+  - pt_country_municipal
+  - pt_country_region
   
 actions:
   - action_get_date
@@ -73,6 +100,8 @@ actions:
   - action_search_stats
   - action_check_Bot_Introduced
   - action_get_news_request
+  - action_search_stats_municipal
+  - action_search_stats_region
   - utter_pt_welcome
   - utter_pt_ask_country
   - utter_pt_ask_which_country
@@ -217,6 +246,8 @@ actions:
   - utter_fallback_first
   - utter_news_request_hasdata
   - utter_news_request_emptyanswer
+  - utter_country_municipal_hasdata
+  - utter_country_region_hasdata
 
 intents:
   - start
@@ -3052,3 +3083,33 @@ responses:
                 url: https://www.lusa.pt/covid19
               - title: RTP
                 url: https://www.rtp.pt/noticias/
+
+  utter_country_municipal_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_municipal} existe um valor total de {country_municipal_confirmed_accum} casos confirmados de covid-19.</speak>
+          - type: text
+            text: "De acordo com os últimos dados disponíveis, neste momento em {country_municipal} existe um valor total de {country_municipal_confirmed_accum} casos confirmados de covid-19."
+
+  utter_country_municipal_nodata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal.</speak>
+          - type: text
+            text: "Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal."
+          - type: multichoice
+            options:
+              - label: Sim
+                value: Sim
+              - label: Não
+                value: Não
+
+  utter_country_region_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19.</speak>
+          - type: text
+            text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19."
