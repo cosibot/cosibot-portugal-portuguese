@@ -3,7 +3,7 @@ from typing import Dict, Text, Any, List, Union, Optional
 from rasa_sdk import Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction
-from rasa_sdk.events import SlotSet, FollowupAction, UserUtteranceReverted
+from rasa_sdk.events import SlotSet, FollowupAction, UserUtteranceReverted, UserUttered
 import requests
 from datetime import date
 
@@ -15,7 +15,7 @@ class DecsisAPI:
 
         
         if date_filter is None: 
-            date_filter = date.today().strftime("%Y-%m-%d")
+            date_filter = '2020-05-14' #date.today().strftime("%Y-%m-%d")
         else:
             date_filter = str(date_filter)
         
@@ -107,6 +107,9 @@ class StatsForm(FormAction):
         decsis_api = DecsisAPI()
         stats = decsis_api.search(country_code)
 
+        print(tracker.latest_message['intent'].get('name'))
+        
+        user_intent = tracker.latest_message['intent'].get('name')
         # tracker_current_state = tracker.current_state()
         # dispatcher.utter_message(text=str(tracker_current_state))
 
@@ -115,15 +118,15 @@ class StatsForm(FormAction):
             if stats['code'] == 200 and not stats['has_data'] and len(country_code) == 2:
                 print('inexistent-country')
                 """In this case we're assuming the user did not miss the country's name but instead it really does not exist at the source."""
-                return [SlotSet('search_successful', 'inexistent-country'), FollowupAction("utter_pt_covid_no_country_current_statistics")]
+                return [SlotSet('search_successful', 'inexistent-country'), SlotSet('iso_country_code', None), FollowupAction("utter_pt_covid_no_country_current_statistics")]
             elif stats['code'] == 200 and not stats['has_data'] and len(country_code) != 2:
                 print('wrong-country')
                 """In this case we're assuming the user missed the country's name so we ask them if they want to rephrase it"""
-                return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_ask_iso_country_code")]
+                return [SlotSet('search_successful', 'wrong-country'), SlotSet('iso_country_code', None), FollowupAction("utter_ask_iso_country_code")]
             elif stats['code'] != 200 and not stats['has_data']:
                 print('not-ok')
                 """ """
-                return [SlotSet('search_successful', 'not-ok'), FollowupAction("utter_pt_covid_current_statistics")]
+                return [SlotSet('search_successful', 'not-ok'), SlotSet('iso_country_code', None), FollowupAction("utter_pt_covid_current_statistics")]
             elif stats['code'] == 200 and stats['has_data']:
                 print('ok')
                 entity = next((e for e in tracker.latest_message["entities"] if
@@ -136,10 +139,9 @@ class StatsForm(FormAction):
                     SlotSet('new_cases', int(stats.get('new_cases', None))), SlotSet('total_cases', int(stats.get('total_cases', None))),
                     SlotSet('total_recovered', int(stats.get('total_recovered', None))), SlotSet('total_deaths', int(stats.get('total_deaths', None))),
                     SlotSet('total_tests', int(stats.get('total_tests', None))), SlotSet('new_deaths', int(stats.get('new_deaths', None))),
-                    SlotSet('total_infected_critical', int(stats.get('critical', None))), SlotSet('iso_country_code', None) ]
+                    SlotSet('total_infected_critical', int(stats.get('critical', None))), SlotSet('iso_country_code', None), FollowupAction(f"utter_{user_intent}")] 
         
         elif country_code is None: 
             """In this case, no entity was recognized. Example: when user asks for 'world information'"""
             print('wrong-country')
-            return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_ask_iso_country_code")]
-
+            return [SlotSet('search_successful', 'wrong-country'), SlotSet('iso_country_code', None), FollowupAction("utter_ask_iso_country_code")]
