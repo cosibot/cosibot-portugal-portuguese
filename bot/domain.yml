@@ -2987,21 +2987,29 @@ responses:
                 value: Máscaras Médicas
               - label: Situação Mundial
                 value: Situação Mundial
+  
   utter_pt_further_questions:
     - custom:
         answers:
           - type: ssml
             ssml: <speak>O que mais posso fazer por si?</speak>
+          - type: text
+            text: O que mais posso fazer por si?
+    - custom:
+        answers:      
           - type: ssml
             ssml: <speak>Há mais alguma pergunta que eu possa responder?</speak>
+          - type: text
+            text: Há mais alguma pergunta que eu possa responder?
+    - custom:
+        answers:      
           - type: ssml
             ssml: <speak>Que mais posso fazer por si?</speak>
           - type: text
-            text: O que mais posso fazer por si?
-          - type: text
-            text: Há mais alguma pergunta que eu possa responder?
-          - type: text
             text: Que mais posso fazer por si?
+          
+          
+          
     
   utter_fallback_first:
     - custom:

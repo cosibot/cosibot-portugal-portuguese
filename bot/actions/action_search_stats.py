@@ -36,7 +36,6 @@ class DecsisAPI:
                 return {'code' : response.status_code, 'has_data': False}
             elif stats:        
                 stats = stats[0]
-                print(stats)
                 
                 if str(stats["new_cases"]) == 'nan' and str(stats["new_deaths"]) == 'nan' or \
                 stats["new_cases"] == None and stats["new_deaths"] == None:

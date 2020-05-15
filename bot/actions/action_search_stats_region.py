@@ -18,7 +18,6 @@ class DecsisAPI:
             query_filters = "[{\"date_day\":\"" + today.strftime("%Y-%m-%d")+"\"},{\"region\":\""+ str(country_region) + "\"}]"
 
             request_url = "https://api.data.decsis.cloud/api/v1/dataset/pt_dgs_covid19_regions?query={\"fields\":"+ str(query_fields) +", \"filters\":"+ str(query_filters) +"}&format=json"
-            print(request_url)
             response = requests.get(url = request_url)
 
             json_response = (response.json())
@@ -28,8 +27,6 @@ class DecsisAPI:
                 stats = json_response[0]
                 stats['code'] = response.status_code
                 stats['has_data'] = True
-
-                print("search 1")
 
                 return stats
             else:
@@ -44,7 +41,7 @@ class DecsisAPI:
                 stats = json_response
                 stats['code'] = response.status_code
                 stats['has_data'] = True
-                print("search 2")
+
                 return stats
         except:
             return {'code': response.status_code, 'has_data': False}
@@ -66,11 +63,9 @@ class ActionSearchStatsRegion(Action):
         stats = decsis_api.search(country_region)
 
         if stats['code'] == 200 and not stats['has_data']:
-            print("1")
             return [SlotSet('country_region_search_successful', 'empty'),SlotSet('country_region', country_region),SlotSet('pt_country_code', 'PT'),]
             #self.get_country_data(country_municipal,"empty",dispatcher, tracker, domain)
         elif stats['code'] == 200 and stats['has_data']:
-            print("2")
             return [SlotSet('country_region_search_successful', 'ok'),SlotSet('country_region', country_region), SlotSet('country_region_confirmed_accum', int(stats.get('confirmed_accum', None))),]
         else:
             return [SlotSet('country_regionsearch_successful', 'not-ok'),SlotSet('pt_country_code', 'PT'),]
