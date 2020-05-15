@@ -455,10 +455,43 @@
 * pt_vocative_you_welcome
   - utter_pt_vocative_you_welcome
 
+<!-- NEW STORIES -->
+
+## happy stats_form path
+* pt_covid_situation
+  - stats_form
+  - form{"name": "stats_form"}
+  - form{"name": null}
+  - utter_pt_covid_situation
+
+## unhappy stats_form path #1
+* pt_covid_situation
+  - stats_form
+  - form{"name": "stats_form"}
+* pt_vocative_no
+  <!-- - action_deactivate_form -->
+  - form{"name": null}
+  - utter_pt_vocative_you_welcome
+
+## unhappy stats_form path #2
+* pt_covid_situation
+  - stats_form
+  - form{"name": "stats_form"}
+* pt_bot_stop 
+  - form{"name": null}
+  - utter_pt_vocative_you_welcome
+<!-- ## unhappy stats_form path #2
+* pt_covid_situation
+  - stats_form
+  - form{"name": "stats_form"}
+* form{"search_successful": "inexistent-country"}
+  - form{"name": null}
+  - utter_pt_covid_current_statistics -->
+
 <!-- 
 GENERAL SITUATION 
 -->
-
+<!-- 
 ## pt_covid_situation_happy 
 * pt_covid_situation{"pt_country_code" : "Estados Unidos da América"}
   - action_search_stats
@@ -517,12 +550,12 @@ GENERAL SITUATION
   - slot{"search_successful": "wrong-country"}
   - utter_pt_want_to_add_country
 * pt_vocative_no
-  - utter_pt_covid_current_statistics
+  - utter_pt_covid_current_statistics -->
 
 <!-- 
 DEATHS
 -->
-
+<!-- 
 ## pt_covid_situation_deaths_happy
 * pt_covid_situation_deaths{"pt_country_code":"Suécia"}
   - action_search_stats
@@ -601,13 +634,13 @@ DEATHS
   - slot{"search_successful": "wrong-country"}
   - utter_pt_want_to_add_country
 * pt_vocative_no
-  - utter_pt_covid_current_statistics
+  - utter_pt_covid_current_statistics -->
 
 <!-- 
 INFECTED
 -->
 
-## pt_covid_situation_infected_happy
+<!-- ## pt_covid_situation_infected_happy
 * pt_covid_situation_infected{"pt_country_code":"Itália"}
   - action_search_stats
   - slot{"search_successful": "ok"}
@@ -665,12 +698,12 @@ INFECTED
   - slot{"search_successful": "wrong-country"}
   - utter_pt_want_to_add_country
 * pt_vocative_no
-  - utter_pt_covid_current_statistics
+  - utter_pt_covid_current_statistics -->
 
 <!-- 
 INFECTED CRITICAL
 -->
-
+<!-- 
 ## pt_covid_situation_infected_critical_happy
 * pt_covid_situation_infected_critical{"pt_country_code":"Espanha"}
   - action_search_stats
@@ -729,12 +762,12 @@ INFECTED CRITICAL
   - slot{"search_successful": "wrong-country"}
   - utter_pt_want_to_add_country
 * pt_vocative_no
-  - utter_pt_covid_current_statistics
+  - utter_pt_covid_current_statistics -->
 
 <!-- 
 LAST UPDATE 
 -->
-
+<!-- 
 ## pt_covid_situation_last_update_happy
 * pt_covid_situation_last_update{"pt_country_code":"Inglaterra"}
   - action_search_stats
@@ -799,7 +832,7 @@ LAST UPDATE
 SITUATION RECOVERED
 -->
 
-## pt_covid_situation_recovered_happy
+<!-- ## pt_covid_situation_recovered_happy
 * pt_covid_situation_recovered{"pt_country_code":"Alemanha"}
   - action_search_stats
   - slot{"search_successful": "ok"}
@@ -857,12 +890,12 @@ SITUATION RECOVERED
   - slot{"search_successful": "wrong-country"}
   - utter_pt_want_to_add_country
 * pt_vocative_no
-  - utter_pt_covid_current_statistics
+  - utter_pt_covid_current_statistics  -->
 
 <!-- 
 TESTED
 -->
-
+<!-- 
 ## pt_covid_situation_tested_happy
 * pt_covid_situation_tested{"pt_country_code":"Portugal"}
   - action_search_stats
@@ -921,7 +954,7 @@ TESTED
   - slot{"search_successful": "wrong-country"}
   - utter_pt_want_to_add_country
 * pt_vocative_no
-  - utter_pt_covid_current_statistics
+  - utter_pt_covid_current_statistics -->
 
 ## pt_change_bot
 * pt_bot_change_bot{"preferred_lang": "Cosibot Inglês"}

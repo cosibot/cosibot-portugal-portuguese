@@ -21,7 +21,7 @@ slots:
     type: text
   active_cases:
     type: unfeaturized
-  country:
+  input_country:
     type: text
   new_cases:
     type: unfeaturized
@@ -56,7 +56,7 @@ slots:
     - 'en'
     - 'de'
     initial_value: 'pt'
-  pt_country_code:
+  iso_country_code:
     type: unfeaturized
     # auto_fill: false
 
@@ -79,8 +79,8 @@ actions:
   - action_check_Bot_Introduced
   - action_get_news_request
   - utter_pt_welcome
-  - utter_pt_ask_country
-  - utter_pt_ask_which_country
+  - utter_ask_iso_country_code
+  - utter_pt_want_to_add_country
   - utter_pt_bot_appearance
   - utter_pt_bot_availability
   - utter_pt_bot_books
@@ -216,7 +216,6 @@ actions:
   - utter_pt_vocative_sorry
   - utter_pt_vocative_thank_you
   - utter_pt_vocative_you_welcome
-  - utter_pt_want_to_add_country
   - utter_fallback_request_hasdata
   - utter_fallback_request_emptyanswer
   - utter_fallback_first
@@ -249,6 +248,7 @@ actions:
 
 intents:
   - start
+  - pt_bot_stop
   - pt_bot_change_bot
   - pt_bot_appearance
   - pt_bot_availability
@@ -769,7 +769,7 @@ responses:
                 value: Sim
               - label: Não
                 value: Não
-  utter_pt_ask_which_country:
+  utter_ask_iso_country_code:
     - custom:
         answers:
           - type: text

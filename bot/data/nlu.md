@@ -13,6 +13,27 @@
 - Cosibot Alemão
 - Cosibot Inglês -->
 
+## intent:pt_bot_stop
+- ok então você não pode me ajudar
+- isso foi uma merda, você não está ajudando
+- voce nao pode me ajudar
+- você não pode me ajudar com o que eu preciso
+- eu acho que você não pode me ajudar então
+- ok eu acho que você não pode me ajudar
+- não é isso que eu quero
+- ok, mas isso não me ajuda
+- isso não está levando a nada
+- essa conversa não é realmente útil
+- você não pode me ajudar com o que eu quero
+- Eu acho que você não pode me ajudar
+- hum eu não acho que você pode fazer o que eu quero
+- Pare
+- pare de voltar
+- você recebe alguma coisa?
+- e você se chama empresa de bot? pff
+- e é isso?
+- nada mais?
+
 ## intent:pt_bot_appearance
 - Achas-te atraente?
 - Atraente?
@@ -320,7 +341,7 @@
 - Tens sonhos?
 
 ## intent:pt_bot_hobbies
-- Aconselha-me de algo para fazer no meu tempo livre.
+- Aconselha-me de algo pt_bot_stop fazer no meu tempo livre.
 - Algo divertido para fazer.
 - As tuas atividades de tempos livres.
 - Atividade divertida para fazer.

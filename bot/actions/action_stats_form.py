@@ -59,11 +59,48 @@ class StatsForm(FormAction):
 
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:
-        return ["pt_country_code"]
+        return ["iso_country_code"]
+
+    def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
+        """A dictionary to map required slots to
+            - an extracted entity
+            - intent: value pairs
+            - a whole message
+        
+            or a list of them, where a first match will be picked"""
+        # print("from entity {}".format(self.from_entity(entity="location")))
+        # print("from text {}".format(self.from_text(intent="covid_info_cases")))
+        # print("from trigger intent {}".format(self.from_trigger_intent(intent=["covid_info_cases", "covid_info_deaths", "country"])))
+        return {
+            "iso_country_code": [
+                self.from_entity(entity="pt_country_code", intent=["pt_country", "pt_covid_situation", "pt_covid_situation_deaths", "pt_covid_situation_infected", 
+                                                                    "pt_covid_situation_last_update", "pt_covid_situation_infected_critical", "pt_covid_situation_recovered", 
+                                                                    "pt_covid_situation_tested"]),
+                # self.from_trigger_intent(intent=["covid_info_cases", "covid_info_deaths", "country"])
+                # self.from_intent(intent="covid_info_cases"),
+                # self.from_intent(intent="covid_info_deaths"),
+                # self.from_intent(intent="country"),
+            ],
+        }
+
+    def validate_iso_country_code(self, value, dispatcher, tracker, domain) -> Dict[Text, Any]:
+        """Check to see if a country entity was actually picked up."""
+
+
+        
+        if any(tracker.get_latest_entity_values("pt_country_code")):
+            print("validate_ok: {}".format(value))
+            # entity was picked up, validate slot
+            return {"iso_country_code": value}
+        else:
+            print("validate_not_ok")
+            # no entity was picked up, we want to ask again
+            dispatcher.utter_message(template="utter_ask_iso_country_code")
+            return {"iso_country_code": None}
     
     def submit(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict]:
 
-        country_code = tracker.get_slot('pt_country_code')
+        country_code = tracker.get_slot('iso_country_code')
         print("country code is {}".format(country_code))
 
         # date = tracker.get_slot("date")
@@ -82,7 +119,7 @@ class StatsForm(FormAction):
             elif stats['code'] == 200 and not stats['has_data'] and len(country_code) != 2:
                 print('wrong-country')
                 """In this case we're assuming the user missed the country's name so we ask them if they want to rephrase it"""
-                return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_pt_want_to_add_country")]
+                return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_ask_iso_country_code")]
             elif stats['code'] != 200 and not stats['has_data']:
                 print('not-ok')
                 """ """
@@ -95,14 +132,14 @@ class StatsForm(FormAction):
 
                 input_country = tracker.latest_message['text'][entity['start']:entity['end']]
                 
-                return [SlotSet('search_successful', 'ok'), SlotSet('country', input_country), SlotSet('active_cases', int(stats.get('active_cases', None))), 
+                return [SlotSet('search_successful', 'ok'), SlotSet('input_country', input_country), SlotSet('active_cases', int(stats.get('active_cases', None))), 
                     SlotSet('new_cases', int(stats.get('new_cases', None))), SlotSet('total_cases', int(stats.get('total_cases', None))),
                     SlotSet('total_recovered', int(stats.get('total_recovered', None))), SlotSet('total_deaths', int(stats.get('total_deaths', None))),
                     SlotSet('total_tests', int(stats.get('total_tests', None))), SlotSet('new_deaths', int(stats.get('new_deaths', None))),
-                    SlotSet('total_infected_critical', int(stats.get('critical', None))),  ]
+                    SlotSet('total_infected_critical', int(stats.get('critical', None))), SlotSet('iso_country_code', None) ]
         
         elif country_code is None: 
             """In this case, no entity was recognized. Example: when user asks for 'world information'"""
             print('wrong-country')
-            return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_pt_want_to_add_country")]
+            return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_ask_iso_country_code")]
 
