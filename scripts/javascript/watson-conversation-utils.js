@@ -264,11 +264,6 @@ watson_conversation_utils.extractEntitiesFromJSON = function (json) {
     for (let entity of entities) {
 
         let entityTitle = entity.entity.toLowerCase();
-
-        if (entityTitle === 'pt_country_code') {
-            console.debug(entityTitle);
-        }
-
         let valuesMap = new Map();
         for (let value of entity.values) {
             let valueTitle = value.value.toLowerCase();

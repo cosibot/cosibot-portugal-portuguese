@@ -2128,6 +2128,28 @@
 - quando é que isto irá terminar?
 - quanto tempo irá durar essa crise?
 
+## intent:pt_covid_current_statistics
+- "[Reinfeld](pt_geography:town):country news."
+- "[Großbreitenbach](pt_geography:town):situação do país"
+- COVID em [Split](pt_geography:town):country
+- COVID-19 em [Taiyuan](pt_geography:town):country
+- Como está a situação em [Nassau](pt_geography:town)_country?
+- Coronavirus em [Osterode Am Harz](pt_geography:town):country
+- Estatísticas actualizadas em [Kleve](pt_geography:town):country
+- Informações [Gliwice](pt_geography:town):country
+- Informações actualizadas [Milwaukee](pt_geography:town):country
+- Informações sobre [Gatineau](pt_geography:town):country
+- Notícias [Zülpich](pt_geography:town):country
+- Notícias atuais [Bangui](pt_geography:town):country
+- Notícias de [Widdern](pt_geography:town):country
+- Notícias sobre o COVID-19
+- Novo coronavírus em [Verona](pt_geography:town):country
+- Situação [Esens](pt_geography:town):country
+- Situação actual em [Guayaquil](pt_geography:town):country
+- Situação actualizada em [Nis](pt_geography:town):country
+- Situação em [Pirmasens](pt_geography:town):country
+- situação
+- Últimas notícias
 
 ## intent:pt_covid_duration
 - Depois dos primeiros sintomas, quanto tempo pode durar a [doença](pt_virus:COVID)?
@@ -3532,32 +3554,32 @@
 - quantos casos graves há no [Republik Namibia](pt_country_code:NA)?
 
 ## intent:pt_covid_situation_last_update
-- Atualização de [Palaos](pt_country_code:PW).
-- Atualização de hoje de [Maurícia](pt_country_code:MU).
-- Atualização de hoje em [Zimbabué](pt_country_code:ZW).
-- Atualização em [Svalbard og Jan Mayen](pt_country_code:SJ).
-- Dados atualizados de [Sultanate of Oman](pt_country_code:OM)?
-- Dados atualizados de infetados e mortes em [French Southern Territories](pt_country_code:TF)?
-- Dados atualizados em [Shango ḽa Zimbabwe](pt_country_code:ZW)?
-- Dados de hoje de casos em [Países Baixos](pt_country_code:NL).
-- Dados de hoje de infetados [Táiwān shěng](pt_country_code:TW).
-- Dados de hoje de mortes [Ilha Esmeralda das Caraíbas](pt_country_code:MS).
-- Dados de hoje de novos casos em [República Oriental del Uruguay](pt_country_code:UY).
-- Dados de hoje de novos infetados [Reiaume d'Espanha](pt_country_code:ES).
-- Dados de hoje de novos mortes [Tobago](pt_country_code:TT).
-- Dados de hoje em [Italy](pt_country_code:IT).
-- Novos casos e mortes em [Congo-Brazzaville](pt_country_code:CG)?
-- Novos casos em [Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya](pt_country_code:ET)?
-- Quantas mais mortes em [São Marinho](pt_country_code:SM) no momento?
-- Quantos mais infetados em [Balgariya](pt_country_code:BG)?
-- Ultima atualização em [Luxemburgo](pt_country_code:LU)
-- Última atualização de casos e mortes em [Aotearoa](pt_country_code:NZ)?
-- Última atualização de casos em [Mexico](pt_country_code:MX)?
-- Última atualização de infetados e mortes em [Congo-Quinxassa](pt_country_code:CD)?
-- Última atualização de infetados em [Republic of Maldives](pt_country_code:MV)?
-- Última atualização de mortes em [United States Minor Outlying Islands](pt_country_code:UM)?
-- Últimos dados de [Aotearoa](pt_country_code:NZ).
-- Últimos dados em [Muso oa Lesotho](pt_country_code:LS).
+- Atualização de [Mozambique](pt_country_code:MZ).
+- Atualização de hoje de [Umoja wa Komori](pt_country_code:KM).
+- Atualização de hoje em [Reino da Tailândia](pt_country_code:TH).
+- Atualização em [Chipre](pt_country_code:CY).
+- Dados atualizados de [Alanda](pt_country_code:AX)?
+- Dados atualizados de infetados e mortes em [Egito](pt_country_code:EG)?
+- Dados atualizados em [República das Filipinas](pt_country_code:PH)?
+- Dados de hoje de casos em [America](pt_country_code:US).
+- Dados de hoje de infetados [Hashemite Kingdom of Jordan](pt_country_code:JO).
+- Dados de hoje de mortes [al-Mamlaka al-ʻArabiyya as-Suʻūdiyya](pt_country_code:SA).
+- Dados de hoje de novos casos em [Rossiya](pt_country_code:RU).
+- Dados de hoje de novos infetados [Croácia](pt_country_code:HR).
+- Dados de hoje de novos mortes [Tuvalu](pt_country_code:TV).
+- Dados de hoje em [República da Eslovénia](pt_country_code:SI).
+- Novos casos e mortes em [República da Indonésia](pt_country_code:ID)?
+- Novos casos em [Guinée équatoriale](pt_country_code:GQ)?
+- Quantas mais mortes em [Região Administrativa de Macau](pt_country_code:MO) no momento?
+- Quantos mais infetados em [Bailiado de Guernsey](pt_country_code:GG)?
+- Ultima atualização em [República de San Marino](pt_country_code:SM)
+- Última atualização de casos e mortes em [U.K.](pt_country_code:GB)?
+- Última atualização de casos em [El Salvador](pt_country_code:SV)?
+- Última atualização de infetados e mortes em [Republic of India](pt_country_code:IN)?
+- Última atualização de infetados em [Republic of the Niger](pt_country_code:NE)?
+- Última atualização de mortes em [Fiji](pt_country_code:FJ)?
+- Últimos dados de [Pérsia](pt_country_code:IR).
+- Últimos dados em [State of Kuwait](pt_country_code:KW).
 
 ## intent:pt_covid_situation_recovered
 - "[Pyidaunzu Thanmăda Myăma](pt_country_code:MM) recuperados."

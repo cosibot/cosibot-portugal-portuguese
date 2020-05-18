@@ -233,6 +233,7 @@ rasa_utils.createDir = function (dir) {
 rasa_utils.writeIntentsEntitiesAnswersToFiles = function (metadataObject, intentsMap, entityArray, answersArray, nodeArray, outputDirectory) {
     let outDir = outputDirectory;
     this.createOrCleanDir(outDir);
+    this.createOrCleanDir(outDir + '/lookup_tables');
 
 
     // build the nlu.md
@@ -251,13 +252,19 @@ rasa_utils.writeIntentsEntitiesAnswersToFiles = function (metadataObject, intent
 
     let entities ='';
 
+    function toLookupFileList(synonyms) {
+
+        let res = '';
+        for (const s of synonyms) {
+            res += s + '\n';
+        }
+        return res;
+    }
+
     for (const entity of entityArray) {
         let allSynonyms =  new Array();
         let entity_name = entity.entity;
         let entity_title = '## synonym:' + entity_name;
-        if (entity_name === 'pt_country_code') {
-            console.debug(entity_title);
-        }
 
         //entities += entity_title;
 
@@ -265,11 +272,22 @@ rasa_utils.writeIntentsEntitiesAnswersToFiles = function (metadataObject, intent
             if (entity.values[j].synonyms !== undefined) {
 
                 let synonymsTitle = entity.values[j].value;
-                let entitySynomymsTitle = '## synonym:' + synonymsTitle + '\n';
-                let synonimsList =  yaml.stringify(entity.values[j].synonyms);
+
+                /*
+
+                ## lookup:plates
+                data/test/lookup_tables/plates.txt
+                 */
+
+
+                let entitySynomymsTitle = '## lookup:' + synonymsTitle + '\n';
+                let synonymsFile = 'lookup_tables/' + synonymsTitle + '.txt';
+                let synonimsList = toLookupFileList(entity.values[j].synonyms);
+                this.writeStringToFile(synonimsList,  outDir+ '/' +synonymsFile);
+
                 entities += entitySynomymsTitle;
-                entities += synonimsList;
-                entities += '\n';
+                entities += synonymsFile;
+                entities += '\n\n';
 
                 for (const synonym of entity.values[j].synonyms) {
                     allSynonyms.push({synonym: synonym,synonymsTitle: synonymsTitle,entity_name});
@@ -279,14 +297,6 @@ rasa_utils.writeIntentsEntitiesAnswersToFiles = function (metadataObject, intent
 
 
         // replace entities in the intents with RASA entity annotations
-        // (@([a-z|_]+):([a-z]+))
-
-        // to replace
-        if (entity_name === 'pt_geography') {
-            console.debug(entity_title);
-        }
-
-
         let entityToReplace = "@" + entity.entity; // e.g. @pt_geography
 
         while (intents.search(entityToReplace) > -1) {
