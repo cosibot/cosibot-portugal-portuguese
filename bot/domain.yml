@@ -95,7 +95,7 @@ forms:
   - country_stats_form
   - region_stats_form
   - municipality_stats_form
-  
+
 entities:
   - pt_country_code 
   - pt_virus
@@ -284,6 +284,7 @@ actions:
   - utter_country_municipal_hasdata
   - utter_country_region_hasdata
   - utter_country_municipal_nodata
+  - utter_pt_request_failed
 
 intents:
   - start
@@ -3539,3 +3540,11 @@ responses:
             ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19.</speak>
           - type: text
             text: De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de Covid-19.
+
+  utter_pt_request_failed: 
+    - custom:
+        answers: 
+          - type: ssml
+            ssml: <speak>De momento, não foi possível realizar o seu pedido. Por favor, tente mais tarde.</speak> 
+          - type: text
+            text: De momento, não foi possível realizar o seu pedido. Por favor, tente mais tarde.

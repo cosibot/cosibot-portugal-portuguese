@@ -166,12 +166,12 @@ class RegionStatsForm(FormAction):
             - a whole message
         
             or a list of them, where a first match will be picked"""
-        print("slot_mappings -> from entity {}".format(self.from_entity(entity="pt_country_code")))
+        print("slot_mappings -> from entity {}".format(self.from_entity(entity="pt_country_region")))
         # print("from text {}".format(self.from_text(intent="covid_info_cases")))
         # print("from trigger intent {}".format(self.from_trigger_intent(intent=["covid_info_cases", "covid_info_deaths", "country"])))
         return {
-            "pt_country_code": [
-                self.from_entity(entity="pt_country_code", intent=None)
+            "pt_country_region": [
+                self.from_entity(entity="pt_country_region", intent=None)
                 
                 # ["pt_country", "pt_covid_situation", "pt_covid_situation_deaths", "pt_covid_situation_infected", 
                 #                                                     "pt_covid_situation_last_update", "pt_covid_situation_infected_critical", "pt_covid_situation_recovered", 
@@ -183,64 +183,44 @@ class RegionStatsForm(FormAction):
             ],
         }
 
-    def validate_pt_country_code(self, value, dispatcher, tracker, domain) -> Dict[Text, Any]:
+    def validate_pt_country_region(self, value, dispatcher, tracker, domain) -> Dict[Text, Any]:
         """Check to see if a country entity was actually picked up."""
 
-        if any(tracker.get_latest_entity_values("pt_country_code")):
+        if any(tracker.get_latest_entity_values("pt_country_region")):
             print("validate_ok: {}".format(value))
             # entity was picked up, validate slot
-            return {"pt_country_code": value}
+            return {"pt_country_region": value}
         else:
             print("validate_not_ok")
             # no entity was picked up, we want to ask again
-            dispatcher.utter_message(template="utter_ask_pt_country_code")
-            return {"pt_country_code": None}
+            # TODO
+            # dispatcher.utter_message(template="utter_ask_pt_country_code")
+            return {"pt_country_region": None}
     
     def submit(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict]:
 
-        country_code = tracker.get_slot('pt_country_code')
-        print("country code is {}".format(country_code))
+        country_region = tracker.get_slot('pt_country_region')
+        print("country region is {}".format(country_region))
 
-        # date = tracker.get_slot("date")
         decsis_api = DecsisAPI()
-        stats = decsis_api.search(country_code)
+        stats = decsis_api.search_region(country_region)
 
         user_intent = tracker.get_slot('user_intent')
-        # tracker_current_state = tracker.current_state()
-        # dispatcher.utter_message(text=str(tracker_current_state))
 
-        if country_code is not None: 
+        if stats['code'] == 200 and not stats['has_data']:
 
-            if stats['code'] == 200 and not stats['has_data'] and len(country_code) == 2:
-                print('inexistent-country')
-                """In this case we're assuming the user did not miss the country's name but instead it really does not exist at the source."""
-                return [SlotSet('search_successful', 'inexistent-country'), SlotSet('pt_country_code', None), FollowupAction("utter_pt_covid_no_country_current_statistics")]
-            elif stats['code'] == 200 and not stats['has_data'] and len(country_code) != 2:
-                print('wrong-country')
-                """In this case we're assuming the user missed the country's name so we ask them if they want to rephrase it"""
-                return [SlotSet('search_successful', 'wrong-country'), SlotSet('pt_country_code', None), FollowupAction("utter_ask_pt_country_code")]
-            elif stats['code'] != 200 and not stats['has_data']:
-                print('not-ok')
-                """ """
-                return [SlotSet('search_successful', 'not-ok'), SlotSet('pt_country_code', None), FollowupAction("utter_pt_covid_current_statistics")]
-            elif stats['code'] == 200 and stats['has_data']:
-                print('ok')
-                entity = next((e for e in tracker.latest_message["entities"] if
-                                    e['entity'] == 'pt_country_code'), None)
-                print(entity)
+            country_stats = decsis_api.search_country('PT')
 
-                input_country = tracker.latest_message['text'][entity['start']:entity['end']]
-                
-                return [SlotSet('search_successful', 'ok'), SlotSet('input_country', input_country), SlotSet('active_cases', int(stats.get('active_cases', None))), 
-                    SlotSet('new_cases', int(stats.get('new_cases', None))), SlotSet('total_cases', int(stats.get('total_cases', None))),
-                    SlotSet('total_recovered', int(stats.get('total_recovered', None))), SlotSet('total_deaths', int(stats.get('total_deaths', None))),
-                    SlotSet('total_tests', int(stats.get('total_tests', None))), SlotSet('new_deaths', int(stats.get('new_deaths', None))),
-                    SlotSet('total_infected_critical', int(stats.get('critical', None))), SlotSet('pt_country_code', None), FollowupAction(f"utter_{user_intent}")] 
-        
-        elif country_code is None: 
-            """In this case, no entity was recognized. Example: when user asks for 'world information'"""
-            print('wrong-country')
-            return [SlotSet('search_successful', 'wrong-country'), SlotSet('pt_country_code', None), FollowupAction("utter_ask_pt_country_code")]
+            return [SlotSet('country_region_search_successful', 'empty'), SlotSet('country_region', country_region), 
+                    SlotSet('pt_country_code', 'PT'), ]
+            #self.get_country_data(country_municipal,"empty",dispatcher, tracker, domain)
+        elif stats['code'] == 200 and stats['has_data']:
+            return [SlotSet('country_region_search_successful', 'ok'),SlotSet('country_region', country_region), 
+                    SlotSet('country_region_confirmed_accum', int(stats.get('confirmed_accum', None))), FollowupAction('utter_country_region_hasdata')]
+        else:
+            return [SlotSet('country_region_search_successful', 'not-ok'), 
+                    SlotSet('pt_country_code', 'PT'), FollowupAction('utter_pt_request_failed') ]
+            #self.get_country_data(country_municipal, "not-ok",dispatcher, tracker, domain)
 
 class MunicipalityStatsForm(FormAction):
 
