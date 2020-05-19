@@ -1053,7 +1053,7 @@
 - A [Holanda](pt_country_code:NL) tem montanhas?
 - América é um continente?
 - Conheces [Itália](pt_country_code:IT)?
-- Conheces [Lisboa](pt_geography:town)?
+- Conheces [Lisboa](pt_country_municipal:Lisboa)?
 - Conta-me coisa sobre a [Itália](pt_country_code:IT)
 - [Croácia](pt_country_code:HR) é um bom sítio para visitar?
 - Diz-me o número de continentes
@@ -1069,16 +1069,16 @@
 - O que me consegues dizer sobre a [Inglaterra](pt_country_code:GB)?
 - O que sabes sobre a [Inglaterra](pt_country_code:GB)?
 - O que sabes sobre geografia?
-- O que é [Valência](pt_geography:town)?
+- O que é Valência?
 - Onde fica a [Alemanha](pt_country_code:DE)
 - Onde fica a América
 - Onde fica a [Inglaterra](pt_country_code:GB)
 - Onde fica a [Itália](pt_country_code:IT)
-- Onde fica [Évora](pt_geography:town)
+- Onde fica [Évora](pt_country_municipal:Évora)
 - Onde ficam os Alpes?
 - Onde ficam os Himalaias?
 - Onde são os Himalaias?
-- Onde é [Braga](pt_geography:town)?
+- Onde é [Braga](pt_country_municipal:Braga)?
 - Quantos países há no mundo?
 - Quantos países tem a Europa?
 - Quantos países tem o mundo?
@@ -1091,7 +1091,7 @@
 - Sabes onde fica a [Itália](pt_country_code:IT)?
 - Sabes onde ficam os Himalaias?
 - Tens uma estrada para a [Bélgica](pt_country_code:BE)?
-- conta-me coisa sobre [madrid](pt_geography:town)
+- conta-me coisa sobre Madrid
 - conta-me coisa sobre o [Nepal](pt_country_code:NP)
 - onde fica a [Zimbabué](pt_country_code:ZW)
 

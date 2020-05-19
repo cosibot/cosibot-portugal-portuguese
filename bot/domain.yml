@@ -19,6 +19,7 @@ slots:
     type: text
   bot_date:
     type: text
+# COUNTRY STATS #
   active_cases:
     type: unfeaturized
   input_country:
@@ -44,6 +45,39 @@ slots:
       - inexistent-country
       - wrong-country
       - not-ok
+  pt_country_code:
+    type: unfeaturized
+    # auto_fill: false
+  user_intent:
+    type: unfeaturized
+# MUNICIPALITY STATS #
+  pt_country_municipal:
+    type: text
+    # auto_fill:  false
+  country_municipal:
+    type: text
+  country_municipal_confirmed_accum:
+    type: unfeaturized
+  country_municipal_search_successful:
+    type: categorical
+    values:
+      - ok
+      - empty
+      - not-ok
+# REGION STATS #
+  pt_country_region:
+    type: text
+  country_region:
+    type: text
+  country_region_confirmed_accum:
+    type: unfeaturized
+  country_region_search_successful:
+    type: categorical
+    values:
+      - ok
+      - empty
+      - not-ok 
+# LANGUAGE DETECTION #
   language_slot:
     type: categorical
     values:
@@ -56,21 +90,20 @@ slots:
     - 'en'
     - 'de'
     initial_value: 'pt'
-  pt_country_code:
-    type: unfeaturized
-    # auto_fill: false
-  user_intent:
-    type: unfeaturized
 
 forms: 
-  - stats_form
-
+  - country_stats_form
+  - region_stats_form
+  - municipality_stats_form
+  
 entities:
   - pt_country_code 
   - pt_virus
   - language
   - bot_language_code
   - preferred_lang
+  - pt_country_municipal
+  - pt_country_region
   
 actions:
   - action_get_date
@@ -248,6 +281,9 @@ actions:
   - utter_pt_cc_highest_building
   - utter_pt_state_emergency_end
   - utter_pt_covid_ibuprofen
+  - utter_country_municipal_hasdata
+  - utter_country_region_hasdata
+  - utter_country_municipal_nodata
 
 intents:
   - start
@@ -3476,3 +3512,30 @@ responses:
               informações sobre medidas preventivas, sintomas associados à doença ou como
               o vírus se espalha.
             type: text
+  utter_country_municipal_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_municipal} existe um valor total de {country_municipal_confirmed_accum} casos confirmados de covid-19.</speak>
+          - type: text
+            text: De acordo com os últimos dados disponíveis, neste momento em {country_municipal} existe um valor total de {country_municipal_confirmed_accum} casos confirmados de covid-19.
+  utter_country_municipal_nodata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal.</speak>
+          - type: text
+            text: "Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal."
+          - type: multichoice
+            options:
+              - label: Sim
+                value: Sim
+              - label: Não
+                value: Não
+  utter_country_region_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19.</speak>
+          - type: text
+            text: De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de Covid-19.
