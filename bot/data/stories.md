@@ -457,13 +457,23 @@
 
 <!-- NEW STORIES -->
 
-## happy stats_form path
+## no entity covid_situation path
 * pt_covid_situation
+  - utter_pt_no_entity_give_options
+
+## no entity covid_situation_recovered path
+* pt_covid_situation_recovered
   - action_save_intent
-  - stats_form
-  - form{"name": "stats_form"}
+  - form{"name": "country_stats_form"}
   - form{"name": null}
-  - utter_pt_covid_situation
+
+## happy stats_form path
+* pt_covid_situation{"pt_country_code": "Polónia"}
+  - action_save_intent
+  - country_stats_form
+  - form{"name": "country_stats_form"}
+  - form{"name": null}
+  <!-- - utter_pt_covid_situation -->
 
 <!-- ## unhappy stats_form path #1
 * pt_covid_situation
@@ -475,18 +485,18 @@
   - form{"name": null}
   - utter_pt_vocative_you_welcome -->
 ## generated story unhappy path
-* pt_covid_situation_infected_critical
+* pt_covid_situation_infected_critical{"pt_country_code": "Suécia"}
     - action_save_intent
     <!-- - slot{"user_intent": "pt_covid_situation_infected_critical"} -->
-    - stats_form
-    - form{"name": "stats_form"}
+    - country_stats_form
+    - form{"name": "country_stats_form"}
     <!-- - slot{"requested_slot": "pt_country_code"} -->
 * pt_vocative_no
     - utter_ask_pt_country_code
     - action_listen
-* form: pt_country{"pt_country_code": "PT"}
+* form: pt_country{"pt_country_code": "Suécia"}
     <!-- - slot{"pt_country_code": "PT"} -->
-    - stats_form
+    - country_stats_form
     <!-- - slot{"pt_country_code": "PT"}
     - slot{"search_successful": "ok"}
     - slot{"input_country": "Portugal"}
@@ -499,27 +509,118 @@
     - slot{"new_deaths": 9}
     - slot{"total_infected_critical": 108}
     - slot{"pt_country_code": null} -->
-    - form: followup{"name": "utter_pt_covid_situation_infected_critical"}
+    <!-- - form: followup{"name": "utter_pt_covid_situation_infected_critical"} -->
     - form{"name": null}
     <!-- - slot{"requested_slot": null} -->
-    - utter_pt_covid_situation_infected_critical
+    <!-- - utter_pt_covid_situation_infected_critical -->
 
 ## unhappy stats_form path #2
-* pt_covid_situation
+* pt_covid_situation{"pt_country_code": "França"}
   - action_save_intent
-  - stats_form
-  - form{"name": "stats_form"}
+  - country_stats_form
+  - form{"name": "country_stats_form"}
 * pt_bot_stop 
   - form{"name": null}
   - utter_pt_vocative_you_welcome
 
 ## happy recovered stats_form path
-* pt_covid_situation_recovered
+* pt_covid_situation_recovered{"pt_country_code": "Itália"}
   - action_save_intent
-  - stats_form
-  - form{"name": "stats_form"}
+  - country_stats_form
+  - form{"name": "country_stats_form"}
   - form{"name": null}
-  - utter_pt_covid_situation_recovered
+  <!-- - utter_pt_covid_situation_recovered -->
+
+<!-- REGION STATS -->
+
+## happy region_stats_form path
+* pt_covid_situation{"pt_country_region": "Lisboa"}
+  - region_stats_form
+  - form{"name": "region_stats_form"}
+  - form{"name": null}
+  <!-- - utter_country_region_hasdata -->
+
+## unhappy region_stats_form path #1
+* pt_covid_situation{"pt_country_region": "Madeira"}
+  - region_stats_form
+  - form{"name": "region_stats_form"}
+  - form{"name": null}
+* pt_bot_stop 
+  - utter_pt_vocative_you_welcome
+
+## unhappy region_stats_form path #2
+* pt_covid_situation_last_update{"pt_country_region": "Açores"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+    <!-- - slot{"requested_slot": "pt_country_code"} -->
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+  
+## unhappy region_stats_form path #3
+* pt_covid_situation{"pt_country_region": "Lisboa"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+* pt_region{"pt_country_region": "Centro"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+
+## unhappy region_stats_form path #4
+* pt_covid_situation{"pt_country_region": "Lisboa"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - utter_ask_pt_country_region
+* pt_region{"pt_country_region": "Centro"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+
+<!-- MUNICIPALITY STATS -->
+
+## happy municipality_stats_form path
+* pt_covid_situation{"pt_country_municipal": "Viseu"}
+  - municipality_stats_form
+  - form{"name": "municipal_stats_form"}
+  - form{"name": null}
+  <!-- - utter_country_municipal_hasdata -->
+
+
+## unhappy municipality_stats_form path #1
+
+* pt_covid_situation{"pt_country_municipal": "Lamego"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - utter_ask_pt_country_municipal
+* pt_municipal{"pt_country_municipal": "Viseu"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+
+## unhappy municipality_stats_form path #2
+* pt_covid_situation{"pt_country_municipal": "Lamego"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - utter_ask_pt_country_municipal
+* pt_municipal{"pt_country_municipal": "Viseu"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+
 
 <!-- ## unhappy stats_form path #2
 * pt_covid_situation

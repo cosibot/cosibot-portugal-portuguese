@@ -116,6 +116,8 @@ actions:
   - action_get_news_request
   - utter_pt_welcome
   - utter_ask_pt_country_code
+  - utter_ask_pt_country_region
+  - utter_ask_pt_country_municipal
   - utter_pt_want_to_add_country
   - utter_pt_bot_appearance
   - utter_pt_bot_availability
@@ -284,7 +286,7 @@ actions:
   - utter_country_municipal_hasdata
   - utter_country_region_hasdata
   - utter_country_municipal_nodata
-  - utter_pt_request_failed
+  - utter_pt_portugal_stats_down
 
 intents:
   - start
@@ -438,6 +440,8 @@ intents:
   - pt_portugal_elders
   - pt_covid_pregnancy
   - pt_covid_sex
+  - pt_region
+  - pt_municipal
 
 responses:
   utter_pt_welcome:
@@ -3524,9 +3528,22 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal.</speak>
+            ssml: <speak>Não possuo essa informação em relação ao município de {country_municipal}. Deseja perguntar sobre outro município?</speak>
           - type: text
-            text: "Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal."
+            text: Não possuo essa informação em relação ao município de {country_municipal}. Deseja perguntar sobre outro município?
+          - type: multichoice
+            options:
+              - label: Sim
+                value: Sim
+              - label: Não
+                value: Não
+  utter_country_region_nodata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Não possuo essa informação em relação à região de {country_region}. Deseja perguntar sobre outra região?</speak>
+          - type: text
+            text: Não possuo essa informação em relação ao região de {country_region}. Deseja perguntar sobre outra região?
           - type: multichoice
             options:
               - label: Sim
@@ -3541,10 +3558,31 @@ responses:
           - type: text
             text: De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de Covid-19.
 
-  utter_pt_request_failed: 
+  utter_pt_portugal_stats_down: 
     - custom:
         answers: 
           - type: ssml
             ssml: <speak>De momento, não foi possível realizar o seu pedido. Por favor, tente mais tarde.</speak> 
           - type: text
             text: De momento, não foi possível realizar o seu pedido. Por favor, tente mais tarde.
+  utter_ask_pt_country_region:
+    - custom:
+        answers:
+          - type: text
+            text: Que região devo adicionar à sua pesquisa?
+          - type: ssml
+            text: <speak>Que região devo adicionar à sua pesquisa?</speak>
+  utter_ask_pt_country_municipal:
+    - custom:
+        answers:
+          - type: text
+            text: Que município devo adicionar à sua pesquisa?
+          - type: ssml
+            text: <speak>Que município devo adicionar à sua pesquisa?</speak>
+  utter_pt_no_entity_give_options:
+    - custom:
+        answers:
+          - type: text
+            text: Não percebi a que se refere. Pode perguntar sobre países ou regiões e municípios de Portugal. 
+          - type: ssml
+            text: <speak>Não percebi a que se refere. Pode perguntar sobre países ou regiões e municípios de Portugal.</speak>

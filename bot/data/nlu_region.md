@@ -92,12 +92,34 @@
 - numeros para [Lisboa e Vale do Tejo](pt_country_region:Lisboa) hoje
 - numeros para [Lisboa e Vale do Tejo](pt_country_region:Lisboa) hoje
 
+## intent:pt_region
+- [Região Norte](pt_country_region:Norte)
+- [Região a Norte](pt_country_region:Norte)
+- [Região Centro](pt_country_region:Centro)
+- [Centro](pt_country_region:Centro)
+- [Região de Lisboa](pt_country_region:Lisboa)
+- [Região Lisboa](pt_country_region:Lisboa)
+- [Lisboa e Vale do Tejo](pt_country_region:Lisboa)
+- [Região do Alentejo](pt_country_region:Alentejo)
+- [Região Alentejo](pt_country_region:Alentejo)
+- [Região do Algarve](pt_country_region:Algarve)
+- [Região do Algarve](pt_country_region:Algarve)
+- [Região Autónoma dos Açores](pt_country_region:Açores)
+- [Arquipélago dos Açores](pt_country_region:Açores)
+- [Ilhas dos Açores](pt_country_region:Açores)
+- [Região dos Açores](pt_country_region:Açores)
+- [Região Autónoma da Madeira](pt_country_region:Madeira)
+- [Arquipélago da Madeira](pt_country_region:Madeira)
+- [Região da Madeira](pt_country_region:Madeira)
+- [Ilha da Madeira](pt_country_region:Madeira)
+
 ## synonym:Norte
 - Região Norte
 - Região a Norte
 
 ## synonym:Centro
 - Região Centro
+- Centro
 
 ## synonym:Lisboa
 - Região de Lisboa

@@ -109,13 +109,13 @@ class CountryStatsForm(FormAction):
 
         # date = tracker.get_slot("date")
         decsis_api = DecsisAPI()
-        stats = decsis_api.search(country_code)
+        stats = decsis_api.search_country(country_code)
 
         user_intent = tracker.get_slot('user_intent')
         # tracker_current_state = tracker.current_state()
         # dispatcher.utter_message(text=str(tracker_current_state))
 
-        if municipality_name is not None: 
+        if country_code is not None: 
 
             if stats['code'] == 200 and not stats['has_data'] and len(country_code) == 2:
                 print('inexistent-country')
@@ -209,17 +209,20 @@ class RegionStatsForm(FormAction):
 
         if stats['code'] == 200 and not stats['has_data']:
 
-            country_stats = decsis_api.search_country('PT')
-
-            return [SlotSet('country_region_search_successful', 'empty'), SlotSet('country_region', country_region), 
-                    SlotSet('pt_country_code', 'PT'), ]
+            return [SlotSet('country_region_search_successful', 'empty'), 
+                    SlotSet('country_region', country_region), 
+                    # SlotSet('pt_country_code', 'PT'), 
+                    FollowupAction('utter_country_region_nodata')]
             #self.get_country_data(country_municipal,"empty",dispatcher, tracker, domain)
         elif stats['code'] == 200 and stats['has_data']:
-            return [SlotSet('country_region_search_successful', 'ok'),SlotSet('country_region', country_region), 
-                    SlotSet('country_region_confirmed_accum', int(stats.get('confirmed_accum', None))), FollowupAction('utter_country_region_hasdata')]
+            return [SlotSet('country_region_search_successful', 'ok'), 
+                    SlotSet('country_region', country_region), 
+                    SlotSet('country_region_confirmed_accum', int(stats.get('confirmed_accum', None))), 
+                    FollowupAction('utter_country_region_hasdata')]
         else:
             return [SlotSet('country_region_search_successful', 'not-ok'), 
-                    SlotSet('pt_country_code', 'PT'), FollowupAction('utter_pt_request_failed') ]
+                    # SlotSet('pt_country_code', 'PT'), 
+                    FollowupAction('utter_pt_portugal_stats_down') ]
             #self.get_country_data(country_municipal, "not-ok",dispatcher, tracker, domain)
 
 class MunicipalityStatsForm(FormAction):
@@ -272,11 +275,11 @@ class MunicipalityStatsForm(FormAction):
     def submit(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict]:
 
         municipality_name = tracker.get_slot('pt_country_municipal')
-        print("municipality is {}".format(country_code))
+        print("municipality is {}".format(municipality_name))
 
         # date = tracker.get_slot("date")
         decsis_api = DecsisAPI()
-        stats = decsis_api.search(pt_country_municipal)
+        stats = decsis_api.search_municipality(municipality_name)
 
         user_intent = tracker.get_slot('user_intent')
         # tracker_current_state = tracker.current_state()
@@ -288,27 +291,23 @@ class MunicipalityStatsForm(FormAction):
                 print('inexistent municipality')
                 """In this case we're assuming the user did not miss the town's name but instead it really does not exist at the source."""
                 return [SlotSet('country_municipal_search_successful', 'empty'), 
-                        SlotSet('country_municipal', country_municipal), 
-                        SlotSet('pt_country_code', 'PT'), 
-                        FollowupAction("utter_pt_no_country_municipal_stats") # confirm utter
+                        SlotSet('country_municipal', municipality_name), 
+                        # SlotSet('pt_country_code', 'PT'), 
+                        FollowupAction("utter_country_municipal_nodata") # confirm utter
                         ]
             #self.get_country_data(country_municipal,"empty",dispatcher, tracker, domain)
             elif stats['code'] == 200 and stats['has_data']:
                 print('ok')
                 """ HAPPY PATH: town recognized and stats available. """
-                entity = next((e for e in tracker.latest_message["entities"] if
-                                    e['entity'] == 'pt_country_municipal'), None)
-                print(entity)
 
-                input_municipality = tracker.latest_message['text'][entity['start']:entity['end']]
                 return [SlotSet('country_municipal_search_successful', 'ok'), 
-                        SlotSet('country_municipal', input_municipality), 
+                        SlotSet('country_municipal', municipality_name), 
                         SlotSet('country_municipal_confirmed_accum', int(stats.get('confirmed_accum', None))),
                         FollowupAction("utter_country_municipal_hasdata")]
             else:
                 print("stats service failure with code: ", stats['code'])
                 """ eles the stats service is down and bot should ask for a retry latter """
                 return [SlotSet('country_municipal_search_successful', 'not-ok'), 
-                        SlotSet('pt_country_code', 'PT'), 
+                        # SlotSet('pt_country_code', 'PT'), 
                         FollowupAction("utter_pt_portugal_stats_down")]
             #self.get_country_data(country_municipal, "not-ok",dispatcher, tracker, domain)
