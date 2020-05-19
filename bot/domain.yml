@@ -3528,9 +3528,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Não possuo essa informação em relação ao município de {country_municipal}. Deseja perguntar sobre outro município?</speak>
+            ssml: <speak>Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal.</speak>
           - type: text
-            text: Não possuo essa informação em relação ao município de {country_municipal}. Deseja perguntar sobre outro município?
+            text: "Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal."
           - type: multichoice
             options:
               - label: Sim
@@ -3541,9 +3541,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Não possuo essa informação em relação à região de {country_region}. Deseja perguntar sobre outra região?</speak>
+            ssml: <speak>Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal.</speak>
           - type: text
-            text: Não possuo essa informação em relação ao região de {country_region}. Deseja perguntar sobre outra região?
+            text: "Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal."
           - type: multichoice
             options:
               - label: Sim

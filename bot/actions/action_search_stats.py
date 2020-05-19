@@ -63,7 +63,8 @@ class ActionSearchStats(Action):
 
     def run(self, dispatcher, tracker, domain):
         
-        country_code = next(tracker.get_latest_entity_values("pt_country_code"), None)
+        # country_code = next(tracker.get_latest_entity_values("pt_country_code"), None)
+        country_code = tracker.get_slot('pt_country_code')
         print("country code is {}".format(country_code))
 
         # date = tracker.get_slot("date")
@@ -93,9 +94,10 @@ class ActionSearchStats(Action):
                                     e['entity'] == 'pt_country_code'), None)
                 print(entity)
 
-                input_country = tracker.latest_message['text'][entity['start']:entity['end']]
+                # input_country = tracker.latest_message['text'][entity['start']:entity['end']]
+                input_country = tracker.get_slot('input_country')
                 
-                return [SlotSet('search_successful', 'ok'), SlotSet('country', input_country), SlotSet('active_cases', int(stats.get('active_cases', None))), 
+                return [SlotSet('search_successful', 'ok'), SlotSet('input_country', input_country), SlotSet('active_cases', int(stats.get('active_cases', None))), 
                     SlotSet('new_cases', int(stats.get('new_cases', None))), SlotSet('total_cases', int(stats.get('total_cases', None))),
                     SlotSet('total_recovered', int(stats.get('total_recovered', None))), SlotSet('total_deaths', int(stats.get('total_deaths', None))),
                     SlotSet('total_tests', int(stats.get('total_tests', None))), SlotSet('new_deaths', int(stats.get('new_deaths', None))),

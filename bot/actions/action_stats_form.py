@@ -208,20 +208,27 @@ class RegionStatsForm(FormAction):
         user_intent = tracker.get_slot('user_intent')
 
         if stats['code'] == 200 and not stats['has_data']:
+            
 
+        
             return [SlotSet('country_region_search_successful', 'empty'), 
                     SlotSet('country_region', country_region), 
-                    # SlotSet('pt_country_code', 'PT'), 
+                    SlotSet('pt_country_region', None),
+                    SlotSet('input_country', 'Portugal'), 
+                    SlotSet('pt_country_code', 'PT'), 
                     FollowupAction('utter_country_region_nodata')]
             #self.get_country_data(country_municipal,"empty",dispatcher, tracker, domain)
         elif stats['code'] == 200 and stats['has_data']:
             return [SlotSet('country_region_search_successful', 'ok'), 
                     SlotSet('country_region', country_region), 
+                    SlotSet('pt_country_region', None),
                     SlotSet('country_region_confirmed_accum', int(stats.get('confirmed_accum', None))), 
                     FollowupAction('utter_country_region_hasdata')]
         else:
             return [SlotSet('country_region_search_successful', 'not-ok'), 
-                    # SlotSet('pt_country_code', 'PT'), 
+                    SlotSet('pt_country_region', None),
+                    SlotSet('input_country', 'Portugal'), 
+                    SlotSet('pt_country_code', 'PT'), 
                     FollowupAction('utter_pt_portugal_stats_down') ]
             #self.get_country_data(country_municipal, "not-ok",dispatcher, tracker, domain)
 
@@ -291,8 +298,10 @@ class MunicipalityStatsForm(FormAction):
                 print('inexistent municipality')
                 """In this case we're assuming the user did not miss the town's name but instead it really does not exist at the source."""
                 return [SlotSet('country_municipal_search_successful', 'empty'), 
-                        SlotSet('country_municipal', municipality_name), 
-                        # SlotSet('pt_country_code', 'PT'), 
+                        SlotSet('country_municipal', municipality_name),
+                        SlotSet('pt_country_municipal', None),
+                        SlotSet('input_country', 'Portugal'), 
+                        SlotSet('pt_country_code', 'PT'), 
                         FollowupAction("utter_country_municipal_nodata") # confirm utter
                         ]
             #self.get_country_data(country_municipal,"empty",dispatcher, tracker, domain)
@@ -302,12 +311,15 @@ class MunicipalityStatsForm(FormAction):
 
                 return [SlotSet('country_municipal_search_successful', 'ok'), 
                         SlotSet('country_municipal', municipality_name), 
+                        SlotSet('pt_country_municipal', None),
                         SlotSet('country_municipal_confirmed_accum', int(stats.get('confirmed_accum', None))),
                         FollowupAction("utter_country_municipal_hasdata")]
             else:
                 print("stats service failure with code: ", stats['code'])
                 """ eles the stats service is down and bot should ask for a retry latter """
                 return [SlotSet('country_municipal_search_successful', 'not-ok'), 
-                        # SlotSet('pt_country_code', 'PT'), 
+                        SlotSet('pt_country_municipal', None),
+                        SlotSet('input_country', 'Portugal'), 
+                        SlotSet('pt_country_code', 'PT'), 
                         FollowupAction("utter_pt_portugal_stats_down")]
             #self.get_country_data(country_municipal, "not-ok",dispatcher, tracker, domain)
