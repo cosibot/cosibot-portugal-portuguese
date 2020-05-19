@@ -1,0 +1,1746 @@
+[
+  {
+    "text": "O teu aspeto físico.",
+    "intent": "pt_bot_appearance",
+    "intent_prediction": {
+      "name": "pt_bot_real",
+      "confidence": 0.3587563633918762
+    }
+  },
+  {
+    "text": "Atraente?",
+    "intent": "pt_bot_appearance",
+    "intent_prediction": {
+      "name": "pt_vocative_yes",
+      "confidence": 0.6262620687484741
+    }
+  },
+  {
+    "text": "És magro?",
+    "intent": "pt_bot_appearance",
+    "intent_prediction": {
+      "name": "pt_comment_offense",
+      "confidence": 0.2567548453807831
+    }
+  },
+  {
+    "text": "Posso-te ver pessoalmente?",
+    "intent": "pt_bot_appearance",
+    "intent_prediction": {
+      "name": "pt_bot_real",
+      "confidence": 0.37521830201148987
+    }
+  },
+  {
+    "text": "Consideras-te atrativo?",
+    "intent": "pt_bot_appearance",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.4065937399864197
+    }
+  },
+  {
+    "text": "Estás disponível todo o dia?",
+    "intent": "pt_bot_availability",
+    "intent_prediction": {
+      "name": "pt_user_laugh",
+      "confidence": 0.38384339213371277
+    }
+  },
+  {
+    "text": "Romance preferido",
+    "intent": "pt_bot_books",
+    "intent_prediction": {
+      "name": "pt_cc_religion",
+      "confidence": 0.5473275184631348
+    }
+  },
+  {
+    "text": "Que devo escrever?",
+    "intent": "pt_bot_capabilities",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.2576715648174286
+    }
+  },
+  {
+    "text": "Tens medo de inteligência artificial?",
+    "intent": "pt_bot_fear",
+    "intent_prediction": {
+      "name": "pt_bot_personal_questions",
+      "confidence": 0.4431605041027069
+    }
+  },
+  {
+    "text": "Tens fobias?",
+    "intent": "pt_bot_fear",
+    "intent_prediction": {
+      "name": "pt_bot_personal_questions",
+      "confidence": 0.3015833795070648
+    }
+  },
+  {
+    "text": "Gostas de videogames?",
+    "intent": "pt_bot_games",
+    "intent_prediction": {
+      "name": "pt_bot_sports",
+      "confidence": 0.294813334941864
+    }
+  },
+  {
+    "text": "Diz-me as tuas ambições",
+    "intent": "pt_bot_goal",
+    "intent_prediction": {
+      "name": "pt_cc_politics",
+      "confidence": 0.26013487577438354
+    }
+  },
+  {
+    "text": "Atividade divertida para fazer.",
+    "intent": "pt_bot_hobbies",
+    "intent_prediction": {
+      "name": "pt_prevention_medicine",
+      "confidence": 0.5249586701393127
+    }
+  },
+  {
+    "text": "Aprecias livros?",
+    "intent": "pt_bot_movies",
+    "intent_prediction": {
+      "name": "pt_bot_books",
+      "confidence": 0.9372164607048035
+    }
+  },
+  {
+    "text": "Qual é o teu cd preferido?",
+    "intent": "pt_bot_music",
+    "intent_prediction": {
+      "name": "pt_bot_capabilities",
+      "confidence": 0.19348196685314178
+    }
+  },
+  {
+    "text": "Estou a falar com o quê?",
+    "intent": "pt_bot_name",
+    "intent_prediction": {
+      "name": "pt_bot_personal_questions",
+      "confidence": 0.29546746611595154
+    }
+  },
+  {
+    "text": "Quero saber quem és",
+    "intent": "pt_bot_name",
+    "intent_prediction": {
+      "name": "pt_comment_smart",
+      "confidence": 0.45310133695602417
+    }
+  },
+  {
+    "text": "Onde é que viveste quando eras pequeno?",
+    "intent": "pt_bot_origin",
+    "intent_prediction": {
+      "name": "pt_bot_residence",
+      "confidence": 0.2581826150417328
+    }
+  },
+  {
+    "text": "Onde é que viveste quando pequeno?",
+    "intent": "pt_bot_origin",
+    "intent_prediction": {
+      "name": "pt_bot_residence",
+      "confidence": 0.651232123374939
+    }
+  },
+  {
+    "text": "Quais são as tuas frases preferidas?",
+    "intent": "pt_bot_personal_questions",
+    "intent_prediction": {
+      "name": "pt_bot_capabilities",
+      "confidence": 0.26617011427879333
+    }
+  },
+  {
+    "text": "Qual o teu maior arrependimento na vida?",
+    "intent": "pt_bot_personal_questions",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.843092143535614
+    }
+  },
+  {
+    "text": "Onde te posso encontrar?",
+    "intent": "pt_bot_personal_questions",
+    "intent_prediction": {
+      "name": "pt_prevention_entering_home",
+      "confidence": 0.39683887362480164
+    }
+  },
+  {
+    "text": "Qual é a primeira pessoa a quem telefonas quando tens um problema?",
+    "intent": "pt_bot_personal_questions",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.6606348752975464
+    }
+  },
+  {
+    "text": "Onde gostarias de estar daqui a 5 anos?",
+    "intent": "pt_bot_personal_questions",
+    "intent_prediction": {
+      "name": "pt_bot_residence",
+      "confidence": 0.45164161920547485
+    }
+  },
+  {
+    "text": "O que é que a tua última relação te ensinou?",
+    "intent": "pt_bot_personal_questions",
+    "intent_prediction": {
+      "name": "pt_cc_religion",
+      "confidence": 0.36625543236732483
+    }
+  },
+  {
+    "text": "Qual o teu grau académico?",
+    "intent": "pt_bot_personal_questions",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.27610304951667786
+    }
+  },
+  {
+    "text": "O que vais fazer este fim-de-semana?",
+    "intent": "pt_bot_personal_questions",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.6335231065750122
+    }
+  },
+  {
+    "text": "Conte-me algo sobre ti.",
+    "intent": "pt_bot_personality",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.6706152558326721
+    }
+  },
+  {
+    "text": "És muito amigável?",
+    "intent": "pt_bot_personality",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.7050086259841919
+    }
+  },
+  {
+    "text": "Tens corpo?",
+    "intent": "pt_bot_real",
+    "intent_prediction": {
+      "name": "pt_bot_appearance",
+      "confidence": 0.9051589369773865
+    }
+  },
+  {
+    "text": "és feito de matéria?",
+    "intent": "pt_bot_real",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.35900959372520447
+    }
+  },
+  {
+    "text": "Descreve-me o teu aspeto.",
+    "intent": "pt_bot_residence",
+    "intent_prediction": {
+      "name": "pt_bot_appearance",
+      "confidence": 0.8796567320823669
+    }
+  },
+  {
+    "text": "Diz-me onde te encontras.",
+    "intent": "pt_bot_residence",
+    "intent_prediction": {
+      "name": "pt_myth_packages",
+      "confidence": 0.1773771494626999
+    }
+  },
+  {
+    "text": "Quantos parceiros sexuais já tiveste?",
+    "intent": "pt_bot_sexual",
+    "intent_prediction": {
+      "name": "pt_covid_sex",
+      "confidence": 0.38128241896629333
+    }
+  },
+  {
+    "text": "Virgem ou não",
+    "intent": "pt_bot_sexual",
+    "intent_prediction": {
+      "name": "pt_vocative_no",
+      "confidence": 0.5823855996131897
+    }
+  },
+  {
+    "text": "Gostas de homens?",
+    "intent": "pt_bot_sexual",
+    "intent_prediction": {
+      "name": "pt_bot_appearance",
+      "confidence": 0.37489673495292664
+    }
+  },
+  {
+    "text": "Tens uma estrada para a Bélgica?",
+    "intent": "pt_cc_geography",
+    "intent_prediction": {
+      "name": "pt_comment_offense",
+      "confidence": 0.3523278534412384
+    }
+  },
+  {
+    "text": "Madeira é uma ilha?",
+    "intent": "pt_cc_geography",
+    "intent_prediction": {
+      "name": "pt_vocative_yes",
+      "confidence": 0.317236065864563
+    }
+  },
+  {
+    "text": "Diz-me o número de continentes",
+    "intent": "pt_cc_geography",
+    "intent_prediction": {
+      "name": "pt_covid_situation",
+      "confidence": 0.7603899836540222
+    }
+  },
+  {
+    "text": "Qual é a tua piada preferida?",
+    "intent": "pt_cc_joke",
+    "intent_prediction": {
+      "name": "pt_bot_capabilities",
+      "confidence": 0.5667070150375366
+    }
+  },
+  {
+    "text": "És engraçado?",
+    "intent": "pt_cc_joke",
+    "intent_prediction": {
+      "name": "pt_user_laugh",
+      "confidence": 0.4536939263343811
+    }
+  },
+  {
+    "text": "Aposto que não me consegues fazer rir",
+    "intent": "pt_cc_joke",
+    "intent_prediction": {
+      "name": "pt_user_laugh",
+      "confidence": 0.34583479166030884
+    }
+  },
+  {
+    "text": "Falemos então",
+    "intent": "pt_cc_lets_talk",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.36329102516174316
+    }
+  },
+  {
+    "text": "Podes-me meter ao corrente do que está nas notícias?",
+    "intent": "pt_cc_newspaper",
+    "intent_prediction": {
+      "name": "pt_bot_personality",
+      "confidence": 0.2322452962398529
+    }
+  },
+  {
+    "text": "Porque é que experienciamos emoções?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_user_love",
+      "confidence": 0.4308481514453888
+    }
+  },
+  {
+    "text": "Como é que os humanos enquanto espécie se extinguirão?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_cc_religion",
+      "confidence": 0.3258133828639984
+    }
+  },
+  {
+    "text": "Porque devemos respeitar os mortos?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_covid_situation",
+      "confidence": 0.47524166107177734
+    }
+  },
+  {
+    "text": "A eutanásia devia ser legal",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_prevention_clean_hands",
+      "confidence": 0.17283691465854645
+    }
+  },
+  {
+    "text": "Deus existe?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_cc_religion",
+      "confidence": 0.7579555511474609
+    }
+  },
+  {
+    "text": "será que estou no Matrix?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_cc_politics",
+      "confidence": 0.3130783438682556
+    }
+  },
+  {
+    "text": "Porque é que criamos arte?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_cc_religion",
+      "confidence": 0.5698729753494263
+    }
+  },
+  {
+    "text": "Quão substituível és?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.6342204809188843
+    }
+  },
+  {
+    "text": "O poder absoluto corrompe absolutamente?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_vocative_help",
+      "confidence": 0.25744834542274475
+    }
+  },
+  {
+    "text": "Pode-se realmente experienciar algo objetivamente?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.24286514520645142
+    }
+  },
+  {
+    "text": "Qual achas que seria a forma mais provável de morrer?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_bot_personal_questions",
+      "confidence": 0.18586665391921997
+    }
+  },
+  {
+    "text": "Como é que podemos construir estabilidade económica?",
+    "intent": "pt_cc_politics",
+    "intent_prediction": {
+      "name": "pt_cc_religion",
+      "confidence": 0.5532074570655823
+    }
+  },
+  {
+    "text": "Como é que podemos fazer mais pessoas votarem?",
+    "intent": "pt_cc_politics",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.9403583407402039
+    }
+  },
+  {
+    "text": "Votar devia de ser obrigatório?",
+    "intent": "pt_cc_politics",
+    "intent_prediction": {
+      "name": "pt_vocative_thank_you",
+      "confidence": 0.63917475938797
+    }
+  },
+  {
+    "text": "O teu país alguma vez teve alguma líder feminina?",
+    "intent": "pt_cc_politics",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.8553849458694458
+    }
+  },
+  {
+    "text": "Votas sempre no mesmo partido?",
+    "intent": "pt_cc_politics",
+    "intent_prediction": {
+      "name": "pt_user_happy",
+      "confidence": 0.629591166973114
+    }
+  },
+  {
+    "text": "Porque é que coisas más acontecem a coisas boas?",
+    "intent": "pt_cc_religion",
+    "intent_prediction": {
+      "name": "pt_bot_capabilities",
+      "confidence": 0.2608465552330017
+    }
+  },
+  {
+    "text": "Qual a diferença entre reincarnação e ressurreição?",
+    "intent": "pt_cc_religion",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.26999837160110474
+    }
+  },
+  {
+    "text": "Que benefícios trés a sociedade?",
+    "intent": "pt_cc_religion",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.4961252212524414
+    }
+  },
+  {
+    "text": "Como é que é o céu?",
+    "intent": "pt_cc_religion",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.4175507128238678
+    }
+  },
+  {
+    "text": "O tempo tem estado bom",
+    "intent": "pt_cc_weather",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.6014525890350342
+    }
+  },
+  {
+    "text": "Preciso de ser mais claro.",
+    "intent": "pt_comment_negative",
+    "intent_prediction": {
+      "name": "pt_greeting_goodbye",
+      "confidence": 0.347783625125885
+    }
+  },
+  {
+    "text": "Tens falta de inteligéncia.",
+    "intent": "pt_comment_negative",
+    "intent_prediction": {
+      "name": "pt_comment_smart",
+      "confidence": 0.2642439007759094
+    }
+  },
+  {
+    "text": "A Siri é melhor que tu",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.5990194082260132
+    }
+  },
+  {
+    "text": "Eu não gosto de ti",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.7104659080505371
+    }
+  },
+  {
+    "text": "Não sou teu amigo",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_user_love",
+      "confidence": 0.21963685750961304
+    }
+  },
+  {
+    "text": "Quando é que vais morrer?",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_covid_mortality_rate",
+      "confidence": 0.3142135739326477
+    }
+  },
+  {
+    "text": "Odeio-te",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_user_angry",
+      "confidence": 0.6136288642883301
+    }
+  },
+  {
+    "text": "Vadio",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_greeting_goodbye",
+      "confidence": 0.39523884654045105
+    }
+  },
+  {
+    "text": "Chupa-mos",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_bot_residence",
+      "confidence": 0.37551847100257874
+    }
+  },
+  {
+    "text": "O Agente Smith é melhor que tu",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.5439494252204895
+    }
+  },
+  {
+    "text": "Cheiras mal",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_user_angry",
+      "confidence": 0.4299871623516083
+    }
+  },
+  {
+    "text": "Que se passa contigo",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_bot_personal_questions",
+      "confidence": 0.3794540464878082
+    }
+  },
+  {
+    "text": "Estás a ser sarcéstico?",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.34766170382499695
+    }
+  },
+  {
+    "text": "Isto é deveras um projecto muito interessante. Os meus parabéns",
+    "intent": "pt_comment_positive",
+    "intent_prediction": {
+      "name": "pt_user_no_data",
+      "confidence": 0.4428124725818634
+    }
+  },
+  {
+    "text": "És ótimo",
+    "intent": "pt_comment_positive",
+    "intent_prediction": {
+      "name": "pt_vocative_thank_you",
+      "confidence": 0.6819409728050232
+    }
+  },
+  {
+    "text": "És muito gentil.",
+    "intent": "pt_comment_positive",
+    "intent_prediction": {
+      "name": "pt_comment_smart",
+      "confidence": 0.2959108054637909
+    }
+  },
+  {
+    "text": "És fantástico!",
+    "intent": "pt_comment_positive",
+    "intent_prediction": {
+      "name": "pt_bot_personality",
+      "confidence": 0.400656133890152
+    }
+  },
+  {
+    "text": "não és puro",
+    "intent": "pt_comment_racist",
+    "intent_prediction": {
+      "name": "pt_comment_offense",
+      "confidence": 0.45125579833984375
+    }
+  },
+  {
+    "text": "Descendente direto dos macacos",
+    "intent": "pt_comment_racist",
+    "intent_prediction": {
+      "name": "pt_user_love",
+      "confidence": 0.20797695219516754
+    }
+  },
+  {
+    "text": "Sou imune às raças porque tenho amigos de cor",
+    "intent": "pt_comment_racist",
+    "intent_prediction": {
+      "name": "pt_bot_personal_questions",
+      "confidence": 0.25146111845970154
+    }
+  },
+  {
+    "text": "não vais triunfar aqui",
+    "intent": "pt_comment_racist",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.46308156847953796
+    }
+  },
+  {
+    "text": "não pertences aqui",
+    "intent": "pt_comment_racist",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.6139159202575684
+    }
+  },
+  {
+    "text": "Tu és esperto",
+    "intent": "pt_comment_smart",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.4647572636604309
+    }
+  },
+  {
+    "text": "Que mais sabes sobre o coronavírus?",
+    "intent": "pt_coronavirus_info",
+    "intent_prediction": {
+      "name": "pt_covid_info",
+      "confidence": 0.8633458018302917
+    }
+  },
+  {
+    "text": "Imunidade",
+    "intent": "pt_covid_aftereffects_immunity",
+    "intent_prediction": {
+      "name": "pt_country",
+      "confidence": 0.9815135598182678
+    }
+  },
+  {
+    "text": "As pessoas que já se curaram do covid podem vir a te lo novamente?",
+    "intent": "pt_covid_aftereffects_immunity",
+    "intent_prediction": {
+      "name": "pt_covid_sex",
+      "confidence": 0.29762864112854004
+    }
+  },
+  {
+    "text": "Depois de recuperar as pessoas ficam imunes?",
+    "intent": "pt_covid_aftereffects_immunity",
+    "intent_prediction": {
+      "name": "pt_greeting_goodbye",
+      "confidence": 0.5022063851356506
+    }
+  },
+  {
+    "text": "As crianças podem infectar as pessoas?",
+    "intent": "pt_covid_babys_children",
+    "intent_prediction": {
+      "name": "pt_covid_situation",
+      "confidence": 0.4302837550640106
+    }
+  },
+  {
+    "text": "quanto tempo irá durar essa crise?",
+    "intent": "pt_covid_crisis_howlong",
+    "intent_prediction": {
+      "name": "pt_cc_religion",
+      "confidence": 0.3209473490715027
+    }
+  },
+  {
+    "text": "Quando é que esta crise vai a acabar?",
+    "intent": "pt_covid_crisis_howlong",
+    "intent_prediction": {
+      "name": "pt_cc_religion",
+      "confidence": 0.5074991583824158
+    }
+  },
+  {
+    "text": "quanto tempo fico doente",
+    "intent": "pt_covid_duration",
+    "intent_prediction": {
+      "name": "pt_covid_surfaces",
+      "confidence": 0.2962148189544678
+    }
+  },
+  {
+    "text": "origem pandêmica",
+    "intent": "pt_covid_info",
+    "intent_prediction": {
+      "name": "pt_bot_origin",
+      "confidence": 0.3287622928619385
+    }
+  },
+  {
+    "text": "Quando foi detectacta a COVID-19?",
+    "intent": "pt_covid_info",
+    "intent_prediction": {
+      "name": "pt_covid_situation",
+      "confidence": 0.18356573581695557
+    }
+  },
+  {
+    "text": "Qual é a origem do surto?",
+    "intent": "pt_covid_info",
+    "intent_prediction": {
+      "name": "pt_myth_alcohol",
+      "confidence": 0.3285183608531952
+    }
+  },
+  {
+    "text": "Informação covid",
+    "intent": "pt_covid_info",
+    "intent_prediction": {
+      "name": "pt_coronavirus_info",
+      "confidence": 0.3463599383831024
+    }
+  },
+  {
+    "text": "qual a percentagem de letalidade ?",
+    "intent": "pt_covid_mortality_rate",
+    "intent_prediction": {
+      "name": "pt_cc_chicken_egg",
+      "confidence": 0.25005200505256653
+    }
+  },
+  {
+    "text": "É perigoso?",
+    "intent": "pt_covid_mortality_rate",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.4980466961860657
+    }
+  },
+  {
+    "text": "Definição de pandemia.",
+    "intent": "pt_covid_pandemic",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.48438799381256104
+    }
+  },
+  {
+    "text": "Diabetes",
+    "intent": "pt_covid_preexisting_illness",
+    "intent_prediction": {
+      "name": "pt_comment_offense",
+      "confidence": 0.3277882933616638
+    }
+  },
+  {
+    "text": "o virus mata?",
+    "intent": "pt_covid_preexisting_illness",
+    "intent_prediction": {
+      "name": "pt_covid_info",
+      "confidence": 0.6394191384315491
+    }
+  },
+  {
+    "text": "Japão",
+    "intent": "pt_country",
+    "intent_prediction": {
+      "name": "pt_bot_games",
+      "confidence": 0.41878294944763184
+    }
+  },
+  {
+    "text": "Curaçao",
+    "intent": "pt_country",
+    "intent_prediction": {
+      "name": "pt_greeting_goodbye",
+      "confidence": 0.4921552836894989
+    }
+  },
+  {
+    "text": "Porto Rico",
+    "intent": "pt_country",
+    "intent_prediction": {
+      "name": "pt_covid_situation_deaths",
+      "confidence": 0.4855611324310303
+    }
+  },
+  {
+    "text": "Vanuatu",
+    "intent": "pt_country",
+    "intent_prediction": {
+      "name": "pt_comment_offense",
+      "confidence": 0.6316830515861511
+    }
+  },
+  {
+    "text": "Côte d'Ivoire",
+    "intent": "pt_country",
+    "intent_prediction": {
+      "name": "pt_greeting_goodbye",
+      "confidence": 0.7632655501365662
+    }
+  },
+  {
+    "text": "Seicheles",
+    "intent": "pt_country",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.19662430882453918
+    }
+  },
+  {
+    "text": "em Portugal",
+    "intent": "pt_country",
+    "intent_prediction": {
+      "name": "pt_covid_situation",
+      "confidence": 0.957489550113678
+    }
+  },
+  {
+    "text": "Jersey",
+    "intent": "pt_country",
+    "intent_prediction": {
+      "name": "pt_cc_lets_talk",
+      "confidence": 0.5032360553741455
+    }
+  },
+  {
+    "text": "Honduras",
+    "intent": "pt_country",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.47417905926704407
+    }
+  },
+  {
+    "text": "Alemanha",
+    "intent": "pt_country",
+    "intent_prediction": {
+      "name": "pt_covid_situation",
+      "confidence": 0.2896321415901184
+    }
+  },
+  {
+    "text": "Informações sobre Brasil",
+    "intent": "pt_covid_situation",
+    "intent_prediction": {
+      "name": "pt_covid_situation_recovered",
+      "confidence": 0.34324130415916443
+    }
+  },
+  {
+    "text": "Informações França",
+    "intent": "pt_covid_situation",
+    "intent_prediction": {
+      "name": "pt_covid_situation_deaths",
+      "confidence": 0.2940393090248108
+    }
+  },
+  {
+    "text": "Gostaria de saber se há casos em Inglaterra",
+    "intent": "pt_covid_situation",
+    "intent_prediction": {
+      "name": "pt_cc_geography",
+      "confidence": 0.2597167193889618
+    }
+  },
+  {
+    "text": "Quantos infetados tem a Turquia?",
+    "intent": "pt_covid_situation",
+    "intent_prediction": {
+      "name": "pt_covid_situation_infected",
+      "confidence": 0.9016699194908142
+    }
+  },
+  {
+    "text": "Qual é o número de casos em Maurício?",
+    "intent": "pt_covid_situation_infected",
+    "intent_prediction": {
+      "name": "pt_covid_situation_deaths",
+      "confidence": 0.2227059006690979
+    }
+  },
+  {
+    "text": "Novos casos e mortes em Congo-Brazzaville?",
+    "intent": "pt_covid_situation_last_update",
+    "intent_prediction": {
+      "name": "pt_covid_situation_infected_critical",
+      "confidence": 0.39231306314468384
+    }
+  },
+  {
+    "text": "Novos casos em Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya?",
+    "intent": "pt_covid_situation_last_update",
+    "intent_prediction": {
+      "name": "pt_covid_situation_infected",
+      "confidence": 0.5376837849617004
+    }
+  },
+  {
+    "text": "Quantos testados tem o Departamento de Maiote?",
+    "intent": "pt_covid_situation_tested",
+    "intent_prediction": {
+      "name": "pt_covid_situation_deaths",
+      "confidence": 0.30331307649612427
+    }
+  },
+  {
+    "text": "é verdade que o coronavírus pode ficar vários dias em superficies metálicas?",
+    "intent": "pt_covid_surfaces",
+    "intent_prediction": {
+      "name": "pt_covid_duration",
+      "confidence": 0.30366045236587524
+    }
+  },
+  {
+    "text": "O vírus é grave?",
+    "intent": "pt_covid_worry",
+    "intent_prediction": {
+      "name": "pt_covid_info",
+      "confidence": 0.46785956621170044
+    }
+  },
+  {
+    "text": "Quais as fontes fidedignas de informação?",
+    "intent": "pt_covid_worry",
+    "intent_prediction": {
+      "name": "pt_prevention_general",
+      "confidence": 0.24639970064163208
+    }
+  },
+  {
+    "text": "Vou andando",
+    "intent": "pt_greeting_goodbye",
+    "intent_prediction": {
+      "name": "pt_greeting_how_are_you",
+      "confidence": 0.7035679221153259
+    }
+  },
+  {
+    "text": "Voltarei a falar contigo",
+    "intent": "pt_greeting_goodbye",
+    "intent_prediction": {
+      "name": "pt_greeting_how_are_you",
+      "confidence": 0.3604934513568878
+    }
+  },
+  {
+    "text": "Despeço-me",
+    "intent": "pt_greeting_goodbye",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.4586540460586548
+    }
+  },
+  {
+    "text": "Tem um bom dia",
+    "intent": "pt_greeting_goodbye",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.4334515929222107
+    }
+  },
+  {
+    "text": "Fechando a sessão",
+    "intent": "pt_greeting_goodbye",
+    "intent_prediction": {
+      "name": "pt_spread_general",
+      "confidence": 0.692459762096405
+    }
+  },
+  {
+    "text": "Voltarei mais tarde",
+    "intent": "pt_greeting_goodbye",
+    "intent_prediction": {
+      "name": "pt_comment_offense",
+      "confidence": 0.3164955973625183
+    }
+  },
+  {
+    "text": "Fico por aqui.",
+    "intent": "pt_greeting_goodbye",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.45449572801589966
+    }
+  },
+  {
+    "text": "Podes encerrar a sessão",
+    "intent": "pt_greeting_goodbye",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.9610624313354492
+    }
+  },
+  {
+    "text": "Ora viva!",
+    "intent": "pt_greeting_hello",
+    "intent_prediction": {
+      "name": "pt_greeting_goodbye",
+      "confidence": 0.6798995137214661
+    }
+  },
+  {
+    "text": "Boa tarde",
+    "intent": "pt_greeting_hello",
+    "intent_prediction": {
+      "name": "pt_greeting_how_are_you",
+      "confidence": 0.8415717482566833
+    }
+  },
+  {
+    "text": "Olá robô",
+    "intent": "pt_greeting_hello",
+    "intent_prediction": {
+      "name": "pt_bot_real",
+      "confidence": 0.32121774554252625
+    }
+  },
+  {
+    "text": "Como vai isso",
+    "intent": "pt_greeting_hello",
+    "intent_prediction": {
+      "name": "pt_greeting_how_are_you",
+      "confidence": 0.7921662926673889
+    }
+  },
+  {
+    "text": "Tudo bem?",
+    "intent": "pt_greeting_how_are_you",
+    "intent_prediction": {
+      "name": "pt_user_no_further_questions",
+      "confidence": 0.4899381697177887
+    }
+  },
+  {
+    "text": "tudo bem por aí ?",
+    "intent": "pt_greeting_how_are_you",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.19203202426433563
+    }
+  },
+  {
+    "text": "O COVID-19 enfraquece em alta temperatura?",
+    "intent": "pt_myth_transmission_hot_areas",
+    "intent_prediction": {
+      "name": "pt_prevention_medical_attention",
+      "confidence": 0.37878865003585815
+    }
+  },
+  {
+    "text": "Quais são as medidas do governo português face à pandemia?",
+    "intent": "pt_portugal_government_measures",
+    "intent_prediction": {
+      "name": "pt_prevention_general",
+      "confidence": 0.4079588055610657
+    }
+  },
+  {
+    "text": "Qual é a percentagem de casos de doença ligeira por COVID-19?",
+    "intent": "pt_portugal_rates",
+    "intent_prediction": {
+      "name": "pt_covid_situation",
+      "confidence": 0.4308520555496216
+    }
+  },
+  {
+    "text": "Qual a distância de afastamento",
+    "intent": "pt_prevention_distance",
+    "intent_prediction": {
+      "name": "pt_prevention_medicine",
+      "confidence": 0.25235462188720703
+    }
+  },
+  {
+    "text": "Tenho de deixar os sapatos na rua?",
+    "intent": "pt_prevention_entering_home",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.24943235516548157
+    }
+  },
+  {
+    "text": "Devo mudar de roupa ao chegar a casa?",
+    "intent": "pt_prevention_entering_home",
+    "intent_prediction": {
+      "name": "pt_prevention_home",
+      "confidence": 0.3187234401702881
+    }
+  },
+  {
+    "text": "O que devo fazer à fruta que comprei no supermercado?",
+    "intent": "pt_prevention_food",
+    "intent_prediction": {
+      "name": "pt_stayhomeinfo_supermarket",
+      "confidence": 0.4557677209377289
+    }
+  },
+  {
+    "text": "medidas",
+    "intent": "pt_prevention_general",
+    "intent_prediction": {
+      "name": "pt_prevention_medicine",
+      "confidence": 0.30277249217033386
+    }
+  },
+  {
+    "text": "como posso lutar contra COVID-19",
+    "intent": "pt_prevention_general",
+    "intent_prediction": {
+      "name": "pt_prevention_measures",
+      "confidence": 0.5741938948631287
+    }
+  },
+  {
+    "text": "Se tiver febre o que faço?",
+    "intent": "pt_prevention_home",
+    "intent_prediction": {
+      "name": "pt_prevention_medical_attention",
+      "confidence": 0.8276767730712891
+    }
+  },
+  {
+    "text": "Eu tenho uma temperatura",
+    "intent": "pt_prevention_home",
+    "intent_prediction": {
+      "name": "pt_greeting_goodbye",
+      "confidence": 0.4566648602485657
+    }
+  },
+  {
+    "text": "numero telefone",
+    "intent": "pt_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "pt_bot_real",
+      "confidence": 0.7247272729873657
+    }
+  },
+  {
+    "text": "Como sei que estou infectado?",
+    "intent": "pt_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "pt_covid_symptoms",
+      "confidence": 0.35114824771881104
+    }
+  },
+  {
+    "text": "Tenho sintomas. O que fazer?",
+    "intent": "pt_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "pt_covid_symptoms",
+      "confidence": 0.4712119698524475
+    }
+  },
+  {
+    "text": "Estou infectado, o que devo fazer?",
+    "intent": "pt_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "pt_prevention_measures",
+      "confidence": 0.22451390326023102
+    }
+  },
+  {
+    "text": "Eu tenho o vírus?",
+    "intent": "pt_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "pt_covid_worry",
+      "confidence": 0.41685277223587036
+    }
+  },
+  {
+    "text": "qual é o número do sns24",
+    "intent": "pt_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "pt_covid_situation",
+      "confidence": 0.9486494660377502
+    }
+  },
+  {
+    "text": "Qual é a cura?",
+    "intent": "pt_prevention_medicine",
+    "intent_prediction": {
+      "name": "pt_greeting_goodbye",
+      "confidence": 0.42640388011932373
+    }
+  },
+  {
+    "text": "Boa higiene respiratória.",
+    "intent": "pt_prevention_respiratory_hygiene",
+    "intent_prediction": {
+      "name": "pt_vocative_thank_you",
+      "confidence": 0.7988050580024719
+    }
+  },
+  {
+    "text": "O que é uma boa higiene respiratória?",
+    "intent": "pt_prevention_respiratory_hygiene",
+    "intent_prediction": {
+      "name": "pt_vocative_thank_you",
+      "confidence": 0.5400794744491577
+    }
+  },
+  {
+    "text": "Siga uma boa higiene respiratória.",
+    "intent": "pt_prevention_respiratory_hygiene",
+    "intent_prediction": {
+      "name": "pt_vocative_thank_you",
+      "confidence": 0.7501242756843567
+    }
+  },
+  {
+    "text": "finanças",
+    "intent": "pt_quarantine_children",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.15153567492961884
+    }
+  },
+  {
+    "text": "Tenho apoio financeiro?",
+    "intent": "pt_quarantine_children",
+    "intent_prediction": {
+      "name": "pt_greeting_goodbye",
+      "confidence": 0.48716220259666443
+    }
+  },
+  {
+    "text": "Pode-me ajudar a sair de casa. Pode ser?",
+    "intent": "pt_quarantine_dos_and_donts",
+    "intent_prediction": {
+      "name": "pt_patient_home",
+      "confidence": 0.27154895663261414
+    }
+  },
+  {
+    "text": "Porque é as pessoas andam a comprar tanto papel higiénico?",
+    "intent": "pt_quarantine_toiletpaper",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.42135828733444214
+    }
+  },
+  {
+    "text": "Direção geral de saúde",
+    "intent": "pt_sources",
+    "intent_prediction": {
+      "name": "pt_prevention_medical_attention",
+      "confidence": 0.3990442156791687
+    }
+  },
+  {
+    "text": "who",
+    "intent": "pt_sources",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.5705580711364746
+    }
+  },
+  {
+    "text": "De onde é retirada a informação?",
+    "intent": "pt_sources",
+    "intent_prediction": {
+      "name": "pt_prevention_clean_hands",
+      "confidence": 0.1829463094472885
+    }
+  },
+  {
+    "text": "como esse vírus funciona?",
+    "intent": "pt_spread_general",
+    "intent_prediction": {
+      "name": "pt_cc_weather",
+      "confidence": 0.28245002031326294
+    }
+  },
+  {
+    "text": "Os animais domésticos podem transmitir o COVID-19?",
+    "intent": "pt_spread_pets",
+    "intent_prediction": {
+      "name": "pt_spread_air",
+      "confidence": 0.2552333474159241
+    }
+  },
+  {
+    "text": "posso continuar a praticar atividade fisica na cidade sozinho?",
+    "intent": "pt_state_emergency_run",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.8447482585906982
+    }
+  },
+  {
+    "text": "Existem constrangimentos no abastecimento de bens e produtos em Portugal face",
+    "intent": "pt_stayhomeinfo_supermarket",
+    "intent_prediction": {
+      "name": "pt_spread_pets",
+      "confidence": 0.30717912316322327
+    }
+  },
+  {
+    "text": "Como fazer um teste de Covid19?",
+    "intent": "pt_test_general",
+    "intent_prediction": {
+      "name": "pt_test_where",
+      "confidence": 0.3878767490386963
+    }
+  },
+  {
+    "text": "Quando eu voltar de viajar.",
+    "intent": "pt_travel_after",
+    "intent_prediction": {
+      "name": "pt_travel_before",
+      "confidence": 0.4437163472175598
+    }
+  },
+  {
+    "text": "Impacto do virus no planeamento de férias.",
+    "intent": "pt_travel_before",
+    "intent_prediction": {
+      "name": "pt_spread_feces",
+      "confidence": 0.3918510377407074
+    }
+  },
+  {
+    "text": "Estou viajando em breve.",
+    "intent": "pt_travel_before",
+    "intent_prediction": {
+      "name": "pt_prevention_general",
+      "confidence": 0.248907208442688
+    }
+  },
+  {
+    "text": "Tenho um horário de viagem.",
+    "intent": "pt_travel_before",
+    "intent_prediction": {
+      "name": "pt_travel_while",
+      "confidence": 0.34251707792282104
+    }
+  },
+  {
+    "text": "Estou indignado",
+    "intent": "pt_user_angry",
+    "intent_prediction": {
+      "name": "pt_user_happy",
+      "confidence": 0.677284836769104
+    }
+  },
+  {
+    "text": "Estou muito descontente",
+    "intent": "pt_user_angry",
+    "intent_prediction": {
+      "name": "pt_user_happy",
+      "confidence": 0.8478772640228271
+    }
+  },
+  {
+    "text": "Estou de mau humor",
+    "intent": "pt_user_angry",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.35894671082496643
+    }
+  },
+  {
+    "text": "Sinto uma imensa alegria!",
+    "intent": "pt_user_happy",
+    "intent_prediction": {
+      "name": "pt_covid_symptoms",
+      "confidence": 0.4799642562866211
+    }
+  },
+  {
+    "text": "Estou maravilhado",
+    "intent": "pt_user_happy",
+    "intent_prediction": {
+      "name": "pt_country",
+      "confidence": 0.34847790002822876
+    }
+  },
+  {
+    "text": "Estou de sorriso posto",
+    "intent": "pt_user_happy",
+    "intent_prediction": {
+      "name": "pt_user_laugh",
+      "confidence": 0.43257075548171997
+    }
+  },
+  {
+    "text": "Podes dizer-me o quanto me amas",
+    "intent": "pt_user_love",
+    "intent_prediction": {
+      "name": "pt_cc_religion",
+      "confidence": 0.20718863606452942
+    }
+  },
+  {
+    "text": "Obrigada pelo teu tempo",
+    "intent": "pt_user_no_further_questions",
+    "intent_prediction": {
+      "name": "pt_greeting_goodbye",
+      "confidence": 0.3921983540058136
+    }
+  },
+  {
+    "text": "Por agora é tudo, obrigado.",
+    "intent": "pt_user_no_further_questions",
+    "intent_prediction": {
+      "name": "pt_vocative_thank_you",
+      "confidence": 0.5852739214897156
+    }
+  },
+  {
+    "text": "Aham",
+    "intent": "pt_user_particles",
+    "intent_prediction": {
+      "name": "pt_country",
+      "confidence": 0.5455620884895325
+    }
+  },
+  {
+    "text": "Que medo!",
+    "intent": "pt_user_scared",
+    "intent_prediction": {
+      "name": "pt_bot_fear",
+      "confidence": 0.601504385471344
+    }
+  },
+  {
+    "text": "não me deixes",
+    "intent": "pt_vocative_call",
+    "intent_prediction": {
+      "name": "pt_comment_offense",
+      "confidence": 0.3754982650279999
+    }
+  },
+  {
+    "text": "Estou de volta",
+    "intent": "pt_vocative_call",
+    "intent_prediction": {
+      "name": "pt_comment_offense",
+      "confidence": 0.7426620721817017
+    }
+  },
+  {
+    "text": "estás a entender",
+    "intent": "pt_vocative_call",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.7483161687850952
+    }
+  },
+  {
+    "text": "Mais sobre o que é que podemos falar",
+    "intent": "pt_vocative_call",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.48673751950263977
+    }
+  },
+  {
+    "text": "Preciso de ser ajudado",
+    "intent": "pt_vocative_help",
+    "intent_prediction": {
+      "name": "pt_prevention_general",
+      "confidence": 0.3797619640827179
+    }
+  },
+  {
+    "text": "Ajudas ou não",
+    "intent": "pt_vocative_help",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.5585456490516663
+    }
+  },
+  {
+    "text": "help",
+    "intent": "pt_vocative_help",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.261448472738266
+    }
+  },
+  {
+    "text": "Fora de questão.",
+    "intent": "pt_vocative_no",
+    "intent_prediction": {
+      "name": "pt_comment_racist",
+      "confidence": 0.7828986048698425
+    }
+  },
+  {
+    "text": "Ná.",
+    "intent": "pt_vocative_no",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.4309714436531067
+    }
+  },
+  {
+    "text": "nope",
+    "intent": "pt_vocative_no",
+    "intent_prediction": {
+      "name": "pt_vocative_yes",
+      "confidence": 0.48137524724006653
+    }
+  },
+  {
+    "text": "na ha",
+    "intent": "pt_vocative_no",
+    "intent_prediction": {
+      "name": "pt_user_laugh",
+      "confidence": 0.5692830681800842
+    }
+  },
+  {
+    "text": "só quando os porcos voarem",
+    "intent": "pt_vocative_no",
+    "intent_prediction": {
+      "name": "pt_cc_philosophical",
+      "confidence": 0.947097897529602
+    }
+  },
+  {
+    "text": "Erro meu",
+    "intent": "pt_vocative_sorry",
+    "intent_prediction": {
+      "name": "pt_user_friend",
+      "confidence": 0.40402692556381226
+    }
+  },
+  {
+    "text": "Lamento",
+    "intent": "pt_vocative_sorry",
+    "intent_prediction": {
+      "name": "pt_quarantine_general",
+      "confidence": 0.2116694152355194
+    }
+  },
+  {
+    "text": "és muito prestável",
+    "intent": "pt_vocative_thank_you",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.9177379608154297
+    }
+  },
+  {
+    "text": "Obrigado Computador",
+    "intent": "pt_vocative_thank_you",
+    "intent_prediction": {
+      "name": "pt_country",
+      "confidence": 0.49494707584381104
+    }
+  },
+  {
+    "text": "és muito atencioso.",
+    "intent": "pt_vocative_thank_you",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.8568848967552185
+    }
+  },
+  {
+    "text": "Aprecio muito",
+    "intent": "pt_vocative_thank_you",
+    "intent_prediction": {
+      "name": "pt_comment_smart",
+      "confidence": 0.8227669596672058
+    }
+  },
+  {
+    "text": "isso aí",
+    "intent": "pt_vocative_yes",
+    "intent_prediction": {
+      "name": "pt_vocative_call",
+      "confidence": 0.26387661695480347
+    }
+  },
+  {
+    "text": "está bem",
+    "intent": "pt_vocative_yes",
+    "intent_prediction": {
+      "name": "pt_greeting_how_are_you",
+      "confidence": 0.4498159885406494
+    }
+  },
+  {
+    "text": "Ah sim agora eu entendo",
+    "intent": "pt_vocative_yes",
+    "intent_prediction": {
+      "name": "pt_user_no_further_questions",
+      "confidence": 0.2738567888736725
+    }
+  },
+  {
+    "text": "Polegar para cima",
+    "intent": "pt_vocative_yes",
+    "intent_prediction": {
+      "name": "pt_vocative_no",
+      "confidence": 0.28895747661590576
+    }
+  },
+  {
+    "text": "Fico feliz de ajudar.",
+    "intent": "pt_vocative_you_welcome",
+    "intent_prediction": {
+      "name": "pt_prevention_general",
+      "confidence": 0.5202625393867493
+    }
+  },
+  {
+    "text": "De nada.",
+    "intent": "pt_vocative_you_welcome",
+    "intent_prediction": {
+      "name": "pt_user_no_further_questions",
+      "confidence": 0.4898589253425598
+    }
+  },
+  {
+    "text": "Não foi nada.",
+    "intent": "pt_vocative_you_welcome",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.5139099359512329
+    }
+  },
+  {
+    "text": "Economia e coronavirus",
+    "intent": "pt_economy_consequences",
+    "intent_prediction": {
+      "name": "pt_prevention_measures",
+      "confidence": 0.568351149559021
+    }
+  },
+  {
+    "text": "fases de contágio",
+    "intent": "pt_spread_phases",
+    "intent_prediction": {
+      "name": "pt_spread_feces",
+      "confidence": 0.20534831285476685
+    }
+  },
+  {
+    "text": "o que acontece após o estado de emergência em Portugal?",
+    "intent": "pt_state_calamity",
+    "intent_prediction": {
+      "name": "pt_state_emergency_end",
+      "confidence": 0.3952162265777588
+    }
+  },
+  {
+    "text": "Por quanto tempo foi declarado o estado e emergência?",
+    "intent": "pt_state_emergency_end",
+    "intent_prediction": {
+      "name": "pt_state_calamity",
+      "confidence": 0.2991845905780792
+    }
+  },
+  {
+    "text": "isso foi muito engraçado",
+    "intent": "pt_user_laugh",
+    "intent_prediction": {
+      "name": "pt_vocative_thank_you",
+      "confidence": 0.5468981266021729
+    }
+  }
+]

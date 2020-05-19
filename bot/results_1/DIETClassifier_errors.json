@@ -1,0 +1,225 @@
+[
+  {
+    "text": "Onde é Braga?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "town",
+        "entity": "pt_geography"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pt_country_code",
+        "start": 7,
+        "end": 12,
+        "extractor": "DIETClassifier",
+        "value": "town",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "O que é a Cabala?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pt_country_code",
+        "start": 10,
+        "end": 16,
+        "extractor": "DIETClassifier",
+        "value": "Cabala"
+      }
+    ]
+  },
+  {
+    "text": "Imunidade",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pt_country_code",
+        "start": 0,
+        "end": 9,
+        "extractor": "DIETClassifier",
+        "value": "Imunidade"
+      }
+    ]
+  },
+  {
+    "text": "Sobre COVID e SARS.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 11,
+        "value": "COVID",
+        "entity": "pt_virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Vanuatu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "VU",
+        "entity": "pt_country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Côte d'Ivoire",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "CI",
+        "entity": "pt_country_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pt_country_code",
+        "start": 5,
+        "end": 13,
+        "extractor": "DIETClassifier",
+        "value": "d'Ivoire"
+      }
+    ]
+  },
+  {
+    "text": "Seicheles",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "SC",
+        "entity": "pt_country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Jersey",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "JE",
+        "entity": "pt_country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Honduras",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "HN",
+        "entity": "pt_country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Quantos casos de [corrid] no mundo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pt_virus",
+        "start": 18,
+        "end": 24,
+        "extractor": "DIETClassifier",
+        "value": "COVID",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Quantos testados tem o Departamento de Maiote?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 45,
+        "value": "YT",
+        "entity": "pt_country_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pt_country_code",
+        "start": 36,
+        "end": 45,
+        "extractor": "DIETClassifier",
+        "value": "de Maiote"
+      }
+    ]
+  },
+  {
+    "text": "Aham",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pt_country_code",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "Aham"
+      }
+    ]
+  },
+  {
+    "text": "Obrigado Computador",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pt_country_code",
+        "start": 0,
+        "end": 19,
+        "extractor": "DIETClassifier",
+        "value": "Obrigado Computador"
+      }
+    ]
+  },
+  {
+    "text": "Sexo e coronavirus",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pt_virus",
+        "start": 7,
+        "end": 18,
+        "extractor": "DIETClassifier",
+        "value": "COVID",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Quais são as consequências do COVID-19 na Economia?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pt_virus",
+        "start": 30,
+        "end": 38,
+        "extractor": "DIETClassifier",
+        "value": "COVID",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "preferred_lang": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "language": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "pt_geography": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "pt_virus": {
+    "precision": 0.9902597402597403,
+    "recall": 0.9967320261437909,
+    "f1-score": 0.9934853420195441,
+    "support": 306
+  },
+  "pt_country_code": {
+    "precision": 0.975609756097561,
+    "recall": 0.975609756097561,
+    "f1-score": 0.975609756097561,
+    "support": 246
+  },
+  "micro avg": {
+    "precision": 0.9838420107719928,
+    "recall": 0.9856115107913669,
+    "f1-score": 0.9847259658580413,
+    "support": 556
+  },
+  "macro avg": {
+    "precision": 0.7931738992714602,
+    "recall": 0.7944683564482704,
+    "f1-score": 0.7938190196234209,
+    "support": 556
+  },
+  "weighted avg": {
+    "precision": 0.9820494253947493,
+    "recall": 0.9856115107913669,
+    "f1-score": 0.983824666651044,
+    "support": 556
+  }
+}
