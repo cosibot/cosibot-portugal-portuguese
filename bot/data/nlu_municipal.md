@@ -931,6 +931,7 @@
 
 
 ## intent:pt_municipal
+- e no [Barreiro](pt_country_municipal:Barreiro)
 - [Aguiar Beira](pt_country_municipal:Aguiar da Beira)
 - [Albergaria a Velha](pt_country_municipal:Albergaria-a-Velha)
 - [Alcácer Sal](pt_country_municipal:Alcácer do Sal)

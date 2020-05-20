@@ -549,7 +549,7 @@
   - utter_pt_vocative_you_welcome
 
 ## unhappy region_stats_form path #2
-* pt_covid_situation_last_update{"pt_country_region": "Açores"}
+* pt_covid_situation{"pt_country_region": "Açores"}
     - region_stats_form
     - form{"name": "region_stats_form"}
     - form{"name": null}
@@ -582,6 +582,104 @@
     - form{"name": "region_stats_form"}
     - form{"name": null}
 
+## happy region_stats_form pt_covid_situation_infected path
+* pt_covid_situation_infected{"pt_country_region": "Lisboa"}
+  - region_stats_form
+  - form{"name": "region_stats_form"}
+  - form{"name": null}
+  <!-- - utter_country_region_hasdata -->
+
+## unhappy region_stats_form pt_covid_situation_infected path #1
+* pt_covid_situation_infected{"pt_country_region": "Madeira"}
+  - region_stats_form
+  - form{"name": "region_stats_form"}
+  - form{"name": null}
+* pt_bot_stop 
+  - utter_pt_vocative_you_welcome
+
+## unhappy region_stats_form pt_covid_situation_infected path #2
+* pt_covid_situation_infected{"pt_country_region": "Açores"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+    <!-- - slot{"requested_slot": "pt_country_code"} -->
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+  
+## unhappy region_stats_form pt_covid_situation_infected path #3
+* pt_covid_situation_infected{"pt_country_region": "Lisboa"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+* pt_region{"pt_country_region": "Centro"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+
+## unhappy region_stats_form pt_covid_situation_infected path #4
+* pt_covid_situation_infected{"pt_country_region": "Lisboa"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - utter_ask_pt_country_region
+* pt_region{"pt_country_region": "Centro"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+
+## happy region_stats_form pt_covid_situation_last_update path
+* pt_covid_situation_last_update{"pt_country_region": "Lisboa"}
+  - region_stats_form
+  - form{"name": "region_stats_form"}
+  - form{"name": null}
+  <!-- - utter_country_region_hasdata -->
+
+## unhappy region_stats_form pt_covid_situation_last_update path #1
+* pt_covid_situation_last_update{"pt_country_region": "Madeira"}
+  - region_stats_form
+  - form{"name": "region_stats_form"}
+  - form{"name": null}
+* pt_bot_stop 
+  - utter_pt_vocative_you_welcome
+
+## unhappy region_stats_form pt_covid_situation_last_update path #2
+* pt_covid_situation_last_update{"pt_country_region": "Açores"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+    <!-- - slot{"requested_slot": "pt_country_code"} -->
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+  
+## unhappy region_stats_form pt_covid_situation_last_update path #3
+* pt_covid_situation_last_update{"pt_country_region": "Lisboa"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+* pt_region{"pt_country_region": "Centro"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+
+## unhappy region_stats_form pt_covid_situation_last_update path #4
+* pt_covid_situation_last_update{"pt_country_region": "Lisboa"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - utter_ask_pt_country_region
+* pt_region{"pt_country_region": "Centro"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+
 <!-- MUNICIPALITY STATS -->
 
 ## happy municipality_stats_form path
@@ -593,7 +691,6 @@
 
 
 ## unhappy municipality_stats_form path #1
-
 * pt_covid_situation{"pt_country_municipal": "Lamego"}
     - municipality_stats_form
     - form{"name": "municipality_stats_form"}
@@ -609,6 +706,78 @@
 
 ## unhappy municipality_stats_form path #2
 * pt_covid_situation{"pt_country_municipal": "Lamego"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - utter_ask_pt_country_municipal
+* pt_municipal{"pt_country_municipal": "Viseu"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+
+## happy municipality_stats_form pt_covid_situation_infected path
+* pt_covid_situation_infected{"pt_country_municipal": "Viseu"}
+  - municipality_stats_form
+  - form{"name": "municipal_stats_form"}
+  - form{"name": null}
+  <!-- - utter_country_municipal_hasdata -->
+
+
+## unhappy municipality_stats_form pt_covid_situation_infected path #1
+* pt_covid_situation_infected{"pt_country_municipal": "Lamego"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - utter_ask_pt_country_municipal
+* pt_municipal{"pt_country_municipal": "Viseu"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+
+## unhappy municipality_stats_form pt_covid_situation_infected path #2
+* pt_covid_situation_infected{"pt_country_municipal": "Lamego"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - utter_ask_pt_country_municipal
+* pt_municipal{"pt_country_municipal": "Viseu"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+
+## happy municipality_stats_form pt_covid_situation_last_update path
+* pt_covid_situation_last_update{"pt_country_municipal": "Viseu"}
+  - municipality_stats_form
+  - form{"name": "municipal_stats_form"}
+  - form{"name": null}
+  <!-- - utter_country_municipal_hasdata -->
+
+
+## unhappy municipality_stats_form pt_covid_situation_last_update path #1
+* pt_covid_situation_last_update{"pt_country_municipal": "Lamego"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - utter_ask_pt_country_municipal
+* pt_municipal{"pt_country_municipal": "Viseu"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+
+## unhappy municipality_stats_form pt_covid_situation_last_update path #2
+* pt_covid_situation_last_update{"pt_country_municipal": "Lamego"}
     - municipality_stats_form
     - form{"name": "municipality_stats_form"}
     - form{"name": null}
