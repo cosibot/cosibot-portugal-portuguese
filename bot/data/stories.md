@@ -575,6 +575,91 @@
     - slot{"total_infected_critical": "176"}
     - utter_pt_covid_situation
 
+  
+## happy region_stats_form pt_covid_situation_infected path
+* pt_covid_situation_infected{"pt_country_region": "Lisboa"}
+  - region_stats_form
+  - form{"name": "region_stats_form"}
+  - form{"name": null}
+  <!-- - utter_country_region_hasdata -->
+
+## unhappy region_stats_form pt_covid_situation_infected path #1
+* pt_covid_situation_infected{"pt_country_region": "Madeira"}
+  - region_stats_form
+  - form{"name": "region_stats_form"}
+  - form{"name": null}
+* pt_bot_stop 
+  - utter_pt_vocative_you_welcome
+
+## unhappy region_stats_form pt_covid_situation_infected path #2
+* pt_covid_situation_infected{"pt_country_region": "Açores"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+    <!-- - slot{"requested_slot": "pt_country_code"} -->
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+  
+## unhappy region_stats_form path pt_covid_situation_infected #3
+* pt_covid_situation_infected{"pt_country_region": "Lisboa"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"active_cases": "16300"}
+    - slot{"input_country": "Portugal"}
+    - slot{"new_cases": "517"}
+    - slot{"total_cases": "17543"}
+    - slot{"total_recovered": "921"}
+    - slot{"total_deaths": "756"}
+    - slot{"total_tests": "233300"}
+    - slot{"total_infected_critical": "176"}
+    - utter_pt_covid_situation
+
+## happy region_stats_form pt_covid_situation_last_update path
+* pt_covid_situation_last_update{"pt_country_region": "Lisboa"}
+  - region_stats_form
+  - form{"name": "region_stats_form"}
+  - form{"name": null}
+  <!-- - utter_country_region_hasdata -->
+
+## unhappy region_stats_form pt_covid_situation_last_update path #1
+* pt_covid_situation_last_update{"pt_country_region": "Madeira"}
+  - region_stats_form
+  - form{"name": "region_stats_form"}
+  - form{"name": null}
+* pt_bot_stop 
+  - utter_pt_vocative_you_welcome
+
+## unhappy region_stats_form pt_covid_situation_last_update path #2
+* pt_covid_situation_last_update{"pt_country_region": "Açores"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+    <!-- - slot{"requested_slot": "pt_country_code"} -->
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+  
+## unhappy region_stats_form path pt_covid_situation_last_update #3
+* pt_covid_situation_last_update{"pt_country_region": "Lisboa"}
+    - region_stats_form
+    - form{"name": "region_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"active_cases": "16300"}
+    - slot{"input_country": "Portugal"}
+    - slot{"new_cases": "517"}
+    - slot{"total_cases": "17543"}
+    - slot{"total_recovered": "921"}
+    - slot{"total_deaths": "756"}
+    - slot{"total_tests": "233300"}
+    - slot{"total_infected_critical": "176"}
+    - utter_pt_covid_situation
+
 <!-- MUNICIPALITY STATS -->
 
 ## happy municipality_stats_form path
@@ -586,7 +671,6 @@
 
 
 ## unhappy municipality_stats_form path #1
-
 * pt_covid_situation{"pt_country_municipal": "Lamego"}
     - municipality_stats_form
     - form{"name": "municipality_stats_form"}
@@ -606,6 +690,75 @@
 
 ## unhappy municipality_stats_form path #2
 * pt_covid_situation{"pt_country_municipal": "Lamego"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+
+
+## happy municipality_stats_form pt_covid_situation_infected path
+* pt_covid_situation_infected{"pt_country_municipal": "Viseu"}
+  - municipality_stats_form
+  - form{"name": "municipal_stats_form"}
+  - form{"name": null}
+  <!-- - utter_country_municipal_hasdata -->
+
+
+## unhappy municipality_stats_form pt_covid_situation_infected path #1
+* pt_covid_situation_infected{"pt_country_municipal": "Lamego"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"active_cases": "16300"}
+    - slot{"input_country": "Portugal"}
+    - slot{"new_cases": "517"}
+    - slot{"total_cases": "17543"}
+    - slot{"total_recovered": "921"}
+    - slot{"total_deaths": "756"}
+    - slot{"total_tests": "233300"}
+    - slot{"total_infected_critical": "176"}
+    - utter_pt_covid_situation
+
+## unhappy municipality_stats_form pt_covid_situation_infected path #2
+* pt_covid_situation_infected{"pt_country_municipal": "Lamego"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_no
+    - utter_pt_vocative_you_welcome
+
+## happy municipality_stats_form pt_covid_situation_last_update path
+* pt_covid_situation_last_update{"pt_country_municipal": "Viseu"}
+  - municipality_stats_form
+  - form{"name": "municipal_stats_form"}
+  - form{"name": null}
+  <!-- - utter_country_municipal_hasdata -->
+
+
+## unhappy municipality_stats_form pt_covid_situation_last_update path #1
+* pt_covid_situation_last_update{"pt_country_municipal": "Lamego"}
+    - municipality_stats_form
+    - form{"name": "municipality_stats_form"}
+    - form{"name": null}
+* pt_vocative_yes
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"active_cases": "16300"}
+    - slot{"input_country": "Portugal"}
+    - slot{"new_cases": "517"}
+    - slot{"total_cases": "17543"}
+    - slot{"total_recovered": "921"}
+    - slot{"total_deaths": "756"}
+    - slot{"total_tests": "233300"}
+    - slot{"total_infected_critical": "176"}
+    - utter_pt_covid_situation
+
+## unhappy municipality_stats_form pt_covid_situation_last_update path #2
+* pt_covid_situation_last_update{"pt_country_municipal": "Lamego"}
     - municipality_stats_form
     - form{"name": "municipality_stats_form"}
     - form{"name": null}
