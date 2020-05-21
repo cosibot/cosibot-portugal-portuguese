@@ -1,0 +1,1116 @@
+{
+  "pt_greeting_how_are_you": {
+    "precision": 0.9705882352941176,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9428571428571428,
+    "support": 36,
+    "confused_with": {
+      "pt_greeting_hello": 3
+    }
+  },
+  "pt_bot_availability": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 34,
+    "confused_with": {}
+  },
+  "pt_comment_negative": {
+    "precision": 0.9069767441860465,
+    "recall": 0.8863636363636364,
+    "f1-score": 0.896551724137931,
+    "support": 44,
+    "confused_with": {
+      "pt_comment_offense": 3,
+      "pt_bot_capabilities": 1
+    }
+  },
+  "pt_prevention_entering_home": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "pt_cc_chicken_egg": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 37,
+    "confused_with": {}
+  },
+  "pt_bot_goal": {
+    "precision": 1.0,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.983050847457627,
+    "support": 30,
+    "confused_with": {
+      "pt_bot_capabilities": 1
+    }
+  },
+  "pt_user_particles": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "pt_test_what": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "pt_prevention_gloves": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "pt_portugal_government_measures": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "pt_prevention_home": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 33,
+    "confused_with": {}
+  },
+  "pt_covid_pandemic": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "pt_user_scared": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 27,
+    "confused_with": {}
+  },
+  "pt_bot_books": {
+    "precision": 0.9761904761904762,
+    "recall": 1.0,
+    "f1-score": 0.9879518072289156,
+    "support": 41,
+    "confused_with": {}
+  },
+  "pt_covid_babys_children": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "pt_cc_weather": {
+    "precision": 0.9818181818181818,
+    "recall": 1.0,
+    "f1-score": 0.9908256880733944,
+    "support": 54,
+    "confused_with": {}
+  },
+  "pt_covid_sars": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 163,
+    "confused_with": {}
+  },
+  "pt_bot_movies": {
+    "precision": 1.0,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.9811320754716981,
+    "support": 27,
+    "confused_with": {
+      "pt_bot_books": 1
+    }
+  },
+  "pt_bot_change_bot": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "pt_vocative_thank_you": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9565217391304348,
+    "support": 72,
+    "confused_with": {
+      "pt_user_no_further_questions": 4,
+      "pt_comment_positive": 2
+    }
+  },
+  "pt_portugal_elders": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "pt_bot_sing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31,
+    "confused_with": {}
+  },
+  "pt_cc_lets_talk": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 27,
+    "confused_with": {}
+  },
+  "pt_travel_while": {
+    "precision": 1.0,
+    "recall": 0.975609756097561,
+    "f1-score": 0.9876543209876543,
+    "support": 41,
+    "confused_with": {
+      "pt_travel_before": 1
+    }
+  },
+  "pt_cc_newspaper": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 29,
+    "confused_with": {}
+  },
+  "pt_comment_smart": {
+    "precision": 0.9761904761904762,
+    "recall": 1.0,
+    "f1-score": 0.9879518072289156,
+    "support": 41,
+    "confused_with": {}
+  },
+  "pt_cc_politics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 53,
+    "confused_with": {}
+  },
+  "pt_myth_alcohol": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "pt_quarantine_children": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "pt_bot_hobbies": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 33,
+    "confused_with": {}
+  },
+  "pt_test_general": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "pt_comment_positive": {
+    "precision": 0.9259259259259259,
+    "recall": 0.9803921568627451,
+    "f1-score": 0.9523809523809523,
+    "support": 51,
+    "confused_with": {
+      "pt_comment_smart": 1
+    }
+  },
+  "pt_cc_religion": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 140,
+    "confused_with": {}
+  },
+  "pt_patient_referral": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "pt_covid_aftereffects_immunity": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "pt_prevention_general": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 52,
+    "confused_with": {}
+  },
+  "pt_covid_worry": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "pt_prevention_distance": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "pt_spread_surfaces_food_objects": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "pt_bot_appearance": {
+    "precision": 1.0,
+    "recall": 0.9824561403508771,
+    "f1-score": 0.9911504424778761,
+    "support": 57,
+    "confused_with": {
+      "pt_bot_real": 1
+    }
+  },
+  "pt_travel_before": {
+    "precision": 0.9736842105263158,
+    "recall": 1.0,
+    "f1-score": 0.9866666666666666,
+    "support": 37,
+    "confused_with": {}
+  },
+  "pt_vocative_no": {
+    "precision": 0.967741935483871,
+    "recall": 0.967741935483871,
+    "f1-score": 0.967741935483871,
+    "support": 31,
+    "confused_with": {
+      "pt_vocative_yes": 1
+    }
+  },
+  "pt_covid_situation": {
+    "precision": 0.9777777777777777,
+    "recall": 1.0,
+    "f1-score": 0.9887640449438202,
+    "support": 88,
+    "confused_with": {}
+  },
+  "pt_covid_situation_infected": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 106,
+    "confused_with": {}
+  },
+  "pt_portugal_ill_foreigner": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "pt_vocative_yes": {
+    "precision": 0.9512195121951219,
+    "recall": 0.975,
+    "f1-score": 0.9629629629629629,
+    "support": 40,
+    "confused_with": {
+      "pt_greeting_hello": 1
+    }
+  },
+  "pt_spread_air": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 37,
+    "confused_with": {}
+  },
+  "pt_patient_home": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "pt_bot_real": {
+    "precision": 0.975,
+    "recall": 1.0,
+    "f1-score": 0.9873417721518987,
+    "support": 39,
+    "confused_with": {}
+  },
+  "pt_myth_packages": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
+  "pt_covid_cosibot": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "pt_quarantine_dos_and_donts": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "pt_user_no_further_questions": {
+    "precision": 0.9365079365079365,
+    "recall": 0.9833333333333333,
+    "f1-score": 0.9593495934959351,
+    "support": 60,
+    "confused_with": {
+      "pt_greeting_goodbye": 1
+    }
+  },
+  "pt_state_emergency_end": {
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1-score": 0.967741935483871,
+    "support": 16,
+    "confused_with": {
+      "pt_covid_situation": 1
+    }
+  },
+  "pt_bot_personal_questions": {
+    "precision": 0.9878048780487805,
+    "recall": 1.0,
+    "f1-score": 0.9938650306748467,
+    "support": 81,
+    "confused_with": {}
+  },
+  "pt_bot_residence": {
+    "precision": 1.0,
+    "recall": 0.9714285714285714,
+    "f1-score": 0.9855072463768115,
+    "support": 35,
+    "confused_with": {
+      "pt_bot_personal_questions": 1
+    }
+  },
+  "pt_covid_situation_tested": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 44,
+    "confused_with": {}
+  },
+  "pt_cc_fun_fact": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 35,
+    "confused_with": {}
+  },
+  "pt_myth_transmission_hot_areas": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "pt_spread_general": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 89,
+    "confused_with": {}
+  },
+  "pt_bot_origin": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 33,
+    "confused_with": {}
+  },
+  "pt_prevention_informed": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 26,
+    "confused_with": {}
+  },
+  "pt_prevention_clean_hands": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 33,
+    "confused_with": {}
+  },
+  "start": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "pt_portugal_rates": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "pt_covid_situation_infected_critical": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 118,
+    "confused_with": {}
+  },
+  "pt_bot_personality": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 18,
+    "confused_with": {
+      "pt_comment_positive": 2
+    }
+  },
+  "pt_bot_version": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 29,
+    "confused_with": {}
+  },
+  "pt_prevention_food": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "pt_spread_washing_clothes": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "pt_covid_alike": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "pt_covid_crisis_howlong": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "pt_vocative_sorry": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 41,
+    "confused_with": {}
+  },
+  "pt_prevention_respiratory_hygiene": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 54,
+    "confused_with": {}
+  },
+  "pt_covid_symptoms": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 55,
+    "confused_with": {}
+  },
+  "pt_spread_feces": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 33,
+    "confused_with": {}
+  },
+  "pt_state_emergency_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "pt_covid_surfaces": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 66,
+    "confused_with": {}
+  },
+  "pt_covid_duration": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "pt_covid_info": {
+    "precision": 0.9967213114754099,
+    "recall": 1.0,
+    "f1-score": 0.9983579638752053,
+    "support": 304,
+    "confused_with": {}
+  },
+  "pt_portugal_ill_no_covid": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "pt_country": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 247,
+    "confused_with": {}
+  },
+  "pt_covid_mortality_rate": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "pt_comment_racist": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 47,
+    "confused_with": {}
+  },
+  "pt_spread_pets": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 87,
+    "confused_with": {}
+  },
+  "pt_comment_offense": {
+    "precision": 0.9765625,
+    "recall": 0.9689922480620154,
+    "f1-score": 0.9727626459143969,
+    "support": 129,
+    "confused_with": {
+      "pt_comment_negative": 4
+    }
+  },
+  "pt_bot_games": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 61,
+    "confused_with": {}
+  },
+  "pt_bot_worst_experience": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 48,
+    "confused_with": {}
+  },
+  "pt_mask_use_after": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 33,
+    "confused_with": {}
+  },
+  "pt_user_angry": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31,
+    "confused_with": {}
+  },
+  "pt_test_per_day": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "pt_features_time": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 79,
+    "confused_with": {}
+  },
+  "pt_covid_close_contact": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "pt_cc_moon": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
+  },
+  "pt_economy_consequences": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "pt_prevention_medicine": {
+    "precision": 0.984375,
+    "recall": 1.0,
+    "f1-score": 0.9921259842519685,
+    "support": 63,
+    "confused_with": {}
+  },
+  "pt_covid_situation_last_update": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 27,
+    "confused_with": {}
+  },
+  "pt_vocative_help": {
+    "precision": 0.9714285714285714,
+    "recall": 1.0,
+    "f1-score": 0.9855072463768115,
+    "support": 34,
+    "confused_with": {}
+  },
+  "pt_vocative_you_welcome": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
+  "pt_news_request": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "pt_greeting_goodbye": {
+    "precision": 0.9841269841269841,
+    "recall": 0.9841269841269841,
+    "f1-score": 0.9841269841269841,
+    "support": 63,
+    "confused_with": {
+      "pt_greeting_hello": 1
+    }
+  },
+  "pt_user_love": {
+    "precision": 0.9795918367346939,
+    "recall": 1.0,
+    "f1-score": 0.9896907216494846,
+    "support": 48,
+    "confused_with": {}
+  },
+  "pt_prevention_measures": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "pt_covid_pregnancy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "pt_spread_animals": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31,
+    "confused_with": {}
+  },
+  "pt_test_where": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "pt_bot_capabilities": {
+    "precision": 0.9459459459459459,
+    "recall": 0.9459459459459459,
+    "f1-score": 0.9459459459459459,
+    "support": 37,
+    "confused_with": {
+      "pt_vocative_help": 1,
+      "pt_vocative_call": 1
+    }
+  },
+  "pt_state_emergency_run": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "pt_state_calamity": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "pt_cc_deepest_point": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 50,
+    "confused_with": {}
+  },
+  "pt_covid_situation_recovered": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 43,
+    "confused_with": {}
+  },
+  "pt_deconfinement_establishments": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "pt_cc_highest_building": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 52,
+    "confused_with": {}
+  },
+  "pt_bot_fear": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "pt_bot_languages": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 36,
+    "confused_with": {}
+  },
+  "pt_quarantine_toiletpaper": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "pt_user_happy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 52,
+    "confused_with": {}
+  },
+  "pt_mask_general": {
+    "precision": 0.9821428571428571,
+    "recall": 1.0,
+    "f1-score": 0.9909909909909909,
+    "support": 55,
+    "confused_with": {}
+  },
+  "pt_covid_preexisting_illness": {
+    "precision": 0.9833333333333333,
+    "recall": 1.0,
+    "f1-score": 0.9915966386554621,
+    "support": 59,
+    "confused_with": {}
+  },
+  "pt_spread_no_symptoms": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 82,
+    "confused_with": {}
+  },
+  "pt_covid_ibuprofen": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {
+      "pt_prevention_medicine": 1
+    }
+  },
+  "pt_greeting_hello": {
+    "precision": 0.8888888888888888,
+    "recall": 0.975609756097561,
+    "f1-score": 0.9302325581395349,
+    "support": 41,
+    "confused_with": {
+      "pt_greeting_how_are_you": 1
+    }
+  },
+  "pt_user_laugh": {
+    "precision": 0.9629629629629629,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.9454545454545454,
+    "support": 28,
+    "confused_with": {
+      "pt_cc_joke": 2
+    }
+  },
+  "pt_covid_situation_deaths": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "pt_bot_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "pt_bot_sports": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 53,
+    "confused_with": {}
+  },
+  "pt_covid_incubation": {
+    "precision": 1.0,
+    "recall": 0.99,
+    "f1-score": 0.9949748743718593,
+    "support": 100,
+    "confused_with": {
+      "pt_covid_situation": 1
+    }
+  },
+  "pt_user_friend": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 34,
+    "confused_with": {}
+  },
+  "pt_prevention_medical_attention": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 62,
+    "confused_with": {}
+  },
+  "pt_spread_risk": {
+    "precision": 1.0,
+    "recall": 0.9811320754716981,
+    "f1-score": 0.9904761904761905,
+    "support": 53,
+    "confused_with": {
+      "pt_covid_preexisting_illness": 1
+    }
+  },
+  "pt_bot_music": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "pt_user_no_data": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 68,
+    "confused_with": {}
+  },
+  "pt_cc_philosophical": {
+    "precision": 1.0,
+    "recall": 0.9890710382513661,
+    "f1-score": 0.9945054945054945,
+    "support": 183,
+    "confused_with": {
+      "pt_cc_weather": 1,
+      "pt_user_love": 1
+    }
+  },
+  "pt_coronavirus_info": {
+    "precision": 1.0,
+    "recall": 0.9743589743589743,
+    "f1-score": 0.9870129870129869,
+    "support": 39,
+    "confused_with": {
+      "pt_covid_info": 1
+    }
+  },
+  "pt_quarantine_general": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "pt_travel_after": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "pt_spread_phases": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "pt_covid_community_transmission": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "pt_mask_use_put": {
+    "precision": 1.0,
+    "recall": 0.9811320754716981,
+    "f1-score": 0.9904761904761905,
+    "support": 53,
+    "confused_with": {
+      "pt_mask_general": 1
+    }
+  },
+  "pt_prevention_touch": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 60,
+    "confused_with": {}
+  },
+  "pt_stayhomeinfo_supermarket": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "pt_cc_joke": {
+    "precision": 0.9622641509433962,
+    "recall": 0.9807692307692307,
+    "f1-score": 0.9714285714285713,
+    "support": 52,
+    "confused_with": {
+      "pt_user_laugh": 1
+    }
+  },
+  "pt_sources": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
+  "pt_cc_geography": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 44,
+    "confused_with": {}
+  },
+  "pt_covid_meaning": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 132,
+    "confused_with": {}
+  },
+  "pt_covid_sex": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "pt_features_date": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 96,
+    "confused_with": {}
+  },
+  "pt_vocative_call": {
+    "precision": 0.972972972972973,
+    "recall": 0.972972972972973,
+    "f1-score": 0.972972972972973,
+    "support": 37,
+    "confused_with": {
+      "pt_vocative_yes": 1
+    }
+  },
+  "pt_bot_sexual": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
+  },
+  "accuracy": 0.992436974789916,
+  "macro avg": {
+    "precision": 0.9939512993698056,
+    "recall": 0.9923446987373982,
+    "f1-score": 0.9930276446055061,
+    "support": 5950
+  },
+  "weighted avg": {
+    "precision": 0.9926063027198818,
+    "recall": 0.992436974789916,
+    "f1-score": 0.9924245860670442,
+    "support": 5950
+  }
+}

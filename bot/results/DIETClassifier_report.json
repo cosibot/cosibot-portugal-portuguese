@@ -1,0 +1,50 @@
+{
+  "pt_geography": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "pt_country_code": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1249
+  },
+  "preferred_lang": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4
+  },
+  "pt_virus": {
+    "precision": 0.9966555183946488,
+    "recall": 1.0,
+    "f1-score": 0.998324958123953,
+    "support": 1490
+  },
+  "language": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7
+  },
+  "micro avg": {
+    "precision": 0.9981884057971014,
+    "recall": 1.0,
+    "f1-score": 0.99909338168631,
+    "support": 2755
+  },
+  "macro avg": {
+    "precision": 0.9993311036789297,
+    "recall": 1.0,
+    "f1-score": 0.9996649916247906,
+    "support": 2755
+  },
+  "weighted avg": {
+    "precision": 0.9981911878069063,
+    "recall": 1.0,
+    "f1-score": 0.9990940789853684,
+    "support": 2755
+  }
+}

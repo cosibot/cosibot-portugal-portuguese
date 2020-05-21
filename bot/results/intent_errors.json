@@ -1,0 +1,362 @@
+[
+  {
+    "text": "Tens corpo?",
+    "intent": "pt_bot_appearance",
+    "intent_prediction": {
+      "name": "pt_bot_real",
+      "confidence": 0.7782007455825806
+    }
+  },
+  {
+    "text": "Podes dar-me assistência?",
+    "intent": "pt_bot_capabilities",
+    "intent_prediction": {
+      "name": "pt_vocative_help",
+      "confidence": 0.9513198137283325
+    }
+  },
+  {
+    "text": "Podes falar comigo?",
+    "intent": "pt_bot_capabilities",
+    "intent_prediction": {
+      "name": "pt_vocative_call",
+      "confidence": 0.7266172170639038
+    }
+  },
+  {
+    "text": "Qual é o teu objetivo?",
+    "intent": "pt_bot_goal",
+    "intent_prediction": {
+      "name": "pt_bot_capabilities",
+      "confidence": 0.7482265830039978
+    }
+  },
+  {
+    "text": "Aprecias livros?",
+    "intent": "pt_bot_movies",
+    "intent_prediction": {
+      "name": "pt_bot_books",
+      "confidence": 0.9468910098075867
+    }
+  },
+  {
+    "text": "És muito simpático?",
+    "intent": "pt_bot_personality",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.9396246075630188
+    }
+  },
+  {
+    "text": "És simpático?",
+    "intent": "pt_bot_personality",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.7922401428222656
+    }
+  },
+  {
+    "text": "Onde tens andado?",
+    "intent": "pt_bot_residence",
+    "intent_prediction": {
+      "name": "pt_bot_personal_questions",
+      "confidence": 0.7128229141235352
+    }
+  },
+  {
+    "text": "Preciso de rir",
+    "intent": "pt_cc_joke",
+    "intent_prediction": {
+      "name": "pt_user_laugh",
+      "confidence": 0.5034360289573669
+    }
+  },
+  {
+    "text": "O que é amor?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_user_love",
+      "confidence": 0.9795094132423401
+    }
+  },
+  {
+    "text": "O que é o tempo?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_cc_weather",
+      "confidence": 0.5283122062683105
+    }
+  },
+  {
+    "text": "A Siri é melhor que tu!",
+    "intent": "pt_comment_negative",
+    "intent_prediction": {
+      "name": "pt_comment_offense",
+      "confidence": 0.7775611281394958
+    }
+  },
+  {
+    "text": "Não sabes nada.",
+    "intent": "pt_comment_negative",
+    "intent_prediction": {
+      "name": "pt_vocative_no",
+      "confidence": 0.3868049681186676
+    }
+  },
+  {
+    "text": "Não sabes sobre o que estou a escrever.",
+    "intent": "pt_comment_negative",
+    "intent_prediction": {
+      "name": "pt_bot_capabilities",
+      "confidence": 0.8096709847450256
+    }
+  },
+  {
+    "text": "Não sabes.",
+    "intent": "pt_comment_negative",
+    "intent_prediction": {
+      "name": "pt_comment_offense",
+      "confidence": 0.5219823718070984
+    }
+  },
+  {
+    "text": "Siri é mais inteligente que tu.",
+    "intent": "pt_comment_negative",
+    "intent_prediction": {
+      "name": "pt_comment_offense",
+      "confidence": 0.6435964703559875
+    }
+  },
+  {
+    "text": "A Cortana é mais inteligente que tu",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.6054815053939819
+    }
+  },
+  {
+    "text": "A Glados é mais inteligente que tu",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.770857572555542
+    }
+  },
+  {
+    "text": "Google é mais inteligente que tu",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.8385719060897827
+    }
+  },
+  {
+    "text": "O Agente Smith é melhor que tu",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.9279674887657166
+    }
+  },
+  {
+    "text": "Tu és bom!",
+    "intent": "pt_comment_positive",
+    "intent_prediction": {
+      "name": "pt_comment_smart",
+      "confidence": 0.7100185751914978
+    }
+  },
+  {
+    "text": "O que é o vírus?",
+    "intent": "pt_coronavirus_info",
+    "intent_prediction": {
+      "name": "pt_covid_info",
+      "confidence": 0.822456955909729
+    }
+  },
+  {
+    "text": "2019nCov incubation period.",
+    "intent": "pt_covid_incubation",
+    "intent_prediction": {
+      "name": "pt_covid_situation",
+      "confidence": 0.37548157572746277
+    }
+  },
+  {
+    "text": "Boa Noite",
+    "intent": "pt_greeting_goodbye",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.9234320521354675
+    }
+  },
+  {
+    "text": "Tão que tal?",
+    "intent": "pt_greeting_hello",
+    "intent_prediction": {
+      "name": "pt_greeting_how_are_you",
+      "confidence": 0.9439289569854736
+    }
+  },
+  {
+    "text": "Como vai isso hoje",
+    "intent": "pt_greeting_how_are_you",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.888309895992279
+    }
+  },
+  {
+    "text": "Oi como vai isso",
+    "intent": "pt_greeting_how_are_you",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.8720721006393433
+    }
+  },
+  {
+    "text": "Que tal vai isso?",
+    "intent": "pt_greeting_how_are_you",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.8311328291893005
+    }
+  },
+  {
+    "text": "Por uma máscara descartável?",
+    "intent": "pt_mask_use_put",
+    "intent_prediction": {
+      "name": "pt_mask_general",
+      "confidence": 0.5602627396583557
+    }
+  },
+  {
+    "text": "risco",
+    "intent": "pt_spread_risk",
+    "intent_prediction": {
+      "name": "pt_covid_preexisting_illness",
+      "confidence": 0.5103954672813416
+    }
+  },
+  {
+    "text": "O que fazer na viagem?",
+    "intent": "pt_travel_while",
+    "intent_prediction": {
+      "name": "pt_travel_before",
+      "confidence": 0.5387429594993591
+    }
+  },
+  {
+    "text": "Obrigado pelo teu tempo",
+    "intent": "pt_user_no_further_questions",
+    "intent_prediction": {
+      "name": "pt_greeting_goodbye",
+      "confidence": 0.8945394158363342
+    }
+  },
+  {
+    "text": "Faz-me companhia",
+    "intent": "pt_vocative_call",
+    "intent_prediction": {
+      "name": "pt_vocative_yes",
+      "confidence": 0.8069514632225037
+    }
+  },
+  {
+    "text": "com certeza que não!",
+    "intent": "pt_vocative_no",
+    "intent_prediction": {
+      "name": "pt_vocative_yes",
+      "confidence": 0.7402795553207397
+    }
+  },
+  {
+    "text": "Ajudaste-me obrigado",
+    "intent": "pt_vocative_thank_you",
+    "intent_prediction": {
+      "name": "pt_user_no_further_questions",
+      "confidence": 0.8523567914962769
+    }
+  },
+  {
+    "text": "Obrigada pela ajuda.",
+    "intent": "pt_vocative_thank_you",
+    "intent_prediction": {
+      "name": "pt_user_no_further_questions",
+      "confidence": 0.8476070165634155
+    }
+  },
+  {
+    "text": "Obrigado por sua ajuda!",
+    "intent": "pt_vocative_thank_you",
+    "intent_prediction": {
+      "name": "pt_user_no_further_questions",
+      "confidence": 0.6375769376754761
+    }
+  },
+  {
+    "text": "Obrigado por tudo.",
+    "intent": "pt_vocative_thank_you",
+    "intent_prediction": {
+      "name": "pt_user_no_further_questions",
+      "confidence": 0.5979613661766052
+    }
+  },
+  {
+    "text": "és muito atencioso.",
+    "intent": "pt_vocative_thank_you",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.6638131141662598
+    }
+  },
+  {
+    "text": "és muito prestável",
+    "intent": "pt_vocative_thank_you",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.9235585927963257
+    }
+  },
+  {
+    "text": "isso aí",
+    "intent": "pt_vocative_yes",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.4616595506668091
+    }
+  },
+  {
+    "text": "Posso tomar aspirina",
+    "intent": "pt_covid_ibuprofen",
+    "intent_prediction": {
+      "name": "pt_prevention_medicine",
+      "confidence": 0.45143353939056396
+    }
+  },
+  {
+    "text": "Situação de emergência em Portugal, até quando?",
+    "intent": "pt_state_emergency_end",
+    "intent_prediction": {
+      "name": "pt_covid_situation",
+      "confidence": 0.4555225372314453
+    }
+  },
+  {
+    "text": "hehe",
+    "intent": "pt_user_laugh",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.538321852684021
+    }
+  },
+  {
+    "text": "és engraçado",
+    "intent": "pt_user_laugh",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.5281594395637512
+    }
+  }
+]
