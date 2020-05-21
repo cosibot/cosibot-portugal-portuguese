@@ -457,17 +457,47 @@
 
 <!-- NEW STORIES -->
 
-## no entity covid_situation path
+## no entity pt_covid_situation path
 * pt_covid_situation
   - utter_pt_no_entity_give_options
 
-## no entity covid_situation_recovered path
+## no entity pt_covid_situation_recovered path
 * pt_covid_situation_recovered
   - action_save_intent
   - form{"name": "country_stats_form"}
   - form{"name": null}
 
-## happy stats_form path
+## no entity pt_covid_situation_deaths path
+* pt_covid_situation_deaths
+  - action_save_intent
+  - form{"name": "country_stats_form"}
+  - form{"name": null}
+
+## no entity pt_covid_situation_infected path
+* pt_covid_situation_infected
+  - action_save_intent
+  - form{"name": "country_stats_form"}
+  - form{"name": null}
+
+## no entity pt_covid_situation_infected_critical path
+* pt_covid_situation_infected_critical
+  - action_save_intent
+  - form{"name": "country_stats_form"}
+  - form{"name": null}
+
+## no entity pt_covid_situation_last_update path
+* pt_covid_situation_last_update
+  - action_save_intent
+  - form{"name": "country_stats_form"}
+  - form{"name": null}
+
+## no entity pt_covid_situation_tested path
+* pt_covid_situation_last_update
+  - action_save_intent
+  - form{"name": "country_stats_form"}
+  - form{"name": null}
+
+## happy stats_form country pt_covid_situation path
 * pt_covid_situation{"pt_country_code": "Polónia"}
   - action_save_intent
   - country_stats_form
@@ -484,8 +514,8 @@
 
   - form{"name": null}
   - utter_pt_vocative_you_welcome -->
-## generated story unhappy path
-* pt_covid_situation_infected_critical{"pt_country_code": "Suécia"}
+## generated story unhappy country pt_covid_situation path
+* pt_covid_situation{"pt_country_code": "Suécia"}
     - action_save_intent
     <!-- - slot{"user_intent": "pt_covid_situation_infected_critical"} -->
     - country_stats_form
@@ -514,7 +544,7 @@
     <!-- - slot{"requested_slot": null} -->
     <!-- - utter_pt_covid_situation_infected_critical -->
 
-## unhappy stats_form path #2
+## unhappy stats_form pt_covid_situation path #2
 * pt_covid_situation{"pt_country_code": "França"}
   - action_save_intent
   - country_stats_form
@@ -523,13 +553,176 @@
   - form{"name": null}
   - utter_pt_vocative_you_welcome
 
-## happy recovered stats_form path
+## happy stats_form pt_covid_situation_recovered path
 * pt_covid_situation_recovered{"pt_country_code": "Itália"}
   - action_save_intent
   - country_stats_form
   - form{"name": "country_stats_form"}
   - form{"name": null}
   <!-- - utter_pt_covid_situation_recovered -->
+
+## generated story unhappy country pt_covid_situation_recovered path
+* pt_covid_situation_recovered{"pt_country_code": "Suécia"}
+    - action_save_intent
+    - country_stats_form
+    - form{"name": "country_stats_form"}
+* pt_vocative_no
+    - utter_ask_pt_country_code
+    - action_listen
+* form: pt_country{"pt_country_code": "Suécia"}
+    - country_stats_form
+    - form{"name": null}
+
+## unhappy stats_form pt_covid_situation_recovered path #2
+* pt_covid_situation_recovered{"pt_country_code": "França"}
+  - action_save_intent
+  - country_stats_form
+  - form{"name": "country_stats_form"}
+* pt_bot_stop 
+  - form{"name": null}
+  - utter_pt_vocative_you_welcome
+
+## happy stats_form pt_covid_situation_deaths path
+* pt_covid_situation_deaths{"pt_country_code": "Itália"}
+  - action_save_intent
+  - country_stats_form
+  - form{"name": "country_stats_form"}
+  - form{"name": null}
+
+## generated story unhappy country pt_covid_situation_deaths path
+* pt_covid_situation_deaths{"pt_country_code": "Suécia"}
+    - action_save_intent
+    - country_stats_form
+    - form{"name": "country_stats_form"}
+* pt_vocative_no
+    - utter_ask_pt_country_code
+    - action_listen
+* form: pt_country{"pt_country_code": "Suécia"}
+    - country_stats_form
+    - form{"name": null}
+
+## unhappy stats_form pt_covid_situation_deaths path #2
+* pt_covid_situation_deaths{"pt_country_code": "França"}
+  - action_save_intent
+  - country_stats_form
+  - form{"name": "country_stats_form"}
+* pt_bot_stop 
+  - form{"name": null}
+  - utter_pt_vocative_you_welcome
+
+## happy stats_form pt_covid_situation_infected path
+* pt_covid_situation_infected{"pt_country_code": "Itália"}
+  - action_save_intent
+  - country_stats_form
+  - form{"name": "country_stats_form"}
+  - form{"name": null}
+
+## generated story unhappy country pt_covid_situation_infected path
+* pt_covid_situation_infected{"pt_country_code": "Suécia"}
+    - action_save_intent
+    - country_stats_form
+    - form{"name": "country_stats_form"}
+* pt_vocative_no
+    - utter_ask_pt_country_code
+    - action_listen
+* form: pt_country{"pt_country_code": "Suécia"}
+    - country_stats_form
+    - form{"name": null}
+
+## unhappy stats_form pt_covid_situation_infected path #2
+* pt_covid_situation_infected{"pt_country_code": "França"}
+  - action_save_intent
+  - country_stats_form
+  - form{"name": "country_stats_form"}
+* pt_bot_stop 
+  - form{"name": null}
+  - utter_pt_vocative_you_welcome
+
+## happy stats_form pt_covid_situation_infected_critical path
+* pt_covid_situation_infected_critical{"pt_country_code": "Itália"}
+  - action_save_intent
+  - country_stats_form
+  - form{"name": "country_stats_form"}
+  - form{"name": null}
+
+## generated story unhappy country pt_covid_situation_infected_critical path
+* pt_covid_situation_infected_critical{"pt_country_code": "Suécia"}
+    - action_save_intent
+    - country_stats_form
+    - form{"name": "country_stats_form"}
+* pt_vocative_no
+    - utter_ask_pt_country_code
+    - action_listen
+* form: pt_country{"pt_country_code": "Suécia"}
+    - country_stats_form
+    - form{"name": null}
+
+## unhappy stats_form pt_covid_situation_infected_critical path #2
+* pt_covid_situation_infected_critical{"pt_country_code": "França"}
+  - action_save_intent
+  - country_stats_form
+  - form{"name": "country_stats_form"}
+* pt_bot_stop 
+  - form{"name": null}
+  - utter_pt_vocative_you_welcome
+
+
+## happy stats_form pt_covid_situation_last_update path
+* pt_covid_situation_last_update{"pt_country_code": "Itália"}
+  - action_save_intent
+  - country_stats_form
+  - form{"name": "country_stats_form"}
+  - form{"name": null}
+
+## generated story unhappy country pt_covid_situation_last_update path
+* pt_covid_situation_last_update{"pt_country_code": "Suécia"}
+    - action_save_intent
+    - country_stats_form
+    - form{"name": "country_stats_form"}
+* pt_vocative_no
+    - utter_ask_pt_country_code
+    - action_listen
+* form: pt_country{"pt_country_code": "Suécia"}
+    - country_stats_form
+    - form{"name": null}
+
+## unhappy stats_form pt_covid_situation_last_update path #2
+* pt_covid_situation_last_update{"pt_country_code": "França"}
+  - action_save_intent
+  - country_stats_form
+  - form{"name": "country_stats_form"}
+* pt_bot_stop 
+  - form{"name": null}
+  - utter_pt_vocative_you_welcome
+
+## happy stats_form pt_covid_situation_tested path
+* pt_covid_situation_tested{"pt_country_code": "Itália"}
+  - action_save_intent
+  - country_stats_form
+  - form{"name": "country_stats_form"}
+  - form{"name": null}
+
+## generated story unhappy country pt_covid_situation_tested path
+* pt_covid_situation_tested{"pt_country_code": "Suécia"}
+    - action_save_intent
+    - country_stats_form
+    - form{"name": "country_stats_form"}
+* pt_vocative_no
+    - utter_ask_pt_country_code
+    - action_listen
+* form: pt_country{"pt_country_code": "Suécia"}
+    - country_stats_form
+    - form{"name": null}
+
+## unhappy stats_form pt_covid_situation_tested path #2
+* pt_covid_situation_testedaQÇº++++++++++++++++++++++++++5&
+{"pt_country_code": "França"}
+  - action_save_intent
+  - country_stats_form
+  - form{"name": "country_stats_form"}
+* pt_bot_stop 
+  - form{"name": null}
+  - utter_pt_vocative_you_welcome
 
 <!-- REGION STATS -->
 
