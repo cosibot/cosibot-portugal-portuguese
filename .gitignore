@@ -1,3 +1,15 @@
+# Bot files
+bot/models
+<<<<<<< HEAD
+bot/results
+
+# vs code 
+=======
+
+# VS code 
+>>>>>>> policy_only_custom_buttons
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -135,3 +147,4 @@ bot/models/
 scripts/node_modules/
 scripts/package-lock.json
 scripts/output/
+bot/story_graph.dot

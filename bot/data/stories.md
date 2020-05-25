@@ -1,3 +1,12 @@
+## start
+* start{"bot_introduced": "False"}
+  - action_check_Bot_Introduced
+  - utter_pt_welcome
+
+## start
+* start{"bot_introduced": "True"}
+  - utter_pt_greeting_hello
+
 ## pt_bot_appearance
 * pt_bot_appearance
   - utter_pt_bot_appearance
@@ -200,11 +209,15 @@
 
 ## pt_features_date
 * pt_features_date
-  - utter_pt_features_date
+  - action_get_date
 
 ## pt_features_time
 * pt_features_time
-  - utter_pt_features_time
+  - action_get_time
+
+## pt_greeting_hello
+* pt_greeting_hello
+  - utter_pt_greeting_hello
 
 ## pt_greeting_goodbye
 * pt_greeting_goodbye
@@ -438,3 +451,666 @@
 * pt_vocative_you_welcome
   - utter_pt_vocative_you_welcome
 
+<!-- 
+GENERAL SITUATION 
+-->
+
+## pt_covid_situation_happy 
+* pt_covid_situation{"pt_country_code" : "Estados Unidos da América"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Estados Unidos da América"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation
+
+## pt_covid_situation_unhappy
+* pt_covid_situation{"pt_country_code": "Indonésia"}
+  - action_search_stats
+  - slot{"search_successful": "not-ok"}
+  - utter_pt_covid_current_statistics
+
+## pt_covid_situation_unhappy_with_country
+* pt_covid_situation{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation
+
+## pt_covid_situation_unhappy_inexistent_country
+* pt_covid_situation{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "inexistent-country"}
+  - utter_pt_covid_no_country_current_statistics
+
+## pt_covid_situation_unhappy_with_dashboard
+* pt_covid_situation{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "False"}
+  - utter_pt_want_to_add_country
+* pt_vocative_no
+  - utter_pt_covid_current_statistics
+
+<!-- 
+DEATHS
+-->
+
+## pt_covid_situation_deaths_happy
+* pt_covid_situation_deaths{"pt_country_code":"Suécia"}
+  - action_search_stats
+  - slot{"search_successful": "True"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Suécia"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_deaths
+
+## pt_covid_situation_deaths_unhappy
+* pt_covid_situation_deaths{"pt_country_code": "Indonésia"}
+  - action_search_stats
+  - slot{"search_successful": "not-ok"}
+  - utter_pt_covid_current_statistics
+
+## pt_covid_situation_deaths_unhappy_with_country
+* pt_covid_situation_deaths{"pt_country_code":"Suécia"}
+  - action_search_stats
+  - slot{"search_successful": "False"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code":"Suécia"}
+  - action_search_stats
+  - slot{"search_successful": "True"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Suécia"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_deaths
+
+## pt_covid_situation_deaths_unhappy_inexistent_country
+* pt_covid_situation_deaths{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "inexistent-country"}
+  - utter_pt_covid_no_country_current_statistics
+
+## pt_covid_situation_deaths_unhappy_with_dashboard
+* pt_covid_situation_deaths{"pt_country_code" : "Suécia"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_no
+  - utter_pt_covid_current_statistics
+
+<!-- 
+INFECTED
+-->
+
+## pt_covid_situation_infected_happy
+* pt_covid_situation_infected{"pt_country_code":"Itália"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Itália"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_infected
+
+## pt_covid_situation_infected_unhappy
+* pt_covid_situation_infected{"pt_country_code": "Indonésia"}
+  - action_search_stats
+  - slot{"search_successful": "not-ok"}
+  - utter_pt_covid_current_statistics
+
+## pt_covid_situation_infected_unhappy_with_country
+* pt_covid_situation_infected{"pt_country_code":"Itália"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code":"Itália"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Itália"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_infected
+
+## pt_covid_situation_infected_unhappy_inexistent_country
+* pt_covid_situation_infected{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "inexistent-country"}
+  - utter_pt_covid_no_country_current_statistics
+
+## pt_covid_situation_infected_unhappy_with_dashboard
+* pt_covid_situation_infected{"pt_country_code" : "Itália"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_no
+  - utter_pt_covid_current_statistics
+
+<!-- 
+INFECTED CRITICAL
+-->
+
+## pt_covid_situation_infected_critical_happy
+* pt_covid_situation_infected_critical{"pt_country_code":"Espanha"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Espanha"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_infected_critical
+
+## pt_covid_situation_infected_critical_unhappy
+* pt_covid_situation_infected_critical{"pt_country_code": "Indonésia"}
+  - action_search_stats
+  - slot{"search_successful": "not-ok"}
+  - utter_pt_covid_current_statistics
+
+## pt_covid_situation_infected_critical_unhappy_with_country
+* pt_covid_situation_infected_critical{"pt_country_code":"Espanha"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code":"Espanha"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Espanha"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_infected_critical
+
+## pt_covid_situation_infected_critical_unhappy_inexistent_country
+* pt_covid_situation_infected_critical{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "inexistent-country"}
+  - utter_pt_covid_no_country_current_statistics
+
+## pt_covid_situation_infected_critical_unhappy_with_dashboard
+* pt_covid_situation_infected_critical{"pt_country_code" : "Itália"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_no
+  - utter_pt_covid_current_statistics
+
+<!-- 
+LAST UPDATE 
+-->
+
+## pt_covid_situation_last_update_happy
+* pt_covid_situation_last_update{"pt_country_code":"Inglaterra"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Inglaterra"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "14302"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_last_update
+
+## pt_covid_situation_last_update_unhappy
+* pt_covid_situation_last_update{"pt_country_code": "Indonésia"}
+  - action_search_stats
+  - slot{"search_successful": "not-ok"}
+  - utter_pt_covid_current_statistics
+
+## pt_covid_situation_last_update_unhappy_with_country
+* pt_covid_situation_last_update{"pt_country_code":"Inglaterra"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code":"Inglaterra"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Inglaterra"}
+  - slot{"new_cases": "987"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_last_update
+
+## pt_covid_situation_last_update_unhappy_inexistent_country
+* pt_covid_situation_last_update{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "inexistent-country"}
+  - utter_pt_covid_no_country_current_statistics
+
+## pt_covid_situation_last_update_unhappy_with_dashboard
+* pt_covid_situation_last_update{"pt_country_code" : "Inglaterra"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_no
+  - utter_pt_covid_current_statistics
+
+<!-- 
+SITUATION RECOVERED
+-->
+
+## pt_covid_situation_recovered_happy
+* pt_covid_situation_recovered{"pt_country_code":"Alemanha"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Alemanha"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_recovered
+
+## pt_covid_situation_recovered_unhappy
+* pt_covid_situation_recovered{"pt_country_code": "Indonésia"}
+  - action_search_stats
+  - slot{"search_successful": "not-ok"}
+  - utter_pt_covid_current_statistics
+
+## pt_covid_situation_recovered_unhappy_with_country
+* pt_covid_situation_recovered{"pt_country_code":"Alemanha"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code":"Alemanha"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Alemanha"}
+  - slot{"new_cases": "987"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_recovered
+
+## pt_covid_situation_recovered_unhappy_inexistent_country
+* pt_covid_situation_recovered{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "inexistent-country"}
+  - utter_pt_covid_no_country_current_statistics
+
+## pt_covid_situation_recovered_unhappy_with_dashboard
+* pt_covid_situation_recovered{"pt_country_code" : "Inglaterra"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_no
+  - utter_pt_covid_current_statistics
+
+<!-- 
+TESTED
+-->
+
+## pt_covid_situation_tested_happy
+* pt_covid_situation_tested{"pt_country_code":"Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_tested
+
+## pt_covid_situation_tested_unhappy
+* pt_covid_situation_tested{"pt_country_code": "Indonésia"}
+  - action_search_stats
+  - slot{"search_successful": "not-ok"}
+  - utter_pt_covid_current_statistics
+
+## pt_covid_situation_tested_happy
+* pt_covid_situation_tested{"pt_country_code":"Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code":"Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"new_cases": "987"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation_tested
+
+## pt_covid_situation_tested_unhappy_inexistent_country
+* pt_covid_situation_tested{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "inexistent-country"}
+  - utter_pt_covid_no_country_current_statistics
+
+## pt_covid_situation_tested_unhappy_with_dashboard
+* pt_covid_situation_tested{"pt_country_code" : "Inglaterra"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_pt_want_to_add_country
+* pt_vocative_no
+  - utter_pt_covid_current_statistics
+
+## pt_change_bot
+* pt_bot_change_bot{"preferred_lang": "Cosibot Inglês"}
+  - action_change_preferred_language
+  - slot{"preferred_lang": "de"}
+  - utter_pt_command_change_bot
+
+## pt_news_request
+* pt_news_request
+  - action_get_news_request
+
+## pt_covid_situation_infected_municipal_notOk
+* pt_covid_situation_infected{"pt_country_municipal":"Lisboa"}
+  - action_search_stats_municipal
+  - slot{"country_municipal_search_successful": "not-ok"}
+  - utter_country_municipal_nodata
+* pt_vocative_yes
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation
+
+## pt_covid_situation_infected_municipal_empty
+* pt_covid_situation_infected{"pt_country_municipal":"Lisboa"}
+  - action_search_stats_municipal
+  - slot{"country_municipal_search_successful": "not-ok"}
+  - utter_country_municipal_nodata
+* pt_vocative_yes
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation
+
+## pt_covid_situation_infected_municipal_empty2
+* pt_covid_situation_last_update{"pt_country_municipal": "Abrantes"}
+    - action_search_stats_municipal
+    - slot{"country_municipal_search_successful": "ok"}
+    - slot{"country_municipal": "Abrantes"}
+    - slot{"country_municipal_confirmed_accum": 8}
+    - utter_country_municipal_hasdata
+* pt_covid_situation_last_update{"pt_country_municipal": "Ribeira Brava"}
+    - action_search_stats_municipal
+    - slot{"country_municipal_search_successful": "empty"}
+    - slot{"country_municipal": "Ribeira Brava"}
+    - slot{"pt_country_code": "PT"}
+    - utter_country_municipal_nodata
+* pt_vocative_yes
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"country": "Portugal"}
+    - slot{"active_cases": 23775}
+    - slot{"new_cases": 0}
+    - slot{"total_cases": 28132}
+    - slot{"total_recovered": 3182}
+    - slot{"total_deaths": 1175}
+    - slot{"total_tests": 566172}
+    - slot{"new_deaths": 0}
+    - slot{"total_infected_critical": 103}
+    - utter_pt_covid_situation
+
+## pt_covid_situation_infected_municipal_notOk
+* pt_covid_situation_infected{"pt_country_municipal":"Lisboa"}
+  - action_search_stats_municipal
+  - slot{"country_municipal_search_successful": "not-ok"}
+  - utter_country_municipal_nodata
+* pt_vocative_no
+  - utter_pt_further_questions
+
+## pt_covid_situation_infected_municipal_empty
+* pt_covid_situation_infected{"pt_country_municipal":"Lisboa"}
+  - action_search_stats_municipal
+  - slot{"country_municipal_search_successful": "not-ok"}
+  - utter_country_municipal_nodata
+* pt_vocative_no
+  - utter_pt_further_questions
+
+
+## pt_covid_situation_infected_municipa2
+* pt_covid_situation_last_update{"pt_country_municipal": "Salvaterra de Magos"}
+    - action_search_stats_municipal
+    - slot{"country_municipal_search_successful": "ok"}
+    - slot{"country_municipal": "Salvaterra de Magos"}
+    - slot{"country_municipal_confirmed_accum": 10}
+    - utter_country_municipal_hasdata
+
+    ## pt_covid_situation_infected_region_notOk
+* pt_covid_situation_infected{"pt_country_region":"Norte"}
+  - action_search_stats_region
+  - slot{"country_region_search_successful": "not-ok"}
+  - utter_country_municipal_nodata
+* pt_vocative_yes
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation
+
+## pt_covid_situation_infected_region_empty
+* pt_covid_situation_infected{"pt_country_region":"Lisboa"}
+  - action_search_stats_region
+  - slot{"country_region_search_successful": "not-ok"}
+  - utter_country_municipal_nodata
+* pt_vocative_yes
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation
+
+## pt_covid_situation_infected_region_empty2
+* pt_covid_situation_last_update{"pt_country_region": "Centro"}
+    - action_search_stats_region
+    - slot{"country_region_search_successful": "ok"}
+    - slot{"country_region": "Centro"}
+    - slot{"country_region_confirmed_accum": 8}
+    - utter_country_region_hasdata
+* pt_covid_situation_last_update{"pt_country_region": "Algarve"}
+    - action_search_stats_region
+    - slot{"country_region_search_successful": "empty"}
+    - slot{"country_region": "Algarve"}
+    - slot{"pt_country_code": "PT"}
+    - utter_country_municipal_nodata
+* pt_vocative_yes
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"country": "Portugal"}
+    - slot{"active_cases": 23775}
+    - slot{"new_cases": 0}
+    - slot{"total_cases": 28132}
+    - slot{"total_recovered": 3182}
+    - slot{"total_deaths": 1175}
+    - slot{"total_tests": 566172}
+    - slot{"new_deaths": 0}
+    - slot{"total_infected_critical": 103}
+    - utter_pt_covid_situation
+
+## pt_covid_situation_infected_region_notOk
+* pt_covid_situation_infected{"pt_country_region":"Alentejo"}
+  - action_search_stats_region
+  - slot{"country_region_search_successful": "not-ok"}
+  - utter_country_municipal_nodata
+* pt_vocative_no
+  - utter_pt_further_questions
+
+## pt_covid_situation_infected_region_empty
+* pt_covid_situation_infected{"pt_country_region":"Lisboa"}
+  - action_search_stats_region
+  - slot{"country_region_search_successful": "not-ok"}
+  - utter_country_municipal_nodata
+* pt_vocative_no
+  - utter_pt_further_questions
+
+
+## pt_covid_situation_infected_region2
+* pt_covid_situation_last_update{"pt_country_region": "Ilha da Madeira"}
+    - action_search_stats_municipal
+    - slot{"country_municipal_search_successful": "ok"}
+    - slot{"country_municipal": "Madeira"}
+    - slot{"country_municipal_confirmed_accum": 10}
+    - utter_country_region_hasdata
+
+
+## pt_covid_situation_region_municipal_country_mixed
+* pt_covid_situation{"pt_country_municipal": "Ribeira Brava"}
+    - slot{"pt_country_municipal": "Ribeira Brava"}
+    - action_search_stats_municipal
+    - slot{"country_municipal_search_successful": "empty"}
+    - slot{"country_municipal": "Ribeira Brava"}
+    - slot{"pt_country_code": "PT"}
+    - utter_country_municipal_nodata
+* pt_vocative_yes
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"country": "Portugal"}
+    - slot{"active_cases": 23937}
+    - slot{"new_cases": 0}
+    - slot{"total_cases": 28319}
+    - slot{"total_recovered": 3198}
+    - slot{"total_deaths": 1184}
+    - slot{"total_tests": 600061}
+    - slot{"new_deaths": 0}
+    - slot{"total_infected_critical": 108}
+    - utter_pt_covid_situation
+* pt_covid_situation{"pt_country_region": "Centro"}
+    - slot{"pt_country_region": "Centro"}
+    - action_search_stats_region
+    - slot{"country_region_search_successful": "ok"}
+    - slot{"country_region": "Centro"}
+    - slot{"country_region_confirmed_accum": 3569}
+    - utter_country_region_hasdata

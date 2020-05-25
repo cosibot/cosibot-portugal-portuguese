@@ -2,6 +2,7 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: "pt"  # your two-letter language code
 pipeline:
+  # - name: language_detection.lang_detect_component.CustomLangDetect
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
@@ -19,8 +20,23 @@ pipeline:
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
+  #- name: "KerasPolicy"
+  #  featurizer:
+  #  - name: MaxHistoryTrackerFeaturizer
+  #    max_history: 10
+  #    state_featurizer:
+  #      - name: BinarySingleStateFeaturizer
   - name: MemoizationPolicy
+    max_history: 20
   - name: TEDPolicy
-    max_history: 5
+    max_history: 20
     epochs: 100
   - name: MappingPolicy
+  - name: "FallbackPolicy"
+    nlu_threshold: 0.4
+    core_threshold: 0.3
+    fallback_action_name: "action_default_fallback"
+  - name: language_detection.lang_change_policy.LangChangePolicy
+    lang_detect_threshold: 0.7
+    fallback_action_name: 'utter_pt_bot_languages'
+    model_path: "./language_detection/lid.176.ftz"

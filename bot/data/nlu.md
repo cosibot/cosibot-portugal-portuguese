@@ -1,3 +1,18 @@
+## intent:start
+- /start
+- /start
+- /start_conversation
+- /start_chat
+- get started
+
+## intent:pt_bot_change_bot
+- [Cosibot Alemão](preferred_lang:de_lang)
+- [Cosibot Inglês](preferred_lang:en_lang)
+
+<!-- ## intent:pt_bot_change_bot
+- Cosibot Alemão
+- Cosibot Inglês -->
+
 ## intent:pt_bot_appearance
 - Achas-te atraente?
 - Atraente?
@@ -351,12 +366,12 @@
 - Em que línguas és capaz de falar?
 - Em que línguas és fluente?
 - Estás a aprender línguas?
-- Falas Português?
-- Falas alemão?
-- Falas em inglês?
-- Falas espanhol?
-- Falas francês?
-- Falas inglês?
+- Falas [Português](language)?
+- Falas [alemão](language)?
+- Falas em [inglês](language)?
+- Falas [espanhol](language)?
+- Falas [francês](language)?
+- Falas [inglês](language)?
 - Gostas de idiomas?
 - Outra língua.
 - Outro idioma.
@@ -375,7 +390,7 @@
 - Que idiomas és capaz de falar?
 - Que línguas falas?
 - Sobre idiomas.
-- és capaz de me responder em alemão?
+- és capaz de me responder em [alemão](language)?
 
 ## intent:pt_bot_movies
 - Aprecias algum filme?
@@ -1012,50 +1027,50 @@
 - Tu sabes fatos interessantes?
 
 ## intent:pt_cc_geography
-- A Holanda tem montanhas?
+- A [Holanda](pt_country_code:NL) tem montanhas?
 - América é um continente?
-- Conheces Itália?
-- Conheces Lisboa?
-- Conta-me coisa sobre a Itália
-- Croácia é um bom sítio para visitar?
+- Conheces [Itália](pt_country_code:IT)?
+- Conheces [Lisboa](pt_country_municipal:Lisboa)?
+- Conta-me coisa sobre a [Itália](pt_country_code:IT)
+- [Croácia](pt_country_code:HR) é um bom sítio para visitar?
 - Diz-me o número de continentes
-- Escócia fica no Reino Unido?
-- Estás em Macau?
+- [Escócia](pt_country_code:GB) fica no Reino Unido?
+- Estás em [Macau](pt_country_code:MO)?
 - Europa é um continente?
 - Há quantos continentes
-- Já estiveste em Espanha?
+- Já estiveste em [Espanha](pt_country_code:ES)?
 - Madeira é uma ilha?
 - O mundo tem quantos continentes?
-- O que me consegues dizer sobre a Alemanha?
+- O que me consegues dizer sobre a [Alemanha](pt_country_code:DE)?
 - O que me consegues dizer sobre a Europa?
-- O que me consegues dizer sobre a Inglaterra?
-- O que sabes sobre a Inglaterra?
+- O que me consegues dizer sobre a [Inglaterra](pt_country_code:GB)?
+- O que sabes sobre a [Inglaterra](pt_country_code:GB)?
 - O que sabes sobre geografia?
 - O que é Valência?
-- Onde fica a Alemanha
+- Onde fica a [Alemanha](pt_country_code:DE)
 - Onde fica a América
-- Onde fica a Inglaterra
-- Onde fica a Itália
-- Onde fica Évora
+- Onde fica a [Inglaterra](pt_country_code:GB)
+- Onde fica a [Itália](pt_country_code:IT)
+- Onde fica [Évora](pt_country_municipal:Évora)
 - Onde ficam os Alpes?
 - Onde ficam os Himalaias?
 - Onde são os Himalaias?
-- Onde é Braga?
+- Onde é [Braga](pt_country_municipal:Braga)?
 - Quantos países há no mundo?
 - Quantos países tem a Europa?
 - Quantos países tem o mundo?
-- Que montanhas há na Alemanha?
-- Que rios há em Portugal?
-- Que rios há nos Estados Unidos da América?
+- Que montanhas há na [Alemanha](pt_country_code:DE)?
+- Que rios há em [Portugal](pt_country_code:PT)?
+- Que rios há nos [Estados Unidos da América](pt_country_code:US)?
 - Sabes alguma coisa de geografia?
 - Sabes alguma coisa sobre geografia?
-- Sabes onde fica a França?
-- Sabes onde fica a Itália?
+- Sabes onde fica a [França](pt_country_code:FR)?
+- Sabes onde fica a [Itália](pt_country_code:IT)?
 - Sabes onde ficam os Himalaias?
-- Tens uma estrada para a Bélgica?
-- conta-me coisa sobre madrid
-- conta-me coisa sobre o Nepal
-- onde fica a Zimbabué
+- Tens uma estrada para a [Bélgica](pt_country_code:BE)?
+- conta-me coisa sobre Madrid
+- conta-me coisa sobre o [Nepal](pt_country_code:NP)
+- onde fica a [Zimbabué](pt_country_code:ZW)
 
 ## intent:pt_cc_highest_building
 - Edifício mais alto na terra
@@ -1583,7 +1598,7 @@
 - Porque é que Deus não cura todos?
 - Porque é que Deus não se mostra?
 - Porque é que Deus odeia o pecado?
-- Porque é que Deus permite a doença?
+- Porque é que Deus permite a [doença](pt_virus:COVID)?
 - Porque é que Deus é tão violento no antigo testamento?
 - Porque é que acreditas em algo que não podes ver?
 - Porque é que coisas más acontecem a coisas boas?
@@ -2020,73 +2035,73 @@
 - És tão sábio
 
 ## intent:pt_coronavirus_info
-- About coronavirus
-- About coronaviruses
-- I don’t know what are coronaviruses
-- I don’t know what is a coronavirus
-- I don’t know what is coronavirus
-- Info on coronavirus
-- Info on coronaviruses
-- O que são coronavirus?
-- O que são os coronavirus?
-- O que é o vírus?
-- O que é p coronavirus
-- O que é um coronavirus?
-- Que mais sabes sobre o coronavírus?
-- Que sabes sobre o Coronavírus?
-- Tell me more about coronavirus
-- Tell me more about coronaviruses
-- Tell me what are coronaviruses
-- Tell me what is a coronavirus
-- Tell me what is coronavirus
-- What are coronaviruses
-- What is a coronavirus
-- coronavirus
-- coronavirus info
-- coronavirus information
-- coronaviruses
-- coronaviruses info
-- coronaviruses information
-- info about coronavirus
-- info about coronaviruses
-- information about coronavirus
-- information about coronaviruses
-- information on coronavirus
-- information on coronaviruses
-- o que é o coronavirus?
-- que é o coronavirus
-- virus
-- what about coronavirus
-- what about coronaviruses
-- what is coronavirus
+- About [coronavirus](pt_virus:COVID)
+- About [coronaviruses](pt_virus:COVID)
+- I don’t know what are [coronaviruses](pt_virus:COVID)
+- I don’t know what is a [coronavirus](pt_virus:COVID)
+- I don’t know what is [coronavirus](pt_virus:COVID)
+- Info on [coronavirus](pt_virus:COVID)
+- Info on [coronaviruses](pt_virus:COVID)
+- O que são [coronavirus](pt_virus:COVID)?
+- O que são os [coronavirus](pt_virus:COVID)?
+- O que é o [vírus](pt_virus:COVID)?
+- O que é p [coronavirus](pt_virus:COVID)
+- O que é um [coronavirus](pt_virus:COVID)?
+- Que mais sabes sobre o [coronavírus](pt_virus:COVID)?
+- Que sabes sobre o [coronavírus](pt_virus:COVID)?
+- Tell me more about [coronavirus](pt_virus:COVID)
+- Tell me more about [coronaviruses](pt_virus:COVID)
+- Tell me what are [coronaviruses](pt_virus:COVID)
+- Tell me what is a [coronavirus](pt_virus:COVID)
+- Tell me what is [coronavirus](pt_virus:COVID)
+- What are [coronaviruses](pt_virus:COVID)
+- What is a [coronavirus](pt_virus:COVID)
+- [coronavirus](pt_virus:COVID)
+- [coronavirus](pt_virus:COVID) info
+- [coronavirus](pt_virus:COVID) information
+- [coronaviruses](pt_virus:COVID)
+- [coronaviruses](pt_virus:COVID) info
+- [coronaviruses](pt_virus:COVID) information
+- info about [coronavirus](pt_virus:COVID)
+- info about [coronaviruses](pt_virus:COVID)
+- information about [coronavirus](pt_virus:COVID)
+- information about [coronaviruses](pt_virus:COVID)
+- information on [coronavirus](pt_virus:COVID)
+- information on [coronaviruses](pt_virus:COVID)
+- o que é o [coronavirus](pt_virus:COVID)?
+- que é o [coronavirus](pt_virus:COVID)
+- [virus](pt_virus:COVID)
+- what about [coronavirus](pt_virus:COVID)
+- what about [coronaviruses](pt_virus:COVID)
+- what is [coronavirus](pt_virus:COVID)
 
 ## intent:pt_covid_aftereffects_immunity
-- As pessoas que já se curaram do covid podem vir a te lo novamente?
+- As pessoas que já se curaram do [covid](pt_virus:COVID) podem vir a te lo novamente?
 - Depois de recuperar as pessoas ficam imunes?
-- Depois de recuperar do coronavirus as pessoas ficam imunes?
-- Depois de ter sido infectado fico imune ao vírus?
+- Depois de recuperar do [coronavirus](pt_virus:COVID) as pessoas ficam imunes?
+- Depois de ter sido infectado fico imune ao [vírus](pt_virus:COVID)?
 - Imunidade
 - Os doentes tratados ficam imunizados?
 - Os doentes tratados podem ser novamente infetados?
-- Uma pessoa infectada com coronavirus fica imune?
+- Uma pessoa infectada com [coronavirus](pt_virus:COVID) fica imune?
 - Uma pessoa infectada fica imune?
-- depois de ser infectado estou imune o vírus?
-- depois de ser infetado estou imune à doença?
+- depois de ser infectado estou imune o [vírus](pt_virus:COVID)?
+- depois de ser infetado estou imune à [doença](pt_virus:COVID)?
 
 ## intent:pt_covid_alike
-- Já houve algum surto com Coronavírus em anos anteriores?
-- Já houve algum surto como o COVID em anos anteriores?
+- Já houve algum surto com [coronavírus](pt_virus:COVID) em anos anteriores?
+- Já houve algum surto como o [covid](pt_virus:COVID) em anos anteriores?
 - Surtos semelhantes a esta pandemia
-- Surtos semelhantes ao coronavirus
-- Surtos semelhantes ao covid
+- Surtos semelhantes ao [coronavirus](pt_virus:COVID)
+- Surtos semelhantes ao [covid](pt_virus:COVID)
 
 ## intent:pt_covid_babys_children
 - As crianças podem infectar as pessoas?
-- As crianças podem transmitir a doença?
-- As crianças podem transmitir a infeção e doença por COVID-19?
-- As crianças transmitem a doença?
-- Os bebés podem transmitir a doença?
-- Os bebés transmitem a doença?
+- As crianças podem transmitir a [doença](pt_virus:COVID)?
+- As crianças podem transmitir a infeção e [doença](pt_virus:COVID) por [COVID-19](pt_virus:COVID)?
+- As crianças transmitem a [doença](pt_virus:COVID)?
+- Os bebés podem transmitir a [doença](pt_virus:COVID)?
+- Os bebés transmitem a [doença](pt_virus:COVID)?
 
 ## intent:pt_covid_close_contact
 - Contacto próximo
@@ -2104,7 +2119,7 @@
 - what is cosibot?
 
 ## intent:pt_covid_crisis_howlong
-- Acreditas que o vírus irá estagnar?
+- Acreditas que o [vírus](pt_virus:COVID) irá estagnar?
 - Quando é que esta crise vai a acabar?
 - Quando é que esta epidemia vai a acabar?
 - Quando é que isto vai a acabar?
@@ -2137,64 +2152,64 @@
 - Últimas notícias
 
 ## intent:pt_covid_duration
-- Depois dos primeiros sintomas, quanto tempo pode durar a doença?
+- Depois dos primeiros sintomas, quanto tempo pode durar a [doença](pt_virus:COVID)?
 - POsso ficar doente por quanto tempo?
 - Por quanto tempo posso ficar doente?
-- Quanto tempo pode durar a doença?
+- Quanto tempo pode durar a [doença](pt_virus:COVID)?
 - quanto tempo fico doente
 
 ## intent:pt_covid_incubation
-- 2019nCov incubation period.
+- [2019nCov](pt_virus:COVID) incubation period.
 - Diz-me período de incubação.
 - Duração estimada para o período de incubação?
 - Estimar o período de incubação do tempo.
-- Incubação do vírus?
+- Incubação do [vírus](pt_virus:COVID)?
 - Informações sobre o período de incubação.
-- Intervalo de incubação da doença.
-- Intervalo de incubação de coronavírus.
-- Intervalo de incubação do coronavírus.
-- Intervalo entre o contágio do vírus e o início dos sintomas.
-- Intervalo temporal entre a apanha do vírus e o início dos sintomas da doença.
+- Intervalo de incubação da [doença](pt_virus:COVID).
+- Intervalo de incubação de [coronavírus](pt_virus:COVID).
+- Intervalo de incubação do [coronavírus](pt_virus:COVID).
+- Intervalo entre o contágio do [vírus](pt_virus:COVID) e o início dos sintomas.
+- Intervalo temporal entre a apanha do [vírus](pt_virus:COVID) e o início dos sintomas da [doença](pt_virus:COVID).
 - No período de incubação.
 - O período de incubação.
 - O tempo até ao início dos sintomas após contágio.
 - O tempo até ao início dos sintomas.
-- O tempo entre a apanha do vírus e o início dos sintomas da doença.
-- O tempo entre a captura do vírus e o início dos sintomas da doença.
-- O tempo entre a captura do vírus e o início dos sintomas.
-- O tempo entre a captura e o início dos sintomas da doença.
+- O tempo entre a apanha do [vírus](pt_virus:COVID) e o início dos sintomas da [doença](pt_virus:COVID).
+- O tempo entre a captura do [vírus](pt_virus:COVID) e o início dos sintomas da [doença](pt_virus:COVID).
+- O tempo entre a captura do [vírus](pt_virus:COVID) e o início dos sintomas.
+- O tempo entre a captura e o início dos sintomas da [doença](pt_virus:COVID).
 - O tempo entre a captura e o início dos sintomas.
-- O tempo entre o contágio do vírus e o início dos sintomas.
-- Período de incubação 19-nCoV.
-- Período de incubação 19nCov.
-- Período de incubação 2019-nCoV.
-- Período de incubação 2019nCov.
-- Período de incubação COVID-19.
-- Período de incubação COVID-2019.
-- Período de incubação COVID.
-- Período de incubação COVID19.
-- Período de incubação COVID2019.
-- Período de incubação SARS-CoV-2.
-- Período de incubação SARS-CoV2.
-- Período de incubação SARSCoV-2.
-- Período de incubação SARSCoV2.
-- Período de incubação de 19-nCoV.
-- Período de incubação de 19nCov.
-- Período de incubação de SARS-CoV-2.
-- Período de incubação de SARS-CoV2.
-- Período de incubação de SARSCoV-2.
-- Período de incubação de SARSCoV2.
-- Período de incubação do COVID-19.
-- Período de incubação do COVID19.
-- Período de incubação do novo coronavírus?
-- Período de incubação do recente coronavírus.
-- Período de incubação do vírus.
-- Período de incubação novo coronavírus.
+- O tempo entre o contágio do [vírus](pt_virus:COVID) e o início dos sintomas.
+- Período de incubação [19-nCoV](pt_virus:COVID).
+- Período de incubação [19nCov](pt_virus:COVID).
+- Período de incubação [2019-nCoV](pt_virus:COVID).
+- Período de incubação [2019nCov](pt_virus:COVID).
+- Período de incubação [COVID-19](pt_virus:COVID).
+- Período de incubação [COVID-2019](pt_virus:COVID).
+- Período de incubação [covid](pt_virus:COVID).
+- Período de incubação [COVID19](pt_virus:COVID).
+- Período de incubação [COVID2019](pt_virus:COVID).
+- Período de incubação [SARS-Cov-2](pt_virus:COVID).
+- Período de incubação [SARS-CoV2](pt_virus:COVID).
+- Período de incubação [SARSCoV-2](pt_virus:COVID).
+- Período de incubação [SARSCoV2](pt_virus:COVID).
+- Período de incubação de [19-nCoV](pt_virus:COVID).
+- Período de incubação de [19nCov](pt_virus:COVID).
+- Período de incubação de [SARS-Cov-2](pt_virus:COVID).
+- Período de incubação de [SARS-CoV2](pt_virus:COVID).
+- Período de incubação de [SARSCoV-2](pt_virus:COVID).
+- Período de incubação de [SARSCoV2](pt_virus:COVID).
+- Período de incubação do [COVID-19](pt_virus:COVID).
+- Período de incubação do [COVID19](pt_virus:COVID).
+- Período de incubação do [novo coronavírus](pt_virus:COVID)?
+- Período de incubação do recente [coronavírus](pt_virus:COVID).
+- Período de incubação do [vírus](pt_virus:COVID).
+- Período de incubação [novo coronavírus](pt_virus:COVID).
 - Período de incubação.
 - Previsão temporal de incubação.
 - Previsão temporal do período de incubação.
 - Qual o periodo de incubação?
-- Qual o tempo de incubação do vírus?
+- Qual o tempo de incubação do [vírus](pt_virus:COVID)?
 - Qual é o periodo de incubação?
 - Qual é o tempo estimado da incubação?
 - Qual é o tempo estimado de incubação?
@@ -2202,492 +2217,492 @@
 - Qual é o tempo estimado para o período de incubação?
 - Quanto tempo até os sintomas aparecerem?
 - Quanto tempo até que os sintomas apareçam?
-- Quanto tempo dura o período de incubação 19-nCoV?
-- Quanto tempo dura o período de incubação 19nCov?
-- Quanto tempo dura o período de incubação 2019-nCoV?
-- Quanto tempo dura o período de incubação 2019nCov?
-- Quanto tempo dura o período de incubação COVID-19?
-- Quanto tempo dura o período de incubação COVID-2019?
-- Quanto tempo dura o período de incubação COVID19?
-- Quanto tempo dura o período de incubação COVID2019?
-- Quanto tempo dura o período de incubação COVID?
-- Quanto tempo dura o período de incubação SARS-CoV-2?
-- Quanto tempo dura o período de incubação SARS-CoV2?
-- Quanto tempo dura o período de incubação SARSCoV-2?
-- Quanto tempo dura o período de incubação SARSCoV2?
-- Quanto tempo dura o período de incubação da doença?
-- Quanto tempo dura o período de incubação de SARS-CoV-2?
-- Quanto tempo dura o período de incubação de SARS-CoV2?
-- Quanto tempo dura o período de incubação de SARSCoV2?
-- Quanto tempo dura o período de incubação do 19-nCoV?
-- Quanto tempo dura o período de incubação do 19nCov?
-- Quanto tempo dura o período de incubação do COVID-19?
-- Quanto tempo dura o período de incubação do COVID-2019?
-- Quanto tempo dura o período de incubação do COVID19?
-- Quanto tempo dura o período de incubação do COVID2019?
-- Quanto tempo dura o período de incubação do COVID?
-- Quanto tempo dura o período de incubação do SARSCoV-2?
-- Quanto tempo dura o período de incubação do novo coronavírus?
-- Quanto tempo dura o período de incubação do recente coronavírus?
-- Quanto tempo dura o período de incubação do vírus?
-- Quanto tempo dura o período de incubação para 2019-nCoV?
-- Quanto tempo dura o período de incubação para 2019nCov?
+- Quanto tempo dura o período de incubação [19-nCoV](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [19nCov](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [2019-nCoV](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [2019nCov](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [COVID-19](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [COVID-2019](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [COVID19](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [COVID2019](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [covid](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [SARS-Cov-2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [SARS-CoV2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [SARSCoV-2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [SARSCoV2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação da [doença](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação de [SARS-Cov-2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação de [SARS-CoV2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação de [SARSCoV2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [19-nCoV](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [19nCov](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [COVID-19](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [COVID-2019](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [COVID19](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [COVID2019](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [covid](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [SARSCoV-2](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [novo coronavírus](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do recente [coronavírus](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação do [vírus](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação para [2019-nCoV](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação para [2019nCov](pt_virus:COVID)?
 - Quanto tempo dura o período de incubação?
 - Quanto tempo leva até os sintomas?
 - Quanto é o tempo estimado do período de incubação?
 - Sobre o período de incubação.
 - Tempo estimado da estimativa do período de incubação.
 - Tempo estimado do período de incubação.
-- novo período de incubação de coronavírus.
-- novo período de incubação do coronavírus.
-- o período de incubação do vírus.
-- período de incubação da doença.
+- novo período de incubação de [coronavírus](pt_virus:COVID).
+- novo período de incubação do [coronavírus](pt_virus:COVID).
+- o período de incubação do [vírus](pt_virus:COVID).
+- período de incubação da [doença](pt_virus:COVID).
 - período de incubação estimado.
 - tempo estimado para o período de incubação.
 
 ## intent:pt_covid_info
-- 19-nCoV
-- 19-nCoV info
-- 19-nCoV informações
-- 19nCov
-- 19nCov info
-- 19nCov informações
-- 2019-nCoV
-- 2019-nCoV info
-- 2019nCov
-- 2019nCov info
-- 2019nCov informações
-- Atual coronavírus
-- COVID
-- COVID-19
-- COVID-19 info
-- COVID-2019
-- COVID-2019 mais info
-- COVID-2019 mais informação
-- COVID2019
-- COVID2019 info
-- Como começou o COVID-19
-- Conta acerca do 2019-nCoV
-- Conta do COVID
-- Conta mais sobre nCoV
-- Conta mais sobre o novo coronavírus
-- Conta-me info do nCoV
-- Conta-me mais sobre 2019nCov
-- Conta-me mais sobre o 19-nCoV
-- Conta-me mais sobre o 19nCov
-- Conta-me mais sobre o COVID-2019
-- Conte-me a respeito do COVID-19
-- Conte-me mais a respeito do COVID-19
-- Conte-me mais em relação ao 2019-nCoV
-- Conte-me mais sobre 19-nCoV
-- Conte-me mais sobre 19nCov
-- Conte-me mais sobre 2019-nCoV
-- Conte-me mais sobre 2019nCov
-- Conte-me mais sobre COVID
-- Conte-me mais sobre COVID2019
-- Conte-me mais sobre nCoV
-- Conte-me mais sobre o 19-nCoV
-- Conte-me mais sobre o 19nCov
-- Conte-me mais sobre o 2019-nCoV
-- Conte-me mais sobre o 2019nCov
-- Conte-me mais sobre o COVID
-- Conte-me mais sobre o COVID-19
-- Conte-me mais sobre o COVID-2019
-- Conte-me mais sobre o COVID2019
-- Conte-me mais sobre o nCoV
-- Conte-me mais sobre o novo coronavírus
-- Conte-me mais sobre o recente coronavírus
-- Corona
-- Dados sobre coronavírus
-- Dados sobre novos coronavírus
-- Detalhes do 2019-nCoV
-- Detalhes sobre 2019-nCoV
-- Detalhes sobre o COVID-19
-- Diga-me o que é 19-nCoV
-- Diga-me o que é 19nCov
-- Diga-me o que é 2019-nCoV
-- Diga-me o que é 2019nCov
-- Diga-me o que é COVID
-- Diga-me o que é COVID-19
-- Diga-me o que é COVID-2019
-- Diga-me o que é COVID2019
-- Diga-me o que é nCoV
-- Diga-me o que é o 19-nCoV
-- Diga-me o que é o 19nCov
-- Diga-me o que é o 2019-nCoV
-- Diga-me o que é o 2019nCov
-- Diga-me o que é o COVID-19
-- Diga-me o que é o nCoV
-- Diga-me o que é o novo coronavírus
-- Diga-me o que é um 19-nCoV
-- Diga-me o que é um 19nCov
-- Diga-me o que é um 2019-nCoV
-- Diga-me o que é um 2019nCov
-- Diga-me o que é um COVID
-- Diga-me o que é um COVID-19
-- Diga-me o que é um COVID-2019
-- Diga-me o que é um COVID2019
-- Diga-me o que é um nCoV
-- Diga-me o que é um novo coronavírus
-- Diga-me qual é o COVID
-- Diga-me qual é o COVID-2019
-- Diga-me qual é o COVID2019
-- Diga-me qual é o novo coronavírus
-- Diz-me acerca do COVID-19
-- Diz-me informação sobre o COVID2019
-- Diz-me informações sobre o nCoV
-- Diz-me mais sobre o COVID2019
-- Diz-me mais sobre o novo coronavírus
-- Diz-me sobre COVID
-- Diz-me sobre COVID2019
-- Dá-me informação sobre o novo coronavírus
-- Dá-me informações sobre COVID-19
-- Elucida-me sobre COVID
-- Elucida-me sobre o assunto COVID
-- Envia-me informações sobre o COVID-2019
-- Esclarece sobre o recente coronavírus
-- Esclarece-me sobre COVID
-- Esclarece-me sobre o COVID
-- Esclarece-me sobre o novo coronavírus
-- Esclarecimento 2019-nCoV
-- Esclarecimento COVID
-- Esclarecimento do COVID-2019
-- Esclarecimento do coronavírus
-- Esclarecimento sobre nCoV
-- Esclarecimento sobre o 19nCov
-- Esclarecimento sobre o COVID-2019
-- Esclarecimento sobre o novo coronavírus
-- Esclarecimentos do nCoV
-- Esclarecimentos sobre nCoV
-- Explica-me nCoV
-- Fala do COVID-19
-- Fala do recente coronavírus
-- Fala mais sobre o COVID
-- Fala sobre COVID-19
-- Fala-me do COVID-19
-- Fala-me do coronavírus
-- Fala-me mais sobre o 19-nCoV
-- Fala-me mais sobre o novo coronavírus
+- [19-nCoV](pt_virus:COVID)
+- [19-nCoV](pt_virus:COVID) info
+- [19-nCoV](pt_virus:COVID) informações
+- [19nCov](pt_virus:COVID)
+- [19nCov](pt_virus:COVID) info
+- [19nCov](pt_virus:COVID) informações
+- [2019-nCoV](pt_virus:COVID)
+- [2019-nCoV](pt_virus:COVID) info
+- [2019nCov](pt_virus:COVID)
+- [2019nCov](pt_virus:COVID) info
+- [2019nCov](pt_virus:COVID) informações
+- Atual [coronavírus](pt_virus:COVID)
+- [covid](pt_virus:COVID)
+- [COVID-19](pt_virus:COVID)
+- [COVID-19](pt_virus:COVID) info
+- [COVID-2019](pt_virus:COVID)
+- [COVID-2019](pt_virus:COVID) mais info
+- [COVID-2019](pt_virus:COVID) mais informação
+- [COVID2019](pt_virus:COVID)
+- [COVID2019](pt_virus:COVID) info
+- Como começou o [COVID-19](pt_virus:COVID)
+- Conta acerca do [2019-nCoV](pt_virus:COVID)
+- Conta do [covid](pt_virus:COVID)
+- Conta mais sobre [nCov](pt_virus:COVID)
+- Conta mais sobre o [novo coronavírus](pt_virus:COVID)
+- Conta-me info do [nCov](pt_virus:COVID)
+- Conta-me mais sobre [2019nCov](pt_virus:COVID)
+- Conta-me mais sobre o [19-nCoV](pt_virus:COVID)
+- Conta-me mais sobre o [19nCov](pt_virus:COVID)
+- Conta-me mais sobre o [COVID-2019](pt_virus:COVID)
+- Conte-me a respeito do [COVID-19](pt_virus:COVID)
+- Conte-me mais a respeito do [COVID-19](pt_virus:COVID)
+- Conte-me mais em relação ao [2019-nCoV](pt_virus:COVID)
+- Conte-me mais sobre [19-nCoV](pt_virus:COVID)
+- Conte-me mais sobre [19nCov](pt_virus:COVID)
+- Conte-me mais sobre [2019-nCoV](pt_virus:COVID)
+- Conte-me mais sobre [2019nCov](pt_virus:COVID)
+- Conte-me mais sobre [covid](pt_virus:COVID)
+- Conte-me mais sobre [COVID2019](pt_virus:COVID)
+- Conte-me mais sobre [nCov](pt_virus:COVID)
+- Conte-me mais sobre o [19-nCoV](pt_virus:COVID)
+- Conte-me mais sobre o [19nCov](pt_virus:COVID)
+- Conte-me mais sobre o [2019-nCoV](pt_virus:COVID)
+- Conte-me mais sobre o [2019nCov](pt_virus:COVID)
+- Conte-me mais sobre o [covid](pt_virus:COVID)
+- Conte-me mais sobre o [COVID-19](pt_virus:COVID)
+- Conte-me mais sobre o [COVID-2019](pt_virus:COVID)
+- Conte-me mais sobre o [COVID2019](pt_virus:COVID)
+- Conte-me mais sobre o [nCov](pt_virus:COVID)
+- Conte-me mais sobre o [novo coronavírus](pt_virus:COVID)
+- Conte-me mais sobre o recente [coronavírus](pt_virus:COVID)
+- [Corona](pt_virus:COVID)
+- Dados sobre [coronavírus](pt_virus:COVID)
+- Dados sobre novos [coronavírus](pt_virus:COVID)
+- Detalhes do [2019-nCoV](pt_virus:COVID)
+- Detalhes sobre [2019-nCoV](pt_virus:COVID)
+- Detalhes sobre o [COVID-19](pt_virus:COVID)
+- Diga-me o que é [19-nCoV](pt_virus:COVID)
+- Diga-me o que é [19nCov](pt_virus:COVID)
+- Diga-me o que é [2019-nCoV](pt_virus:COVID)
+- Diga-me o que é [2019nCov](pt_virus:COVID)
+- Diga-me o que é [covid](pt_virus:COVID)
+- Diga-me o que é [COVID-19](pt_virus:COVID)
+- Diga-me o que é [COVID-2019](pt_virus:COVID)
+- Diga-me o que é [COVID2019](pt_virus:COVID)
+- Diga-me o que é [nCov](pt_virus:COVID)
+- Diga-me o que é o [19-nCoV](pt_virus:COVID)
+- Diga-me o que é o [19nCov](pt_virus:COVID)
+- Diga-me o que é o [2019-nCoV](pt_virus:COVID)
+- Diga-me o que é o [2019nCov](pt_virus:COVID)
+- Diga-me o que é o [COVID-19](pt_virus:COVID)
+- Diga-me o que é o [nCov](pt_virus:COVID)
+- Diga-me o que é o [novo coronavírus](pt_virus:COVID)
+- Diga-me o que é um [19-nCoV](pt_virus:COVID)
+- Diga-me o que é um [19nCov](pt_virus:COVID)
+- Diga-me o que é um [2019-nCoV](pt_virus:COVID)
+- Diga-me o que é um [2019nCov](pt_virus:COVID)
+- Diga-me o que é um [covid](pt_virus:COVID)
+- Diga-me o que é um [COVID-19](pt_virus:COVID)
+- Diga-me o que é um [COVID-2019](pt_virus:COVID)
+- Diga-me o que é um [COVID2019](pt_virus:COVID)
+- Diga-me o que é um [nCov](pt_virus:COVID)
+- Diga-me o que é um [novo coronavírus](pt_virus:COVID)
+- Diga-me qual é o [covid](pt_virus:COVID)
+- Diga-me qual é o [COVID-2019](pt_virus:COVID)
+- Diga-me qual é o [COVID2019](pt_virus:COVID)
+- Diga-me qual é o [novo coronavírus](pt_virus:COVID)
+- Diz-me acerca do [COVID-19](pt_virus:COVID)
+- Diz-me informação sobre o [COVID2019](pt_virus:COVID)
+- Diz-me informações sobre o [nCov](pt_virus:COVID)
+- Diz-me mais sobre o [COVID2019](pt_virus:COVID)
+- Diz-me mais sobre o [novo coronavírus](pt_virus:COVID)
+- Diz-me sobre [covid](pt_virus:COVID)
+- Diz-me sobre [COVID2019](pt_virus:COVID)
+- Dá-me informação sobre o [novo coronavírus](pt_virus:COVID)
+- Dá-me informações sobre [COVID-19](pt_virus:COVID)
+- Elucida-me sobre [covid](pt_virus:COVID)
+- Elucida-me sobre o assunto [covid](pt_virus:COVID)
+- Envia-me informações sobre o [COVID-2019](pt_virus:COVID)
+- Esclarece sobre o recente [coronavírus](pt_virus:COVID)
+- Esclarece-me sobre [covid](pt_virus:COVID)
+- Esclarece-me sobre o [covid](pt_virus:COVID)
+- Esclarece-me sobre o [novo coronavírus](pt_virus:COVID)
+- Esclarecimento [2019-nCoV](pt_virus:COVID)
+- Esclarecimento [covid](pt_virus:COVID)
+- Esclarecimento do [COVID-2019](pt_virus:COVID)
+- Esclarecimento do [coronavírus](pt_virus:COVID)
+- Esclarecimento sobre [nCov](pt_virus:COVID)
+- Esclarecimento sobre o [19nCov](pt_virus:COVID)
+- Esclarecimento sobre o [COVID-2019](pt_virus:COVID)
+- Esclarecimento sobre o [novo coronavírus](pt_virus:COVID)
+- Esclarecimentos do [nCov](pt_virus:COVID)
+- Esclarecimentos sobre [nCov](pt_virus:COVID)
+- Explica-me [nCov](pt_virus:COVID)
+- Fala do [COVID-19](pt_virus:COVID)
+- Fala do recente [coronavírus](pt_virus:COVID)
+- Fala mais sobre o [covid](pt_virus:COVID)
+- Fala sobre [COVID-19](pt_virus:COVID)
+- Fala-me do [COVID-19](pt_virus:COVID)
+- Fala-me do [coronavírus](pt_virus:COVID)
+- Fala-me mais sobre o [19-nCoV](pt_virus:COVID)
+- Fala-me mais sobre o [novo coronavírus](pt_virus:COVID)
 - Foram os chineses?
-- Info sobre 19nCov
-- Info sobre 2019nCov
-- Info sobre COVID-2019
-- Info sobre COVID2019
-- Info sobre o 19-nCoV
-- Info sobre o 19nCov
-- Info sobre o 2019nCov
-- Info sobre o COVID-2019
-- Info sobre o COVID2019
-- Info sobre o novo coronavírus
-- Info sobre o recente coronavírus
-- Informa-me sobre 19-nCoV
-- Informa-me sobre o 2019nCov
-- Informa-me sobre o novo coronavírus
-- Informação COVID
-- Informação COVID-2019
-- Informação sobre o recente coronavírus
-- Informações COVID
-- Informações do 19-nCoV
-- Informações sobre 2019-nCoV
-- Informações sobre COVID-19
-- Informações sobre o COVID2019
-- Informações sobre o nCoV 2019
-- Manda informação sobre o 2019-nCoV
-- Mostra informações sobre o nCoV
-- Não sei o que é 19-nCoV
-- Não sei o que é 19nCov
-- Não sei o que é 2019-nCoV
-- Não sei o que é 2019nCov
-- Não sei o que é COVID
-- Não sei o que é COVID-19
-- Não sei o que é COVID-2019
-- Não sei o que é COVID2019
-- Não sei o que é nCoV
-- Não sei o que é o 19-nCoV
-- Não sei o que é o 19nCov
-- Não sei o que é o 2019-nCoV
-- Não sei o que é o 2019nCov
-- Não sei o que é o COVID
-- Não sei o que é o COVID-19
-- Não sei o que é o COVID-2019
-- Não sei o que é o COVID2019
-- Não sei o que é o nCoV
-- Não sei o que é o novo coronavírus
-- Não sei o que é o recente coronavírus
-- Não sei qual é o novo coronavírus
-- Não sei qual é o recente coronavírus
-- O que se passa sobre COVID-19
-- O que é COVID
-- O que é a COVID-19?
-- O que é a covid
-- O que é o COVID-19?
-- O que é o Corona vírus?
-- O que é o atual coronavírus
-- O que é o covid-18
-- O que é o covid?
-- O que é o covit19
-- O que é o novo coronavírus
-- O que é o recente coronavírus
-- O que é que é o covid-19
-- O que é um 19-nCoV
-- O que é um 19nCov
-- O que é um 2019-nCoV
-- O que é um 2019nCov
-- O que é um COVID
-- O que é um COVID-19
-- O que é um COVID-2019
-- O que é um COVID2019
-- O que é um nCoV
-- O que é um novo coronavírus
-- Olá olá como é o covid
-- Onde surgiu o vírus?
+- Info sobre [19nCov](pt_virus:COVID)
+- Info sobre [2019nCov](pt_virus:COVID)
+- Info sobre [COVID-2019](pt_virus:COVID)
+- Info sobre [COVID2019](pt_virus:COVID)
+- Info sobre o [19-nCoV](pt_virus:COVID)
+- Info sobre o [19nCov](pt_virus:COVID)
+- Info sobre o [2019nCov](pt_virus:COVID)
+- Info sobre o [COVID-2019](pt_virus:COVID)
+- Info sobre o [COVID2019](pt_virus:COVID)
+- Info sobre o [novo coronavírus](pt_virus:COVID)
+- Info sobre o recente [coronavírus](pt_virus:COVID)
+- Informa-me sobre [19-nCoV](pt_virus:COVID)
+- Informa-me sobre o [2019nCov](pt_virus:COVID)
+- Informa-me sobre o [novo coronavírus](pt_virus:COVID)
+- Informação [covid](pt_virus:COVID)
+- Informação [COVID-2019](pt_virus:COVID)
+- Informação sobre o recente [coronavírus](pt_virus:COVID)
+- Informações [covid](pt_virus:COVID)
+- Informações do [19-nCoV](pt_virus:COVID)
+- Informações sobre [2019-nCoV](pt_virus:COVID)
+- Informações sobre [COVID-19](pt_virus:COVID)
+- Informações sobre o [COVID2019](pt_virus:COVID)
+- Informações sobre o [nCoV 2019](pt_virus:COVID)
+- Manda informação sobre o [2019-nCoV](pt_virus:COVID)
+- Mostra informações sobre o [nCov](pt_virus:COVID)
+- Não sei o que é [19-nCoV](pt_virus:COVID)
+- Não sei o que é [19nCov](pt_virus:COVID)
+- Não sei o que é [2019-nCoV](pt_virus:COVID)
+- Não sei o que é [2019nCov](pt_virus:COVID)
+- Não sei o que é [covid](pt_virus:COVID)
+- Não sei o que é [COVID-19](pt_virus:COVID)
+- Não sei o que é [COVID-2019](pt_virus:COVID)
+- Não sei o que é [COVID2019](pt_virus:COVID)
+- Não sei o que é [nCov](pt_virus:COVID)
+- Não sei o que é o [19-nCoV](pt_virus:COVID)
+- Não sei o que é o [19nCov](pt_virus:COVID)
+- Não sei o que é o [2019-nCoV](pt_virus:COVID)
+- Não sei o que é o [2019nCov](pt_virus:COVID)
+- Não sei o que é o [covid](pt_virus:COVID)
+- Não sei o que é o [COVID-19](pt_virus:COVID)
+- Não sei o que é o [COVID-2019](pt_virus:COVID)
+- Não sei o que é o [COVID2019](pt_virus:COVID)
+- Não sei o que é o [nCov](pt_virus:COVID)
+- Não sei o que é o [novo coronavírus](pt_virus:COVID)
+- Não sei o que é o recente [coronavírus](pt_virus:COVID)
+- Não sei qual é o [novo coronavírus](pt_virus:COVID)
+- Não sei qual é o recente [coronavírus](pt_virus:COVID)
+- O que se passa sobre [COVID-19](pt_virus:COVID)
+- O que é [covid](pt_virus:COVID)
+- O que é a [COVID-19](pt_virus:COVID)?
+- O que é a [covid](pt_virus:COVID)
+- O que é o [COVID-19](pt_virus:COVID)?
+- O que é o [Corona vírus](pt_virus:COVID)?
+- O que é o atual [coronavírus](pt_virus:COVID)
+- O que é o [covid-18](pt_virus:COVID)
+- O que é o [covid](pt_virus:COVID)?
+- O que é o [covit19](pt_virus:COVID)
+- O que é o [novo coronavírus](pt_virus:COVID)
+- O que é o recente [coronavírus](pt_virus:COVID)
+- O que é que é o [COVID-19](pt_virus:COVID)
+- O que é um [19-nCoV](pt_virus:COVID)
+- O que é um [19nCov](pt_virus:COVID)
+- O que é um [2019-nCoV](pt_virus:COVID)
+- O que é um [2019nCov](pt_virus:COVID)
+- O que é um [covid](pt_virus:COVID)
+- O que é um [COVID-19](pt_virus:COVID)
+- O que é um [COVID-2019](pt_virus:COVID)
+- O que é um [COVID2019](pt_virus:COVID)
+- O que é um [nCov](pt_virus:COVID)
+- O que é um [novo coronavírus](pt_virus:COVID)
+- Olá olá como é o [covid](pt_virus:COVID)
+- Onde surgiu o [vírus](pt_virus:COVID)?
 - Qual é a origem do surto?
-- Quando foi detectacta a COVID-19?
-- Que tal 2019-nCoV
-- Que tal 2019nCov
-- Que tal informações sobre COVID
-- Recente coronavírus
-- Recente coronavírus mais info
-- Sobre 19-nCoV
-- Sobre 19nCov
-- Sobre 2019-nCoV
-- Sobre 2019nCov
-- Sobre COVID-19
-- Sobre COVID2019
-- Sobre a COVID
-- Sobre nCoV
-- Sobre o 19-nCoV
-- Sobre o 19nCov
-- Sobre o 2019-nCoV
-- Sobre o 2019nCov
-- Sobre o COVID
-- Sobre o COVID-19
-- Sobre o COVID-2019
-- Sobre o COVID2019
-- Sobre o nCoV
-- Sobre o novo coronavírus
-- Sobre o recente coronavírus
-- Sobre o vírus
+- Quando foi detectacta a [COVID-19](pt_virus:COVID)?
+- Que tal [2019-nCoV](pt_virus:COVID)
+- Que tal [2019nCov](pt_virus:COVID)
+- Que tal informações sobre [covid](pt_virus:COVID)
+- Recente [coronavírus](pt_virus:COVID)
+- Recente [coronavírus](pt_virus:COVID) mais info
+- Sobre [19-nCoV](pt_virus:COVID)
+- Sobre [19nCov](pt_virus:COVID)
+- Sobre [2019-nCoV](pt_virus:COVID)
+- Sobre [2019nCov](pt_virus:COVID)
+- Sobre [COVID-19](pt_virus:COVID)
+- Sobre [COVID2019](pt_virus:COVID)
+- Sobre a [covid](pt_virus:COVID)
+- Sobre [nCov](pt_virus:COVID)
+- Sobre o [19-nCoV](pt_virus:COVID)
+- Sobre o [19nCov](pt_virus:COVID)
+- Sobre o [2019-nCoV](pt_virus:COVID)
+- Sobre o [2019nCov](pt_virus:COVID)
+- Sobre o [covid](pt_virus:COVID)
+- Sobre o [COVID-19](pt_virus:COVID)
+- Sobre o [COVID-2019](pt_virus:COVID)
+- Sobre o [COVID2019](pt_virus:COVID)
+- Sobre o [nCov](pt_virus:COVID)
+- Sobre o [novo coronavírus](pt_virus:COVID)
+- Sobre o recente [coronavírus](pt_virus:COVID)
+- Sobre o [vírus](pt_virus:COVID)
 - a pandemia começou em Wuhan?
-- covid19
-- diz-me informações do assunto 19nCov
-- diz-me informações do assunto 2019nCov
-- diz-me informações sobre COVID2019
-- doença
-- e o 19nCov
-- e o COVID
-- e o COVID-19
-- e o COVID-2019
-- e o COVID2019
-- e o novo coronavírus
-- e quanto ao nCoV
-- fala do assunto COVID-2019
-- fala sobre 19nCov
-- fala sobre 2019nCov
-- fala sobre COVID-2019
-- fala-me informações do assunto COVID2019
-- fala-me sobre o 19-nCoV
-- há informação do novo coronavírus
-- informações 19-nCoV
-- informações 19nCov
-- informações 2019-nCoV
-- informações 2019nCov
-- informações COVID-2019
-- informações COVID2019
-- informações do 2019-nCoV
-- informações do assunto 19-nCoV
-- informações do assunto 19nCov
-- informações do assunto 2019nCov
-- informações do assunto COVID-19
-- informações do assunto COVID-2019
-- informações do assunto COVID2019
-- informações do assunto relacionado com o novo coronavírus
-- informações do coronavírus
-- informações do recente coronavírus
-- informações do tema COVID-19
-- informações nCoV
-- informações recentes sobre coronavírus
-- informações sobre 19-nCoV
-- informações sobre 19nCov
-- informações sobre 2019nCov
-- informações sobre COVID
-- informações sobre COVID-2019
-- informações sobre COVID2019
-- informações sobre nCoV
-- informações sobre novo coronavírus
-- informações sobre novos coronavírus
-- informações sobre o 19-nCoV
-- informações sobre o 19nCov
-- informações sobre o 2019-nCoV
-- informações sobre o 2019nCov
-- informações sobre o COVID-2019
-- informações sobre o nCoV
-- informações sobre o novo coronavírus
-- informações sobre o recente coronavírus
-- nCoV
-- nCoV mais informação
-- novas informações sobre coronavírus
-- novo coronavírus
-- novos dados sobre coronavírus
-- o que é 19-nCoV
-- o que é 19nCov
-- o que é 2019-nCoV
-- o que é 2019nCov
-- o que é COVID-19
-- o que é COVID-2019
-- o que é COVID2019
-- o que é esse vírus?
-- o que é nCoV
-- o que é novo coronavírus
-- o que é o ccovid?
+- [COVID19](pt_virus:COVID)
+- diz-me informações do assunto [19nCov](pt_virus:COVID)
+- diz-me informações do assunto [2019nCov](pt_virus:COVID)
+- diz-me informações sobre [COVID2019](pt_virus:COVID)
+- [doença](pt_virus:COVID)
+- e o [19nCov](pt_virus:COVID)
+- e o [COVID](pt_virus:COVID)
+- e o [COVID-19](pt_virus:COVID)
+- e o [COVID-2019](pt_virus:COVID)
+- e o [COVID2019](pt_virus:COVID)
+- e o [novo coronavírus](pt_virus:COVID)
+- e quanto ao [nCov](pt_virus:COVID)
+- fala do assunto [COVID-2019](pt_virus:COVID)
+- fala sobre [19nCov](pt_virus:COVID)
+- fala sobre [2019nCov](pt_virus:COVID)
+- fala sobre [COVID-2019](pt_virus:COVID)
+- fala-me informações do assunto [COVID2019](pt_virus:COVID)
+- fala-me sobre o [19-nCoV](pt_virus:COVID)
+- há informação do [novo coronavírus](pt_virus:COVID)
+- informações [19-nCoV](pt_virus:COVID)
+- informações [19nCov](pt_virus:COVID)
+- informações [2019-nCoV](pt_virus:COVID)
+- informações [2019nCov](pt_virus:COVID)
+- informações [COVID-2019](pt_virus:COVID)
+- informações [COVID2019](pt_virus:COVID)
+- informações do [2019-nCoV](pt_virus:COVID)
+- informações do assunto [19-nCoV](pt_virus:COVID)
+- informações do assunto [19nCov](pt_virus:COVID)
+- informações do assunto [2019nCov](pt_virus:COVID)
+- informações do assunto [COVID-19](pt_virus:COVID)
+- informações do assunto [COVID-2019](pt_virus:COVID)
+- informações do assunto [COVID2019](pt_virus:COVID)
+- informações do assunto relacionado com o [novo coronavírus](pt_virus:COVID)
+- informações do [coronavírus](pt_virus:COVID)
+- informações do recente [coronavírus](pt_virus:COVID)
+- informações do tema [COVID-19](pt_virus:COVID)
+- informações [nCov](pt_virus:COVID)
+- informações recentes sobre [coronavírus](pt_virus:COVID)
+- informações sobre [19-nCoV](pt_virus:COVID)
+- informações sobre [19nCov](pt_virus:COVID)
+- informações sobre [2019nCov](pt_virus:COVID)
+- informações sobre [covid](pt_virus:COVID)
+- informações sobre [COVID-2019](pt_virus:COVID)
+- informações sobre [COVID2019](pt_virus:COVID)
+- informações sobre [nCov](pt_virus:COVID)
+- informações sobre [novo coronavírus](pt_virus:COVID)
+- informações sobre novos [coronavírus](pt_virus:COVID)
+- informações sobre o [19-nCoV](pt_virus:COVID)
+- informações sobre o [19nCov](pt_virus:COVID)
+- informações sobre o [2019-nCoV](pt_virus:COVID)
+- informações sobre o [2019nCov](pt_virus:COVID)
+- informações sobre o [COVID-2019](pt_virus:COVID)
+- informações sobre o [nCoV](pt_virus:COVID)
+- informações sobre o [novo coronavírus](pt_virus:COVID)
+- informações sobre o recente [coronavírus](pt_virus:COVID)
+- [nCoV](pt_virus:COVID)
+- [nCoV](pt_virus:COVID) mais informação
+- novas informações sobre [coronavírus](pt_virus:COVID)
+- [novo coronavírus](pt_virus:COVID)
+- novos dados sobre [coronavírus](pt_virus:COVID)
+- o que é [19-nCoV](pt_virus:COVID)
+- o que é [19nCov](pt_virus:COVID)
+- o que é [2019-nCoV](pt_virus:COVID)
+- o que é [2019nCov](pt_virus:COVID)
+- o que é [COVID-19](pt_virus:COVID)
+- o que é [COVID-2019](pt_virus:COVID)
+- o que é [COVID2019](pt_virus:COVID)
+- o que é esse [vírus](pt_virus:COVID)?
+- o que é [nCov](pt_virus:COVID)
+- o que é [novo coronavírus](pt_virus:COVID)
+- o que é o [ccovid]?
 - onde começou o surto?
 - onde começou?
 - onde o surto começou?
 - origem pandêmica
 - origem secreta
-- qual a origem do vírus?
-- que informações tens do novo coronavírus
-- que tal 19-nCoV
-- recentes informações sobre coronavírus
-- vírus corona
+- qual a origem do [vírus](pt_virus:COVID)?
+- que informações tens do [novo coronavírus](pt_virus:COVID)
+- que tal [19-nCoV](pt_virus:COVID)
+- recentes informações sobre [coronavírus](pt_virus:COVID)
+- [vírus corona](pt_virus:COVID)
 
 ## intent:pt_covid_meaning
-- COVID-19 nome significado.
-- COVID-19 é o mesmo que o SARS-CoV-2?
-- COVID-19, porquê este nome?
-- Coronavírus SARS-CoV-2
-- Explica a nomenclatura da doença.
-- Explica o nome do vírus.
-- Explique o nome da doença
-- Explique o nome do COVID
-- Explique o nome do COVID-19
-- Explique o nome do SARS-CoV-2
-- Explique o nome do SARS-CoV2
-- Explique o nome do SARSCoV-2
-- Explique o nome do SARSCoV2
-- Explique o nome do vírus
-- Explique o nome do vírus.
+- [COVID-19](pt_virus:COVID) nome significado.
+- [COVID-19](pt_virus:COVID) é o mesmo que o [SARS-Cov-2](pt_virus:COVID)?
+- [COVID-19](pt_virus:COVID), porquê este nome?
+- [coronavírus](pt_virus:COVID) [SARS-Cov-2](pt_virus:COVID)
+- Explica a nomenclatura da [doença](pt_virus:COVID).
+- Explica o nome do [vírus](pt_virus:COVID).
+- Explique o nome da [doença](pt_virus:COVID)
+- Explique o nome do [COVID](pt_virus:COVID)
+- Explique o nome do [COVID-19](pt_virus:COVID)
+- Explique o nome do [SARS-Cov-2](pt_virus:COVID)
+- Explique o nome do [SARS-CoV2](pt_virus:COVID)
+- Explique o nome do [SARSCoV-2](pt_virus:COVID)
+- Explique o nome do [SARSCoV2](pt_virus:COVID)
+- Explique o nome do [vírus](pt_virus:COVID)
+- Explique o nome do [vírus](pt_virus:COVID).
 - Explique o nome.
-- Explique-me o nome COVID-19.
-- Explique-me o nome COVID.
-- Explique-me o nome SARS-CoV2.
-- Explique-me o nome SARSCoV2.
-- Explique-me o nome da SARS-CoV-2.
-- Explique-me o nome da doença.
-- Explique-me o nome do COVID-19.
-- Explique-me o nome do SARS-CoV2.
-- Explique-me o nome do SARSCoV-2.
-- Explique-me o nome do SARSCoV2.
-- Explique-me o nome do vírus.
+- Explique-me o nome [COVID-19](pt_virus:COVID).
+- Explique-me o nome [COVID](pt_virus:COVID).
+- Explique-me o nome [SARS-CoV2](pt_virus:COVID).
+- Explique-me o nome [SARSCoV2](pt_virus:COVID).
+- Explique-me o nome da [SARS-Cov-2](pt_virus:COVID).
+- Explique-me o nome da [doença](pt_virus:COVID).
+- Explique-me o nome do [COVID-19](pt_virus:COVID).
+- Explique-me o nome do [SARS-CoV2](pt_virus:COVID).
+- Explique-me o nome do [SARSCoV-2](pt_virus:COVID).
+- Explique-me o nome do [SARSCoV2](pt_virus:COVID).
+- Explique-me o nome do [vírus](pt_virus:COVID).
 - Explique-me o nome.
-- Explique-me o significado do nome COVID-19.
-- Explique-me o significado do nome COVID.
-- Explique-me o significado do nome SARS-CoV-2.
-- Explique-me o significado do nome SARS-CoV2.
-- Explique-me o significado do nome SARSCoV-2.
-- Explique-me o significado do nome SARSCoV2.
-- Explique-me o significado do nome da SARS-CoV-2.
-- Explique-me o significado do nome da doença.
-- Explique-me o significado do nome do COVID-19.
-- Explique-me o significado do nome do COVID.
-- Explique-me o significado do nome do SARS-CoV2.
-- Explique-me o significado do nome do SARSCoV-2.
-- Explique-me o significado do nome do SARSCoV2.
-- Explique-me o significado do nome do vírus.
+- Explique-me o significado do nome [COVID-19](pt_virus:COVID).
+- Explique-me o significado do nome [COVID](pt_virus:COVID).
+- Explique-me o significado do nome [SARS-Cov-2](pt_virus:COVID).
+- Explique-me o significado do nome [SARS-CoV2](pt_virus:COVID).
+- Explique-me o significado do nome [SARSCoV-2](pt_virus:COVID).
+- Explique-me o significado do nome [SARSCoV2](pt_virus:COVID).
+- Explique-me o significado do nome da [SARS-Cov-2](pt_virus:COVID).
+- Explique-me o significado do nome da [doença](pt_virus:COVID).
+- Explique-me o significado do nome do [COVID-19](pt_virus:COVID).
+- Explique-me o significado do nome do [COVID](pt_virus:COVID).
+- Explique-me o significado do nome do [SARS-CoV2](pt_virus:COVID).
+- Explique-me o significado do nome do [SARSCoV-2](pt_virus:COVID).
+- Explique-me o significado do nome do [SARSCoV2](pt_virus:COVID).
+- Explique-me o significado do nome do [vírus](pt_virus:COVID).
 - Explique-me o significado do nome.
-- Fala do nome do vírus.
-- Nome COVID porquê?
-- Nome COVID-19.
-- Nome COVID.
-- Nome SARS-CoV-2, porquê?
-- Nome SARS-CoV-2.
-- Nome SARS-CoV2, porquê?
-- Nome SARS-CoV2.
-- Nome SARSCoV-2, porquê?
-- Nome SARSCoV-2.
-- Nome SARSCoV2 por quê?
-- Nome SARSCoV2.
-- Nome da doença que significa.
-- Nome da doença, porquê?
-- Nome da doença.
-- Nome do vírus.
+- Fala do nome do [vírus](pt_virus:COVID).
+- Nome [COVID](pt_virus:COVID) porquê?
+- Nome [COVID-19](pt_virus:COVID).
+- Nome [COVID](pt_virus:COVID).
+- Nome [SARS-Cov-2](pt_virus:COVID), porquê?
+- Nome [SARS-Cov-2](pt_virus:COVID).
+- Nome [SARS-CoV2](pt_virus:COVID), porquê?
+- Nome [SARS-CoV2](pt_virus:COVID).
+- Nome [SARSCoV-2](pt_virus:COVID), porquê?
+- Nome [SARSCoV-2](pt_virus:COVID).
+- Nome [SARSCoV2](pt_virus:COVID) por quê?
+- Nome [SARSCoV2](pt_virus:COVID).
+- Nome da [doença](pt_virus:COVID) que significa.
+- Nome da [doença](pt_virus:COVID), porquê?
+- Nome da [doença](pt_virus:COVID).
+- Nome do [vírus](pt_virus:COVID).
 - O que o nome significa?
-- O que significa COVID-19?
-- O que significa SARS-Cov-2?
-- Porque a doença recebeu esse nome?
-- Porque a doença se chama COVID-19?
-- Porque a doença é chamada assim?
-- Porque a doença é nomeada assim?
-- Porque o COVID foi nomeado assim?
-- Porque o COVID recebeu esse nome?
-- Porque o COVID é chamado COVID-19?
-- Porque o COVID é chamado assim?
-- Porque o COVID-19 foi nomeado assim?
-- Porque o COVID-19 recebeu esse nome?
-- Porque o COVID-19 é chamado COVID-19?
-- Porque o COVID-19 é chamado assim?
-- Porque o COVID-19d é chamado assim?
-- Porque o COVIDd é chamado assim?
-- Porque o SARS-CoV-2 foi nomeado assim?
-- Porque o SARS-CoV-2 recebeu esse nome?
-- Porque o SARS-CoV-2 é chamado COVID-19?
-- Porque o SARS-CoV-2 é chamado assim?
-- Porque o SARS-CoV-2d é chamado assim?
-- Porque o SARS-CoV2 foi nomeado assim?
-- Porque o SARS-CoV2 recebeu esse nome?
-- Porque o SARS-CoV2 é chamado COVID-19?
-- Porque o SARS-CoV2 é chamado assim?
-- Porque o SARS-CoV2d é chamado assim?
-- Porque o SARSCoV-2 foi nomeado assim?
-- Porque o SARSCoV-2 recebeu esse nome?
-- Porque o SARSCoV-2 é chamado COVID-19?
-- Porque o SARSCoV-2 é chamado assim?
-- Porque o SARSCoV-2d é chamado assim?
-- Porque o SARSCoV2 foi nomeado assim?
-- Porque o SARSCoV2 recebeu esse nome?
-- Porque o SARSCoV2 é chamado COVID-19?
-- Porque o SARSCoV2 é chamado assim?
-- Porque o SARSCoV2d é chamado assim?
+- O que significa [COVID-19](pt_virus:COVID)?
+- O que significa [SARS-Cov-2](pt_virus:COVID)?
+- Porque a [doença](pt_virus:COVID) recebeu esse nome?
+- Porque a [doença](pt_virus:COVID) se chama [COVID-19](pt_virus:COVID)?
+- Porque a [doença](pt_virus:COVID) é chamada assim?
+- Porque a [doença](pt_virus:COVID) é nomeada assim?
+- Porque o [COVID](pt_virus:COVID) foi nomeado assim?
+- Porque o [COVID](pt_virus:COVID) recebeu esse nome?
+- Porque o [COVID](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
+- Porque o [COVID](pt_virus:COVID) é chamado assim?
+- Porque o [COVID-19](pt_virus:COVID) foi nomeado assim?
+- Porque o [COVID-19](pt_virus:COVID) recebeu esse nome?
+- Porque o [COVID-19](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
+- Porque o [COVID-19](pt_virus:COVID) é chamado assim?
+- Porque o [COVID-19d](pt_virus:COVID) é chamado assim?
+- Porque o [COVIDd](pt_virus:COVID) é chamado assim?
+- Porque o [SARS-Cov-2](pt_virus:COVID) foi nomeado assim?
+- Porque o [SARS-Cov-2](pt_virus:COVID) recebeu esse nome?
+- Porque o [SARS-Cov-2](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
+- Porque o [SARS-Cov-2](pt_virus:COVID) é chamado assim?
+- Porque o [SARS-CoV-2d](pt_virus:COVID) é chamado assim?
+- Porque o [SARS-CoV2](pt_virus:COVID) foi nomeado assim?
+- Porque o [SARS-CoV2](pt_virus:COVID) recebeu esse nome?
+- Porque o [SARS-CoV2](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
+- Porque o [SARS-CoV2](pt_virus:COVID) é chamado assim?
+- Porque o [SARS-CoV2d](pt_virus:COVID) é chamado assim?
+- Porque o [SARSCoV-2](pt_virus:COVID) foi nomeado assim?
+- Porque o [SARSCoV-2](pt_virus:COVID) recebeu esse nome?
+- Porque o [SARSCoV-2](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
+- Porque o [SARSCoV-2](pt_virus:COVID) é chamado assim?
+- Porque o [SARSCoV-2d](pt_virus:COVID) é chamado assim?
+- Porque o [SARSCoV2](pt_virus:COVID) foi nomeado assim?
+- Porque o [SARSCoV2](pt_virus:COVID) recebeu esse nome?
+- Porque o [SARSCoV2](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
+- Porque o [SARSCoV2](pt_virus:COVID) é chamado assim?
+- Porque o [SARSCoV2d](pt_virus:COVID) é chamado assim?
 - Porque o doente é chamado assim?
-- Porque o vírus foi nomeado assim?
-- Porque o vírus recebeu esse nome?
-- Porque o vírus se chama COVID-19?
-- Porque o vírus se chama SARS-Cov-2?
-- Porque o vírus tem este nome?
-- Porque o vírus teve este nome?
-- Porque o vírus é chamado assim?
-- Porque é que a doença se chama assim?
-- Porque é que chamaram a doença assim?
-- Porquê o nome COVID?
-- Porquê o nome SARS-CoV2.
-- Qual o significado do nome do vírus.
-- Que nome é SARS-CoV-2?
-- SARS-CoV-2 nome significado.
-- SARSCoV-2 nome significado.
-- SARSCoV2 porquê?
-- Significado do nome COVID-19.
-- Significado do nome COVID.
-- Significado do nome SARS-CoV-2.
-- Significado do nome SARS-CoV2.
-- Significado do nome SARSCoV-2.
-- Significado do nome SARSCoV2.
-- Significado do nome da SARS-CoV-2.
-- Significado do nome da SARS-CoV2.
-- Significado do nome da SARSCoV-2.
-- Significado do nome da SARSCoV2.
-- Significado do nome da doença.
-- Significado do nome desta doença.
-- Significado do nome desta virose.
-- Significado do nome do COVID-19.
-- Significado do nome do COVID.
-- Significado do nome do vírus.
+- Porque o [vírus](pt_virus:COVID) foi nomeado assim?
+- Porque o [vírus](pt_virus:COVID) recebeu esse nome?
+- Porque o [vírus](pt_virus:COVID) se chama [COVID-19](pt_virus:COVID)?
+- Porque o [vírus](pt_virus:COVID) se chama [SARS-Cov-2](pt_virus:COVID)?
+- Porque o [vírus](pt_virus:COVID) tem este nome?
+- Porque o [vírus](pt_virus:COVID) teve este nome?
+- Porque o [vírus](pt_virus:COVID) é chamado assim?
+- Porque é que a [doença](pt_virus:COVID) se chama assim?
+- Porque é que chamaram a [doença](pt_virus:COVID) assim?
+- Porquê o nome [COVID](pt_virus:COVID)?
+- Porquê o nome [SARS-CoV2](pt_virus:COVID).
+- Qual o significado do nome do [vírus](pt_virus:COVID).
+- Que nome é [SARS-Cov-2](pt_virus:COVID)?
+- [SARS-Cov-2](pt_virus:COVID) nome significado.
+- [SARSCoV-2](pt_virus:COVID) nome significado.
+- [SARSCoV2](pt_virus:COVID) porquê?
+- Significado do nome [COVID-19](pt_virus:COVID).
+- Significado do nome [COVID](pt_virus:COVID).
+- Significado do nome [SARS-Cov-2](pt_virus:COVID).
+- Significado do nome [SARS-CoV2](pt_virus:COVID).
+- Significado do nome [SARSCoV-2](pt_virus:COVID).
+- Significado do nome [SARSCoV2](pt_virus:COVID).
+- Significado do nome da [SARS-Cov-2](pt_virus:COVID).
+- Significado do nome da [SARS-CoV2](pt_virus:COVID).
+- Significado do nome da [SARSCoV-2](pt_virus:COVID).
+- Significado do nome da [SARSCoV2](pt_virus:COVID).
+- Significado do nome da [doença](pt_virus:COVID).
+- Significado do nome desta [doença](pt_virus:COVID).
+- Significado do nome desta [virose](pt_virus:COVID).
+- Significado do nome do [COVID-19](pt_virus:COVID).
+- Significado do nome do [COVID](pt_virus:COVID).
+- Significado do nome do [vírus](pt_virus:COVID).
 - Significado do nome.
-- What does the acronym COVID-19 mean?
-- nome do vírus porquê?
+- What does the acronym [COVID-19](pt_virus:COVID) mean?
+- nome do [vírus](pt_virus:COVID) porquê?
 
 ## intent:pt_covid_mortality_rate
 - Posso morrer?
-- Qual a mortalidade do vírus?
+- Qual a mortalidade do [vírus](pt_virus:COVID)?
 - qual a percentagem de letalidade ?
 - qual a taxa de mortalidade na Europa?
 - qual é a taxa de mortalidade ?
@@ -2706,7 +2721,7 @@
 - As pessoas mais velhas correm maior risco?
 - Doenças pulmonares?
 - Existe uma faixa etária mais em risco do que outras?
-- Faixa etária com possibilidade de doença grave.
+- Faixa etária com possibilidade de [doença](pt_virus:COVID) grave.
 - Faixa etária com saúde mais afetada
 - Faixa etária mais afetada.
 - Faixa etária mais em risco do que as restantes?
@@ -2719,12 +2734,12 @@
 - Perigoso para pessoas com condições médicas pré-existentes?
 - Pessoas com condições médicas pré-existentes estão em maior risco?
 - Pessoas com condições médicas pré-existentes estão mais em risco?
-- Pessoas com doenças auto imunes estão no grupo de risco da COVID 19?
-- Pessoas com possibilidade de risco de ter doença grave de COVID-19.
+- Pessoas com doenças auto imunes estão no grupo de risco da [Covid 19](pt_virus:COVID)?
+- Pessoas com possibilidade de risco de ter [doença](pt_virus:COVID) grave de [COVID-19](pt_virus:COVID).
 - Pessoas com saúde em risco
 - Pessoas com saúde mais debilitada
 - Pessoas em risco
-- Pessoas em risco de doença grave.
+- Pessoas em risco de [doença](pt_virus:COVID) grave.
 - Pessoas mais arriscadas.
 - Pessoas mais em condições mais graves.
 - Quae faixa etária corre o risco de desenvolver doenças graves?
@@ -2735,7 +2750,7 @@
 - Quais pessoas estão em maior risco?
 - Quais pessoas estão mais em risco?
 - Qual é a faixa etária pode estar mais em risco?
-- Que doenças poderão acelerar os efeitos do coronavírus?
+- Que doenças poderão acelerar os efeitos do [coronavírus](pt_virus:COVID)?
 - Quem corre mais risco?
 - Quem corre o risco de desenvolver doenças graves?
 - Quem está em maior risco?
@@ -2757,200 +2772,449 @@
 - Sobre uma faixa etária mais afetada.
 - Sobre uma faixa etária mais em risco.
 - grupos de risco
-- o virus mata?
-- o vírus afecta fatalmente apenas os idosos?
-- É verdade que o vírus afecta fatalmente apenas os idosos?
+- o [virus](pt_virus:COVID) mata?
+- o [vírus](pt_virus:COVID) afecta fatalmente apenas os idosos?
+- É verdade que o [vírus](pt_virus:COVID) afecta fatalmente apenas os idosos?
 
 ## intent:pt_covid_sars
-- Alterações entre novos coronavírus e SARS
-- Alterações entre o novo coronavírus e a síndrome respiratória aguda grave
-- COVID e SARS são o mesmo vírus?
+- Alterações entre novos [coronavírus](pt_virus:COVID) e SARS
+- Alterações entre o [novo coronavírus](pt_virus:COVID) e a síndrome respiratória aguda grave
+- COVID e SARS são o mesmo [vírus](pt_virus:COVID)?
 - COVID e SARS.
 - COVID e Síndrome Respiratória Aguda Grave.
 - COVID é o mesmo que SARS?
 - COVID é o mesmo que Síndrome Respiratória Aguda Grave?
-- COVID-19 e SARS são o mesmo vírus?
-- COVID-19 e SARS.
-- COVID-19 e Síndrome Respiratória Aguda Grave.
-- COVID-19 é o mesmo que SARS?
-- COVID-19 é o mesmo que Síndrome Respiratória Aguda Grave?
-- COVID-2019 e SARS são o mesmo vírus?
-- COVID-2019 e SARS.
-- COVID-2019 e Síndrome Respiratória Aguda Grave.
-- COVID-2019 é o mesmo que SARS?
-- COVID-2019 é o mesmo que Síndrome Respiratória Aguda Grave?
-- COVID19 e SARS são o mesmo vírus?
-- COVID19 e SARS.
-- COVID19 e Síndrome Respiratória Aguda Grave.
-- COVID19 é o mesmo que SARS?
-- COVID19 é o mesmo que Síndrome Respiratória Aguda Grave?
-- COVID2019 e SARS são o mesmo vírus?
-- COVID2019 e SARS.
-- COVID2019 e Síndrome Respiratória Aguda Grave.
-- COVID2019 é o mesmo que SARS?
-- COVID2019 é o mesmo que Síndrome Respiratória Aguda Grave?
-- Diferença entre  a COVID-19 e a SARS.
+- [COVID-19](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
+- [COVID-19](pt_virus:COVID) e SARS.
+- [COVID-19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- [COVID-19](pt_virus:COVID) é o mesmo que SARS?
+- [COVID-19](pt_virus:COVID) é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID-2019](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
+- [COVID-2019](pt_virus:COVID) e SARS.
+- [COVID-2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- [COVID-2019](pt_virus:COVID) é o mesmo que SARS?
+- [COVID-2019](pt_virus:COVID) é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID19](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
+- [COVID19](pt_virus:COVID) e SARS.
+- [COVID19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- [COVID19](pt_virus:COVID) é o mesmo que SARS?
+- [COVID19](pt_virus:COVID) é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID2019](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
+- [COVID2019](pt_virus:COVID) e SARS.
+- [COVID2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- [COVID2019](pt_virus:COVID) é o mesmo que SARS?
+- [COVID2019](pt_virus:COVID) é o mesmo que Síndrome Respiratória Aguda Grave?
+- Diferença entre  a [COVID-19](pt_virus:COVID) e a SARS.
 - Diferenças entre COVID e SARS
 - Diferenças entre COVID e síndrome respiratória aguda grave
-- Diferenças entre COVID-19 e SARS
-- Diferenças entre COVID-19 e Síndrome Respiratória Aguda Grave
-- Diferenças entre COVID-2019 e SARS
-- Diferenças entre COVID-2019 e Síndrome Respiratória Aguda Grave
-- Diferenças entre COVID19 e SARS
-- Diferenças entre COVID19 e Síndrome Respiratória Aguda Grave
-- Diferenças entre COVID2019 e SARS
-- Diferenças entre COVID2019 e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID-19](pt_virus:COVID) e SARS
+- Diferenças entre [COVID-19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID-2019](pt_virus:COVID) e SARS
+- Diferenças entre [COVID-2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID19](pt_virus:COVID) e SARS
+- Diferenças entre [COVID19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID2019](pt_virus:COVID) e SARS
+- Diferenças entre [COVID2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave
 - Diferenças entre SARS e COVID
-- Diferenças entre SARS e COVID-19
-- Diferenças entre SARS e COVID-2019
-- Diferenças entre SARS e COVID19
-- Diferenças entre SARS e COVID2019
-- Diferenças entre SARS e novo coronavírus
-- Diferenças entre novos coronavírus e SARS
-- Diferenças entre o novo coronavírus e a Síndrome Respiratória Aguda Grave
-- Existe diferença entre o novo coronavírus e a Síndrome Respiratória Aguda
+- Diferenças entre SARS e [COVID-19](pt_virus:COVID)
+- Diferenças entre SARS e [COVID-2019](pt_virus:COVID)
+- Diferenças entre SARS e [COVID19](pt_virus:COVID)
+- Diferenças entre SARS e [COVID2019](pt_virus:COVID)
+- Diferenças entre SARS e [novo coronavírus](pt_virus:COVID)
+- Diferenças entre novos [coronavírus](pt_virus:COVID) e SARS
+- Diferenças entre o [novo coronavírus](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave
+- Existe diferença entre o [novo coronavírus](pt_virus:COVID) e a Síndrome Respiratória Aguda
   Grave.
-- Informações do novo coronavírus e a Síndrome Respiratória Aguda Grave.
-- Informações dos novos coronavírus e SARS.
+- Informações do [novo coronavírus](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave.
+- Informações dos novos [coronavírus](pt_virus:COVID) e SARS.
 - Informações sobre COVID e SARS.
 - Informações sobre COVID e Síndrome Respiratória Aguda Grave.
-- Informações sobre COVID-19 e SARS.
-- Informações sobre COVID-19 e Síndrome Respiratória Aguda Grave.
-- Informações sobre COVID-2019 e SARS.
-- Informações sobre COVID-2019 e Síndrome Respiratória Aguda Grave.
-- Informações sobre COVID19 e SARS.
-- Informações sobre COVID19 e Síndrome Respiratória Aguda Grave.
-- Informações sobre COVID2019 e SARS.
-- Informações sobre COVID2019 e Síndrome Respiratória Aguda Grave.
-- Informações sobre SARS e COVID-19.
-- Informações sobre SARS e COVID-2019.
+- Informações sobre [COVID-19](pt_virus:COVID) e SARS.
+- Informações sobre [COVID-19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- Informações sobre [COVID-2019](pt_virus:COVID) e SARS.
+- Informações sobre [COVID-2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- Informações sobre [COVID19](pt_virus:COVID) e SARS.
+- Informações sobre [COVID19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- Informações sobre [COVID2019](pt_virus:COVID) e SARS.
+- Informações sobre [COVID2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- Informações sobre SARS e [COVID-19](pt_virus:COVID).
+- Informações sobre SARS e [COVID-2019](pt_virus:COVID).
 - Informações sobre SARS e COVID.
-- Informações sobre SARS e COVID19.
-- Informações sobre SARS e COVID2019.
-- Informações sobre SARS e novo coronavírus.
-- Informações sobre SARS e novos coronavírus.
-- Informações sobre novos coronavírus e SARS.
-- Informações sobre o novo coronavírus e a síndrome respiratória aguda grave.
-- O SARS é o mesmo que o novo coronavírus?
-- O novo coronavírus é igual à Síndrome Respiratória Aguda Grave?
-- O novo coronavírus é o mesmo que o SARS?
-- O novo coronavírus é o virus do SARS?
+- Informações sobre SARS e [COVID19](pt_virus:COVID).
+- Informações sobre SARS e [COVID2019](pt_virus:COVID).
+- Informações sobre SARS e [novo coronavírus](pt_virus:COVID).
+- Informações sobre SARS e novos [coronavírus](pt_virus:COVID).
+- Informações sobre novos [coronavírus](pt_virus:COVID) e SARS.
+- Informações sobre o [novo coronavírus](pt_virus:COVID) e a síndrome respiratória aguda grave.
+- O SARS é o mesmo que o [novo coronavírus](pt_virus:COVID)?
+- O [novo coronavírus](pt_virus:COVID) é igual à Síndrome Respiratória Aguda Grave?
+- O [novo coronavírus](pt_virus:COVID) é o mesmo que o SARS?
+- O [novo coronavírus](pt_virus:COVID) é o [virus](pt_virus:COVID) do SARS?
 - O que é o sars?
-- O vírus que causa COVID é o mesmo que causa a Síndrome Respiratória Aguda
+- O [vírus](pt_virus:COVID) que causa COVID é o mesmo que causa a Síndrome Respiratória Aguda
   Grave?
-- O vírus que causa COVID-19 e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus](pt_virus:COVID) que causa [COVID-19](pt_virus:COVID) e o que causa a Síndrome Respiratória Aguda Grave
   são os mesmos?
-- O vírus que causa a SARS e o que causa novos coronavírus são os mesmos?
-- O vírus que causa a SARS e o que causa o COVID são os mesmos?
-- O vírus que causa a SARS e o que causa o COVID-19 são os mesmos?
-- O vírus que causa a SARS e o que causa o COVID-2019 são os mesmos?
-- O vírus que causa a SARS e o que causa o COVID19 são os mesmos?
-- O vírus que causa a SARS e o que causa o COVID2019 são os mesmos?
-- O vírus que causa a SARS e o que causa o novo coronavírus são os mesmos?
-- O vírus que causa a SARS é o mesmo que causa o COVID ?
-- O vírus que causa a SARS é o mesmo que causa o COVID-19?
-- O vírus que causa a SARS é o mesmo que causa o COVID-2019?
-- O vírus que causa a SARS é o mesmo que causa o COVID19?
-- O vírus que causa a SARS é o mesmo que causa o COVID2019?
-- O vírus que causa a SARS é o mesmo que causa o novo coronavírus?
-- O vírus que causa o COVID e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa novos [coronavírus](pt_virus:COVID) são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o COVID são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [COVID-19](pt_virus:COVID) são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [COVID-2019](pt_virus:COVID) são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [COVID19](pt_virus:COVID) são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [COVID2019](pt_virus:COVID) são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [novo coronavírus](pt_virus:COVID) são os mesmos?
+- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o COVID ?
+- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [COVID-19](pt_virus:COVID)?
+- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [COVID-2019](pt_virus:COVID)?
+- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [COVID19](pt_virus:COVID)?
+- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [COVID2019](pt_virus:COVID)?
+- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [novo coronavírus](pt_virus:COVID)?
+- O [vírus](pt_virus:COVID) que causa o COVID e o que causa a Síndrome Respiratória Aguda Grave
   são os mesmos?
-- O vírus que causa o COVID e o que causa o SARS são os mesmos?
-- O vírus que causa o COVID é o mesmo que causa o SARS?
-- O vírus que causa o COVID-19 e o que causa o SARS são os mesmos?
-- O vírus que causa o COVID-19 é o mesmo que causa a Síndrome Respiratória Aguda
+- O [vírus](pt_virus:COVID) que causa o COVID e o que causa o SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o COVID é o mesmo que causa o SARS?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) e o que causa o SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) é o mesmo que causa a Síndrome Respiratória Aguda
   Grave?
-- O vírus que causa o COVID-19 é o mesmo que causa o SARS?
-- O vírus que causa o COVID-2019 e o que causa a Síndrome Respiratória Aguda
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) é o mesmo que causa o SARS?
+- O [vírus](pt_virus:COVID) que causa o [COVID-2019](pt_virus:COVID) e o que causa a Síndrome Respiratória Aguda
   Grave são os mesmos?
-- O vírus que causa o COVID-2019 e o que causa o SARS são os mesmos?
-- O vírus que causa o COVID-2019 é o mesmo que causa a Síndrome Respiratória
+- O [vírus](pt_virus:COVID) que causa o [COVID-2019](pt_virus:COVID) e o que causa o SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o [COVID-2019](pt_virus:COVID) é o mesmo que causa a Síndrome Respiratória
   Aguda Grave?
-- O vírus que causa o COVID-2019 é o mesmo que causa o SARS?
-- O vírus que causa o COVID19 e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus](pt_virus:COVID) que causa o [COVID-2019](pt_virus:COVID) é o mesmo que causa o SARS?
+- O [vírus](pt_virus:COVID) que causa o [COVID19](pt_virus:COVID) e o que causa a Síndrome Respiratória Aguda Grave
   são os mesmos?
-- O vírus que causa o COVID19 e o que causa o SARS são os mesmos?
-- O vírus que causa o COVID19 é o mesmo que causa a Síndrome Respiratória Aguda
+- O [vírus](pt_virus:COVID) que causa o [COVID19](pt_virus:COVID) e o que causa o SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o [COVID19](pt_virus:COVID) é o mesmo que causa a Síndrome Respiratória Aguda
   Grave?
-- O vírus que causa o COVID19 é o mesmo que causa o SARS?
-- O vírus que causa o COVID2019 e o que causa a Síndrome Respiratória Aguda
+- O [vírus](pt_virus:COVID) que causa o [COVID19](pt_virus:COVID) é o mesmo que causa o SARS?
+- O [vírus](pt_virus:COVID) que causa o [COVID2019](pt_virus:COVID) e o que causa a Síndrome Respiratória Aguda
   Grave são os mesmos?
-- O vírus que causa o COVID2019 e o que causa o SARS são os mesmos?
-- O vírus que causa o COVID2019 é o mesmo que causa a Síndrome Respiratória
+- O [vírus](pt_virus:COVID) que causa o [COVID2019](pt_virus:COVID) e o que causa o SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o [COVID2019](pt_virus:COVID) é o mesmo que causa a Síndrome Respiratória
   Aguda Grave?
-- O vírus que causa o COVID2019 é o mesmo que causa o SARS?
-- O vírus que causa o novo coronavírus e o que causa a SARS são os mesmos?
-- O vírus que causa o novo coronavírus e o que causa a Síndrome Respiratória
+- O [vírus](pt_virus:COVID) que causa o [COVID2019](pt_virus:COVID) é o mesmo que causa o SARS?
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) e o que causa a SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) e o que causa a Síndrome Respiratória
   Aguda Grave são os mesmos?
-- O vírus que causa o novo coronavírus e o vírus da SARS são os mesmos?
-- O vírus que causa o novo coronavírus e o vírus da Síndrome Respiratória Aguda
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) e o [vírus](pt_virus:COVID) da SARS são os mesmos?
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) e o [vírus](pt_virus:COVID) da Síndrome Respiratória Aguda
   Grave são os mesmos?
-- O vírus que causa o novo coronavírus é o mesmo da SARS?
-- O vírus que causa o novo coronavírus é o mesmo que causa a Síndrome
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) é o mesmo da SARS?
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) é o mesmo que causa a Síndrome
   Respiratória Aguda Grave ?
-- O vírus que causa o novo coronavírus é o mesmo que causa a Síndrome
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) é o mesmo que causa a Síndrome
   Respiratória Aguda Grave?
-- O vírus que causa o novo coronavírus é o mesmo que causa o SARS?
-- O vírus que desenvolve a SARS é o mesmo que o novo coronavírus?
-- Recentes coronavírus e SARS.
-- SARS e COVID são o mesmo vírus?
-- SARS e COVID-19 são o mesmo vírus?
-- SARS e COVID-19.
-- SARS e COVID-2019 são o mesmo vírus?
-- SARS e COVID-2019.
-- SARS e COVID.
-- SARS e COVID19 são o mesmo vírus?
-- SARS e COVID19.
-- SARS e COVID2019 são o mesmo vírus?
-- SARS e COVID2019.
-- SARS e novo coronavírus são diferentes
-- SARS e novo coronavírus são o mesmo vírus?
-- SARS e novos coronavírus são o mesmo vírus?
-- SARS é o mesmo que COVID-19?
-- SARS é o mesmo que COVID-2019?
-- SARS é o mesmo que COVID19?
-- SARS é o mesmo que COVID2019?
-- SARS é o mesmo que COVID?
-- SARS é o mesmo que novo coronavírus?
-- Sobre COVID e SARS.
-- Sobre COVID-19 e SARS.
-- Sobre COVID-2019 e SARS.
-- Sobre COVID19 e SARS.
-- Sobre COVID19 e Síndrome Respiratória Aguda Grave.
-- Sobre COVID2019 e SARS.
-- Sobre COVID2019 e Síndrome Respiratória Aguda Grave.
-- Sobre SARS e COVID-19.
-- Sobre SARS e COVID-2019.
-- Sobre SARS e COVID.
-- Sobre SARS e COVID19.
-- Sobre SARS e COVID2019.
-- Sobre novos coronavírus e SARS.
-- Sobre o COVID e a Síndrome Respiratória Aguda Grave.
-- Sobre o COVID-19 e a Síndrome Respiratória Aguda Grave.
-- Sobre o COVID-2019 e a Síndrome Respiratória Aguda Grave.
-- Sobre o novo coronavírus e a síndrome respiratória aguda grave.
-- Síndrome Respiratória Aguda Grave e COVID são o mesmo vírus?
-- Síndrome Respiratória Aguda Grave e COVID-19 são o mesmo vírus?
-- Síndrome Respiratória Aguda Grave e COVID-2019 são o mesmo vírus?
-- Síndrome Respiratória Aguda Grave e COVID19 são o mesmo vírus?
-- Síndrome Respiratória Aguda Grave e COVID2019 são o mesmo vírus?
-- Síndrome respiratória aguda grave e novo coronavírus são o mesmo vírus?
-- novo coronavírus e SARS são o mesmo vírus?
-- novo coronavírus e SARS.
-- novo coronavírus e síndrome respiratória aguda grave.
-- novo coronavírus é diferente da síndrome respiratória aguda grave.
-- novos coronavírus e SARS são o mesmo vírus?
-- novos coronavírus e SARS.
+- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) é o mesmo que causa o SARS?
+- O [vírus](pt_virus:COVID) que desenvolve a SARS é o mesmo que o [novo coronavírus](pt_virus:COVID)?
+- Recentes [coronavírus](pt_virus:COVID) e SARS.
+- SARS e [COVID](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS e [COVID-19](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS e [COVID-19](pt_virus:COVID).
+- SARS e [COVID-2019](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS e [COVID-2019](pt_virus:COVID).
+- SARS e [COVID](pt_virus:COVID).
+- SARS e [COVID19](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS e [COVID19](pt_virus:COVID).
+- SARS e [COVID2019](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS e [COVID2019](pt_virus:COVID).
+- SARS e [novo coronavírus](pt_virus:COVID) são diferentes
+- SARS e [novo coronavírus](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS e novos [coronavírus](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- SARS é o mesmo que [COVID-19](pt_virus:COVID)?
+- SARS é o mesmo que [COVID-2019](pt_virus:COVID)?
+- SARS é o mesmo que [COVID19](pt_virus:COVID)?
+- SARS é o mesmo que [COVID2019](pt_virus:COVID)?
+- SARS é o mesmo que [COVID](pt_virus:COVID)?
+- SARS é o mesmo que [novo coronavírus](pt_virus:COVID)?
+- Sobre [COVID](pt_virus:COVID) e SARS.
+- Sobre [COVID-19](pt_virus:COVID) e SARS.
+- Sobre [COVID-2019](pt_virus:COVID) e SARS.
+- Sobre [COVID19](pt_virus:COVID) e SARS.
+- Sobre [COVID19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- Sobre [COVID2019](pt_virus:COVID) e SARS.
+- Sobre [COVID2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
+- Sobre SARS e [COVID-19](pt_virus:COVID).
+- Sobre SARS e [COVID-2019](pt_virus:COVID).
+- Sobre SARS e [COVID](pt_virus:COVID).
+- Sobre SARS e [COVID19](pt_virus:COVID).
+- Sobre SARS e [COVID2019](pt_virus:COVID).
+- Sobre novos [coronavírus](pt_virus:COVID) e SARS.
+- Sobre o [COVID](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave.
+- Sobre o [COVID-19](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave.
+- Sobre o [COVID-2019](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave.
+- Sobre o [novo coronavírus](pt_virus:COVID) e a síndrome respiratória aguda grave.
+- Síndrome Respiratória Aguda Grave e COVID são o mesmo [vírus](pt_virus:COVID)?
+- Síndrome Respiratória Aguda Grave e [COVID-19](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- Síndrome Respiratória Aguda Grave e [COVID-2019](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- Síndrome Respiratória Aguda Grave e [COVID19](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- Síndrome Respiratória Aguda Grave e [COVID2019](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- Síndrome respiratória aguda grave e [novo coronavírus](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
+- [novo coronavírus](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
+- [novo coronavírus](pt_virus:COVID) e SARS.
+- [novo coronavírus](pt_virus:COVID) e síndrome respiratória aguda grave.
+- [novo coronavírus](pt_virus:COVID) é diferente da síndrome respiratória aguda grave.
+- novos [coronavírus](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
+- novos [coronavírus](pt_virus:COVID) e SARS.
+
+## intent:pt_country
+- em [Portugal](pt_country_code:PT)
+- [Espanha](pt_country_code:ES)
+- na [Grécia](pt_country_code:GR)
+- na [Suiça](pt_country_code:CH)
+- no [Zimbabué](pt_country_code:ZW)
+- [Egipto](pt_country_code:EG)
+- [Sara Ocidental](pt_country_code:EH)
+- [Eritrea](pt_country_code:ER)
+- [Etiópia](pt_country_code:ET)
+- [Finlândia](pt_country_code:FI)
+- [Fidji](pt_country_code:FJ)
+- [Falkland](pt_country_code:FK)
+- [Micronesia](pt_country_code:FM)
+- [Ilhas Faroé](pt_country_code:FO)
+- [França](pt_country_code:FR)
+- [Gabão](pt_country_code:GA)
+- [Reino Unido](pt_country_code:GB)
+- [Granada](pt_country_code:GD)
+- [Geórgia](pt_country_code:GE)
+- [Guyane](pt_country_code:GF)
+- [Bailado de Guernsey](pt_country_code:GG)
+- [Gibraltar](pt_country_code:GI)
+- [Gronelandia](pt_country_code:GL)
+- [Gambia](pt_country_code:GM)
+- [Guinea](pt_country_code:GN)
+- [Guadalupe](pt_country_code:GP)
+- [Geórgia do Sul](pt_country_code:GS)
+- [Guatemala](pt_country_code:GT)
+- [Guam](pt_country_code:GU)
+- [Guiné-Bissau](pt_country_code:GW)
+- [Guiana](pt_country_code:GY)
+- [Hong Kong](pt_country_code:HK)
+- [Ilhas Heard](pt_country_code:HM)
+- [Honduras](pt_country_code:HN)
+- [Croacia](pt_country_code:HR)
+- [Haiti](pt_country_code:HT)
+- [Hungria](pt_country_code:HU)
+- [Indonesia](pt_country_code:ID)
+- [Irlanda](pt_country_code:IE)
+- [Israel](pt_country_code:IL)
+- [Mann](pt_country_code:IM)
+- [India](pt_country_code:IN)
+- [Território Britânico do Oceano](pt_country_code:IO)
+- [Iraq](pt_country_code:IQ)
+- [Irão](pt_country_code:IR)
+- [Islandia](pt_country_code:IS)
+- [Italia](pt_country_code:IT)
+- [Jersey](pt_country_code:JE)
+- [Jamaica](pt_country_code:JM)
+- [Jordania](pt_country_code:JO)
+- [Japão](pt_country_code:JP)
+- [Kenya](pt_country_code:KE)
+- [Quirguistão](pt_country_code:KG)
+- [Cambodja](pt_country_code:KH)
+- [Kiribati](pt_country_code:KI)
+- [Comoros](pt_country_code:KM)
+- [Nevis](pt_country_code:KN)
+- [DPRK](pt_country_code:KP)
+- [Coreia do Sul](pt_country_code:KR)
+- [Kuwait](pt_country_code:KW)
+- [Ilhas Caimão](pt_country_code:KY)
+- [Cazaquistão](pt_country_code:KZ)
+- [Laos](pt_country_code:LA)
+- [Líbano](pt_country_code:LB)
+- [Santa Lúcia](pt_country_code:LC)
+- [Sri Lanka](pt_country_code:LK)
+- [Liberia](pt_country_code:LR)
+- [Lithuania](pt_country_code:LT)
+- [Lesoto](pt_country_code:LS)
+- [Luxemburgo](pt_country_code:LU)
+- [Latvia](pt_country_code:LV)
+- [Líbia](pt_country_code:LY)
+- [Marrocos](pt_country_code:MA)
+- [Monaco](pt_country_code:MC)
+- [Moldávia](pt_country_code:MD)
+- [Montenegro](pt_country_code:ME)
+- [Saint Martin](pt_country_code:MF)
+- [Madagáscar](pt_country_code:MG)
+- [Ilhas Marshall](pt_country_code:MH)
+- [Macedónia](pt_country_code:MK)
+- [Máli](pt_country_code:ML)
+- [Myanmar](pt_country_code:MM)
+- [Mongolia](pt_country_code:MN)
+- [Macau](pt_country_code:MO)
+- [CNMI](pt_country_code:MP)
+- [Martinique](pt_country_code:MQ)
+- [Mauritania](pt_country_code:MR)
+- [Monserrate](pt_country_code:MS)
+- [Malta](pt_country_code:MT)
+- [Maurice](pt_country_code:MU)
+- [Maldivas](pt_country_code:MV)
+- [Malawi](pt_country_code:MW)
+- [Mexico](pt_country_code:MX)
+- [Malásia](pt_country_code:MY)
+- [Moçambique](pt_country_code:MZ)
+- [Namibia](pt_country_code:NA)
+- [Nova Caledónia](pt_country_code:NC)
+- [Niger](pt_country_code:NE)
+- [Norfolk Island](pt_country_code:NF)
+- [Nigeria](pt_country_code:NG)
+- [Nicaragua](pt_country_code:NI)
+- [Holanda](pt_country_code:NL)
+- [Noruega](pt_country_code:NO)
+- [Nepal](pt_country_code:NP)
+- [Nauru](pt_country_code:NR)
+- [Niuê](pt_country_code:NU)
+- [Nova Zelândia](pt_country_code:NZ)
+- [Omão](pt_country_code:OM)
+- [Panama](pt_country_code:PA)
+- [Peru](pt_country_code:PE)
+- [Polinésia Francesa](pt_country_code:PF)
+- [PNG](pt_country_code:PG)
+- [Filipinas](pt_country_code:PH)
+- [Paquistão](pt_country_code:PK)
+- [Polónia](pt_country_code:PL)
+- [São Pedro e Miquelon](pt_country_code:PM)
+- [Pitcairn](pt_country_code:PN)
+- [Porto Rico](pt_country_code:PR)
+- [Palestine](pt_country_code:PS)
+- [Palau](pt_country_code:PW)
+- [Paraguay](pt_country_code:PY)
+- [Qatar](pt_country_code:QA)
+- [Reunião](pt_country_code:RE)
+- [Roménia](pt_country_code:RO)
+- [Sérvia](pt_country_code:RS)
+- [Russia](pt_country_code:RU)
+- [Ruanda](pt_country_code:RW)
+- [Arábia Saudita](pt_country_code:SA)
+- [Ilhas Salomão](pt_country_code:SB)
+- [Seicheles](pt_country_code:SC)
+- [Sudão](pt_country_code:SD)
+- [Suécia](pt_country_code:SE)
+- [Singapura](pt_country_code:SG)
+- [Ascensão](pt_country_code:SH)
+- [Eslovénia](pt_country_code:SI)
+- [Svalbard](pt_country_code:SJ)
+- [Eslováquia](pt_country_code:SK)
+- [Serra Leoa](pt_country_code:SL)
+- [São Marino](pt_country_code:SM)
+- [Senegal](pt_country_code:SN)
+- [Somália](pt_country_code:SO)
+- [Suriname](pt_country_code:SR)
+- [South Sudan](pt_country_code:SS)
+- [São Tomé e Príncipe](pt_country_code:ST)
+- [Salvador](pt_country_code:SV)
+- [Sint Maarten](pt_country_code:SX)
+- [Síria](pt_country_code:SY)
+- [Andorra](pt_country_code:AD)
+- [Turcas e Caicos](pt_country_code:TC)
+- [Chade](pt_country_code:TD)
+- [TAAF](pt_country_code:TF)
+- [Togo](pt_country_code:TG)
+- [Tailândia](pt_country_code:TH)
+- [Tajiquistão](pt_country_code:TJ)
+- [Tokelau](pt_country_code:TK)
+- [Timor Leste](pt_country_code:TL)
+- [Turquemenistão](pt_country_code:TM)
+- [Tunísia](pt_country_code:TN)
+- [Tonga](pt_country_code:TO)
+- [Turkey](pt_country_code:TR)
+- [Trinidade e Tobago](pt_country_code:TT)
+- [Tuvalu](pt_country_code:TV)
+- [Taiwan](pt_country_code:TW)
+- [Tanzania](pt_country_code:TZ)
+- [Ucrânia](pt_country_code:UA)
+- [Uganda](pt_country_code:UG)
+- [Ilha Wake](pt_country_code:UM)
+- [Estados Unidos](pt_country_code:US)
+- [Uruguai](pt_country_code:UY)
+- [Uzbekistan](pt_country_code:UZ)
+- [Santa Sé](pt_country_code:VA)
+- [São Vicente](pt_country_code:VC)
+- [Venezuela](pt_country_code:VE)
+- [Ilhas Virgens Britânicas](pt_country_code:VG)
+- [American Virgin Islands](pt_country_code:VI)
+- [Vietname](pt_country_code:VN)
+- [Vanuatu](pt_country_code:VU)
+- [Wallis and Futuna](pt_country_code:WF)
+- [Samoa](pt_country_code:WS)
+- [Iémen](pt_country_code:YE)
+- [Maore](pt_country_code:YT)
+- [RSA](pt_country_code:ZA)
+- [República da Zâmbia](pt_country_code:ZM)
+- [Swaziland](pt_country_code:SZ)
+- [Emirates](pt_country_code:AE)
+- [Afeganistão](pt_country_code:AF)
+- [Antígua](pt_country_code:AG)
+- [Anguila](pt_country_code:AI)
+- [Albânia](pt_country_code:AL)
+- [Armênia](pt_country_code:AM)
+- [Angola](pt_country_code:AO)
+- [Antarctica](pt_country_code:AQ)
+- [Argentina](pt_country_code:AR)
+- [Tutuila](pt_country_code:AS)
+- [Austria](pt_country_code:AT)
+- [Australia](pt_country_code:AU)
+- [Aruba](pt_country_code:AW)
+- [Alanda](pt_country_code:AX)
+- [Azerbaijan](pt_country_code:AZ)
+- [Bosnia](pt_country_code:BA)
+- [Barbados](pt_country_code:BB)
+- [Bangladesh](pt_country_code:BD)
+- [Bélgica](pt_country_code:BE)
+- [Burquina](pt_country_code:BF)
+- [Bulgária](pt_country_code:BG)
+- [Barein](pt_country_code:BH)
+- [Burundi](pt_country_code:BI)
+- [Benin](pt_country_code:BJ)
+- [São Bartolomeu](pt_country_code:BL)
+- [Bermuda](pt_country_code:BM)
+- [Brunei](pt_country_code:BN)
+- [Bolivia](pt_country_code:BO)
+- [Saba](pt_country_code:BQ)
+- [Brasil](pt_country_code:BR)
+- [Bahaamas](pt_country_code:BS)
+- [Butão](pt_country_code:BT)
+- [Bouvetøya](pt_country_code:BV)
+- [Botsuana](pt_country_code:BW)
+- [Belarus](pt_country_code:BY)
+- [Belize](pt_country_code:BZ)
+- [Canadá](pt_country_code:CA)
+- [Ilhas Keeling](pt_country_code:CC)
+- [RD Congo](pt_country_code:CD)
+- [CAR](pt_country_code:CF)
+- [Congo](pt_country_code:CG)
+- [Suíça](pt_country_code:CH)
+- [Côte d'Ivoire](pt_country_code:CI)
+- [Ilhas Cook](pt_country_code:CK)
+- [Chile](pt_country_code:CL)
+- [Camarões](pt_country_code:CM)
+- [China](pt_country_code:CN)
+- [Colombia](pt_country_code:CO)
+- [Costa Rica](pt_country_code:CR)
+- [Cuba](pt_country_code:CU)
+- [Cabo Verde](pt_country_code:CV)
+- [Curaçao](pt_country_code:CW)
+- [Ilha Natal](pt_country_code:CX)
+- [Chipre](pt_country_code:CY)
+- [República Checa](pt_country_code:CZ)
+- [Alemanha](pt_country_code:DE)
+- [Djibouti](pt_country_code:DJ)
+- [Dinamarca](pt_country_code:DK)
+- [Dominica](pt_country_code:DM)
+- [República Dominicana](pt_country_code:DO)
+- [Argélia](pt_country_code:DZ)
+- [Equador](pt_country_code:EC)
+- [Estónia](pt_country_code:EE)
 
 ## intent:pt_covid_situation
-- ASUS de covid no Alentejo
-- Casos de covid no Alentejo
+- ASUS de [covid](pt_virus:COVID) no Alentejo
+- Casos de [covid](pt_virus:COVID) no Alentejo
 - Como estão as contagens no mundo?
 - Contagem infectada
 - Diga-me os números reais.
 - Em que países é que se detetaram pessoas infetadas?
-- Estatísticas atualizadas do Coronavirus
-- Gostaria de saber se há casos em Évora
+- Estatísticas atualizadas do [coronavirus](pt_virus:COVID)
+- Gostaria de saber se há casos em [Inglaterra](pt_country_code:GB)
 - Mortos
 - Número de casos
 - Número de casos confirmados
@@ -2962,11 +3226,11 @@
 - Número de mortes
 - Número de mortes em todo o mundo.
 - Número de mortos
-- Olá. Quantos infetados existem em portugal?
+- Olá. Quantos infetados existem em [portugal](pt_country_code:PT)?
 - Quais as cidades mais afetadas
 - Quais são as cidades mais afetadas
-- Quais são as estatísticas mais recentes sobre coronavírus?
-- Qual é o numero de internados com covid em portugal?
+- Quais são as estatísticas mais recentes sobre [coronavírus](pt_virus:COVID)?
+- Qual é o numero de internados com [covid](pt_virus:COVID) em [portugal](pt_country_code:PT)?
 - Qual é o número de casos confirmados?
 - Qual é o número de casos?
 - Qual é o número de infectados?
@@ -2974,303 +3238,320 @@
 - Qual é o número de mortos devido ao surto?
 - Quantas infecções existem em todo o mundo?
 - Quantas são as contagens no mundo?
-- Quanto mortos em Portugal por causa do coronavirus?
-- Quantoa mortos em portugal?
-- Quantos casos de corrid no mundo
+- Quanto mortos em [portugal](pt_country_code:PT) por causa do coronavirus?
+- Quantoa mortos em [portugal](pt_country_code:PT)?
+- Quantos casos de [corrid] no mundo
 - Quantos casos de infetados há mundialmente?
-- Quantos casos em Portugal?
-- Quantos casos existem em Portugal
+- Quantos casos em [portugal](pt_country_code:PT)?
+- Quantos casos existem em [portugal](pt_country_code:PT)
 - Quantos casos foram registados hoje?
 - Quantos casos novos ha hoje?
-- Quantos infectados existem neste momento em Portugal?
-- Quantos infetados tem a Turquia?
-- Quantos internados ha em portugal beste momento?
-- Quantos mortos houve em Portugal hoje?
+- Quantos infectados existem neste momento em [portugal](pt_country_code:PT)?
+- Quantos infetados tem a [Turquia](pt_country_code:TR)?
+- Quantos internados ha em [portugal](pt_country_code:PT) beste momento?
+- Quantos mortos houve em [portugal](pt_country_code:PT) hoje?
 - Quantos mortos temos hoje?
 - Sim. Sabes qual o país onde existe o maior número de infectados?
-- Situação atualizada do coronavírus
+- Situação atualizada do [coronavírus](pt_virus:COVID)
 - Statistics.
 - casos
-- de corrige no Alentejo
+- de [corrige](pt_virus:COVID) no Alentejo
 - existem números
 - falar sobre os números
-- morte na alemanha
-- numero de ifetados portugal
-- numeros para portugal hoje
-- número de infetados em lisboa
+- morte na [alemanha](pt_country_code:DE)
+- numero de ifetados [portugal](pt_country_code:PT)
+- numeros para [portugal](pt_country_code:PT) hoje
+- número de infetados em [Grécia](pt_country_code:GR)
 - o que é a contagem de mortes?
 - quais são os números e o galgo hoje
-- qual o numero de casos confirmados em Portugal?
-- qual o numero de pessoas nos cuidados intensivos por causa da covid ?
+- qual o numero de casos confirmados em [portugal](pt_country_code:PT)?
+- qual o numero de pessoas nos cuidados intensivos por causa da [covid](pt_virus:COVID) ?
 - quantas pessoas estão infectadas
 - quantas pessoas morreram hoje?
 - quantas pessoas no mundo estao infetadas ?
-- quantas pessoas no mundo têm covid ?
-- quantos casos de covid-19 há em Portugal?
-- quantos casos há em portugal no momento?
+- quantas pessoas no mundo têm [covid](pt_virus:COVID) ?
+- quantos casos de [COVID-19](pt_virus:COVID) há em [portugal](pt_country_code:PT)?
+- quantos casos há em [portugal](pt_country_code:PT) no momento?
 - quantos casos há no mundo?
-- quantos mortos em portugal?
-- relação covid no mundo
-- situação do covid no mundo
+- quantos mortos em [portugal](pt_country_code:PT)?
+- relação [covid](pt_virus:COVID) no mundo
+- situação do [covid](pt_virus:COVID) no mundo
 - situação mundial
+- [covid](pt_virus:COVID) em [Bélgica](pt_country_code:BE)
+- [COVID-19](pt_virus:COVID) em [Itália](pt_country_code:IT)
+- Como está a situação em [Ucrânia](pt_country_code:UA)?
+- Coronavirus em [Finlândia](pt_country_code:FI)
+- Estatísticas actualizadas em [Singapura](pt_country_code:SG)
+- Informações [França](pt_country_code:FR)
+- Informações actualizadas [Dinamarca](pt_country_code:DK)
+- Informações sobre [Brasil](pt_country_code:BR)
+- Notícias [Argentina](pt_country_code:AR)
+- Notícias atuais [Venezuela](pt_country_code:VE)
+- Notícias de [Ilhas Falkland](pt_country_code:FK)
+- Notícias sobre o [COVID-19](pt_virus:COVID)
+- [novo coronavírus](pt_virus:COVID) em [Noruega](pt_country_code:NO)
+- Situação [Suécia](pt_country_code:SE)
+- Situação actual em [Suiça](pt_country_code:CH)
+- Situação actualizada em [Polónia](pt_country_code:PL)
+- Situação em [Russia](pt_country_code:RU)
 
 ## intent:pt_covid_situation_deaths
-- "[Eggwanga Yuganda](pt_country_code:UG) mortes."
-- Contagem mortes em [Ilhas Marianas do Norte](pt_country_code:MP)
-- Contagem mortes no [Cisi ca Zambia](pt_country_code:ZM)
-- Contagem mortos em [Svizra](pt_country_code:CH)
-- Contagem mortos no [Northern Ireland](pt_country_code:GB)
-- Mortes de [Republic of Malawi](pt_country_code:MW)
-- Mortes em [République gabonaise](pt_country_code:GA)
-- Mortes em [Yaman](pt_country_code:YE).
-- Numero de mortos em [Fiji](pt_country_code:FJ) hoje?
-- Número de mortes em [Uruguay](pt_country_code:UY)
-- Número de mortos [Repubblica Italiana](pt_country_code:IT).
-- Número de mortos em [Guiné Bissau](pt_country_code:GW).
-- Número total de mortes em [Kyrgyz Republic](pt_country_code:KG).
-- Número total de mortos em [Papua Nova Guiné](pt_country_code:PG)?
-- Olá. Quantos mortos existem em [Wallis and Futuna](pt_country_code:WF)?
-- Qual é o numero de mortos com covid em [Matanitu Tugalala o Viti](pt_country_code:FJ)?
-- Qual é o número de mortes em [Greenland](pt_country_code:GL)?
-- Qual é o número de mortos em [Martinique](pt_country_code:MQ)?
-- Quantos casos de mortos há em [République de Guinée équatoriale](pt_country_code:GQ)?
-- Quantos faleceram em [Caraíbas Neerlandesas](pt_country_code:BQ)?
-- Quantos morreram em [Hayti](pt_country_code:HT).
-- Quantos mortos existem neste momento em [Taneẓroft Tutrimt](pt_country_code:EH)?
-- Quantos mortos tem [São Martinho paises baixos](pt_country_code:SX)?
-- Quantos mortos tem a [Barbados](pt_country_code:BB)?
-- Quantos mortos tem o [Belarus](pt_country_code:BY)?
-- qual o numero de mortes em [Argélia](pt_country_code:DZ)?
-- quantas pessoas em [Etiópia](pt_country_code:ET) morreram?
-- quantas pessoas morreram em [Arménia](pt_country_code:AM)?
+- [República Federal da Alemã](pt_country_code:DE) mortes.
+- Contagem mortes em [Nihon](pt_country_code:JP)
+- Contagem mortes no [República da Guiné-Bissau](pt_country_code:GW)
+- Contagem mortos em [República Islâmica do Afeganistão](pt_country_code:AF)
+- Contagem mortos no [Kyrgyzskaya Respublika](pt_country_code:KG)
+- Mortes de [Germany](pt_country_code:DE)
+- Mortes em [República do Uzbequistão](pt_country_code:UZ)
+- Mortes em [Northern Mariana Islands](pt_country_code:MP).
+- Numero de mortos em [Iyonola](pt_country_code:LC) hoje?
+- Número de mortes em [Quiribáti](pt_country_code:KI)
+- Número de mortos [Reino do Barém](pt_country_code:BH).
+- Número de mortos em [Sesel](pt_country_code:SC).
+- Número total de mortes em [Zimbaué](pt_country_code:ZW).
+- Número total de mortos em [Malawi](pt_country_code:MW)?
+- Olá. Quantos mortos existem em [Free Associated State of Puerto Rico](pt_country_code:PR)?
+- Qual é o numero de mortos com [covid](pt_virus:COVID) em [UAE](pt_country_code:AE)?
+- Qual é o número de mortes em [Gànnaar](pt_country_code:MR)?
+- Qual é o número de mortos em [República de Guinea Ecuatorial](pt_country_code:GQ)?
+- Quantos casos de mortos há em [Kingdom of Eswatini](pt_country_code:SZ)?
+- Quantos faleceram em [Reino da Tailândia](pt_country_code:TH)?
+- Quantos morreram em [Polónia](pt_country_code:PL).
+- Quantos mortos existem neste momento em [HIMI](pt_country_code:HM)?
+- Quantos mortos tem [Libéria](pt_country_code:LR)?
+- Quantos mortos tem a [República da Letônia](pt_country_code:LV)?
+- Quantos mortos tem o [Ahvenanmaa](pt_country_code:AX)?
+- qual o numero de mortes em [Estado da Palestina](pt_country_code:PS)?
+- quantas pessoas em [Caicos Islands](pt_country_code:TC) morreram?
+- quantas pessoas morreram em [Mexico](pt_country_code:MX)?
 
 ## intent:pt_covid_situation_infected
-- ASUS de covid ativos em [República Gabonesa](pt_country_code:GA)
-- ASUS de covid ativos no [Republic of Uganda](pt_country_code:UG)
-- ASUS de covid em [Kingdom of Eswatini](pt_country_code:SZ)
-- ASUS de covid no [Mauritania](pt_country_code:MR)
-- ASUS de covid no total em [Espainiako Erresuma](pt_country_code:ES)
-- ASUS de covid no total no [Estado Independente de Samoa](pt_country_code:WS)
-- Casos ativos de covid em [Malawi](pt_country_code:MW)
-- Casos ativos de covid no [República do Líbano](pt_country_code:LB)
-- Casos confirmados ativos em [Balgariya](pt_country_code:BG)
-- Casos confirmados em [TOM](pt_country_code:TF)
-- Casos de covid em [República do Panamá](pt_country_code:PA)
-- Casos de covid no [Dawlat Lībiyā](pt_country_code:LY)
-- Contagem infectada ativa em [Republic of Vanuatu](pt_country_code:VU)
-- Contagem infectada ativa no [al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah](pt_country_code:AE)
-- Contagem infectada em [Kingdom of Denmark](pt_country_code:DK)
-- Contagem infectada no [République d'Haïti](pt_country_code:HT)
-- Contagem infectada no total em [British Indian Ocean Territory](pt_country_code:IO)
-- Contagem infectada no total no [República de Trindade e Tobago](pt_country_code:TT)
-- Contagem infectados ativos em [Iyonola](pt_country_code:LC)
-- Contagem infectados ativos no [Papua Nova Guiné](pt_country_code:PG)
-- Contagem infectados em [Republic of Zambia](pt_country_code:ZM)
-- Contagem infectados no [Território das Ilhas Heard e McDonald](pt_country_code:HM)
-- Contagem infectados no total em [Republic of Mozambique](pt_country_code:MZ)
-- Contagem infectados no total no [Reino Unido](pt_country_code:GB)
-- Estatísticas de [Österreich](pt_country_code:AT)
-- Numero de infectados ativos em [Argentina](pt_country_code:AR) hoje?
-- Numero de infectados em [Federation of Saint Christopher and Nevis](pt_country_code:KN) hoje?
-- Numero de infectados no total em [Åland](pt_country_code:AX) hoje?
-- Número de casos ativos em [South Korea](pt_country_code:KR)
-- Número de casos em [Fidji](pt_country_code:FJ)
-- Número de casos no total em [U.K.](pt_country_code:GB)
-- Número de infectados ativos em [República da África-Central](pt_country_code:CF).
-- Número de infectados em [República de Honduras](pt_country_code:HN).
-- Número de infectados no total em [Bangladesh](pt_country_code:BD).
-- Olá. Quantos infetados existem atualmente em [Caribisch Nederland](pt_country_code:BQ)?
-- Olá. Quantos infetados existem em [Chosŏn](pt_country_code:KP)?
-- Olá. Quantos infetados no total existem em [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah](pt_country_code:SY)?
-- Olá. Quantos total de infetados existem em [Salvador](pt_country_code:SV)?
-- Qual é o numero de infetados ativos com covid em [Republic of Panama](pt_country_code:PA)?
-- Qual é o numero de infetados com covid em [Saint-Barthélemy](pt_country_code:BL)?
-- Qual é o numero de infetados no total com covid em [Åland](pt_country_code:AX)?
-- Qual é o numero de total de infetados com covid em [Msumbiji](pt_country_code:MZ)?
-- Qual é o número de casos ativos em [Konungariket Sverige](pt_country_code:SE)?
-- Qual é o número de casos confirmados ativos em [Ilhas Geórgia do Sul e Sandwich do Sul](pt_country_code:GS)?
-- Qual é o número de casos confirmados em [Quênia](pt_country_code:KE)?
-- Qual é o número de casos em [Gabuutih Ummuuno](pt_country_code:DJ)?
-- Qual é o número de casos no total confirmados em [Palmyra Atoll](pt_country_code:UM)?
-- Qual é o número de casos no total em [Gámbi](pt_country_code:GM)?
-- Qual é o número de infectados ativos em [Ilhas Faroé](pt_country_code:FO)?
-- Qual é o número de infectados em [Niuê](pt_country_code:NU)?
-- Qual é o número de infectados no total em [Tshād](pt_country_code:TD)?
-- Quantos casos ativos de corrid em [Grã-Bretanha](pt_country_code:GB)
-- Quantos casos ativos em [Kingdom of Sweden](pt_country_code:SE)?
-- Quantos casos ativos existem em [Kingman Reef](pt_country_code:UM)
-- Quantos casos ativos há na [Republic of the Equator](pt_country_code:EC)?
-- Quantos casos de corrid em [Reino do Bahrein](pt_country_code:BH)
-- Quantos casos de infetados ativos há em [Niger](pt_country_code:NE)?
-- Quantos casos de infetados há em [Samoa Ocidental](pt_country_code:WS)?
-- Quantos casos de infetados no total há em [Overseas Collectivity of Saint Pierre and Miquelon](pt_country_code:PM)?
-- Quantos casos de total de infetados há em [as-Su’ūdiyya](pt_country_code:SA)?
-- Quantos casos em [Hungria](pt_country_code:HU)?
-- Quantos casos existem em [Republic of Namibia](pt_country_code:NA)
-- Quantos casos há na [República do Suriname](pt_country_code:SR)?
-- Quantos casos no total de corrid em [Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya](pt_country_code:ET)
-- Quantos casos no total em [Ilhas McDonald](pt_country_code:HM)?
-- Quantos casos no total existem em [Repúbliká ng̃ Pilipinas](pt_country_code:PH)
-- Quantos casos no total há na [República Democrática Federal do Nepal](pt_country_code:NP)?
-- Quantos infectados ativos existem neste momento em [Democratic Republic of São Tomé and Príncipe](pt_country_code:ST)?
-- Quantos infectados existem em [Quênia](pt_country_code:KE)?
-- Quantos infectados existem neste momento em [República Federal do Brasil](pt_country_code:BR)?
-- Quantos infetados ativos tem [Norgga gonagasriika](pt_country_code:NO)?
-- Quantos infetados ativos tem a [Kirghizia](pt_country_code:KG)?
-- Quantos infetados ativos tem o [Pitcairn Islands](pt_country_code:PN)?
-- Quantos infetados no total tem [Holanda](pt_country_code:NL)?
-- Quantos infetados no total tem a [Sint Maarten](pt_country_code:MF)?
-- Quantos infetados no total tem o [Federative Republic of Brazil](pt_country_code:BR)?
-- Quantos infetados tem [Agawej](pt_country_code:MR)?
-- Quantos infetados tem a [al-Kuwait](pt_country_code:KW)?
-- Quantos infetados tem o [Zimbabué](pt_country_code:ZW)?
-- Quantos total de infetados tem [Chile Wüdalmapu](pt_country_code:CL)?
-- Quantos total de infetados tem a [Danmark](pt_country_code:DK)?
-- Quantos total de infetados tem o [Cidade do Vaticano](pt_country_code:VA)?
-- casos no total confirmados em [Republic of El Salvador](pt_country_code:SV)
-- casos no total de covid em [Democratic People's Republic of Korea](pt_country_code:KP)
-- casos no total de covid no [República Oriental do Uruguai](pt_country_code:UY)
-- qual o numero de casos confirmados ativos em [Ilhas Geórgia do Sul e Sanduíche do Sul](pt_country_code:GS)?
-- qual o numero de casos confirmados em [République française](pt_country_code:FR)?
-- qual o numero de casos no total confirmados em [República de Angola](pt_country_code:AO)?
-- quantas pessoas em [Saint Thomas and Prince](pt_country_code:ST) estao infetadas ?
-- quantas pessoas em [Confederação Suíça](pt_country_code:CH) estao infetadas atualmente?
-- quantas pessoas em [República do Iémen](pt_country_code:YE) estiveram infetadas ?
-- quantas pessoas em [Principat de Mónegue](pt_country_code:MC) tiveram covid ?
-- quantas pessoas em [British Virgin Islands](pt_country_code:VG) têm covid ?
-- quantas pessoas em [Cingapura](pt_country_code:SG) têm covid atualmente?
-- quantas pessoas estiveram infectadas em [Republic of Fiji](pt_country_code:FJ)
-- quantas pessoas estão infectadas atualmente em [Republic of Slovenia](pt_country_code:SI)
-- quantas pessoas estão infectadas em [Al-Baḥrayn](pt_country_code:BH)
-- quantos casos ativos de covid-19 há em [Montenegro](pt_country_code:ME)?
-- quantos casos ativos há em [French Guinea](pt_country_code:GN) no momento?
-- quantos casos ativos há no [Bangladesh](pt_country_code:BD)?
-- quantos casos de covid-19 há em [Republic of Mozambique](pt_country_code:MZ)?
-- quantos casos há em [República das Filipinas](pt_country_code:PH) no momento?
-- quantos casos há no [Umoja wa Komori](pt_country_code:KM)?
-- quantos casos no total de covid-19 há em [Papua Nova Guiné](pt_country_code:PG)?
-- quantos casos no total há em [Serbia](pt_country_code:RS) no momento?
-- quantos casos no total há no [Great Britain](pt_country_code:GB)?
+- ASUS de [covid](pt_virus:COVID) ativos em [Austrália](pt_country_code:AU)
+- ASUS de [covid](pt_virus:COVID) ativos no [Ayiti](pt_country_code:HT)
+- ASUS de [covid](pt_virus:COVID) em [República da Turquia](pt_country_code:TR)
+- ASUS de [covid](pt_virus:COVID) no [United Republic of Tanzania](pt_country_code:TZ)
+- ASUS de [covid](pt_virus:COVID) no total em [Република Северна Македонија](pt_country_code:MK)
+- ASUS de [covid](pt_virus:COVID) no total no [Reino da Noruega](pt_country_code:NO)
+- Casos ativos de [covid](pt_virus:COVID) em [Mexico](pt_country_code:MX)
+- Casos ativos de [covid](pt_virus:COVID) no [Comunidade das Bahamas](pt_country_code:BS)
+- Casos confirmados ativos em [República das Seychelles](pt_country_code:SC)
+- Casos confirmados em [Ilizwe leZimbabwe](pt_country_code:ZW)
+- Casos de [covid](pt_virus:COVID) em [Pyidaunzu Thanmăda Myăma](pt_country_code:MM)
+- Casos de [covid](pt_virus:COVID) no [Republic of Chile](pt_country_code:CL)
+- Contagem infectada ativa em [Xīnjiāpō](pt_country_code:SG)
+- Contagem infectada ativa no [Dominica](pt_country_code:DM)
+- Contagem infectada em [Índia](pt_country_code:IN)
+- Contagem infectada no [Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya](pt_country_code:SO)
+- Contagem infectada no total em [Saint Pierre and Miquelon](pt_country_code:PM)
+- Contagem infectada no total no [São Cristóvão e Neves](pt_country_code:KN)
+- Contagem infectados ativos em [Türkiye](pt_country_code:TR)
+- Contagem infectados ativos no [Repubrikin Naoero](pt_country_code:NR)
+- Contagem infectados em [Sultanato de Omã](pt_country_code:OM)
+- Contagem infectados no [Kingdom of Tonga](pt_country_code:TO)
+- Contagem infectados no total em [Republika y'Uburundi](pt_country_code:BI)
+- Contagem infectados no total no [Quirguizistão](pt_country_code:KG)
+- Estatísticas de [Repabliki ya Afrika-Borwa](pt_country_code:ZA)
+- Numero de infectados ativos em [Dominican Republic](pt_country_code:DO) hoje?
+- Numero de infectados em [Dhivehi Raajje](pt_country_code:MV) hoje?
+- Numero de infectados no total em [Sri Lanka](pt_country_code:LK) hoje?
+- Número de casos ativos em [Republic of Sierra Leone](pt_country_code:SL)
+- Número de casos em [Aolepān Aorōkin Ṃajeḷ](pt_country_code:MH)
+- Número de casos no total em [Sri Lanca](pt_country_code:LK)
+- Número de infectados ativos em [Northern Ireland](pt_country_code:GB).
+- Número de infectados em [Sierra Leone](pt_country_code:SL).
+- Número de infectados no total em [Santa Lúcia](pt_country_code:LC).
+- Olá. Quantos infetados existem atualmente em [Saint-Martin](pt_country_code:MF)?
+- Olá. Quantos infetados existem em [Cocos (Keeling) Islands](pt_country_code:CC)?
+- Olá. Quantos infetados no total existem em [Republic of Senegal](pt_country_code:SN)?
+- Olá. Quantos total de infetados existem em [República das Honduras](pt_country_code:HN)?
+- Qual é o numero de infetados ativos com [covid](pt_virus:COVID) em [Saba](pt_country_code:BQ)?
+- Qual é o numero de infetados com [covid](pt_virus:COVID) em [República do Uzbequistão](pt_country_code:UZ)?
+- Qual é o numero de infetados no total com [covid](pt_virus:COVID) em [Cypriot Republic](pt_country_code:CY)?
+- Qual é o numero de total de infetados com [covid](pt_virus:COVID) em [Iyonola](pt_country_code:LC)?
+- Qual é o número de casos ativos em [Estado do Qatar](pt_country_code:QA)?
+- Qual é o número de casos confirmados ativos em [Principality of Andorra](pt_country_code:AD)?
+- Qual é o número de casos confirmados em [Irlanda do Norte](pt_country_code:GB)?
+- Qual é o número de casos em [Maurício](pt_country_code:MU)?
+- Qual é o número de casos no total confirmados em [Saint-Pierre e Miquelon](pt_country_code:PM)?
+- Qual é o número de casos no total em [Taiwan, Province of China](pt_country_code:TW)?
+- Qual é o número de infectados ativos em [República da Maurícia](pt_country_code:MU)?
+- Qual é o número de infectados em [Estado da Líbia](pt_country_code:LY)?
+- Qual é o número de infectados no total em [Dominican Republic](pt_country_code:DO)?
+- Quantos casos ativos de [corrid] em [Nöörje](pt_country_code:NO)
+- Quantos casos ativos em [Suriname](pt_country_code:SR)?
+- Quantos casos ativos existem em [Faroe Islands](pt_country_code:FO)
+- Quantos casos ativos há na [Jamhuuriyadda Federaalka Soomaaliya](pt_country_code:SO)?
+- Quantos casos de [corrid] em [Canadá](pt_country_code:CA)
+- Quantos casos de infetados ativos há em [Mann](pt_country_code:IM)?
+- Quantos casos de infetados há em [Bosna i Hercegovina](pt_country_code:BA)?
+- Quantos casos de infetados no total há em [Turks and Caicos Islands](pt_country_code:TC)?
+- Quantos casos de total de infetados há em [Rephaboliki ya Afrika Borwa](pt_country_code:ZA)?
+- Quantos casos em [Oman](pt_country_code:OM)?
+- Quantos casos existem em [Benin](pt_country_code:BJ)
+- Quantos casos há na [República da Estônia](pt_country_code:EE)?
+- Quantos casos no total de corrid em [Ilha da Irlanda](pt_country_code:IE)
+- Quantos casos no total em [República da Bulgária](pt_country_code:BG)?
+- Quantos casos no total existem em [Naha ya Zimbabwe](pt_country_code:ZW)
+- Quantos casos no total há na [Republic of Cyprus](pt_country_code:CY)?
+- Quantos infectados ativos existem neste momento em [Togo](pt_country_code:TG)?
+- Quantos infectados existem em [Republica do Afeganistão](pt_country_code:AF)?
+- Quantos infectados existem neste momento em [Piruw Republika](pt_country_code:PE)?
+- Quantos infetados ativos tem [Republic of the Sudan](pt_country_code:SD)?
+- Quantos infetados ativos tem a [Cingapura](pt_country_code:SG)?
+- Quantos infetados ativos tem o [Federated States of Micronesia](pt_country_code:FM)?
+- Quantos infetados no total tem [Éire](pt_country_code:IE)?
+- Quantos infetados no total tem a [RDC](pt_country_code:CD)?
+- Quantos infetados no total tem o [República da Arménia](pt_country_code:AM)?
+- Quantos infetados tem [Republic of South Sudan](pt_country_code:SS)?
+- Quantos infetados tem a [Kingdom of Tonga](pt_country_code:TO)?
+- Quantos infetados tem o [Ruanda](pt_country_code:RW)?
+- Quantos total de infetados tem [as-Sūdān](pt_country_code:SD)?
+- Quantos total de infetados tem a [Svalbard og Jan Mayen](pt_country_code:SJ)?
+- Quantos total de infetados tem o [Slovenija](pt_country_code:SI)?
+- casos no total confirmados em [Japan](pt_country_code:JP)
+- casos no total de [covid](pt_virus:COVID) em [Bolívia](pt_country_code:BO)
+- casos no total de [covid](pt_virus:COVID) no [Al-ʾUrdunn](pt_country_code:JO)
+- qual o numero de casos confirmados ativos em [Wallis e Futuna](pt_country_code:WF)?
+- qual o numero de casos confirmados em [Barbuda](pt_country_code:AG)?
+- qual o numero de casos no total confirmados em [Sultanate of Oman](pt_country_code:OM)?
+- quantas pessoas em [Republic of Cabo Verde](pt_country_code:CV) estao infetadas ?
+- quantas pessoas em [Guåhån](pt_country_code:GU) estao infetadas atualmente?
+- quantas pessoas em [Éire](pt_country_code:IE) estiveram infetadas ?
+- quantas pessoas em [República da Moldova](pt_country_code:MD) tiveram covid ?
+- quantas pessoas em [Czechia](pt_country_code:CZ) têm covid ?
+- quantas pessoas em [Uzbequistão](pt_country_code:UZ) têm covid atualmente?
+- quantas pessoas estiveram infectadas em [Repubblica di San Marino](pt_country_code:SM)
+- quantas pessoas estão infectadas atualmente em [Tunisie](pt_country_code:TN)
+- quantas pessoas estão infectadas em [Mēxihco](pt_country_code:MX)
+- quantos casos ativos de [COVID-19](pt_virus:COVID) há em [República das Maldivas](pt_country_code:MV)?
+- quantos casos ativos há em [Ilha Bouvet](pt_country_code:BV) no momento?
+- quantos casos ativos há no [Oʻzbekiston](pt_country_code:UZ)?
+- quantos casos de [COVID-19](pt_virus:COVID) há em [Beluu er a Belau](pt_country_code:PW)?
+- quantos casos há em [Reino da Jordânia](pt_country_code:JO) no momento?
+- quantos casos há no [Република Србија](pt_country_code:RS)?
+- quantos casos no total de [COVID-19](pt_virus:COVID) há em [República da Moldávia](pt_country_code:MD)?
+- quantos casos no total há em [Republic of India](pt_country_code:IN) no momento?
+- quantos casos no total há no [Macao](pt_country_code:MO)?
 
 ## intent:pt_covid_situation_infected_critical
-- ASUS alarmantes de covid em [Ahvenanmaa](pt_country_code:AX)
-- ASUS alarmantes de covid no [República da Argentina](pt_country_code:AR)
-- ASUS criticos de covid em [Belgique](pt_country_code:BE)
-- ASUS criticos de covid no [Republic of Malawi](pt_country_code:MW)
-- ASUS críticos de covid em [Tailândia](pt_country_code:TH)
-- ASUS críticos de covid no [Gwadloup](pt_country_code:GP)
-- ASUS graves de covid em [România](pt_country_code:RO)
-- ASUS graves de covid no [Afeganistão](pt_country_code:AF)
-- Casos alarmantes de covid em [Ilha do Natal](pt_country_code:CX)
-- Casos alarmantes de covid no [Nova Caledônia](pt_country_code:NC)
-- Casos confirmados alarmantes em [République de Djibouti](pt_country_code:DJ)
-- Casos confirmados criticos em [Czech Republic](pt_country_code:CZ)
-- Casos confirmados críticos em [Republic of Mauritius](pt_country_code:MU)
-- Casos confirmados graves em [Estados Unidos da América](pt_country_code:US)
-- Casos criticos de covid em [ilha Norfolk](pt_country_code:NF)
-- Casos criticos de covid no [Gibraltar](pt_country_code:GI)
-- Casos críticos de covid em [República das Fidji](pt_country_code:FJ)
-- Casos críticos de covid no [Balgariya](pt_country_code:BG)
-- Casos graves de covid em [Ködörösêse tî Bêafrîka](pt_country_code:CF)
-- Casos graves de covid no [République de Côte d'Ivoire](pt_country_code:CI)
-- Contagem infectada alarmante em [Sancta Sedes](pt_country_code:VA)
-- Contagem infectada alarmante no [Aolepān Aorōkin Ṃajeḷ](pt_country_code:MH)
-- Contagem infectada critica em [Ilhas Menores Distantes dos Estados Unidos](pt_country_code:UM)
-- Contagem infectada critica no [Afghanistan](pt_country_code:AF)
-- Contagem infectada crítica em [República de Angola](pt_country_code:AO)
-- Contagem infectada crítica no [Arab Republic of Egypt](pt_country_code:EG)
-- Contagem infectados alarmantes em [Jamhuri ya Rwanda](pt_country_code:RW)
-- Contagem infectados alarmantes no [Irão](pt_country_code:IR)
-- Contagem infectados criticos em [Iêmen](pt_country_code:YE)
-- Contagem infectados criticos no [Norf'k Ailen](pt_country_code:NF)
-- Contagem infectados críticos em [State of Eritrea](pt_country_code:ER)
-- Contagem infectados críticos no [Arquipélago da Aland](pt_country_code:AX)
-- Contagem infectados graves em [Colombia](pt_country_code:CO)
-- Contagem infectados graves no [Antigua and Barbuda](pt_country_code:AG)
-- Infetados alarmantes em [Persia](pt_country_code:IR)
-- Infetados criticos em [Mexico](pt_country_code:MX)
-- Infetados críticos em [Balgariya](pt_country_code:BG)
-- Infetados graves em [Isle of Man](pt_country_code:IM)
-- Numero de infectados alarmantes em [Democratic Republic of the Congo](pt_country_code:CD) hoje?
-- Numero de infectados criticos em [República Socialista do Vietname](pt_country_code:VN) hoje?
-- Numero de infectados críticos em [Saint Kitts](pt_country_code:KN) hoje?
-- Numero de infectados graves em [Ilhas Pitcairn, Henderson, Ducie e Oeno](pt_country_code:PN) hoje?
-- Número de casos alarmantes em [Lituânia](pt_country_code:LT)
-- Número de casos criticos em [Ilhas Sandwich do Sul](pt_country_code:GS)
-- Número de casos críticos em [Comores](pt_country_code:KM)
-- Número de casos graves em [French Republic](pt_country_code:FR)
-- Número de infectados alarmantes em [Territoire des îles Wallis-et-Futuna](pt_country_code:WF).
-- Número de infectados criticos em [Monserrate](pt_country_code:MS).
-- Número de infectados críticos em [Kingdom of Sweden](pt_country_code:SE).
-- Número de infectados graves em [Trinidad e Tobago](pt_country_code:TT).
-- Olá. Quantos infetados alarmantes existem em [Oriental Republic of Uruguay](pt_country_code:UY)?
-- Olá. Quantos infetados criticos existem em [Hagere Ertra](pt_country_code:ER)?
-- Olá. Quantos infetados críticos existem em [Sāmoa Amelika](pt_country_code:AS)?
-- Olá. Quantos infetados graves existem em [Nederland](pt_country_code:NL)?
-- Qual é o numero de infetados alarmantes com covid em [Bailliage de Guernesey](pt_country_code:GG)?
-- Qual é o numero de infetados criticos com covid em [Brasil](pt_country_code:BR)?
-- Qual é o numero de infetados críticos com covid em [Confoederatio Helvetica](pt_country_code:CH)?
-- Qual é o numero de infetados graves com covid em [Federal Republic of Germany](pt_country_code:DE)?
-- Qual é o número de casos alarmantes em [Norf'k Ailen](pt_country_code:NF)?
-- Qual é o número de casos confirmados alarmantes em [Salvador](pt_country_code:SV)?
-- Qual é o número de casos confirmados criticos em [Estado da Cidade do Vaticano](pt_country_code:VA)?
-- Qual é o número de casos confirmados críticos em [Território Britânico do Oceano](pt_country_code:IO)?
-- Qual é o número de casos confirmados graves em [Islas Malvinas](pt_country_code:FK)?
-- Qual é o número de casos criticos em [Republic of Singapore](pt_country_code:SG)?
-- Qual é o número de casos críticos em [Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah](pt_country_code:AE)?
-- Qual é o número de casos graves em [Maldives](pt_country_code:MV)?
-- Qual é o número de infectados alarmantes em [Bangladesh](pt_country_code:BD)?
-- Qual é o número de infectados criticos em [Coletividade de São Bartolomeu](pt_country_code:BL)?
-- Qual é o número de infectados críticos em [Département de Mayotte](pt_country_code:YT)?
-- Qual é o número de infectados graves em [Ilhas Cayman](pt_country_code:KY)?
-- Quantos casos alarmantes de corrid em [Kenya](pt_country_code:KE)
-- Quantos casos alarmantes em [Grupo de Ilhas Pitcairn](pt_country_code:PN)?
-- Quantos casos alarmantes existem em [Reino do Butão](pt_country_code:BT)
-- Quantos casos alarmantes há na [Guame](pt_country_code:GU)?
-- Quantos casos criticos de corrid em [Território Britânico do Oceano](pt_country_code:IO)
-- Quantos casos criticos em [República do Líbano](pt_country_code:LB)?
-- Quantos casos criticos existem em [Islamic Republic of Iran](pt_country_code:IR)
-- Quantos casos criticos há na [Macedônia do Norte](pt_country_code:MK)?
-- Quantos casos críticos de corrid em [Sudão do Sul](pt_country_code:SS)
-- Quantos casos críticos em [República de Nicaragua](pt_country_code:NI)?
-- Quantos casos críticos existem em [Guérnesei](pt_country_code:GG)
-- Quantos casos críticos há na [Síria](pt_country_code:SY)?
-- Quantos casos de infetados alarmantes há em [Republic of Côte d'Ivoire](pt_country_code:CI)?
-- Quantos casos de infetados criticos há em [República da Eslovénia](pt_country_code:SI)?
-- Quantos casos de infetados críticos há em [Republic of the Niger](pt_country_code:NE)?
-- Quantos casos de infetados graves há em [Palau](pt_country_code:PW)?
-- Quantos casos graves de corrid em [Schwiiz](pt_country_code:CH)
-- Quantos casos graves em [Spain](pt_country_code:ES)?
-- Quantos casos graves existem em [Bouvet-øya](pt_country_code:BV)
-- Quantos casos graves há na [Saint Martin (French part)](pt_country_code:MF)?
-- Quantos infectados alarmantes existem neste momento em [Quirguizistão](pt_country_code:KG)?
-- Quantos infectados criticos existem neste momento em [Republic of Fiji](pt_country_code:FJ)?
-- Quantos infectados críticos existem neste momento em [Democratic People's Republic of Korea](pt_country_code:KP)?
-- Quantos infectados graves existem neste momento em [Jamhuriyar Taraiyar Najeriya](pt_country_code:NG)?
-- Quantos infetados alarmantes tem [República de Trindade e Tobago](pt_country_code:TT)?
-- Quantos infetados alarmantes tem o [Umoja wa Komori](pt_country_code:KM)?
-- Quantos infetados criticos tem [República de Uganda](pt_country_code:UG)?
-- Quantos infetados criticos tem o [Palaos](pt_country_code:PW)?
-- Quantos infetados críticos tem [Bailliage de Jersey](pt_country_code:JE)?
-- Quantos infetados críticos tem o [Tunisie](pt_country_code:TN)?
-- Quantos infetados graves tem [Democratic Republic of São Tomé and Príncipe](pt_country_code:ST)?
-- Quantos infetados graves tem o [Mayotte](pt_country_code:YT)?
-- qual o numero de casos confirmados alarmantes em [Quirguistão](pt_country_code:KG)?
-- qual o numero de casos confirmados criticos em [República Francesa](pt_country_code:FR)?
-- qual o numero de casos confirmados críticos em [FSM](pt_country_code:FM)?
-- qual o numero de casos confirmados graves em [Saṅghīya Lokatāntrik Gaṇatantra Nepāl](pt_country_code:NP)?
-- quantos casos alarmantes de covid-19 há em [Kingdom of Spain](pt_country_code:ES)?
-- quantos casos alarmantes há em [Republíki ya Kongó Demokratíki](pt_country_code:CD) no momento?
-- quantos casos alarmantes há no [Collectivité territoriale de Saint-Barthélemy](pt_country_code:BL)?
-- quantos casos criticos de covid-19 há em [Kambiya](pt_country_code:GM)?
-- quantos casos criticos há em [República de Madagáscar](pt_country_code:MG) no momento?
-- quantos casos criticos há no [República da Letônia](pt_country_code:LV)?
-- quantos casos críticos de covid-19 há em [Yaman](pt_country_code:YE)?
-- quantos casos críticos há em [Pākistān](pt_country_code:PK) no momento?
-- quantos casos críticos há no [Espainiako Erresuma](pt_country_code:ES)?
-- quantos casos graves de covid-19 há em [Rzeczpospolita Polska](pt_country_code:PL)?
-- quantos casos graves há em [Republic of Mauritius](pt_country_code:MU) no momento?
-- quantos casos graves há no [República do Iémen](pt_country_code:YE)?
+- ASUS alarmantes de [covid](pt_virus:COVID) em [República Islâmica do Afeganistão](pt_country_code:AF)
+- ASUS alarmantes de [covid](pt_virus:COVID) no [Domínica](pt_country_code:DM)
+- ASUS criticos de [covid](pt_virus:COVID) em [Maurício](pt_country_code:MU)
+- ASUS criticos de [covid](pt_virus:COVID) no [República Federal do Brasil](pt_country_code:BR)
+- ASUS críticos de [covid](pt_virus:COVID) em [Republic of Argentina](pt_country_code:AR)
+- ASUS críticos de [covid](pt_virus:COVID) no [Republic of Maldives](pt_country_code:MV)
+- ASUS graves de [covid](pt_virus:COVID) em [Dawlat al-Kuwait](pt_country_code:KW)
+- ASUS graves de [covid](pt_virus:COVID) no [República Dominicana](pt_country_code:DO)
+- Casos alarmantes de [covid](pt_virus:COVID) em [Santa Helena, Ascensão e Tristão da Cunha](pt_country_code:SH)
+- Casos alarmantes de [covid](pt_virus:COVID) no [Pitcairn, Henderson, Ducie and Oeno Islands](pt_country_code:PN)
+- Casos confirmados alarmantes em [Congo Brazzaville](pt_country_code:CG)
+- Casos confirmados criticos em [Syria](pt_country_code:SY)
+- Casos confirmados críticos em [Baamas](pt_country_code:BS)
+- Casos confirmados graves em [Ilha Jarvis](pt_country_code:UM)
+- Casos criticos de [covid](pt_virus:COVID) em [Cisi ca Zambia](pt_country_code:ZM)
+- Casos criticos de [covid](pt_virus:COVID) no [Commonwealth of Australia](pt_country_code:AU)
+- Casos críticos de [covid](pt_virus:COVID) em [Niuē](pt_country_code:NU)
+- Casos críticos de [covid](pt_virus:COVID) no [Reino de España](pt_country_code:ES)
+- Casos graves de [covid](pt_virus:COVID) em [Antigua and Barbuda](pt_country_code:AG)
+- Casos graves de [covid](pt_virus:COVID) no [Norfolk Island](pt_country_code:NF)
+- Contagem infectada alarmante em [Sérvia](pt_country_code:RS)
+- Contagem infectada alarmante no [UK](pt_country_code:GB)
+- Contagem infectada critica em [Bailliage dé Jèrri](pt_country_code:JE)
+- Contagem infectada critica no [Norway](pt_country_code:NO)
+- Contagem infectada crítica em [Bonaire, Sint Eustatius and Saba](pt_country_code:BQ)
+- Contagem infectada crítica no [Slovenija](pt_country_code:SI)
+- Contagem infectados alarmantes em [República dos Camarões](pt_country_code:CM)
+- Contagem infectados alarmantes no [Rússia](pt_country_code:RU)
+- Contagem infectados criticos em [Gànnaar](pt_country_code:MR)
+- Contagem infectados criticos no [Kirghizia](pt_country_code:KG)
+- Contagem infectados críticos em [Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu](pt_country_code:LK)
+- Contagem infectados críticos no [Togo](pt_country_code:TG)
+- Contagem infectados graves em [Germany](pt_country_code:DE)
+- Contagem infectados graves no [South Korea](pt_country_code:KR)
+- Infetados alarmantes em [República Árabe do Egito](pt_country_code:EG)
+- Infetados criticos em [República Democrática de São Tomé e Príncipe](pt_country_code:ST)
+- Infetados críticos em [Estado Plurinacional de Bolivia](pt_country_code:BO)
+- Infetados graves em [Groenlândia](pt_country_code:GL)
+- Numero de infectados alarmantes em [Ruanda](pt_country_code:RW) hoje?
+- Numero de infectados criticos em [Islândia](pt_country_code:IS) hoje?
+- Numero de infectados críticos em [Mexican United States](pt_country_code:MX) hoje?
+- Numero de infectados graves em [Bailiado de Jersey](pt_country_code:JE) hoje?
+- Número de casos alarmantes em [Taiwan Area](pt_country_code:TW)
+- Número de casos criticos em [São Vicente e Granadinas](pt_country_code:VC)
+- Número de casos críticos em [Sao Tome and Principe](pt_country_code:ST)
+- Número de casos graves em [Kongeriket Noreg](pt_country_code:NO)
+- Número de infectados alarmantes em [Dominican Republic](pt_country_code:DO).
+- Número de infectados criticos em [Bangladexe](pt_country_code:BD).
+- Número de infectados críticos em [Jamhuri ya Rwanda](pt_country_code:RW).
+- Número de infectados graves em [Luxemburgo](pt_country_code:LU).
+- Olá. Quantos infetados alarmantes existem em [Piruw Suyu](pt_country_code:PE)?
+- Olá. Quantos infetados criticos existem em [Chosŏn](pt_country_code:KP)?
+- Olá. Quantos infetados críticos existem em [Federal Republic of Germany](pt_country_code:DE)?
+- Olá. Quantos infetados graves existem em [Chile](pt_country_code:CL)?
+- Qual é o numero de infetados alarmantes com [covid](pt_virus:COVID) em [Namhan](pt_country_code:KR)?
+- Qual é o numero de infetados criticos com [covid](pt_virus:COVID) em [Coletividade de São Bartolomeu](pt_country_code:BL)?
+- Qual é o numero de infetados críticos com [covid](pt_virus:COVID) em [Hellas](pt_country_code:GR)?
+- Qual é o numero de infetados graves com [covid](pt_virus:COVID) em [Território da Ilha Norfolque](pt_country_code:NF)?
+- Qual é o número de casos alarmantes em [Falklands](pt_country_code:FK)?
+- Qual é o número de casos confirmados alarmantes em [Ilha da Irlanda](pt_country_code:IE)?
+- Qual é o número de casos confirmados criticos em [Republic of North Macedonia](pt_country_code:MK)?
+- Qual é o número de casos confirmados críticos em [East Timor](pt_country_code:TL)?
+- Qual é o número de casos confirmados graves em [Ilhas Cocos Keeling](pt_country_code:CC)?
+- Qual é o número de casos criticos em [Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah](pt_country_code:JO)?
+- Qual é o número de casos críticos em [Argentina](pt_country_code:AR)?
+- Qual é o número de casos graves em [Reino do Lesoto](pt_country_code:LS)?
+- Qual é o número de infectados alarmantes em [United Arab Emirates](pt_country_code:AE)?
+- Qual é o número de infectados criticos em [Saint Helena](pt_country_code:SH)?
+- Qual é o número de infectados críticos em [Baker Island](pt_country_code:UM)?
+- Qual é o número de infectados graves em [República Federal da Nigéria](pt_country_code:NG)?
+- Quantos casos alarmantes de [corrid](pt_virus:COVID) em [Faroe Islands](pt_country_code:FO)
+- Quantos casos alarmantes em [Free Associated State of Puerto Rico](pt_country_code:PR)?
+- Quantos casos alarmantes existem em [Repubilika ya Kôngo ya Dimokalasi](pt_country_code:CD)
+- Quantos casos alarmantes há na [Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui](pt_country_code:MO)?
+- Quantos casos criticos de [corrid](pt_virus:COVID) em [TOM](pt_country_code:TF)
+- Quantos casos criticos em [Ilhas Cook](pt_country_code:CK)?
+- Quantos casos criticos existem em [Maore](pt_country_code:YT)
+- Quantos casos criticos há na [Danmark](pt_country_code:DK)?
+- Quantos casos críticos de [corrid](pt_virus:COVID) em [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah](pt_country_code:SY)
+- Quantos casos críticos em [Reino da Suécia](pt_country_code:SE)?
+- Quantos casos críticos existem em [Irão](pt_country_code:IR)
+- Quantos casos críticos há na [Cocos (Keeling) Islands](pt_country_code:CC)?
+- Quantos casos de infetados alarmantes há em [Udzima wa Komori](pt_country_code:KM)?
+- Quantos casos de infetados criticos há em [República do Botsuana](pt_country_code:BW)?
+- Quantos casos de infetados críticos há em [Republic of Maldives](pt_country_code:MV)?
+- Quantos casos de infetados graves há em [Taiwan, China](pt_country_code:TW)?
+- Quantos casos graves de corrid em [Ilha Aprazível](pt_country_code:NR)
+- Quantos casos graves em [Ilhas Malvinas](pt_country_code:FK)?
+- Quantos casos graves existem em [Druk Gyal Khap](pt_country_code:BT)
+- Quantos casos graves há na [Paraguái](pt_country_code:PY)?
+- Quantos infectados alarmantes existem neste momento em [Mali](pt_country_code:ML)?
+- Quantos infectados criticos existem neste momento em [South Georgia and the South Sandwich Islands](pt_country_code:GS)?
+- Quantos infectados críticos existem neste momento em [Киргизия](pt_country_code:KG)?
+- Quantos infectados graves existem neste momento em [Pleasant Island](pt_country_code:NR)?
+- Quantos infetados alarmantes tem [aṣ-Ṣūmāl](pt_country_code:SO)?
+- Quantos infetados alarmantes tem o [Emirates](pt_country_code:AE)?
+- Quantos infetados criticos tem [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà](pt_country_code:NG)?
+- Quantos infetados criticos tem o [Mauritanie](pt_country_code:MR)?
+- Quantos infetados críticos tem [Schweiz](pt_country_code:CH)?
+- Quantos infetados críticos tem o [Bonaire](pt_country_code:BQ)?
+- Quantos infetados graves tem [Republic of Suriname](pt_country_code:SR)?
+- Quantos infetados graves tem o [República da Estónia](pt_country_code:EE)?
+- qual o numero de casos confirmados alarmantes em [Wilayah Kepulauan Cocos Keeling](pt_country_code:CC)?
+- qual o numero de casos confirmados criticos em [Renndaandi Ginea](pt_country_code:GN)?
+- qual o numero de casos confirmados críticos em [Republic of Honduras](pt_country_code:HN)?
+- qual o numero de casos confirmados graves em [La Grenade](pt_country_code:GD)?
+- quantos casos alarmantes de [COVID-19](pt_virus:COVID) há em [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà](pt_country_code:NG)?
+- quantos casos alarmantes há em [Jamhuriyar Taraiyar Najeriya](pt_country_code:NG) no momento?
+- quantos casos alarmantes há no [Republic of Belarus](pt_country_code:BY)?
+- quantos casos criticos de [COVID-19](pt_virus:COVID) há em [Jamaica](pt_country_code:JM)?
+- quantos casos criticos há em [Portuguese Republic](pt_country_code:PT) no momento?
+- quantos casos criticos há no [Croácia](pt_country_code:HR)?
+- quantos casos críticos de [COVID-19](pt_virus:COVID) há em [Airlann](pt_country_code:IE)?
+- quantos casos críticos há em [Republic of Mozambique](pt_country_code:MZ) no momento?
+- quantos casos críticos há no [República das Seicheles ou Seychelles](pt_country_code:SC)?
+- quantos casos graves de [COVID-19](pt_virus:COVID) há em [República da Lituânia](pt_country_code:LT)?
+- quantos casos graves há em [Nouvelle-Calédonie](pt_country_code:NC) no momento?
+- quantos casos graves há no [Republik Namibia](pt_country_code:NA)?
 
 ## intent:pt_covid_situation_last_update
 - Atualização de [Mozambique](pt_country_code:MZ).
@@ -3301,166 +3582,166 @@
 - Últimos dados em [State of Kuwait](pt_country_code:KW).
 
 ## intent:pt_covid_situation_recovered
-- "[Ilha Bouvet](pt_country_code:BV) recuperados."
-- "[Rzeczpospolita Polska](pt_country_code:PL) recuperações."
-- Contagem recuperados em [Wallis-et-Futuna](pt_country_code:WF)
-- Contagem recuperados no [Reino do Lesoto](pt_country_code:LS)
-- Contagem recuperações em [Groussherzogtum Lëtzebuerg](pt_country_code:LU)
-- Contagem recuperações no [Lietuva](pt_country_code:LT)
-- Numero de recuperados em [Republic of Liberia](pt_country_code:LR) hoje?
-- Numero de recuperações em [Bósnia](pt_country_code:BA) hoje?
-- Número de recuperados [Vietnam](pt_country_code:VN).
-- Número de recuperados em [Kingdom of the Netherlands](pt_country_code:NL)
-- Número de recuperados em [Repubblica di San Marino](pt_country_code:SM).
-- Número de recuperações [TBOI](pt_country_code:IO).
-- Número de recuperações em [FSM](pt_country_code:FM)
-- Número de recuperações em [Irã](pt_country_code:IR).
-- Número total de recuperados em [Republic of Cabo Verde](pt_country_code:CV).
-- Número total de recuperados em [Guinea Bissau](pt_country_code:GW)?
-- Número total de recuperações em [Ilaṅkai](pt_country_code:LK).
-- Número total de recuperações em [São Cristóvão e Neves](pt_country_code:KN)?
-- Olá. Quantos recuperados existem em [République des Seychelles](pt_country_code:SC)?
-- Olá. Quantos recuperações existem em [Hong Kong Special Administrative Region](pt_country_code:HK)?
-- Qual é o numero de recuperados com covid em [Níger](pt_country_code:NE)?
-- Qual é o numero de recuperações com covid em [Estados Unidos Mexicanos](pt_country_code:MX)?
-- Qual é o número de recuperados em [RD Congo](pt_country_code:CD)?
-- Qual é o número de recuperações em [Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu](pt_country_code:LK)?
-- Quantos casos de recuperados há em [Negara Brunei Darussalam](pt_country_code:BN)?
-- Quantos casos de recuperações há em [República Democrática de Timor-Leste](pt_country_code:TL)?
-- Quantos recuperados existem neste momento em [iRiphabhulikhi yeNingizimu Afrika](pt_country_code:ZA)?
-- Quantos recuperados tem [Rephaboliki ya Aforika Borwa](pt_country_code:ZA)?
-- Quantos recuperados tem a [Turquemenistão](pt_country_code:TM)?
-- Quantos recuperados tem o [Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah](pt_country_code:JO)?
-- Quantos recuperaram em [Confederação Suíça](pt_country_code:CH).
-- Quantos recuperações existem neste momento em [Kazakhstan](pt_country_code:KZ)?
-- Quantos recuperações tem [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà](pt_country_code:NG)?
-- Quantos recuperações tem a [Moritani](pt_country_code:MR)?
-- Quantos recuperações tem o [Republic of the Union of Myanmar](pt_country_code:MM)?
-- qual o numero de recuperados em [America](pt_country_code:US)?
-- qual o numero de recuperações em [República de Chipre](pt_country_code:CY)?
-- quantas pessoas em [São Martim](pt_country_code:MF) recuperaram?
-- quantas pessoas recuperaram em [Guiné Bissau](pt_country_code:GW)?
-- recuperados de [Baamas](pt_country_code:BS)
-- recuperados em [Cocos (Keeling) Islands](pt_country_code:CC).
-- recuperações de [Republic of Mali](pt_country_code:ML)
-- recuperações em [al-maġhrib](pt_country_code:MA).
+- "[Pyidaunzu Thanmăda Myăma](pt_country_code:MM) recuperados."
+- "[Arab Republic of Egypt](pt_country_code:EG) recuperações."
+- Contagem recuperados em [République du Mali](pt_country_code:ML)
+- Contagem recuperados no [Ilhas Virgens dos Estados Unidos](pt_country_code:VI)
+- Contagem recuperações em [Midway Atoll](pt_country_code:UM)
+- Contagem recuperações no [Monserrate](pt_country_code:MS)
+- Numero de recuperados em [Territory of the Wallis and Futuna Islands](pt_country_code:WF) hoje?
+- Numero de recuperações em [São Marino](pt_country_code:SM) hoje?
+- Número de recuperados [The Democratic Republic of the Congo](pt_country_code:CD).
+- Número de recuperados em [British Indian Ocean Territory](pt_country_code:IO)
+- Número de recuperados em [Vuona gånågisrijkka](pt_country_code:NO).
+- Número de recuperações [Pitkern Ailen](pt_country_code:PN).
+- Número de recuperações em [Liechtenstein](pt_country_code:LI)
+- Número de recuperações em [Rossiya](pt_country_code:RU).
+- Número total de recuperados em [Confoederatio Helvetica](pt_country_code:CH).
+- Número total de recuperados em [Lesoto](pt_country_code:LS)?
+- Número total de recuperações em [Estado da Eritreia](pt_country_code:ER).
+- Número total de recuperações em [Tchade](pt_country_code:TD)?
+- Olá. Quantos recuperados existem em [Noreg](pt_country_code:NO)?
+- Olá. Quantos recuperações existem em [Republic of Kazakhstan](pt_country_code:KZ)?
+- Qual é o numero de recuperados com [covid](pt_virus:COVID) em [Reino de Espanha](pt_country_code:ES)?
+- Qual é o numero de recuperações com [covid](pt_virus:COVID) em [Bermuda](pt_country_code:BM)?
+- Qual é o número de recuperados em [Grão-Ducado do Luxemburgo](pt_country_code:LU)?
+- Qual é o número de recuperações em [Republic of Equatorial Guinea](pt_country_code:GQ)?
+- Quantos casos de recuperados há em [República da Coreia](pt_country_code:KR)?
+- Quantos casos de recuperações há em [Soomaaliya](pt_country_code:SO)?
+- Quantos recuperados existem neste momento em [Republic of Finland](pt_country_code:FI)?
+- Quantos recuperados tem [Chad](pt_country_code:TD)?
+- Quantos recuperados tem a [Sāmoa](pt_country_code:WS)?
+- Quantos recuperados tem o [Suomen tasavalta](pt_country_code:FI)?
+- Quantos recuperaram em [Norgga gonagasriika](pt_country_code:NO).
+- Quantos recuperações existem neste momento em [Hanguk](pt_country_code:KR)?
+- Quantos recuperações tem [Republic of Slovenia](pt_country_code:SI)?
+- Quantos recuperações tem a [Australia](pt_country_code:AU)?
+- Quantos recuperações tem o [República da Costa Rica](pt_country_code:CR)?
+- qual o numero de recuperados em [Federation of Saint Christopher and Nevis](pt_country_code:KN)?
+- qual o numero de recuperações em [Principauté de Monaco](pt_country_code:MC)?
+- quantas pessoas em [People's Republic of Bangladesh](pt_country_code:BD) recuperaram?
+- quantas pessoas recuperaram em [Países Baixos](pt_country_code:NL)?
+- recuperados de [ityoppiah federalih demokrasih ummuno](pt_country_code:ET)
+- recuperados em [Belarus](pt_country_code:BY).
+- recuperações de [België](pt_country_code:BE)
+- recuperações em [República de Madagascar](pt_country_code:MG).
 
 ## intent:pt_covid_situation_tested
-- "[Myanmar](pt_country_code:MM) testados."
-- "[Federal Democratic Republic of Ethiopia](pt_country_code:ET) testes."
-- Contagem testados em [Estados Unidos Mexicanos](pt_country_code:MX)
-- Contagem testados no [SGSSI](pt_country_code:GS)
-- Contagem testes em [Réewum Senegaal](pt_country_code:SN)
-- Contagem testes no [Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu](pt_country_code:LK)
-- Numero de testados em [República de Nauru](pt_country_code:NR) hoje?
-- Numero de testes em [Sāmoa Amelika](pt_country_code:AS) hoje?
-- Número de testados [República do Quirguizistão](pt_country_code:KG).
-- Número de testados em [Sáara Ocidental](pt_country_code:EH)
-- Número de testados em [Britain](pt_country_code:GB).
-- Número de testes [Kazakhstan](pt_country_code:KZ).
-- Número de testes em [Wallis-et-Futuna](pt_country_code:WF)
-- Número de testes em [Zimbábue](pt_country_code:ZW).
-- Número total de testados em [Cocos Keeling Islands](pt_country_code:CC).
-- Número total de testados em [Bareine](pt_country_code:BH)?
-- Número total de testes em [La Réunion](pt_country_code:RE).
-- Número total de testes em [Qatar](pt_country_code:QA)?
-- Olá. Quantos testados existem em [Collectivité territoriale de Saint-Barthélemy](pt_country_code:BL)?
-- Olá. Quantos testes existem em [Territory of Norfolk Island](pt_country_code:NF)?
-- Qual é o numero de testados com covid em [République de Guinée équatoriale](pt_country_code:GQ)?
-- Qual é o numero de testes com covid em [República do Cameroun](pt_country_code:CM)?
-- Qual é o número de testados em [Wake Island](pt_country_code:UM)?
-- Qual é o número de testes em [Barein](pt_country_code:BH)?
-- Quantos casos de testados há em [Groelândia](pt_country_code:GL)?
-- Quantos casos de testes há em [Papua Nova Guiné](pt_country_code:PG)?
-- Quantos foram testados em [República do Quirguizistão](pt_country_code:KG).
-- Quantos testados existem neste momento em [Arábia Saudita](pt_country_code:SA)?
-- Quantos testados tem [Republic of Kiribati](pt_country_code:KI)?
-- Quantos testados tem a [Marrocos](pt_country_code:MA)?
-- Quantos testados tem o [Federation of Saint Christopher and Nevis](pt_country_code:KN)?
-- Quantos testes existem neste momento em [Territoire des îles Wallis-et-Futuna](pt_country_code:WF)?
-- Quantos testes tem [Burkina Faso](pt_country_code:BF)?
-- Quantos testes tem a [Réewum Senegaal](pt_country_code:SN)?
-- Quantos testes tem o [St-Barth](pt_country_code:BL)?
-- qual o numero de testados em [Swaziland](pt_country_code:SZ)?
-- qual o numero de testes em [Slovenija](pt_country_code:SI)?
-- quantas pessoas em [Республика Казахстан](pt_country_code:KZ) foram testadas?
-- quantas pessoas foram testadas em [al-maġhrib](pt_country_code:MA)?
-- testados de [Turquemenistão](pt_country_code:TM)
-- testados em [Democratic Republic of the Congo](pt_country_code:CD).
-- testes de [Turquia](pt_country_code:TR)
-- testes em [Црна Гора](pt_country_code:ME).
+- "[Ilha Esmeralda](pt_country_code:IE) testados."
+- "[Saṅghīya Lokatāntrik Gaṇatantra Nepāl](pt_country_code:NP) testes."
+- Contagem testados em [Republic of Liberia](pt_country_code:LR)
+- Contagem testados no [Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà](pt_country_code:NG)
+- Contagem testes em [Beluu er a Belau](pt_country_code:PW)
+- Contagem testes no [Repubblica di San Marino](pt_country_code:SM)
+- Numero de testados em [Macau](pt_country_code:MO) hoje?
+- Numero de testes em [South Sudan](pt_country_code:SS) hoje?
+- Número de testados [República da Guiné Equatorial](pt_country_code:GQ).
+- Número de testados em [Ilhas Cocos Keeling](pt_country_code:CC)
+- Número de testados em [Republic of Panama](pt_country_code:PA).
+- Número de testes [Costa do Marfim](pt_country_code:CI).
+- Número de testes em [República da Índia](pt_country_code:IN)
+- Número de testes em [Bhārat Gaṇarājya](pt_country_code:IN).
+- Número total de testados em [Ilhas Bermudas](pt_country_code:BM).
+- Número total de testados em [República Popular Democrática da Coreia](pt_country_code:KP)?
+- Número total de testes em [Áustria](pt_country_code:AT).
+- Número total de testes em [iRiphabhuliki yaseNingizimu Afrika](pt_country_code:ZA)?
+- Olá. Quantos testados existem em [Malawi](pt_country_code:MW)?
+- Olá. Quantos testes existem em [São Tomé e Príncipe](pt_country_code:ST)?
+- Qual é o numero de testados com [covid](pt_virus:COVID) em [Czech Republic](pt_country_code:CZ)?
+- Qual é o numero de testes com [covid](pt_virus:COVID) em [Belgique](pt_country_code:BE)?
+- Qual é o número de testados em [Republika Bǎlgarija](pt_country_code:BG)?
+- Qual é o número de testes em [Taiwan, China](pt_country_code:TW)?
+- Quantos casos de testados há em [Mauritania](pt_country_code:MR)?
+- Quantos casos de testes há em [Commonwealth of the Northern Mariana Islands](pt_country_code:MP)?
+- Quantos foram testados em [République togolaise](pt_country_code:TG).
+- Quantos testados existem neste momento em [Amerika Sāmoa](pt_country_code:AS)?
+- Quantos testados tem [Groussherzogtum Lëtzebuerg](pt_country_code:LU)?
+- Quantos testados tem a [Ayiti](pt_country_code:HT)?
+- Quantos testados tem o [Departamento de Maiote](pt_country_code:YT)?
+- Quantos testes existem neste momento em [Keeling Islands](pt_country_code:CC)?
+- Quantos testes tem [República de Moçambique](pt_country_code:MZ)?
+- Quantos testes tem a [Republic of Equatorial Guinea](pt_country_code:GQ)?
+- Quantos testes tem o [Táiwān shěng](pt_country_code:TW)?
+- qual o numero de testados em [Schwiiz](pt_country_code:CH)?
+- qual o numero de testes em [Grupo de Ilhas Pitcairn](pt_country_code:PN)?
+- quantas pessoas em [Turcomênia](pt_country_code:TM) foram testadas?
+- quantas pessoas foram testadas em [TOM](pt_country_code:TF)?
+- testados de [Mexico](pt_country_code:MX)
+- testados em [Republic of Cabo Verde](pt_country_code:CV).
+- testes de [República da África Central](pt_country_code:CF)
+- testes em [Hong Kong](pt_country_code:HK).
 
 ## intent:pt_covid_surfaces
-- Coronavírus persiste por quanto tempo nas superfícies?
-- Durabilidade SARS-Cov-2 em superfícies.
-- Durabilidade do SARS-Cov-2 em superfícies.
-- Durabilidade do coronavírus em superfícies.
-- Durabilidade do novo coronavírus em superfícies.
-- Durabilidade do vírus em superfícies.
+- [coronavírus](pt_virus:COVID) persiste por quanto tempo nas superfícies?
+- Durabilidade [SARS-Cov-2](pt_virus:COVID) em superfícies.
+- Durabilidade do [SARS-Cov-2](pt_virus:COVID) em superfícies.
+- Durabilidade do [coronavírus](pt_virus:COVID) em superfícies.
+- Durabilidade do [novo coronavírus](pt_virus:COVID) em superfícies.
+- Durabilidade do [vírus](pt_virus:COVID) em superfícies.
 - E no papel quanto tempo leva a se tornar inactivo
-- Intervalo temporal de existência do vírus nas superfícies?
-- Nova durabilidade do coronavírus em superfícies.
-- Novas superfícies de durabilidade para coronavírus.
-- Novas superfícies de sobrevivência ao coronavírus.
-- Periodo de durabilidade do coronavírus em superfícies.
-- Periodo de existência do vírus em superfícies.
-- Por quanto tempo o SARS-Cov-2 persiste em superfícies?
-- Por quanto tempo o SARS-Cov-2 pode exisitir em superfícies?
-- Por quanto tempo o SARS-Cov-2 pode persistir em superfícies?
-- Por quanto tempo o SARS-Cov-2 pode sobreviver em superfícies?
-- Por quanto tempo o SARS-Cov-2 que causa o COVID-19 persiste nas superfícies?
-- Por quanto tempo o coronavírus persiste em superfícies?
-- Por quanto tempo o coronavírus persiste nas superfícies?
-- Por quanto tempo o coronavírus pode sobreviver em superfícies?
-- Por quanto tempo o coronavírus que causa o COVID-19 persiste nas superfícies?
-- Por quanto tempo o novo coronavírus persiste nas superfícies?
-- Por quanto tempo o novo coronavírus pode persistir em superfícies?
-- Por quanto tempo o novo coronavírus pode sobreviver em superfícies?
-- Por quanto tempo o novo coronavírus que causa o COVID-19 persiste nas
+- Intervalo temporal de existência do [vírus](pt_virus:COVID) nas superfícies?
+- Nova durabilidade do [coronavírus](pt_virus:COVID) em superfícies.
+- Novas superfícies de durabilidade para [coronavírus](pt_virus:COVID).
+- Novas superfícies de sobrevivência ao [coronavírus](pt_virus:COVID).
+- Periodo de durabilidade do [coronavírus](pt_virus:COVID) em superfícies.
+- Periodo de existência do [vírus](pt_virus:COVID) em superfícies.
+- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) persiste em superfícies?
+- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) pode exisitir em superfícies?
+- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) pode persistir em superfícies?
+- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) pode sobreviver em superfícies?
+- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) persiste nas superfícies?
+- Por quanto tempo o [coronavírus](pt_virus:COVID) persiste em superfícies?
+- Por quanto tempo o [coronavírus](pt_virus:COVID) persiste nas superfícies?
+- Por quanto tempo o [coronavírus](pt_virus:COVID) pode sobreviver em superfícies?
+- Por quanto tempo o [coronavírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) persiste nas superfícies?
+- Por quanto tempo o [novo coronavírus](pt_virus:COVID) persiste nas superfícies?
+- Por quanto tempo o [novo coronavírus](pt_virus:COVID) pode persistir em superfícies?
+- Por quanto tempo o [novo coronavírus](pt_virus:COVID) pode sobreviver em superfícies?
+- Por quanto tempo o [novo coronavírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) persiste nas
   superfícies?
-- Por quanto tempo o novo coronavírus que causa o COVID-19 sobrevive em
+- Por quanto tempo o [novo coronavírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) sobrevive em
   superfícies?
-- Por quanto tempo o vírus persiste em superfícies?
-- Por quanto tempo o vírus pode persistir em superfícies?
-- Por quanto tempo o vírus pode sobreviver em superfícies?
-- Por quanto tempo o vírus que causa o COVID-19 persiste nas superfícies?
-- Por quanto tempo o vírus que causa o COVID-19 sobrevive em superfícies?
-- Por quanto tempo o vírus se mantem nas superfícies?
-- Quanto tempo o SARS-Cov-2 existe em superfícies?
-- Quanto tempo o SARS-Cov-2 persiste nas superfícies?
-- Quanto tempo o SARS-Cov-2 pode sobreviver em superfícies?
-- Quanto tempo o SARS-Cov-2 que causa o COVID-19 sobrevive em superfícies?
-- Quanto tempo o SARS-Cov-2 sobrevive em superfícies?
-- Quanto tempo o coronavírus pode sobreviver em superfícies?
-- Quanto tempo o coronavírus que causa o COVID-19 sobrevive em superfícies?
-- Quanto tempo o coronavírus sobrevive em superfícies?
-- Quanto tempo o novo coronavírus pode sobreviver em superfícies?
-- Quanto tempo o novo coronavírus sobrevive em superfícies?
-- Quanto tempo o novo coronavírus sobrevive nas superfícies?
-- Quanto tempo o virus se mantem vivo em objetos?
-- Quanto tempo o vírus pode sobreviver em superfícies?
-- Quanto tempo o vírus sobrevive em superfícies?
+- Por quanto tempo o [vírus](pt_virus:COVID) persiste em superfícies?
+- Por quanto tempo o [vírus](pt_virus:COVID) pode persistir em superfícies?
+- Por quanto tempo o [vírus](pt_virus:COVID) pode sobreviver em superfícies?
+- Por quanto tempo o [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) persiste nas superfícies?
+- Por quanto tempo o [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) sobrevive em superfícies?
+- Por quanto tempo o [vírus](pt_virus:COVID) se mantem nas superfícies?
+- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) existe em superfícies?
+- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) persiste nas superfícies?
+- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) pode sobreviver em superfícies?
+- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) sobrevive em superfícies?
+- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) sobrevive em superfícies?
+- Quanto tempo o [coronavírus](pt_virus:COVID) pode sobreviver em superfícies?
+- Quanto tempo o [coronavírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) sobrevive em superfícies?
+- Quanto tempo o [coronavírus](pt_virus:COVID) sobrevive em superfícies?
+- Quanto tempo o [novo coronavírus](pt_virus:COVID) pode sobreviver em superfícies?
+- Quanto tempo o [novo coronavírus](pt_virus:COVID) sobrevive em superfícies?
+- Quanto tempo o [novo coronavírus](pt_virus:COVID) sobrevive nas superfícies?
+- Quanto tempo o [virus](pt_virus:COVID) se mantem vivo em objetos?
+- Quanto tempo o [vírus](pt_virus:COVID) pode sobreviver em superfícies?
+- Quanto tempo o [vírus](pt_virus:COVID) sobrevive em superfícies?
 - Sobrevivência em superfícies.
-- Superfícies de durabilidade SARS-Cov-2.
-- Superfícies de durabilidade do vírus.
-- Superfícies de durabilidade para coronavírus.
-- Superfícies de sobrevivência SARS-Cov-2.
-- Superfícies de sobrevivência ao coronavírus.
-- Superfícies de sobrevivência de vírus.
-- Tempo que o coronavírus persiste nas superfícies?
-- Tempo que o novo coronavírus persiste nas superfícies?
-- coronavírus persiste nas superfícies?
-- coronavírus pode sobreviver por quanto tempo em superfícies?
-- gostaria de saber o tempo que leva o Covid 19 a tornar-se inativo nas
+- Superfícies de durabilidade [SARS-Cov-2](pt_virus:COVID).
+- Superfícies de durabilidade do [vírus](pt_virus:COVID).
+- Superfícies de durabilidade para [coronavírus](pt_virus:COVID).
+- Superfícies de sobrevivência [SARS-Cov-2](pt_virus:COVID).
+- Superfícies de sobrevivência ao [coronavírus](pt_virus:COVID).
+- Superfícies de sobrevivência de [vírus](pt_virus:COVID).
+- Tempo que o [coronavírus](pt_virus:COVID) persiste nas superfícies?
+- Tempo que o [novo coronavírus](pt_virus:COVID) persiste nas superfícies?
+- [coronavírus](pt_virus:COVID) persiste nas superfícies?
+- [coronavírus](pt_virus:COVID) pode sobreviver por quanto tempo em superfícies?
+- gostaria de saber o tempo que leva o [Covid 19](pt_virus:COVID) a tornar-se inativo nas
   diferentes superficies
-- gostaria de saber o tempo que leva o Covid 19 a tornar-se inativo nas
+- gostaria de saber o tempo que leva o [Covid 19](pt_virus:COVID) a tornar-se inativo nas
   diferentes superficies e na nossa pele também
-- o coronavírus sobrevive em superfícies por quanto tempo?
-- o novo coronavírus persiste nas superfícies por quanto tempo?
-- se andar de elevador depois de uma pessoa infetada apanho virus?
-- tempo de persistência do novo coronavírus em superfícies?
-- tempo médio de sobrevivência do vírus em superfícies?
-- é verdade que o coronavírus pode ficar vários dias em superficies metálicas?
+- o [coronavírus](pt_virus:COVID) sobrevive em superfícies por quanto tempo?
+- o [novo coronavírus](pt_virus:COVID) persiste nas superfícies por quanto tempo?
+- se andar de elevador depois de uma pessoa infetada apanho [virus](pt_virus:COVID)?
+- tempo de persistência do [novo coronavírus](pt_virus:COVID) em superfícies?
+- tempo médio de sobrevivência do [vírus](pt_virus:COVID) em superfícies?
+- é verdade que o [coronavírus](pt_virus:COVID) pode ficar vários dias em superficies metálicas?
 
 ## intent:pt_covid_symptoms
 - 37 de febre é sintoma?
@@ -3469,11 +3750,11 @@
 - Gostaria de ver quais são os sintomas
 - Informações sobre os sintomas.
 - Olá Quais são os sintomas
-- Os sintomas da doença.
+- Os sintomas da [doença](pt_virus:COVID).
 - Os sintomas da infecção.
-- Os sintomas de COVID-19.
+- Os sintomas de [COVID-19](pt_virus:COVID).
 - Os sintomas.
-- Podes descrever a doença?
+- Podes descrever a [doença](pt_virus:COVID)?
 - Quais is sintomas?
 - Quais os principais sintomas?
 - Quais os sintomas de quem está infetado
@@ -3483,82 +3764,82 @@
 - Quais podem ser sinais de infecção?
 - Quais podem ser sintomas de infecção?
 - Quais sintomas aparecem?
-- Quais sintomas estão relacionados com a doença?
+- Quais sintomas estão relacionados com a [doença](pt_virus:COVID)?
 - Quais sintomas estão relacionados com a infecção?
-- Quais sintomas estão relacionados com o COVID-19?
+- Quais sintomas estão relacionados com o [COVID-19](pt_virus:COVID)?
 - Quais são os possiveis sinais de infecção?
 - Quais são os possivéis sintomas da infecção?
-- Quais são os sintomas da covid?
-- Quais são os sintomas da doença?
+- Quais são os sintomas da [covid](pt_virus:COVID)?
+- Quais são os sintomas da [doença](pt_virus:COVID)?
 - Quais são os sintomas da infecção?
-- Quais são os sintomas do COVID-19?
-- Quais são os sintomas relacionados à doença?
+- Quais são os sintomas do [COVID-19](pt_virus:COVID)?
+- Quais são os sintomas relacionados à [doença](pt_virus:COVID)?
 - Quais são os sintomas relacionados à infecção?
 - Quais são os sintomas?
 - Qual é a sintomatologia de infecção?
 - Que sintomas da infecção existem?
-- Que sintomas são experienciados com COVID-19?
+- Que sintomas são experienciados com [COVID-19](pt_virus:COVID)?
 - Que sintomas são frequentes?
-- Quem pega o vírus desenvolve quais sintomas?
+- Quem pega o [vírus](pt_virus:COVID) desenvolve quais sintomas?
 - Sinais de infecção.
 - Sinal de infecção.
 - Sintomas
-- Sintomas da doença?
+- Sintomas da [doença](pt_virus:COVID)?
 - Sintomas da infecção?
 - Sintomatologia
 - Sobre os sintomas.
 - Tenho tosse, estarei infectado?
-- Ter febre é sintoma de covid?
-- Tipo de sintomas do COVID-19?
+- Ter febre é sintoma de [covid](pt_virus:COVID)?
+- Tipo de sintomas do [COVID-19](pt_virus:COVID)?
 - Tosse é sintoma?
 - Tudo bem. Fala-me sobre os sintomas.
 - quais os sintomas
 - quais sintomas
 - qual é o principal sintoma?
-- queria saber se posso estar infetado com covid-19
-- sintomas associados à doença
+- queria saber se posso estar infetado com [COVID-19](pt_virus:COVID)
+- sintomas associados à [doença](pt_virus:COVID)
 
 ## intent:pt_covid_worry
-- A doença deve me deixar preocupado?
-- Como proceder sobre preocupações com a doença.
+- A [doença](pt_virus:COVID) deve me deixar preocupado?
+- Como proceder sobre preocupações com a [doença](pt_virus:COVID).
 - Como proceder sobre preocupações com o surto.
-- Como proceder sobre preocupações com o vírus.
+- Como proceder sobre preocupações com o [vírus](pt_virus:COVID).
 - Deverei estar preocupado com o surto?
-- Devo estar preocupado com o vírus?
-- Devo me preocupar com COVID-19?
-- Devo me preocupar com a doença?
+- Devo estar preocupado com o [vírus](pt_virus:COVID)?
+- Devo me preocupar com [COVID-19](pt_virus:COVID)?
+- Devo me preocupar com a [doença](pt_virus:COVID)?
 - Devo me preocupar com o surto?
-- Devo me preocupar com o vírus?
-- E se eu pegar o vírus?
-- Este vírus deve me deixar preocupada.
+- Devo me preocupar com o [vírus](pt_virus:COVID)?
+- E se eu pegar o [vírus](pt_virus:COVID)?
+- Este [vírus](pt_virus:COVID) deve me deixar preocupada.
 - Estou afligida com o surto.
-- Estou angustiada com a doença.
+- Estou angustiada com a [doença](pt_virus:COVID).
 - Estou preocupada
-- Estou preocupado com a doença.
+- Estou preocupado com a [doença](pt_virus:COVID).
 - Estou preocupado com o surto.
-- Estou preocupado com o vírus.
+- Estou preocupado com o [vírus](pt_virus:COVID).
 - Estou preocupado.
 - Eu tenho medo.
-- O COVID-19 deve me deixar preocupado?
+- O [COVID-19](pt_virus:COVID) deve me deixar preocupado?
 - O que fazer para canalizar a preocupação?
 - O que fazer para canalizar as preocupações?
 - O que fazer para canalizar o medo?
-- O vírus é grave?
+- O [vírus](pt_virus:COVID) é grave?
 - Quais as fontes fidedignas de informação?
 - Sofro de ansiedade por causa do surto.
-- Tenho medo de pegar o vírus.
-- Tenho medo do vírus.
+- Tenho medo de pegar o [vírus](pt_virus:COVID).
+- Tenho medo do [vírus](pt_virus:COVID).
 - complicada esta situação.
 - empatia
 
 ## intent:pt_de_covid_pregnancy
 - As mulheres grávidas são mais suscetíveis à infeção ou têm maior risco de
-  doenças graves, morbidade ou mortalidade com o COVID-19, em comparação com o
+  doenças graves, morbidade ou mortalidade com o [COVID-19](pt_virus:COVID), em comparação com o
   público em geral?
 - As mulheres grávidas são mais suscetíveis à infeção?
 - Estou grávida, devo estar preocupada?
-- Gravidez e covid
-- Mulheres grávidas e covid
+- Gravidez e [covid](pt_virus:COVID)
+- Mulheres grávidas e [covid](pt_virus:COVID)
 
 ## intent:pt_features_date
 - Consegues dizer a data de hoje?
@@ -4030,20 +4311,20 @@
 - Usando uma máscara.
 
 ## intent:pt_myth_alcohol
-- A pulverização de cloro em todo o corpo pode matar o novo coronavírus?
-- A pulverização de álcool em todo o corpo mata o vírus.
-- A pulverização de álcool em todo o corpo pode matar o novo coronavírus?
+- A pulverização de cloro em todo o corpo pode matar o [novo coronavírus](pt_virus:COVID)?
+- A pulverização de álcool em todo o corpo mata o [vírus](pt_virus:COVID).
+- A pulverização de álcool em todo o corpo pode matar o [novo coronavírus](pt_virus:COVID)?
 - Devo por cloro em todo o corpo.
 - Pulverização de cloro.
 - Usar álcool em todo o corpo.
 - cloro em todo o corpo.
 - se eu me cobrir de álcool
-- se eu me cobrir de álcool, o vírus sairá
+- se eu me cobrir de álcool, o [vírus](pt_virus:COVID) sairá
 - Álcool em spray.
 - Álcool em todo o corpo.
 
 ## intent:pt_myth_packages
-- Pacotes com vírus.
+- Pacotes com [vírus](pt_virus:COVID).
 - Pacotes de países infectados.
 - Pacotes de áreas infectadas.
 - Pacotes infectados.
@@ -4053,14 +4334,14 @@
 - cartas de países infectados.
 - letras infectadas.
 - posso receber uma carta de uma área infectada?
-- É seguro receber um pacote de qualquer área em que o COVID-19 tenha sido
+- É seguro receber um pacote de qualquer área em que o [COVID-19](pt_virus:COVID) tenha sido
   relatado?
-- É seguro receber uma carta de qualquer área em que o COVID-19 tenha sido
+- É seguro receber uma carta de qualquer área em que o [COVID-19](pt_virus:COVID) tenha sido
   relatado?
 
 ## intent:pt_myth_transmission_hot_areas
-- O Covid-19 enfraquece em alta temperatura?
-- O clima quente vai parar o surto de COVID-19?
+- O [COVID-19](pt_virus:COVID) enfraquece em alta temperatura?
+- O clima quente vai parar o surto de [COVID-19](pt_virus:COVID)?
 
 ## intent:pt_patient_home
 - Alguns intfetados não são internados?
@@ -4093,30 +4374,30 @@
 - Sou estrangeiro e estou doente.
 
 ## intent:pt_portugal_ill_no_covid
-- Estou a precisar de um médico, mas não tenho COVID.
+- Estou a precisar de um médico, mas não tenho [covid](pt_virus:COVID).
 - Os utentes devem contactar o SNS24 diretamente?
 - Os utentes devem contactar os CSP diretamente ou apenas através do SNS24?
 - Os utentes devem contactar os CSP diretamente?
-- Os utentes sem suspeita de COVID-19 devem contactar quem?
-- Quem devem contactar os utentes sem suspeita de COVID-19?
+- Os utentes sem suspeita de [COVID-19](pt_virus:COVID) devem contactar quem?
+- Quem devem contactar os utentes sem suspeita de [COVID-19](pt_virus:COVID)?
 
 ## intent:pt_portugal_rates
-- Qual é a percentagem de casos de doença grave por COVID-19?
-- Qual é a percentagem de casos de doença grave?
-- Qual é a percentagem de casos de doença ligeira e grave por COVID-19?
-- Qual é a percentagem de casos de doença ligeira e grave?
-- Qual é a percentagem de casos de doença ligeira por COVID-19?
-- Qual é a percentagem de casos de doença ligeira?
+- Qual é a percentagem de casos de [doença](pt_virus:COVID) grave por [COVID-19](pt_virus:COVID)?
+- Qual é a percentagem de casos de [doença](pt_virus:COVID) grave?
+- Qual é a percentagem de casos de [doença](pt_virus:COVID) ligeira e grave por [COVID-19](pt_virus:COVID)?
+- Qual é a percentagem de casos de [doença](pt_virus:COVID) ligeira e grave?
+- Qual é a percentagem de casos de [doença](pt_virus:COVID) ligeira por [COVID-19](pt_virus:COVID)?
+- Qual é a percentagem de casos de [doença](pt_virus:COVID) ligeira?
 
 ## intent:pt_prevention_clean_hands
-- A limpeza das mãos impedirá a captura do vírus?
-- A limpeza das mãos impedirá a infecção da doença?
+- A limpeza das mãos impedirá a captura do [vírus](pt_virus:COVID)?
+- A limpeza das mãos impedirá a infecção da [doença](pt_virus:COVID)?
 - Importância da limpeza das mãos.
 - Importância de lavar as mãos.
 - Importância de ter as mãos limpas.
 - Lavando as mãos
-- Lavar as mãos evita que a doença se manifeste?
-- Lavar as mãos impedirá a captura do vírus?
+- Lavar as mãos evita que a [doença](pt_virus:COVID) se manifeste?
+- Lavar as mãos impedirá a captura do [vírus](pt_virus:COVID)?
 - Lavar minhas mãos com sabão reduzirá minhas chances de ser infectado?
 - Lave as mãos
 - Limpando as mãos
@@ -4177,37 +4458,37 @@
 
 ## intent:pt_prevention_food
 - O que devo fazer à fruta que comprei no supermercado?
-- O vírus transmite-se pela comida?
+- O [vírus](pt_virus:COVID) transmite-se pela comida?
 - Que cuidados devo ter na preparação e confeção de alimentos?
 - É seguro trazer as compras para casa?
 
 ## intent:pt_prevention_general
 - Como evitar o contágio
 - Como evitar?
-- Como me devo proteger do Covid19?
+- Como me devo proteger do [COVID19](pt_virus:COVID)?
 - Como me devo proteger?
 - Como posso evitar
 - Como posso evitar o contágio?
 - Como posso prevenir o contágio?
-- Como posso previnir o covid?
-- Como reduzir as chances de propagação da doença?
-- Como reduzir as chances de propagação do vírus?
+- Como posso previnir o [covid](pt_virus:COVID)?
+- Como reduzir as chances de propagação da [doença](pt_virus:COVID)?
+- Como reduzir as chances de propagação do [vírus](pt_virus:COVID)?
 - Como reduzir as chances de ser infectado?
-- Como é que eu poderei evitar ser contaminado com este novo coronavirus
-- Como é que eu poderei evitar ser contaminado com este novo coronavirus Agora
+- Como é que eu poderei evitar ser contaminado com este novo [coronavirus](pt_virus:COVID)
+- Como é que eu poderei evitar ser contaminado com este novo [coronavirus](pt_virus:COVID) Agora
   que o mundo está assim um caos
-- Como é que eu poderei evitar ser contaminado com este novo virus
+- Como é que eu poderei evitar ser contaminado com este novo [virus](pt_virus:COVID)
 - Medidas de proteção necessárias.
-- Medidas de proteção para prevenir a doença.
+- Medidas de proteção para prevenir a [doença](pt_virus:COVID).
 - Medidas de proteção.
 - Medidas preventivas a usar.
-- Medidas preventivas para proteger contra vírus.
+- Medidas preventivas para proteger contra [vírus](pt_virus:COVID).
 - Medidas preventivas.
 - Muito bem. Obrigada. Que sabes sobre as medidas preventivas?
-- O que fazer para evitar a propagação da doença?
-- O que fazer para me proteger do vírus?
-- O que fazer para se proteger do vírus?
-- O que posso fazer para impedir a propagação da doença?
+- O que fazer para evitar a propagação da [doença](pt_virus:COVID)?
+- O que fazer para me proteger do [vírus](pt_virus:COVID)?
+- O que fazer para se proteger do [vírus](pt_virus:COVID)?
+- O que posso fazer para impedir a propagação da [doença](pt_virus:COVID)?
 - O que posso fazer para me proteger e impedir a propagação de doenças?
 - O que posso fazer para me proteger?
 - Olá Helena! Que sabes sobre os métodos de prevenção?
@@ -4219,18 +4500,18 @@
 - Proteção de infecção.
 - Quais precauções devem ser tomadas?
 - Quais são as medidas preventivas?
-- Quais são os seus conselhos relacionados com covid-19
+- Quais são os seus conselhos relacionados com [COVID-19](pt_virus:COVID)
 - Que medidas posso tomar?
 - Que sabes sobre os métodos de prevenção?
-- Quero saber como prevenir a doença
+- Quero saber como prevenir a [doença](pt_virus:COVID)
 - como ajudar
-- como posso lutar contra covid-19
+- como posso lutar contra [COVID-19](pt_virus:COVID)
 - diz-me o que devo fazer para evitar a propagaçao
-- diz-me o que devo fazer para evitar a propagaçao do corona virus
+- diz-me o que devo fazer para evitar a propagaçao do [corona virus](pt_virus:COVID)
 - medidas
 - medidas de prevenção
-- o que devo fazer para evitar a propagaçao do corona virus
-- quais são os conselhos para combater a covid-19
+- o que devo fazer para evitar a propagaçao do [corona virus](pt_virus:COVID)
+- quais são os conselhos para combater a [COVID-19](pt_virus:COVID)
 - quais são seus conselhos?
 - que medidas preventivas se devem tomar
 - vamos ajudar
@@ -4265,11 +4546,11 @@
 - Se tiver febre o que faço?
 - Será aconselhável ficar em casa?
 - Será melhor ficar em casa se me sentir mal?
-- Sinto sintomas leves de doença, devo ficar em casa?
+- Sinto sintomas leves de [doença](pt_virus:COVID), devo ficar em casa?
 - Sinto-me um pouco doente, devo ficar em casa?
 - Sinto-me um pouco doente, fico em casa?
 - Tenho febre
-- Tenho sintomas leves de doença, devo ficar em casa?
+- Tenho sintomas leves de [doença](pt_virus:COVID), devo ficar em casa?
 - Tenho sintomas ligeiros, devo ficar em casa?
 - We tiver febre o que faço?
 - febre
@@ -4277,27 +4558,27 @@
 - tenho dores no corpo mas não tenho febre
 
 ## intent:pt_prevention_informed
-- Acreditas que nem todas as notícias sobre a COVID-19 são verídicas?
+- Acreditas que nem todas as notícias sobre a [COVID-19](pt_virus:COVID) são verídicas?
 - Devo acompanhar as notícias regularmente?
-- Devo acompanhar as notícias relacionadas à doença?
-- Devo acompanhar as notícias sobre o vírus?
+- Devo acompanhar as notícias relacionadas à [doença](pt_virus:COVID)?
+- Devo acompanhar as notícias sobre o [vírus](pt_virus:COVID)?
 - Devo acompanhar as notícias?
-- Devo acompanhar regularmente as notícias sobre o vírus?
-- Devo ficar ciente das informações mais recentes sobre o surto de COVID-19?
+- Devo acompanhar regularmente as notícias sobre o [vírus](pt_virus:COVID)?
+- Devo ficar ciente das informações mais recentes sobre o surto de [COVID-19](pt_virus:COVID)?
 - Devo me manter informado regularmente?
 - Devo me manter informado?
-- Devo seguir as notícias relacionadas ao COVID-19?
-- Devo seguir as notícias relacionadas ao vírus?
+- Devo seguir as notícias relacionadas ao [COVID-19](pt_virus:COVID)?
+- Devo seguir as notícias relacionadas ao [vírus](pt_virus:COVID)?
 - Devo verificar regularmente as últimas notícias?
 - Mantenha-se atualizado.
 - Mantenha-se informado.
 - Mitos
-- Podes falar sobre alguns mitos relacionados com a COVID-19?
-- Por que devo acompanhar as notícias relacionadas ao COVID-19?
-- Por que devo acompanhar as notícias relacionadas ao vírus?
-- Por que devo acompanhar as notícias relacionadas à doença?
+- Podes falar sobre alguns mitos relacionados com a [COVID-19](pt_virus:COVID)?
+- Por que devo acompanhar as notícias relacionadas ao [COVID-19](pt_virus:COVID)?
+- Por que devo acompanhar as notícias relacionadas ao [vírus](pt_virus:COVID)?
+- Por que devo acompanhar as notícias relacionadas à [doença](pt_virus:COVID)?
 - Por que devo estar ciente das informações mais recentes sobre o surto de
-  COVID-19?
+  [COVID-19](pt_virus:COVID)?
 - Por que devo verificar regularmente as últimas notícias?
 - Por que é importante acompanhar as notícias?
 - Por que é importante manter-se informado?
@@ -4306,23 +4587,23 @@
 - É importante manter-se informado?
 
 ## intent:pt_prevention_measures
-- A automedicação é eficaz contra o COVID-19?
-- A automedicação, como antibióticos, é eficaz contra o COVID-19?
-- Devo fumar para evitar o COVID-2019?
-- Devo tomar automedicação para prevenir COVID-19?
-- Devo tomar automedicação, como antibióticos, para prevenir o COVID-19?
-- Devo tomar remédios tradicionais à base de plantas para evitar o COVID-2019?
-- Devo usar várias máscaras para evitar COVID-19?
+- A automedicação é eficaz contra o [COVID-19](pt_virus:COVID)?
+- A automedicação, como antibióticos, é eficaz contra o [COVID-19](pt_virus:COVID)?
+- Devo fumar para evitar o [COVID-2019](pt_virus:COVID)?
+- Devo tomar automedicação para prevenir [COVID-19](pt_virus:COVID)?
+- Devo tomar automedicação, como antibióticos, para prevenir o [COVID-19](pt_virus:COVID)?
+- Devo tomar remédios tradicionais à base de plantas para evitar o [COVID-2019](pt_virus:COVID)?
+- Devo usar várias máscaras para evitar [COVID-19](pt_virus:COVID)?
 - Existe algo que eu não deva fazer?
-- Existem medidas não eficazes contra o COVID-19?
-- Existem medidas que não são eficazes contra o COVID-19?
+- Existem medidas não eficazes contra o [COVID-19](pt_virus:COVID)?
+- Existem medidas que não são eficazes contra o [COVID-19](pt_virus:COVID)?
 - Medidas não efetivas.
 - Medidas não eficazes.
-- O fumo é eficaz contra o COVID-2019?
-- O uso de várias máscaras é eficaz contra o COVID-2019?
-- Que medidas não são eficazes contra o COVID-19?
-- Tomar remédios tradicionais à base de plantas é eficaz contra o COVID-2019?
-- o que não devo fazer para me proteger contra o vírus?
+- O fumo é eficaz contra o [COVID-2019](pt_virus:COVID)?
+- O uso de várias máscaras é eficaz contra o [COVID-2019](pt_virus:COVID)?
+- Que medidas não são eficazes contra o [COVID-19](pt_virus:COVID)?
+- Tomar remédios tradicionais à base de plantas é eficaz contra o [COVID-2019](pt_virus:COVID)?
+- o que não devo fazer para me proteger contra o [vírus](pt_virus:COVID)?
 - o que não devo fazer?
 
 ## intent:pt_prevention_medical_attention
@@ -4358,12 +4639,12 @@
 - Estou com febre.
 - Estou com tosse.
 - Estou infectado, o que devo fazer?
-- Eu tenho o vírus?
+- Eu tenho o [vírus](pt_virus:COVID)?
 - Minha temperatura está acima de 38 graus, devo me preocupar?
 - Minha temperatura está acima de 38 graus.
 - Minha temperatura está acima de 39 graus. Devo me preocupar?
-- Não sei o que fazer se tiver o vírus.
-- Não sei se tenho o vírus.
+- Não sei o que fazer se tiver o [vírus](pt_virus:COVID).
+- Não sei se tenho o [vírus](pt_virus:COVID).
 - O que devo fazer se tiver sintomas?
 - O que fazer em caso de dificuldade em respirar?
 - O que fazer em caso de febre, tosse e dificuldade em respirar?
@@ -4392,69 +4673,69 @@
 - sou grupo de risco e estou com sintomas
 
 ## intent:pt_prevention_medicine
-- Acreditas que poderá existir cura para o vírus?
+- Acreditas que poderá existir cura para o [vírus](pt_virus:COVID)?
 - De que formas podem ser tratados os sintomas?
-- Existe algum medicamento para tratar COVID-19?
+- Existe algum medicamento para tratar [COVID-19](pt_virus:COVID)?
 - Existe algum medicamento?
-- Existe tratamento para COVID-19?
-- Existe um medicamento para COVID-19?
-- Existe um medicamento para o COVID-19?
-- Existe um medicamento para tratar COVID-19?
+- Existe tratamento para [COVID-19](pt_virus:COVID)?
+- Existe um medicamento para [COVID-19](pt_virus:COVID)?
+- Existe um medicamento para o [COVID-19](pt_virus:COVID)?
+- Existe um medicamento para tratar [COVID-19](pt_virus:COVID)?
 - Existe um medicamento?
 - Existe um tratamento?
-- Existe uma vacina para COVID-19?
-- Existe uma vacina para tratar COVID-19?
-- Existe uma vacina, medicamento ou tratamento para o COVID-19?
+- Existe uma vacina para [COVID-19](pt_virus:COVID)?
+- Existe uma vacina para tratar [COVID-19](pt_virus:COVID)?
+- Existe uma vacina, medicamento ou tratamento para o [COVID-19](pt_virus:COVID)?
 - Existe uma vacina, medicamento ou tratamento?
 - Existe vacina ?
-- Existe vacina para o vírus?
-- Existem medicamentos para COVID-19.
-- Há algum medicamento para COVID-19.
-- Há disponibilidade de medicamentos para tratar COVID-19.
-- Informação de medicamento para tratar COVID-19.
+- Existe vacina para o [vírus](pt_virus:COVID)?
+- Existem medicamentos para [COVID-19](pt_virus:COVID).
+- Há algum medicamento para [COVID-19](pt_virus:COVID).
+- Há disponibilidade de medicamentos para tratar [COVID-19](pt_virus:COVID).
+- Informação de medicamento para tratar [COVID-19](pt_virus:COVID).
 - Mas como tratar os sintomas?
-- Posso tomar aspirina para covid?
+- Posso tomar aspirina para [covid](pt_virus:COVID)?
 - Posso tomar aspirina?
 - Qual é a cura?
 - Quando chega a vacina?
 - Relativamente à vacina? Ouve se dizer que já se descobriu o fármaco que
-  consegue destruir o COVID-19 em 48 horas... é verdade?
+  consegue destruir o [COVID-19](pt_virus:COVID) em 48 horas... é verdade?
 - Sobre drogas.
-- Sobre medicamentos para COVID-19.
-- Sobre medicamentos para tratar COVID-19.
+- Sobre medicamentos para [COVID-19](pt_virus:COVID).
+- Sobre medicamentos para tratar [COVID-19](pt_virus:COVID).
 - Sobre medicamentos.
-- Sobre o tratamento para COVID-19.
+- Sobre o tratamento para [COVID-19](pt_virus:COVID).
 - Sobre o tratamento.
-- Sobre um medicamento para COVID-19.
-- Sobre um medicamento para tratar COVID-19.
+- Sobre um medicamento para [COVID-19](pt_virus:COVID).
+- Sobre um medicamento para tratar [COVID-19](pt_virus:COVID).
 - Sobre um medicamento.
-- Sobre um tratamento para COVID-19.
+- Sobre um tratamento para [COVID-19](pt_virus:COVID).
 - Sobre um tratamento.
 - Sobre uma droga.
-- Sobre uma vacina para COVID-19.
-- Sobre uma vacina para tratar COVID-19.
-- Sobre uma vacina, medicamento ou tratamento para COVID-19.
+- Sobre uma vacina para [COVID-19](pt_virus:COVID).
+- Sobre uma vacina para tratar [COVID-19](pt_virus:COVID).
+- Sobre uma vacina, medicamento ou tratamento para [COVID-19](pt_virus:COVID).
 - Sobre uma vacina, medicamento ou tratamento.
 - Sobre uma vacina.
-- Sobre vacinas para COVID-19.
-- Sobre vacinas para tratar COVID-19.
-- Sobre vacinas, medicamentos ou tratamentos para COVID-19.
+- Sobre vacinas para [COVID-19](pt_virus:COVID).
+- Sobre vacinas para tratar [COVID-19](pt_virus:COVID).
+- Sobre vacinas, medicamentos ou tratamentos para [COVID-19](pt_virus:COVID).
 - Sobre vacinas, medicamentos ou tratamentos.
 - Sobre vacinas.
 - Tratamento por vacina?
 - Tudo bem. Mas como tratar os sintomas?
 - Vacina
-- como curar esta doença?
+- como curar esta [doença](pt_virus:COVID)?
 - como está o tratamento
 - como tratar os sintomas?
 - existe uma vacina?
-- existem medicamentos para prevenir a doença?
-- existem vacinas para prevenir a doença?
-- já existe vacina para o virus?
+- existem medicamentos para prevenir a [doença](pt_virus:COVID)?
+- existem vacinas para prevenir a [doença](pt_virus:COVID)?
+- já existe vacina para o [virus](pt_virus:COVID)?
 - medicação
 - para quando um tratamento ?
 - remédio
-- vacina covid-19
+- vacina [COVID-19](pt_virus:COVID)
 - vacina disponivel?
 
 ## intent:pt_prevention_respiratory_hygiene
@@ -4621,21 +4902,21 @@
 - world health organization
 
 ## intent:pt_spread_air
-- Dizem que o covid 19 se transmite pelo ar é verdade?
+- Dizem que o [Covid 19](pt_virus:COVID) se transmite pelo ar é verdade?
 - Então e o bicho transmite-se pelo ar?
 - Espalhando pelo ar.
-- O vírus está espalhado pelo ar?
-- O vírus pode se espalhar pelo ar?
-- O vírus pode ser propagado pelo ar?
-- O vírus pode ser transmitido pelo ar?
-- O vírus que causa a disseminação do COVID-19 pelo ar?
-- O vírus que causa o COVID-19 pode se espalhar pelo ar?
-- O vírus que causa o COVID-19 pode ser propagado pelo ar?
-- O vírus que causa o COVID-19 pode ser transmitido pelo ar?
-- O vírus que causa o COVID-19 é propagado pelo ar?
-- O vírus que causa o COVID-19 é transmitido pelo ar?
-- O vírus é propagado pelo ar?
-- O vírus é transmitido pelo ar?
+- O [vírus](pt_virus:COVID) está espalhado pelo ar?
+- O [vírus](pt_virus:COVID) pode se espalhar pelo ar?
+- O [vírus](pt_virus:COVID) pode ser propagado pelo ar?
+- O [vírus](pt_virus:COVID) pode ser transmitido pelo ar?
+- O [vírus](pt_virus:COVID) que causa a disseminação do [COVID-19](pt_virus:COVID) pelo ar?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) pode se espalhar pelo ar?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) pode ser propagado pelo ar?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) pode ser transmitido pelo ar?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) é propagado pelo ar?
+- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) é transmitido pelo ar?
+- O [vírus](pt_virus:COVID) é propagado pelo ar?
+- O [vírus](pt_virus:COVID) é transmitido pelo ar?
 - Pode ser espalhado pelo ar?
 - Pode ser propagado pelo ar?
 - Pode ser transmitido por via aérea?
@@ -4645,305 +4926,305 @@
 - Transmissão aérea.
 - Transmissão por via aérea.
 - Transmite-se pelo ar?
-- É possível a propagação do vírus pelo ar?
+- É possível a propagação do [vírus](pt_virus:COVID) pelo ar?
 - É possível espalhar por via aérea?
-- É possível que o vírus seja espalhado pelo ar?
-- É possível que o vírus seja passado por via aérea?
-- É possível que o vírus seja propagado pelo ar?
-- É possível que o vírus seja transmitido por via aérea?
+- É possível que o [vírus](pt_virus:COVID) seja espalhado pelo ar?
+- É possível que o [vírus](pt_virus:COVID) seja passado por via aérea?
+- É possível que o [vírus](pt_virus:COVID) seja propagado pelo ar?
+- É possível que o [vírus](pt_virus:COVID) seja transmitido por via aérea?
 - É possível ser enviado pelo ar?
 - É possível ser espalhado por via aérea?
 - É possível ser propagado pelo ar?
 - É possível ser transmitido por via aérea?
 - É possível transferir por via aérea?
 - É possível transmitir por via aérea?
-- é verdade que o coronavirus se transmite através do ar?
+- é verdade que o [coronavirus](pt_virus:COVID) se transmite através do ar?
 
 ## intent:pt_spread_animals
 - Animal
-- Os animais podem espalhar COVID-19 aos seres humanos?
-- Os animais podem espalhar COVID-19?
-- Os animais podem espalhar o vírus para os seres humanos?
-- Os animais podem espalhar o vírus?
+- Os animais podem espalhar [COVID-19](pt_virus:COVID) aos seres humanos?
+- Os animais podem espalhar [COVID-19](pt_virus:COVID)?
+- Os animais podem espalhar o [vírus](pt_virus:COVID) para os seres humanos?
+- Os animais podem espalhar o [vírus](pt_virus:COVID)?
 - Os animais podem me infectar?
-- Os seres humanos podem se infectar com o COVID-19 de uma fonte animal?
-- Os seres humanos podem se infectar com o vírus de animais?
-- Os seres humanos podem ser infectados com o COVID-19 a partir de fontes
+- Os seres humanos podem se infectar com o [COVID-19](pt_virus:COVID) de uma fonte animal?
+- Os seres humanos podem se infectar com o [vírus](pt_virus:COVID) de animais?
+- Os seres humanos podem ser infectados com o [COVID-19](pt_virus:COVID) a partir de fontes
   animais?
-- Os seres humanos podem ser infectados com o COVID-19 de animais?
-- Os seres humanos podem ser infectados com o COVID-19 de um animal?
-- Os seres humanos podem ser infectados com o vírus da fonte de animais?
-- Os seres humanos podem ser infectados com o vírus de um animal?
-- Os seres humanos podem ser infectados com o vírus de uma fonte animal?
-- Posso estar infectado com COVID-19 de um animal?
-- Posso estar infectado com o vírus de animais?
-- Posso estar infectado com o vírus de um animal?
-- Posso pegar o COVID-19 da fonte de animais?
-- Posso pegar o COVID-19 de animais?
-- Posso pegar o COVID-19 de um animal?
-- Posso pegar o COVID-19 de uma fonte animal?
-- Posso pegar o vírus da fonte de animais?
-- Posso pegar o vírus de animais?
-- Posso pegar o vírus de um animal?
-- Posso pegar o vírus de uma fonte animal?
-- Posso ser infectado com COVID-19 de animais?
-- Um animal pode espalhar COVID-19?
-- Um animal pode espalhar o COVID-19 para humanos?
-- Um animal pode espalhar o vírus para os seres humanos?
-- Um animal pode espalhar o vírus?
+- Os seres humanos podem ser infectados com o [COVID-19](pt_virus:COVID) de animais?
+- Os seres humanos podem ser infectados com o [COVID-19](pt_virus:COVID) de um animal?
+- Os seres humanos podem ser infectados com o [vírus](pt_virus:COVID) da fonte de animais?
+- Os seres humanos podem ser infectados com o [vírus](pt_virus:COVID) de um animal?
+- Os seres humanos podem ser infectados com o [vírus](pt_virus:COVID) de uma fonte animal?
+- Posso estar infectado com [COVID-19](pt_virus:COVID) de um animal?
+- Posso estar infectado com o [vírus](pt_virus:COVID) de animais?
+- Posso estar infectado com o [vírus](pt_virus:COVID) de um animal?
+- Posso pegar o [COVID-19](pt_virus:COVID) da fonte de animais?
+- Posso pegar o [COVID-19](pt_virus:COVID) de animais?
+- Posso pegar o [COVID-19](pt_virus:COVID) de um animal?
+- Posso pegar o [COVID-19](pt_virus:COVID) de uma fonte animal?
+- Posso pegar o [vírus](pt_virus:COVID) da fonte de animais?
+- Posso pegar o [vírus](pt_virus:COVID) de animais?
+- Posso pegar o [vírus](pt_virus:COVID) de um animal?
+- Posso pegar o [vírus](pt_virus:COVID) de uma fonte animal?
+- Posso ser infectado com [COVID-19](pt_virus:COVID) de animais?
+- Um animal pode espalhar [COVID-19](pt_virus:COVID)?
+- Um animal pode espalhar o [COVID-19](pt_virus:COVID) para humanos?
+- Um animal pode espalhar o [vírus](pt_virus:COVID) para os seres humanos?
+- Um animal pode espalhar o [vírus](pt_virus:COVID)?
 - Um animal pode me infectar?
 
 ## intent:pt_spread_feces
-- Captura do vírus através de excrementos.
-- Captura do vírus através de fezes.
-- Captura do vírus através do cocô.
+- Captura do [vírus](pt_virus:COVID) através de excrementos.
+- Captura do [vírus](pt_virus:COVID) através de fezes.
+- Captura do [vírus](pt_virus:COVID) através do cocô.
 - Espalhando excrementos.
 - Espalhando pelo cocô.
 - Espalhe pelas fezes.
 - Espalhe pelo cocô.
 - Espalhe por excrementos.
-- Fezes de alguém infectado podem transmitir o vírus?
+- Fezes de alguém infectado podem transmitir o [vírus](pt_virus:COVID)?
 - Infecção através de cocô.
 - Infecção por excrementos.
 - Infecção por fezes.
-- O vírus pode ser capturado através de cocô?
-- O vírus pode ser capturado através de excrementos?
-- O vírus pode ser pego através de fezes?
-- Pegue o vírus através das fezes.
-- Pegue o vírus através de excrementos.
-- Pegue o vírus através do cocô.
-- Posso pegar o COVID-19 do cocô de alguém com a doença?
-- Posso pegar o COVID-19 do cocô de uma pessoa infectada?
-- Posso pegar o COVID-19 dos excrementos de alguém com a doença?
-- Posso pegar o COVID-19 dos excrementos de uma pessoa infectada?
-- Posso pegar o COVID-19 nas fezes de alguém com a doença?
-- Posso pegar o COVID-19 nas fezes de uma pessoa infectada?
-- Posso pegar o vírus através de excrementos?
-- Posso pegar o vírus através de fezes?
-- Posso pegar o vírus através do cocô?
-- Risco de pegar COVID-19 nas fezes de alguém com a doença.
-- Risco de pegar COVID-19 nas fezes de uma pessoa infectada.
-- Risco de pegar COVID-19 nos excrementos de alguém com a doença.
-- Risco de pegar COVID-19 nos excrementos de uma pessoa infectada.
-- Risco de pegar o COVID-19 do cocô de alguém com a doença.
-- Risco de pegar o COVID-19 do cocô de uma pessoa infectada.
+- O [vírus](pt_virus:COVID) pode ser capturado através de cocô?
+- O [vírus](pt_virus:COVID) pode ser capturado através de excrementos?
+- O [vírus](pt_virus:COVID) pode ser pego através de fezes?
+- Pegue o [vírus](pt_virus:COVID) através das fezes.
+- Pegue o [vírus](pt_virus:COVID) através de excrementos.
+- Pegue o [vírus](pt_virus:COVID) através do cocô.
+- Posso pegar o [COVID-19](pt_virus:COVID) do cocô de alguém com a [doença](pt_virus:COVID)?
+- Posso pegar o [COVID-19](pt_virus:COVID) do cocô de uma pessoa infectada?
+- Posso pegar o [COVID-19](pt_virus:COVID) dos excrementos de alguém com a [doença](pt_virus:COVID)?
+- Posso pegar o [COVID-19](pt_virus:COVID) dos excrementos de uma pessoa infectada?
+- Posso pegar o [COVID-19](pt_virus:COVID) nas fezes de alguém com a [doença](pt_virus:COVID)?
+- Posso pegar o [COVID-19](pt_virus:COVID) nas fezes de uma pessoa infectada?
+- Posso pegar o [vírus](pt_virus:COVID) através de excrementos?
+- Posso pegar o [vírus](pt_virus:COVID) através de fezes?
+- Posso pegar o [vírus](pt_virus:COVID) através do cocô?
+- Risco de pegar [COVID-19](pt_virus:COVID) nas fezes de alguém com a [doença](pt_virus:COVID).
+- Risco de pegar [COVID-19](pt_virus:COVID) nas fezes de uma pessoa infectada.
+- Risco de pegar [COVID-19](pt_virus:COVID) nos excrementos de alguém com a [doença](pt_virus:COVID).
+- Risco de pegar [COVID-19](pt_virus:COVID) nos excrementos de uma pessoa infectada.
+- Risco de pegar o [COVID-19](pt_virus:COVID) do cocô de alguém com a [doença](pt_virus:COVID).
+- Risco de pegar o [COVID-19](pt_virus:COVID) do cocô de uma pessoa infectada.
 
 ## intent:pt_spread_general
-- COVID-19 espalhando.
-- Como a doença se dissemina?
-- Como a doença se espalha.
-- Como a doença se espalha?
-- Como a doença se propaga.
-- Como a doença se propaga?
-- Como a doença se transmite?
-- Como o COVID-19 se espalha.
-- Como o COVID-19 se espalha?
-- Como o COVID-19 se propaga.
-- Como o COVID-19 se propaga?
-- Como o coronavírus se espalha.
-- Como o coronavírus se espalha?
-- Como o coronavírus se propaga.
-- Como o coronavírus se propaga?
-- Como o se espalha o COVID-19?
-- Como o vírus se espalha.
-- Como o vírus se espalha?
-- Como o vírus se propaga.
-- Como o vírus se propaga?
-- Como o vírus se transmite?
-- Como posso apanhar o virus?
-- Como posso apanhar o vírus?
-- Como se espalha o coronavírus.
-- Como se espalha o coronavírus?
-- Como se espalha ocoronavírus.
+- [COVID-19](pt_virus:COVID) espalhando.
+- Como a [doença](pt_virus:COVID) se dissemina?
+- Como a [doença](pt_virus:COVID) se espalha.
+- Como a [doença](pt_virus:COVID) se espalha?
+- Como a [doença](pt_virus:COVID) se propaga.
+- Como a [doença](pt_virus:COVID) se propaga?
+- Como a [doença](pt_virus:COVID) se transmite?
+- Como o [COVID-19](pt_virus:COVID) se espalha.
+- Como o [COVID-19](pt_virus:COVID) se espalha?
+- Como o [COVID-19](pt_virus:COVID) se propaga.
+- Como o [COVID-19](pt_virus:COVID) se propaga?
+- Como o [coronavírus](pt_virus:COVID) se espalha.
+- Como o [coronavírus](pt_virus:COVID) se espalha?
+- Como o [coronavírus](pt_virus:COVID) se propaga.
+- Como o [coronavírus](pt_virus:COVID) se propaga?
+- Como o se espalha o [COVID-19](pt_virus:COVID)?
+- Como o [vírus](pt_virus:COVID) se espalha.
+- Como o [vírus](pt_virus:COVID) se espalha?
+- Como o [vírus](pt_virus:COVID) se propaga.
+- Como o [vírus](pt_virus:COVID) se propaga?
+- Como o [vírus](pt_virus:COVID) se transmite?
+- Como posso apanhar o [virus](pt_virus:COVID)?
+- Como posso apanhar o [vírus](pt_virus:COVID)?
+- Como se espalha o [coronavírus](pt_virus:COVID).
+- Como se espalha o [coronavírus](pt_virus:COVID)?
+- Como se espalha [ocoronavírus].
 - Como se espalha.
 - Como se espalha?
-- Como se move o vírus?
-- Como se multiplica a doença.
-- Como se multiplica o vírus.
-- Como se propaga COVID-19?
-- Como se propaga o coronavírus?
-- Como se propaga o vírus
+- Como se move o [vírus](pt_virus:COVID)?
+- Como se multiplica a [doença](pt_virus:COVID).
+- Como se multiplica o [vírus](pt_virus:COVID).
+- Como se propaga [COVID-19](pt_virus:COVID)?
+- Como se propaga o [coronavírus](pt_virus:COVID)?
+- Como se propaga o [vírus](pt_virus:COVID)
 - Como se propaga.
 - Como se propaga?
 - Como se transmite?
-- Como é feita a transmissão do coronavírus.
+- Como é feita a transmissão do [coronavírus](pt_virus:COVID).
 - Como é que o coronavirus se transmite ?
 - Como é que o viros se espalha
-- Como é que se passa o vírus
+- Como é que se passa o [vírus](pt_virus:COVID)
 - Como é transmitido
-- Disseminação COVID-19.
-- Disseminação da doença.
-- Disseminação de vírus.
-- Disseminação do coronavírus.
-- Disseminação do vírus.
-- Divulgação do COVID-19.
-- Espalhar o vírus.
-- Esquema de propagação de COVID-19.
+- Disseminação [COVID-19](pt_virus:COVID).
+- Disseminação da [doença](pt_virus:COVID).
+- Disseminação de [vírus](pt_virus:COVID).
+- Disseminação do [coronavírus](pt_virus:COVID).
+- Disseminação do [vírus](pt_virus:COVID).
+- Divulgação do [COVID-19](pt_virus:COVID).
+- Espalhar o [vírus](pt_virus:COVID).
+- Esquema de propagação de [COVID-19](pt_virus:COVID).
 - Formas de transmissão
-- Maneira de propagação da doença.
-- Modo como a doença se dissemina.
-- Modo de propagação de coronavírus.
-- Modo de propagação do vírus.
-- Multiplicação da doença.
-- Proliferar o vírus.
+- Maneira de propagação da [doença](pt_virus:COVID).
+- Modo como a [doença](pt_virus:COVID) se dissemina.
+- Modo de propagação de [coronavírus](pt_virus:COVID).
+- Modo de propagação do [vírus](pt_virus:COVID).
+- Multiplicação da [doença](pt_virus:COVID).
+- Proliferar o [vírus](pt_virus:COVID).
 - Propagação
-- Propagação COVID-19.
-- Propagação da doença.
-- Propagação de COVID-19.
-- Propagação de coronavírus.
-- Propagação de doença.
-- Propagação do vírus.
+- Propagação [COVID-19](pt_virus:COVID).
+- Propagação da [doença](pt_virus:COVID).
+- Propagação de [COVID-19](pt_virus:COVID).
+- Propagação de [coronavírus](pt_virus:COVID).
+- Propagação de [doença](pt_virus:COVID).
+- Propagação do [vírus](pt_virus:COVID).
 - Quais são as formas de contágio?
-- Sobre como a doença se espalha.
-- Sobre como a doença se propaga.
+- Sobre como a [doença](pt_virus:COVID) se espalha.
+- Sobre como a [doença](pt_virus:COVID) se propaga.
 - Sobre como ele se propaga.
-- Sobre como o COVID-19 se espalha.
-- Sobre como o COVID-19 se propaga.
-- Sobre como o coronavírus se espalha.
-- Sobre como o coronavírus se propaga.
-- Sobre como o vírus se espalha.
-- Sobre como o vírus se propaga.
+- Sobre como o [COVID-19](pt_virus:COVID) se espalha.
+- Sobre como o [COVID-19](pt_virus:COVID) se propaga.
+- Sobre como o [coronavírus](pt_virus:COVID) se espalha.
+- Sobre como o [coronavírus](pt_virus:COVID) se propaga.
+- Sobre como o [vírus](pt_virus:COVID) se espalha.
+- Sobre como o [vírus](pt_virus:COVID) se propaga.
 - Sobre como se espalha.
-- Spread COVID-19.
-- Transmissão COVID-19.
-- Transmissão da doença.
-- Transmissão do vírus.
-- como esse vírus funciona?
-- como o covid se espalha?
-- como o vírus é transmitido
-- como se espalha o virus?
+- Spread [COVID-19](pt_virus:COVID).
+- Transmissão [COVID-19](pt_virus:COVID).
+- Transmissão da [doença](pt_virus:COVID).
+- Transmissão do [vírus](pt_virus:COVID).
+- como esse [vírus](pt_virus:COVID) funciona?
+- como o [covid](pt_virus:COVID) se espalha?
+- como o [vírus](pt_virus:COVID) é transmitido
+- como se espalha o [virus](pt_virus:COVID)?
 - como é a transmissão
-- como é propagado o covid-19
-- como é transmitido o covid 19?
-- cómo se propagó el virus
+- como é propagado o [COVID-19](pt_virus:COVID)
+- como é transmitido o [Covid 19](pt_virus:COVID)?
+- cómo se propagó el [virus](pt_virus:COVID)
 - transmissão
 
 ## intent:pt_spread_no_symptoms
-- Alguém que não tem sintomas pode disseminar o vírus?
+- Alguém que não tem sintomas pode disseminar o [vírus](pt_virus:COVID)?
 - Alguém que não tem sintomas pode ser infeccioso?
-- Alguém que não tem sintomas pode transmitir o vírus?
-- Alguém sem sintomas pode dispersar o vírus?
-- Alguém sem sintomas pode disseminar o vírus?
-- Alguém sem sintomas pode espalhar o vírus?
-- Alguém sem sintomas pode me pegar o COVID-19?
+- Alguém que não tem sintomas pode transmitir o [vírus](pt_virus:COVID)?
+- Alguém sem sintomas pode dispersar o [vírus](pt_virus:COVID)?
+- Alguém sem sintomas pode disseminar o [vírus](pt_virus:COVID)?
+- Alguém sem sintomas pode espalhar o [vírus](pt_virus:COVID)?
+- Alguém sem sintomas pode me pegar o [COVID-19](pt_virus:COVID)?
 - Alguém sem sintomas pode ser infeccioso?
-- Alguém sem sintomas pode transmitir o vírus?
-- As pessoas sem sintomas podem transmitir o vírus?
-- O COVID-19 pode ser detectado em alguém que não apresenta sintomas?
-- O COVID-19 pode ser detectado em alguém sem sintomas?
-- O COVID-19 pode ser detectado por alguém sem sintomas?
-- O COVID-19 pode ser detectado por uma pessoa que não apresenta sintomas?
-- O COVID-19 pode ser disseminado por uma pessoa sem sintomas?
-- O COVID-19 pode ser transmitido por uma pessoa sem sintomas?
-- O vírus pode ser adquirido através de alguém sem sintomas?
-- O vírus pode ser contraido vindo de alguém assintomático?
-- O vírus pode ser detectado em alguém que não apresenta sintomas?
-- O vírus pode ser detectado em alguém sem sintomas?
-- O vírus pode ser detectado em pessoas que não apresentam sintomas?
-- O vírus pode ser detectado em pessoas sem sintomas?
-- O vírus pode ser espalhado por uma pessoa sem sintomas?
-- O vírus pode ser propagado numa pessoa sem sintomas?
+- Alguém sem sintomas pode transmitir o [vírus](pt_virus:COVID)?
+- As pessoas sem sintomas podem transmitir o [vírus](pt_virus:COVID)?
+- O [COVID-19](pt_virus:COVID) pode ser detectado em alguém que não apresenta sintomas?
+- O [COVID-19](pt_virus:COVID) pode ser detectado em alguém sem sintomas?
+- O [COVID-19](pt_virus:COVID) pode ser detectado por alguém sem sintomas?
+- O [COVID-19](pt_virus:COVID) pode ser detectado por uma pessoa que não apresenta sintomas?
+- O [COVID-19](pt_virus:COVID) pode ser disseminado por uma pessoa sem sintomas?
+- O [COVID-19](pt_virus:COVID) pode ser transmitido por uma pessoa sem sintomas?
+- O [vírus](pt_virus:COVID) pode ser adquirido através de alguém sem sintomas?
+- O [vírus](pt_virus:COVID) pode ser contraido vindo de alguém assintomático?
+- O [vírus](pt_virus:COVID) pode ser detectado em alguém que não apresenta sintomas?
+- O [vírus](pt_virus:COVID) pode ser detectado em alguém sem sintomas?
+- O [vírus](pt_virus:COVID) pode ser detectado em pessoas que não apresentam sintomas?
+- O [vírus](pt_virus:COVID) pode ser detectado em pessoas sem sintomas?
+- O [vírus](pt_virus:COVID) pode ser espalhado por uma pessoa sem sintomas?
+- O [vírus](pt_virus:COVID) pode ser propagado numa pessoa sem sintomas?
 - Pessoas assintomáticas podem ser infecciosas?
-- Pessoas assintomáticas podem transmitir o vírus?
+- Pessoas assintomáticas podem transmitir o [vírus](pt_virus:COVID)?
 - Pessoas que não apresentam sintomas podem ser infecciosas?
-- Pessoas que não apresentam sintomas podem transmitir COVID-19?
-- Pessoas que não apresentam sintomas podem transmitir o vírus?
+- Pessoas que não apresentam sintomas podem transmitir [COVID-19](pt_virus:COVID)?
+- Pessoas que não apresentam sintomas podem transmitir o [vírus](pt_virus:COVID)?
 - Pessoas que não apresentam sintomas podem transmitir?
-- Pessoas sem sintomas podem espalhar COVID-19?
+- Pessoas sem sintomas podem espalhar [COVID-19](pt_virus:COVID)?
 - Pessoas sem sintomas podem espalhar?
 - Pessoas sem sintomas podem ser infecciosas?
-- Pessoas sem sintomas podem transmitir COVID-19?
+- Pessoas sem sintomas podem transmitir [COVID-19](pt_virus:COVID)?
 - Pessoas sem sintomas podem transmitir?
-- Pessoas sem sintomas visíveis podem transmitir o vírus?
-- Posso adquirir COVID-19 de pessoas sem sintomas?
-- Posso adquirir o vírus de alguém sem sintomas?
-- Posso adquirir o vírus de uma pessoa sem sintomas?
-- Posso apanhar COVID-19 de pessoas sem sintomas?
-- Posso apanhar o COVID-19 de alguém que não apresenta sintomas?
-- Posso apanhar o COVID-19 de alguém sem sintomas?
-- Posso apanhar o COVID-19 de pessoas assintomáticas?
-- Posso apanhar o COVID-19 de pessoas que não apresentam sintomas?
-- Posso apanhar o COVID-19 de pessoas sem sintomas?
-- Posso apanhar o COVID-19 de uma pessoa que não apresenta sintomas visíveis?
-- Posso apanhar o COVID-19 de uma pessoa que não apresenta sintomas?
-- Posso apanhar o COVID-19 de uma pessoa sem sintomas?
-- Posso apanhar o COVID-19 por uma pessoa assintomática?
-- Posso apanhar o COVID-19 por uma pessoa sem sintomas?
-- Posso apanhar o vírus de alguém que não apresenta sintomas?
-- Posso apanhar o vírus de alguém sem sintomas?
-- Posso apanhar o vírus de pessoas que não apresentam sintomas?
-- Posso apanhar o vírus de pessoas sem sintomas?
-- Posso apanhar o vírus de uma pessoa que não apresenta sintomas?
-- Posso apanhar o vírus de uma pessoa sem sintomas?
-- Posso contrair o COVID-19 de alguém que não apresenta sintomas?
-- Posso contrair o vírus de alguém que não apresenta sintomas?
-- Posso contrair o vírus de pessoas assintomáticas?
-- Posso contrair o vírus de uma pessoa que não mostra sintomas?
-- Posso ficar com o vírus através de pessoas sem sintomas?
-- Posso ficar contaminado com o vírus por pessoas que não demonstram sintomas?
-- Posso ficar contaminado pelo vírus de uma pessoa sem sintomas?
+- Pessoas sem sintomas visíveis podem transmitir o [vírus](pt_virus:COVID)?
+- Posso adquirir [COVID-19](pt_virus:COVID) de pessoas sem sintomas?
+- Posso adquirir o [vírus](pt_virus:COVID) de alguém sem sintomas?
+- Posso adquirir o [vírus](pt_virus:COVID) de uma pessoa sem sintomas?
+- Posso apanhar [COVID-19](pt_virus:COVID) de pessoas sem sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de alguém que não apresenta sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de alguém sem sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de pessoas assintomáticas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de pessoas que não apresentam sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de pessoas sem sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de uma pessoa que não apresenta sintomas visíveis?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de uma pessoa que não apresenta sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) de uma pessoa sem sintomas?
+- Posso apanhar o [COVID-19](pt_virus:COVID) por uma pessoa assintomática?
+- Posso apanhar o [COVID-19](pt_virus:COVID) por uma pessoa sem sintomas?
+- Posso apanhar o [vírus](pt_virus:COVID) de alguém que não apresenta sintomas?
+- Posso apanhar o [vírus](pt_virus:COVID) de alguém sem sintomas?
+- Posso apanhar o [vírus](pt_virus:COVID) de pessoas que não apresentam sintomas?
+- Posso apanhar o [vírus](pt_virus:COVID) de pessoas sem sintomas?
+- Posso apanhar o [vírus](pt_virus:COVID) de uma pessoa que não apresenta sintomas?
+- Posso apanhar o [vírus](pt_virus:COVID) de uma pessoa sem sintomas?
+- Posso contrair o [COVID-19](pt_virus:COVID) de alguém que não apresenta sintomas?
+- Posso contrair o [vírus](pt_virus:COVID) de alguém que não apresenta sintomas?
+- Posso contrair o [vírus](pt_virus:COVID) de pessoas assintomáticas?
+- Posso contrair o [vírus](pt_virus:COVID) de uma pessoa que não mostra sintomas?
+- Posso ficar com o [vírus](pt_virus:COVID) através de pessoas sem sintomas?
+- Posso ficar contaminado com o [vírus](pt_virus:COVID) por pessoas que não demonstram sintomas?
+- Posso ficar contaminado pelo [vírus](pt_virus:COVID) de uma pessoa sem sintomas?
 - Posso ficar contaminado por pessoas sem sintomas?
-- Posso ficar doente com COVID-19 por uma pessoa que não apresenta sintomas?
-- Posso ser contagiado com COVID-19 de pessoas sem sintomas?
-- Posso ter COVID-19 vindo de pessoas que não apresentam sintomas?
-- Posso ter o vírus vindo de uma pessoa sem sintomas?
-- Risco de apanhar COVID-19 de alguém sem sintomas.
-- Risco de apanhar COVID-19 de uma pessoa que não apresenta sintomas.
-- Risco de apanhar COVID-19 de uma pessoa que não tem sintomas.
-- Risco de apanhar COVID-19 de uma pessoa sem sintomas.
-- Risco de apanhar o COVID-19 de alguém que não tem sintomas.
-- Risco de apanhar o COVID-19 de alguém sem sintomas.
-- Risco de apanhar o vírus de alguém que não apresenta sintomas.
-- Risco de apanhar o vírus de alguém sem sintomas.
-- Risco de apanhar o vírus de uma pessoa que não apresenta sintomas.
-- Risco de apanhar o vírus de uma pessoa sem sintomas.
-- Risco de contrair o vírus de uma pessoa sem sintomas.
-- Risco de contágio do vírus por alguém sem sintomas.
-- Uma pessoa assintomática pode me passar COVID-19?
+- Posso ficar doente com [COVID-19](pt_virus:COVID) por uma pessoa que não apresenta sintomas?
+- Posso ser contagiado com [COVID-19](pt_virus:COVID) de pessoas sem sintomas?
+- Posso ter [COVID-19](pt_virus:COVID) vindo de pessoas que não apresentam sintomas?
+- Posso ter o [vírus](pt_virus:COVID) vindo de uma pessoa sem sintomas?
+- Risco de apanhar [COVID-19](pt_virus:COVID) de alguém sem sintomas.
+- Risco de apanhar [COVID-19](pt_virus:COVID) de uma pessoa que não apresenta sintomas.
+- Risco de apanhar [COVID-19](pt_virus:COVID) de uma pessoa que não tem sintomas.
+- Risco de apanhar [COVID-19](pt_virus:COVID) de uma pessoa sem sintomas.
+- Risco de apanhar o [COVID-19](pt_virus:COVID) de alguém que não tem sintomas.
+- Risco de apanhar o [COVID-19](pt_virus:COVID) de alguém sem sintomas.
+- Risco de apanhar o [vírus](pt_virus:COVID) de alguém que não apresenta sintomas.
+- Risco de apanhar o [vírus](pt_virus:COVID) de alguém sem sintomas.
+- Risco de apanhar o [vírus](pt_virus:COVID) de uma pessoa que não apresenta sintomas.
+- Risco de apanhar o [vírus](pt_virus:COVID) de uma pessoa sem sintomas.
+- Risco de contrair o [vírus](pt_virus:COVID) de uma pessoa sem sintomas.
+- Risco de contágio do [vírus](pt_virus:COVID) por alguém sem sintomas.
+- Uma pessoa assintomática pode me passar [COVID-19](pt_virus:COVID)?
 - Uma pessoa assintomática pode ser infecciosa?
 
 ## intent:pt_spread_pets
 - Animais domésticos
-- Meu animal de estimação pode espalhar o vírus?
+- Meu animal de estimação pode espalhar o [vírus](pt_virus:COVID)?
 - Meu cão da família pode me infectar?
-- Meu cão pode espalhar a doença?
-- Meu cão pode espalhar o vírus?
-- Meu gato da família pode apanhar o vírus?
-- Meu gato da família pode espalhar a doença?
-- Meu gato da família pode espalhar o vírus?
+- Meu cão pode espalhar a [doença](pt_virus:COVID)?
+- Meu cão pode espalhar o [vírus](pt_virus:COVID)?
+- Meu gato da família pode apanhar o [vírus](pt_virus:COVID)?
+- Meu gato da família pode espalhar a [doença](pt_virus:COVID)?
+- Meu gato da família pode espalhar o [vírus](pt_virus:COVID)?
 - Meu gato da família pode me infectar?
-- O cão da minha família pode espalhar a doença?
-- O cão da minha família pode espalhar o vírus?
-- O meu animal de companhia pode apanhar o vírus?
-- O meu animal de companhia pode espalhar a doença?
-- O meu animal de companhia pode espalhar o vírus?
+- O cão da minha família pode espalhar a [doença](pt_virus:COVID)?
+- O cão da minha família pode espalhar o [vírus](pt_virus:COVID)?
+- O meu animal de companhia pode apanhar o [vírus](pt_virus:COVID)?
+- O meu animal de companhia pode espalhar a [doença](pt_virus:COVID)?
+- O meu animal de companhia pode espalhar o [vírus](pt_virus:COVID)?
 - O meu animal de companhia pode me infectar?
-- O meu animal de estimação da família pode apanhar o vírus?
-- O meu animal de estimação da família pode espalhar a doença?
-- O meu animal de estimação da família pode espalhar o virus?
-- O meu animal de estimação da família pode espalhar o vírus?
+- O meu animal de estimação da família pode apanhar o [vírus](pt_virus:COVID)?
+- O meu animal de estimação da família pode espalhar a [doença](pt_virus:COVID)?
+- O meu animal de estimação da família pode espalhar o [virus](pt_virus:COVID)?
+- O meu animal de estimação da família pode espalhar o [vírus](pt_virus:COVID)?
 - O meu animal de estimação da família pode me infectar?
-- O meu animal de estimação pode apanhar o vírus?
-- O meu animal de estimação pode apanhar ou espalhar o vírus?
-- O meu animal de estimação pode espalhar a doença?
+- O meu animal de estimação pode apanhar o [vírus](pt_virus:COVID)?
+- O meu animal de estimação pode apanhar ou espalhar o [vírus](pt_virus:COVID)?
+- O meu animal de estimação pode espalhar a [doença](pt_virus:COVID)?
 - O meu animal de estimação pode me infectar?
-- O meu animal de estimação pode transmitir o virus à família?
+- O meu animal de estimação pode transmitir o [virus](pt_virus:COVID) à família?
 - O meu cachorro pode me infectar?
-- O meu cão da família pode apanhar o vírus?
-- O meu cão pode apanhar o vírus?
-- O meu gato pode apanhar o vírus?
-- O meu gato pode espalhar a doença?
-- O meu gato pode espalhar o vírus?
+- O meu cão da família pode apanhar o [vírus](pt_virus:COVID)?
+- O meu cão pode apanhar o [vírus](pt_virus:COVID)?
+- O meu gato pode apanhar o [vírus](pt_virus:COVID)?
+- O meu gato pode espalhar a [doença](pt_virus:COVID)?
+- O meu gato pode espalhar o [vírus](pt_virus:COVID)?
 - O meu gato pode me infectar?
-- Os animais domésticos podem transmitir o COVID-19?
-- Posso apanhar o COVID-19 do cão da minha família?
-- Posso apanhar o COVID-19 do meu animal de companhia?
-- Posso apanhar o COVID-19 do meu animal de estimação da família?
-- Posso apanhar o COVID-19 do meu animal de estimação?
-- Posso apanhar o COVID-19 do meu cachorro?
-- Posso apanhar o COVID-19 do meu gato de família?
-- Posso apanhar o COVID-19 do meu gato?
-- Posso apanhar o virus pelo meu animal de companhia?
+- Os animais domésticos podem transmitir o [COVID-19](pt_virus:COVID)?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do cão da minha família?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do meu animal de companhia?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do meu animal de estimação da família?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do meu animal de estimação?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do meu cachorro?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do meu gato de família?
+- Posso apanhar o [COVID-19](pt_virus:COVID) do meu gato?
+- Posso apanhar o [virus](pt_virus:COVID) pelo meu animal de companhia?
 - Posso ficar doente através de animais de companhia?
 - Posso ser infetado pelo animal de estimação da minha família?
 - Posso ser infetado pelo cão da minha família?
@@ -4952,26 +5233,26 @@
 - Posso ser infetado pelo meu animal de estimação?
 - Posso ser infetado pelo meu cão?
 - Posso ser infetado pelo meu gato?
-- É possível apanhar a doença vinda dos cães da família?
-- É possível apanhar o vírus de animais de companhia?
-- É possível apanhar o vírus de animais de estimação?
-- É possível apanhar o vírus de cães da família?
-- É possível apanhar o vírus de cães?
-- É possível apanhar o vírus de gatos da família?
-- É possível apanhar o vírus de gatos?
-- É possível apanhar o vírus do cão da minha família?
-- É possível apanhar o vírus do meu animal de companhia?
-- É possível apanhar o vírus do meu animal de estimação?
-- É possível apanhar o vírus do meu cão?
-- É possível apanhar o vírus do meu gato da família?
-- É possível apanhar o vírus do meu gato?
-- É possível apanhar o vírus em animais de estimação da família?
-- É possível apanhar o vírus no meu animal de estimação da família?
-- É possível contrair o virus através de cães?
+- É possível apanhar a [doença](pt_virus:COVID) vinda dos cães da família?
+- É possível apanhar o [vírus](pt_virus:COVID) de animais de companhia?
+- É possível apanhar o [vírus](pt_virus:COVID) de animais de estimação?
+- É possível apanhar o [vírus](pt_virus:COVID) de cães da família?
+- É possível apanhar o [vírus](pt_virus:COVID) de cães?
+- É possível apanhar o [vírus](pt_virus:COVID) de gatos da família?
+- É possível apanhar o [vírus](pt_virus:COVID) de gatos?
+- É possível apanhar o [vírus](pt_virus:COVID) do cão da minha família?
+- É possível apanhar o [vírus](pt_virus:COVID) do meu animal de companhia?
+- É possível apanhar o [vírus](pt_virus:COVID) do meu animal de estimação?
+- É possível apanhar o [vírus](pt_virus:COVID) do meu cão?
+- É possível apanhar o [vírus](pt_virus:COVID) do meu gato da família?
+- É possível apanhar o [vírus](pt_virus:COVID) do meu gato?
+- É possível apanhar o [vírus](pt_virus:COVID) em animais de estimação da família?
+- É possível apanhar o [vírus](pt_virus:COVID) no meu animal de estimação da família?
+- É possível contrair o [virus](pt_virus:COVID) através de cães?
 - É possível estar infetado pelo meu gato de família?
 - É possível estar infetado pelo meu gato?
 - É possível estar infetado por gatos de família?
-- É possível o meu gato de família ter me passado o virus?
+- É possível o meu gato de família ter me passado o [virus](pt_virus:COVID)?
 - É possível ser contaminado por animais de estimação da família?
 - É possível ser contaminado por animais de estimação?
 - É possível ser infetado pelo cachorro da minha família?
@@ -4992,69 +5273,69 @@
 - É possível vir a ser infetado por gatos?
 
 ## intent:pt_spread_risk
-- Chances de apanhar COVID-19.
-- Chances de apanhar o vírus.
-- Chances de contrair o vírus.
-- Chances de encontrar contagiado com COVID-19.
-- Chances de estar com COVID-19.
-- Chances de estar contaminado pelo vírus.
-- Chances de estar doente pelo vírus.
-- Chances de estar infetado pelo COVID-19.
-- Chances de estar infetado pelo vírus.
-- Chances de estar infetado por COVID-19.
-- Chances de ficar com o vírus.
-- Chances de possuir o vírus.
-- Chances de ser infetado pelo COVID-19.
-- Chances de ter COVID-19.
-- Gostaria de saber qual a probabilidade de contrair covid-19, devido à minha
+- Chances de apanhar [COVID-19](pt_virus:COVID).
+- Chances de apanhar o [vírus](pt_virus:COVID).
+- Chances de contrair o [vírus](pt_virus:COVID).
+- Chances de encontrar contagiado com [COVID-19](pt_virus:COVID).
+- Chances de estar com [COVID-19](pt_virus:COVID).
+- Chances de estar contaminado pelo [vírus](pt_virus:COVID).
+- Chances de estar doente pelo [vírus](pt_virus:COVID).
+- Chances de estar infetado pelo [COVID-19](pt_virus:COVID).
+- Chances de estar infetado pelo [vírus](pt_virus:COVID).
+- Chances de estar infetado por [COVID-19](pt_virus:COVID).
+- Chances de ficar com o [vírus](pt_virus:COVID).
+- Chances de possuir o [vírus](pt_virus:COVID).
+- Chances de ser infetado pelo [COVID-19](pt_virus:COVID).
+- Chances de ter [COVID-19](pt_virus:COVID).
+- Gostaria de saber qual a probabilidade de contrair [COVID-19](pt_virus:COVID), devido à minha
   profissão.
-- Quaais são as probabilidadas de apanhar o vírus?
-- Quais são as chances de apanhar COVID-19?
-- Quais são as chances de apanhar o COVID-19?
-- Quais são as chances de apanhar o vírus?
-- Quais são as chances de ficar o vírus?
-- Quais são as chances de poder ser infetado pelo COVID-19?
-- Quais são as chances de ser conatminado pelo vírus?
-- Quais são as chances de ser infetado pelo COVID-19?
-- Quais são as chances de ser infetado pelo vírus?
-- Qual a probabilidade de apanhar o vírus?
-- Qual a probabilidade de eu apanhar o COVID-19?
-- Qual a probabilidade de eu estar com COVID-19?
-- Qual a probabilidade de eu estar infetado pelo COVID-19?
-- Qual a probabilidade de eu estar infetado pelo vírus?
-- Qual a probabilidade de eu o vírus me ter infetado?
-- Qual a probabilidade de eu ser contagiado com COVID-19?
+- Quaais são as probabilidadas de apanhar o [vírus](pt_virus:COVID)?
+- Quais são as chances de apanhar [COVID-19](pt_virus:COVID)?
+- Quais são as chances de apanhar o [COVID-19](pt_virus:COVID)?
+- Quais são as chances de apanhar o [vírus](pt_virus:COVID)?
+- Quais são as chances de ficar o [vírus](pt_virus:COVID)?
+- Quais são as chances de poder ser infetado pelo [COVID-19](pt_virus:COVID)?
+- Quais são as chances de ser conatminado pelo [vírus](pt_virus:COVID)?
+- Quais são as chances de ser infetado pelo [COVID-19](pt_virus:COVID)?
+- Quais são as chances de ser infetado pelo [vírus](pt_virus:COVID)?
+- Qual a probabilidade de apanhar o [vírus](pt_virus:COVID)?
+- Qual a probabilidade de eu apanhar o [COVID-19](pt_virus:COVID)?
+- Qual a probabilidade de eu estar com [COVID-19](pt_virus:COVID)?
+- Qual a probabilidade de eu estar infetado pelo [COVID-19](pt_virus:COVID)?
+- Qual a probabilidade de eu estar infetado pelo [vírus](pt_virus:COVID)?
+- Qual a probabilidade de eu o [vírus](pt_virus:COVID) me ter infetado?
+- Qual a probabilidade de eu ser contagiado com [COVID-19](pt_virus:COVID)?
 - Qual o risco de ficar infetado?
-- Qual o risco para Portugal?
-- Que chances tenho de apanhar COVID-19?
-- Que chances tenho de apanhar o vírus?
-- Que chances tenho de estar infetado pelo COVID-19?
-- Que chances tenho de estar infetado pelo vírus?
-- Que chances tenho de possuir COVID-19?
-- Que chances tenho de possuir o vírus?
-- Que chances tenho para apanhar o COVID-19?
-- Que chances tenho para apanhar o vírus?
-- Risco de apanhar COVID-19.
-- Risco de apanhar o vírus.
-- Risco de contrair o vírus.
-- Risco de ser contaminado pelo COVID-19.
-- Risco de ser contrair o vírus.
-- Risco de ser infetado pelo COVID-19.
-- Risco de ser infetado pelo vírus.
-- Risco de ter COVID-19.
+- Qual o risco para [Portugal](pt_country_code:PT)?
+- Que chances tenho de apanhar [COVID-19](pt_virus:COVID)?
+- Que chances tenho de apanhar o [vírus](pt_virus:COVID)?
+- Que chances tenho de estar infetado pelo [COVID-19](pt_virus:COVID)?
+- Que chances tenho de estar infetado pelo [vírus](pt_virus:COVID)?
+- Que chances tenho de possuir [COVID-19](pt_virus:COVID)?
+- Que chances tenho de possuir o [vírus](pt_virus:COVID)?
+- Que chances tenho para apanhar o [COVID-19](pt_virus:COVID)?
+- Que chances tenho para apanhar o [vírus](pt_virus:COVID)?
+- Risco de apanhar [COVID-19](pt_virus:COVID).
+- Risco de apanhar o [vírus](pt_virus:COVID).
+- Risco de contrair o [vírus](pt_virus:COVID).
+- Risco de ser contaminado pelo [COVID-19](pt_virus:COVID).
+- Risco de ser contrair o [vírus](pt_virus:COVID).
+- Risco de ser infetado pelo [COVID-19](pt_virus:COVID).
+- Risco de ser infetado pelo [vírus](pt_virus:COVID).
+- Risco de ter [COVID-19](pt_virus:COVID).
 - Trabalho numa Câmara Municipal, na recolha do lixo. Temos várias medidas de
   prevenção, mas toda a minha família está em casa. Em teletrbalho, é os miúdos
   como é do conhecimento geral estão sem aulas. Gostaria de saber qual a
-  probabilidade de contrair covid-19, devido à minha profissão.
+  probabilidade de contrair [COVID-19](pt_virus:COVID), devido à minha profissão.
 - posso estar infetado?
-- qual o risco de contrair a doença?
+- qual o risco de contrair a [doença](pt_virus:COVID)?
 - risco
 
 ## intent:pt_spread_surfaces_food_objects
-- O COVID-19 pode ser transmitido através de alimentos, incluindo os
+- O [COVID-19](pt_virus:COVID) pode ser transmitido através de alimentos, incluindo os
   refrigerados e congelados?
-- O COVID-19 pode ser transmitido através de alimentos?
-- O virus pode ser transmitido através de alimentos?
+- O [COVID-19](pt_virus:COVID) pode ser transmitido através de alimentos?
+- O [virus](pt_virus:COVID) pode ser transmitido através de alimentos?
 - Transmissão através de alimentos
 
 ## intent:pt_state_emergency_info
@@ -5076,8 +5357,8 @@
 - quão seguro é ir a um supermercado
 
 ## intent:pt_test_general
-- Devo ser testado para o COVID-19?
-- despiste de covid-19
+- Devo ser testado para o [COVID-19](pt_virus:COVID)?
+- despiste de [COVID-19](pt_virus:COVID)
 - o exame é necessário?
 - tenho de fazer o teste?
 
@@ -5085,10 +5366,10 @@
 - Quantos testes devem ser feitos por dia?
 - Quantos testes são feitos por dia?
 - Testes por dia?
-- quantos testes ao covid  foram realizados diariamente em portugal ?
-- quantos testes ao covid foram realizados diariamente em portugal nos ultimos 5
+- quantos testes ao [covid](pt_virus:COVID)  foram realizados diariamente em portugal ?
+- quantos testes ao [covid](pt_virus:COVID) foram realizados diariamente em portugal nos ultimos 5
   dias ?
-- quantos testes ao covid foram realizados diariamente em portugal nos ultimos
+- quantos testes ao [covid](pt_virus:COVID) foram realizados diariamente em portugal nos ultimos
   dias ?
 - quantos testes foramrealizados diariamente em portugal ?
 - quantos testes são realizados diariamente em portugal ?
@@ -5101,17 +5382,17 @@
 - O teste testa o quê?
 
 ## intent:pt_test_where
-- Onde fazer o teste de covid-19?
+- Onde fazer o teste de [COVID-19](pt_virus:COVID)?
 - Onde posso fazer o despiste?
 - Onde posso fazer o teste?
 - Onde posso fazer um teste?
 - Onde posso ser testada?
 - Onde posso ser testado?
-- Onde é feito o teste da COVID-19?
+- Onde é feito o teste da [COVID-19](pt_virus:COVID)?
 - Onde é feito o teste?
 - Posso fazer o teste em casa?
 - onde fazer o teste?
-- onde são os centros de testes covid-19
+- onde são os centros de testes [COVID-19](pt_virus:COVID)
 
 ## intent:pt_travel_after
 - Acabei de voltar de uma viagem.
@@ -5159,7 +5440,7 @@
 - Estou planeando viajar de férias.
 - Estou planeando viajar.
 - Estou viajando em breve.
-- Impacto do virus no planeamento de férias.
+- Impacto do [virus](pt_virus:COVID) no planeamento de férias.
 - O que antecipar antes da viagem?
 - O que antecipar antes de viajar?
 - O que devo fazer antes de viajar?
@@ -5860,1010 +6141,6756 @@
 - Sem problema, Helena.
 - Sem problemas.
 
-
-
-## lookup:pricelist
-data/lookup_tables/pricelist.txt
-
-## lookup:two
-data/lookup_tables/two.txt
-
-## lookup:four
-data/lookup_tables/four.txt
-
-## lookup:eight
-data/lookup_tables/eight.txt
-
-## lookup:six
-data/lookup_tables/six.txt
-
-## lookup:seven
-data/lookup_tables/seven.txt
-
-## lookup:three
-data/lookup_tables/three.txt
-
-## lookup:nine
-data/lookup_tables/nine.txt
-
-## lookup:ten
-data/lookup_tables/ten.txt
-
-## lookup:one
-data/lookup_tables/one.txt
-
-## lookup:five
-data/lookup_tables/five.txt
-
-## lookup:pet
-data/lookup_tables/pet.txt
-
-## lookup:address
-data/lookup_tables/address.txt
-
-## lookup:phone
-data/lookup_tables/phone.txt
-
-## lookup:e-mail
-data/lookup_tables/e-mail.txt
-
-## lookup:contact
-data/lookup_tables/contact.txt
-
-## lookup:1
-data/lookup_tables/1.txt
-
-## lookup:2
-data/lookup_tables/2.txt
-
-## lookup:game
-data/lookup_tables/game.txt
-
-## lookup:movie
-data/lookup_tables/movie.txt
-
-## lookup:music
-data/lookup_tables/music.txt
-
-## lookup:weather
-data/lookup_tables/weather.txt
-
-## lookup:lotr
-data/lookup_tables/lotr.txt
-
-## lookup:game
-data/lookup_tables/game.txt
-
-## lookup:joke
-data/lookup_tables/joke.txt
-
-## lookup:form of address
-data/lookup_tables/form of address.txt
-
-## lookup:Mr.
-data/lookup_tables/Mr..txt
-
-## lookup:Mrs.
-data/lookup_tables/Mrs..txt
-
-## lookup:anal
-data/lookup_tables/anal.txt
-
-## lookup:church
-data/lookup_tables/church.txt
-
-## lookup:no
-data/lookup_tables/no.txt
-
-## lookup:yes
-data/lookup_tables/yes.txt
-
-## lookup:video
-data/lookup_tables/video.txt
-
-## lookup:photo
-data/lookup_tables/photo.txt
-
-## lookup:datasheet
-data/lookup_tables/datasheet.txt
-
-## lookup:negative_emoticon
-data/lookup_tables/negative_emoticon.txt
-
-## lookup:positive_emoticon
-data/lookup_tables/positive_emoticon.txt
-
-## lookup:angry
-data/lookup_tables/angry.txt
-
-## lookup:racist
-data/lookup_tables/racist.txt
-
-## lookup:joke
-data/lookup_tables/joke.txt
-
-## lookup:music
-data/lookup_tables/music.txt
-
-## lookup:website
-data/lookup_tables/website.txt
-
-## lookup:photo
-data/lookup_tables/photo.txt
-
-## lookup:favorite
-data/lookup_tables/favorite.txt
-
-## lookup:summarize
-data/lookup_tables/summarize.txt
-
-## lookup:color
-data/lookup_tables/color.txt
-
-## lookup:have to
-data/lookup_tables/have to.txt
-
-## lookup:message
-data/lookup_tables/message.txt
-
-## lookup:pneumonia vaccine
-data/lookup_tables/pneumonia vaccine.txt
-
-## lookup:garlic
-data/lookup_tables/garlic.txt
-
-## lookup:antibiotics
-data/lookup_tables/antibiotics.txt
-
-## lookup:hand dryer
-data/lookup_tables/hand dryer.txt
-
-## lookup:thermal scanner
-data/lookup_tables/thermal scanner.txt
-
-## lookup:sesame oil
-data/lookup_tables/sesame oil.txt
-
-## lookup:uv lamp
-data/lookup_tables/uv lamp.txt
-
-## lookup:saline
-data/lookup_tables/saline.txt
-
-## lookup:racist
-data/lookup_tables/racist.txt
-
-## lookup:offense
-data/lookup_tables/offense.txt
-
-## lookup:movies
-data/lookup_tables/movies.txt
-
-## lookup:date
-data/lookup_tables/date.txt
-
-## lookup:time
-data/lookup_tables/time.txt
-
-## lookup:question
-data/lookup_tables/question.txt
-
-## lookup:EG
-data/lookup_tables/EG.txt
-
-## lookup:EH
-data/lookup_tables/EH.txt
-
-## lookup:ER
-data/lookup_tables/ER.txt
-
-## lookup:ES
-data/lookup_tables/ES.txt
-
-## lookup:ET
-data/lookup_tables/ET.txt
-
-## lookup:FI
-data/lookup_tables/FI.txt
-
-## lookup:FJ
-data/lookup_tables/FJ.txt
-
-## lookup:FK
-data/lookup_tables/FK.txt
-
-## lookup:FM
-data/lookup_tables/FM.txt
-
-## lookup:FO
-data/lookup_tables/FO.txt
-
-## lookup:FR
-data/lookup_tables/FR.txt
-
-## lookup:GA
-data/lookup_tables/GA.txt
-
-## lookup:GB
-data/lookup_tables/GB.txt
-
-## lookup:GD
-data/lookup_tables/GD.txt
-
-## lookup:GE
-data/lookup_tables/GE.txt
-
-## lookup:GF
-data/lookup_tables/GF.txt
-
-## lookup:GG
-data/lookup_tables/GG.txt
-
-## lookup:GH
-data/lookup_tables/GH.txt
-
-## lookup:GI
-data/lookup_tables/GI.txt
-
-## lookup:GL
-data/lookup_tables/GL.txt
-
-## lookup:GM
-data/lookup_tables/GM.txt
-
-## lookup:GN
-data/lookup_tables/GN.txt
-
-## lookup:GP
-data/lookup_tables/GP.txt
-
-## lookup:GQ
-data/lookup_tables/GQ.txt
-
-## lookup:GR
-data/lookup_tables/GR.txt
-
-## lookup:GS
-data/lookup_tables/GS.txt
-
-## lookup:GT
-data/lookup_tables/GT.txt
-
-## lookup:GU
-data/lookup_tables/GU.txt
-
-## lookup:GW
-data/lookup_tables/GW.txt
-
-## lookup:GY
-data/lookup_tables/GY.txt
-
-## lookup:HK
-data/lookup_tables/HK.txt
-
-## lookup:HM
-data/lookup_tables/HM.txt
-
-## lookup:HN
-data/lookup_tables/HN.txt
-
-## lookup:HR
-data/lookup_tables/HR.txt
-
-## lookup:HT
-data/lookup_tables/HT.txt
-
-## lookup:HU
-data/lookup_tables/HU.txt
-
-## lookup:ID
-data/lookup_tables/ID.txt
-
-## lookup:IE
-data/lookup_tables/IE.txt
-
-## lookup:IL
-data/lookup_tables/IL.txt
-
-## lookup:IM
-data/lookup_tables/IM.txt
-
-## lookup:IN
-data/lookup_tables/IN.txt
-
-## lookup:IO
-data/lookup_tables/IO.txt
-
-## lookup:IQ
-data/lookup_tables/IQ.txt
-
-## lookup:IR
-data/lookup_tables/IR.txt
-
-## lookup:IS
-data/lookup_tables/IS.txt
-
-## lookup:IT
-data/lookup_tables/IT.txt
-
-## lookup:JE
-data/lookup_tables/JE.txt
-
-## lookup:JM
-data/lookup_tables/JM.txt
-
-## lookup:JO
-data/lookup_tables/JO.txt
-
-## lookup:JP
-data/lookup_tables/JP.txt
-
-## lookup:KE
-data/lookup_tables/KE.txt
-
-## lookup:KG
-data/lookup_tables/KG.txt
-
-## lookup:KH
-data/lookup_tables/KH.txt
-
-## lookup:KI
-data/lookup_tables/KI.txt
-
-## lookup:KM
-data/lookup_tables/KM.txt
-
-## lookup:KN
-data/lookup_tables/KN.txt
-
-## lookup:KP
-data/lookup_tables/KP.txt
-
-## lookup:KR
-data/lookup_tables/KR.txt
-
-## lookup:KW
-data/lookup_tables/KW.txt
-
-## lookup:KY
-data/lookup_tables/KY.txt
-
-## lookup:KZ
-data/lookup_tables/KZ.txt
-
-## lookup:LA
-data/lookup_tables/LA.txt
-
-## lookup:LB
-data/lookup_tables/LB.txt
-
-## lookup:LC
-data/lookup_tables/LC.txt
-
-## lookup:LI
-data/lookup_tables/LI.txt
-
-## lookup:LK
-data/lookup_tables/LK.txt
-
-## lookup:LR
-data/lookup_tables/LR.txt
-
-## lookup:LS
-data/lookup_tables/LS.txt
-
-## lookup:LT
-data/lookup_tables/LT.txt
-
-## lookup:LU
-data/lookup_tables/LU.txt
-
-## lookup:LV
-data/lookup_tables/LV.txt
-
-## lookup:LY
-data/lookup_tables/LY.txt
-
-## lookup:MA
-data/lookup_tables/MA.txt
-
-## lookup:MC
-data/lookup_tables/MC.txt
-
-## lookup:MD
-data/lookup_tables/MD.txt
-
-## lookup:ME
-data/lookup_tables/ME.txt
-
-## lookup:MF
-data/lookup_tables/MF.txt
-
-## lookup:MG
-data/lookup_tables/MG.txt
-
-## lookup:MH
-data/lookup_tables/MH.txt
-
-## lookup:MK
-data/lookup_tables/MK.txt
-
-## lookup:ML
-data/lookup_tables/ML.txt
-
-## lookup:MM
-data/lookup_tables/MM.txt
-
-## lookup:MN
-data/lookup_tables/MN.txt
-
-## lookup:MO
-data/lookup_tables/MO.txt
-
-## lookup:MP
-data/lookup_tables/MP.txt
-
-## lookup:MQ
-data/lookup_tables/MQ.txt
-
-## lookup:MR
-data/lookup_tables/MR.txt
-
-## lookup:MS
-data/lookup_tables/MS.txt
-
-## lookup:MT
-data/lookup_tables/MT.txt
-
-## lookup:MU
-data/lookup_tables/MU.txt
-
-## lookup:MV
-data/lookup_tables/MV.txt
-
-## lookup:MW
-data/lookup_tables/MW.txt
-
-## lookup:MX
-data/lookup_tables/MX.txt
-
-## lookup:MY
-data/lookup_tables/MY.txt
-
-## lookup:MZ
-data/lookup_tables/MZ.txt
-
-## lookup:NA
-data/lookup_tables/NA.txt
-
-## lookup:NC
-data/lookup_tables/NC.txt
-
-## lookup:NE
-data/lookup_tables/NE.txt
-
-## lookup:NF
-data/lookup_tables/NF.txt
-
-## lookup:NG
-data/lookup_tables/NG.txt
-
-## lookup:NI
-data/lookup_tables/NI.txt
-
-## lookup:NL
-data/lookup_tables/NL.txt
-
-## lookup:NO
-data/lookup_tables/NO.txt
-
-## lookup:NP
-data/lookup_tables/NP.txt
-
-## lookup:NR
-data/lookup_tables/NR.txt
-
-## lookup:NU
-data/lookup_tables/NU.txt
-
-## lookup:NZ
-data/lookup_tables/NZ.txt
-
-## lookup:OM
-data/lookup_tables/OM.txt
-
-## lookup:PA
-data/lookup_tables/PA.txt
-
-## lookup:PE
-data/lookup_tables/PE.txt
-
-## lookup:PF
-data/lookup_tables/PF.txt
-
-## lookup:PG
-data/lookup_tables/PG.txt
-
-## lookup:PH
-data/lookup_tables/PH.txt
-
-## lookup:PK
-data/lookup_tables/PK.txt
-
-## lookup:PL
-data/lookup_tables/PL.txt
-
-## lookup:PM
-data/lookup_tables/PM.txt
-
-## lookup:PN
-data/lookup_tables/PN.txt
-
-## lookup:PR
-data/lookup_tables/PR.txt
-
-## lookup:PS
-data/lookup_tables/PS.txt
-
-## lookup:PT
-data/lookup_tables/PT.txt
-
-## lookup:PW
-data/lookup_tables/PW.txt
-
-## lookup:PY
-data/lookup_tables/PY.txt
-
-## lookup:QA
-data/lookup_tables/QA.txt
-
-## lookup:RE
-data/lookup_tables/RE.txt
-
-## lookup:RO
-data/lookup_tables/RO.txt
-
-## lookup:RS
-data/lookup_tables/RS.txt
-
-## lookup:RU
-data/lookup_tables/RU.txt
-
-## lookup:RW
-data/lookup_tables/RW.txt
-
-## lookup:SA
-data/lookup_tables/SA.txt
-
-## lookup:SB
-data/lookup_tables/SB.txt
-
-## lookup:SC
-data/lookup_tables/SC.txt
-
-## lookup:SD
-data/lookup_tables/SD.txt
-
-## lookup:SE
-data/lookup_tables/SE.txt
-
-## lookup:SG
-data/lookup_tables/SG.txt
-
-## lookup:SH
-data/lookup_tables/SH.txt
-
-## lookup:SI
-data/lookup_tables/SI.txt
-
-## lookup:SJ
-data/lookup_tables/SJ.txt
-
-## lookup:SK
-data/lookup_tables/SK.txt
-
-## lookup:SL
-data/lookup_tables/SL.txt
-
-## lookup:SM
-data/lookup_tables/SM.txt
-
-## lookup:SN
-data/lookup_tables/SN.txt
-
-## lookup:SO
-data/lookup_tables/SO.txt
-
-## lookup:SR
-data/lookup_tables/SR.txt
-
-## lookup:SS
-data/lookup_tables/SS.txt
-
-## lookup:ST
-data/lookup_tables/ST.txt
-
-## lookup:SV
-data/lookup_tables/SV.txt
-
-## lookup:SX
-data/lookup_tables/SX.txt
-
-## lookup:SY
-data/lookup_tables/SY.txt
-
-## lookup:AD
-data/lookup_tables/AD.txt
-
-## lookup:TC
-data/lookup_tables/TC.txt
-
-## lookup:TD
-data/lookup_tables/TD.txt
-
-## lookup:TF
-data/lookup_tables/TF.txt
-
-## lookup:TG
-data/lookup_tables/TG.txt
-
-## lookup:TH
-data/lookup_tables/TH.txt
-
-## lookup:TJ
-data/lookup_tables/TJ.txt
-
-## lookup:TK
-data/lookup_tables/TK.txt
-
-## lookup:TL
-data/lookup_tables/TL.txt
-
-## lookup:TM
-data/lookup_tables/TM.txt
-
-## lookup:TN
-data/lookup_tables/TN.txt
-
-## lookup:TO
-data/lookup_tables/TO.txt
-
-## lookup:TR
-data/lookup_tables/TR.txt
-
-## lookup:TT
-data/lookup_tables/TT.txt
-
-## lookup:TV
-data/lookup_tables/TV.txt
-
-## lookup:TW
-data/lookup_tables/TW.txt
-
-## lookup:TZ
-data/lookup_tables/TZ.txt
-
-## lookup:UA
-data/lookup_tables/UA.txt
-
-## lookup:UG
-data/lookup_tables/UG.txt
-
-## lookup:UM
-data/lookup_tables/UM.txt
-
-## lookup:US
-data/lookup_tables/US.txt
-
-## lookup:UY
-data/lookup_tables/UY.txt
-
-## lookup:UZ
-data/lookup_tables/UZ.txt
-
-## lookup:VA
-data/lookup_tables/VA.txt
-
-## lookup:VC
-data/lookup_tables/VC.txt
-
-## lookup:VE
-data/lookup_tables/VE.txt
-
-## lookup:VG
-data/lookup_tables/VG.txt
-
-## lookup:VI
-data/lookup_tables/VI.txt
-
-## lookup:VN
-data/lookup_tables/VN.txt
-
-## lookup:VU
-data/lookup_tables/VU.txt
-
-## lookup:WF
-data/lookup_tables/WF.txt
-
-## lookup:WS
-data/lookup_tables/WS.txt
-
-## lookup:YE
-data/lookup_tables/YE.txt
-
-## lookup:YT
-data/lookup_tables/YT.txt
-
-## lookup:ZA
-data/lookup_tables/ZA.txt
-
-## lookup:ZM
-data/lookup_tables/ZM.txt
-
-## lookup:ZW
-data/lookup_tables/ZW.txt
-
-## lookup:SZ
-data/lookup_tables/SZ.txt
-
-## lookup:AE
-data/lookup_tables/AE.txt
-
-## lookup:AF
-data/lookup_tables/AF.txt
-
-## lookup:AG
-data/lookup_tables/AG.txt
-
-## lookup:AI
-data/lookup_tables/AI.txt
-
-## lookup:AL
-data/lookup_tables/AL.txt
-
-## lookup:AM
-data/lookup_tables/AM.txt
-
-## lookup:AO
-data/lookup_tables/AO.txt
-
-## lookup:AQ
-data/lookup_tables/AQ.txt
-
-## lookup:AR
-data/lookup_tables/AR.txt
-
-## lookup:AS
-data/lookup_tables/AS.txt
-
-## lookup:AT
-data/lookup_tables/AT.txt
-
-## lookup:AU
-data/lookup_tables/AU.txt
-
-## lookup:AW
-data/lookup_tables/AW.txt
-
-## lookup:AX
-data/lookup_tables/AX.txt
-
-## lookup:AZ
-data/lookup_tables/AZ.txt
-
-## lookup:BA
-data/lookup_tables/BA.txt
-
-## lookup:BB
-data/lookup_tables/BB.txt
-
-## lookup:BD
-data/lookup_tables/BD.txt
-
-## lookup:BE
-data/lookup_tables/BE.txt
-
-## lookup:BF
-data/lookup_tables/BF.txt
-
-## lookup:BG
-data/lookup_tables/BG.txt
-
-## lookup:BH
-data/lookup_tables/BH.txt
-
-## lookup:BI
-data/lookup_tables/BI.txt
-
-## lookup:BJ
-data/lookup_tables/BJ.txt
-
-## lookup:BL
-data/lookup_tables/BL.txt
-
-## lookup:BM
-data/lookup_tables/BM.txt
-
-## lookup:BN
-data/lookup_tables/BN.txt
-
-## lookup:BO
-data/lookup_tables/BO.txt
-
-## lookup:BQ
-data/lookup_tables/BQ.txt
-
-## lookup:BR
-data/lookup_tables/BR.txt
-
-## lookup:BS
-data/lookup_tables/BS.txt
-
-## lookup:BT
-data/lookup_tables/BT.txt
-
-## lookup:BV
-data/lookup_tables/BV.txt
-
-## lookup:BW
-data/lookup_tables/BW.txt
-
-## lookup:BY
-data/lookup_tables/BY.txt
-
-## lookup:BZ
-data/lookup_tables/BZ.txt
-
-## lookup:CA
-data/lookup_tables/CA.txt
-
-## lookup:CC
-data/lookup_tables/CC.txt
-
-## lookup:CD
-data/lookup_tables/CD.txt
-
-## lookup:CF
-data/lookup_tables/CF.txt
-
-## lookup:CG
-data/lookup_tables/CG.txt
-
-## lookup:CH
-data/lookup_tables/CH.txt
-
-## lookup:CI
-data/lookup_tables/CI.txt
-
-## lookup:CK
-data/lookup_tables/CK.txt
-
-## lookup:CL
-data/lookup_tables/CL.txt
-
-## lookup:CM
-data/lookup_tables/CM.txt
-
-## lookup:CN
-data/lookup_tables/CN.txt
-
-## lookup:CO
-data/lookup_tables/CO.txt
-
-## lookup:CR
-data/lookup_tables/CR.txt
-
-## lookup:CU
-data/lookup_tables/CU.txt
-
-## lookup:CV
-data/lookup_tables/CV.txt
-
-## lookup:CW
-data/lookup_tables/CW.txt
-
-## lookup:CX
-data/lookup_tables/CX.txt
-
-## lookup:CY
-data/lookup_tables/CY.txt
-
-## lookup:CZ
-data/lookup_tables/CZ.txt
-
-## lookup:DE
-data/lookup_tables/DE.txt
-
-## lookup:DJ
-data/lookup_tables/DJ.txt
-
-## lookup:DK
-data/lookup_tables/DK.txt
-
-## lookup:DM
-data/lookup_tables/DM.txt
-
-## lookup:DO
-data/lookup_tables/DO.txt
-
-## lookup:DZ
-data/lookup_tables/DZ.txt
-
-## lookup:EC
-data/lookup_tables/EC.txt
-
-## lookup:EE
-data/lookup_tables/EE.txt
-
-## lookup:influenza
-data/lookup_tables/influenza.txt
-
-## lookup:prevention
-data/lookup_tables/prevention.txt
-
-## lookup:spread
-data/lookup_tables/spread.txt
-
-## lookup:COVID
-data/lookup_tables/COVID.txt
-
-## lookup:number
-data/lookup_tables/number.txt
-
-## lookup:teach
-data/lookup_tables/teach.txt
-
-## lookup:facebook
-data/lookup_tables/facebook.txt
-
-## lookup:linkedin
-data/lookup_tables/linkedin.txt
-
-## lookup:instagram
-data/lookup_tables/instagram.txt
-
-## lookup:social media
-data/lookup_tables/social media.txt
-
-## lookup:firstname
-data/lookup_tables/firstname.txt
-
-## lookup:surname
-data/lookup_tables/surname.txt
-
-## lookup:cancel
-data/lookup_tables/cancel.txt
-
-## lookup:sex
-data/lookup_tables/sex.txt
-
-## lookup:cough
-data/lookup_tables/cough.txt
-
-## lookup:runny_nose
-data/lookup_tables/runny_nose.txt
-
-## lookup:sore_throat
-data/lookup_tables/sore_throat.txt
-
-## lookup:breathing_difficulty
-data/lookup_tables/breathing_difficulty.txt
-
-## lookup:fever
-data/lookup_tables/fever.txt
-
-## lookup:you
-data/lookup_tables/you.txt
-
-## lookup:I
-data/lookup_tables/I.txt
-
-## lookup:country
-data/lookup_tables/country.txt
-
-## lookup:town
-data/lookup_tables/town.txt
-
-## lookup:languages
-data/lookup_tables/languages.txt
-
+## intent:pt_news_request
+- Quais são as últimas noticias?
+- Fala-me de noticias.
+- Diz-me as noticias
+- Quais são as noticias relacionadas
+- Faz-me um update das noticias
+- Noticias sobre [coronavirus](pt_virus:COVID)
+- Noticias sobre [virus](pt_virus:COVID)
+- noticias
+- Que noticias tens
+- Quais são as noticias que sabes
+
+## synonym:en_lang
+- Cosibot Inglês
+
+<!--
+## synonym:pricelist
+- base price
+- pays
+- afford
+- payable
+- paid
+- paying
+- pay
+- rate
+- payment
+- payments
+- rates
+- expenditure
+- priced
+- expenditures
+- costing
+- charges
+- expenses
+- fees
+- charge
+- fee
+- expense
+- costs
+- pricing
+- cost
+- prices
+- lists of prices
+- lists with prices
+- pricelists
+- pricelist
+- price-list
+- list of prices
+- list with prices
+- price list
+
+## synonym:two
+- segunda
+- segundo
+- dois
+- "2"
+- two
+- Second
+
+## synonym:four
+- quarta
+- quarto
+- "4"
+- four
+- Fourth
+
+## synonym:eight
+- oitava
+- oitavo
+- oito
+- "8"
+- eight
+- Eighth
+
+## synonym:six
+- sexta
+- sexto
+- seis
+- "6"
+- six
+- Sixth
+
+## synonym:seven
+- sétima
+- sétimo
+- sete
+- "7"
+- seven
+- Seventh
+
+## synonym:three
+- terceira
+- terceiro
+- três
+- "3"
+- three
+- Third
+
+## synonym:nine
+- nona
+- nono
+- nove
+- "9"
+- nine
+- Ninth
+
+## synonym:ten
+- décima
+- décimo
+- dez
+- "10"
+- ten
+- Tenth
+
+## synonym:one
+- primeira
+- primeiro
+- um
+- "1"
+- one
+- First
+
+## synonym:five
+- quinta
+- quinto
+- cinco
+- "5"
+- five
+- Fifth
+
+## synonym:pet
+- animal de estimação
+- gato
+- cão
+- gatos
+- cães
+- animais de estimação
+- mascotes
+- mascote
+- animais de casa
+- animal de casa
+
+## synonym:address
+- morada
+- endereço
+- local
+- location
+- company address
+- addresses
+- address
+
+## synonym:phone
+- número de telemóvel
+- número de telefone
+- telemóveis
+- telefones
+- telemóvel
+- telefone
+- smartphones
+- cellphones
+- telephones
+- mobile
+- cellphone
+- telephone
+- phones
+- mobile phone
+- phone
+
+## synonym:e-mail
+- endereço de e-mail
+- endereço de mail
+- endereço de email
+- mail address
+- email address
+- mail
+- e mail
+- emails
+- email
+- e-mail-address
+- e-mail address
+- e-mail
+
+## synonym:contact
+- contato
+- contacto
+- contact information
+- contact details
+- contacts
+- contact
+
+## synonym:1
+- primeira opção
+- primeira
+- "1"
+- opção 1
+
+## synonym:2
+- segunda opção
+- segunda
+- "2"
+- opção 2
+
+## synonym:game
+- game
+- games
+- play
+- plays
+- gamble
+- gambles
+- Computerspiel
+- computer games
+- gaming
+- playing
+- role plays
+- role play
+
+## synonym:movie
+- película
+- pelicula
+- filme
+- teatro
+- teatros
+- cinamatógrafo
+- cinematografia
+- cinematography
+- filmmaking
+- DVD
+- cinematographer
+- theatres
+- theaters
+- cinemas
+- theatre
+- theater
+- cinematographic
+- cinéma
+- cinematic
+- screenplay
+- cinema
+- movies
+- films
+- film
+- movie
+
+## synonym:music
+- Folk
+- Rave
+- Punk
+- Country
+- Hit Charts
+- Charts
+- Hits
+- Folklore
+- Reggeaton
+- Bachata
+- Bluesrock
+- Rapper
+- Rap
+- Disco
+- Beat
+- Salsa
+- Hiphop
+- Hip Hop
+- Hip-Hop
+- Mambo
+- Lambada
+- Cha-Cha-Cha
+- Choir
+- Reggae
+- Bass
+- Drums
+- Guitars
+- Pianos
+- Funk
+- Gospel
+- Blues
+- classical music
+- Beethoven
+- Mozart
+- Tango
+- Swing
+- Soul
+- Instrumental
+- Heavy Metal
+- Hardrock
+- Ragtime
+- rockmusic
+- pop-music
+- pop
+- rock
+- classic
+- rock-music
+- drummers
+- drum
+- saxaphone
+- saxophones
+- violoncello
+- trumpet
+- banjo
+- harmonica
+- cello
+- tenor
+- violinists
+- flutist
+- guitarists
+- keyboardist
+- trumpeter
+- drummer
+- guitar
+- trombonist
+- saxophonists
+- percussionist
+- guitarist
+- sax
+- violin
+- vocalist
+- saxophonist
+- violinist
+- saxophone
+- vocalists
+- singer
+- piano
+- pianist
+- singers
+- singing
+- melody
+- musical
+- concerts
+- musician
+- melodies
+- song
+- concert
+- jazz
+- musics
+- tunes
+- songs
+- musicians
+- music
+
+## synonym:weather
+- tempo
+- seco
+- húmido
+- nuvens
+- geada
+- nublado
+- calor
+- frio
+- neve
+- sol
+- solarengo
+- chuva
+- vento
+- chuvoso
+- ventoso
+- tornadic
+- windy
+- winter
+- inundations
+- snowdrifts
+- hailstorm
+- thundershowers
+- flood
+- cyclone
+- typhoon
+- tornado
+- tornados
+- climatological
+- mudslides
+- droughts
+- hailstorms
+- tornadoes
+- hurricane
+- thunderstorms
+- floods
+- blizzard
+- hurricanes
+- climatic
+- winds
+- windstorms
+- snowy
+- snowing
+- thunderstorm
+- storm
+- flurries
+- monsoons
+- torrential
+- storms
+- raining
+- blizzards
+- snowstorms
+- snow
+- rainstorm
+- snows
+- snowmelt
+- rainy
+- rainstorms
+- snowfalls
+- snowstorm
+- downpour
+- rain
+- tempertures
+- climate
+- rainfalls
+- snowfall
+- humidities
+- rains
+- rainfall
+- dewpoints
+- forecasting
+- forcast
+- forecasts
+- temprature
+- forecast
+- temp
+- temperatures
+- temperature
+- weather
+
+## synonym:lotr
+- Sméagol
+- Meriadoc
+- Pregrin
+- Shelob
+- Faramir
+- Boromir
+- Éowyn
+- Balrog
+- Saruman
+- Sanwise
+- Bilbo
+- Baggins
+- Frodo
+- Elrond
+- Nazgûl
+- Arwen
+- Gandalf
+- Gimli
+- Legolas
+- Aragorn
+- Galadriel
+- Sauron
+- Gollum
+
+## synonym:game
+- jogos
+- jogo
+- jogar
+- role play
+- role plays
+- playing
+- gaming
+- computer games
+- Computerspiel
+- gambles
+- gamble
+- plays
+- play
+- games
+- game
+
+## synonym:joke
+- brincadeira
+- anedota
+- piada
+- alegre
+- divertido
+- engraçado
+- humoroso
+- cómico
+- humorista
+- humorist
+- comical
+- humourous
+- comedic
+- comedian
+- entertaining
+- humorous
+- amusing
+- comedy
+- humor
+- prank
+- humour
+- pranks
+- jokes
+- joking
+- joke
+
+## synonym:form_of_address
+- form of address
+
+## synonym:Mr
+- Mister
+- Mr
+- male
+- man
+- Sir
+- Mr.
+
+## synonym:Mrs
+- Mrs.
+- Ms
+- Miss
+- Mrs
+- woman
+- female
+- lady
+- Ms.
+
+## synonym:anal
+- anal
+- anus
+- arse
+- ass
+- ballsack
+- balls
+- bastard
+- bitch
+- biatch
+- bloody
+- blowjob
+- blow job
+- bollock
+- bollok
+- boner
+- boob
+- bugger
+- bum
+- butt
+- buttplug
+- clitoris
+- cock
+- coon
+- crap
+- cunt
+- damn
+- dick
+- dildo
+- dyke
+- fag
+- feck
+- fellate
+- fellatio
+- felching
+- fuck
+- f u c k
+- fudgepacker
+- fudge packer
+- flange
+- Goddamn
+- God damn
+- hell
+- homo
+- jerk
+- jizz
+- knobend
+- knob end
+- labia
+- lmao
+- lmfao
+- muff
+- nigger-->
+<!-- - nigga -->
+<!--- omg
+- penis
+- piss
+- poop
+- prick
+- pube
+- pussy
+- queer
+- scrotum
+- sex
+- shit
+- s hit
+- sh1t
+- slut
+- smegma
+- spunk
+- tit
+- tosser
+- turd
+- twat
+- vagina
+- wank
+- whore
+- wtf
+
+## synonym:church
+- judaism
+- presbytery
+- parishoner
+- rabbis
+- imam
+- preaching
+- calvinistic
+- calvinism
+- mormons
+- christology
+- theologies
+- churches
+- islamist
+- islam
+- lutheran
+- islamists
+- presbyterian
+- imams
+- moslem
+- islamic
+- theologian
+- gospel
+- theological
+- lutherans
+- presbyters
+- muslim
+- moslems
+- calvinist
+- lutheranism
+- presbyterianism
+- pentecostalism
+- shepherd
+- presbyterians
+- pasteur
+- baptist
+- baptists
+- ecclesiastics
+- pentecostals
+- calvinists
+- muslims
+- evangelicalism
+- theologians
+- churchgoers
+- priestly
+- pentecostal
+- theology
+- evangelicals
+- torah
+- clerical
+- chaplain
+- nun
+- bibles
+- evangelists
+- christianity
+- archdioceses
+- bible
+- orthodoxy
+- anglicanism
+- archdiocesan
+- churchmen
+- biblical
+- archbishopric
+- christian
+- protestantism
+- protestants
+- christians
+- parishoners
+- congregants
+- orthodox
+- protestant
+- episcopalians
+- catholicism
+- anglicans
+- evangelical
+- clergies
+- preachers
+- parochial
+- anglican
+- episcopalian
+- catholic
+- archbishops
+- cleric
+- catholics
+- episcopal
+- clerics
+- nuns
+- priesthood
+- bishops
+- archbishop
+- priest
+- ecclesiastical
+- diocesan
+- clergymen
+- clergyman
+- religion
+- bishop
+- vicar
+- dioceses
+- priests
+- religions
+- parishioner
+- reverend
+- clergy
+- preacher
+- basilica
+- pastors
+- parishes
+- archdiocese
+- parishioners
+- diocese
+- religious
+- pastor
+- congregation
+- cathedral
+- chapel
+- parish
+- church
+
+## synonym:no
+- não sigas
+- não seleciones
+- negative
+- nao
+- não
+
+## synonym:yes
+- seleciona
+- segue
+- afirmativo
+- yes
+- sim
+
+## synonym:video
+- trailers
+- trailer
+- footages
+- vids
+- clips
+- movies
+- clip
+- footage
+- videos
+- films
+- movie
+- film
+- video
+
+## synonym:photo
+- sketches
+- drawings
+- draws
+- pix
+- pic
+- shot
+- artwork
+- shots
+- illustration
+- galleries
+- pics
+- photographs
+- img
+- gallery
+- photography
+- drawing
+- photos
+- photograph
+- pictures
+- images
+- image
+- draw
+- picture
+- photo
+
+## synonym:datasheet
+- datasheet
+- data-sheet
+- spec sheet
+- product sheet
+- product datasheet
+
+## synonym:negative_emoticon
+- D
+- )
+- ">"
+- (
+- "%)"
+- "% -)"
+- ;(
+- :-((
+- :(((
+- :((
+- :(
+- ": |"
+- ": {"
+- ": c"
+- ": \\"
+- (-_-)
+- ": ["
+- ": X"
+- ": S"
+- ": L"
+- ": @"
+- ": <"
+- ": /"
+- ": -c"
+- ": -X"
+- :-(
+- -_-
+- :-[
+- :-?
+- ": -."
+- ": - ||"
+- ": - |"
+- ": - ["
+- ": - <"
+- ": - /"
+- ": - &"
+- ": - #"
+- ": ("
+- ": &"
+- ": $"
+- (._.)
+- (= _ =)
+- (> _ <)
+- (> _ <)>
+- (? _?)
+- ': "- ('
+- (_ _) !!
+- (~ _ ~)
+- 3:)
+- ': "('
+- ": #"
+- "',: - |"
+- (- "-)
+- (-.-)
+- "<: - |"
+- "> :("
+- "> :)"
+- ">: /"
+- ">: ["
+- ">: \\"
+- ">;)"
+- D =
+- "D-:"
+- D8
+- "D:"
+- "D: <"
+- D;
+- DX
+- "| -O"
+- "} :)"
+- "',: - l"
+
+## synonym:positive_emoticon
+- "]"
+- -]
+- ^)
+- "0"
+- -)
+- "|"
+- (* _ *
+- )
+- (@ _ @
+- :b
+- :->
+- :-*
+- :-]
+- ^. ^
+- ^_^
+- :>
+- x)
+- x-D
+- xD
+- "| ;-)"
+- "|-)"
+- :-)))
+- :-))
+- "(# ^. ^ #)"
+- (* ^ _ ^ *)
+- (* ^. ^ *)
+- (* _ *)
+- (* _ *;
+- (+ _ +)
+- (@ _ @)
+- (@ _ @;)
+- (O)
+- :)))
+- :))
+- :)
+- ": c)"
+- ": b"
+- ": ^)"
+- ": P"
+- ": D"
+- ": -}"
+- ": -b"
+- ": -]"
+- ": ->"
+- ": -,"
+- ": '-)"
+- ": ')"
+- 8D
+- 8-D
+- 8-)
+- 8)
+- 0^)
+- 0; ^)
+- (^ _ ^) /
+- (^ _ ^.)
+- (^ o ^)
+- (^ · ^)
+- (^ Â· ^)
+- (^.^)
+- (^^)
+- (^^) /
+- (^_^)
+- "* -)"
+- "*)"
+- 0 :)
+- 0 :-)
+- "0: -3"
+- (^ - ^)
+- (^ <^) (^. ^)
+- (^ O ^) /
+- (^ J ^)
+- (^ ^)
+- :3
+- :-P
+- ::-)
+- :-D
+- :-3
+- :--)
+- :D
+- :O)
+- :]
+- :v
+- :}
+- ; -]
+- ; ^)
+- ;)
+- ;-)
+- ;]
+- <3
+- <^! ^>
+- "> ^ _ ^ <"
+- ">: P"
+- B ^ D
+- LOL
+- O:)
+- O:-)
+- X-P
+- XP
+- ^ / ^
+- ^ _ ^
+- :-)
+
+## synonym:angry
+- infuriated
+- irritated
+- disgusted
+- angered
+- furious
+- outraged
+- upset
+- annoyed
+- enraged
+- mad
+- angry
+
+## synonym:racist
+- racist
+- Adolf Hitler
+- Hitler
+- nazi
+- racists
+- bigot
+- bigots
+
+## synonym:joke
+- joke
+- jokes
+- joking
+- anecdote
+- humor
+- humour
+- gag
+- gags
+- humorist
+- comical
+- humourous
+- comedic
+- comedian
+- entertaining
+- humorous
+- amusing
+- comedy
+- prank
+- pranks
+
+## synonym:music
+- music
+- singer
+- singers
+- singing
+- song
+- melody
+- melodies
+- rock-music
+- classic
+- rock
+- pop
+- pop-music
+- rockmusic
+- Ragtime
+- Hardrock
+- Heavy Metal
+- Instrumental
+- Soul
+- Jazz
+- Swing
+- Tango
+- Mozart
+- Beethoven
+- classical music
+- Blues
+- Gospel
+- Funk
+- Piano
+- Pianos
+- Guitar
+- Guitars
+- Drums
+- Bass
+- saxophone
+- Reggae
+- Choir
+- Cha-Cha-Cha
+- Lambada
+- Mambo
+- Hip-Hop
+- Hip Hop
+- Hiphop
+- Salsa
+- Beat
+- Disco
+- Rap
+- Rapper
+- Bluesrock
+- Bachata
+- Reggeaton
+- Folklore
+- Hits
+- Charts
+- Hit Charts
+- Country
+- Punk
+- Rave
+- Folk
+- songs
+- musics
+
+## synonym:website
+- page
+- web sites
+- web site
+- web pages
+- web page
+- links
+- link
+- webpages
+- homepage
+- webpage
+- websites
+- sites
+- site
+- website
+
+## synonym:photo
+- photo
+- picture
+- image
+- photos
+- pictures
+- images
+
+## synonym:favorite
+- favourite
+- favorite
+- favourites
+- favorites
+- preferred
+- beloved
+
+## synonym:summarize
+- succintly
+- concisely
+- summed
+- succinctly
+- succinct
+- concise
+- synopsis
+- summaries
+- summarised
+- summarizes
+- summary
+- summarising
+- summarized
+- summarizing
+- summarise
+- summerization
+- summerize
+
+## synonym:color
+- color
+- colour
+- colors
+- colours
+
+## synonym:have_to
+- can
+- could
+- might
+- would
+- pretending
+- wanna
+- ought
+- wish
+- pretend
+- will
+- want
+- must
+- have to
+
+## synonym:message
+- message
+- description
+- remark
+- comment
+- note
+-->
+## synonym:pneumonia_vaccine
+- vacinas de pneumonia
+- vacina de pneumonia
+- vacinas da pneumonia
+- vacina da pneumonia
+- pneumonia vaccine
+- pneumonia vaccines
+
+## synonym:garlic
+- alhos
+- alho
+- garlic
+- garlics
+
+## synonym:antibiotics
+- antibióticas
+- antibiótica
+- antibióticos
+- antibiótico
+- antibiotics
+- antibiotic
+
+## synonym:hand_dryer
+- secadores de mãos
+- secador de mão
+- secador de mãos
+- hand dryer
+- hand dryers
+
+## synonym:thermal scanner
+- scanners térmicos
+- scanner térmico
+- thermal scanner
+- thermal scanners
+
+## synonym:sesame_oil
+- sésamo
+- óleo de sésamo
+- sesame oil
+- sesame
+
+## synonym:uv_lamp
+- lâmpadas ultravioleta
+- lâmpadas uv
+- lâmpada uv
+- uv
+- ultravioleta
+- lâmpada ultravioleta
+- uv lamps
+- ultraviolet disinfection lamp
+- ultraviolet disinfection lamps
+- ultraviolet lamp
+- ultraviolet lamps
+
+## synonym:saline
+- salina
+- solução salina
+- salino
+- saline
+- saline solution
+<!--
+## synonym:racist
+- islamicists
+- islamists
+- jihadist
+- radicalisation
+- radicalization
+- nazis
+- subservience
+- nazi
+- fascists
+- stalinism
+- islamofacists
+- islamo
+- totalitarianism
+- bolshevism
+- jihadis
+- naziism
+- fascist
+- fascism
+- jihadists
+- neocons
+- nazism
+- islamism
+- islamofascism
+- jihadism
+- radical
+- islamofascists
+- zionism
+- subjugation
+- enslaved
+- extremists
+- slaves
+- zionist
+- islamofascist
+- semitic
+- zionists
+- slave
+- enslavement
+- radicalism
+- extremist
+- oppression
+- slavery
+- ethnocentricity
+- semites
+- supremacism
+- americanism
+- islamaphobic
+- islamophobes
+- extremism
+- islamaphobia
+- islamophobe
+- semitism
+- racisim
+- nationalistic
+- supremacists
+- antisemite
+- racialism
+- eurocentric
+- ethnical
+- colonialism
+- colonialist
+- semite
+- heterosexist
+- ethnocentrism
+- ethnicity
+- ethnocentric
+- islamophobia
+- supremacist
+- antisemitic
+- homophobe
+- xenophobia
+- racially
+- ethnic
+- xenophobic
+- homophobia
+- racialist
+- homophobic
+- racial
+- racism
+- racists
+- darkies
+- niggaz
+- negroes
+- racist
+- niggas
+- rascist
+- negro
+- niggers
+- nigga
+- Nigger
+
+## synonym:offense
+- nojento
+- idiota
+- ignorante
+- estúpido
+- parvo
+- buttheads
+- fools
+- muthafuckin
+- sucker
+- motherfuckin
+- slutty
+- homophobes
+- bullcrap
+- horny
+- schlong
+- psychos
+- muthafucka
+- crackpots
+- whacko
+- dufus
+- butthead
+- dork
+- dicks
+- hypocrite
+- nutballs
+- whiners
+- numbnuts
+- ahole
+- sickos
+- assclowns
+- niggas
+- homo
+- bigots
+- pussies
+- wackos
+- motherfucking
+- nutbags
+- pricks
+- whackjobs
+- fucks
+- nutjob
+- nutcases
+- hookers
+- dunderheads
+- fatass
+- crybabies
+- nutjobs
+- tards
+- retards
+- ignoramuses
+- boneheads
+- numbskulls
+- butts
+- halfwits
+- horseshit
+- bollocks
+- crappy
+- twats
+- shite
+- arseholes
+- dimwits
+- shitty
+- fuckwits
+- hypocrits
+- brainless
+- nitwits
+- tossers
+- homos
+- imbeciles
+- whores
+- cretins
+- fags
+- cocks
+- hypocrit
+- douchebags
+- fucktards
+- scum
+- dirtbag
+- asses
+- faggots
+- sluts
+- skank
+- cocksuckers
+- motherfuckers
+- bitches
+- scumbags
+- fuckers
+- jerks
+- wankers
+- butt
+- retarded
+- asshats
+- bastards
+- dickheads
+- shitheads
+- dipshits
+- morons
+- biatch
+- arse
+- cunts
+- jackasses
+- idiotic
+- assholes
+- retard
+- moronic
+- shits
+- dumb
+- dumbasses
+- idiots
+- bullshit
+- fool
+- cretin
+- cock
+- stupid
+- dick
+- jerk
+- dickhead
+- doofus
+- fuckwit
+- shitbag
+- assclown
+- ass
+- jackass
+- pussy
+- dimwit
+- fag
+- shit
+- asshat
+- fucktard
+- imbecile
+- douche
+- twat
+- idiot
+- slut
+- whore
+- dumbass
+- wanker
+- asswipe
+- moron
+- faggot
+- dipshit
+- prick
+- arsehole
+- cunt
+- scumbag
+- douchebag
+- shithead
+- cocksucker
+- bitch
+- bastard
+- fucker
+- motherfucker
+- asshole
+
+## synonym:movies
+- movies
+- film
+- films
+- DVD
+- movie
+- cinema
+
+## synonym:date
+- dia do mês
+- dia da semana
+- data
+- dia
+- day
+- datums
+- datum
+- date
+
+## synonym:time
+- tempo
+- horas
+- hours
+- hour
+- time
+- time of day
+
+## synonym:question
+- inquéritos
+- dúvidas
+- perguntas
+- questões
+- inquérito
+- dúvida
+- questão
+- pergunta
+- enquires
+- inquires
+- enquiries
+- inquiries
+- enquiry
+- questions
+- inquiry
+-->
+## synonym:EG
+- República Árabe do Egipto
+- República Árabe do Egito
+- Egipto
+- Egito
+- Arab Republic of Egypt
+- Egypt
+
+## synonym:EH
+- Aṣ-Ṣaḥrā’ al-Gharbīyah
+- Sáara Ocidental
+- Sara Ocidental
+- Saara Ocidental
+- Sahara Occidental
+- Taneẓroft Tutrimt
+- Western Sahara
+
+## synonym:ER
+- Estado da Eritreia
+- Ertrā
+- Eritreia
+- State of Eritrea
+- Eritrea
+- Dawlat Iritriyá
+- Hagere Ertra
+
+## synonym:ES
+- Reino de Espanha
+- Reino da Espanha
+- Espanha
+- Reiaume d'Espanha
+- Espainiako Erresuma
+- Regne d'Espanya
+- Reino de España
+- Kingdom of Spain
+- España
+- Spain
+
+## synonym:ET
+- República Democrática Federal da Etiópia
+- Etiópia
+- Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya
+- Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa
+- ityoppiah federalih demokrasih ummuno
+- Federal Democratic Republic of Ethiopia
+- Itoobiya
+- Itoophiyaa
+- Itiyoophiyaa
+- Ethiopia
+
+## synonym:FI
+- República da Finlândia
+- Finlândia
+- Republiken Finland
+- Suomen tasavalta
+- Republic of Finland
+- Suomi
+- Finland
+
+## synonym:FJ
+- República das Ilhas Fiji
+- Fidji
+- República das Fidji
+- Fíji
+- República das Fiji
+- República das Fíji
+- Matanitu Tugalala o Viti
+- Republic of Fiji
+- Fiji
+
+## synonym:FK
+- Falklands
+- Ilhas Falkland
+- Islas Malvinas
+- Ilhas Malvinas
+- Falkland
+- Malvinas
+- Falkland Islands (Malvinas)
+
+## synonym:FM
+- Micronésia
+- EFM
+- Estados Federados da Micronésia
+- Micronesia
+- FSM
+- Federated States of Micronesia
+
+## synonym:FO
+- Færeyjar
+- Ilhas Faroés
+- Ilhas Faroé
+- Ilhas Féroe
+- Ilhas Feroe
+- Færøerne
+- Føroyar
+- Faroe Islands
+
+## synonym:FR
+- República Francesa
+- França
+- République française
+- French Republic
+- France
+
+## synonym:GA
+- República Gabonesa
+- Gabão
+- République gabonaise
+- Gabonese Republic
+- Gabon
+
+## synonym:GB
+- Irlanda do Norte
+- Grã-Bretanha
+- Reino Unido da Grã-Bretanha e Irlanda do Norte
+- Reino Unido
+- Inglaterra
+- Northern Ireland
+- Great Britain
+- Britain
+- U.K.
+- UK
+- United Kingdom of Great Britain and Northern Ireland
+- United Kingdom
+
+## synonym:GD
+- Island of Spice
+- Ilha das Especiarias
+- La Grenade
+<!-- - Granada -->
+- Gwenad
+- Grenada
+
+## synonym:GE
+- República da Geórgia
+- Geórgia
+- sakartvelos resp'ublik'a
+- Republic of Georgia
+- Sakartvelo
+- Georgia
+
+## synonym:GF
+- Guyane française
+- Guiana Francesa
+- Department of French Guiana
+- Guyane
+- French Guiana
+
+## synonym:GG
+- Bailliage de Guernesey
+- Bailiwick of Guernsey
+- Bailiado de Guernsey
+- Guernesei
+- Guérnesei
+- Guernesey
+- Guernési
+- Guernsey
+
+## synonym:GH
+- República do Gana
+- Gana
+- Republic of Ghana
+- Ghana
+
+## synonym:GI
+- Gibraltar
+
+## synonym:GL
+- Gronelândia
+- Gronelandia
+- Groelândia
+- Groenlândia
+- Grønland
+- Kalaallit Nunaat
+- Greenland
+
+## synonym:GM
+- República da Gâmbia
+- Gâmbia
+- Republic of The Gambia
+- Gámbi
+- Kambiya
+- Gambia
+
+## synonym:GN
+- Renndaandi Ginea
+- Guinea-Conakry
+- French Guinea
+- Guinée française
+- République de Guinée
+- Republic of Guinea
+- Guinea
+
+## synonym:GP
+- Guadalupe
+- Gwadloup
+- Guadeloupe
+
+## synonym:GQ
+- República da Guiné Equatorial
+- République de Guinée équatoriale
+- República de Guinea Ecuatorial
+- Republic of Equatorial Guinea
+- Guiné Equatorial
+- Guinée équatoriale
+- Guinea Ecuatorial
+- Equatorial Guinea
+
+## synonym:GR
+- Hélade
+- República Helénica
+- República Helênica
+- Elláda
+- Grécia
+- Grecia
+- Ellinikí Dimokratía
+- Hellas
+- Hellenic Republic
+- Greece
+
+## synonym:GS
+- Geórgia do Sul
+- Sandwich do Sul
+- Ilhas Sandwich do Sul
+- Ilhas Geórgias do Sul e Sandwich do Sul
+- Ilhas Geórgia do Sul e Sanduíche do Sul
+- Ilhas Geórgia do Sul e Sandwich do Sul
+- South Georgia
+- South Sandwich Islands
+- SGSSI
+- South Georgia and the South Sandwich Islands
+
+## synonym:GT
+- República da Guatemala
+- República de Guatemala
+- Republic of Guatemala
+- Guatemala
+
+## synonym:GU
+- Guame
+- Guão
+- Guåhån
+- Guam
+
+## synonym:GW
+- Guiné Bissau
+- Guinea Bissau
+- República da Guiné-Bissau
+- Republic of Guinea-Bissau
+- Guiné-Bissau
+- Guinea-Bissau
+
+## synonym:GY
+- República Cooperativa da Guiana
+- Guiana
+- Co-operative Republic of Guyana
+- Guyana
+
+## synonym:HK
+- Hēunggóng
+- Xiānggǎng
+- HKSAR
+- Hong Kong Special Administrative Region
+- Hong Kong
+
+## synonym:HM
+- Ilhas McDonald
+- Ilhas Heard
+- Território das Ilhas Heard e McDonald
+- Ilha Heard e as Ilhas McDonald
+- HIMI
+- Heard Island and McDonald Islands
+
+## synonym:HN
+- República das Honduras
+- República de Honduras
+- Republic of Honduras
+- Honduras
+
+## synonym:HR
+- República da Croácia
+- Croácia
+- Republika Hrvatska
+- Republic of Croatia
+- Hrvatska
+- Croatia
+
+## synonym:HT
+- República do Haiti
+- Hayti
+- Repiblik D Ayiti
+- République d'Haïti
+- Republic of Haiti
+- Ayiti
+- Haïti
+- Haiti
+
+## synonym:HU
+- Hungria
+- Magyarország
+- Hungary
+
+## synonym:ID
+- República da Indonésia
+- Indonésia
+- Republik Indonesia
+- Republic of Indonesia
+- Indonesia
+
+## synonym:IE
+- Emerald Isle
+- Ilha Esmeralda
+- Irlanda
+- Ilha da Irlanda
+- Airlann
+- Éire
+- Ireland
+
+## synonym:IL
+- Dawlat Isrā'īl
+- Medīnat Yisrā'el
+- Estado de Israel
+- State of Israel
+- Israel
+
+## synonym:IM
+- Ilha de Man
+- Ellan Vannin
+- Mannin
+- Mann
+- Isle of Man
+
+## synonym:IN
+- República da Índia
+- Índia
+- Bhārat Gaṇarājya
+- Republic of India
+- Bhārat
+- India
+
+## synonym:IO
+- Território Britânico do Oceano
+- Território Britânico do Índico
+- British Indian Territory
+- British Indian Ocean
+- Território Britânico do Oceano Índico
+- TBOI
+- BIOT
+- British Indian Ocean Territory
+
+## synonym:IQ
+- Al-Jumhuriyah Al-Iraqiyah
+- República do Iraque
+- Iraque
+- Komarî Êraq
+- Republic of Iraq
+- Êraq
+- Iraq
+
+## synonym:IR
+- Pérsia
+- República Islâmica do Irão
+- República Islâmica do Irã
+- Irã
+- Irão
+- Jomhuri-ye Eslāmi-ye Irān
+- Persia
+- Islamic Republic of Iran
+
+## synonym:IS
+- Islândia
+- Ísland
+- Iceland
+
+## synonym:IT
+- República Italiana
+- Itália
+- Repubblica Italiana
+- Italian Republic
+- Italia
+- Italy
+
+## synonym:JE
+- Bailiado de Jersey
+- Jérsia
+- Jérsei
+- Bailliage dé Jèrri
+- Bailliage de Jersey
+- Bailiwick of Jersey
+- Jersey
+
+## synonym:JM
+- Jumieka
+- Jamaica
+
+## synonym:JO
+- Reino da Jordânia
+- Reino Haxemita da Jordânia
+- Jordânia
+- Jordania
+- Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah
+- Al-ʾUrdunn
+- Kingdom of Jordan
+- Hashemite Kingdom of Jordan
+- Jordan
+
+## synonym:JP
+- Estado do Japão
+- Japão
+- Nihon-koku
+- Nippon-koku
+- Nihon
+- Nippon
+- Japan
+
+## synonym:KE
+- República do Quênia
+- República do Quénia
+- Quênia
+- Quénia
+- Jamhuri ya Kenya
+- Republic of Kenya
+- Kenya
+
+## synonym:KG
+- República do Quirguizistão
+- República do Quirguistão
+- República Quirguiz
+- Quirguízia
+- Quirguizistão
+- Quirguistão
+- Киргизия
+- Kirghizia
+- Kyrgyzskaya Respublika
+- Кыргызская Республика
+- Kırğız Respublikası
+- Кыргыз Республикасы
+- Kyrgyz Republic
+- Kyrgyzstan
+
+## synonym:KH
+- Reino do Camboja
+- Cambodja
+- Camboja
+- Royaume du Cambodge
+- Kingdom of Cambodia
+- Cambodge
+- Kampuchea
+- Cambodia
+
+## synonym:KI
+- República de Quiribáti
+- República de Quiribati
+- República de Kiribati
+- Quiribati
+- Quiribáti
+- Ribaberiki Kiribati
+- Republic of Kiribati
+- Kiribati
+
+## synonym:KM
+- União de Comores
+- União das Comores
+- Comores
+- al-Ittiḥād al-Qamarī
+- al-Ittiḥād al-Qumurī
+- Umoja wa Komori
+- Union des Comores
+- Udzima wa Komori
+- Union of the Comoros
+- Comoros
+
+## synonym:KN
+- Nevis
+- Saint Kitts
+- Federação de São Cristóvão e Névis
+- Federação de São Cristóvão e Neves
+- São Cristóvão e Neves
+- São Cristóvão e Névis
+- Federation of Saint Christopher and Nevis
+- Saint Kitts and Nevis
+
+## synonym:KP
+- República Popular Democrática da Coreia
+- Coreia do Norte
+- Pukchosŏn
+- Chosŏn
+- Chosŏn Minjujuŭi Inmin Konghwaguk
+- DPR Korea
+- DPRK
+- North Korea
+- Democratic People's Republic of Korea
+
+## synonym:KR
+- República da Coreia
+- Coreia do Sul
+- Daehan Minguk
+- Namhan
+- Hanguk
+- South Korea
+- Republic of Korea
+
+## synonym:KW
+- Estado do Kuwait
+- Dawlat al-Kuwait
+- State of Kuwait
+- al-Kuwait
+- Kuwait
+
+## synonym:KY
+- Ilhas Caimão
+- Ilhas Cayman
+- Ilhas Caimã
+- Cayman Islands
+
+## synonym:KZ
+- República do Cazaquistão
+- Qazaqstan
+- Cazaquistão
+- Respublika Kazakhstan
+- Республика Казахстан
+- Qazaqstan Respýblıkasy
+- Қазақстан Республикасы
+- Republic of Kazakhstan
+- Kazakhstan
+
+## synonym:LA
+- République démocratique populaire lao
+- Saþalanalat Paxaþipatai Paxaxōn Lao
+- Lāo
+- Laos
+- Lao People's Democratic Republic
+
+## synonym:LB
+- República do Líbano
+- Liban
+- Líbano
+- République libanaise
+- al-Jumhūrīyah al-Lubnānīyah
+- Lebanese Republic
+- Lubnān
+- Lebanon
+
+## synonym:LC
+- Santa Lúcia
+- Iyonola
+- Sainte-Lucie
+- Saint Lucia
+
+## synonym:LI
+- Principado de Liechtenstein
+- Principado do Liechtenstein
+- Listenstaine
+- Fürstentum Liechtenstein
+- Principality of Liechtenstein
+- Liechtenstein
+
+## synonym:LK
+- Taprobana
+- Ceilão
+- República Democrática Socialista do Sri Lanka
+- Seri Lanca
+- Sri Lanca
+- Ilaṅkai
+- Śrī Laṃkā
+- Democratic Socialist Republic of Sri Lanka
+- Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu
+- Srī Lankā prajātāntrika samājavādī janarajaya
+- Sri Lanka
+
+## synonym:LR
+- República da Libéria
+- Libéria
+- Republic of Liberia
+- Liberia
+
+## synonym:LS
+- Bassutolândia
+- Reino do Lessoto
+- Reino do Lesoto
+- Lessoto
+- Lesoto
+- Muso oa Lesotho
+- Kingdom of Lesotho
+- Lesotho
+
+## synonym:LT
+- República da Lituânia
+- Lituânia
+- Lietuvos Respublika
+- Republic of Lithuania
+- Lietuva
+- Lithuania
+
+## synonym:LU
+- Grão-Ducado de Luxemburgo
+- Grão-Ducado do Luxemburgo
+- Luxemburgo
+- Großherzogtum Luxemburg
+- Grand-Duché de Luxembourg​
+- Groussherzogtum Lëtzebuerg
+- Grand Duchy of Luxembourg
+- Luxemburg
+- Lëtzebuerg
+- Luxembourg
+
+## synonym:LV
+- República da Letônia
+- Letônia
+- Letónia
+- Lețmō Vabāmō
+- Latvijas Republika
+- Republic of Latvia
+- Lețmō
+- Latvija
+- Latvia
+
+## synonym:LY
+- Estado da Líbia
+- Líbia
+- Dawlat Lībiyā
+- State of Libya
+- Lībiyā
+- Libya
+
+## synonym:MA
+- Reino de Marrocos
+- Murakuc
+- Amerruk
+- Marrocos
+- tageldit n lmaɣrib
+- Royaume du Maroc
+- The Western Kingdom
+- al-mamlakah al-maghribiyah
+- Kingdom of Morocco
+- Maroc
+- al-maġhrib
+- Morocco
+
+## synonym:MC
+- Principado de Mônaco
+- Principado do Mónaco
+- Mónaco
+- Principatu de Mùnegu
+- Principat de Mónegue
+- Principato di Monaco
+- Principauté de Monaco
+- Principality of Monaco
+- Monaco
+
+## synonym:MD
+- República da Moldova
+- República da Moldávia
+- Moldávia
+- Republica Moldova
+- Moldova
+- Republic of Moldova
+
+## synonym:ME
+- Црна Гора
+- Crna Gora
+- Montenegro
+
+## synonym:MF
+- São Martim
+- São Martinho parte francesa
+- Saint Martin
+- Sint Martin
+- Saint-Martin
+- Saint Martin (French part)
+
+## synonym:MG
+- República Malgaxe
+- República de Madagascar
+- República de Madagáscar
+- Madagáscar
+- Malagasy Republic
+- République de Madagascar
+- Repoblikan'i Madagasikara
+- Republic of Madagascar
+- Madagasikara
+- Madagascar
+
+## synonym:MH
+- República das Ilhas Marshall
+- Ilhas Marshall
+- Aolepān Aorōkin Ṃajeḷ
+- Republic of the Marshall Islands
+- Marshall Islands
+
+## synonym:MK
+- Macedónia
+- Macedônia
+- República da Macedónia do Norte
+- República da Macedônia do Norte
+- Severna Makedonija
+- Macedónia do Norte
+- Macedônia do Norte
+- Republika e Maqedonisë së Veriut
+- Република Северна Македонија
+- Republic of North Macedonia
+- Macedonia
+- North Macedonia
+- the Former Yugoslav Republic of Macedonia
+
+## synonym:ML
+- República do Mali
+- Máli
+- Renndaandi Maali
+- Mali ka Fasojamana
+- République du Mali
+- Republic of Mali
+- Mali
+
+## synonym:MM
+- República da União de Myanmar
+- Birmânia
+- Nainngandaw
+- Pyidaunzu Thanmăda Myăma
+- Republic of the Union of Myanmar
+- Burma
+- Myanmar
+
+## synonym:MN
+- Mongolian Nation
+- Mongol Uls
+- mongol nation
+- nação mongol
+- Mongolia
+
+## synonym:MO
+- Região Administrativa de Macau
+- Região Administrativa Especial de Macau
+- Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui
+- Jūng'wàh Yàhnmàhn
+- Macao Special Administrative Region
+- Macau
+- Macao
+
+## synonym:MP
+- Comunidade das Ilhas Marianas do Norte
+- Ilhas Marianas do Norte
+- Ilhas Marianas Setentrionais
+- Nördliche Marianen
+- Islas Marianas del Norte
+- Commonwealth Téél Falúw kka Efáng llól Marianas
+- Sankattan Siha Na Islas Mariånas
+- CNMI
+- Commonwealth of the Northern Mariana Islands
+- Northern Mariana Islands
+
+## synonym:MQ
+- Martinica
+- Matinik
+- Matnik
+- Martinique
+
+## synonym:MR
+- República Islâmica da Mauritânia
+- Mauritânia
+- al-Jumhūrīyah al-Islāmīyah al-Mūrītānīyah
+- République islamique de Mauritanie
+- Islamic Republic of Mauritania
+- Murutaane
+- Gànnaar
+- Moritani
+- Cengit
+- Agawej
+- Mauritanie
+- Mūrītānyā
+- Mauritania
+
+## synonym:MS
+- Emerald Isle of the Caribbean
+- The Emerald Isle of the Caribbean
+- Ilha Esmeralda das Caraíbas
+- Monserrate
+- Montserrat
+
+## synonym:MT
+- República de Malta
+- Repubblika ta' Malta
+- Republic of Malta
+- Malta
+
+## synonym:MU
+- République de Maurice
+- República de Maurício
+- República da Maurícia
+- Maurício
+- Maurícia
+- Repiblik Moris
+- Republic of Mauritius
+- Moris
+- Maurice
+- Mauritius
+
+## synonym:MV
+- República das Maldivas
+- Maldivas
+- Dhivehi Raajje
+- Dhivehi Raajjeyge Jumhooriyyaa
+- Republic of Maldives
+- Maldives
+
+## synonym:MW
+- Charu cha Malaŵi
+- Dziko la Malaŵi
+- Dziko la Malaŵi
+- Republic of Malawi
+- Malawi
+- República do Malawi
+- Malaŵi
+- Malaui
+- Maláui
+- Nyasaland
+
+## synonym:MX
+- Mexican United States
+- EUM
+- Estados Unidos Mexicanos
+- United Mexican States
+- Mēxihco
+- México
+- Mexico
+
+## synonym:MY
+- Malásia
+- Malaysia
+
+## synonym:MZ
+- Muzambhiki
+- Msumbiji
+- Mozambiki
+- República de Moçambique
+- Moçambique
+- Republic of Mozambique
+- Mozambique
+
+## synonym:NA
+- República da Namíbia
+- Namibia ye Lukuluhile
+- Rephaboliki ya Namibia
+- Republika zaNamibia
+- Orepublika yaNamibia
+- Namibiab Republiki dib
+- Republik Namibia
+- Republiek van Namibië
+- Republic of Namibia
+- Namibia
+
+## synonym:NC
+- Nova Caledônia
+- Nova Caledónia
+- Nouvelle-Calédonie
+- New Caledonia
+
+## synonym:NE
+- Níger
+- República do Níger
+- Republic of the Niger
+- République du Niger
+- the Niger
+- Niger
+
+## synonym:NF
+- Território da Ilha Norfolque
+- Território da Ilha Norfolk
+- ilha Norfolque
+- ilha Norfolk
+- Teratri a' Norf'k Ailen
+- Territory of Norfolk Island
+- Norf'k Ailen
+- Norfolk Island
+
+## synonym:NG
+- Nigéria
+- República Federal da Nigéria
+- Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà
+- Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà
+- Jamhuriyar Taraiyar Najeriya
+- Federal Republic of Nigeria
+- Nigeria
+
+## synonym:NI
+- República da Nicarágua
+- Nicarágua
+- República de Nicaragua
+- Republic of Nicaragua
+- Nicaragua
+
+## synonym:NL
+- Reino dos Países Baixos
+- Holanda
+- Países Baixos
+- Kingdom of the Netherlands
+- Nederland
+- Netherlands
+
+## synonym:NO
+- Reino da Noruega
+- Noruega
+- Nöörje
+- Vuodna
+- Norga
+- Noreg
+- Norge
+- Nöörjen gånkarijhke
+- Vuona gånågisrijkka
+- Norgga gonagasriika
+- Kongeriket Noreg
+- Kongeriket Norge
+- Kingdom of Norway
+- Norway
+
+## synonym:NP
+- República Democrática Federal do Nepal
+- Saṅghīya Lokatāntrik Gaṇatantra Nepāl
+- Federal Democratic Republic of Nepal
+- Nepal
+
+## synonym:NR
+- Ilha Aprazível
+- Naoero
+- República de Nauru
+- Pleasant Island
+- Repubrikin Naoero
+- Republic of Nauru
+- Nauru
+
+## synonym:NU
+- Niuê
+- Niuē
+- Niue
+
+## synonym:NZ
+- Nova Zelândia
+- Aotearoa
+- New Zealand
+
+## synonym:OM
+- Saltānat 'Umān
+- Sultanato de Omã
+- Omão
+- Omã
+- Sultanate of Oman
+- Salṭanat ʻUmān
+- Oman
+
+## synonym:PA
+- República del Panamá
+- República do Panamá
+- República de Panamá
+- Republic of Panama
+- Panamá
+- Panama
+
+## synonym:PE
+- Piruw Suyu
+- República del Perú
+- Republic of Peru
+- Piruw Republika
+- Perú
+- Peru
+
+## synonym:PF
+- Polinésia Francesa
+- Pōrīnetia Farāni
+- Polynésie française
+- French Polynesia
+
+## synonym:PG
+- Papua Niu Gini
+- Papua Niugini
+- Papua Nova Guiné
+- Papua-Nova Guiné
+- Independen Stet bilong Papua Niu Gini
+- Independen Stet bilong Papua Niugini
+- Independent State of Papua New Guinea
+- PNG
+- Papua New Guinea
+
+## synonym:PH
+- Repúbliká ng̃ Pilipinas
+- República das Filipinas
+- Republika ng Pilipinas
+- Republic of the Philippines
+- Filipinas
+- Pilipinas
+- Philippines
+
+## synonym:PK
+- República Islâmica do Paquistão
+- Islami Jamahuriat Pakistan
+- Pākistān
+- Paquistão
+- Islāmī Jumhūriyah Pākistān
+- Islamic Republic of Pakistan
+- Pakistan
+
+## synonym:PL
+- República da Polónia
+- Polónia
+- Polônia
+- Rzeczpospolita Polska
+- Republic of Poland
+- Polska
+- Poland
+
+## synonym:PM
+- Coletividade de Ultramar de São Pedro e Miquelão
+- Saint-Pierre e Miquelon
+- São Pedro e Miquelon
+- São Pedro e Miquelão
+- Collectivité d'outre-mer de Saint-Pierre-et-Miquelon
+- Overseas Collectivity of Saint Pierre and Miquelon
+- Saint-Pierre-et-Miquelon
+- Saint Pierre and Miquelon
+
+## synonym:PN
+- Grupo de Ilhas Pitcairn
+- Ilhas Pitcairn, Henderson, Ducie e Oeno
+- Ilhas Picárnia
+- Ilhas Pitcairn
+- Pitcairn, Henderson, Ducie and Oeno Islands
+- Pitkern Ailen
+- Pitcairn Islands
+- Pitcairn
+
+## synonym:PR
+- Estado Livre Associado de Porto Rico
+- Free Associated State of Puerto Rico
+- Estado Libre Asociado de Puerto Rico
+- Commonwealth of Puerto Rico
+- Porto Rico
+- Borinquen
+- Puerto Rico
+
+## synonym:PS
+- Estado da Palestina
+- Filasṭīn
+- Palestine
+- Palestina
+- Dawlat Filasṭīn
+- State of Palestine
+
+## synonym:PT
+- República Portuguesa
+- Portuguese Republic
+- Portugal
+
+## synonym:PW
+- República de Palau
+- Beluu er a Belau
+- Republic of Palau
+- Pelew
+- Palaos
+- Belau
+- Palau
+
+## synonym:PY
+- Paraguai
+- Paraguái
+- Tetã Paraguái
+- República del Paraguay
+- Republic of Paraguay
+- Paraguay
+
+## synonym:QA
+- Estado do Qatar
+- Estado do Catar
+- Catar
+- Qaṭar
+- Dawlat Qaṭar
+- State of Qatar
+- Qatar
+
+## synonym:RE
+- Reunião
+- Île Bourbon
+- La Réunion
+- Réunion
+
+## synonym:RO
+- Roménia
+- Romênia
+- România
+- Romania
+
+## synonym:RS
+- República da Sérvia
+- Sérvia
+- Republika Srbija
+- Република Србија
+- Republic of Serbia
+- Srbija
+- Србија
+- Serbia
+
+## synonym:RU
+- Federação Russa
+- Rússia
+- Rossiyskaya Federatsiya
+- Российская Федерация
+- Rossiya
+- Росси́я
+- Russia
+- Russian Federation
+
+## synonym:RW
+- República do Ruanda
+- República de Ruanda
+- Ruanda
+- u Rwanda
+- Jamhuri ya Rwanda
+- République du Rwanda
+- Repubulika y'u Rwanda
+- Republic of Rwanda
+- Rwanda
+
+## synonym:SA
+- Reino da Arábia Saudita
+- al-Mamlaka al-ʻArabiyya as-Suʻūdiyya
+- as-Su’ūdiyya
+- Arábia Saudita
+- Kingdom of Saudi Arabia
+- Saudi Arabia
+
+## synonym:SB
+- Ilhas Salomão
+- Islas Salomón
+- Solomon Islands
+
+## synonym:SC
+- República das Seychelles
+- República das Seicheles ou Seychelles
+- Seicheles
+- Sesel
+- La Repiblik Sesel
+- République des Seychelles
+- Republic of Seychelles
+- Seychelles
+
+## synonym:SD
+- República do Sudão
+- Sudão
+- Jumhūriyyat as-Sūdān
+- as-Sūdān
+- Republic of the Sudan
+- Sudan
+
+## synonym:SE
+- Reino da Suécia
+- Suécia
+- Konungariket Sverige
+- Kingdom of Sweden
+- Sverige
+- Sweden
+
+## synonym:SG
+- Republik Singapura
+- República de Singapura
+- Chiṅkappūr
+- Xīnjiāpō
+- Cingapura
+- Singapura
+- Republic of Singapore
+- Singapore
+
+## synonym:SH
+- Tristão da Cunha
+- Ascensão
+- Santa Helena
+- Santa Helena, Ascensão e Tristão da Cunha
+- Tristan da Cunha
+- Ascension Island
+- Saint Helena
+- Saint Helena, Ascension and Tristan da Cunha
+
+## synonym:SI
+- República da Eslovênia
+- República da Eslovénia
+- Eslovênia
+- Eslovénia
+- Republika Slovenija
+- Republic of Slovenia
+- Slovenija
+- Slovenia
+
+## synonym:SJ
+- Jan Mayen
+- Svalbard
+- Svalbard e Jan Mayen
+- Svalbard and Jan Mayen Islands
+- Svalbard og Jan Mayen
+- Svalbard and Jan Mayen
+
+## synonym:SK
+- República Eslovaca
+- Eslováquia
+- Slovenská republika
+- Slovak Republic
+- Slovensko
+- Slovakia
+
+## synonym:SL
+- República da Serra Leoa
+- Serra Leoa
+- Salone
+- Republic of Sierra Leone
+- Sierra Leone
+
+## synonym:SM
+- São Marino
+- São Marinho
+- Sereníssima República de San Marino
+- República de San Marino
+- Serenissima Repubblica di San Marino
+- Most Serene Republic of San Marino
+- Repubblica di San Marino
+- Republic of San Marino
+- San Marino
+
+## synonym:SN
+- República do Senegal
+- Renndaandi Senegal
+- Réewum Senegaal
+- République du Sénégal
+- Republic of Senegal
+- Sénégal
+- Senegal
+
+## synonym:SO
+- República Federal da Somália
+- Somália
+- Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya
+- Jamhuuriyadda Federaalka Soomaaliya
+- Federal Republic of Somalia
+- aṣ-Ṣūmāl
+- Soomaaliya
+- Somalia
+
+## synonym:SR
+- República do Suriname
+- Republiek Suriname
+- Republic of Suriname
+- Surinam
+- Suriname
+
+## synonym:SS
+- República do Sudão do Sul
+- Sudão Meridional
+- Sudão do Sul
+- Paguot Thudä
+- Republic of South Sudan
+- South Sudan
+
+## synonym:ST
+- São Tomé e Príncipe
+- República Democrática de São Tomé e Príncipe
+- Democratic Republic of São Tomé and Príncipe
+- Saint Thomas and Prince
+- Sao Tome and Principe
+
+## synonym:SV
+- República do Salvador
+<!-- - Salvador -->
+- República de El Salvador
+- Republic of El Salvador
+- El Salvador
+
+## synonym:SX
+- Sint Maarten
+- São Martinho paises baixos
+- Sint Maarten (Dutch part)
+
+## synonym:SY
+- República Árabe Síria
+- Síria
+- al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah
+- Sūriyā
+- Syria
+- Syrian Arab Republic
+
+## synonym:AD
+- Principado dos Vales de Andorra
+- Principado de Andorra
+- Principat de les Valls d'Andorra
+- Principality of the Valleys of Andorra
+- Principat d'Andorra
+- Principality of Andorra
+- Andorra
+
+## synonym:TC
+- Turcas
+- Turcas e Caicos
+- Ilhas Turcas e Caicos
+- Turks and Caicos
+- Caicos
+- Turks
+- Turks Islands
+- Caicos Islands
+- TCI
+- Turks and Caicos Islands
+
+## synonym:TD
+- República do Chade
+- Tchad
+- Tchade
+- Chade
+- Jumhūriyyat Tshād
+- République du Tchad
+- Republic of Chad
+- Tshād
+- Chad
+
+## synonym:TF
+- Terres australes françaises
+- French Southern Lands
+- TOM
+- Territoire d'outre-mer
+- TAAF
+- Terres australes et antarctiques françaises
+- French Southern and Antarctic Lands
+- French Southern Territories
+
+## synonym:TG
+- República Togolesa
+- République togolaise
+- Togolese Republic
+- Togo
+
+## synonym:TH
+- Sião
+- Reino da Tailândia
+- Tailândia
+- Ratcha-anachak Thai
+- Siam
+- Kingdom of Thailand
+- Thailand
+
+## synonym:TJ
+- República do Tajiquistão
+- Tojikiston
+- Tadjiquistão
+- Tajiquistão
+- Jumhurii Tojikiston
+- Republic of Tajikistan
+- Tajikistan
+
+## synonym:TK
+- Toquelau
+- Tokelau Islands
+- Union Islands
+- Tokelau
+
+## synonym:TL
+- East Timor
+- Democratic Republic of Timor-Leste
+- Repúblika Demokrátika Timór-Leste
+- Timor Lorosa'e
+- Timor Leste
+- República Democrática de Timor-Leste
+- Timor-Leste
+
+## synonym:TM
+- República do Turcomenistão
+- Turcomênia
+- Turcomenistão
+- Turquemenistão
+- Türkmenistan Respublikasy
+- Republic of Turkmenistan
+- Türkmenistan
+- Turkmenistan
+
+## synonym:TN
+- República Tunisina
+- Tunisie
+- Tūnis
+- Tunísia
+- République tunisienne
+- al-Jumhūrīyah at-Tūnisīyah
+- Republic of Tunisia
+- Tunisia
+
+## synonym:TO
+- Reino de Tonga
+- Puleʻanga Fakatuʻi ʻo Tonga
+- Kingdom of Tonga
+- Tonga
+
+## synonym:TR
+- República da Turquia
+- Turquia
+- Türkiye Cumhuriyeti
+- Republic of Turkey
+- Türkiye
+- Turkey
+
+## synonym:TT
+- Trinidade
+- República de Trindade e Tobago
+- Trinidad e Tobago
+- Trinidade e Tobago
+- Trindade e Tobago
+- Tobago
+- Trinidad
+- Republic of Trinidad and Tobago
+- Trinidad and Tobago
+
+## synonym:TV
+- Ilhas Ellice
+- Ellice Islands
+- Tuvalu
+
+## synonym:TW
+- Táiwān shěng
+- Província de Taiwan
+- Taiwan, China
+- Taiwan
+- Taiwan Area
+- Taiwan Region
+- Taiwan Province
+- Taiwan, Province of China
+
+## synonym:TZ
+- República Unida da Tanzânia
+- Tanzânia
+- Jamhuri ya Muungano wa Tanzania
+- Tanzania
+- United Republic of Tanzania
+
+## synonym:UA
+- Ucrânia
+- Ukrayina
+- Ukraine
+
+## synonym:UG
+- República do Uganda
+- República de Uganda
+- Eggwanga Yuganda
+- Jamhuri ya Uganda
+- Republic of Uganda
+- Uganda
+
+## synonym:UM
+- Ilhas Menores Afastadas dos Estados Unidos
+- Ilhas Menores Distantes dos Estados Unidos
+- Ilha Wake
+- Atol Palmyra
+- Ilha Navassa
+- Atol Midway
+- Recife Kingman
+- Atol Johnston
+- Ilha Jarvis
+- Ilha Howland
+- Ilha Baker
+- Navassa Island
+- Wake Island
+- Palmyra Atoll
+- Midway Atoll
+- Kingman Reef
+- Johnston Atoll
+- Jarvis Island
+- Howland Island
+- Baker Island
+- United States Minor Outlying Islands
+
+## synonym:US
+- Estados Unidos
+- Estados Unidos da América
+- America
+- US
+- U.S.
+- USA
+- United States of America
+- United States
+
+## synonym:UY
+- Uruguai
+- República Oriental do Uruguai
+- República Oriental del Uruguay
+- Oriental Republic of Uruguay
+- Uruguay
+
+## synonym:UZ
+- República do Uzbequistão
+- Usbequistão
+- Uzbequistão
+- Oʻzbekiston Respublikasi
+- Republic of Uzbekistan
+- Oʻzbekiston
+- Uzbekistan
+
+## synonym:VA
+- Status Civitatis Vaticanæ
+- Civitas Vaticana
+- Stato della Città del Vaticano
+- Estado da Cidade do Vaticano
+- Cidade do Vaticano
+- Vaticano
+- Cidade-Estado do Vaticano
+- Sé Apostólica
+- Santa Sé Apostólica
+- Santa Sé
+- See of Rome
+- Santa Sede
+- Sancta Sedes
+- Holy See (Vatican City State)
+
+## synonym:VC
+- São Vicente
+- São Vicente e Granadinas
+- Saint Vincent
+- Saint Vincent and the Grenadines
+
+## synonym:VE
+- República Bolivariana da Venezuela
+- República Bolivariana de Venezuela
+- Venezuela
+- Bolivarian Republic of Venezuela
+
+## synonym:VG
+- Ilhas Virgens Britânicas
+- BVI
+- British Virgin Islands
+
+## synonym:VI
+- Virgin Islands of the United States
+- American Virgin Islands
+- USVI
+- United States Virgin Islands
+- Ilhas Virgens dos Estados Unidos
+- Ilhas Virgens Americanas
+- U.S. Virgin Islands
+
+## synonym:VN
+- República Socialista do Vietname
+- República Socialista do Vietnã
+- Vietnã
+- Vietname
+- Socialist Republic of Vietnam
+- Vietnam
+- Viet Nam
+
+## synonym:VU
+- República de Vanuatu
+- Gloriosa República de Vanuatu
+- République de Vanuatu
+- Ripablik blong Vanuatu
+- Republic of Vanuatu
+- Vanuatu
+
+## synonym:WF
+- Território das Ilhas Wallis e Futuna
+- Wallis e Futuna
+- Uvea mo Futuna
+- Territoire des îles Wallis-et-Futuna
+- Wallis-et-Futuna
+- Territory of the Wallis and Futuna Islands
+- Wallis and Futuna
+
+## synonym:WS
+- Samoa Ocidental
+- Estado Independente da Samoa
+- Estado Independente de Samoa
+- Western Samoa
+- Sāmoa
+- Malo Saʻoloto Tutoʻatasi o Sāmoa
+- Independent State of Samoa
+- Samoa
+
+## synonym:YE
+- República do Iêmen
+- República do Iémen
+- Iêmen
+- Iémen
+- al-Yama
+- Republic of Yemen
+- Yaman
+- al-Jumhūrīyah al-Yamanīyah
+- Yemen
+
+## synonym:YT
+- Departamento de Maiote
+- Maiote
+- Département de Mayotte
+- Department of Mayotte
+- Mahori
+- Maore
+- Mayotte
+
+## synonym:ZA
+- República da África do Sul
+- África do Sul
+- iRiphabliki yeSewula Afrika
+- Riphabuḽiki ya Afurika Tshipembe
+- iRiphabhulikhi yeNingizimu Afrika
+- Riphabliki ya Afrika Dzonga
+- Rephaboliki ya Afrika Borwa
+- Rephaboliki ya Aforika Borwa
+- Repabliki ya Afrika-Borwa
+- iRiphabliki yomZantsi Afrika
+- iRiphabhuliki yaseNingizimu Afrika
+- Republiek van Suid-Afrika
+- RSA
+- Republic of South Africa
+- South Africa
+
+## synonym:ZM
+- República da Zâmbia
+- Zâmbia
+- Cisi ca Zambia
+- Dziko la Zambia
+- Republic of Zambia
+- Zambia
+
+## synonym:ZW
+- República do Zimbabwe
+- Zimbaué
+- Zimbabué
+- Zimbábue
+- Shango ḽa Zimbabwe
+- Cisi ca Zimbabwe
+- Naha ya Zimbabwe
+- Tiko ra Zimbabwe
+- Inyika yeZimbabwe
+- Zimbabwe Nù
+- Hango yeZimbabwe
+- Dziko la Zimbabwe
+- Ilizwe leZimbabwe
+- Nyika yeZimbabwe
+- Rhodesia
+- Republic of Zimbabwe
+- Zimbabwe
+
+## synonym:SZ
+- Reino de Essuatíni
+- Essuatíni
+- Umbuso weSwatini
+- Kingdom of Eswatini
+- Eswatini
+- Swaziland
+
+## synonym:AE
+- Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah
+- EAU
+- Emirados Árabes Unidos
+- UAE
+- Emirates
+- al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah
+- United Arab Emirates
+
+## synonym:AF
+- Republica do Afeganistão
+- Afeganistão
+- República Islâmica do Afeganistão
+- Republic of Afghanistan
+- Islamic Republic of Afghanistan
+- Afghanistan
+
+## synonym:AG
+- Antígua
+- Antiga e Barbuda
+- Antígua e Barbuda
+- Barbuda
+- Antigua
+- Antigua and Barbuda
+
+## synonym:AI
+- Anguila
+- Island of Anguilla
+- Anguilla
+
+## synonym:AL
+- Republica da Albânia
+- Albânia
+- Republic of Albania
+- Albania
+
+## synonym:AM
+- República da Arménia
+- Armênia
+- Arménia
+- Republic of Armenia
+- Armenia
+
+## synonym:AO
+- República de Angola
+- Republic of Angola
+- Angola
+
+## synonym:AQ
+- Antártica
+- Antártida
+- Antarctica
+
+## synonym:AR
+- Republic of Argentina
+- República da Argentina
+- República Argentina
+- Argentine Republic
+- Argentina
+
+## synonym:AS
+- Tutuila
+- Sāmoa Amelika
+- Amelika Sāmoa
+- Amerika Sāmoa
+- Samoa Americana
+- American Samoa
+
+## synonym:AT
+- República da Áustria
+- Áustria
+- Republik Österreich
+- Österreich
+- Republic of Austria
+- Austria
+
+## synonym:AU
+- Comunidade da Austrália
+- Austrália
+- Commonwealth of Australia
+- Australia
+
+## synonym:AW
+- Aruba
+
+## synonym:AX
+- Alandia
+- Arquipélago da Aland
+- Arquipélago da Åland
+- Ahvenanmaa
+- Alanda
+- Ilhas de Aland
+- Ilhas Åland
+- Fasta Åland
+- Åland
+- Åland Islands
+
+## synonym:AZ
+- República do Azerbaijão
+- Azerbaijão
+- Republic of Azerbaijan
+- Azerbaijan
+
+## synonym:BA
+- Bósnia
+- Bósnia e Herzegovina
+- Bosna i Hercegovina
+- Bosnia
+- Bosnia–Herzegovina
+- B&H
+- BiH
+- Bosnia and Herzegovina
+
+## synonym:BB
+- Barbados
+
+## synonym:BD
+- República Popular do Bangladesh
+- Nação Bengali
+- Bangladeche
+- Bangladexe
+- People's Republic of Bangladesh
+- country of Bengal
+- Bangladesh
+
+## synonym:BE
+- Belgien
+- Belgique
+- België
+- Bélgica
+- Reino da Bélgica
+- Koninkrijk België
+- Royaume de Belgique
+- Königreich Belgien
+- Kingdom of Belgium
+- Belgium
+
+## synonym:BF
+- Burquina
+- Burquina Fasso
+- Burquina Faso
+- Republic of Burkina Faso
+- Burkina Faso
+
+## synonym:BG
+- Republika Bǎlgarija
+- República da Bulgária
+- Bulgária
+- Republika Balgariya
+- Republic of Bulgaria
+- Balgariya
+- Bulgaria
+
+## synonym:BH
+- Reino do Bareine
+- Reino do Barein
+- Reino do Barém
+- Reino do Bahrain
+- Reino do Bahrein
+- Bareine
+- Barein
+- Barém
+- Bahrein
+- Kingdom of Bahrain
+- Al-Baḥrayn
+- Bahrain
+
+## synonym:BI
+- República do Burúndi
+- Burúndi
+- République du Burundi
+- Republika y'Uburundi
+- Republic of Burundi
+- Burundi
+
+## synonym:BJ
+- República do Benim
+- Benim
+- Bénin
+- République du Bénin
+- Republic of Benin
+- Benin
+
+## synonym:BL
+- Coletividade de São Bartolomeu
+- São Bartolomeu
+- St. Barts
+- St. Barths
+- St-Barth
+- Collectivité territoriale de Saint-Barthélemy
+- Saint-Barthélemy
+- Saint Barthélemy
+
+## synonym:BM
+- Bermudas
+- Ilhas Bermudas
+- Islands of Bermuda
+- Bermuda
+
+## synonym:BN
+- Nation of Brunei, the Abode of Peace
+- Negara Brunei Darussalam
+- Nation of Brunei
+- Brunei
+- Brunei Darussalam
+
+## synonym:BO
+- Bolívia
+- Estado Plurinacional de Bolivia
+- Bolivia
+- Plurinational State of Bolivia
+
+## synonym:BQ
+- Santo Eustáquio
+- Caraíbas Neerlandesas
+- Países Baixos Caribenhos
+- BES Islands
+- Caribisch Nederland
+- Caribbean Netherlands
+- Saba
+- Sint Eustatius
+- Bonaire
+- Bonaire, Sint Eustatius and Saba
+
+## synonym:BR
+- República Federal do Brasil
+- República Federativa do Brasil
+- Federative Republic of Brazil
+- Brasil
+- Brazil
+
+## synonym:BS
+- Comunidade das Bahamas
+- Baamas
+- Commonwealth of The Bahamas
+- Bahaamas
+
+## synonym:BT
+- Reino do Butão
+- Butão
+- Druk Gyal Khap
+- Kingdom of Bhutan
+- Bhutan
+
+## synonym:BV
+- Ilha Bouvet
+- Bouvet-øya
+- Bouvetøya
+- Bouvet Island
+
+## synonym:BW
+- República do Botsuana
+- República do Botswana
+- Botsuana
+- Lefatshe la Botswana
+- Republic of Botswana
+- Botswana
+
+## synonym:BY
+- República da Bielorrússia
+- República da Belarus
+- Bielorrússia
+- Byelorussia
+- Belorussia
+- Republic of Belarus
+- Belarus
+
+## synonym:BZ
+- Belize
+
+## synonym:CA
+- Canadá
+- Canada
+
+## synonym:CC
+- Pulu Kokos Keeling
+- Ilhas Cocos Keeling
+- Ilhas Cocos (Keeling)
+- Ilhas Keeling
+- Keeling Islands
+- Wilayah Kepulauan Cocos (Keeling)
+- Wilayah Kepulauan Cocos Keeling
+- Pulu Kokos (Keeling)
+- Territory of Cocos Keeling Islands
+- Territory of Cocos (Keeling) Islands
+- Cocos Keeling Islands
+- Cocos (Keeling) Islands
+
+## synonym:CD
+- Congo-Quinxassa
+- Congo R.D.
+- RD Congo
+- RDC
+- República Democrática do Congo
+- Ditunga dia Kongu wa Mungalaata
+- Jamhuri ya Kidemokrasia ya Kongo
+- Republíki ya Kongó Demokratíki
+- Repubilika ya Kôngo ya Dimokalasi
+- Congo-Kinshasa
+- DROC
+- DRC
+- DR Congo
+- République démocratique du Congo
+- Democratic Republic of the Congo
+- The Democratic Republic of the Congo
+
+## synonym:CF
+- República Centro Africana
+- República da África Central
+- República da África-Central
+- República Centro-Africana
+- CAR
+- Ködörösêse tî Bêafrîka
+- République centrafricaine
+- Central African Republic
+
+## synonym:CG
+- RotC
+- Congo Republic
+- Congo Brazzaville
+- Congo-Brazzaville
+- Republíki ya Kongó
+- Repubilika ya Kôngo
+- République du Congo
+- Congo
+
+## synonym:CH
+- Confederação Suíça
+- Svizra
+- Svizzera
+- Suisse
+- Schwiiz
+- Schwyz
+- Schweiz
+- Suíça
+- Confoederatio Helvetica
+- Confederaziun svizra
+- Confederazione Svizzera
+- Confédération suisse
+- Schweizerische Eidgenossenschaft
+- Swiss Confederation
+- Switzerland
+
+## synonym:CI
+- República da Costa do Marfim
+- Costa do Marfim
+- République de Côte d'Ivoire
+- Republic of Côte d'Ivoire
+- The Ivory Coast
+- Ivory Coast
+- Côte d'Ivoire
+
+## synonym:CK
+- Ilhas Cook
+- Kūki 'Āirani
+- Cook Islands
+
+## synonym:CL
+- Repūvirika o Tire
+- Chili Ripuwlika
+- Chili Suyu
+- Chile Wüdalmapu
+- República de Chile
+- Republic of Chile
+- Chile
+
+## synonym:CM
+- República do Cameroun
+- República dos Camarões
+- Camarões
+- Renndaandi Kamerun
+- République du Cameroun
+- Republic of Cameroon
+- Cameroun
+- Cameroon
+
+## synonym:CN
+- RPC
+- República Popular da China
+- Zhōnghuá Rénmín Gònghéguó
+- PRC
+- People's Republic of China
+- China
+
+## synonym:CO
+- República da Colômbia
+- Colômbia
+- República de Colombia
+- Republic of Colombia
+- Colombia
+
+## synonym:CR
+- República da Costa Rica
+- República de Costa Rica
+- Republic of Costa Rica
+- Costa Rica
+
+## synonym:CU
+- República de Cuba
+- Republic of Cuba
+- Cuba
+
+## synonym:CV
+- Repúblika di Kabu Verdi
+- República de Cabo Verde
+- Republic of Cabo Verde
+- Cabo Verde
+- Cape Verde
+
+## synonym:CW
+- Curaçau
+- Country of Curaçao
+- Teritorio Insular di Kòrsou
+- Eilandgebied Curaçao
+- Island Territory of Curaçao
+- Pais Kòrsou
+- Land Curaçao
+- Kòrsou
+- Curaçao
+
+## synonym:CX
+- Território da Ilha Natal
+- Território da Ilha do Natal
+- Território da Ilha Christmas
+- Ilha Natal
+- Ilha do Natal
+- Ilha Christmas
+- Territory of Christmas Island
+- Christmas Island
+
+## synonym:CY
+- Kypriakí Dimokratía
+- República de Chipre
+- Kýpros
+- Chipre
+- Kıbrıs Cumhuriyeti
+- Cypriot Republic
+- Κυπριακή Δημοκρατία
+- Republic of Cyprus
+- Kıbrıs
+- Κύπρος
+- Cyprus
+
+## synonym:CZ
+- República Tcheca
+- República Checa
+- Tchéquia
+- Chéquia
+- Česko
+- Czechia
+- Česká republika
+- Czech Republic
+
+## synonym:DE
+- República Federal da Alemã
+- República Federal da Alemanha
+- Alemanha
+- Bundesrepublik Deutschland
+- Federal Republic of Germany
+- Deutschland
+- Germany
+
+## synonym:DJ
+- República do Djibuti
+- Jibuti
+- Djibuti
+- Gabuutih Ummuuno
+- Jamhuuriyadda Jabuuti
+- République de Djibouti
+- Republic of Djibouti
+- Jabuuti
+- Jībūtī
+- Yibuuti
+- Djibouti
+
+## synonym:DK
+- Reino da Dinamarca
+- Dinamarca
+- Kongeriget Danmark
+- Kingdom of Denmark
+- Danmark
+- Denmark
+
+## synonym:DM
+- Comunidade da Dominica
+- Domínica
+- Commonwealth of Dominica
+- Dominique
+- Dominica
+
+## synonym:DO
+- República Dominicana
+- Dominican Republic
+
+## synonym:DZ
+- Republica Democrática da Argélia
+- Republica da Argélia
+- Argélia
+- Republic of Algeria
+- Democratic Republic of Algeria
+- Algeria
+
+## synonym:EC
+- República do Equador
+- Equador
+- Ikwayur Runaq Imayka
+- Ekuatur Nunka
+- Ikwadur Ripuwlika
+- Republic of the Equator
+- República del Ecuador
+- Republic of Ecuador
+- Ekuatur
+- Ikwayur
+- Ecuador
+
+## synonym:EE
+- República da Estônia
+- República da Estónia
+- Estônia
+- Estónia
+- Eesti Vabariik
+- Republic of Estonia
+- Eesti
+- Estonia
+
+## synonym:influenza
+- influenza
+- gripe
+
+## synonym:prevention
+- prevenção
+- prevenir
+- proteção
+- proteger
+- protecção
+
+## synonym:spread
+- propagação
+- transmissão
+- propaga
+- transmite
+- apanhar
+- contrair
+- infetar
+- infeção
+- infetado
+- contraido
+- infetada
+- contraida
+- transmitido
+- transmitida
+
+## synonym:COVID
+- novo coronavirus
+- virus
+- doença
+- vírus
+- coronavírus
+- 2019nCov
+- 2019-nCoV
+- SARSCoV-2
+- COVID
+- COVID2019
+- COVID19
+- COVID-2019
+- COVID-19
+- 19nCov
+- 19-nCoV
+- SARSCoV2
+- SARS-CoV2
+- SARS-CoV-2
+- coronaviruses
+- nCoV
+- Corona
+- Covid 19
+- corrid
+- ocoronavírus
+- corona virus
+- covid-18
+- Corona vírus
+- covit19
+- nCoV 2019
+- novo coronavírus
+- vírus corona
+- ccovid
+- virose
+- SARSCoV-2d
+- SARSCoVd
+- COVIDd
+- COVID-19d
+- corrige
+<!--
+## synonym:number
+- quantidade
+- número
+- number
+- quantity
+
+## synonym:teach
+- tutoring
+- coached
+- trainings
+- learned
+- training
+- lesson
+- trainers
+- learnt
+- learning
+- coaching
+- trainer
+- taught
+- learn
+- coaches
+- teaching
+- coach
+- teach
+
+## synonym:facebook
+- facebook
+- face book
+
+## synonym:linkedin
+- linkd in
+- linkdin
+- linkedin
+- linked in
+
+## synonym:instagram
+- ig
+- insta
+- insta gram
+- instragram
+
+## synonym:social media
+- socialmedia
+- social plattform
+- social media
+
+## synonym:firstname
+- primeiro nome
+- nome
+- given name
+- christian name
+- forename
+- first-name
+- first name
+- firstname
+- name
+
+## synonym:surname
+- último nome
+- nome de família
+- apelido
+- surname
+- family name
+- last name
+- lastname
+- last-name
+- family-name
+
+## synonym:cancel
+- cancelar
+- stop
+- anular
+- interromper
+- sair
+- desistir
+- cessar
+- abortar
+- revogar
+
+## synonym:sex
+- sex
+- sexual
+- virginity
+- virgin
+- pornography
+- ass
+- blow job
+- bonk
+- buggery
+- anal
+- carnal
+- climax
+- orgasm
+- coitus
+- cottaging
+- cybersex
+- ejaculation
+- ejaculating
+- ejaculate
+- fuck
+- gang bang
+- hanky-panky
+- intercourse
+- ménage à trois
+- nookie
+- one-night stand
+- oral sex
+- penetration
+- sodomy
+- threesome
+- tits
+- penis
+- prick
+- cock
+- wang
+- weenie
+- whang
+- cunt
+- pussy
+- pussies
+- vagina
+-->
+## synonym:cough
+- tosse
+
+## synonym:runny_nose
+- corrimento nasal
+- nariz entupido
+- nariz com ranho
+- corrimento do nariz
+- muco nasal
+- corrimento de muco do nariz
+
+## synonym:sore_throat
+- dor de garganta
+- dor na garganta
+- garganta dorida
+- garganta com dor
+
+## synonym:breathing_difficulty
+- dificuldade respiratória
+- problemas respiratórios
+- falta de ar
+- problema em respirar
+- dificuldade em respirar
+- problema em inspirar
+- problemas em inspirar
+- dificuldade em inspirar
+- dificuldade em obter ar
+- problema em obter ar
+
+## synonym:fever
+- febre
+- pirexia
+- hipertermia
+- temperatura elevada
+- temperatura alta
+
+## synonym:you
+- Cosibot
+- Helena
+- ti
+- si
+- a senhora
+- o senhor
+- você
+- tu
+- ur
+- youre
+- your
+- yal
+- thou
+- thee
+- yall
+- yourself
+- ya
+- u
+- you
+
+## synonym:I
+- nossas
+- nossa
+- minhas
+- minha
+- nosso
+- nossos
+- meu
+- meus
+- nós
+- mim
+- eu
+- Imma
+- Im
+- our
+- myself
+- me
+- ourselves
+- us
+- we
+- I
+<!-- 
+## synonym:country
+- Geórgia
+- Alemanha
+- Gana
+- Grécia
+- Granada
+- Guatemala
+- Guiné
+- Guiné-Bissau
+- Guiana
+- Haiti
+- Santa Sé
+- Sé de Roma
+- Honduras
+- Hungria
+- Islândia
+- Índia
+- Indonésia
+- Irã
+- Iraque
+- Irlanda
+- Israel
+- Itália
+- Jamaica
+- Jordânia
+- Cazaquistão
+- Quênia
+- Kiribati
+- Kuwait
+- Quirguistão
+- Laos
+- Letônia
+- Líbano
+- Lesoto
+- Libéria
+- Liechtenstein Líbia
+- Lituânia
+- Madagascar
+- Malawi
+- Malásia
+- Maldivas
+- Mali
+- Malta
+- Ilhas Marshall
+- Mauritânia
+- Maurício
+- México
+- Micronésia
+- Moldávia
+- Mônaco
+- Mongólia
+- Montenegro
+- Marrocos
+- Moçambique
+- Mianmar
+- Birmânia
+- Namíbia
+- Nauru
+- Nepal
+- Holanda
+- Nova Zelândia
+- Nicarágua
+- Níger
+- Nigéria
+- Coréia do Norte
+- Macedônia do Norte
+- Noruega
+- Omã
+- Paquistão
+- Palau
+- Estado da Palestina
+- Panamá
+- Papua Nova Guiné
+- Paraguai
+- Peru
+- Filipinas
+- Polônia
+- Portugal
+- Catar
+- Romênia
+- Rússia
+- Ruanda
+- São Cristóvão e Nevis
+- Santa Lúcia
+- São Vicente e Granadinas
+- Samoa
+- São Marinho
+- São Tomé e Príncipe
+- Arábia Saudita
+- Senegal
+- Sérvia
+- Seychelles
+- Serra Leoa
+- Cingapura
+- Eslováquia
+- Eslovênia
+- Ilhas Salomão
+- Somália
+- Sou África
+- Coréia do Sul
+- Sudão do Sul
+- Espanha
+- Sri Lanka
+- Sudão
+- Suriname
+- Suazilândia
+- Suécia
+- Suíça
+- Síria
+- Tajiquistão
+- Tanzânia
+- Tailândia
+- Timor-Leste
+- Togo
+- Tonga
+- Trinidad e Tobago
+- Tunísia
+- Turquia
+- Turquemenistão
+- Tuvalu
+- Uganda
+- Ucrânia
+- Emirados Árabes Unidos
+- Reino Unido
+- Estados Unidos da América
+- Uruguai
+- Uzbequistão
+- Venezuela
+- Iêmen
+- Zâmbia
+- Zimbábue
+- Shqipëria
+- Dzayer
+- Al-Jazāir
+- Amerika Sāmoa
+- Ngola
+- Anguilla
+- Hayastán
+- Aruba
+- Österreich
+- Åland
+- Ahvenanmaa
+- Azərbaycan
+- Al-Baḥrayn
+- Bielaruś
+- Bermudas Bélgica
+- Drukin
+- Buliwya
+- Wuliwya
+- Volívia
+- Bosna e Hercegovina
+- Ilhas Virgens Britânicas
+- Bulgariya
+- Bălgarija
+- Uburundi
+- Campampea
+- Ilhas Cayman
+- Ködörösêse tê Bêafrîka
+- Tchad
+- Zhodguó
+- Ilha Christmas
+- Ilhas Cocos
+- Komori
+- Juzur al-Qamar
+- República do Congo
+- República y Kongó
+- República y Kongó Demokratíki
+- Jamhuri y Kidemokrasia y Kongo
+- Ilhas Cook
+- Hrva tska
+- Curaçao
+- Kòrsou
+- Kypros
+- Kıbrıs
+- Česká republika
+- Česko
+- Danmark
+- Jībūtī
+- Timor Lorosa'e
+- Misr
+- Masr
+- Guiné Ecuatorial
+- Iritriya
+- Ertra
+- Eesti
+- Eswatini
+- Ityopia
+- Ilhas Falkland
+- Føroyar
+- Ilhas Faroé
+- Færøerne
+- Viti
+- Suomi
+- República Popular da China
+- República do El Salvador
+- Estado da Eritreia
+- Gronelândia
+- Comunidade da Dominica
+- Abkházia
+- Kongo
+- Luxemburgo
+- Japão
+- Afeganistão
+- Albânia
+- Argélia
+- Andorra
+- Angola
+- Antígua e Barbuda
+- Argentina
+- Armênia
+- Austrália
+- Áustria
+- Azerbaijão
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Bielorrússia
+- Bélgica
+- Belize
+- Benim
+- Butão
+- Bolívia
+- Bósnia e Herzegovina
+- Botsuana
+- Brasil
+- Brunei
+- Bulgária
+- Burkina Faso
+- Burundi
+- Costa do Marfim
+- Cabo Verde
+- Camboja
+- Camarões
+- Canadá
+- República Centro-Africana
+- Chade
+- Chile
+- China
+- Colômbia
+- Comores
+- Congo
+- Congo-Brazzaville
+- Costa Rica
+- Croácia
+- Cuba
+- Chipre
+- República Checa
+- República Democrática do Congo
+- Dinamarca
+- Djibuti
+- Dominica
+- República Dominicana
+- Equador
+- Egito
+- El Salvador
+- Guiné Equatorial
+- Eritreia
+- Estônia
+- Etiópia
+- Fiji
+- Finlândia
+- França
+- Gabão
+- Gâmbia
+-->
+<!-- ## synonym:town
+- Bad Lauchstädt
+- Rosenthal
+- Tiruchirappalli
+- Langen
+- Engen
+- Waldeck
+- Milan
+- Tyumen
+- Baoding
+- Langenau
+- Enger
+- Waldenbuch
+- Prague
+- Ryazan
+- Nashville
+- Yiwu
+- João Pessoa
+- Salt Lake City
+- Ufa
+- Oslo
+- Lauenburg
+- Rotterdam
+- Bristol
+- Falkenberg
+- Zhenjiang
+- Liverpool
+- Louisville
+- Kaduna
+- Lebach
+- Wassenberg
+- Voronezh
+- Zaragoza
+- Leisnig
+- Weiden In Der Oberpfalz
+- Weiden
+- Aguascalientes
+- Chifeng
+- Lemgo
+- Felsberg
+- Weil Am Rhein
+- Lviv
+- Lengenfeld
+- Feuchtwangen
+- Weilburg
+- Sevilla
+- Santiago
+- Mumbai
+- Ulan-Ude
+- Brno
+- Raleigh
+- Bhilai
+- Kasan
+- Melle
+- Maracay
+- Omsk
+- Kananga
+- Tula Oblast
+- Erbil
+- Samara
+- Tigre
+- Caracas
+- Vienna
+- Warsaw
+- Minsk
+- Rome
+- Berlin
+- Moscow
+- Gwalior
+- Glasgow
+- Taichung
+- Tiruppur
+- Hama
+- Cochabamba
+- Dhanbad
+- Adelaide
+- Zürich
+- Ranchi
+- Yichang
+- Amritsar
+- Santiago De Querétaro
+- Querétaro
+- Maceió
+- Ivano-Frankivsk
+- Denizli
+- Schesslitz
+- Scheßlitz
+- Bad Windsheim
+- Belo Horizonte
+- Debrecen
+- Preston
+- Schenefeld
+- Bad Wimpfen
+- Xi’an
+- Munster
+- Kingston Upon Hull
+- Padova
+- Schelklingen
+- Bad Wilsnack
+- Hangzhou
+- Scheinfeld
+- Bad Wildungen
+- Foshan
+- Vologda
+- Scheibenberg
+- Bad Wildbad
+- Munderkingen
+- Saigon
+- Ho Chi Minh City
+- Osmaniye
+- Timișoara
+- Timisoara
+- Scheer
+- Bad Waldsee
+- Münchenbernsdorf
+- Tampere
+- Cherepovets
+- Schauenstein
+- Bad Vilbel
+- Ahmedabad
+- Nanjing
+- Çorlu
+- Corlu
+- Schalkau
+- Bad Urach
+- Müncheberg
+- Dongguan
+- Katowice
+- Sayda
+- Bad Tölz
+- Münchberg
+- Chengdu
+- Pskov
+- Grodno
+- Hrodna
+- Sassnitz
+- Bad Tennstedt
+- Müllrose
+- Wuhan
+- Vladikavkaz
+- Sassenberg
+- Bad Teinach-Zavelstein
+- Müllheim
+- Lahore
+- Penzlin
+- Gröningen
+- Penzberg
+- Gronau
+- Hagenow
+- Penkun
+- Groitzsch
+- Hagenbach
+- Penig
+- Gröditz
+- Hadamar
+- Hachenburg
+- Haan
+- Gützkow
+- Gütersloh
+- Güstrow
+- Güsten
+- Gunzenhausen
+- Pockau-Lengefeld
+- Günzburg
+- Plön
+- Gundelsheim
+- Plochingen
+- Peitz
+- Grimmen
+- Peine
+- Grimma
+- Pirmasens
+- Grünberg
+- Pegnitz
+- Griesheim
+- Pinneberg
+- Gross-Umstadt
+- Groß-Umstadt
+- Pegau
+- Grevesmühlen
+- Philippsburg
+- Edmonton
+- Sharjah
+- Jodhpur
+- Fushun
+- Prayag
+- Illahabad
+- Prayagraj
+- Allahabad
+- Huainan
+- Gatineau
+- Xining
+- Asansol
+- Tzeki
+- Cixi
+- Medina
+- Ditzingen
+- Kirchen
+- Ciudad Juárez
+- Jining
+- Batam
+- Qiqihar
+- Palembang
+- Virginia Beach
+- Makassar
+- Jabalpur
+- Calgary
+- Aurangabad
+- Auckland
+- Yekaterinburg
+- Raipur
+- Rosario
+- Benin City
+- Nowosibirsk
+- Gaziantep
+- Kaohsiung
+- Almaty
+- Columbus
+- Córdoba
+- Jilin
+- Datong
+- Xianyang
+- Zhuhai
+- Gwangju
+- Varanasi
+- Iasi
+- Kaub
+- Sochi
+- Cordoba
+- Kansas City
+- Charlotte
+- Liuzhou
+- Daqing
+- Davao City
+- Handan
+- Semarang
+- Kahla
+- Cluj-Napoca
+- Vitória
+- Homs
+- Schiraz
+- Linyi
+- Ludhiana
+- Peschawar
+- Mosul
+- Pittsburgh
+- Austin
+- Cincinnati
+- Owen
+- Orlando
+- Valencia
+- Chita
+- Newport
+- Indianapolis
+- Taichow
+- Taizhou
+- Cleveland
+- Nashik
+- Hohhot
+- León
+- Karaj
+- Samut Prakan
+- Calau
+- La Paz
+- Adana
+- Hamburg
+- Perth
+- Isfahan
+- Haikou
+- Xuzhou
+- West Yorkshire
+- Multan
+- Karlsruhe
+- Brazzaville
+- Verona
+- Sacramento
+- Vadodara
+- Nantong
+- Tijuana
+- Agra
+- Barranquilla
+- Bühl
+- Stein
+- Graz
+- Maracaibo
+- Eixample
+- St. Louis
+- Patna
+- Malappuram
+- San Bernardino
+- Riverside
+- Daegu
+- Goiânia
+- Baltimore
+- Gasteiz
+- Vitoria-Gasteiz
+- Dubai
+- Las Vegas
+- Cochin
+- Kochi
+- San Juan
+- Coruña
+- Corunna
+- Vancouver
+- City Of Westminster
+- Orsk
+- Chemnitz
+- Manisa
+- Bonn
+- Southampton
+- Norden
+- Senden
+- Cali
+- Manchester
+- Guayaquil
+- Marino
+- Nis
+- Selb
+- Latina
+- Espoo
+- Neu-Ulm
+- Durban
+- Guiyang
+- Douala
+- Puebla
+- Seattle
+- Aachen
+- Campinas
+- Wuxi
+- Izmir
+- San Diego
+- Granada
+- Gasteiz-Vitoria
+- Tarsus
+- Kiel
+- Halle
+- Saale
+- Bordeaux
+- Lakhnau
+- Muenster
+- Münster
+- Ciudad Lineal
+- Jaipur
+- Casablanca
+- Jaffa
+- Tel Aviv
+- Salvador
+- Salvador Da Bahia
+- Cape Town
+- Porto Alegre
+- Oviedo
+- Kano
+- Santa Cruz De Tenerife
+- Recife
+- Detroit
+- Changchun
+- Kunming
+- Changsha
+- Zhongshan
+- Shantou
+- Montreal
+- Jinan
+- Mesa
+- Jeddah
+- Bergen
+- Melbourne
+- Fortaleza
+- Stockholm
+- Boston
+- Sydney
+- Rheinbach
+- Fukuoka
+- Sumy
+- Galati
+- Vigo
+- Cartagena
+- Guadalajara
+- Abidjan
+- Barcelona
+- Pune
+- Atlanta
+- Münnerstadt
+- Toronto
+- Suzhou
+- Linz
+- Shenyang
+- Münsingen
+- Houston
+- Miami
+- Liège
+- Liege
+- Ipswich
+- Sevastopol
+- Nicosia
+- Poltava
+- Sarstedt
+- Mülheim-Kärlich
+- Chicago
+- Bad Sülze
+- Markkleeberg
+- Mügeln
+- Shenzhen
+- Gliwice
+- Tianjin
+- Kampala
+- Lublin
+- Sutton
+- Petropavlovsk-Kamchatsky
+- Trieste
+- Kiev
+- Leganes
+- Bologna
+- Roth
+- Kiew
+- Tunis
+- Groningen
+- Port Of Spain
+- Riedstadt
+- Bad Freienwalde
+- Regensburg
+- Bucharest
+- Bad König
+- Burgos
+- Amadora
+- Fürth
+- Mönchengladbach
+- Athens
+- Polch
+- Wiesbaden
+- Lisbon
+- Derby
+- Hiroshima
+- Koln
+- Köln
+- Koeln
+- Madrid
+- Bratislava
+- Muenchen
+- Munchen
+- Aken
+- München
+- Paris
+- Lieberose
+- Lille
+- Budapest
+- Birmingham
+- Dublin
+- Zaozhuang
+- Sarajevo
+- Sheffield
+- Pocking
+- Aichach
+- Liebenau
+- Saarbrucken
+- Saarbrücken
+- Saarbruecken
+- Zwickau
+- Innsbruck
+- Gissen
+- Gießen
+- Richmond
+- Wurzburg
+- Würzburg
+- Wuerzburg
+- Hannover
+- Hanover
+- Rizhao
+- Dammam
+- Mérida
+- Évora
+- Portalegre
+- Castelo Branco
+- Beja
+- Faro
+- Portimão
+- Cologne
+- Mexicali
+- Barquisimeto
+- Yongin
+- São Luís
+- Odessa
+- Xiangtan
+- Mendoza
+- Baoji
+- Flöha
+- Leun
+- Klagenfurt
+- Hildesheim
+- Tübingen
+- Ingolstadt
+- Konstanz
+- Pforzheim
+- Mannheim
+- Reutlingen
+- Darmstadt
+- Leverkusen
+- Ludwigsburg
+- Oberhausen
+- Essen
+- Aschaffenburg
+- Nuremburg
+- Göttingen
+- Braunschweig
+- Erlangen
+- Meerut
+- Anshan
+- Töging Am Inn
+- Kassel
+- Kaluga
+- Dierdorf
+- Kelkheim
+- Nice
+- Kirchberg An Der Jagst
+- Treuenbrietzen
+- Kitzscher
+- Kitzingen
+- Donauwörth
+- Trostberg
+- Van
+- Donzdorf
+- Kutahya
+- Kütahya
+- Stoke-On-Trent
+- Dreieich
+- Uhingen
+- Kamensk-Uralskiy
+- Kölleda
+- Drebkau
+- Uffenheim
+- Huambo
+- Königsbrück
+- Ulmen
+- Samsun
+- Kornwestheim
+- Ebersberg
+- Vechta
+- Split
+- Maltepe
+- Bad Buchau
+- Tai’an
+- Köthen
+- Korschenbroich
+- Eberswalde
+- Velbert
+- Saint-Etienne
+- Saint-Étienne
+- Providence
+- Konya
+- Krempe
+- Ehrenfriedersdorf
+- Veringenstadt
+- Walsall
+- Sanliurfa
+- Şanlıurfa
+- Urfa
+- Natal
+- Mandalay
+- Kota
+- Kusel
+- Kuppenheim
+- Ellrich
+- Voerde
+- Kemerovo
+- Ankara
+- Merkendorf
+- Glückstadt
+- Zell Im Wiesental
+- Zeil Am Main
+- Glashütte
+- Zehdenick
+- Gladenbach
+- Zarrentin Am Schaalsee
+- Zahna-Elster
+- Xanten
+- Wyk Auf Föhr
+- Wunstorf
+- Gersfeld
+- Wunsiedel
+- Gerolzhofen
+- Wülfrath
+- Gerolstein
+- Wriezen
+- Gernsheim
+- Wustrow
+- Wörth An Der Donau
+- Gernsbach
+- Wörth Am Rhein
+- Germersheim
+- Wörth Am Main
+- Germering
+- Wörrstadt
+- Gerlingen
+- Geringswalde
+- Wolmirstedt
+- Worms
+- Geretsried
+- Wolkenstein
+- Sëlva
+- Gerbstedt
+- Wolgast
+- Gerabronn
+- Wolfstein
+- Gera
+- Georgsmarienhütte
+- Oryol
+- Orel
+- Salzgitter
+- Bad Schwalbach
+- Leipzig
+- Reading
+- Alicante
+- London
+- São Tomé
+- Krefeld
+- Mössingen
+- Rio De Janeiro
+- Portsmouth
+- Chongqing
+- Mücheln
+- Lagos
+- Istanbul
+- Osaka-Kōbe
+- Funafuti
+- Maulbronn
+- Porto
+- São Paulo
+- Shanghai
+- Delhi
+- Zurich
+- Möckern
+- Newcastle Upon Tyne
+- San Sebastian
+- Bilbao
+- Almeria
+- Le Havre
+- Münstermaifeld
+- Bad Wörishofen
+- Schieder-Schwalenberg
+- Alcala De Henares
+- Münzenberg
+- Bad Wünnenberg
+- Schifferstadt
+- Ostrava
+- Murrhardt
+- Bad Wurzach
+- Schillingsfürst
+- Varna
+- Mostoles
+- Nabburg
+- Baesweiler
+- Schiltach
+- Vladimir
+- Sabadell
+- Dallas
+- Nagold
+- Baiersdorf
+- Schirgiswalde
+- Oradea
+- Surat
+- Philadelphia
+- Harbin
+- Naila
+- Balingen
+- Schkeuditz
+- Jerez De La Frontera
+- Ballenstedt
+- Nassau
+- Schkölen
+- Chernihiv
+- Kielce
+- Nastätten
+- Balve
+- Schleiden
+- Torun
+- Nauen
+- Bamberg
+- Omdurman
+- Nebra
+- Monterrey
+- Dalian
+- Xiamen
+- Zhengzhou
+- Neuenburg Am Rhein
+- Neuenbürg
+- Neuenhaus
+- Neuburg An Der Donau
+- Bebra
+- Schneverdingen
+- Tambov
+- Biysk
+- Neudenau
+- Beckum
+- Schömberg
+- Catania
+- Archway
+- Bedburg
+- Utrecht
+- Neuenstein
+- Medellín
+- Lübeck
+- Gelsenkirchen
+- Erfurt
+- Cottbus
+- Wuppertal
+- Paderborn
+- Osnabrück
+- Magdeburg
+- Nuremberg
+- Duisburg
+- Rostock
+- Kaiserslautern
+- Bochum
+- Bielefeld
+- Nürnberg
+- Bremen
+- Mainz
+- Freiburg
+- Dortmund
+- Macau 
+- Duesseldorf
+- Geisa
+- Stuttgart
+- Hongkong
+- Witten
+- Düsseldorf
+- Dusseldorf
+- Bahamas
+- Wissen
+- Frankfurt
+- Munich
+- Geisingen
+- Wolfach
+- Wolfhagen
+- Luebeck
+- Greifswald
+- Ludwigshafen
+- Kempten
+- Freiberg
+- Stralsund
+- Landshut
+- Dresden
+- Fribourg
+- Wolfsburg
+- Salzburg
+- Augsburg
+- Nurnberg
+- Unterhaching
+- Remscheid
+- Deggendorf
+- Gladbach
+- Gummersbach
+- Neuss
+- Goettingen
+- Bad Orb
+- Moers
+- Nagpur
+- Glinde
+- Zell
+- Zell Am Harmersbach
+- Zella-Mehlis
+- Glücksburg
+- Zeitz
+- Glauchau
+- Bengaluru
+- Chennai
+- Seoul
+- Nagoya
+- Johannesburg
+- Hyderabad
+- Bad Schwartau
+- Salzkotten
+- Volzhskiy
+- Hagen
+- Mühlacker
+- Greven
+- Zwiesel
+- Zwingenberg
+- Zwönitz
+- Gransee
+- Grafing Bei München
+- Grafing
+- Greußen
+- Zwenkau
+- Gräfenberg
+- Grebenau
+- Gräfenhainichen
+- Gräfenthal
+- Grafenwöhr
+- Papenburg
+- Pappenheim
+- Grebenstein
+- Parchim
+- Greding
+- Großalmerode
+- Perleberg
+- Groß-Bieberau
+- Petershagen
+- Großbottwar
+- Pfaffenhofen An Der Ilm
+- Großbreitenbach
+- Pfarrkirchen
+- Großenehrich
+- Pfreimd
+- Großenhain
+- Grossenhain
+- Groß-Gerau
+- Pfullendorf
+- Großräschen
+- Pfullingen
+- Großröhrsdorf
+- Grünhain-Beierfeld
+- Pirna
+- Grünsfeld
+- Plattling
+- Grünstadt
+- Plau Am See
+- Guben
+- Plaue
+- Plauen
+- Gudensberg
+- Güglingen
+- Plettenberg
+- Pleystein
+- Gundelfingen An Der Donau
+- Hann. Münden
+- Hannoversch Münden
+- Haiger
+- Haigerloch
+- Hainichen
+- Haiterbach
+- Halberstadt
+- Haldensleben
+- Hallenberg
+- Hallstadt
+- Haltern Am See
+- Hamminkeln
+- Halver
+- Hameln
+- Hamelin
+- Hamm
+- Hammelburg
+- Hanau
+- Harburg
+- Hardegsen
+- Haren
+- Harsewinkel
+- Hartenstein
+- Hartha
+- Harzgerode
+- Haselünne
+- Haslach Im Kinzigtal
+- Haßfurt
+- Hattersheim Am Main
+- Hattingen
+- Hatzfeld
+- Hausach
+- Hauzenberg
+- Havelberg
+- Havelsee
+- Hayingen
+- Hechingen
+- Hecklingen
+- Heide
+- Heideck
+- Heidelberg
+- Heidenau
+- Heidenheim An Der Brenz
+- Heilbad Heiligenstadt
+- Heilbronn
+- Heiligenhafen
+- Heiligenhaus
+- Heilsbronn
+- Heimbach
+- Heimsheim
+- Heinsberg
+- Heitersheim
+- Heldburg
+- Helmbrechts
+- Helmstedt
+- Hemau
+- Hemer
+- Hemmingen
+- Hemmoor
+- Hemsbach
+- Hennef
+- Hennigsdorf
+- Heppenheim
+- Herbolzheim
+- Herborn
+- Herbrechtingen
+- Herbstein
+- Herdecke
+- Herdorf
+- Herford
+- Heringen
+- Hermeskeil
+- Hermsdorf
+- Herne
+- Herrenberg
+- Herrieden
+- Herrnhut
+- Hersbruck
+- Herten
+- Herzberg Am Harz
+- Herzberg
+- Herzogenaurach
+- Herzogenrath
+- Hessisch Lichtenau
+- Hessisch Oldendorf
+- Hettingen
+- Hettstedt
+- Heubach
+- Heusenstamm
+- Hilchenbach
+- Hildburghausen
+- Hilden
+- Hillesheim
+- Hilpoltstein
+- Hirschau
+- Hirschberg
+- Hirschhorn
+- Hitzacker
+- Hochheim Am Main
+- Höchstadt An Der Aisch
+- Höchstädt An Der Donau
+- Hockenheim
+- Hof
+- Hofgeismar
+- Hofheim Am Taunus
+- Hofheim In Unterfranken
+- Hohenberg An Der Eger
+- Hohenleuben
+- Hohenmölsen
+- Hohen Neuendorf
+- Hohenstein-Ernstthal
+- Holzminden
+- Suva
+- Helsinki
+- Horb Am Neckar
+- Hornbach
+- Libreville
+- Hornberg
+- Hörstel
+- Horstmar
+- Ichenhausen
+- Idar-Oberstein
+- Saint George's
+- Illertissen
+- Ilmenau
+- Ilsenburg
+- Ilshofen
+- Immenhausen
+- St. George’s
+- Ingelfingen
+- Accra
+- Tallinn
+- Banjul
+- Höxter
+- Tiflis
+- Tbilisi
+- Hoyerswerda
+- Hückelhoven
+- Hückeswagen
+- Amman
+- Hüfingen
+- Phnom Penh
+- Hünfeld
+- Yaoundé
+- Hungen
+- Ingelheim Am Rhein
+- Iphofen
+- Iserlohn
+- Isny Im Allgäu
+- Isselburg
+- Itzehoe
+- Aach
+- South Ossetia
+- Gersthofen
+- Aden
+- Gescher
+- Würselen
+- Geseke
+- Wurzbach
+- Gevelsberg
+- Geyer
+- Wurzen
+- Giengen An Der Brenz
+- Giengen
+- Giessen
+- Gifhorn
+- Ginsheim-Gustavsburg
+- Gladbeck
+- Mühlberg
+- Zerbst
+- Mühlheim Am Main
+- Mühlhausen
+- Gößnitz
+- Goslar
+- Zittau
+- Görlitz
+- Zirndorf
+- Zörbig
+- Gotha
+- Zossen
+- Zschopau
+- Grabow
+- Zülpich
+- Grafenau
+- Zweibrücken
+- Parsberg
+- Greiz
+- Pasewalk
+- Astana
+- Nairobi
+- Bischkek
+- Abensberg
+- Abenberg
+- Aalen
+- Ahrensburg
+- Ahlen
+- Ahaus
+- Adorf
+- Adenau
+- South Tarawa
+- Achim
+- Adelsheim
+- Achern
+- Doha
+- Jerusalem
+- Tokyo
+- Praia
+- Bissau
+- Georgetown
+- Port-Au-Prince
+- Kingston
+- Tegucigalpa
+- Rom
+- Reykjavík
+- Immenstadt Im Allgäu
+- Immenstadt
+- New Delhi
+- Bagdad
+- Conakry
+- Teheran
+- Husum
+- Hürth
+- Guatemala City
+- Ottawa
+- San José
+- San Salvador
+- Avarua
+- Yamoussoukro
+- Asmara
+- Quito
+- Djibouti City
+- Santo Domingo
+- Copenhagen
+- Roseau
+- Horn-Bad Meinberg
+- Homburg
+- Homberg
+- Ibbenbüren
+- Idstein
+- Hohnstein
+- Höhr-Grenzhausen
+- Hollfeld
+- Holzgerlingen
+- Beijing
+- Peking
+- Taipei
+- Porto-Novo
+- Belmopan
+- Sofia
+- Brasília
+- Santiago De Chile
+- Engels
+- Kelheim
+- Diepholz
+- Todtnau
+- Burgas
+- Kastellaun
+- Tharandt
+- Arnavutkoy
+- Arnavutköy
+- Kerpen
+- Dingelstädt
+- Traunstein
+- Cork
+- Vinnytsia
+- Chaozhou
+- Kirn
+- Dommitzsch
+- Troisdorf
+- Dun Laoghaire
+- Dún Laoghaire
+- Mahilyow
+- Mogilev
+- Klingenberg Am Main
+- Kleve
+- Dormagen
+- Twistringen
+- Brescia
+- Tirana
+- Mainburg
+- Backnang
+- Reinfeld
+- Mariupol
+- Oederan
+- Bruchköbel
+- Stadtilm
+- Bexley
+- Könnern
+- Eberbach
+- Uslar
+- Magnitogorsk
+- Freetown
+- Colombo
+- Brunswick
+- Maxhütte-Haidhof
+- Bad Friedrichshall
+- Rieneck
+- Fes
+- Fez
+- Jacksonville
+- Kroppenstedt
+- Einbeck
+- Viernheim
+- Karabaglar
+- Karabağlar
+- Bangkok
+- Roding
+- Las Palmas De Gran Canaria
+- Las Palmas
+- Sants-Montjuic
+- Sants-Montjuïc
+- Lampertheim
+- Elzach
+- Wächtersbach
+- Kharkiv
+- Leicester
+- Abu Dhabi
+- Miesbach
+- Bad Münstereifel
+- Rothenburg Ob Der Tauber
+- Coventry
+- Laubach
+- Erbendorf
+- Waldkraiburg
+- Moosburg An Der Isar
+- Moosburg
+- Bad Salzungen
+- Aberdeen
+- Lauingen
+- Erwitte
+- Wanfried
+- Perm
+- Genoa
+- Fehmarn
+- Palermo
+- Nottingham
+- Fellbach
+- Weikersheim
+- Bagcilar
+- Bağcılar
+- Krasnodar
+- Leutkirch Im Allgäu
+- Kisangani
+- Forchtenberg
+- Weismain
+- Lichtenau
+- Frankenberg an der Eder
+- Weilheim An Der Teck
+- Weißenfels
+- Frankfurt Am Main
+- Weißenstadt
+- Jamshedpur
+- Forst
+- Weißenberg
+- Lich
+- Frankenau
+- Lichtenfels
+- Frankenthal
+- Weißensee
+- Weissensee
+- Frauenstein
+- Weiterstadt
+- Freiberg Am Neckar
+- Welzow
+- Wemding
+- Freiburg Im Breisgau
+- Wendlingen
+- Freilassing
+- Werben
+- Freinsheim
+- Werdau
+- Neusalza-Spremberg
+- Bersenbrück
+- Schwabach
+- Nalchik
+- Neue Neustadt
+- Neusäß
+- Besigheim
+- Schwäbisch Gmünd
+- Stary Oskol
+- Betzdorf
+- Schwäbisch Hall
+- Hall
+- Ljubljana
+- Sosnowiec
+- Ürümqi
+- Wushi
+- Curitiba
+- Neustadt Am Kulm
+- Betzenstein
+- Schwabmünchen
+- Kremenchuk
+- Taiyuan
+- Sana'a
+- Niedernhall
+- Blomberg
+- Seeland
+- Altona
+- Århus
+- Aarhus
+- Nördlingen
+- Borgholzhausen
+- Sigmaringen
+- Angarsk
+- Nanchang
+- Nossen
+- Borna
+- Sindelfingen
+- Oberviechtach
+- Bredstedt
+- Spenge
+- Lubumbashi
+- Plymouth
+- Ochsenfurt
+- Bremervörde
+- Sprockhövel
+- Milton Keynes
+- Medan
+- Oppenheim
+- Burgdorf
+- Steinheim An Der Murr
+- Thiruvananthapuram
+- Trivandrum
+- Baotou
+- Oschersleben
+- Burladingen
+- Stolpen
+- Yangzhou
+- Otterndorf
+- Clingen
+- Suhl
+- Eindhoven
+- Constanta
+- Constanța
+- Jüterbog
+- Cuxhaven
+- Tauberbischofsheim
+- Vasylevsky Ostrov
+- Jülich
+- Crivitz
+- Tanna
+- Sisli
+- Şişli
+- Delmenhorst
+- Thannhausen
+- Detmold
+- Thum
+- Kirchhain
+- Döbern
+- Trier
+- Torreón
+- Kirtorf
+- Donaueschingen
+- Trossingen
+- Thalheim
+- Kolbermoor
+- Dransfeld
+- Uetersen
+- Santander
+- Königsberg In Bayern
+- Königsberg
+- Drensteinfurt
+- Ulm
+- Prato
+- Maputo
+- Arzberg
+- Rauenberg
+- Abuja
+- Lunzenau
+- Auerbach
+- Regis-Breitingen
+- Paramaribo
+- Meinerzhagen
+- Bad Honnef
+- Rodenberg
+- Vereeniging
+- Laatzen
+- Elsfleth
+- Vöhrenbach
+- Meßkirch
+- Messkirch
+- Bad Liebenwerda
+- Bydgoszcz
+- Langenburg
+- Ennepetal
+- Waldenburg
+- Esenler
+- Mölln
+- Bad Reichenhall
+- Runkel
+- Plovdiv
+- Severodvinsk
+- Laupheim
+- Eschborn
+- Wangen Im Allgäu
+- Üsküdar
+- Ueskuedar
+- Guilin
+- Lehesten
+- Ettlingen
+- Wasungen
+- Yaroslavl
+- Leutershausen
+- Forchheim
+- Weinstadt
+- Lauta
+- Eschershausen
+- Neunburg Vorm Wald
+- Bernburg
+- Schrobenhausen
+- Brasov
+- Brașov
+- Faisalabad
+- Neunkirchen
+- Bernkastel-Kues
+- Schrozberg
+- Komsomolsk-On-Amur
+- Aleppo
+- Neuötting
+- Neustadt
+- Billerbeck
+- Schwarzenbach An Der Saale
+- Sivas
+- Syktyvkar
+- Bischofsheim An Der Rhön
+- Schwarzenborn
+- Moenchengladbach
+- Neustadt In Sachsen
+- Bischofswerda
+- Busan
+- Schwarzenbach Am Wald
+- Neustadt Bei Coburg
+- Neustadt-Glewe
+- Bingen Am Rhein
+- Bingen
+- Schwentinental
+- Surabaya
+- Niederstotzingen
+- Boizenburg
+- Minneapolis-St. Paul
+- Twin Cities
+- Kropyvnytskyi
+- Nieheim
+- St. Petersburg
+- Denver
+- Aurora
+- Kumasi
+- Bonndorf Im Schwarzwald
+- Bonndorf
+- Puente De Vallecas
+- Seifhennersdorf
+- Montpellier
+- Brandenburg An Der Havel
+- Brandenburg
+- Sapporo
+- Rawalpindi
+- Changzhou
+- Coimbatore
+- Bandung
+- Oberharz Am Brocken
+- Rivne
+- Sonneberg
+- Brandis
+- Obermoschel
+- Oberndorf Am Neckar
+- Oberndorf
+- Indore
+- L'hospitalet De Llobregat
+- L'Hospitalet
+- Bremerhaven
+- Obernburg Am Main
+- Obernburg
+- Oderberg
+- Toluca De Lerdo
+- Toluca
+- Sterlitamak
+- Luoyang
+- Mbuji-Mayi
+- Steinau An Der Straße
+- Oppenau
+- Fuencarral-El Pardo
+- Steinbach-Hallenberg
+- Vykhino-Zhulebino
+- St. Ingbert
+- Sankt Ingbert
+- Marienthal
+- St. Georgen Im Schwarzwald
+- Sankt Georgen im Schwarzwald
+- Southend-On-Sea
+- Osterholz-Scharmbeck
+- Velikiy Novgorod
+- Bursa
+- Stößen
+- Bürstadt
+- Osterburg
+- Osterode Am Harz
+- Sulzbach
+- Ostheim Vor Der Rhön
+- Ostheim
+- Osthofen
+- Celle
+- Mecca
+- Östringen
+- Clausthal-Zellerfeld
+- Südliches Anhalt
+- Cochem
+- Otterberg
+- Antakya
+- Saransk
+- Port Harcourt
+- Jarmen
+- Coesfeld
+- Süßen
+- Johanngeorgenstadt
+- Creußen
+- Tangerhütte
+- Sulzbach-Rosenberg
+- Jena
+- Colditz
+- Sulzburg
+- Yinchuan
+- Rajkot
+- Madurai
+- Jiangmen
+- Kongmoon
+- Tabriz
+- Daejeon
+- Demmin
+- Freren
+- Werl
+- Freital
+- Werdohl
+- Freudenberg
+- Werlte
+- Freudenstadt
+- Wermelskirchen
+- Freyburg
+- Wernau
+- Freystadt
+- Werne
+- Friedrichstadt
+- Wesenberg
+- Friedrichsthal
+- Wesselburen
+- Friesack
+- Wesseling
+- Friesoythe
+- Westerburg
+- Fröndenberg
+- Fritzlar
+- Westerstede
+- Fürstenberg/Havel
+- Fürstenfeldbruck
+- Frohburg
+- Wettin-Löbejün
+- Furtwangen Im Schwarzwald
+- Furtwangen
+- Fulda
+- Wetzlar
+- Fürstenau
+- Widdern
+- Wiehl
+- Garching Bei München
+- Garching
+- Willich
+- Willebadessen
+- Windischeschenbach
+- Gebesee
+- Winnenden
+- Garz
+- Gardelegen
+- Wilsdruff
+- Garding
+- Wilster
+- Wismar
+- Gartz
+- Wilthen
+- Gau-Algesheim
+- Windsbach
+- Gedern
+- Winsen
+- Wittlich
+- Geislingen An Der Steige
+- Geislingen
+- Wittingen
+- Wittstock
+- Genthin
+- Wolfratshausen
+- Wolframs-Eschenbach
+- Gengenbach
+- Schleiz
+- Craiova
+- Rennes
+- Neckarbischofsheim
+- Zelenograd
+- Beelitz
+- Schönau Im Schwarzwald
+- Zeytinburnu
+- Northampton
+- Neuhaus Am Rennweg
+- Berching
+- Schönsee
+- Gebze
+- Großschirma
+- Pausa-Mühltroff
+- Grevenbroich
+- Pfungstadt
+- Pattensen
+- Charleroi
+- Valladolid
+- Sankt Goarshausen
+- Bad Sulza
+- Mülheim
+- Mülheim An Der Ruhr
+- Iași
+- Sankt Goar
+- Bad Staffelstein
+- Severny
+- Mühlheim An Der Donau
+- Tilburg
+- Sankt Augustin
+- Bad Sooden-Allendorf
+- Balakovo
+- Islington
+- Sangerhausen
+- Bad Soden-Salmünster
+- Passau
+- Armavir
+- Murmansk
+- Sandersdorf-Brehna
+- Bad Soden
+- Mühldorf Am Inn
+- Ziesar
+- Göppingen
+- Bila Tserkva
+- Kherson
+- Sandau
+- Bad Sobernheim
+- Zierenberg
+- Gommern
+- Dudley
+- Smolensk
+- Salzwedel
+- Bad Segeberg
+- Ziegenrück
+- Golseen
+- Golßen
+- Zeven
+- Goldkronach
+- Zeulenroda-Triebes
+- Goldberg
+- Goch
+- Gnoien
+- Delbrück
+- Birkenhead
+- Pamplona
+- Delitzsch
+- Karlstadt am Main
+- Karlstadt
+- Sunderland
+- Izmit
+- Tirschenreuth
+- Dettelbach
+- Kaufbeuren
+- Geneve
+- Übach-Palenberg
+- Dornburg
+- Klingenthal
+- Makeyevka
+- Makiivka
+- Pontoise
+- Überlingen
+- Dornhan
+- Klötze
+- Hengyang
+- Richtenberg
+- Baden-Baden
+- Marlow
+- Ivanovo
+- Yuzhno-Sakhalinsk
+- Vallendar
+- Ebersbach An Der Fils
+- Korbach
+- Rödental
+- Bad Hönningen
+- Meiningen
+- Mbabane
+- Muratpaşa
+- Muratpasa
+- Verl
+- Eibelstadt
+- Kreuztal
+- Rüdesheim Am Rhein
+- Bad Oldesloe
+- Mittweida
+- Yokohama
+- Waldbröl
+- Endingen
+- Endingen Am Kaiserstuhl
+- Langelsheim
+- Memphis
+- Rüsselsheim
+- Rüsselsheim Am Main
+- Bad Rodach
+- Ruhland
+- Bad Rappenau
+- Mersin
+- Waldershof
+- Ennigerloh
+- Längenfeld
+- Langenfeld
+- Mombasa
+- Sachsenheim
+- Bad Schussenried
+- Long Beach
+- Donetsk
+- Walldorf
+- Erkelenz
+- Lauda-Königshofen
+- Mysuru
+- Mysore
+- Speyer
+- Breisach
+- Oberwesel
+- Spalt
+- Braunsbedra
+- Oberriexingen
+- Spangenberg
+- Obertshausen
+- Merkezefendi
+- Messina
+- Steinbach
+- Burg
+- Olpe
+- Visakhapatnam
+- Burglengenfeld
+- Ornbau
+- Cherkasy
+- Brăila
+- Braila
+- Straubing
+- Buxtehude
+- Teublitz
+- Datteln
+- Kandel
+- Teuchern
+- Daun
+- Kandern
+- Treuen
+- Kirchberg in Tirol
+- Kirchberg
+- Swindon
+- Trochtelfingen
+- Dömitz
+- Kirchheim Unter Teck
+- Kaunas
+- Tuttlingen
+- Dorfen
+- Uelzen
+- Koblenz
+- Wandsbek
+- Riesa
+- Bad Gandersheim
+- Mayen
+- Basseterre
+- Toulouse
+- Turku
+- Velburg
+- Eckartsberga
+- Rodewisch
+- Bad Karlshafen
+- Meissen
+- Duschanbe
+- Leeds
+- Mansfield
+- Vetschau
+- Eichstätt
+- Kronberg
+- Kronberg Im Taunus
+- Port Elizabeth
+- Wiehe
+- Roßleben-Wiehe
+- Bad Lauterberg
+- Merzig
+- Vohburg
+- Elmshorn
+- Kyritz
+- Zlatoust
+- Florence
+- Rottweil
+- Bad Neustadt An Der Saale
+- Mittenwalde
+- Bangui
+- Belgrade
+- Waibstadt
+- Emmerich
+- Emmerich Am Rhein
+- Quetta
+- Barnaul
+- Bahçelievler
+- Bahcelievler
+- Wallenfels
+- Erkrath
+- Lauf An Der Pegnitz
+- Bogor
+- Çankaya
+- Cankaya
+- Wedel
+- Euskirchen
+- Lehrte
+- Khabarovsk
+- Volgograd
+- Walsrode
+- Laufen
+- Hai Phong
+- Ober-Ramstadt
+- Bräunlingen
+- Spaichingen
+- Manaus
+- Sontra
+- Braunlage
+- Obernkirchen
+- Kostroma
+- Shakhty
+- Sankt Blasien
+- St. Blasien
+- Büdelsdorf
+- Olbernhau
+- Taganrog
+- Banja Luka
+- Steinach
+- Oldenburg
+- Yoshkar-Ola
+- Babruysk
+- Bünde
+- Oldenburg In Holstein
+- Sulz
+- Sulz Am Neckar
+- Coburg
+- Overath
+- Vijayawada
+- Sulingen
+- Cloppenburg
+- Ottweiler
+- Tettnang
+- Dassow
+- Kamp-Lintfort
+- Tengen
+- Dargun
+- Kaltennordheim
+- Templin
+- Dannenberg
+- Kaltenkirchen
+- Thessaloniki
+- Vantaa
+- Trebbin
+- Dingolfing
+- Ketzin
+- Syzran
+- Trebsen
+- Dinkelsbühl
+- Kevelaer
+- Çorum
+- Corum
+- Uebigau-Wahrenbrück
+- Dornstetten
+- Victoria
+- Usingen
+- Ebeleben
+- Königs Wusterhausen
+- Yasenevo
+- Szczecin
+- Rinteln
+- Bad Griesbach
+- Meckenheim
+- Kingstown
+- Murcia
+- Siverek
+- Vellberg
+- Edenkoben
+- Krakow Am See
+- Ahvaz
+- Rosenheim
+- Bad Langensalza
+- Meppen
+- Skopje
+- Kyiv
+- Vlotho
+- Ellingen
+- Rötha
+- Bad Marienberg
+- Meuselwitz
+- Port Vila
+- Volkmarsen
+- Elterlein
+- Lahr
+- Izhevsk
+- Łódź
+- Lodz
+- Weener
+- Eutin
+- Leichlingen
+- Goyang
+- Odesa
+- Waltershausen
+- Erlenbach Am Main
+- Laufenburg
+- Wroclaw
+- Antalya
+- Badalona
+- Neumünster
+- Bernau Bei Berlin
+- Schriesheim
+- Nantes
+- Adiyaman
+- Bernsdorf
+- Schüttorf
+- Strasbourg
+- Grozny
+- Schwarzenbek
+- Ghent
+- Nanning
+- Ningbo
+- Bitburg
+- Schweich
+- Niddatal
+- Blankenhain
+- Yakutsk
+- Böblingen
+- Seesen
+- Blackpool
+- Niemegk
+- Sancaktepe
+- Norderstedt
+- Bopfingen
+- Seßlach
+- Northeim
+- Borken
+- Simbach Am Inn
+- Oberasbach
+- Boxberg
+- Sinzig
+- Balikesir
+- Oberkochen
+- Sömmerda
+- Sant Marti
+- Sant Martí
+- Carabanchel
+- Oberursel
+- Breckerfeld
+- Speicher
+- Oberwiesenthal
+- Spremberg
+- Brilon
+- Stadtbergen
+- Ochtrup
+- Breuberg
+- Stadtallendorf
+- Ploiesti
+- Ploiești
+- Olfen
+- Büren
+- Hamburg-Nord
+- Orlamünde
+- Burgkunstadt
+- Ortrand
+- Burg Stargard
+- Stolberg
+- Osterfeld
+- Butzbach
+- Lutsk
+- Strausberg
+- Norwich
+- Elazig
+- Elazığ
+- Stutensee
+- Esenyurt
+- Surgut
+- Jöhstadt
+- Creuzburg
+- Tangermünde
+- Dachau
+- Taunusstein
+- Kalbe
+- Dahn
+- Telgte
+- Marseille
+- Kamenz
+- Dassel
+- Teterow
+- Lyon
+- Kamen
+- Ticino
+- Katzenelnbogen
+- Dessau-Roßlau
+- Themar
+- Fuenlabrada
+- Kelsterbach
+- Dietfurt
+- Tönning
+- Dillingen An Der Donau
+- Dillingen
+- Traben-Trarbach
+- Zabrze
+- Dinklage
+- Treffurt
+- Bytom
+- Arkhangelsk
+- Dissen Am Teutoburger Wald
+- Dissen
+- Döbeln
+- Triberg Im Schwarzwald
+- Triberg
+- Atasehir
+- Ataşehir
+- Klütz
+- Knittlingen
+- Dorsten
+- Ueckermünde
+- Korolyov
+- Nizhny Tagil
+- Königsbrunn
+- Drolshagen
+- Ulrichstein
+- Yingkou
+- Ramallah
+- Ebermannstadt
+- Vacha
+- Harare
+- Marktsteft
+- Bad Elster
+- Rhinow
+- Bryansk
+- Tripoli
+- Lollar
+- Am Ettersberg
+- Külsheim
+- Eisfeld
+- Vilseck
+- Menden
+- Bad Kreuznach
+- Ronnenberg
+- Kahramanmaras
+- Kahramanmaraş
+- Geneva
+- Chandigarh
+- Laichingen
+- Eltmann
+- Vreden
+- Kalininsky
+- Meyenburg
+- Bad Mergentheim
+- Röthenbach An Der Pegnitz
+- Denpasar
+- Landstuhl
+- Emsdetten
+- Waischenfeld
+- Lipetsk
+- Nikosia
+- Mitterteich
+- Bad Oeynhausen
+- Rötz
+- Erkner
+- Walldürn
+- Brussels
+- Umraniye
+- Benxi
+- Lauffen Am Neckar
+- Erlensee
+- Waltrop
+- Lebus
+- Esslingen Am Neckar
+- Esslingen
+- Wasserburg Am Inn
+- Leinfelden-Echterdingen
+- Falkenstein/Harz
+- Wehr
+- Riga
+- Ulyanovsk
+- Krasnoyarsk
+- Weingarten
+- Lenzen
+- Fladungen
+- Weilheim In Oberbayern
+- Putian
+- Lichtenberg
+- Frankenberg
+- Weißenhorn
+- Yancheng
+- Lichtenstein
+- Weißenthurm
+- Franzburg
+- Weißwasser
+- Freising
+- Werder
+- Neuruppin
+- Bernstadt auf dem Eigen
+- Schwaan
+- Belfast
+- Radom
+- Neuwied
+- Bitterfeld-Wolfen
+- Schweinfurt
+- Nizhnekamsk
+- Bocholt
+- Sehnde
+- Kamianske
+- Khimki
+- Nordhausen
+- Boppard
+- Siegburg
+- Trabzon
+- Nürtingen
+- Bottrop
+- Sinsheim
+- Nordhorn
+- Borgentreich
+- Siegen
+- Oberlungwitz
+- Brand-Erbisdorf
+- Sondershausen
+- Ternopil
+- Gdynia
+- Oberzent
+- Springe
+- Elche
+- Petrozavodsk
+- Olching
+- Büdingen
+- Blagoveshchensk
+- Horlivka
+- Ohrdruf
+- Bückeburg
+- Staufenberg
+- Bari
+- Weifang
+- Portland
+- Ochsenhausen
+- Bretten
+- Stade
+- Brisbane
+- Naples
+- Osterwieck
+- Calbe
+- Strehla
+- Mokotow
+- Mokotów
+- Bradford
+- Castrop-Rauxel
+- Stühlingen
+- Swansea
+- Kaarst
+- Daaden
+- Taucha
+- Kaisersesch
+- Dahlen
+- Tecklenburg
+- Dahme
+- Tegernsee
+- Kelbra
+- Diemelstadt
+- Tittmoning
+- Kryvyi Rih
+- Krivoy Rog
+- Salem
+- Lengerich
+- Filderstadt
+- Weil Der Stadt
+- Togliatt
+- Tolyatti
+- Weißenburg In Bayern
+- Weissenburg in Bayern
+- Kollam
+- Wuhu
+- Srinagar
+- Milwaukee
+- Frechen
+- Welzheim
+- Quanzhou
+- Wegberg
+- Leimen
+- Wanzleben-Börde
+- Eschenbach
+- Eschenbach In Der Oberpfalz
+- Lauscha
+- Mianyang
+- Cracow
+- Kraków
+- Krakow
+- Wegeleben
+- Falkensee
+- Leinefelde-Worbis
+- Aligarh
+- Diyarbakir
+- Amsterdam
+- Weida
+- Falkenstein
+- Leipheim
+- Zagreb
+- Finsterwalde
+- Lennestadt
+- Weimar
+- Flensburg
+- Leonberg
+- Weinsberg
+- Florstadt
+- Leutenberg
+- Sulaimaniyya
+- Warburg
+- Vladivostok
+- Lauter-Bernsbach
+- Eschwege
+- Waren
+- Lauterbach
+- Eschweiler
+- Warendorf
+- Turin
+- Suqian
+- Lauterecken
+- Esens
+- Warin
+- Nanchong
+- Lauterstein
+- Espelkamp
+- Warstein
+- Saratov
+- Kayseri
+- Guwahati
+- Leer
+- Ettenheim
+- Wassertrüdingen
+- Zaporizhia
+- Zaporozhye
+- Zaporizhzhia
+- Flörsheim Am Main
+- Weinheim
+- Leuna
+- Puning
+- Neustadt Am Rübenberge
+- Neustadt An Der Donau
+- Beverungen
+- Schwaigern
+- Neustadt An Der Aisch
+- Bexbach
+- Schwalbach Am Taunus
+- Biberach An Der Riß
+- Biberach
+- Biberach an der Riss
+- Schwalmstadt
+- Hamamatsu
+- Neustadt An Der Orla
+- Biedenkopf
+- Schwandorf
+- Hefei
+- Neustadt An Der Waldnaab
+- Schwanebeck
+- Oakland
+- Tangshan
+- Nienburg
+- Bockenem
+- Czestochowa
+- Częstochowa
+- Novorossiysk
+- Neustadt An Der Weinstraße
+- Biesenthal
+- Schwarzatal
+- Fuzhou
+- Bietigheim-Bissingen
+- Shijiazhuang
+- Neustadt In Holstein
+- Birkenfeld
+- Schwarzenberg
+- Wenzhou
+- Neustrelitz
+- Schwarzheide
+- Luton
+- Dzerzhinsk
+- Ibadan
+- Neutraubling
+- Schwedt
+- Hamburg-Mitte
+- Nidda
+- Blankenburg
+- Schwelm
+- Bratsk
+- Nidderau
+- Blaubeuren
+- Schwerin
+- Nideggen
+- Blaustein
+- Schwerte
+- Kanpur
+- Niebüll
+- Bleckede
+- Schwetzingen
+- Maschhad
+- Niedenstein
+- Bleicherode
+- Sebnitz
+- Wolverhampton
+- Chernivtsi
+- Niederkassel
+- Blieskastel
+- Seehausen
+- Eimsbuettel
+- Eimsbüttel
+- Kosice
+- Košice
+- Nieder-Olm
+- Blumberg
+- Seelow
+- Niederstetten
+- Bobingen
+- Seelze
+- Lanzhou
+- Bodenwerder
+- Selbitz
+- Nierstein
+- Bogen
+- Seligenstadt
+- Incheon
+- Niesky
+- Böhlen
+- Selm
+- Nittenau
+- Selters
+- Nordenham
+- Sendenhorst
+- Nizhnevartovsk
+- Norderney
+- Bönnigheim
+- Senftenberg
+- Nortorf
+- Borkum
+- Simmern
+- Bornheim
+- Singen
+- Kozhikode
+- Brackenheim
+- Soest
+- Brake
+- Solingen
+- Oberhof
+- Brakel
+- Solms
+- Zibo
+- Oberkirch
+- Bramsche
+- Soltau
+- Thrissur
+- Braubach
+- Sonnewalde
+- Huizhou
+- Braunfels
+- Sonthofen
+- Oschatz
+- Burgwedel
+- Belgorod
+- Klaipėda
+- Klaipeda
+- Tornesch
+- Dillenburg
+- Kempen
+- Trendelburg
+- Dinslaken
+- Kierspe
+- Triptis
+- Dohna
+- Kirchheimbolanden
+- Königslutter
+- Königslutter Am Elm
+- Königstein Im Taunus
+- Königswinter
+- Königstein
+- Kishinev
+- Chisinau
+- Chișinău
+- Irkutsk
+- Quedlinburg
+- Almere
+- Almere Stad
+- Rodalben
+- Bad Homburg
+- Bad Homburg Vor Der Höhe
+- Meersburg
+- Juba
+- Cardiff
+- Isparta
+- Verden
+- Ehingen
+- Kremmen
+- Basaksehir
+- Viciebsk
+- Vitebsk
+- Ruhla
+- Bad Pyrmont
+- Möckmühl
+- Saarburg
+- Bad Saulgau
+- Mörfelden-Walldorf
+- Málaga
+- Malaga
+- Chelyabinsk
+- Waldmünchen
+- Erding
+- Laucha An Der Unstrut
+- Arnavutkoey
+- Saarlouis
+- Bad Schandau
+- Moringen
+- Poznań
+- Poznan
+- Waldsassen
+- Erftstadt
+- Lauchhammer
+- Sachsenhagen
+- Bad Schmiedeberg
+- Mosbach
+- Guangzhou
+- Göteborg
+- Gothenburg
+- Goeteborg
+- Dnipro
+- Waldshut-Tiengen
+- Lauchheim
+- Zhuzhou
+- Stockach
+- Burgstädt
+- Ortenberg
+- Sternberg
+- Adapazari
+- Burghausen
+- Rybinsk
+- Oranienburg
+- Burgau
+- Steinfurt
+- Olsberg
+- Huai’an
+- Gijón
+- Gijon
+- Stavenhagen
+- Buckow
+- Öhringen
+- Batikent
+- Stromberg
+- Calw
+- Ostfildern
+- Sultanbeyli
+- Prokopyevsk
+- Stendal
+- Bürgel
+- Oranienbaum
+- Oranienbaum-Wörlitz
+- Zhytomyr
+- Steinheim
+- Burgbernheim
+- Volzhsky
+- Teuschnitz
+- Deidesheim
+- Karben
+- Thale  -->
+
+<!-- ## synonym:languages
+- Ucraniano
+- Esloveno
+- Romeno
+- Português
+- Alemão
+- Valiriano
+- Dothraki
+- Valarin
+- Entish
+- Khuzdul
+- Rohirric
+- Westron
+- Adunaico
+- Sindarin
+- Telerin
+- Quenya
+- Suaíli Élfico
+- Susu
+- Sundanês
+- Árabe do Sudão
+- Espanhol
+- Sorani
+- Somali
+- Eslovaco
+- Cingalês
+- Siciliano
+- Sichuan
+- Shona
+- Xangai
+- Sérvio
+- Samoano
+- Russo
+- Quechua
+- Putian
+- Punjabi
+- Pulaar
+- Pothwari
+- Crioulo
+- Polonês
+- Inglês Pidgin
+- patois
+- pashto
+- papiamento
+- papago
+- pahari
+- oromo
+- norueguês
+- pidgin nigeriano
+- nepalês
+- napolitano
+- navajo
+- montenegrino
+- mongol
+- moldavo
+- mixteco
+- mirpuri
+- marshallês
+- marathi
+- mandinka
+- mandarim
+- maltês
+- malaio
+- Maced oniano
+- Maay
+- Luganda
+- Lituano
+- Lingala
+- Letão
+- Laosiano
+- Lakota
+- Quirguizistão
+- Kurmanji
+- Curdo
+- Krio
+- Kotokoli
+- Kosovan
+- Coreano
+- Kirundi
+- Kinyarwanda
+- Kikuyu
+- Cazaque
+- Caxemira
+- Karenni
+- Karen
+- Kanjobal
+- Javanês
+- Japonês
+- Jakartanese
+- Italiano
+- Inuktitut
+- Indonésio
+- Ilocano
+- Igbo
+- Islandês
+- Ibanag
+- Húngaro
+- Hmong
+- Hindi
+- Hebraico
+- Hausa
+- Hakka-chinês
+- Hakka
+- Crioulo haitiano
+- Gujarati
+- Grego
+- Gorani
+- Newark
+- Georgiano
+- Gaélico-Escocês
+- Gaélico-Irlandês
+- Gaélico
+- Gaddang
+- Fuzhounese
+- Fulani
+- Fula
+- Fukienês
+- Francês
+- Flamengo
+- Finlandês
+- Farsi
+- Fante
+- Espanol
+- Estoniano
+- Holandês
+- Diula
+- Dinka
+- Dari
+- Dinamarquês
+- Checo
+- Croata
+- Chuukese
+- Chavacano
+- Chao-Chow
+- Chamorro
+- Caldeu
+- catalão
+- cantonês
+- cambojano
+- cakchiquel
+- birmanês
+- búlgaro
+- bravio
+- bósnio
+- berbere
+- bengali
+- bielorrusso
+- behdini
+- basco
+- bajuni
+- azeri
+- azerbaijano
+- assírio
+- ashante
+- árabe
+- amárico
+- albanês
+- africâner
+- acholi
+- inglês
+- Ioruba Yupik
+- Iídiche
+- Wolof
+- Galês
+- Visayan
+- Vietnamita
+- Uzbeque
+- Uigur
+- Urdu
+- Turco
+- Tshiluba
+- Trique
+- Toucouleur
+- Tonganês
+- Toishanese
+- Tigrínia
+- Tibetano
+- Tailandês
+- Telugu
+- Tâmil
+- Tadjique
+- Taiwan
+- Tagalo
+- Sylhetti
+- Sueco
+ -->

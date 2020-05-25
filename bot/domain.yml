@@ -1,13 +1,257 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
 slots:
+  total_nr_tries:
+    type: float
+    initial_value: 0.0
   bot_name:
     type: text
     initial_value: "Helena"
+  bot_introduced:
+    type: bool
+    initial_value: False
   bot_version:
     type: text
     initial_value: "0.1"
+  bot_time:
+    type: text
+  bot_date:
+    type: text
+  active_cases:
+    type: unfeaturized
+  country:
+    type: text
+  new_cases:
+    type: unfeaturized
+  new_deaths:
+    type: unfeaturized 
+  total_cases:
+    type: unfeaturized
+  total_recovered:
+    type: unfeaturized
+  total_deaths:
+    type: unfeaturized
+  total_tests:
+    type: unfeaturized 
+  total_infected_critical:
+    type: unfeaturized
+  search_successful:
+    type: categorical
+    values:
+      - ok
+      - inexistent-country
+      - wrong-country
+      - not-ok
+  language_slot:
+    type: categorical
+    values:
+    - 'pt'
+    initial_value: 'pt'
+  preferred_lang:
+    type: categorical
+    values:
+    - 'pt'
+    - 'en'
+    - 'de'
+    initial_value: 'pt'
+  pt_country_municipal:
+    type: text
+  country_municipal:
+    type: text
+  country_municipal_confirmed_accum:
+    type: unfeaturized
+  country_municipal_search_successful:
+    type: categorical
+    values:
+      - ok
+      - empty
+      - not-ok
+  pt_country_code:
+    type: text
+  pt_country_region:
+    type: text
+  country_region:
+    type: text
+  country_region_confirmed_accum:
+    type: unfeaturized
+  country_region_search_successful:
+    type: categorical
+    values:
+      - ok
+      - empty
+      - not-ok
 
+entities:
+  - pt_country_code 
+  - pt_virus
+  - language
+  - bot_language_code
+  - preferred_lang
+  - pt_country_municipal
+  - pt_country_region
+  
+actions:
+  - action_get_date
+  - action_get_time
+  - action_default_fallback
+  - action_change_preferred_language
+  - action_search_stats
+  - action_check_Bot_Introduced
+  - action_get_news_request
+  - action_search_stats_municipal
+  - action_search_stats_region
+  - utter_pt_welcome
+  - utter_pt_ask_country
+  - utter_pt_ask_which_country
+  - utter_pt_bot_appearance
+  - utter_pt_bot_availability
+  - utter_pt_bot_books
+  - utter_pt_bot_capabilities
+  - utter_pt_bot_fear
+  - utter_pt_bot_goal
+  - utter_pt_bot_languages
+  - utter_pt_bot_movies
+  - utter_pt_bot_music
+  - utter_pt_bot_name
+  - utter_pt_bot_origin
+  - utter_pt_bot_personality
+  - utter_pt_bot_real
+  - utter_pt_bot_residence
+  - utter_pt_bot_sexual
+  - utter_pt_bot_version
+  - utter_pt_cc_chicken_egg
+  - utter_pt_cc_joke
+  - utter_pt_cc_lets_talk
+  - utter_pt_cc_moon
+  - utter_pt_cc_newspaper
+  - utter_pt_cc_philosophical
+  - utter_pt_cc_politics
+  - utter_pt_cc_religion
+  - utter_pt_cc_weather
+  - utter_pt_comment_negative
+  - utter_pt_comment_offense
+  - utter_pt_comment_positive
+  - utter_pt_comment_racist
+  - utter_pt_comment_smart
+  - utter_pt_coronavirus_info
+  - utter_pt_covid_aftereffects_immunity
+  - utter_pt_covid_alike
+  - utter_pt_covid_babys_children
+  - utter_pt_covid_close_contact
+  - utter_pt_covid_community_transmission
+  - utter_pt_covid_cosibot
+  - utter_pt_covid_crisis_howlong
+  - utter_pt_covid_current_statistics
+  - utter_pt_covid_duration
+  - utter_pt_covid_incubation
+  - utter_pt_covid_influenza
+  - utter_pt_covid_info
+  - utter_pt_covid_meaning
+  - utter_pt_covid_mortality_rate
+  - utter_pt_covid_no_country_current_statistics
+  - utter_pt_covid_pandemic
+  - utter_pt_covid_preexisting_illness
+  - utter_pt_covid_pregnancy
+  - utter_pt_covid_sars
+  - utter_pt_covid_situation
+  - utter_pt_covid_situation_deaths
+  - utter_pt_covid_situation_infected
+  - utter_pt_covid_situation_infected_critical
+  - utter_pt_covid_situation_last_update
+  - utter_pt_covid_situation_recovered
+  - utter_pt_covid_situation_tested
+  - utter_pt_covid_surfaces
+  - utter_pt_covid_symptoms
+  - utter_pt_covid_worry
+  - utter_pt_features_date
+  - utter_pt_features_time
+  - utter_pt_further_questions
+  - utter_pt_greeting_goodbye
+  - utter_pt_greeting_hello
+  - utter_pt_greeting_how_are_you
+  - utter_pt_init
+  - utter_pt_mask_general
+  - utter_pt_mask_use_after
+  - utter_pt_mask_use_put
+  - utter_pt_myth_alcohol
+  - utter_pt_myth_antibiotics
+  - utter_pt_myth_garlic
+  - utter_pt_myth_hand_dryer
+  - utter_pt_myth_packages
+  - utter_pt_myth_pneumonia_vaccine
+  - utter_pt_myth_saline
+  - utter_pt_myth_sesame_oil
+  - utter_pt_myth_thermal_scanner
+  - utter_pt_myth_transmission_hot_areas
+  - utter_pt_myth_uv_lamps
+  - utter_pt_patient_home
+  - utter_pt_patient_referral
+  - utter_pt_portugal_government_measures
+  - utter_pt_portugal_ill_foreigner
+  - utter_pt_portugal_ill_no_covid
+  - utter_pt_portugal_rates
+  - utter_pt_prevenion_medical_attention
+  - utter_pt_prevention_clean_hands
+  - utter_pt_prevention_distance
+  - utter_pt_prevention_entering_home
+  - utter_pt_prevention_food
+  - utter_pt_prevention_general
+  - utter_pt_prevention_gloves
+  - utter_pt_prevention_home
+  - utter_pt_prevention_information
+  - utter_pt_prevention_measures
+  - utter_pt_prevention_medicine
+  - utter_pt_prevention_respiratory_hygiene
+  - utter_pt_prevention_touch
+  - utter_pt_quarantine_children
+  - utter_pt_quarantine_dos_and_donts
+  - utter_pt_quarantine_toiletpaper
+  - utter_pt_sources
+  - utter_pt_spread_air
+  - utter_pt_spread_animals
+  - utter_pt_spread_feces
+  - utter_pt_spread_general
+  - utter_pt_spread_no_symptoms
+  - utter_pt_spread_pets
+  - utter_pt_spread_risk
+  - utter_pt_spread_surfaces_food_objects
+  - utter_pt_state_emergency_groceries
+  - utter_pt_state_emergency_info
+  - utter_pt_state_emergency_run
+  - utter_pt_test_general
+  - utter_pt_test_per_day
+  - utter_pt_test_what
+  - utter_pt_test_where
+  - utter_pt_travel_after
+  - utter_pt_travel_before
+  - utter_pt_travel_while
+  - utter_pt_user_angry
+  - utter_pt_user_friend
+  - utter_pt_user_happy
+  - utter_pt_user_love
+  - utter_pt_user_no_further_questions
+  - utter_pt_user_particles
+  - utter_pt_user_scared
+  - utter_pt_user_thumbs_up
+  - utter_pt_vocative_call
+  - utter_pt_vocative_help
+  - utter_pt_vocative_sorry
+  - utter_pt_vocative_thank_you
+  - utter_pt_vocative_you_welcome
+  - utter_pt_want_to_add_country
+  - utter_fallback_request_hasdata
+  - utter_fallback_request_emptyanswer
+  - utter_fallback_first
+  - utter_news_request_hasdata
+  - utter_news_request_emptyanswer
+  - utter_country_municipal_hasdata
+  - utter_country_region_hasdata
 
 intents:
+  - start
+  - pt_bot_change_bot
   - pt_bot_appearance
   - pt_bot_availability
   - pt_bot_books
@@ -65,6 +309,7 @@ intents:
   - pt_covid_pandemic
   - pt_covid_preexisting_illness
   - pt_covid_sars
+  - pt_country
   - pt_covid_situation
   - pt_covid_situation_deaths
   - pt_covid_situation_infected
@@ -143,9 +388,16 @@ intents:
   - pt_vocative_thank_you
   - pt_vocative_yes
   - pt_vocative_you_welcome
-
+  - pt_news_request
 
 responses:
+  utter_pt_welcome:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da Covid 19, tais como evitar a propagação, ou esclarecer alguns mitos que se leem por aí. Como posso ajudá-lo?</speak>
+          - type: text
+            text: Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da Covid 19, tais como evitar a propagação, ou esclarecer alguns mitos que se leem por aí. Como posso ajudá-lo? 
   utter_pt_portugal_rates:
     - custom:
         answers:
@@ -339,6 +591,27 @@ responses:
             ssml: <speak>Agradeço imenso o seu like.</speak>
           - type: text
             text: Agradeço imenso o seu like.
+  
+  utter_pt_greeting_hello:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Olá, em que posso ajudá-lo?</speak>
+          - type: text
+            text: Olá, em que posso ajudá-lo?
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Olá! Em que posso ser útil?</speak>
+          - type: text
+            text: Olá! Em que posso ser útil?
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Saudações! O que posso fazer por si?</speak>
+          - type: text
+            text: Saudações! O que posso fazer por si?
+            
   utter_pt_greeting_goodbye:
     - custom:
         answers:
@@ -358,7 +631,6 @@ responses:
             ssml: <speak>Adeus! Obrigada pela sua visita!</speak>
           - type: text
             text: Adeus! Obrigada pela sua visita!
-
   utter_pt_init:
     - custom:
         answers:
@@ -384,86 +656,137 @@ responses:
             ssml: <speak>Vai tudo bem. Espero que por aí também.</speak>
           - type: text
             text: Vai tudo bem. Espero que por aí também.
-  utter_:
+  utter_pt_covid_situation:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Não consigo encontrar a informação que procura. Aconselho que
-              visite os websites das agências de noticias Lusa e RTP para obter
-              mais noticias.</speak>
+            text: <speak>A última atualização indica que, em {country} existe um total {active_cases} casos ativos. 
+              {total_recovered} recuperaram e {total_deaths} não resistiram à COVID-19. </speak>
           - type: text
-            text: Não consigo encontrar a informação que procura. Aconselho que visite os
-              websites das agências de noticias Lusa e RTP para obter mais
-              noticias.
-          - type: links
-            links:
-              - title: Agência Lusa
-                url: https://www.lusa.pt/covid19
-              - title: RTP
-                url: https://www.rtp.pt/noticias/
+            text: A última atualização indica que, em {country} existe um total {active_cases} casos ativos. 
+              {total_recovered} recuperaram e {total_deaths} não resistiram à COVID-19. 
+  utter_pt_covid_situation_deaths:
+    - custom:
+        answers:
           - type: ssml
-            ssml: <speak>Neste momento não possuo a informação que está à procura. Se
-              quiser, pode visitar o website do Serviço Nacional de Saúde e da
-              Direção Geral de Saúde para obter mais informação sobre este
-              surto.</speak>
+            text: <speak>De acordo com a última atualização, em {country} existe um total de 
+              {total_deaths} fatalidades pelo COVID-19.</speak>
           - type: text
-            text: Neste momento não possuo a informação que está à procura. Se quiser, pode
-              visitar o website do Serviço Nacional de Saúde e da Direção Geral
-              de Saúde para obter mais informação sobre este surto.
-          - type: links
-            links:
-              - title: SNS24 (COVID-19)
-                url: https://www.sns24.gov.pt/alerta/novo-coronavirus/
-              - title: DGS (COVID-19)
-                url: https://covid19.min-saude.pt/
+            text: De acordo com a última atualização, em {country} existe um total de 
+              {total_deaths} fatalidades pelo COVID-19.  
+  utter_pt_covid_situation_infected:
+    - custom:
+        answers:
           - type: ssml
-            ssml: <speak>Olá, em que posso ajudá-lo?</speak>
+            text: <speak>Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {active_cases} infetados.</speak>
+          - type: text
+            text: Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {active_cases} infetados.
+  utter_pt_covid_situation_infected_critical:
+    - custom:
+        answers:
           - type: ssml
-            ssml: <speak>Olá! Em que posso ser útil?</speak>
+            text: <speak>A última atualização disponível em {country} aponta para 
+              um total de {total_infected_critical} infetados internados na Unidade de Cuidados Intensivos.</speak>
+          - type: text
+            text: A última atualização disponível em {country} aponta para 
+              um total de {total_infected_critical} infetados internados na Unidade de Cuidados Intensivos.
+  utter_pt_covid_situation_last_update:
+    - custom:
+        answers:
           - type: ssml
-            ssml: <speak>Saudações! O que posso fazer por si?</speak>
+            text: <speak>Neste momento em {country} existe um valor total de {active_cases} casos ativos. Na última
+              atualização disponível foram identificados {new_cases} novos casos.</speak>
           - type: text
-            text: Olá, em que posso ajudá-lo?
-          - type: text
-            text: Olá! Em que posso ser útil?
-          - type: text
-            text: Saudações! O que posso fazer por si?
+            text: Neste momento em {country} existe um valor total de {active_cases} casos ativos. Na última
+              atualização disponível foram identificados {new_cases} novos casos.
           - type: ssml
-            ssml: <speak>Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da
-              Covid 19, tais como evitar a propagação, ou esclarecer alguns
-              mitos que se leem por aí. Como posso ajudá-lo?</speak>
+            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {total_cases} casos dos quais {active_cases} 
+              ainda estão ativos, {total_recovered} estão totalmente
+              recuperados e {total_deaths} não sobreviveram.</speak>
           - type: text
-            text: Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da
-              COVID-19, tais como evitar a propagação, ou esclarecer alguns
-              mitos que se leem por aí. Como posso ajudá-lo?
+            text: Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {total_cases} casos dos quais {active_cases} 
+              ainda estão ativos, {total_recovered} estão totalmente
+              recuperados e {total_deaths} não sobreviveram.
           - type: ssml
-            ssml: <speak>Poderei estar confusa sobre o seu pedido, ajude-me a esclarecê-lo
-              melhor escolhendo uma das seguintes opções.  <?
-              $form_result['data']['ssml'] ?> </speak>
+            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {active_cases} casos ativos.</speak>
           - type: text
-            text: Poderei estar confusa sobre o seu pedido, ajude-me a esclarecê-lo melhor
-              escolhendo uma das seguintes opções.
-          - ""
+            text: Os últimos dados disponiveis indicam que neste momento em
+              {country} existe um valor total de {active_cases} casos ativos.
           - type: ssml
-            ssml: "<speak>Você quer falar sobre: <? '$form_result['data']['ssml] ?>
-              ?</speak>"
+            ssml: <speak>Neste momento em {country} existe um valor total de
+              {total_cases} casos dos quais {active_cases} ainda estão ativos, 
+              {total_recovered} estão totalmente recuperados e {total_deaths} não
+              sobreviveram.Na ultima atualização existiam {new_cases} novos casos 
+              e {new_deaths} novas fatalidades.</speak>
           - type: text
-            text: "Você quer falar sobre: <? '$form_result['data'][text'] ?>"
+            text: Neste momento em {country} existe um valor total de
+              {total_cases} casos dos quais {active_cases} ainda estão ativos, 
+              {total_recovered} estão totalmente recuperados e {total_deaths} não
+              sobreviveram.Na ultima atualização existiam {new_cases} novos casos 
+              e {new_deaths} novas fatalidades.  
+  utter_pt_covid_situation_recovered:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>Os últimos dados indicam que, no momento, em {country}, há um 
+              total de {total_recovered} casos recuperados.</speak>
+          - type: text
+            text: Os últimos dados indicam que, no momento, em {country}, há um 
+              total de {total_recovered} casos recuperados.
+  utter_pt_covid_situation_tested:
+    - custom:
+        answers:
+          - type: ssml
+            text: <speak>A última atualização de dados indica que em {country} 
+              foram realizados {total_tests} desde o início de recolha de dados. </speak>
+          - type: text
+            text: A última atualização de dados indica que em {country} 
+              foram realizados {total_tests} desde o início de recolha de dados.
+  utter_pt_want_to_add_country:
+    - custom:
+        answers:
+          - type: text
+            text: Deseja adicionar um país à sua pesquisa?
+          - type: ssml
+            text: <speak>Deseja adicionar um país à sua pesquisa?</speak>
           - type: multichoice
             options:
               - label: Sim
                 value: Sim
               - label: Não
                 value: Não
-          - type: ssml
-            ssml: <speak>Pode ler sobre as últimas noticias nos links fornecidos
-              abaixo:</speak>
+  utter_pt_ask_which_country:
+    - custom:
+        answers:
           - type: text
-            text: "Pode ler sobre as últimas noticias nos links fornecidos abaixo:"
-          - ""
+            text: Que país devo adicionar à sua pesquisa?
+          - type: ssml
+            text: <speak>Que país devo adicionar à sua pesquisa?</speak>
+  utter_pt_covid_no_country_current_statistics:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O país que procura não está disponível. Para acompanhar a situação ao momento do novo coronavírus em
+              Portugal e no mundo, clique nos links apresentados abaixo.</speak>
+          - type: html
+            text: <p>Para acompanhar a situação ao momento do novo coronavírus em Portugal e
+              no mundo, clique nos links apresentados abaixo:</p>
+          - type: links
+            links:
+              - title: Situação COVID-19 Portugal
+                url: https://esriportugal.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3PGXAR1R8kkr9dMAzz8BV83QeAVl8-WHNHfGRQBuj8eShqJtb1_Ib_mAk#/acf023da9a0b4f9dbb2332c13f635829
+          - type: links
+            links:
+              - title: Situação COVID-19 Mundo
+                url: https://who.sprinklr.com/
           - type: hints
             options:
-              - label: Sobre COVID-19
+              - label: SobreCOVID-19
                 value: Sobre COVID-19
               - label: Medidas Preventivas
                 value: Medidas Preventivas
@@ -471,97 +794,7 @@ responses:
                 value: Transmissão
               - label: Sintomas
                 value: Sintomas
-          - type: ssml
-            ssml: <speak>Fazendo uma pesquisa no website do Serviço Nacional de Saúde e da
-              Direção Geral de Saúde, encontrei os seguintes links:</speak>
-          - type: text
-            text: "Fazendo uma pesquisa no website do Serviço Nacional de Saúde e da Direção
-              Geral de Saúde, encontrei os seguintes links:"
-          - ""
-          - type: ssml
-            ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua
-              pergunta, mas em breve já serei capaz de respondê-la. Pode
-              pedir-me, por exemplo, informações sobre medidas preventivas,
-              sintomas associados à doença ou como o vírus se espalha.</speak>
-          - type: text
-            text: Peço desculpa mas de momento não tenho resposta para a sua pergunta, mas
-              em breve já serei capaz de respondê-la. Pode pedir-me, por
-              exemplo, informações sobre medidas preventivas, sintomas
-              associados à doença ou como o vírus se espalha.
-          - ""
-          - type: text
-            text: Neste momento em $counter_data.country existe um valor total de <?
-              $counter_data.result.data.active_cases ?> casos ativos. Na última
-              atualização disponível foram identificados <?
-              $counter_data.result.data.new_cases ?> novos casos.
-          - type: ssml
-            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
-              $counter_data.country existe um valor total de <?
-              $counter_data.result.data.total_cases ?> casos dos quais <?
-              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
-              $counter_data.result.data.total_recovered ?> estão totalmente
-              recuperados e <? $counter_data.result.data.total_deaths ?> não
-              sobreviveram.</speak>
-          - type: text
-            text: Os últimos dados disponiveis indicam que neste momento em
-              $counter_data.country existe um valor total de <?
-              $counter_data.result.data.total_cases ?> casos dos quais <?
-              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
-              $counter_data.result.data.total_recovered ?> estão totalmente
-              recuperados e <? $counter_data.result.data.total_deaths ?> não
-              sobreviveram.
-          - type: ssml
-            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
-              $counter_data.country existe um valor total de <?
-              $counter_data.result.data.active_cases ?> casos ativos.</speak>
-          - type: text
-            text: Os últimos dados disponiveis indicam que neste momento em
-              $counter_data.country existe um valor total de <?
-              $counter_data.result.data.active_cases ?> casos ativos.
-          - type: ssml
-            ssml: <speak>Neste momento em $counter_data.country existe um valor total de <?
-              $counter_data.result.data.total_cases ?> casos dos quais <?
-              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
-              $counter_data.result.data.total_recovered ?> estão totalmente
-              recuperados e <? $counter_data.result.data.total_deaths ?> não
-              sobreviveram.Na ultima atualização existiam <?
-              $counter_data.result.data.new_cases?> novos casos e  <?
-              $counter_data.result.data.new_deaths?> novas fatalidades.</speak>
-          - type: text
-            text: Neste momento em $counter_data.country existe um valor total de <?
-              $counter_data.result.data.total_cases ?> casos dos quais <?
-              $counter_data.result.data.active_cases ?> ainda estão ativos, <?
-              $counter_data.result.data.total_recovered ?> estão totalmente
-              recuperados e <? $counter_data.result.data.total_deaths ?> não
-              sobreviveram.Na ultima atualização existiam <?
-              $counter_data.result.data.new_cases?> novos casos e  <?
-              $counter_data.result.data.new_deaths?> novas fatalidades.
-          - type: ssml
-            ssml: <speak>Ocorreu um problema no pedido de informação adicional sobre o
-              assunto que pesquisa. No entanto pode pesquisar na Agência Lusa ou
-              RTP por mais informação.</speak>
-          - type: text
-            text: Ocorreu um problema no pedido de informação adicional sobre o assunto que
-              pesquisa. No entanto pode pesquisar na Agência Lusa ou RTP por
-              mais informação.
-          - type: links
-            links:
-              - title: Agência Lusa
-                url: https://www.lusa.pt/covid19
-              - title: RTP
-                url: https://www.rtp.pt/noticias/
-          - type: ssml
-            ssml: <speak>Existiu um problema no pedido de mais informação ao Serviço
-              Nacional de Saúde, se quiser mais informação, por favor visite o
-              website apresentado abaixo.</speak>
-          - type: text
-            text: Existiu um problema no pedido de mais informação ao Serviço Nacional de
-              Saúde, se quiser mais informação, por favor visite o website
-              apresentado abaixo.
-          - type: links
-            links:
-              - title: Novo coronavírus (COVID-19)
-                url: https://www.sns24.gov.pt/alerta/novo-coronavirus/
+  
   utter_pt_bot_appearance:
     - custom:
         answers:
@@ -579,17 +812,41 @@ responses:
           - type: ssml
             ssml: <speak>Fui instruída a comunicar apenas em português, mas há versões
               minhas em alemão e inglês. Se estiver interessado em falar com
-              elas, por favor, siga um dos links.</speak>
+              elas, por favor, escolha uma das opções.</speak>
           - type: text
             text: "Fui instruída a comunicar apenas em português, mas há versões minhas em
               alemão e inglês. Se estiver interessado em falar com elas, por
-              favor, siga um dos links:"
-          - type: links
-            links:
+              favor, escolha uma das opções:"
+          - type: multichoice
+            options:
               - title: Cosibot Alemão
-                url: https://de.cosibot.org/start
+                payload: '/pt_bot_change_bot{"preferred_lang": "de"}'
               - title: Cosibot Inglês
-                url: https://int.cosibot.org/chat
+                payload: '/pt_bot_change_bot{"preferred_lang": "en"}'
+  # utter_pt_bot_languages:
+  #   - text: Fui instruída a comunicar apenas em português, mas há versões
+  #           minhas em alemão e inglês. Se estiver interessado em falar com
+  #           elas, por favor, escolha uma das opções.
+  #     buttons:
+  #       - title: Cosibot Alemão
+  #         payload: '/pt_bot_change_bot{"preferred_lang": "de"}'
+  #       - title: Cosibot Inglês
+  #         payload: '/pt_bot_change_bot{"preferred_lang": "en"}'
+  utter_pt_command_change_bot:
+    - custom:
+        answers:
+          - type: command
+            name: "open-url"
+            params:
+              - key: "url"
+                value: "google.com/{preferred_lang}"
+              # - key: "language"
+              #   value: {preferred_lang}
+  # utter_pt_command_change_bot:
+  #   - custom:
+  #       answers:
+  #         - type: text
+  #           text: Cheguei aqui
   utter_pt_bot_music:
     - custom:
         answers:
@@ -1197,13 +1454,13 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Porque é que nunca se vêm elefantes escondidos nas árvores? Porque
+            ssml: <speak>Porque é que nunca se veem elefantes escondidos nas árvores? Porque
               eles são muito bons nisso.</speak>
           - type: ssml
             ssml: <speak>O que é vermelho e se mexe para cima e para baixo? Um tomate num
               elevador.</speak>
           - type: text
-            text: Porque é que nunca se vêm elefantes escondidos nas árvores? Porque eles
+            text: Porque é que nunca se veem elefantes escondidos nas árvores? Porque eles
               são muito bons nisso.
           - type: text
             text: O que é vermelho e se mexe para cima e para baixo? Um tomate num elevador.
@@ -2520,32 +2777,32 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>São <say-as interpret-as='time'
-              format='hm24'>$time</say-as>.</speak>
+              format='hm24'>{bot_time}</say-as>.</speak>
           - type: ssml
             ssml: <speak>Neste momento são <say-as interpret-as='time'
-              format='hm24'>$time</say-as>.</speak>
+              format='hm24'>{bot_time}</say-as>.</speak>
           - type: ssml
             ssml: <speak>Agora são <say-as interpret-as='time'
-              format='hm24'>$time</say-as>.</speak>
+              format='hm24'>{bot_time}</say-as>.</speak>
           - type: text
-            text: São $time.
+            text: São {bot_time}.
           - type: text
-            text: Neste momento são $time.
+            text: Neste momento são {bot_time}.
           - type: text
-            text: Agora são $time.
+            text: Agora são {bot_time}.
   utter_pt_features_date:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Hoje é <say-as interpret-as='date' format='dm'> $date
+            ssml: <speak>Hoje é <say-as interpret-as='date' format='dm'> {bot_date}
               </say-as>.</speak>
           - type: ssml
-            ssml: <speak>É o <say-as interpret-as='date' format='dm'> $date
+            ssml: <speak>É o <say-as interpret-as='date' format='dm'> {bot_date}
               </say-as>.</speak>
           - type: text
-            text: Hoje é $date.
+            text: Hoje é {bot_date}.
           - type: text
-            text: É o $date.
+            text: É o {bot_date}.
   utter_pt_spread_pets:
     - custom:
         answers:
@@ -2730,18 +2987,137 @@ responses:
                 value: Máscaras Médicas
               - label: Situação Mundial
                 value: Situação Mundial
+  
   utter_pt_further_questions:
     - custom:
         answers:
           - type: ssml
             ssml: <speak>O que mais posso fazer por si?</speak>
+          - type: text
+            text: O que mais posso fazer por si?
+    - custom:
+        answers:      
           - type: ssml
             ssml: <speak>Há mais alguma pergunta que eu possa responder?</speak>
+          - type: text
+            text: Há mais alguma pergunta que eu possa responder?
+    - custom:
+        answers:      
           - type: ssml
             ssml: <speak>Que mais posso fazer por si?</speak>
           - type: text
-            text: O que mais posso fazer por si?
-          - type: text
-            text: Há mais alguma pergunta que eu possa responder?
-          - type: text
             text: Que mais posso fazer por si?
+          
+          
+          
+    
+  utter_fallback_first:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua
+              pergunta, mas em breve já serei capaz de respondê-la. Pode
+              pedir-me, por exemplo, informações sobre medidas preventivas,
+              sintomas associados à doença ou como o vírus se espalha.</speak>
+          - type: text
+            text: Peço desculpa mas de momento não tenho resposta para a sua pergunta, mas
+              em breve já serei capaz de respondê-la. Pode pedir-me, por
+              exemplo, informações sobre medidas preventivas, sintomas
+              associados à doença ou como o vírus se espalha.
+  
+  utter_fallback_request_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Fazendo uma pesquisa no website do Serviço Nacional de Saúde e da
+              Direção Geral de Saúde, encontrei os seguintes links:</speak>
+          - type: text
+            text: "Fazendo uma pesquisa no website do Serviço Nacional de Saúde e da Direção
+              Geral de Saúde, encontrei os seguintes links:"
+
+  utter_news_request_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Pode ler sobre as últimas noticias nos links fornecidos
+              abaixo:</speak>
+          - type: text
+            text: "Pode ler sobre as últimas noticias nos links fornecidos abaixo:"
+          - type: hints
+            options:
+              - label: Sobre COVID-19
+                value: Sobre COVID-19
+              - label: Medidas Preventivas
+                value: Medidas Preventivas
+              - label: Transmissão
+                value: Transmissão
+              - label: Sintomas
+                value: Sintomas
+
+  utter_fallback_request_emptyanswer:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Neste momento não possuo a informação que está à procura. Se
+              quiser, pode visitar o website do Serviço Nacional de Saúde e da
+              Direção Geral de Saúde para obter mais informação sobre este
+              surto.</speak>
+          - type: text
+            text: Neste momento não possuo a informação que está à procura. Se quiser, pode
+              visitar o website do Serviço Nacional de Saúde e da Direção Geral
+              de Saúde para obter mais informação sobre este surto.
+          - type: links
+            links:
+              - title: SNS24 (COVID-19)
+                url: https://www.sns24.gov.pt/alerta/novo-coronavirus/
+              - title: DGS (COVID-19)
+                url: https://covid19.min-saude.pt/
+
+
+  utter_news_request_emptyanswer:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Não consigo encontrar a informação que procura. Aconselho que
+              visite os websites das agências de noticias Lusa e RTP para obter
+              mais noticias.</speak>
+          - type: text
+            text: Não consigo encontrar a informação que procura. Aconselho que visite os
+              websites das agências de noticias Lusa e RTP para obter mais
+              noticias.
+          - type: links
+            links:
+              - title: Agência Lusa
+                url: https://www.lusa.pt/covid19
+              - title: RTP
+                url: https://www.rtp.pt/noticias/
+
+  utter_country_municipal_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_municipal} existe um valor total de {country_municipal_confirmed_accum} casos confirmados de covid-19.</speak>
+          - type: text
+            text: "De acordo com os últimos dados disponíveis, neste momento em {country_municipal} existe um valor total de {country_municipal_confirmed_accum} casos confirmados de covid-19."
+
+  utter_country_municipal_nodata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal.</speak>
+          - type: text
+            text: "Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal."
+          - type: multichoice
+            options:
+              - label: Sim
+                value: Sim
+              - label: Não
+                value: Não
+
+  utter_country_region_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19.</speak>
+          - type: text
+            text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19."
