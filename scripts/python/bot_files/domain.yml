@@ -1,0 +1,407 @@
+intents:
+- pt_quarantine_general
+- pt_prevention_medical_attention
+- pt_prevention_informed
+- pt_cc_fun_fact
+- pt_economy_consequences
+- pt_stayhomeinfo_supermarket
+- pt_bot_sports
+- pt_user_no_data
+- pt_bot_games
+- pt_deconfinement_establishments
+- pt_state_calamity
+- pt_spread_phases
+- pt_bot_sing
+- pt_bot_personal_questions
+- pt_user_laugh
+- pt_portugal_elders
+- pt_bot_worst_experience
+- pt_cc_deepest_point
+- pt_cc_geography
+- pt_covid_sex
+- pt_spread_washing_clothes
+- pt_cc_highest_building
+- pt_state_emergency_end
+- pt_covid_ibuprofen
+responses:
+  utter_pt_bot_games:
+    custom:
+      answers:
+      - ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.</speak>
+        type: ssml
+      - text: Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.
+        type: text
+  utter_pt_bot_personal_questions:
+    custom:
+      answers:
+      - ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.</speak>
+        type: ssml
+      - text: Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.
+        type: text
+  utter_pt_bot_sing:
+    custom:
+      answers:
+      - ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.</speak>
+        type: ssml
+      - text: Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.
+        type: text
+  utter_pt_bot_sports:
+    custom:
+      answers:
+      - ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.</speak>
+        type: ssml
+      - text: Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.
+        type: text
+  utter_pt_bot_worst_experience:
+    custom:
+      answers:
+      - ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.</speak>
+        type: ssml
+      - text: Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.
+        type: text
+  utter_pt_cc_deepest_point:
+    custom:
+      answers:
+      - ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.</speak>
+        type: ssml
+      - text: Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.
+        type: text
+  utter_pt_cc_fun_fact:
+    custom:
+      answers:
+      - ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.</speak>
+        type: ssml
+      - text: Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.
+        type: text
+  utter_pt_cc_geography:
+    custom:
+      answers:
+      - ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.</speak>
+        type: ssml
+      - text: Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.
+        type: text
+  utter_pt_cc_highest_building:
+    custom:
+      answers:
+      - ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.</speak>
+        type: ssml
+      - text: Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.
+        type: text
+  utter_pt_covid_ibuprofen:
+    custom:
+      answers:
+      - ssml: <speak>O Infarmed, Autoridade Nacional do Medicamento e Produtos de
+          Saúde informa que não existem, atualmente, dados científicos que confirmem
+          um possível agravamento da infeção por Covid 19 com a administração de ibuprofeno
+          ou outros anti-inflamatórios não esteroides.</speak>
+        type: ssml
+      - text: <p>O Infarmed – Autoridade Nacional do Medicamento e Produtos de Saúde
+          informa que não existem, atualmente, dados científicos que confirmem um
+          possível agravamento da infeção por COVID-19 com a administração de ibuprofeno
+          ou outros anti-inflamatórios não esteroides.<a href='https://www.sns.gov.pt/noticias/2020/03/16/covid-19-ibuprofeno/'
+          target='_blank'>(1)</a></p>
+        type: html
+  utter_pt_covid_sex:
+    custom:
+      answers:
+      - ssml: <speak>À luz do conhecimento atual, os coronavírus não são sexualmente
+          transmissíveis. Contudo, é possível transmitir o coronavírus durante a atividade
+          sexual, sobretudo se não forem cumpridas as medidas de autocuidado na prevenção
+          da transmissão do vírus. Tenha precaução ao dar beijos e com contactos faciais
+          próximos e evite encontros sexuais ocasionais ou com pessoas que estejam
+          doentes com sintomas respiratórios.</speak>
+        type: ssml
+      - text: <p>À luz do conhecimento atual, os coronavírus não são sexualmente transmissíveis.
+          Contudo, é possível transmitir o coronavírus durante a atividade sexual,
+          sobretudo se não forem cumpridas as medidas de autocuidado na prevenção
+          da transmissão do vírus. Tenha precaução ao dar beijos e com contactos faciais
+          próximos e evite encontros sexuais ocasionais ou com pessoas que estejam
+          doentes com sintomas respiratórios.<a href='https://www1.nyc.gov/assets/doh/downloads/pdf/imm/covid-sex-guidance.pdf'
+          target='_blank'>(1)</a></p>
+        type: html
+  utter_pt_deconfinement_establishments:
+    custom:
+      answers:
+      - ssml: <speak>A partir de 4 de maio entram em vigor as medidas de desconfinamento,
+          em que se podem destacar as seguintes medidas. Balcões desconcentrados de
+          atendimento ao público, como repartições de finanças e conservatórias, com
+          atendimento por marcação prévia. Livrarias e comércio automóvel, independentemente
+          da área, voltaram a abrir as portas, assim como bibliotecas e arquivos;
+          Estabelecimentos de prestação de serviços de higiene pessoal, ou seja, cabeleireiros,
+          barbeiros, manicures, pedicures e similares, funcionarão por marcação prévia;
+          É obrigatório o uso de máscaras nos transportes públicos, escolas, comércio
+          e outros locais fechados com múltiplas pessoas; Lotação máxima de 5 pessoas
+          por 100 metros quadrados em instalações fechadas. As decisões serão reavaliadas
+          a cada 15 dias.</speak>
+        type: ssml
+      - text: <p>A partir de 4 de maio entram em vigor as medidas de desconfinamento,
+          em que se podem destacar as seguintes medidas:<ul><li>Balcões desconcentrados
+          de atendimento ao público (repartições de finanças, conservatórias, etc.)
+          com atendimento por marcação prévia;</li><li>Livrarias e comércio automóvel,
+          independentemente da área, voltaram a abrir as portas, assim como bibliotecas
+          e arquivos;</li><li>Estabelecimentos de prestação de serviços de higiene
+          pessoal (cabeleireiros, barbeiros, manicures, pedicures e similares) funcionarão
+          por marcação prévia;</li><li>É obrigatório o uso de máscaras nos transportes
+          públicos, escolas, comércio e outros locais fechados com múltiplas pessoas;</li><li>Lotação
+          máxima de 5 pessoas/100m2 em instalações fechadas.</li></ul>As decisões
+          serão reavaliadas a cada 15 dias.<a href='https://covid19.min-saude.pt/wp-content/uploads/2020/04/20200430pmdesconfinamentoapres.pdf'
+          target='_blank'>(1)</a><a href='https://www.portugal.gov.pt/download-ficheiros/ficheiro.aspx?v=8382611a-6c36-465b-a1b5-29f5cdcdb247'
+          target='_blank'>(2)</a></p>
+        type: html
+  utter_pt_economy_consequences:
+    custom:
+      answers:
+      - ssml: <speak>A Organização das Nações Unidas prevê que a economia mundial
+          se contraia quase um por cento este ano por causa da pandemia do novo coronavírus,
+          em vez de crescer 2,5%, como se previa.</speak>
+        type: ssml
+      - text: <p>A Organização das Nações Unidas (ONU) prevê que a economia mundial
+          se contraia quase um por cento este ano por causa da pandemia do novo coronavírus,
+          em vez de crescer 2,5%, como se previa.</p>
+        type: html
+  utter_pt_portugal_elders:
+    custom:
+      answers:
+      - ssml: <speak>Os idosos com mais de 70 anos e para pessoas que sofrem qualquer
+          morbilidade é imposto um dever especial de proteção pelo qual só devem sair
+          das suas residências em circunstâncias muito excecionais e quando estritamente
+          necessárias.</speak>
+        type: ssml
+      - text: <p>Os idosos com mais de 70 anos e para pessoas que sofrem qualquer
+          morbilidade é imposto um dever especial de proteção pelo qual só devem sair
+          das suas residências em circunstâncias muito excecionais e quando estritamente
+          necessárias.<a href='https://www.sns.gov.pt/noticias/2020/03/20/covid-19-recolhimento-domiciliario/'
+          target='_blank'>(1)</a></p>
+        type: html
+  utter_pt_prevention_informed:
+    custom:
+      answers:
+      - ssml: <speak>É importante manter-se atualizado acerca da Covid 19. Poderá
+          aceder a materiais pertinentes seguindo o link abaixo.</speak>
+        type: ssml
+      - text: <p>É importante manter-se atualizado acerca da COVID-19. Poderá aceder
+          a materiais pertinentes seguindo o link abaixo:</p>
+        type: html
+      - links:
+        - title: Materiais de Divulgação
+          url: https://covid19.min-saude.pt/materiais-de-divulgacao/
+        type: links
+      - options:
+        - label: Medidas Preventivas
+          value: Medidas Preventivas
+        - label: Sintomas
+          value: Sintomas
+        - label: Máscaras Médicas
+          value: Máscaras Médicas
+        - label: Transmissão
+          value: Transmissão
+        - label: Situação Mundial
+          value: Situação Mundial
+        type: hints
+  utter_pt_prevention_medical_attention:
+    custom:
+      answers:
+      - ssml: <speak>O SNS24, 808 24 24 24, é o contacto ideal para os casos suspeitos
+          de Covid 19 porque encaminha os doentes para o local mais adequado. Este
+          é o contacto mais importante e organizado. Os centros de saúde estão preparadas
+          para ajudar os seus doentes e usar o telefone é o meio mais correto para
+          contactar com o médico de família nestes dias difíceis.</speak>
+        type: ssml
+      - text: <p>O SNS24 - 808 24 24 24 - é o contacto ideal para os casos suspeitos
+          de COVID-19 porque encaminha os doentes para o local mais adequado. Este
+          é o contacto mais importante e organizado. Os centros de saúde estão preparadas
+          para ajudar os seus doentes e usar o telefone é o meio mais correto para
+          contactar com o médico de família nestes dias difíceis.<a href='https://covid19.min-saude.pt/perguntas-frequentes'
+          target='_blank'>(1)</a></p>
+        type: html
+      - options:
+        - label: Medidas Preventivas
+          value: Medidas Preventivas
+        - label: Sintomas
+          value: Sintomas
+        - label: Máscaras Médicas
+          value: Máscaras Médicas
+        - label: Transmissão
+          value: Transmissão
+        - label: Situação Mundial
+          value: Situação Mundial
+        type: hints
+  utter_pt_quarantine_general:
+    custom:
+      answers:
+      - ssml: '<speak>A quarentena e o isolamento, são medidas de afastamento social
+          essenciais em saúde pública. São especialmente utilizadas em resposta a
+          uma epidemia e pretendem proteger a população da transmissão entre pessoas.
+          A diferença entre a quarentena e o isolamento parte do estado de doença
+          da pessoa que se quer em afastamento social. Ou seja: quarentena é utilizada
+          em pessoas que se pressupõe serem saudáveis, mas possam ter estado em contacto
+          com um doente infetado, isolamento é a medida utilizada em pessoas doentes,
+          para que através do afastamento social não contagiem outros cidadãos.</speak>'
+        type: ssml
+      - text: <p>A quarentena e o isolamento, são medidas de afastamento social essenciais
+          em saúde pública. São especialmente utilizadas em resposta a uma epidemia
+          e pretendem proteger a população da transmissão entre pessoas. A diferença
+          entre a quarentena e o isolamento parte do estado de doença da pessoa que
+          se quer em afastamento social. Ou seja:<br>A quarentena é utilizada em pessoas
+          que se pressupõe serem saudáveis, mas possam ter estado em contacto com
+          um doente infetado;<br>O isolamento é a medida utilizada em pessoas doentes,
+          para que através do afastamento social não contagiem outros cidadãos<a href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/isolamento/#sec-0'
+          target='_blank'>(1)</a></p>
+        type: html
+  utter_pt_spread_phases:
+    custom:
+      answers:
+      - ssml: <speak>Portugal está na fase de mitigação do surto provocado pelo novo
+          coronavírus. Existem as seguintes fases:</speak>
+        type: ssml
+      - text: <p>Portugal está na fase de mitigação do surto provocado pelo novo coronavírus.<br>Existem
+          as seguintes fases:<a href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/transmissao/'
+          target='_blank'>(1)</a></p>
+        type: html
+      - thumbnailURL: fases-de-contencao-01.png
+        title: 'Fonte: DGS'
+        type: image
+        url: https://cosibot.org/wp-content/uploads/2020/05/fases-de-contencao-01.png
+  utter_pt_spread_washing_clothes:
+    custom:
+      answers:
+      - ssml: <speak>A roupa de alguém infetado deve ser lavada em casa na máquina,
+          a pelo menos 60-70ºC, mas pode ir até os 90ºC, ou seja, à temperatura mais
+          elevada, que a roupa puder suportar). A roupa que não puder ser lavada a
+          quente, deve ser lavada com ciclo de água morna, entre a 30 e 40ºC, e desinfetada
+          de seguida com um ciclo desinfetante, apropriado para roupa branca ou de
+          cor, consoante o tipo de roupa a lavar. Se não tiver máquina de lavar, lave
+          as suas roupas com água quente com detergente e desinfete de seguida com
+          o desinfetante apropriado para a roupa.</speak>
+        type: ssml
+      - text: <p>A roupa de alguém infetado deve ser lavada em casa na máquina, a
+          pelo menos 60-70ºC, mas pode ir até os 90ºC (ou seja, à temperatura mais
+          elevada, que a roupa puder suportar). A roupa que não puder ser lavada a
+          quente, deve ser lavada com ciclo de água morna (30-40ºC) e desinfetada
+          de seguida com um ciclo desinfetante, apropriado para roupa branca ou de
+          cor, consoante o tipo de roupa a lavar. Se não tiver máquina de lavar, lave
+          as suas roupas com água quente com detergente e desinfete de seguida com
+          o desinfetante apropriado para a roupa.<a href='https://covid19.min-saude.pt/perguntas-frequentes/'
+          target='_blank'>(1)</a></p>
+        type: html
+  utter_pt_state_calamity:
+    custom:
+      answers:
+      - ssml: <speak>O Governo adotou o estado de calamidade em todo o país, como
+          forma de garantir o controlo e monitorização do processo de abertura gradual
+          e faseada da sociedade e da economia, depois de ter terminado o estado de
+          emergência a 2 de Maio. O estado de calamidade é o nível mais elevado de
+          intervenção previsto na Lei de Bases da Protecção Civil.</speak>
+        type: ssml
+      - text: <p>O Governo adotou o estado de calamidade em todo o país, como forma
+          de garantir o controlo e monitorização do processo de abertura gradual e
+          faseada da sociedade e da economia, depois de ter terminado o estado de
+          emergência a 2 de Maio. O estado de calamidade é o nível mais elevado de
+          intervenção previsto na Lei de Bases da Protecção Civil.
+        type: html
+  utter_pt_state_emergency_end:
+    custom:
+      answers:
+      - ssml: <speak>O estado de emergência foi decretado por 15 dias, iniciando-se
+          às 0:00 horas de 19 de março e terminando às 23:59 do dia 2 de abril de
+          2020. Contudo, a declaração do estado de emergência foi renovada duas vezes.
+          Primeiro, entre as 0:00 horas do dia 3 de abril e as 23:59 horas do dia
+          17 de abril de 2020. Segundo, entre as 0:00 horas do dia 18 de abril e as
+          23:59 do dia 2 de maio de 2020.</speak>
+        type: ssml
+      - text: <p>O estado de emergência foi decretado por 15 dias, iniciando-se às
+          0:00 horas de 19 de março e terminando às 23:59 do dia 2 de abril de 2020.
+          Contudo, a declaração do estado de emergência foi renovada duas vezes. Primeiro,
+          entre as 0:00 horas do dia 3 de abril e as 23:59 horas do dia 17 de abril
+          de 2020. Segundo, entre as 0:00 horas do dia 18 de abril e as 23:59 do dia
+          2 de maio de 2020.<a href='https://covid19estamoson.gov.pt/estado-de-emergencia-nacional/o-que-e/'
+          target='_blank'>(1)</a></p>
+        type: html
+  utter_pt_stayhomeinfo_supermarket:
+    custom:
+      answers:
+      - ssml: <speak>É permitido sair à rua para comprar bens de alimentação para
+          levar para casa. Estes terão, no entanto, que continuar a respeitar os limites
+          de número de pessoas dentro do estabelecimento e a recorrer a novas formas
+          de venda mais protegidas, como por exemplo, por postigo ou à porta.</speak>
+        type: ssml
+      - text: <p>É permitido sair à rua para comprar bens de alimentação para levar
+          para casa. Estes terão, no entanto, que continuar a respeitar os limites
+          de número de pessoas dentro do estabelecimento e a recorrer a novas formas
+          de venda mais protegidas, como por exemplo, por postigo ou à porta.<a href='https://covid19estamoson.gov.pt/estado-de-emergencia-nacional/pacote-de-medidas/'
+          target='_blank'>(1)</a></p>
+        type: html
+  utter_pt_user_laugh:
+    custom:
+      answers:
+      - ssml: <speak>:)</speak>
+        type: ssml
+      - text: :)
+        type: text
+  utter_pt_user_no_data:
+    custom:
+      answers:
+      - ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.</speak>
+        type: ssml
+      - text: Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
+          informações sobre medidas preventivas, sintomas associados à doença ou como
+          o vírus se espalha.
+        type: text

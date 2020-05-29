@@ -1,0 +1,12 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>À luz do conhecimento atual, os coronavírus não são sexualmente transmissíveis. Contudo, é possível transmitir o coronavírus durante a atividade sexual, sobretudo se não forem cumpridas as medidas de autocuidado na prevenção da transmissão do vírus. Tenha precaução ao dar beijos e com contactos faciais próximos e evite encontros sexuais ocasionais ou com pessoas que estejam doentes com sintomas respiratórios.</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>À luz do conhecimento atual, os coronavírus não são sexualmente transmissíveis. Contudo, é possível transmitir o coronavírus durante a atividade sexual, sobretudo se não forem cumpridas as medidas de autocuidado na prevenção da transmissão do vírus. Tenha precaução ao dar beijos e com contactos faciais próximos e evite encontros sexuais ocasionais ou com pessoas que estejam doentes com sintomas respiratórios.<a href='https://www1.nyc.gov/assets/doh/downloads/pdf/imm/covid-sex-guidance.pdf' target='_blank'>(1)</a></p>"
+    }
+  ]
+}

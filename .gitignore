@@ -2,7 +2,7 @@
 bot/models
 
 # scripts
-scripts/python
+# scripts/python
 
 # VS code 
 .vscode

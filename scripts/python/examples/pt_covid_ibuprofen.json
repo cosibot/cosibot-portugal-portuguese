@@ -1,0 +1,12 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>O Infarmed, Autoridade Nacional do Medicamento e Produtos de Saúde informa que não existem, atualmente, dados científicos que confirmem um possível agravamento da infeção por Covid 19 com a administração de ibuprofeno ou outros anti-inflamatórios não esteroides.</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>O Infarmed – Autoridade Nacional do Medicamento e Produtos de Saúde informa que não existem, atualmente, dados científicos que confirmem um possível agravamento da infeção por COVID-19 com a administração de ibuprofeno ou outros anti-inflamatórios não esteroides.<a href='https://www.sns.gov.pt/noticias/2020/03/16/covid-19-ibuprofeno/' target='_blank'>(1)</a></p>"
+    }
+  ]
+}

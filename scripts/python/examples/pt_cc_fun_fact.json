@@ -1,0 +1,12 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta, mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo, informações sobre medidas preventivas, sintomas associados à doença ou como o vírus se espalha.</speak>"
+    },
+    {
+      "type": "text",
+      "text": "Peço desculpa mas de momento não tenho resposta para a sua pergunta, mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo, informações sobre medidas preventivas, sintomas associados à doença ou como o vírus se espalha."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>O estado de emergência foi decretado por 15 dias, iniciando-se às 0:00 horas de 19 de março e terminando às 23:59 do dia 2 de abril de 2020. Contudo, a declaração do estado de emergência foi renovada duas vezes. Primeiro, entre as 0:00 horas do dia 3 de abril e as 23:59 horas do dia 17 de abril de 2020. Segundo, entre as 0:00 horas do dia 18 de abril e as 23:59 do dia 2 de maio de 2020.</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>O estado de emergência foi decretado por 15 dias, iniciando-se às 0:00 horas de 19 de março e terminando às 23:59 do dia 2 de abril de 2020. Contudo, a declaração do estado de emergência foi renovada duas vezes. Primeiro, entre as 0:00 horas do dia 3 de abril e as 23:59 horas do dia 17 de abril de 2020. Segundo, entre as 0:00 horas do dia 18 de abril e as 23:59 do dia 2 de maio de 2020.<a href='https://covid19estamoson.gov.pt/estado-de-emergencia-nacional/o-que-e/' target='_blank'>(1)</a></p>"
+    }
+  ]
+}

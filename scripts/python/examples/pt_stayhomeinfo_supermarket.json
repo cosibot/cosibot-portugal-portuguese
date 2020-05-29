@@ -1,0 +1,12 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>É permitido sair à rua para comprar bens de alimentação para levar para casa. Estes terão, no entanto, que continuar a respeitar os limites de número de pessoas dentro do estabelecimento e a recorrer a novas formas de venda mais protegidas, como por exemplo, por postigo ou à porta.</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>É permitido sair à rua para comprar bens de alimentação para levar para casa. Estes terão, no entanto, que continuar a respeitar os limites de número de pessoas dentro do estabelecimento e a recorrer a novas formas de venda mais protegidas, como por exemplo, por postigo ou à porta.<a href='https://covid19estamoson.gov.pt/estado-de-emergencia-nacional/pacote-de-medidas/' target='_blank'>(1)</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>A roupa de alguém infetado deve ser lavada em casa na máquina, a pelo menos 60-70ºC, mas pode ir até os 90ºC, ou seja, à temperatura mais elevada, que a roupa puder suportar). A roupa que não puder ser lavada a quente, deve ser lavada com ciclo de água morna, entre a 30 e 40ºC, e desinfetada de seguida com um ciclo desinfetante, apropriado para roupa branca ou de cor, consoante o tipo de roupa a lavar. Se não tiver máquina de lavar, lave as suas roupas com água quente com detergente e desinfete de seguida com o desinfetante apropriado para a roupa.</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>A roupa de alguém infetado deve ser lavada em casa na máquina, a pelo menos 60-70ºC, mas pode ir até os 90ºC (ou seja, à temperatura mais elevada, que a roupa puder suportar). A roupa que não puder ser lavada a quente, deve ser lavada com ciclo de água morna (30-40ºC) e desinfetada de seguida com um ciclo desinfetante, apropriado para roupa branca ou de cor, consoante o tipo de roupa a lavar. Se não tiver máquina de lavar, lave as suas roupas com água quente com detergente e desinfete de seguida com o desinfetante apropriado para a roupa.<a href='https://covid19.min-saude.pt/perguntas-frequentes/' target='_blank'>(1)</a></p>"
+    }
+  ]
+}

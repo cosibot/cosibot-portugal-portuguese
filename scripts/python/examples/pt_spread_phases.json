@@ -1,0 +1,18 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>Portugal está na fase de mitigação do surto provocado pelo novo coronavírus. Existem as seguintes fases:</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>Portugal está na fase de mitigação do surto provocado pelo novo coronavírus.<br>Existem as seguintes fases:<a href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/transmissao/' target='_blank'>(1)</a></p>"
+    },
+    {
+      "type": "image",
+      "title": "Fonte: DGS",
+      "thumbnailURL": "fases-de-contencao-01.png",
+      "url": "https://cosibot.org/wp-content/uploads/2020/05/fases-de-contencao-01.png"
+    }
+  ]
+}

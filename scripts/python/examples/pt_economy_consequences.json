@@ -1,0 +1,12 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>A Organização das Nações Unidas prevê que a economia mundial se contraia quase um por cento este ano por causa da pandemia do novo coronavírus, em vez de crescer 2,5%, como se previa.</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>A Organização das Nações Unidas (ONU) prevê que a economia mundial se contraia quase um por cento este ano por causa da pandemia do novo coronavírus, em vez de crescer 2,5%, como se previa.</p>"
+    }
+  ]
+}

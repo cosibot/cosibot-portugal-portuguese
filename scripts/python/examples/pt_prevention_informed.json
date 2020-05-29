@@ -1,0 +1,46 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>É importante manter-se atualizado acerca da Covid 19. Poderá aceder a materiais pertinentes seguindo o link abaixo.</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>É importante manter-se atualizado acerca da COVID-19. Poderá aceder a materiais pertinentes seguindo o link abaixo:</p>"
+    },
+    {
+      "type": "links",
+      "links": [
+        {
+          "title": "Materiais de Divulgação",
+          "url": "https://covid19.min-saude.pt/materiais-de-divulgacao/"
+        }
+      ]
+    },
+    {
+      "type": "hints",
+      "options": [
+        {
+          "label": "Medidas Preventivas",
+          "value": "Medidas Preventivas"
+        },
+        {
+          "label": "Sintomas",
+          "value": "Sintomas"
+        },
+        {
+          "label": "Máscaras Médicas",
+          "value": "Máscaras Médicas"
+        },
+        {
+          "label": "Transmissão",
+          "value": "Transmissão"
+        },
+        {
+          "label": "Situação Mundial",
+          "value": "Situação Mundial"
+        }
+      ]
+    }
+  ]
+}

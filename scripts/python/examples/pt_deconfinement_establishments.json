@@ -1,0 +1,12 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>A partir de 4 de maio entram em vigor as medidas de desconfinamento, em que se podem destacar as seguintes medidas. Balcões desconcentrados de atendimento ao público, como repartições de finanças e conservatórias, com atendimento por marcação prévia. Livrarias e comércio automóvel, independentemente da área, voltaram a abrir as portas, assim como bibliotecas e arquivos; Estabelecimentos de prestação de serviços de higiene pessoal, ou seja, cabeleireiros, barbeiros, manicures, pedicures e similares, funcionarão por marcação prévia; É obrigatório o uso de máscaras nos transportes públicos, escolas, comércio e outros locais fechados com múltiplas pessoas; Lotação máxima de 5 pessoas por 100 metros quadrados em instalações fechadas. As decisões serão reavaliadas a cada 15 dias.</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>A partir de 4 de maio entram em vigor as medidas de desconfinamento, em que se podem destacar as seguintes medidas:<ul><li>Balcões desconcentrados de atendimento ao público (repartições de finanças, conservatórias, etc.) com atendimento por marcação prévia;</li><li>Livrarias e comércio automóvel, independentemente da área, voltaram a abrir as portas, assim como bibliotecas e arquivos;</li><li>Estabelecimentos de prestação de serviços de higiene pessoal (cabeleireiros, barbeiros, manicures, pedicures e similares) funcionarão por marcação prévia;</li><li>É obrigatório o uso de máscaras nos transportes públicos, escolas, comércio e outros locais fechados com múltiplas pessoas;</li><li>Lotação máxima de 5 pessoas/100m2 em instalações fechadas.</li></ul>As decisões serão reavaliadas a cada 15 dias.<a href='https://covid19.min-saude.pt/wp-content/uploads/2020/04/20200430pmdesconfinamentoapres.pdf' target='_blank'>(1)</a><a href='https://www.portugal.gov.pt/download-ficheiros/ficheiro.aspx?v=8382611a-6c36-465b-a1b5-29f5cdcdb247' target='_blank'>(2)</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>O SNS24, 808 24 24 24, é o contacto ideal para os casos suspeitos de Covid 19 porque encaminha os doentes para o local mais adequado. Este é o contacto mais importante e organizado. Os centros de saúde estão preparadas para ajudar os seus doentes e usar o telefone é o meio mais correto para contactar com o médico de família nestes dias difíceis.</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>O SNS24 - 808 24 24 24 - é o contacto ideal para os casos suspeitos de COVID-19 porque encaminha os doentes para o local mais adequado. Este é o contacto mais importante e organizado. Os centros de saúde estão preparadas para ajudar os seus doentes e usar o telefone é o meio mais correto para contactar com o médico de família nestes dias difíceis.<a href='https://covid19.min-saude.pt/perguntas-frequentes' target='_blank'>(1)</a></p>"
+    },
+    {
+      "type": "hints",
+      "options": [
+        {
+          "label": "Medidas Preventivas",
+          "value": "Medidas Preventivas"
+        },
+        {
+          "label": "Sintomas",
+          "value": "Sintomas"
+        },
+        {
+          "label": "Máscaras Médicas",
+          "value": "Máscaras Médicas"
+        },
+        {
+          "label": "Transmissão",
+          "value": "Transmissão"
+        },
+        {
+          "label": "Situação Mundial",
+          "value": "Situação Mundial"
+        }
+      ]
+    }
+  ]
+}

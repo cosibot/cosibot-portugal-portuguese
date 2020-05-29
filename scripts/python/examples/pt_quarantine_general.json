@@ -1,0 +1,12 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>A quarentena e o isolamento, são medidas de afastamento social essenciais em saúde pública. São especialmente utilizadas em resposta a uma epidemia e pretendem proteger a população da transmissão entre pessoas. A diferença entre a quarentena e o isolamento parte do estado de doença da pessoa que se quer em afastamento social. Ou seja: quarentena é utilizada em pessoas que se pressupõe serem saudáveis, mas possam ter estado em contacto com um doente infetado, isolamento é a medida utilizada em pessoas doentes, para que através do afastamento social não contagiem outros cidadãos.</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>A quarentena e o isolamento, são medidas de afastamento social essenciais em saúde pública. São especialmente utilizadas em resposta a uma epidemia e pretendem proteger a população da transmissão entre pessoas. A diferença entre a quarentena e o isolamento parte do estado de doença da pessoa que se quer em afastamento social. Ou seja:<br>A quarentena é utilizada em pessoas que se pressupõe serem saudáveis, mas possam ter estado em contacto com um doente infetado;<br>O isolamento é a medida utilizada em pessoas doentes, para que através do afastamento social não contagiem outros cidadãos<a href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/isolamento/#sec-0' target='_blank'>(1)</a></p>"
+    }
+  ]
+}

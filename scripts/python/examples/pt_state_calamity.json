@@ -1,0 +1,12 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>O Governo adotou o estado de calamidade em todo o país, como forma de garantir o controlo e monitorização do processo de abertura gradual e faseada da sociedade e da economia, depois de ter terminado o estado de emergência a 2 de Maio. O estado de calamidade é o nível mais elevado de intervenção previsto na Lei de Bases da Protecção Civil.</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>O Governo adotou o estado de calamidade em todo o país, como forma de garantir o controlo e monitorização do processo de abertura gradual e faseada da sociedade e da economia, depois de ter terminado o estado de emergência a 2 de Maio. O estado de calamidade é o nível mais elevado de intervenção previsto na Lei de Bases da Protecção Civil."
+    }
+  ]
+}

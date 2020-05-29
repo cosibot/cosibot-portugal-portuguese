@@ -1,0 +1,12 @@
+{
+  "answers": [
+    {
+      "type": "ssml",
+      "ssml": "<speak>Os idosos com mais de 70 anos e para pessoas que sofrem qualquer morbilidade é imposto um dever especial de proteção pelo qual só devem sair das suas residências em circunstâncias muito excecionais e quando estritamente necessárias.</speak>"
+    },
+    {
+      "type": "html",
+      "text": "<p>Os idosos com mais de 70 anos e para pessoas que sofrem qualquer morbilidade é imposto um dever especial de proteção pelo qual só devem sair das suas residências em circunstâncias muito excecionais e quando estritamente necessárias.<a href='https://www.sns.gov.pt/noticias/2020/03/20/covid-19-recolhimento-domiciliario/' target='_blank'>(1)</a></p>"
+    }
+  ]
+}

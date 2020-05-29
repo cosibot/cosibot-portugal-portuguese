@@ -1,0 +1,133 @@
+## intent: pt_covid_ibuprofen 
+- Ibuprofeno 
+- Ibuprofen 
+- Posso tomar Brufen? 
+- Ipubrufen 
+- Posso tomar ibuprofeno? 
+- Ipubrufeno 
+- Posso tomar aspirina 
+- posso tomar iboprufeno? 
+## intent: pt_covid_sex 
+- Sexo e coronavirus 
+- Covid e atividades sexuais 
+- Atividades sexuais 
+- Sexo e covid 
+- Actividades sexuais 
+- Coronavirus e relações sexuais 
+- Relações sexuais e covid 
+- Coronavirus e atividades sexuais 
+- É verdad que nao se pode fazer sexo?se fizer cuales os cuidados? 
+- E actividade sexual? 
+- Coronavirus e sexo 
+- Covid 19 e atividades sexuais 
+- Covid 19 e relações sexuais 
+- Relações sexuais 
+- Sexo transmite covid? 
+- Actividade sexual é contagiosa? 
+- Sexo coronavirus? 
+## intent: pt_deconfinement_establishments 
+- Plano de desconfinamento portugal 
+- plano de desconfinamento 
+- Fases do plano de desconfinamento 
+- Que me podes dizer sobre a reabertura de estabelecimentos 
+- Estabelecimentos que podem abrir 
+- Quais os estabelecimentos que podem voltar a abrir? 
+- sou cabeleireira, posso reabrir o meu negócio? 
+- desconfinamento 
+- que estabelecimentos vão abrir? 
+- Onde posso consultar o plano de desconfinamento? 
+## intent: pt_economy_consequences 
+- Economia e coronavirus 
+- Quais são as consequências do COVID-19 na Economia? 
+- Consequências economicas 
+- Okay. Mas efectivamente, este surto está a ter um impacto muito negativo na Economia. 
+- Dá-me informação sobre o impacto na Economia. 
+- Economia 
+## intent: pt_portugal_elders 
+- Os idosos são obrigados a ficar em casa? 
+- os idosos podem sair de casa em Portugal? 
+- Os idosos podem sair de casa? 
+- Os idosos podem sair à rua? 
+- Os idosos podem andar na rua? 
+- Idosos e sair de casa 
+- idosos podem sair de casa? 
+- sou idoso, posso ver meus netos? 
+## intent: pt_quarantine_general 
+- O que é o isolamento? 
+- O que é a quarentena? 
+- Isolamento profilático 
+- O que é a quarentena e o isolamento? 
+- Consegues definir "quarentena"? 
+- Isolamento 
+- O que é o isolamento profilático? 
+- Quarentena 
+- isolamento é bom? 
+## intent: pt_spread_phases 
+- Em que fase do surto está Portugal? 
+- fases de contágio 
+- Em que fase de transmissão estamos atualmente? 
+## intent: pt_spread_washing_clothes 
+- desinfectar roupa 
+- A que temperatura devo lavar a roupa? 
+- Lavar roupa 
+- Há uma temperatura mínima para lavar a roupa quando há um caso confirmado de COVID-19 em casa? 
+- Temperatura lavar roupa. 
+- Temperatura ideal para lavar roupa 
+- Lavar a roupa a que temperatura? 
+- Temperatura para lavar roupa e matar o virus 
+- cuidados com a roupa 
+## intent: pt_state_calamity 
+- Estado de calamidade 
+- E depois do estado de emergência vem o quê? 
+- Calamidade pública 
+- O que é o estado de calamidade? 
+- estado de emergência e estado de calamidade qual a diferença? 
+- O que significa estado de calamidade? 
+- o que acontece após o estado de emergência? 
+- o que acontece após o estado de emergência em Portugal? 
+## intent: pt_state_emergency_end 
+- Situação de emergência em Portugal, até quando? 
+- Até quando dura o estado de emergência em Portugal? 
+- Por quanto tempo foi declarado o estado e emergência? 
+- Quando termina o estado de emergência? 
+- até quando dura o estado de emrgência em Portugal? 
+- Quantas vezes foi renovado o estado de emergência? 
+- Até que data é o estado de emergência em Portugal? 
+- até quando durará o estado de emergência em Portugal? 
+- Quantas vezes foi renovado o Estado de Emergência até hoje? 
+- Data de fim do Estado de Emergência? 
+- Data de fim do estado de emergencia em portugal? 
+- Quando foi declarado o Estado de Emergência em Portugal? 
+- quando finaliza o estado de emergência em Portugal? 
+- Quando acaba o estado de emergência em portugal? 
+- Qual é a data de fim do estado de emergência em Portugal? 
+- quando acaba o EStado de emergência? 
+## intent: pt_user_laugh 
+- Tu és mesmo engraçado 
+- sorriso 
+- sorrindo 
+- rolar pelo chão a rir 
+- rir 
+- rindo pelas costuras 
+- rindo alto 
+- Ok haha 
+- looool 
+- lool 
+- lol 
+- Isto é engraçado. 
+- isso foi muito engraçado 
+- isso é engraçado 
+- hehe 
+- hahahaha 
+- hahaha 
+- haha 
+- hah 
+- ha 
+- fazes-me rir 
+- és engraçado 
+- és bom em fazer as pessoas rir 
+- és bom a fazer as pessoas rir 
+- ahahahah 
+- ahahaha 
+- ahaha 
+- ahah 
