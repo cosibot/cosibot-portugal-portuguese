@@ -1,10 +1,10 @@
 ## start
-* start{"bot_introduced": "False"}
+* start-dialogue{"bot_introduced": "False"}
   - action_check_Bot_Introduced
   - utter_pt_welcome
 
 ## start
-* start{"bot_introduced": "True"}
+* start-dialogue{"bot_introduced": "True"}
   - utter_pt_greeting_hello
 
 ## pt_bot_appearance

@@ -274,7 +274,7 @@ actions:
   - utter_pt_covid_ibuprofen
 
 intents:
-  - start
+  - start-dialogue
   - pt_bot_change_bot
   - pt_bot_appearance
   - pt_bot_availability

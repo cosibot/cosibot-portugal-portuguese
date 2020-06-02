@@ -1,8 +1,9 @@
-## intent:start
+## intent:start-dialogue
 - /start
 - /start
 - /start_conversation
 - /start_chat
+- /start-dialogue
 - get started
 
 ## intent:pt_bot_change_bot
