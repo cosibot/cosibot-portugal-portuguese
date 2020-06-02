@@ -1,4 +1,4 @@
-## intent:start
+## intent:start-dialogue
 - /start
 - /start
 - /start_conversation

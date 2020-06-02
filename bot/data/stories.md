@@ -1,10 +1,10 @@
 ## start
-* start{"bot_introduced": "False"}
+* start-dialogue{"bot_introduced": "False"}
   - action_check_Bot_Introduced
   - utter_pt_welcome
 
 ## start
-* start{"bot_introduced": "True"}
+* start-dialogue{"bot_introduced": "True"}
   - utter_pt_greeting_hello
 
 ## pt_bot_appearance
@@ -715,7 +715,7 @@
     - form{"name": null}
 
 ## unhappy stats_form pt_covid_situation_tested path #2
-* pt_covid_situation_testedaQÇº++++++++++++++++++++++++++5&
+* pt_covid_situation_tested
 {"pt_country_code": "França"}
   - action_save_intent
   - country_stats_form

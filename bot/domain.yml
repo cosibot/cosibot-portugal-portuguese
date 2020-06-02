@@ -289,7 +289,7 @@ actions:
   - utter_pt_portugal_stats_down
 
 intents:
-  - start
+  - start-dialogue
   - pt_bot_stop
   - pt_bot_change_bot
   - pt_bot_appearance
@@ -872,10 +872,10 @@ responses:
               favor, escolha uma das opções:"
           - type: multichoice
             options:
-              - title: Cosibot Alemão
-                payload: '/pt_bot_change_bot{"preferred_lang": "de"}'
-              - title: Cosibot Inglês
-                payload: '/pt_bot_change_bot{"preferred_lang": "en"}'
+              - title: "Cosibot Alemão"
+                payload: "/pt_bot_change_bot{'preferred_lang': 'de'}"
+              - title: "Cosibot Inglês"
+                payload: "/pt_bot_change_bot{'preferred_lang': 'en'}"
   # utter_pt_bot_languages:
   #   - text: Fui instruída a comunicar apenas em português, mas há versões
   #           minhas em alemão e inglês. Se estiver interessado em falar com
