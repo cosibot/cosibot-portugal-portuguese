@@ -1020,16 +1020,21 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Estou actualmente na versão {bot_version}</speak>
-          - type: ssml
-            ssml: <speak>A minha versão actual é a {bot_version}</speak>
+          - type: text
+            text: Estou actualmente na versão {bot_version}
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Eu estou na versão {bot_version}</speak>
           - type: text
-            text: Estou actualmente na versão {bot_version}
+            text: Eu estou na versão {bot_version}
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>A minha versão actual é a {bot_version}</speak>
           - type: text
             text: A minha versão actual é a {bot_version}
-          - type: text
-            text: Eu estou na versão {bot_version}
+
   utter_pt_bot_origin:
     - custom:
         answers:
@@ -1044,10 +1049,12 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>O meu nome é {bot_name}.</speak>
-          - type: ssml
-            ssml: <speak>Eu sou a {bot_name}.</speak>
           - type: text
             text: O meu nome é {bot_name}.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Eu sou a {bot_name}.</speak>
           - type: text
             text: Eu sou a {bot_name}.
   utter_pt_test_per_day:
