@@ -715,8 +715,7 @@
     - form{"name": null}
 
 ## unhappy stats_form pt_covid_situation_tested path #2
-* pt_covid_situation_tested
-{"pt_country_code": "França"}
+* pt_covid_situation_tested{"pt_country_code": "França"}
   - action_save_intent
   - country_stats_form
   - form{"name": "country_stats_form"}
