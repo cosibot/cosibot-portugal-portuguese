@@ -754,6 +754,8 @@ responses:
           - type: text
             text: Neste momento em {input_country} existe um valor total de {active_cases} casos ativos. Na última
               atualização disponível foram identificados {new_cases} novos casos.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
               {input_country} existe um valor total de {total_cases} casos dos quais {active_cases} 
@@ -764,12 +766,16 @@ responses:
               {input_country} existe um valor total de {total_cases} casos dos quais {active_cases} 
               ainda estão ativos, {total_recovered} estão totalmente
               recuperados e {total_deaths} não sobreviveram.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
               {input_country} existe um valor total de {active_cases} casos ativos.</speak>
           - type: text
             text: Os últimos dados disponiveis indicam que neste momento em
               {input_country} existe um valor total de {active_cases} casos ativos.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Neste momento em {input_country} existe um valor total de
               {total_cases} casos dos quais {active_cases} ainda estão ativos, 
@@ -872,10 +878,10 @@ responses:
               favor, escolha uma das opções:"
           - type: multichoice
             options:
-              - title: Cosibot Alemão
-                payload: '/pt_bot_change_bot{"preferred_lang": "de"}'
-              - title: Cosibot Inglês
-                payload: '/pt_bot_change_bot{"preferred_lang": "en"}'
+              - label: Cosibot Alemão
+                value: '/pt_bot_change_bot{"preferred_lang": "de"}'
+              - label: Cosibot Inglês
+                value: '/pt_bot_change_bot{"preferred_lang": "en"}'
   # utter_pt_bot_languages:
   #   - text: Fui instruída a comunicar apenas em português, mas há versões
   #           minhas em alemão e inglês. Se estiver interessado em falar com
@@ -957,19 +963,25 @@ responses:
           - type: ssml
             ssml: <speak>Eu geralmente gosto de ver filmes, especialmente aos fins de
               semana.</speak>
+          - type: text
+            text: Eu geralmente gosto de ver filmes, especialmente aos fins de semana.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Infelizmente, eu não tenho muito tempo para ir ao cinema.</speak>
+          - type: text
+            text: Infelizmente, eu não tenho muito tempo para ir ao cinema.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Eu gosto muito de cinema, mas não tenho tido muito tempo para
               isso.</speak>
-          - type: ssml
-            ssml: <speak>De vez em quando, eu gosto de ver um filme.</speak>
-          - type: text
-            text: Eu geralmente gosto de ver filmes, especialmente aos fins de semana.
-          - type: text
-            text: Infelizmente, eu não tenho muito tempo para ir ao cinema.
           - type: text
             text: Eu gosto muito de cinema, mas não tenho tido muito tempo para isso.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>De vez em quando, eu gosto de ver um filme.</speak>
           - type: text
             text: De vez em quando, eu gosto de ver um filme.
   utter_pt_bot_availability:
@@ -1002,28 +1014,27 @@ responses:
           - type: ssml
             ssml: <speak>Eu não gosto de ter medo. Acho que é mais importante manter a calma
               e não entrar em pânico.</speak>
-          - type: ssml
-            ssml: <speak>Eu não gosto de ter medo. Acho que é mais importante manter a calma
-              e não entrar em pânico.</speak>
           - type: text
             text: Eu não gosto de ter medo. Acho que é mais importante manter a calma e não
               entrar em pânico.
-          - type: text
-            text: Eu não gosto de ter medo. Acho que é mais importante manter a calma e não
-              entrar em pânico.
+
   utter_pt_bot_version:
     - custom:
         answers:
           - type: ssml
             ssml: <speak>Estou actualmente na versão {bot_version}</speak>
-          - type: ssml
-            ssml: <speak>A minha versão actual é a {bot_version}</speak>
-          - type: ssml
-            ssml: <speak>Eu estou na versão {bot_version}</speak>
           - type: text
             text: Estou actualmente na versão {bot_version}
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>A minha versão actual é a {bot_version}</speak>
           - type: text
             text: A minha versão actual é a {bot_version}
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Eu estou na versão {bot_version}</speak>
           - type: text
             text: Eu estou na versão {bot_version}
   utter_pt_bot_origin:
@@ -1040,10 +1051,12 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>O meu nome é {bot_name}.</speak>
-          - type: ssml
-            ssml: <speak>Eu sou a {bot_name}.</speak>
           - type: text
             text: O meu nome é {bot_name}.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Eu sou a {bot_name}.</speak>
           - type: text
             text: Eu sou a {bot_name}.
   utter_pt_test_per_day:
@@ -1145,10 +1158,12 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Peço desculpa. Eu ainda estou a aprender!</speak>
-          - type: ssml
-            ssml: <speak>É triste saber que não está feliz com o meu desempenho.</speak>
           - type: text
             text: Peço desculpa. Eu ainda estou a aprender!
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>É triste saber que não está feliz com o meu desempenho.</speak>
           - type: text
             text: É triste saber que não está feliz com o meu desempenho.
   utter_pt_comment_offense:
@@ -1164,12 +1179,14 @@ responses:
           - type: ssml
             ssml: <speak>O seu comportamento intolerante está a assustar-me. Por favor, seja
               mais educado.</speak>
-          - type: ssml
-            ssml: <speak>Eu não entendo a razão de tal comportamento. Por favor, seja mais
-              simpático.</speak>
           - type: text
             text: O seu comportamento intolerante está a assustar-me. Por favor, seja mais
               educado.
+  utter_pt_comment_racist:
+    - custom:              
+          - type: ssml
+            ssml: <speak>Eu não entendo a razão de tal comportamento. Por favor, seja mais
+              simpático.</speak>
           - type: text
             text: Eu não entendo a razão de tal comportamento. Por favor, seja mais
               simpático.
@@ -1178,10 +1195,12 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Obrigada pela sua apreciação!</speak>
-          - type: ssml
-            ssml: <speak>Bem, obrigada! Estou muito contente por se sentir assim.</speak>
           - type: text
             text: Obrigada pela sua apreciação!
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Bem, obrigada! Estou muito contente por se sentir assim.</speak>
           - type: text
             text: Bem, obrigada! Estou muito contente por se sentir assim.
   utter_pt_comment_positive:
@@ -1484,11 +1503,13 @@ responses:
           - type: ssml
             ssml: <speak>As questões políticas são uma questão por si só, mas não
               minha!</speak>
+          - type: text
+            text: As questões políticas são uma questão por si só, mas não minha! ;)
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Há muito a dizer sobre esse assunto, mas acho que não temos tempo
               para isso neste momento.</speak>
-          - type: text
-            text: As questões políticas são uma questão por si só, mas não minha! ;)
           - type: text
             text: Há muito a dizer sobre esse assunto, mas acho que não temos tempo para
               isso neste momento.
@@ -1497,10 +1518,12 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>É mesmo muito longe.</speak>
-          - type: ssml
-            ssml: <speak>É bastante longe.</speak>
           - type: text
             text: É mesmo muito longe.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>É bastante longe.</speak>
           - type: text
             text: É bastante longe.
   utter_pt_cc_joke:
@@ -1509,12 +1532,14 @@ responses:
           - type: ssml
             ssml: <speak>Porque é que nunca se veem elefantes escondidos nas árvores? Porque
               eles são muito bons nisso.</speak>
-          - type: ssml
-            ssml: <speak>O que é vermelho e se mexe para cima e para baixo? Um tomate num
-              elevador.</speak>
           - type: text
             text: Porque é que nunca se veem elefantes escondidos nas árvores? Porque eles
               são muito bons nisso.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>O que é vermelho e se mexe para cima e para baixo? Um tomate num
+              elevador.</speak>
           - type: text
             text: O que é vermelho e se mexe para cima e para baixo? Um tomate num elevador.
   utter_pt_cc_chicken_egg:
@@ -1535,12 +1560,14 @@ responses:
             ssml: <speak>Todos estamos conscientes de que fomos de alguma forma criados e
               por isso queremos criar... Estou a pensar em criar o meu próprio
               chatbot...</speak>
-          - type: ssml
-            ssml: <speak>Seria um prazer conversar com sobre religião, mas esse é um assunto
-              que ainda estou a aprender.</speak>
           - type: text
             text: Todos estamos conscientes de que fomos de alguma forma criados e por isso
               queremos criar... Estou a pensar em criar o meu próprio chatbot...
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Seria um prazer conversar com sobre religião, mas esse é um assunto
+              que ainda estou a aprender.</speak>
           - type: text
             text: Seria um prazer conversar com sobre religião, mas esse é um assunto que
               ainda estou a aprender.
@@ -1550,11 +1577,13 @@ responses:
           - type: ssml
             ssml: <speak>Como um ser real que sou, também sou confrontado com as mesmas
               perguntas.</speak>
+          - type: text
+            text: Como um ser real que sou, também sou confrontado com as mesmas perguntas.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Às vezes questiono-me se as pessoas com quem falo são seres reais
               ou apenas imaginários...</speak>
-          - type: text
-            text: Como um ser real que sou, também sou confrontado com as mesmas perguntas.
           - type: text
             text: Às vezes questiono-me se as pessoas com quem falo são seres reais ou
               apenas imaginários...
@@ -1563,15 +1592,19 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Eu leio o jornal diariamente para me manter actualizada.</speak>
+          - type: text
+            text: Eu leio o jornal diariamente para me manter actualizada.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Eu não comprei o jornal hoje.</speak>
+          - type: text
+            text: Eu não comprei o jornal hoje.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Eu gosto de me manter atualizada e o jornal é indispensável para
               isso.</speak>
-          - type: text
-            text: Eu leio o jornal diariamente para me manter actualizada.
-          - type: text
-            text: Eu não comprei o jornal hoje.
           - type: text
             text: Eu gosto de me manter atualizada e o jornal é indispensável para isso.
   utter_pt_cc_weather:
@@ -1890,7 +1923,7 @@ responses:
               - label: Sobre COVID-19
                 value: Sobre COVID-19
               - label: Transmissão
-                value: "Transmissão "
+                value: Transmissão
               - label: Sintomas
                 value: Sintomas
               - label: Medidas Preventivas
@@ -2687,18 +2720,24 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>A qualquer hora!</speak>
-          - type: ssml
-            ssml: <speak>De nada!</speak>
-          - type: ssml
-            ssml: <speak>Foi um prazer.</speak>
-          - type: ssml
-            ssml: <speak>Estou feliz em ajudar!</speak>
           - type: text
             text: A qualquer hora!
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>De nada!</speak>
           - type: text
             text: De nada!
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Foi um prazer.</speak>
           - type: text
             text: Foi um prazer.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Estou feliz em ajudar!</speak>
           - type: text
             text: Estou feliz em ajudar!
   utter_pt_vocative_you_welcome:
@@ -2706,10 +2745,12 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Muito bem! O que mais posso fazer por si?</speak>
-          - type: ssml
-            ssml: <speak>Ok! O que mais posso fazer por si?</speak>
           - type: text
             text: Muito bem! O que mais posso fazer por si?
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Ok! O que mais posso fazer por si?</speak>
           - type: text
             text: Ok! O que mais posso fazer por si?
   utter_pt_vocative_call:
@@ -2717,10 +2758,12 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Estou aqui. Diz-me só como posso ajudar.</speak>
-          - type: ssml
-            ssml: <speak>Ao seu serviço...</speak>
           - type: text
             text: Estou aqui. Diz-me só como posso ajudar.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Ao seu serviço...</speak>
           - type: text
             text: Ao seu serviço...
   utter_pt_vocative_sorry:
@@ -2728,10 +2771,12 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Não é preciso pedir desculpa.</speak>
-          - type: ssml
-            ssml: <speak>Está tudo bem, não precisa de pedir desculpa.</speak>
           - type: text
             text: Não é preciso pedir desculpa.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Está tudo bem, não precisa de pedir desculpa.</speak>
           - type: text
             text: Está tudo bem, não precisa de pedir desculpa.
   utter_pt_vocative_help:
@@ -2739,14 +2784,18 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Claro que sim! Diga-me o que posso fazer por si.</speak>
-          - type: ssml
-            ssml: <speak>Com certeza. Em que posso ajudá-lo?</speak>
-          - type: ssml
-            ssml: <speak>Com certeza. O que posso fazer por si?</speak>
           - type: text
             text: Claro que sim! Diga-me o que posso fazer por si.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Com certeza. Em que posso ajudá-lo?</speak>
           - type: text
             text: Com certeza. Em que posso ajudá-lo?
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Com certeza. O que posso fazer por si?</speak>
           - type: text
             text: Com certeza. O que posso fazer por si?
   utter_pt_travel_while:
@@ -2831,16 +2880,20 @@ responses:
           - type: ssml
             ssml: <speak>São <say-as interpret-as='time'
               format='hm24'>{bot_time}</say-as>.</speak>
+          - type: text
+            text: São {bot_time}.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Neste momento são <say-as interpret-as='time'
               format='hm24'>{bot_time}</say-as>.</speak>
+          - type: text
+            text: Neste momento são {bot_time}.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Agora são <say-as interpret-as='time'
               format='hm24'>{bot_time}</say-as>.</speak>
-          - type: text
-            text: São {bot_time}.
-          - type: text
-            text: Neste momento são {bot_time}.
           - type: text
             text: Agora são {bot_time}.
   utter_pt_features_date:
@@ -2849,11 +2902,13 @@ responses:
           - type: ssml
             ssml: <speak>Hoje é <say-as interpret-as='date' format='dm'> {bot_date}
               </say-as>.</speak>
+          - type: text
+            text: Hoje é {bot_date}.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>É o <say-as interpret-as='date' format='dm'> {bot_date}
               </say-as>.</speak>
-          - type: text
-            text: Hoje é {bot_date}.
           - type: text
             text: É o {bot_date}.
   utter_pt_spread_pets:
@@ -3045,14 +3100,18 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>O que mais posso fazer por si?</speak>
-          - type: ssml
-            ssml: <speak>Há mais alguma pergunta que eu possa responder?</speak>
-          - type: ssml
-            ssml: <speak>Que mais posso fazer por si?</speak>
           - type: text
             text: O que mais posso fazer por si?
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Há mais alguma pergunta que eu possa responder?</speak>
           - type: text
             text: Há mais alguma pergunta que eu possa responder?
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Que mais posso fazer por si?</speak>
           - type: text
             text: Que mais posso fazer por si?
     
@@ -3139,16 +3198,16 @@ responses:
   utter_pt_bot_games:
     - custom:
         answers:
-          - ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          - type: ssml
+            ssml: <speak>Peço desculpa mas de momento não tenho resposta para a sua pergunta,
               mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
               informações sobre medidas preventivas, sintomas associados à doença ou como
               o vírus se espalha.</speak>
-            type: ssml
-          - text: Peço desculpa mas de momento não tenho resposta para a sua pergunta,
+          - type: text
+            text: Peço desculpa mas de momento não tenho resposta para a sua pergunta,
               mas em breve já serei capaz de respondê-la. Pode pedir-me, por exemplo,
               informações sobre medidas preventivas, sintomas associados à doença ou como
               o vírus se espalha.
-            type: text
   utter_pt_bot_personal_questions:
     - custom:
         answers:
