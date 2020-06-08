@@ -1575,11 +1575,13 @@ responses:
           - type: ssml
             ssml: <speak>Como um ser real que sou, também sou confrontado com as mesmas
               perguntas.</speak>
+          - type: text
+            text: Como um ser real que sou, também sou confrontado com as mesmas perguntas.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Às vezes questiono-me se as pessoas com quem falo são seres reais
               ou apenas imaginários...</speak>
-          - type: text
-            text: Como um ser real que sou, também sou confrontado com as mesmas perguntas.
           - type: text
             text: Às vezes questiono-me se as pessoas com quem falo são seres reais ou
               apenas imaginários...
@@ -1588,13 +1590,16 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Eu leio o jornal diariamente para me manter actualizada.</speak>
+          - type: text
+            text: Eu leio o jornal diariamente para me manter actualizada.
+    - custom:
+        answers:
           - type: ssml
             ssml: <speak>Eu não comprei o jornal hoje.</speak>
           - type: ssml
             ssml: <speak>Eu gosto de me manter atualizada e o jornal é indispensável para
               isso.</speak>
-          - type: text
-            text: Eu leio o jornal diariamente para me manter actualizada.
+
           - type: text
             text: Eu não comprei o jornal hoje.
           - type: text
@@ -3092,14 +3097,18 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>O que mais posso fazer por si?</speak>
-          - type: ssml
-            ssml: <speak>Há mais alguma pergunta que eu possa responder?</speak>
-          - type: ssml
-            ssml: <speak>Que mais posso fazer por si?</speak>
           - type: text
             text: O que mais posso fazer por si?
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Há mais alguma pergunta que eu possa responder?</speak>
           - type: text
             text: Há mais alguma pergunta que eu possa responder?
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Que mais posso fazer por si?</speak>
           - type: text
             text: Que mais posso fazer por si?
     

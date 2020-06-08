@@ -37,7 +37,7 @@ policies:
     core_threshold: 0.3
     fallback_action_name: "action_default_fallback"
   - name: language_detection.lang_change_policy.LangChangePolicy
-    lang_detect_threshold: 0.8
+    lang_detect_threshold: 0.9
     fallback_action_name: 'utter_pt_bot_languages'
     model_path: "./language_detection/lid.176.ftz"
   - name: FormPolicy
