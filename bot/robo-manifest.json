@@ -1,0 +1,16 @@
+{
+    "base_version": "rasa-1.10.0",
+    "bot_id": "rasa-cosibot-portugal-portuguese-stats-form",
+    "exclusions": [
+        "__pycache__",
+        "*.py[cod]",
+        "*$py.class",
+        "*.so",
+        ".*",
+        "eggs",
+        "*.egg-info",
+        "venv",
+        "virtualenv",
+        "build"
+    ]
+}
