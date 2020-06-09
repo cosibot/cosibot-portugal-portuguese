@@ -1182,7 +1182,6 @@ responses:
           - type: text
             text: O seu comportamento intolerante está a assustar-me. Por favor, seja mais
               educado.
-  utter_pt_comment_racist:
     - custom:              
           - type: ssml
             ssml: <speak>Eu não entendo a razão de tal comportamento. Por favor, seja mais
