@@ -1,9 +1,20 @@
 ## start
 * start-dialogue{"bot_introduced": "False"}
   - action_check_Bot_Introduced
+  - slot{"bot_introduced": "True"}
   - utter_pt_welcome
 
 ## start
+* start-dialogue{"bot_introduced": "True"}
+  - utter_pt_greeting_hello
+
+## start1_1
+* start-dialogue{"bot_introduced": "False"}
+  - action_check_Bot_Introduced
+  - slot{"bot_introduced": "True"}
+  - utter_pt_welcome
+
+## start1_2
 * start-dialogue{"bot_introduced": "True"}
   - utter_pt_greeting_hello
 
@@ -1233,3 +1244,15 @@ TESTED
 ## pt_covid_ibuprofen
 * pt_covid_ibuprofen
   - utter_pt_covid_ibuprofen
+
+## carousel-trigger
+* carousel-trigger
+  - utter_carousel_trigger
+
+## video-trigger
+* video-trigger
+  - utter_video_trigger
+
+## cms-trigger
+* cms-trigger
+  - utter_cms_trigger

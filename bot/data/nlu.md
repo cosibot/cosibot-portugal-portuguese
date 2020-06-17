@@ -1,10 +1,11 @@
 ## intent:start-dialogue
 - /start
-- /start
 - /start_conversation
 - /start_chat
 - /start-dialogue
-- get started
+- /get started
+- /start_dialogue
+- /start dialogue
 
 ## intent:pt_bot_change_bot
 - [Cosibot Alemão](preferred_lang:de_lang)

@@ -272,9 +272,16 @@ actions:
   - utter_pt_cc_highest_building
   - utter_pt_state_emergency_end
   - utter_pt_covid_ibuprofen
+  - utter_carousel_trigger
+  - utter_video_trigger
+  - utter_cms_trigger
 
 intents:
+  - start
   - start-dialogue
+  - carousel-trigger
+  - video-trigger
+  - cms-trigger
   - pt_bot_change_bot
   - pt_bot_appearance
   - pt_bot_availability
@@ -3584,3 +3591,24 @@ responses:
               informações sobre medidas preventivas, sintomas associados à doença ou como
               o vírus se espalha.
             type: text
+  
+  utter_carousel_trigger:
+    - custom:
+        answers:
+          - type: carousel 
+            options: [{"title": "volunteers-big","thumbnailURL": "volunteers-big.png", "url":"https://cosibot.org/wp-content/uploads/2020/05/volunteers-big.png"},{"title": "icon-violet-bg","thumbnailURL": "icon-violet-bg.png", "url":"https://cosibot.org/wp-content/uploads/2020/05/icon-violet-bg.png"}]
+
+  utter_video_trigger:
+    - custom:
+        answers:
+          - type: video 
+            title: video example
+            thumbnailURL: video-example1.mp4
+            url: https://cosibot.org/wp-content/uploads/2020/06/video-example1.mp4
+
+  utter_cms_trigger:
+    - custom:
+        answers:
+          - type: cms 
+            cmsId: cms-answerid
+            parameters: ["param1", "param2"]
