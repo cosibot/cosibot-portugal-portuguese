@@ -1,4 +1,4 @@
-## intent:start-dialogue
+## intent:start
 - /start
 - /start_conversation
 - /start_chat
@@ -8,8 +8,8 @@
 - /start dialogue
 
 ## intent:pt_bot_change_bot
-- [Cosibot Alemão](preferred_lang:de_lang)
-- [Cosibot Inglês](preferred_lang:en_lang)
+- [Cosibot Alemão]{"entity": "preferred_lang", "value": "de_lang"}
+- [Cosibot Inglês]{"entity": "preferred_lang", "value": "en_lang"}
 
 <!-- ## intent:pt_bot_change_bot
 - Cosibot Alemão
@@ -368,12 +368,12 @@
 - Em que línguas és capaz de falar?
 - Em que línguas és fluente?
 - Estás a aprender línguas?
-- Falas [Português](language)?
-- Falas [alemão](language)?
-- Falas em [inglês](language)?
-- Falas [espanhol](language)?
-- Falas [francês](language)?
-- Falas [inglês](language)?
+- Falas [Português]{"entity": "language"}?
+- Falas [alemão]{"entity": "language"}?
+- Falas em [inglês]{"entity": "language"}?
+- Falas [espanhol]{"entity": "language"}?
+- Falas [francês]{"entity": "language"}?
+- Falas [inglês]{"entity": "language"}?
 - Gostas de idiomas?
 - Outra língua.
 - Outro idioma.
@@ -392,7 +392,7 @@
 - Que idiomas és capaz de falar?
 - Que línguas falas?
 - Sobre idiomas.
-- és capaz de me responder em [alemão](language)?
+- és capaz de me responder em [alemão]{"entity": "language"}?
 
 ## intent:pt_bot_movies
 - Aprecias algum filme?
@@ -1031,50 +1031,50 @@
 - Tu sabes fatos interessantes?
 
 ## intent:pt_cc_geography
-- A [Holanda](pt_country_code:NL) tem montanhas?
+- A [Holanda]{"entity": "pt_country_code", "value": "NL"} tem montanhas?
 - América é um continente?
-- Conheces [Itália](pt_country_code:IT)?
-- Conheces [Lisboa](pt_country_municipal:Lisboa)?
-- Conta-me coisa sobre a [Itália](pt_country_code:IT)
-- [Croácia](pt_country_code:HR) é um bom sítio para visitar?
+- Conheces [Itália]{"entity": "pt_country_code", "value": "IT"}?
+- Conheces [Lisboa]{"entity": "pt_country_region", "value": "Lisboa"}?
+- Conta-me coisa sobre a [Itália]{"entity": "pt_country_code", "value": "IT"}
+- [Croácia]{"entity": "pt_country_code", "value": "HR"} é um bom sítio para visitar?
 - Diz-me o número de continentes
-- [Escócia](pt_country_code:GB) fica no Reino Unido?
-- Estás em [Macau](pt_country_code:MO)?
+- [Escócia]{"entity": "pt_country_code", "value": "GB"} fica no Reino Unido?
+- Estás em [Macau]{"entity": "pt_country_code", "value": "MO"}?
 - Europa é um continente?
 - Há quantos continentes
-- Já estiveste em [Espanha](pt_country_code:ES)?
+- Já estiveste em [Espanha]{"entity": "pt_country_code", "value": "ES"}?
 - Madeira é uma ilha?
 - O mundo tem quantos continentes?
-- O que me consegues dizer sobre a [Alemanha](pt_country_code:DE)?
+- O que me consegues dizer sobre a [Alemanha]{"entity": "pt_country_code", "value": "DE"}?
 - O que me consegues dizer sobre a Europa?
-- O que me consegues dizer sobre a [Inglaterra](pt_country_code:GB)?
-- O que sabes sobre a [Inglaterra](pt_country_code:GB)?
+- O que me consegues dizer sobre a [Inglaterra]{"entity": "pt_country_code", "value": "GB"}?
+- O que sabes sobre a [Inglaterra]{"entity": "pt_country_code", "value": "GB"}?
 - O que sabes sobre geografia?
 - O que é Valência?
-- Onde fica a [Alemanha](pt_country_code:DE)
+- Onde fica a [Alemanha]{"entity": "pt_country_code", "value": "DE"}
 - Onde fica a América
-- Onde fica a [Inglaterra](pt_country_code:GB)
-- Onde fica a [Itália](pt_country_code:IT)
-- Onde fica [Évora](pt_country_municipal:Évora)
+- Onde fica a [Inglaterra]{"entity": "pt_country_code", "value": "GB"}
+- Onde fica a [Itália]{"entity": "pt_country_code", "value": "IT"}
+- Onde fica [Évora]{"entity": "pt_country_municipal", "value": "Évora"}
 - Onde ficam os Alpes?
 - Onde ficam os Himalaias?
 - Onde são os Himalaias?
-- Onde é [Braga](pt_country_municipal:Braga)?
+- Onde é [Braga]{"entity": "pt_country_municipal", "value": "Braga"}?
 - Quantos países há no mundo?
 - Quantos países tem a Europa?
 - Quantos países tem o mundo?
-- Que montanhas há na [Alemanha](pt_country_code:DE)?
-- Que rios há em [Portugal](pt_country_code:PT)?
-- Que rios há nos [Estados Unidos da América](pt_country_code:US)?
+- Que montanhas há na [Alemanha]{"entity": "pt_country_code", "value": "DE"}?
+- Que rios há em [Portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Que rios há nos [Estados Unidos da América]{"entity": "pt_country_code", "value": "US"}?
 - Sabes alguma coisa de geografia?
 - Sabes alguma coisa sobre geografia?
-- Sabes onde fica a [França](pt_country_code:FR)?
-- Sabes onde fica a [Itália](pt_country_code:IT)?
+- Sabes onde fica a [França]{"entity": "pt_country_code", "value": "FR"}?
+- Sabes onde fica a [Itália]{"entity": "pt_country_code", "value": "IT"}?
 - Sabes onde ficam os Himalaias?
-- Tens uma estrada para a [Bélgica](pt_country_code:BE)?
+- Tens uma estrada para a [Bélgica]{"entity": "pt_country_code", "value": "BE"}?
 - conta-me coisa sobre Madrid
-- conta-me coisa sobre o [Nepal](pt_country_code:NP)
-- onde fica a [Zimbabué](pt_country_code:ZW)
+- conta-me coisa sobre o [Nepal]{"entity": "pt_country_code", "value": "NP"}
+- onde fica a [Zimbabué]{"entity": "pt_country_code", "value": "ZW"}
 
 ## intent:pt_cc_highest_building
 - Edifício mais alto na terra
@@ -1602,7 +1602,7 @@
 - Porque é que Deus não cura todos?
 - Porque é que Deus não se mostra?
 - Porque é que Deus odeia o pecado?
-- Porque é que Deus permite a [doença](pt_virus:COVID)?
+- Porque é que Deus permite a [doença]{"entity": "pt_virus", "value": "COVID"}?
 - Porque é que Deus é tão violento no antigo testamento?
 - Porque é que acreditas em algo que não podes ver?
 - Porque é que coisas más acontecem a coisas boas?
@@ -2039,73 +2039,73 @@
 - És tão sábio
 
 ## intent:pt_coronavirus_info
-- About [coronavirus](pt_virus:COVID)
-- About [coronaviruses](pt_virus:COVID)
-- I don’t know what are [coronaviruses](pt_virus:COVID)
-- I don’t know what is a [coronavirus](pt_virus:COVID)
-- I don’t know what is [coronavirus](pt_virus:COVID)
-- Info on [coronavirus](pt_virus:COVID)
-- Info on [coronaviruses](pt_virus:COVID)
-- O que são [coronavirus](pt_virus:COVID)?
-- O que são os [coronavirus](pt_virus:COVID)?
-- O que é o [vírus](pt_virus:COVID)?
-- O que é p [coronavirus](pt_virus:COVID)
-- O que é um [coronavirus](pt_virus:COVID)?
-- Que mais sabes sobre o [coronavírus](pt_virus:COVID)?
-- Que sabes sobre o [coronavírus](pt_virus:COVID)?
-- Tell me more about [coronavirus](pt_virus:COVID)
-- Tell me more about [coronaviruses](pt_virus:COVID)
-- Tell me what are [coronaviruses](pt_virus:COVID)
-- Tell me what is a [coronavirus](pt_virus:COVID)
-- Tell me what is [coronavirus](pt_virus:COVID)
-- What are [coronaviruses](pt_virus:COVID)
-- What is a [coronavirus](pt_virus:COVID)
-- [coronavirus](pt_virus:COVID)
-- [coronavirus](pt_virus:COVID) info
-- [coronavirus](pt_virus:COVID) information
-- [coronaviruses](pt_virus:COVID)
-- [coronaviruses](pt_virus:COVID) info
-- [coronaviruses](pt_virus:COVID) information
-- info about [coronavirus](pt_virus:COVID)
-- info about [coronaviruses](pt_virus:COVID)
-- information about [coronavirus](pt_virus:COVID)
-- information about [coronaviruses](pt_virus:COVID)
-- information on [coronavirus](pt_virus:COVID)
-- information on [coronaviruses](pt_virus:COVID)
-- o que é o [coronavirus](pt_virus:COVID)?
-- que é o [coronavirus](pt_virus:COVID)
-- [virus](pt_virus:COVID)
-- what about [coronavirus](pt_virus:COVID)
-- what about [coronaviruses](pt_virus:COVID)
-- what is [coronavirus](pt_virus:COVID)
+- About [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- About [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- I don’t know what are [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- I don’t know what is a [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- I don’t know what is [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Info on [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Info on [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- O que são [coronavirus]{"entity": "pt_virus", "value": "COVID"}?
+- O que são os [coronavirus]{"entity": "pt_virus", "value": "COVID"}?
+- O que é o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O que é p [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [coronavirus]{"entity": "pt_virus", "value": "COVID"}?
+- Que mais sabes sobre o [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Que sabes sobre o [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Tell me more about [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Tell me more about [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- Tell me what are [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- Tell me what is a [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Tell me what is [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- What are [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- What is a [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- [coronavirus]{"entity": "pt_virus", "value": "COVID"} info
+- [coronavirus]{"entity": "pt_virus", "value": "COVID"} information
+- [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- [coronaviruses]{"entity": "pt_virus", "value": "COVID"} info
+- [coronaviruses]{"entity": "pt_virus", "value": "COVID"} information
+- info about [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- info about [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- information about [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- information about [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- information on [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- information on [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- o que é o [coronavirus]{"entity": "pt_virus", "value": "COVID"}?
+- que é o [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- [virus]{"entity": "pt_virus", "value": "COVID"}
+- what about [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- what about [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- what is [coronavirus]{"entity": "pt_virus", "value": "COVID"}
 
 ## intent:pt_covid_aftereffects_immunity
-- As pessoas que já se curaram do [covid](pt_virus:COVID) podem vir a te lo novamente?
+- As pessoas que já se curaram do [covid]{"entity": "pt_virus", "value": "COVID"} podem vir a te lo novamente?
 - Depois de recuperar as pessoas ficam imunes?
-- Depois de recuperar do [coronavirus](pt_virus:COVID) as pessoas ficam imunes?
-- Depois de ter sido infectado fico imune ao [vírus](pt_virus:COVID)?
+- Depois de recuperar do [coronavirus]{"entity": "pt_virus", "value": "COVID"} as pessoas ficam imunes?
+- Depois de ter sido infectado fico imune ao [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Imunidade
 - Os doentes tratados ficam imunizados?
 - Os doentes tratados podem ser novamente infetados?
-- Uma pessoa infectada com [coronavirus](pt_virus:COVID) fica imune?
+- Uma pessoa infectada com [coronavirus]{"entity": "pt_virus", "value": "COVID"} fica imune?
 - Uma pessoa infectada fica imune?
-- depois de ser infectado estou imune o [vírus](pt_virus:COVID)?
-- depois de ser infetado estou imune à [doença](pt_virus:COVID)?
+- depois de ser infectado estou imune o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- depois de ser infetado estou imune à [doença]{"entity": "pt_virus", "value": "COVID"}?
 
 ## intent:pt_covid_alike
-- Já houve algum surto com [coronavírus](pt_virus:COVID) em anos anteriores?
-- Já houve algum surto como o [covid](pt_virus:COVID) em anos anteriores?
+- Já houve algum surto com [coronavírus]{"entity": "pt_virus", "value": "COVID"} em anos anteriores?
+- Já houve algum surto como o [covid]{"entity": "pt_virus", "value": "COVID"} em anos anteriores?
 - Surtos semelhantes a esta pandemia
-- Surtos semelhantes ao [coronavirus](pt_virus:COVID)
-- Surtos semelhantes ao [covid](pt_virus:COVID)
+- Surtos semelhantes ao [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Surtos semelhantes ao [covid]{"entity": "pt_virus", "value": "COVID"}
 
 ## intent:pt_covid_babys_children
 - As crianças podem infectar as pessoas?
-- As crianças podem transmitir a [doença](pt_virus:COVID)?
-- As crianças podem transmitir a infeção e [doença](pt_virus:COVID) por [COVID-19](pt_virus:COVID)?
-- As crianças transmitem a [doença](pt_virus:COVID)?
-- Os bebés podem transmitir a [doença](pt_virus:COVID)?
-- Os bebés transmitem a [doença](pt_virus:COVID)?
+- As crianças podem transmitir a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- As crianças podem transmitir a infeção e [doença]{"entity": "pt_virus", "value": "COVID"} por [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- As crianças transmitem a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Os bebés podem transmitir a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Os bebés transmitem a [doença]{"entity": "pt_virus", "value": "COVID"}?
 
 ## intent:pt_covid_close_contact
 - Contacto próximo
@@ -2123,7 +2123,7 @@
 - what is cosibot?
 
 ## intent:pt_covid_crisis_howlong
-- Acreditas que o [vírus](pt_virus:COVID) irá estagnar?
+- Acreditas que o [vírus]{"entity": "pt_virus", "value": "COVID"} irá estagnar?
 - Quando é que esta crise vai a acabar?
 - Quando é que esta epidemia vai a acabar?
 - Quando é que isto vai a acabar?
@@ -2133,87 +2133,87 @@
 - quanto tempo irá durar essa crise?
 
 ## intent:pt_covid_current_statistics
-- "[Reinfeld](pt_geography:town):country news."
-- "[Großbreitenbach](pt_geography:town):situação do país"
-- COVID em [Split](pt_geography:town):country
-- COVID-19 em [Taiyuan](pt_geography:town):country
-- Como está a situação em [Nassau](pt_geography:town)_country?
-- Coronavirus em [Osterode Am Harz](pt_geography:town):country
-- Estatísticas actualizadas em [Kleve](pt_geography:town):country
-- Informações [Gliwice](pt_geography:town):country
-- Informações actualizadas [Milwaukee](pt_geography:town):country
-- Informações sobre [Gatineau](pt_geography:town):country
-- Notícias [Zülpich](pt_geography:town):country
-- Notícias atuais [Bangui](pt_geography:town):country
-- Notícias de [Widdern](pt_geography:town):country
+- [Reinfeld]{"entity": "pt_geography", "value": "town"} noticias.
+- [Großbreitenbach]{"entity": "pt_geography", "value": "town"} situação do país
+- COVID em [Split]{"entity": "pt_geography", "value": "town"}
+- COVID-19 em [Taiyuan]{"entity": "pt_geography", "value": "town"}
+- Como está a situação em [Nassau]{"entity": "pt_geography", "value": "town"}?
+- Coronavirus em [Osterode Am Harz]{"entity": "pt_geography", "value": "town"}
+- Estatísticas actualizadas em [Kleve]{"entity": "pt_geography", "value": "town"}
+- Informações [Gliwice]{"entity": "pt_geography", "value": "town"}
+- Informações actualizadas [Milwaukee]{"entity": "pt_geography", "value": "town"}
+- Informações sobre [Gatineau]{"entity": "pt_geography", "value": "town"}
+- Notícias [Zülpich]{"entity": "pt_geography", "value": "town"}
+- Notícias atuais [Bangui]{"entity": "pt_geography", "value": "town"}
+- Notícias de [Widdern]{"entity": "pt_geography", "value": "town"}
 - Notícias sobre o COVID-19
-- Novo coronavírus em [Verona](pt_geography:town):country
-- Situação [Esens](pt_geography:town):country
-- Situação actual em [Guayaquil](pt_geography:town):country
-- Situação actualizada em [Nis](pt_geography:town):country
-- Situação em [Pirmasens](pt_geography:town):country
+- Novo coronavírus em [Verona]{"entity": "pt_geography", "value": "town"}
+- Situação [Esens]{"entity": "pt_geography", "value": "town"}
+- Situação actual em [Guayaquil]{"entity": "pt_geography", "value": "town"}
+- Situação actualizada em [Nis]{"entity": "pt_geography", "value": "town"}
+- Situação em [Pirmasens]{"entity": "pt_geography", "value": "town"}
 - situação
 - Últimas notícias
 
 ## intent:pt_covid_duration
-- Depois dos primeiros sintomas, quanto tempo pode durar a [doença](pt_virus:COVID)?
+- Depois dos primeiros sintomas, quanto tempo pode durar a [doença]{"entity": "pt_virus", "value": "COVID"}?
 - POsso ficar doente por quanto tempo?
 - Por quanto tempo posso ficar doente?
-- Quanto tempo pode durar a [doença](pt_virus:COVID)?
+- Quanto tempo pode durar a [doença]{"entity": "pt_virus", "value": "COVID"}?
 - quanto tempo fico doente
 
 ## intent:pt_covid_incubation
-- [2019nCov](pt_virus:COVID) incubation period.
+- [2019nCov]{"entity": "pt_virus", "value": "COVID"} incubation period.
 - Diz-me período de incubação.
 - Duração estimada para o período de incubação?
 - Estimar o período de incubação do tempo.
-- Incubação do [vírus](pt_virus:COVID)?
+- Incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Informações sobre o período de incubação.
-- Intervalo de incubação da [doença](pt_virus:COVID).
-- Intervalo de incubação de [coronavírus](pt_virus:COVID).
-- Intervalo de incubação do [coronavírus](pt_virus:COVID).
-- Intervalo entre o contágio do [vírus](pt_virus:COVID) e o início dos sintomas.
-- Intervalo temporal entre a apanha do [vírus](pt_virus:COVID) e o início dos sintomas da [doença](pt_virus:COVID).
+- Intervalo de incubação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Intervalo de incubação de [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Intervalo de incubação do [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Intervalo entre o contágio do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas.
+- Intervalo temporal entre a apanha do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
 - No período de incubação.
 - O período de incubação.
 - O tempo até ao início dos sintomas após contágio.
 - O tempo até ao início dos sintomas.
-- O tempo entre a apanha do [vírus](pt_virus:COVID) e o início dos sintomas da [doença](pt_virus:COVID).
-- O tempo entre a captura do [vírus](pt_virus:COVID) e o início dos sintomas da [doença](pt_virus:COVID).
-- O tempo entre a captura do [vírus](pt_virus:COVID) e o início dos sintomas.
-- O tempo entre a captura e o início dos sintomas da [doença](pt_virus:COVID).
+- O tempo entre a apanha do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- O tempo entre a captura do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- O tempo entre a captura do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas.
+- O tempo entre a captura e o início dos sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
 - O tempo entre a captura e o início dos sintomas.
-- O tempo entre o contágio do [vírus](pt_virus:COVID) e o início dos sintomas.
-- Período de incubação [19-nCoV](pt_virus:COVID).
-- Período de incubação [19nCov](pt_virus:COVID).
-- Período de incubação [2019-nCoV](pt_virus:COVID).
-- Período de incubação [2019nCov](pt_virus:COVID).
-- Período de incubação [COVID-19](pt_virus:COVID).
-- Período de incubação [COVID-2019](pt_virus:COVID).
-- Período de incubação [covid](pt_virus:COVID).
-- Período de incubação [COVID19](pt_virus:COVID).
-- Período de incubação [COVID2019](pt_virus:COVID).
-- Período de incubação [SARS-Cov-2](pt_virus:COVID).
-- Período de incubação [SARS-CoV2](pt_virus:COVID).
-- Período de incubação [SARSCoV-2](pt_virus:COVID).
-- Período de incubação [SARSCoV2](pt_virus:COVID).
-- Período de incubação de [19-nCoV](pt_virus:COVID).
-- Período de incubação de [19nCov](pt_virus:COVID).
-- Período de incubação de [SARS-Cov-2](pt_virus:COVID).
-- Período de incubação de [SARS-CoV2](pt_virus:COVID).
-- Período de incubação de [SARSCoV-2](pt_virus:COVID).
-- Período de incubação de [SARSCoV2](pt_virus:COVID).
-- Período de incubação do [COVID-19](pt_virus:COVID).
-- Período de incubação do [COVID19](pt_virus:COVID).
-- Período de incubação do [novo coronavírus](pt_virus:COVID)?
-- Período de incubação do recente [coronavírus](pt_virus:COVID).
-- Período de incubação do [vírus](pt_virus:COVID).
-- Período de incubação [novo coronavírus](pt_virus:COVID).
+- O tempo entre o contágio do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas.
+- Período de incubação [19-nCoV]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [19nCov]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [2019nCov]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [COVID-2019]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [covid]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [COVID19]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de [19-nCoV]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de [19nCov]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação do [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação do [COVID19]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Período de incubação do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação.
 - Previsão temporal de incubação.
 - Previsão temporal do período de incubação.
 - Qual o periodo de incubação?
-- Qual o tempo de incubação do [vírus](pt_virus:COVID)?
+- Qual o tempo de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Qual é o periodo de incubação?
 - Qual é o tempo estimado da incubação?
 - Qual é o tempo estimado de incubação?
@@ -2221,497 +2221,497 @@
 - Qual é o tempo estimado para o período de incubação?
 - Quanto tempo até os sintomas aparecerem?
 - Quanto tempo até que os sintomas apareçam?
-- Quanto tempo dura o período de incubação [19-nCoV](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação [19nCov](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação [2019-nCoV](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação [2019nCov](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação [COVID-19](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação [COVID-2019](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação [COVID19](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação [COVID2019](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação [covid](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação [SARS-Cov-2](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação [SARS-CoV2](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação [SARSCoV-2](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação [SARSCoV2](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação da [doença](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação de [SARS-Cov-2](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação de [SARS-CoV2](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação de [SARSCoV2](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação do [19-nCoV](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação do [19nCov](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação do [COVID-19](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação do [COVID-2019](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação do [COVID19](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação do [COVID2019](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação do [covid](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação do [SARSCoV-2](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação do [novo coronavírus](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação do recente [coronavírus](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação do [vírus](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação para [2019-nCoV](pt_virus:COVID)?
-- Quanto tempo dura o período de incubação para [2019nCov](pt_virus:COVID)?
+- Quanto tempo dura o período de incubação [19-nCoV]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [19nCov]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [2019nCov]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [COVID19]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [COVID2019]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [covid]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação da [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação de [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação de [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação de [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [19-nCoV]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [19nCov]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [COVID19]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [COVID2019]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [covid]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação para [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação para [2019nCov]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação?
 - Quanto tempo leva até os sintomas?
 - Quanto é o tempo estimado do período de incubação?
 - Sobre o período de incubação.
 - Tempo estimado da estimativa do período de incubação.
 - Tempo estimado do período de incubação.
-- novo período de incubação de [coronavírus](pt_virus:COVID).
-- novo período de incubação do [coronavírus](pt_virus:COVID).
-- o período de incubação do [vírus](pt_virus:COVID).
-- período de incubação da [doença](pt_virus:COVID).
+- novo período de incubação de [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- novo período de incubação do [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- o período de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- período de incubação da [doença]{"entity": "pt_virus", "value": "COVID"}.
 - período de incubação estimado.
 - tempo estimado para o período de incubação.
 
 ## intent:pt_covid_info
-- [19-nCoV](pt_virus:COVID)
-- [19-nCoV](pt_virus:COVID) info
-- [19-nCoV](pt_virus:COVID) informações
-- [19nCov](pt_virus:COVID)
-- [19nCov](pt_virus:COVID) info
-- [19nCov](pt_virus:COVID) informações
-- [2019-nCoV](pt_virus:COVID)
-- [2019-nCoV](pt_virus:COVID) info
-- [2019nCov](pt_virus:COVID)
-- [2019nCov](pt_virus:COVID) info
-- [2019nCov](pt_virus:COVID) informações
-- Atual [coronavírus](pt_virus:COVID)
-- [covid](pt_virus:COVID)
-- [COVID-19](pt_virus:COVID)
-- [COVID-19](pt_virus:COVID) info
-- [COVID-2019](pt_virus:COVID)
-- [COVID-2019](pt_virus:COVID) mais info
-- [COVID-2019](pt_virus:COVID) mais informação
-- [COVID2019](pt_virus:COVID)
-- [COVID2019](pt_virus:COVID) info
-- Como começou o [COVID-19](pt_virus:COVID)
-- Conta acerca do [2019-nCoV](pt_virus:COVID)
-- Conta do [covid](pt_virus:COVID)
-- Conta mais sobre [nCov](pt_virus:COVID)
-- Conta mais sobre o [novo coronavírus](pt_virus:COVID)
-- Conta-me info do [nCov](pt_virus:COVID)
-- Conta-me mais sobre [2019nCov](pt_virus:COVID)
-- Conta-me mais sobre o [19-nCoV](pt_virus:COVID)
-- Conta-me mais sobre o [19nCov](pt_virus:COVID)
-- Conta-me mais sobre o [COVID-2019](pt_virus:COVID)
-- Conte-me a respeito do [COVID-19](pt_virus:COVID)
-- Conte-me mais a respeito do [COVID-19](pt_virus:COVID)
-- Conte-me mais em relação ao [2019-nCoV](pt_virus:COVID)
-- Conte-me mais sobre [19-nCoV](pt_virus:COVID)
-- Conte-me mais sobre [19nCov](pt_virus:COVID)
-- Conte-me mais sobre [2019-nCoV](pt_virus:COVID)
-- Conte-me mais sobre [2019nCov](pt_virus:COVID)
-- Conte-me mais sobre [covid](pt_virus:COVID)
-- Conte-me mais sobre [COVID2019](pt_virus:COVID)
-- Conte-me mais sobre [nCov](pt_virus:COVID)
-- Conte-me mais sobre o [19-nCoV](pt_virus:COVID)
-- Conte-me mais sobre o [19nCov](pt_virus:COVID)
-- Conte-me mais sobre o [2019-nCoV](pt_virus:COVID)
-- Conte-me mais sobre o [2019nCov](pt_virus:COVID)
-- Conte-me mais sobre o [covid](pt_virus:COVID)
-- Conte-me mais sobre o [COVID-19](pt_virus:COVID)
-- Conte-me mais sobre o [COVID-2019](pt_virus:COVID)
-- Conte-me mais sobre o [COVID2019](pt_virus:COVID)
-- Conte-me mais sobre o [nCov](pt_virus:COVID)
-- Conte-me mais sobre o [novo coronavírus](pt_virus:COVID)
-- Conte-me mais sobre o recente [coronavírus](pt_virus:COVID)
-- [Corona](pt_virus:COVID)
-- Dados sobre [coronavírus](pt_virus:COVID)
-- Dados sobre novos [coronavírus](pt_virus:COVID)
-- Detalhes do [2019-nCoV](pt_virus:COVID)
-- Detalhes sobre [2019-nCoV](pt_virus:COVID)
-- Detalhes sobre o [COVID-19](pt_virus:COVID)
-- Diga-me o que é [19-nCoV](pt_virus:COVID)
-- Diga-me o que é [19nCov](pt_virus:COVID)
-- Diga-me o que é [2019-nCoV](pt_virus:COVID)
-- Diga-me o que é [2019nCov](pt_virus:COVID)
-- Diga-me o que é [covid](pt_virus:COVID)
-- Diga-me o que é [COVID-19](pt_virus:COVID)
-- Diga-me o que é [COVID-2019](pt_virus:COVID)
-- Diga-me o que é [COVID2019](pt_virus:COVID)
-- Diga-me o que é [nCov](pt_virus:COVID)
-- Diga-me o que é o [19-nCoV](pt_virus:COVID)
-- Diga-me o que é o [19nCov](pt_virus:COVID)
-- Diga-me o que é o [2019-nCoV](pt_virus:COVID)
-- Diga-me o que é o [2019nCov](pt_virus:COVID)
-- Diga-me o que é o [COVID-19](pt_virus:COVID)
-- Diga-me o que é o [nCov](pt_virus:COVID)
-- Diga-me o que é o [novo coronavírus](pt_virus:COVID)
-- Diga-me o que é um [19-nCoV](pt_virus:COVID)
-- Diga-me o que é um [19nCov](pt_virus:COVID)
-- Diga-me o que é um [2019-nCoV](pt_virus:COVID)
-- Diga-me o que é um [2019nCov](pt_virus:COVID)
-- Diga-me o que é um [covid](pt_virus:COVID)
-- Diga-me o que é um [COVID-19](pt_virus:COVID)
-- Diga-me o que é um [COVID-2019](pt_virus:COVID)
-- Diga-me o que é um [COVID2019](pt_virus:COVID)
-- Diga-me o que é um [nCov](pt_virus:COVID)
-- Diga-me o que é um [novo coronavírus](pt_virus:COVID)
-- Diga-me qual é o [covid](pt_virus:COVID)
-- Diga-me qual é o [COVID-2019](pt_virus:COVID)
-- Diga-me qual é o [COVID2019](pt_virus:COVID)
-- Diga-me qual é o [novo coronavírus](pt_virus:COVID)
-- Diz-me acerca do [COVID-19](pt_virus:COVID)
-- Diz-me informação sobre o [COVID2019](pt_virus:COVID)
-- Diz-me informações sobre o [nCov](pt_virus:COVID)
-- Diz-me mais sobre o [COVID2019](pt_virus:COVID)
-- Diz-me mais sobre o [novo coronavírus](pt_virus:COVID)
-- Diz-me sobre [covid](pt_virus:COVID)
-- Diz-me sobre [COVID2019](pt_virus:COVID)
-- Dá-me informação sobre o [novo coronavírus](pt_virus:COVID)
-- Dá-me informações sobre [COVID-19](pt_virus:COVID)
-- Elucida-me sobre [covid](pt_virus:COVID)
-- Elucida-me sobre o assunto [covid](pt_virus:COVID)
-- Envia-me informações sobre o [COVID-2019](pt_virus:COVID)
-- Esclarece sobre o recente [coronavírus](pt_virus:COVID)
-- Esclarece-me sobre [covid](pt_virus:COVID)
-- Esclarece-me sobre o [covid](pt_virus:COVID)
-- Esclarece-me sobre o [novo coronavírus](pt_virus:COVID)
-- Esclarecimento [2019-nCoV](pt_virus:COVID)
-- Esclarecimento [covid](pt_virus:COVID)
-- Esclarecimento do [COVID-2019](pt_virus:COVID)
-- Esclarecimento do [coronavírus](pt_virus:COVID)
-- Esclarecimento sobre [nCov](pt_virus:COVID)
-- Esclarecimento sobre o [19nCov](pt_virus:COVID)
-- Esclarecimento sobre o [COVID-2019](pt_virus:COVID)
-- Esclarecimento sobre o [novo coronavírus](pt_virus:COVID)
-- Esclarecimentos do [nCov](pt_virus:COVID)
-- Esclarecimentos sobre [nCov](pt_virus:COVID)
-- Explica-me [nCov](pt_virus:COVID)
-- Fala do [COVID-19](pt_virus:COVID)
-- Fala do recente [coronavírus](pt_virus:COVID)
-- Fala mais sobre o [covid](pt_virus:COVID)
-- Fala sobre [COVID-19](pt_virus:COVID)
-- Fala-me do [COVID-19](pt_virus:COVID)
-- Fala-me do [coronavírus](pt_virus:COVID)
-- Fala-me mais sobre o [19-nCoV](pt_virus:COVID)
-- Fala-me mais sobre o [novo coronavírus](pt_virus:COVID)
+- [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- [19-nCoV]{"entity": "pt_virus", "value": "COVID"} info
+- [19-nCoV]{"entity": "pt_virus", "value": "COVID"} informações
+- [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- [19nCov]{"entity": "pt_virus", "value": "COVID"} info
+- [19nCov]{"entity": "pt_virus", "value": "COVID"} informações
+- [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- [2019-nCoV]{"entity": "pt_virus", "value": "COVID"} info
+- [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- [2019nCov]{"entity": "pt_virus", "value": "COVID"} info
+- [2019nCov]{"entity": "pt_virus", "value": "COVID"} informações
+- Atual [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- [covid]{"entity": "pt_virus", "value": "COVID"}
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} info
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} mais info
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} mais informação
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} info
+- Como começou o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Conta acerca do [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conta do [covid]{"entity": "pt_virus", "value": "COVID"}
+- Conta mais sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conta mais sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me info do [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me mais sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me mais sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me mais sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me mais sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me a respeito do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais a respeito do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais em relação ao [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- [Corona]{"entity": "pt_virus", "value": "COVID"}
+- Dados sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Dados sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Detalhes do [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Detalhes sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Detalhes sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [covid]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [covid]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me qual é o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me qual é o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me qual é o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me qual é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me acerca do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me informação sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me informações sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me mais sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me mais sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Dá-me informação sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Dá-me informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Elucida-me sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Elucida-me sobre o assunto [covid]{"entity": "pt_virus", "value": "COVID"}
+- Envia-me informações sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Esclarece sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Esclarece-me sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Esclarece-me sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Esclarece-me sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento [covid]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento do [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimentos do [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimentos sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Explica-me [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Fala do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Fala do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Fala mais sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Fala sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Fala-me do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Fala-me do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Fala-me mais sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Fala-me mais sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
 - Foram os chineses?
-- Info sobre [19nCov](pt_virus:COVID)
-- Info sobre [2019nCov](pt_virus:COVID)
-- Info sobre [COVID-2019](pt_virus:COVID)
-- Info sobre [COVID2019](pt_virus:COVID)
-- Info sobre o [19-nCoV](pt_virus:COVID)
-- Info sobre o [19nCov](pt_virus:COVID)
-- Info sobre o [2019nCov](pt_virus:COVID)
-- Info sobre o [COVID-2019](pt_virus:COVID)
-- Info sobre o [COVID2019](pt_virus:COVID)
-- Info sobre o [novo coronavírus](pt_virus:COVID)
-- Info sobre o recente [coronavírus](pt_virus:COVID)
-- Informa-me sobre [19-nCoV](pt_virus:COVID)
-- Informa-me sobre o [2019nCov](pt_virus:COVID)
-- Informa-me sobre o [novo coronavírus](pt_virus:COVID)
-- Informação [covid](pt_virus:COVID)
-- Informação [COVID-2019](pt_virus:COVID)
-- Informação sobre o recente [coronavírus](pt_virus:COVID)
-- Informações [covid](pt_virus:COVID)
-- Informações do [19-nCoV](pt_virus:COVID)
-- Informações sobre [2019-nCoV](pt_virus:COVID)
-- Informações sobre [COVID-19](pt_virus:COVID)
-- Informações sobre o [COVID2019](pt_virus:COVID)
-- Informações sobre o [nCoV 2019](pt_virus:COVID)
-- Manda informação sobre o [2019-nCoV](pt_virus:COVID)
-- Mostra informações sobre o [nCov](pt_virus:COVID)
-- Não sei o que é [19-nCoV](pt_virus:COVID)
-- Não sei o que é [19nCov](pt_virus:COVID)
-- Não sei o que é [2019-nCoV](pt_virus:COVID)
-- Não sei o que é [2019nCov](pt_virus:COVID)
-- Não sei o que é [covid](pt_virus:COVID)
-- Não sei o que é [COVID-19](pt_virus:COVID)
-- Não sei o que é [COVID-2019](pt_virus:COVID)
-- Não sei o que é [COVID2019](pt_virus:COVID)
-- Não sei o que é [nCov](pt_virus:COVID)
-- Não sei o que é o [19-nCoV](pt_virus:COVID)
-- Não sei o que é o [19nCov](pt_virus:COVID)
-- Não sei o que é o [2019-nCoV](pt_virus:COVID)
-- Não sei o que é o [2019nCov](pt_virus:COVID)
-- Não sei o que é o [covid](pt_virus:COVID)
-- Não sei o que é o [COVID-19](pt_virus:COVID)
-- Não sei o que é o [COVID-2019](pt_virus:COVID)
-- Não sei o que é o [COVID2019](pt_virus:COVID)
-- Não sei o que é o [nCov](pt_virus:COVID)
-- Não sei o que é o [novo coronavírus](pt_virus:COVID)
-- Não sei o que é o recente [coronavírus](pt_virus:COVID)
-- Não sei qual é o [novo coronavírus](pt_virus:COVID)
-- Não sei qual é o recente [coronavírus](pt_virus:COVID)
-- O que se passa sobre [COVID-19](pt_virus:COVID)
-- O que é [covid](pt_virus:COVID)
-- O que é a [COVID-19](pt_virus:COVID)?
-- O que é a [covid](pt_virus:COVID)
-- O que é o [COVID-19](pt_virus:COVID)?
-- O que é o [Corona vírus](pt_virus:COVID)?
-- O que é o atual [coronavírus](pt_virus:COVID)
-- O que é o [covid-18](pt_virus:COVID)
-- O que é o [covid](pt_virus:COVID)?
-- O que é o [covit19](pt_virus:COVID)
-- O que é o [novo coronavírus](pt_virus:COVID)
-- O que é o recente [coronavírus](pt_virus:COVID)
-- O que é que é o [COVID-19](pt_virus:COVID)
-- O que é um [19-nCoV](pt_virus:COVID)
-- O que é um [19nCov](pt_virus:COVID)
-- O que é um [2019-nCoV](pt_virus:COVID)
-- O que é um [2019nCov](pt_virus:COVID)
-- O que é um [covid](pt_virus:COVID)
-- O que é um [COVID-19](pt_virus:COVID)
-- O que é um [COVID-2019](pt_virus:COVID)
-- O que é um [COVID2019](pt_virus:COVID)
-- O que é um [nCov](pt_virus:COVID)
-- O que é um [novo coronavírus](pt_virus:COVID)
-- Olá olá como é o [covid](pt_virus:COVID)
-- Onde surgiu o [vírus](pt_virus:COVID)?
+- Info sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Informa-me sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Informa-me sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Informa-me sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Informação [covid]{"entity": "pt_virus", "value": "COVID"}
+- Informação [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Informação sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Informações [covid]{"entity": "pt_virus", "value": "COVID"}
+- Informações do [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Informações sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Informações sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Informações sobre o [nCoV 2019]{"entity": "pt_virus", "value": "COVID"}
+- Manda informação sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Mostra informações sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [covid]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Não sei qual é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Não sei qual é o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- O que se passa sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- O que é [covid]{"entity": "pt_virus", "value": "COVID"}
+- O que é a [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- O que é a [covid]{"entity": "pt_virus", "value": "COVID"}
+- O que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- O que é o [Corona vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O que é o atual [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- O que é o [covid-18]{"entity": "pt_virus", "value": "COVID"}
+- O que é o [covid]{"entity": "pt_virus", "value": "COVID"}?
+- O que é o [covit19]{"entity": "pt_virus", "value": "COVID"}
+- O que é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- O que é o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- O que é que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [covid]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [nCov]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Olá olá como é o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Onde surgiu o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Qual é a origem do surto?
-- Quando foi detectacta a [COVID-19](pt_virus:COVID)?
-- Que tal [2019-nCoV](pt_virus:COVID)
-- Que tal [2019nCov](pt_virus:COVID)
-- Que tal informações sobre [covid](pt_virus:COVID)
-- Recente [coronavírus](pt_virus:COVID)
-- Recente [coronavírus](pt_virus:COVID) mais info
-- Sobre [19-nCoV](pt_virus:COVID)
-- Sobre [19nCov](pt_virus:COVID)
-- Sobre [2019-nCoV](pt_virus:COVID)
-- Sobre [2019nCov](pt_virus:COVID)
-- Sobre [COVID-19](pt_virus:COVID)
-- Sobre [COVID2019](pt_virus:COVID)
-- Sobre a [covid](pt_virus:COVID)
-- Sobre [nCov](pt_virus:COVID)
-- Sobre o [19-nCoV](pt_virus:COVID)
-- Sobre o [19nCov](pt_virus:COVID)
-- Sobre o [2019-nCoV](pt_virus:COVID)
-- Sobre o [2019nCov](pt_virus:COVID)
-- Sobre o [covid](pt_virus:COVID)
-- Sobre o [COVID-19](pt_virus:COVID)
-- Sobre o [COVID-2019](pt_virus:COVID)
-- Sobre o [COVID2019](pt_virus:COVID)
-- Sobre o [nCov](pt_virus:COVID)
-- Sobre o [novo coronavírus](pt_virus:COVID)
-- Sobre o recente [coronavírus](pt_virus:COVID)
-- Sobre o [vírus](pt_virus:COVID)
+- Quando foi detectacta a [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Que tal [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Que tal [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Que tal informações sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Recente [coronavírus]{"entity": "pt_virus", "value": "COVID"} mais info
+- Sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Sobre a [covid]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [vírus]{"entity": "pt_virus", "value": "COVID"}
 - a pandemia começou em Wuhan?
-- [COVID19](pt_virus:COVID)
-- diz-me informações do assunto [19nCov](pt_virus:COVID)
-- diz-me informações do assunto [2019nCov](pt_virus:COVID)
-- diz-me informações sobre [COVID2019](pt_virus:COVID)
-- [doença](pt_virus:COVID)
-- e o [19nCov](pt_virus:COVID)
-- e o [COVID](pt_virus:COVID)
-- e o [COVID-19](pt_virus:COVID)
-- e o [COVID-2019](pt_virus:COVID)
-- e o [COVID2019](pt_virus:COVID)
-- e o [novo coronavírus](pt_virus:COVID)
-- e quanto ao [nCov](pt_virus:COVID)
-- fala do assunto [COVID-2019](pt_virus:COVID)
-- fala sobre [19nCov](pt_virus:COVID)
-- fala sobre [2019nCov](pt_virus:COVID)
-- fala sobre [COVID-2019](pt_virus:COVID)
-- fala-me informações do assunto [COVID2019](pt_virus:COVID)
-- fala-me sobre o [19-nCoV](pt_virus:COVID)
-- há informação do [novo coronavírus](pt_virus:COVID)
-- informações [19-nCoV](pt_virus:COVID)
-- informações [19nCov](pt_virus:COVID)
-- informações [2019-nCoV](pt_virus:COVID)
-- informações [2019nCov](pt_virus:COVID)
-- informações [COVID-2019](pt_virus:COVID)
-- informações [COVID2019](pt_virus:COVID)
-- informações do [2019-nCoV](pt_virus:COVID)
-- informações do assunto [19-nCoV](pt_virus:COVID)
-- informações do assunto [19nCov](pt_virus:COVID)
-- informações do assunto [2019nCov](pt_virus:COVID)
-- informações do assunto [COVID-19](pt_virus:COVID)
-- informações do assunto [COVID-2019](pt_virus:COVID)
-- informações do assunto [COVID2019](pt_virus:COVID)
-- informações do assunto relacionado com o [novo coronavírus](pt_virus:COVID)
-- informações do [coronavírus](pt_virus:COVID)
-- informações do recente [coronavírus](pt_virus:COVID)
-- informações do tema [COVID-19](pt_virus:COVID)
-- informações [nCov](pt_virus:COVID)
-- informações recentes sobre [coronavírus](pt_virus:COVID)
-- informações sobre [19-nCoV](pt_virus:COVID)
-- informações sobre [19nCov](pt_virus:COVID)
-- informações sobre [2019nCov](pt_virus:COVID)
-- informações sobre [covid](pt_virus:COVID)
-- informações sobre [COVID-2019](pt_virus:COVID)
-- informações sobre [COVID2019](pt_virus:COVID)
-- informações sobre [nCov](pt_virus:COVID)
-- informações sobre [novo coronavírus](pt_virus:COVID)
-- informações sobre novos [coronavírus](pt_virus:COVID)
-- informações sobre o [19-nCoV](pt_virus:COVID)
-- informações sobre o [19nCov](pt_virus:COVID)
-- informações sobre o [2019-nCoV](pt_virus:COVID)
-- informações sobre o [2019nCov](pt_virus:COVID)
-- informações sobre o [COVID-2019](pt_virus:COVID)
-- informações sobre o [nCoV](pt_virus:COVID)
-- informações sobre o [novo coronavírus](pt_virus:COVID)
-- informações sobre o recente [coronavírus](pt_virus:COVID)
-- [nCoV](pt_virus:COVID)
-- [nCoV](pt_virus:COVID) mais informação
-- novas informações sobre [coronavírus](pt_virus:COVID)
-- [novo coronavírus](pt_virus:COVID)
-- novos dados sobre [coronavírus](pt_virus:COVID)
-- o que é [19-nCoV](pt_virus:COVID)
-- o que é [19nCov](pt_virus:COVID)
-- o que é [2019-nCoV](pt_virus:COVID)
-- o que é [2019nCov](pt_virus:COVID)
-- o que é [COVID-19](pt_virus:COVID)
-- o que é [COVID-2019](pt_virus:COVID)
-- o que é [COVID2019](pt_virus:COVID)
-- o que é esse [vírus](pt_virus:COVID)?
-- o que é [nCov](pt_virus:COVID)
-- o que é [novo coronavírus](pt_virus:COVID)
+- [COVID19]{"entity": "pt_virus", "value": "COVID"}
+- diz-me informações do assunto [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- diz-me informações do assunto [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- diz-me informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- [doença]{"entity": "pt_virus", "value": "COVID"}
+- e o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- e o [COVID]{"entity": "pt_virus", "value": "COVID"}
+- e o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- e o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- e o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- e o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- e quanto ao [nCov]{"entity": "pt_virus", "value": "COVID"}
+- fala do assunto [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- fala sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- fala sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- fala sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- fala-me informações do assunto [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- fala-me sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- há informação do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- informações [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- informações do [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto relacionado com o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações do tema [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- informações [nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações recentes sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- [nCoV]{"entity": "pt_virus", "value": "COVID"}
+- [nCoV]{"entity": "pt_virus", "value": "COVID"} mais informação
+- novas informações sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- novos dados sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- o que é [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- o que é [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- o que é [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- o que é [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- o que é [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- o que é [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- o que é [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- o que é esse [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- o que é [nCov]{"entity": "pt_virus", "value": "COVID"}
+- o que é [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
 - o que é o [ccovid]?
 - onde começou o surto?
 - onde começou?
 - onde o surto começou?
 - origem pandêmica
 - origem secreta
-- qual a origem do [vírus](pt_virus:COVID)?
-- que informações tens do [novo coronavírus](pt_virus:COVID)
-- que tal [19-nCoV](pt_virus:COVID)
-- recentes informações sobre [coronavírus](pt_virus:COVID)
-- [vírus corona](pt_virus:COVID)
+- qual a origem do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- que informações tens do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- que tal [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- recentes informações sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- [vírus corona]{"entity": "pt_virus", "value": "COVID"}
 
 ## intent:pt_covid_meaning
-- [COVID-19](pt_virus:COVID) nome significado.
-- [COVID-19](pt_virus:COVID) é o mesmo que o [SARS-Cov-2](pt_virus:COVID)?
-- [COVID-19](pt_virus:COVID), porquê este nome?
-- [coronavírus](pt_virus:COVID) [SARS-Cov-2](pt_virus:COVID)
-- Explica a nomenclatura da [doença](pt_virus:COVID).
-- Explica o nome do [vírus](pt_virus:COVID).
-- Explique o nome da [doença](pt_virus:COVID)
-- Explique o nome do [COVID](pt_virus:COVID)
-- Explique o nome do [COVID-19](pt_virus:COVID)
-- Explique o nome do [SARS-Cov-2](pt_virus:COVID)
-- Explique o nome do [SARS-CoV2](pt_virus:COVID)
-- Explique o nome do [SARSCoV-2](pt_virus:COVID)
-- Explique o nome do [SARSCoV2](pt_virus:COVID)
-- Explique o nome do [vírus](pt_virus:COVID)
-- Explique o nome do [vírus](pt_virus:COVID).
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} nome significado.
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"}, porquê este nome?
+- [coronavírus]{"entity": "pt_virus", "value": "COVID"} [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}
+- Explica a nomenclatura da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Explica o nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Explique o nome da [doença]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [COVID]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [vírus]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - Explique o nome.
-- Explique-me o nome [COVID-19](pt_virus:COVID).
-- Explique-me o nome [COVID](pt_virus:COVID).
-- Explique-me o nome [SARS-CoV2](pt_virus:COVID).
-- Explique-me o nome [SARSCoV2](pt_virus:COVID).
-- Explique-me o nome da [SARS-Cov-2](pt_virus:COVID).
-- Explique-me o nome da [doença](pt_virus:COVID).
-- Explique-me o nome do [COVID-19](pt_virus:COVID).
-- Explique-me o nome do [SARS-CoV2](pt_virus:COVID).
-- Explique-me o nome do [SARSCoV-2](pt_virus:COVID).
-- Explique-me o nome do [SARSCoV2](pt_virus:COVID).
-- Explique-me o nome do [vírus](pt_virus:COVID).
+- Explique-me o nome [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome da [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome do [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome do [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome do [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome do [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - Explique-me o nome.
-- Explique-me o significado do nome [COVID-19](pt_virus:COVID).
-- Explique-me o significado do nome [COVID](pt_virus:COVID).
-- Explique-me o significado do nome [SARS-Cov-2](pt_virus:COVID).
-- Explique-me o significado do nome [SARS-CoV2](pt_virus:COVID).
-- Explique-me o significado do nome [SARSCoV-2](pt_virus:COVID).
-- Explique-me o significado do nome [SARSCoV2](pt_virus:COVID).
-- Explique-me o significado do nome da [SARS-Cov-2](pt_virus:COVID).
-- Explique-me o significado do nome da [doença](pt_virus:COVID).
-- Explique-me o significado do nome do [COVID-19](pt_virus:COVID).
-- Explique-me o significado do nome do [COVID](pt_virus:COVID).
-- Explique-me o significado do nome do [SARS-CoV2](pt_virus:COVID).
-- Explique-me o significado do nome do [SARSCoV-2](pt_virus:COVID).
-- Explique-me o significado do nome do [SARSCoV2](pt_virus:COVID).
-- Explique-me o significado do nome do [vírus](pt_virus:COVID).
+- Explique-me o significado do nome [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome da [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome do [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome do [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome do [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome do [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome do [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - Explique-me o significado do nome.
-- Fala do nome do [vírus](pt_virus:COVID).
-- Nome [COVID](pt_virus:COVID) porquê?
-- Nome [COVID-19](pt_virus:COVID).
-- Nome [COVID](pt_virus:COVID).
-- Nome [SARS-Cov-2](pt_virus:COVID), porquê?
-- Nome [SARS-Cov-2](pt_virus:COVID).
-- Nome [SARS-CoV2](pt_virus:COVID), porquê?
-- Nome [SARS-CoV2](pt_virus:COVID).
-- Nome [SARSCoV-2](pt_virus:COVID), porquê?
-- Nome [SARSCoV-2](pt_virus:COVID).
-- Nome [SARSCoV2](pt_virus:COVID) por quê?
-- Nome [SARSCoV2](pt_virus:COVID).
-- Nome da [doença](pt_virus:COVID) que significa.
-- Nome da [doença](pt_virus:COVID), porquê?
-- Nome da [doença](pt_virus:COVID).
-- Nome do [vírus](pt_virus:COVID).
+- Fala do nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Nome [COVID]{"entity": "pt_virus", "value": "COVID"} porquê?
+- Nome [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Nome [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Nome [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}, porquê?
+- Nome [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Nome [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}, porquê?
+- Nome [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Nome [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}, porquê?
+- Nome [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Nome [SARSCoV2]{"entity": "pt_virus", "value": "COVID"} por quê?
+- Nome [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Nome da [doença]{"entity": "pt_virus", "value": "COVID"} que significa.
+- Nome da [doença]{"entity": "pt_virus", "value": "COVID"}, porquê?
+- Nome da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - O que o nome significa?
-- O que significa [COVID-19](pt_virus:COVID)?
-- O que significa [SARS-Cov-2](pt_virus:COVID)?
-- Porque a [doença](pt_virus:COVID) recebeu esse nome?
-- Porque a [doença](pt_virus:COVID) se chama [COVID-19](pt_virus:COVID)?
-- Porque a [doença](pt_virus:COVID) é chamada assim?
-- Porque a [doença](pt_virus:COVID) é nomeada assim?
-- Porque o [COVID](pt_virus:COVID) foi nomeado assim?
-- Porque o [COVID](pt_virus:COVID) recebeu esse nome?
-- Porque o [COVID](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
-- Porque o [COVID](pt_virus:COVID) é chamado assim?
-- Porque o [COVID-19](pt_virus:COVID) foi nomeado assim?
-- Porque o [COVID-19](pt_virus:COVID) recebeu esse nome?
-- Porque o [COVID-19](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
-- Porque o [COVID-19](pt_virus:COVID) é chamado assim?
-- Porque o [COVID-19d](pt_virus:COVID) é chamado assim?
-- Porque o [COVIDd](pt_virus:COVID) é chamado assim?
-- Porque o [SARS-Cov-2](pt_virus:COVID) foi nomeado assim?
-- Porque o [SARS-Cov-2](pt_virus:COVID) recebeu esse nome?
-- Porque o [SARS-Cov-2](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
-- Porque o [SARS-Cov-2](pt_virus:COVID) é chamado assim?
-- Porque o [SARS-CoV-2d](pt_virus:COVID) é chamado assim?
-- Porque o [SARS-CoV2](pt_virus:COVID) foi nomeado assim?
-- Porque o [SARS-CoV2](pt_virus:COVID) recebeu esse nome?
-- Porque o [SARS-CoV2](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
-- Porque o [SARS-CoV2](pt_virus:COVID) é chamado assim?
-- Porque o [SARS-CoV2d](pt_virus:COVID) é chamado assim?
-- Porque o [SARSCoV-2](pt_virus:COVID) foi nomeado assim?
-- Porque o [SARSCoV-2](pt_virus:COVID) recebeu esse nome?
-- Porque o [SARSCoV-2](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
-- Porque o [SARSCoV-2](pt_virus:COVID) é chamado assim?
-- Porque o [SARSCoV-2d](pt_virus:COVID) é chamado assim?
-- Porque o [SARSCoV2](pt_virus:COVID) foi nomeado assim?
-- Porque o [SARSCoV2](pt_virus:COVID) recebeu esse nome?
-- Porque o [SARSCoV2](pt_virus:COVID) é chamado [COVID-19](pt_virus:COVID)?
-- Porque o [SARSCoV2](pt_virus:COVID) é chamado assim?
-- Porque o [SARSCoV2d](pt_virus:COVID) é chamado assim?
+- O que significa [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- O que significa [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
+- Porque a [doença]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque a [doença]{"entity": "pt_virus", "value": "COVID"} se chama [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque a [doença]{"entity": "pt_virus", "value": "COVID"} é chamada assim?
+- Porque a [doença]{"entity": "pt_virus", "value": "COVID"} é nomeada assim?
+- Porque o [COVID]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [COVID]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [COVID]{"entity": "pt_virus", "value": "COVID"} é chamado [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [COVID]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [COVID-19]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [COVID-19]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é chamado [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [COVID-19d]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [COVIDd]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} é chamado [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARS-CoV-2d]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"} é chamado [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARS-CoV2d]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"} é chamado [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARSCoV-2d]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARSCoV2]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [SARSCoV2]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [SARSCoV2]{"entity": "pt_virus", "value": "COVID"} é chamado [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [SARSCoV2]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARSCoV2d]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
 - Porque o doente é chamado assim?
-- Porque o [vírus](pt_virus:COVID) foi nomeado assim?
-- Porque o [vírus](pt_virus:COVID) recebeu esse nome?
-- Porque o [vírus](pt_virus:COVID) se chama [COVID-19](pt_virus:COVID)?
-- Porque o [vírus](pt_virus:COVID) se chama [SARS-Cov-2](pt_virus:COVID)?
-- Porque o [vírus](pt_virus:COVID) tem este nome?
-- Porque o [vírus](pt_virus:COVID) teve este nome?
-- Porque o [vírus](pt_virus:COVID) é chamado assim?
-- Porque é que a [doença](pt_virus:COVID) se chama assim?
-- Porque é que chamaram a [doença](pt_virus:COVID) assim?
-- Porquê o nome [COVID](pt_virus:COVID)?
-- Porquê o nome [SARS-CoV2](pt_virus:COVID).
-- Qual o significado do nome do [vírus](pt_virus:COVID).
-- Que nome é [SARS-Cov-2](pt_virus:COVID)?
-- [SARS-Cov-2](pt_virus:COVID) nome significado.
-- [SARSCoV-2](pt_virus:COVID) nome significado.
-- [SARSCoV2](pt_virus:COVID) porquê?
-- Significado do nome [COVID-19](pt_virus:COVID).
-- Significado do nome [COVID](pt_virus:COVID).
-- Significado do nome [SARS-Cov-2](pt_virus:COVID).
-- Significado do nome [SARS-CoV2](pt_virus:COVID).
-- Significado do nome [SARSCoV-2](pt_virus:COVID).
-- Significado do nome [SARSCoV2](pt_virus:COVID).
-- Significado do nome da [SARS-Cov-2](pt_virus:COVID).
-- Significado do nome da [SARS-CoV2](pt_virus:COVID).
-- Significado do nome da [SARSCoV-2](pt_virus:COVID).
-- Significado do nome da [SARSCoV2](pt_virus:COVID).
-- Significado do nome da [doença](pt_virus:COVID).
-- Significado do nome desta [doença](pt_virus:COVID).
-- Significado do nome desta [virose](pt_virus:COVID).
-- Significado do nome do [COVID-19](pt_virus:COVID).
-- Significado do nome do [COVID](pt_virus:COVID).
-- Significado do nome do [vírus](pt_virus:COVID).
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} se chama [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} se chama [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} tem este nome?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} teve este nome?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque é que a [doença]{"entity": "pt_virus", "value": "COVID"} se chama assim?
+- Porque é que chamaram a [doença]{"entity": "pt_virus", "value": "COVID"} assim?
+- Porquê o nome [COVID]{"entity": "pt_virus", "value": "COVID"}?
+- Porquê o nome [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Qual o significado do nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Que nome é [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
+- [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} nome significado.
+- [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"} nome significado.
+- [SARSCoV2]{"entity": "pt_virus", "value": "COVID"} porquê?
+- Significado do nome [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome da [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome da [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome da [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome da [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome desta [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome desta [virose]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome do [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome do [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - Significado do nome.
-- What does the acronym [COVID-19](pt_virus:COVID) mean?
-- nome do [vírus](pt_virus:COVID) porquê?
+- What does the acronym [COVID-19]{"entity": "pt_virus", "value": "COVID"} mean?
+- nome do [vírus]{"entity": "pt_virus", "value": "COVID"} porquê?
 
 ## intent:pt_covid_mortality_rate
 - Posso morrer?
-- Qual a mortalidade do [vírus](pt_virus:COVID)?
+- Qual a mortalidade do [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - qual a percentagem de letalidade ?
 - qual a taxa de mortalidade na Europa?
 - qual é a taxa de mortalidade ?
 - É perigoso?
-- Pode se morrer de [covid](pt_virus:COVID)?
+- Pode se morrer de [covid]{"entity": "pt_virus", "value": "COVID"}?
 
 ## intent:pt_covid_pandemic
 - Definição de pandemia.
@@ -2726,7 +2726,7 @@
 - As pessoas mais velhas correm maior risco?
 - Doenças pulmonares?
 - Existe uma faixa etária mais em risco do que outras?
-- Faixa etária com possibilidade de [doença](pt_virus:COVID) grave.
+- Faixa etária com possibilidade de [doença]{"entity": "pt_virus", "value": "COVID"} grave.
 - Faixa etária com saúde mais afetada
 - Faixa etária mais afetada.
 - Faixa etária mais em risco do que as restantes?
@@ -2739,12 +2739,12 @@
 - Perigoso para pessoas com condições médicas pré-existentes?
 - Pessoas com condições médicas pré-existentes estão em maior risco?
 - Pessoas com condições médicas pré-existentes estão mais em risco?
-- Pessoas com doenças auto imunes estão no grupo de risco da [Covid 19](pt_virus:COVID)?
-- Pessoas com possibilidade de risco de ter [doença](pt_virus:COVID) grave de [COVID-19](pt_virus:COVID).
+- Pessoas com doenças auto imunes estão no grupo de risco da [Covid 19]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas com possibilidade de risco de ter [doença]{"entity": "pt_virus", "value": "COVID"} grave de [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Pessoas com saúde em risco
 - Pessoas com saúde mais debilitada
 - Pessoas em risco
-- Pessoas em risco de [doença](pt_virus:COVID) grave.
+- Pessoas em risco de [doença]{"entity": "pt_virus", "value": "COVID"} grave.
 - Pessoas mais arriscadas.
 - Pessoas mais em condições mais graves.
 - Quae faixa etária corre o risco de desenvolver doenças graves?
@@ -2755,7 +2755,7 @@
 - Quais pessoas estão em maior risco?
 - Quais pessoas estão mais em risco?
 - Qual é a faixa etária pode estar mais em risco?
-- Que doenças poderão acelerar os efeitos do [coronavírus](pt_virus:COVID)?
+- Que doenças poderão acelerar os efeitos do [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
 - Quem corre mais risco?
 - Quem corre o risco de desenvolver doenças graves?
 - Quem está em maior risco?
@@ -2777,450 +2777,450 @@
 - Sobre uma faixa etária mais afetada.
 - Sobre uma faixa etária mais em risco.
 - grupos de risco
-- o [virus](pt_virus:COVID) mata?
-- o [vírus](pt_virus:COVID) afecta fatalmente apenas os idosos?
-- É verdade que o [vírus](pt_virus:COVID) afecta fatalmente apenas os idosos?
+- o [virus]{"entity": "pt_virus", "value": "COVID"} mata?
+- o [vírus]{"entity": "pt_virus", "value": "COVID"} afecta fatalmente apenas os idosos?
+- É verdade que o [vírus]{"entity": "pt_virus", "value": "COVID"} afecta fatalmente apenas os idosos?
 - Diabetes
 
 ## intent:pt_covid_sars
-- Alterações entre novos [coronavírus](pt_virus:COVID) e SARS
-- Alterações entre o [novo coronavírus](pt_virus:COVID) e a síndrome respiratória aguda grave
-- COVID e SARS são o mesmo [vírus](pt_virus:COVID)?
+- Alterações entre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Alterações entre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a síndrome respiratória aguda grave
+- COVID e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - COVID e SARS.
 - COVID e Síndrome Respiratória Aguda Grave.
 - COVID é o mesmo que SARS?
 - COVID é o mesmo que Síndrome Respiratória Aguda Grave?
-- [COVID-19](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
-- [COVID-19](pt_virus:COVID) e SARS.
-- [COVID-19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
-- [COVID-19](pt_virus:COVID) é o mesmo que SARS?
-- [COVID-19](pt_virus:COVID) é o mesmo que Síndrome Respiratória Aguda Grave?
-- [COVID-2019](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
-- [COVID-2019](pt_virus:COVID) e SARS.
-- [COVID-2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
-- [COVID-2019](pt_virus:COVID) é o mesmo que SARS?
-- [COVID-2019](pt_virus:COVID) é o mesmo que Síndrome Respiratória Aguda Grave?
-- [COVID19](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
-- [COVID19](pt_virus:COVID) e SARS.
-- [COVID19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
-- [COVID19](pt_virus:COVID) é o mesmo que SARS?
-- [COVID19](pt_virus:COVID) é o mesmo que Síndrome Respiratória Aguda Grave?
-- [COVID2019](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
-- [COVID2019](pt_virus:COVID) e SARS.
-- [COVID2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
-- [COVID2019](pt_virus:COVID) é o mesmo que SARS?
-- [COVID2019](pt_virus:COVID) é o mesmo que Síndrome Respiratória Aguda Grave?
-- Diferença entre  a [COVID-19](pt_virus:COVID) e a SARS.
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
+- [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
+- Diferença entre  a [COVID-19]{"entity": "pt_virus", "value": "COVID"} e a SARS.
 - Diferenças entre COVID e SARS
 - Diferenças entre COVID e síndrome respiratória aguda grave
-- Diferenças entre [COVID-19](pt_virus:COVID) e SARS
-- Diferenças entre [COVID-19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave
-- Diferenças entre [COVID-2019](pt_virus:COVID) e SARS
-- Diferenças entre [COVID-2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave
-- Diferenças entre [COVID19](pt_virus:COVID) e SARS
-- Diferenças entre [COVID19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave
-- Diferenças entre [COVID2019](pt_virus:COVID) e SARS
-- Diferenças entre [COVID2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Diferenças entre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Diferenças entre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Diferenças entre [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Diferenças entre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave
 - Diferenças entre SARS e COVID
-- Diferenças entre SARS e [COVID-19](pt_virus:COVID)
-- Diferenças entre SARS e [COVID-2019](pt_virus:COVID)
-- Diferenças entre SARS e [COVID19](pt_virus:COVID)
-- Diferenças entre SARS e [COVID2019](pt_virus:COVID)
-- Diferenças entre SARS e [novo coronavírus](pt_virus:COVID)
-- Diferenças entre novos [coronavírus](pt_virus:COVID) e SARS
-- Diferenças entre o [novo coronavírus](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave
-- Existe diferença entre o [novo coronavírus](pt_virus:COVID) e a Síndrome Respiratória Aguda
+- Diferenças entre SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diferenças entre SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Diferenças entre SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}
+- Diferenças entre SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diferenças entre SARS e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diferenças entre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Diferenças entre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave
+- Existe diferença entre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda
   Grave.
-- Informações do [novo coronavírus](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave.
-- Informações dos novos [coronavírus](pt_virus:COVID) e SARS.
+- Informações do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
+- Informações dos novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
 - Informações sobre COVID e SARS.
 - Informações sobre COVID e Síndrome Respiratória Aguda Grave.
-- Informações sobre [COVID-19](pt_virus:COVID) e SARS.
-- Informações sobre [COVID-19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
-- Informações sobre [COVID-2019](pt_virus:COVID) e SARS.
-- Informações sobre [COVID-2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
-- Informações sobre [COVID19](pt_virus:COVID) e SARS.
-- Informações sobre [COVID19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
-- Informações sobre [COVID2019](pt_virus:COVID) e SARS.
-- Informações sobre [COVID2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
-- Informações sobre SARS e [COVID-19](pt_virus:COVID).
-- Informações sobre SARS e [COVID-2019](pt_virus:COVID).
+- Informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Informações sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Informações sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Informações sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Informações sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Informações sobre SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Informações sobre SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}.
 - Informações sobre SARS e COVID.
-- Informações sobre SARS e [COVID19](pt_virus:COVID).
-- Informações sobre SARS e [COVID2019](pt_virus:COVID).
-- Informações sobre SARS e [novo coronavírus](pt_virus:COVID).
-- Informações sobre SARS e novos [coronavírus](pt_virus:COVID).
-- Informações sobre novos [coronavírus](pt_virus:COVID) e SARS.
-- Informações sobre o [novo coronavírus](pt_virus:COVID) e a síndrome respiratória aguda grave.
-- O SARS é o mesmo que o [novo coronavírus](pt_virus:COVID)?
-- O [novo coronavírus](pt_virus:COVID) é igual à Síndrome Respiratória Aguda Grave?
-- O [novo coronavírus](pt_virus:COVID) é o mesmo que o SARS?
-- O [novo coronavírus](pt_virus:COVID) é o [virus](pt_virus:COVID) do SARS?
+- Informações sobre SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}.
+- Informações sobre SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
+- Informações sobre SARS e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Informações sobre SARS e novos [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Informações sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Informações sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a síndrome respiratória aguda grave.
+- O SARS é o mesmo que o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- O [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é igual à Síndrome Respiratória Aguda Grave?
+- O [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que o SARS?
+- O [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o [virus]{"entity": "pt_virus", "value": "COVID"} do SARS?
 - O que é o sars?
-- O [vírus](pt_virus:COVID) que causa COVID é o mesmo que causa a Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa COVID é o mesmo que causa a Síndrome Respiratória Aguda
   Grave?
-- O [vírus](pt_virus:COVID) que causa [COVID-19](pt_virus:COVID) e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa [COVID-19]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda Grave
   são os mesmos?
-- O [vírus](pt_virus:COVID) que causa a SARS e o que causa novos [coronavírus](pt_virus:COVID) são os mesmos?
-- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o COVID são os mesmos?
-- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [COVID-19](pt_virus:COVID) são os mesmos?
-- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [COVID-2019](pt_virus:COVID) são os mesmos?
-- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [COVID19](pt_virus:COVID) são os mesmos?
-- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [COVID2019](pt_virus:COVID) são os mesmos?
-- O [vírus](pt_virus:COVID) que causa a SARS e o que causa o [novo coronavírus](pt_virus:COVID) são os mesmos?
-- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o COVID ?
-- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [COVID-19](pt_virus:COVID)?
-- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [COVID-2019](pt_virus:COVID)?
-- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [COVID19](pt_virus:COVID)?
-- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [COVID2019](pt_virus:COVID)?
-- O [vírus](pt_virus:COVID) que causa a SARS é o mesmo que causa o [novo coronavírus](pt_virus:COVID)?
-- O [vírus](pt_virus:COVID) que causa o COVID e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o COVID são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o COVID ?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"}?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"}?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o COVID e o que causa a Síndrome Respiratória Aguda Grave
   são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o COVID e o que causa o SARS são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o COVID é o mesmo que causa o SARS?
-- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) e o que causa o SARS são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) é o mesmo que causa a Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o COVID e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o COVID é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome Respiratória Aguda
   Grave?
-- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) é o mesmo que causa o SARS?
-- O [vírus](pt_virus:COVID) que causa o [COVID-2019](pt_virus:COVID) e o que causa a Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda
   Grave são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o [COVID-2019](pt_virus:COVID) e o que causa o SARS são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o [COVID-2019](pt_virus:COVID) é o mesmo que causa a Síndrome Respiratória
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome Respiratória
   Aguda Grave?
-- O [vírus](pt_virus:COVID) que causa o [COVID-2019](pt_virus:COVID) é o mesmo que causa o SARS?
-- O [vírus](pt_virus:COVID) que causa o [COVID19](pt_virus:COVID) e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda Grave
   são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o [COVID19](pt_virus:COVID) e o que causa o SARS são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o [COVID19](pt_virus:COVID) é o mesmo que causa a Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome Respiratória Aguda
   Grave?
-- O [vírus](pt_virus:COVID) que causa o [COVID19](pt_virus:COVID) é o mesmo que causa o SARS?
-- O [vírus](pt_virus:COVID) que causa o [COVID2019](pt_virus:COVID) e o que causa a Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda
   Grave são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o [COVID2019](pt_virus:COVID) e o que causa o SARS são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o [COVID2019](pt_virus:COVID) é o mesmo que causa a Síndrome Respiratória
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome Respiratória
   Aguda Grave?
-- O [vírus](pt_virus:COVID) que causa o [COVID2019](pt_virus:COVID) é o mesmo que causa o SARS?
-- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) e o que causa a SARS são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) e o que causa a Síndrome Respiratória
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o que causa a SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória
   Aguda Grave são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) e o [vírus](pt_virus:COVID) da SARS são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) e o [vírus](pt_virus:COVID) da Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o [vírus]{"entity": "pt_virus", "value": "COVID"} da SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o [vírus]{"entity": "pt_virus", "value": "COVID"} da Síndrome Respiratória Aguda
   Grave são os mesmos?
-- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) é o mesmo da SARS?
-- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) é o mesmo que causa a Síndrome
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo da SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome
   Respiratória Aguda Grave ?
-- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) é o mesmo que causa a Síndrome
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome
   Respiratória Aguda Grave?
-- O [vírus](pt_virus:COVID) que causa o [novo coronavírus](pt_virus:COVID) é o mesmo que causa o SARS?
-- O [vírus](pt_virus:COVID) que desenvolve a SARS é o mesmo que o [novo coronavírus](pt_virus:COVID)?
-- Recentes [coronavírus](pt_virus:COVID) e SARS.
-- SARS e [COVID](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
-- SARS e [COVID-19](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
-- SARS e [COVID-19](pt_virus:COVID).
-- SARS e [COVID-2019](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
-- SARS e [COVID-2019](pt_virus:COVID).
-- SARS e [COVID](pt_virus:COVID).
-- SARS e [COVID19](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
-- SARS e [COVID19](pt_virus:COVID).
-- SARS e [COVID2019](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
-- SARS e [COVID2019](pt_virus:COVID).
-- SARS e [novo coronavírus](pt_virus:COVID) são diferentes
-- SARS e [novo coronavírus](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
-- SARS e novos [coronavírus](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
-- SARS é o mesmo que [COVID-19](pt_virus:COVID)?
-- SARS é o mesmo que [COVID-2019](pt_virus:COVID)?
-- SARS é o mesmo que [COVID19](pt_virus:COVID)?
-- SARS é o mesmo que [COVID2019](pt_virus:COVID)?
-- SARS é o mesmo que [COVID](pt_virus:COVID)?
-- SARS é o mesmo que [novo coronavírus](pt_virus:COVID)?
-- Sobre [COVID](pt_virus:COVID) e SARS.
-- Sobre [COVID-19](pt_virus:COVID) e SARS.
-- Sobre [COVID-2019](pt_virus:COVID) e SARS.
-- Sobre [COVID19](pt_virus:COVID) e SARS.
-- Sobre [COVID19](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
-- Sobre [COVID2019](pt_virus:COVID) e SARS.
-- Sobre [COVID2019](pt_virus:COVID) e Síndrome Respiratória Aguda Grave.
-- Sobre SARS e [COVID-19](pt_virus:COVID).
-- Sobre SARS e [COVID-2019](pt_virus:COVID).
-- Sobre SARS e [COVID](pt_virus:COVID).
-- Sobre SARS e [COVID19](pt_virus:COVID).
-- Sobre SARS e [COVID2019](pt_virus:COVID).
-- Sobre novos [coronavírus](pt_virus:COVID) e SARS.
-- Sobre o [COVID](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave.
-- Sobre o [COVID-19](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave.
-- Sobre o [COVID-2019](pt_virus:COVID) e a Síndrome Respiratória Aguda Grave.
-- Sobre o [novo coronavírus](pt_virus:COVID) e a síndrome respiratória aguda grave.
-- Síndrome Respiratória Aguda Grave e COVID são o mesmo [vírus](pt_virus:COVID)?
-- Síndrome Respiratória Aguda Grave e [COVID-19](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
-- Síndrome Respiratória Aguda Grave e [COVID-2019](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
-- Síndrome Respiratória Aguda Grave e [COVID19](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
-- Síndrome Respiratória Aguda Grave e [COVID2019](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
-- Síndrome respiratória aguda grave e [novo coronavírus](pt_virus:COVID) são o mesmo [vírus](pt_virus:COVID)?
-- [novo coronavírus](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
-- [novo coronavírus](pt_virus:COVID) e SARS.
-- [novo coronavírus](pt_virus:COVID) e síndrome respiratória aguda grave.
-- [novo coronavírus](pt_virus:COVID) é diferente da síndrome respiratória aguda grave.
-- novos [coronavírus](pt_virus:COVID) e SARS são o mesmo [vírus](pt_virus:COVID)?
-- novos [coronavírus](pt_virus:COVID) e SARS.
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que desenvolve a SARS é o mesmo que o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Recentes [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- SARS e [COVID]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}.
+- SARS e [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}.
+- SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
+- SARS e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são diferentes
+- SARS e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que [COVID19]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que [COVID2019]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que [COVID]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Sobre [COVID]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Sobre SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre o [COVID]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
+- Sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
+- Sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
+- Sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a síndrome respiratória aguda grave.
+- Síndrome Respiratória Aguda Grave e COVID são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Síndrome Respiratória Aguda Grave e [COVID-19]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Síndrome Respiratória Aguda Grave e [COVID-2019]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Síndrome Respiratória Aguda Grave e [COVID19]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Síndrome Respiratória Aguda Grave e [COVID2019]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Síndrome respiratória aguda grave e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e síndrome respiratória aguda grave.
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é diferente da síndrome respiratória aguda grave.
+- novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
 
 ## intent:pt_country
-- em [Portugal](pt_country_code:PT)
-- [Espanha](pt_country_code:ES)
-- na [Grécia](pt_country_code:GR)
-- na [Suiça](pt_country_code:CH)
-- no [Zimbabué](pt_country_code:ZW)
-- [Egipto](pt_country_code:EG)
-- [Sara Ocidental](pt_country_code:EH)
-- [Eritrea](pt_country_code:ER)
-- [Etiópia](pt_country_code:ET)
-- [Finlândia](pt_country_code:FI)
-- [Fidji](pt_country_code:FJ)
-- [Falkland](pt_country_code:FK)
-- [Micronesia](pt_country_code:FM)
-- [Ilhas Faroé](pt_country_code:FO)
-- [França](pt_country_code:FR)
-- [Gabão](pt_country_code:GA)
-- [Reino Unido](pt_country_code:GB)
-- [Granada](pt_country_code:GD)
-- [Geórgia](pt_country_code:GE)
-- [Guyane](pt_country_code:GF)
-- [Bailado de Guernsey](pt_country_code:GG)
-- [Gibraltar](pt_country_code:GI)
-- [Gronelandia](pt_country_code:GL)
-- [Gambia](pt_country_code:GM)
-- [Guinea](pt_country_code:GN)
-- [Guadalupe](pt_country_code:GP)
-- [Geórgia do Sul](pt_country_code:GS)
-- [Guatemala](pt_country_code:GT)
-- [Guam](pt_country_code:GU)
-- [Guiné-Bissau](pt_country_code:GW)
-- [Guiana](pt_country_code:GY)
-- [Hong Kong](pt_country_code:HK)
-- [Ilhas Heard](pt_country_code:HM)
-- [Honduras](pt_country_code:HN)
-- [Croacia](pt_country_code:HR)
-- [Haiti](pt_country_code:HT)
-- [Hungria](pt_country_code:HU)
-- [Indonesia](pt_country_code:ID)
-- [Irlanda](pt_country_code:IE)
-- [Israel](pt_country_code:IL)
-- [Mann](pt_country_code:IM)
-- [India](pt_country_code:IN)
-- [Território Britânico do Oceano](pt_country_code:IO)
-- [Iraq](pt_country_code:IQ)
-- [Irão](pt_country_code:IR)
-- [Islandia](pt_country_code:IS)
-- [Italia](pt_country_code:IT)
-- [Jersey](pt_country_code:JE)
-- [Jamaica](pt_country_code:JM)
-- [Jordania](pt_country_code:JO)
-- [Japão](pt_country_code:JP)
-- [Kenya](pt_country_code:KE)
-- [Quirguistão](pt_country_code:KG)
-- [Cambodja](pt_country_code:KH)
-- [Kiribati](pt_country_code:KI)
-- [Comoros](pt_country_code:KM)
-- [Nevis](pt_country_code:KN)
-- [DPRK](pt_country_code:KP)
-- [Coreia do Sul](pt_country_code:KR)
-- [Kuwait](pt_country_code:KW)
-- [Ilhas Caimão](pt_country_code:KY)
-- [Cazaquistão](pt_country_code:KZ)
-- [Laos](pt_country_code:LA)
-- [Líbano](pt_country_code:LB)
-- [Santa Lúcia](pt_country_code:LC)
-- [Sri Lanka](pt_country_code:LK)
-- [Liberia](pt_country_code:LR)
-- [Lithuania](pt_country_code:LT)
-- [Lesoto](pt_country_code:LS)
-- [Luxemburgo](pt_country_code:LU)
-- [Latvia](pt_country_code:LV)
-- [Líbia](pt_country_code:LY)
-- [Marrocos](pt_country_code:MA)
-- [Monaco](pt_country_code:MC)
-- [Moldávia](pt_country_code:MD)
-- [Montenegro](pt_country_code:ME)
-- [Saint Martin](pt_country_code:MF)
-- [Madagáscar](pt_country_code:MG)
-- [Ilhas Marshall](pt_country_code:MH)
-- [Macedónia](pt_country_code:MK)
-- [Máli](pt_country_code:ML)
-- [Myanmar](pt_country_code:MM)
-- [Mongolia](pt_country_code:MN)
-- [Macau](pt_country_code:MO)
-- [CNMI](pt_country_code:MP)
-- [Martinique](pt_country_code:MQ)
-- [Mauritania](pt_country_code:MR)
-- [Monserrate](pt_country_code:MS)
-- [Malta](pt_country_code:MT)
-- [Maurice](pt_country_code:MU)
-- [Maldivas](pt_country_code:MV)
-- [Malawi](pt_country_code:MW)
-- [Mexico](pt_country_code:MX)
-- [Malásia](pt_country_code:MY)
-- [Moçambique](pt_country_code:MZ)
-- [Namibia](pt_country_code:NA)
-- [Nova Caledónia](pt_country_code:NC)
-- [Niger](pt_country_code:NE)
-- [Norfolk Island](pt_country_code:NF)
-- [Nigeria](pt_country_code:NG)
-- [Nicaragua](pt_country_code:NI)
-- [Holanda](pt_country_code:NL)
-- [Noruega](pt_country_code:NO)
-- [Nepal](pt_country_code:NP)
-- [Nauru](pt_country_code:NR)
-- [Niuê](pt_country_code:NU)
-- [Nova Zelândia](pt_country_code:NZ)
-- [Omão](pt_country_code:OM)
-- [Panama](pt_country_code:PA)
-- [Peru](pt_country_code:PE)
-- [Polinésia Francesa](pt_country_code:PF)
-- [PNG](pt_country_code:PG)
-- [Filipinas](pt_country_code:PH)
-- [Paquistão](pt_country_code:PK)
-- [Polónia](pt_country_code:PL)
-- [São Pedro e Miquelon](pt_country_code:PM)
-- [Pitcairn](pt_country_code:PN)
-- [Porto Rico](pt_country_code:PR)
-- [Palestine](pt_country_code:PS)
-- [Palau](pt_country_code:PW)
-- [Paraguay](pt_country_code:PY)
-- [Qatar](pt_country_code:QA)
-- [Reunião](pt_country_code:RE)
-- [Roménia](pt_country_code:RO)
-- [Sérvia](pt_country_code:RS)
-- [Russia](pt_country_code:RU)
-- [Ruanda](pt_country_code:RW)
-- [Arábia Saudita](pt_country_code:SA)
-- [Ilhas Salomão](pt_country_code:SB)
-- [Seicheles](pt_country_code:SC)
-- [Sudão](pt_country_code:SD)
-- [Suécia](pt_country_code:SE)
-- [Singapura](pt_country_code:SG)
-- [Ascensão](pt_country_code:SH)
-- [Eslovénia](pt_country_code:SI)
-- [Svalbard](pt_country_code:SJ)
-- [Eslováquia](pt_country_code:SK)
-- [Serra Leoa](pt_country_code:SL)
-- [São Marino](pt_country_code:SM)
-- [Senegal](pt_country_code:SN)
-- [Somália](pt_country_code:SO)
-- [Suriname](pt_country_code:SR)
-- [South Sudan](pt_country_code:SS)
-- [São Tomé e Príncipe](pt_country_code:ST)
-- [Salvador](pt_country_code:SV)
-- [Sint Maarten](pt_country_code:SX)
-- [Síria](pt_country_code:SY)
-- [Andorra](pt_country_code:AD)
-- [Turcas e Caicos](pt_country_code:TC)
-- [Chade](pt_country_code:TD)
-- [TAAF](pt_country_code:TF)
-- [Togo](pt_country_code:TG)
-- [Tailândia](pt_country_code:TH)
-- [Tajiquistão](pt_country_code:TJ)
-- [Tokelau](pt_country_code:TK)
-- [Timor Leste](pt_country_code:TL)
-- [Turquemenistão](pt_country_code:TM)
-- [Tunísia](pt_country_code:TN)
-- [Tonga](pt_country_code:TO)
-- [Turkey](pt_country_code:TR)
-- [Trinidade e Tobago](pt_country_code:TT)
-- [Tuvalu](pt_country_code:TV)
-- [Taiwan](pt_country_code:TW)
-- [Tanzania](pt_country_code:TZ)
-- [Ucrânia](pt_country_code:UA)
-- [Uganda](pt_country_code:UG)
-- [Ilha Wake](pt_country_code:UM)
-- [Estados Unidos](pt_country_code:US)
-- [Uruguai](pt_country_code:UY)
-- [Uzbekistan](pt_country_code:UZ)
-- [Santa Sé](pt_country_code:VA)
-- [São Vicente](pt_country_code:VC)
-- [Venezuela](pt_country_code:VE)
-- [Ilhas Virgens Britânicas](pt_country_code:VG)
-- [American Virgin Islands](pt_country_code:VI)
-- [Vietname](pt_country_code:VN)
-- [Vanuatu](pt_country_code:VU)
-- [Wallis and Futuna](pt_country_code:WF)
-- [Samoa](pt_country_code:WS)
-- [Iémen](pt_country_code:YE)
-- [Maore](pt_country_code:YT)
-- [RSA](pt_country_code:ZA)
-- [República da Zâmbia](pt_country_code:ZM)
-- [Swaziland](pt_country_code:SZ)
-- [Emirates](pt_country_code:AE)
-- [Afeganistão](pt_country_code:AF)
-- [Antígua](pt_country_code:AG)
-- [Anguila](pt_country_code:AI)
-- [Albânia](pt_country_code:AL)
-- [Armênia](pt_country_code:AM)
-- [Angola](pt_country_code:AO)
-- [Antarctica](pt_country_code:AQ)
-- [Argentina](pt_country_code:AR)
-- [Tutuila](pt_country_code:AS)
-- [Austria](pt_country_code:AT)
-- [Australia](pt_country_code:AU)
-- [Aruba](pt_country_code:AW)
-- [Alanda](pt_country_code:AX)
-- [Azerbaijan](pt_country_code:AZ)
-- [Bosnia](pt_country_code:BA)
-- [Barbados](pt_country_code:BB)
-- [Bangladesh](pt_country_code:BD)
-- [Bélgica](pt_country_code:BE)
-- [Burquina](pt_country_code:BF)
-- [Bulgária](pt_country_code:BG)
-- [Barein](pt_country_code:BH)
-- [Burundi](pt_country_code:BI)
-- [Benin](pt_country_code:BJ)
-- [São Bartolomeu](pt_country_code:BL)
-- [Bermuda](pt_country_code:BM)
-- [Brunei](pt_country_code:BN)
-- [Bolivia](pt_country_code:BO)
-- [Saba](pt_country_code:BQ)
-- [Brasil](pt_country_code:BR)
-- [Bahaamas](pt_country_code:BS)
-- [Butão](pt_country_code:BT)
-- [Bouvetøya](pt_country_code:BV)
-- [Botsuana](pt_country_code:BW)
-- [Belarus](pt_country_code:BY)
-- [Belize](pt_country_code:BZ)
-- [Canadá](pt_country_code:CA)
-- [Ilhas Keeling](pt_country_code:CC)
-- [RD Congo](pt_country_code:CD)
-- [CAR](pt_country_code:CF)
-- [Congo](pt_country_code:CG)
-- [Suíça](pt_country_code:CH)
-- [Côte d'Ivoire](pt_country_code:CI)
-- [Ilhas Cook](pt_country_code:CK)
-- [Chile](pt_country_code:CL)
-- [Camarões](pt_country_code:CM)
-- [China](pt_country_code:CN)
-- [Colombia](pt_country_code:CO)
-- [Costa Rica](pt_country_code:CR)
-- [Cuba](pt_country_code:CU)
-- [Cabo Verde](pt_country_code:CV)
-- [Curaçao](pt_country_code:CW)
-- [Ilha Natal](pt_country_code:CX)
-- [Chipre](pt_country_code:CY)
-- [República Checa](pt_country_code:CZ)
-- [Alemanha](pt_country_code:DE)
-- [Djibouti](pt_country_code:DJ)
-- [Dinamarca](pt_country_code:DK)
-- [Dominica](pt_country_code:DM)
-- [República Dominicana](pt_country_code:DO)
-- [Argélia](pt_country_code:DZ)
-- [Equador](pt_country_code:EC)
-- [Estónia](pt_country_code:EE)
+- em [Portugal]{"entity": "pt_country_code", "value": "PT"}
+- [Espanha]{"entity": "pt_country_code", "value": "ES"}
+- na [Grécia]{"entity": "pt_country_code", "value": "GR"}
+- na [Suiça]{"entity": "pt_country_code", "value": "CH"}
+- no [Zimbabué]{"entity": "pt_country_code", "value": "ZW"}
+- [Egipto]{"entity": "pt_country_code", "value": "EG"}
+- [Sara Ocidental]{"entity": "pt_country_code", "value": "EH"}
+- [Eritrea]{"entity": "pt_country_code", "value": "ER"}
+- [Etiópia]{"entity": "pt_country_code", "value": "ET"}
+- [Finlândia]{"entity": "pt_country_code", "value": "FI"}
+- [Fidji]{"entity": "pt_country_code", "value": "FJ"}
+- [Falkland]{"entity": "pt_country_code", "value": "FK"}
+- [Micronesia]{"entity": "pt_country_code", "value": "FM"}
+- [Ilhas Faroé]{"entity": "pt_country_code", "value": "FO"}
+- [França]{"entity": "pt_country_code", "value": "FR"}
+- [Gabão]{"entity": "pt_country_code", "value": "GA"}
+- [Reino Unido]{"entity": "pt_country_code", "value": "GB"}
+- [Granada]{"entity": "pt_country_code", "value": "GD"}
+- [Geórgia]{"entity": "pt_country_code", "value": "GE"}
+- [Guyane]{"entity": "pt_country_code", "value": "GF"}
+- [Bailado de Guernsey]{"entity": "pt_country_code", "value": "GG"}
+- [Gibraltar]{"entity": "pt_country_code", "value": "GI"}
+- [Gronelandia]{"entity": "pt_country_code", "value": "GL"}
+- [Gambia]{"entity": "pt_country_code", "value": "GM"}
+- [Guinea]{"entity": "pt_country_code", "value": "GN"}
+- [Guadalupe]{"entity": "pt_country_code", "value": "GP"}
+- [Geórgia do Sul]{"entity": "pt_country_code", "value": "GS"}
+- [Guatemala]{"entity": "pt_country_code", "value": "GT"}
+- {"entity": "pt_country_code", "value": "GU"}
+- [Guiné-Bissau]{"entity": "pt_country_code", "value": "GW"}
+- [Guiana]{"entity": "pt_country_code", "value": "GY"}
+- [Hong Kong]{"entity": "pt_country_code", "value": "HK"}
+- [Ilhas Heard]{"entity": "pt_country_code", "value": "HM"}
+- [Honduras]{"entity": "pt_country_code", "value": "HN"}
+- [Croacia]{"entity": "pt_country_code", "value": "HR"}
+- [Haiti]{"entity": "pt_country_code", "value": "HT"}
+- [Hungria]{"entity": "pt_country_code", "value": "HU"}
+- [Indonesia]{"entity": "pt_country_code", "value": "ID"}
+- [Irlanda]{"entity": "pt_country_code", "value": "IE"}
+- [Israel]{"entity": "pt_country_code", "value": "IL"}
+- [Mann]{"entity": "pt_country_code", "value": "IM"}
+- [India]{"entity": "pt_country_code", "value": "IN"}
+- [Território Britânico do Oceano]{"entity": "pt_country_code", "value": "IO"}
+- [Iraq]{"entity": "pt_country_code", "value": "IQ"}
+- [Irão]{"entity": "pt_country_code", "value": "IR"}
+- [Islandia]{"entity": "pt_country_code", "value": "IS"}
+- [Italia]{"entity": "pt_country_code", "value": "IT"}
+- [Jersey]{"entity": "pt_country_code", "value": "JE"}
+- [Jamaica]{"entity": "pt_country_code", "value": "JM"}
+- [Jordania]{"entity": "pt_country_code", "value": "JO"}
+- [Japão]{"entity": "pt_country_code", "value": "JP"}
+- [Kenya]{"entity": "pt_country_code", "value": "KE"}
+- [Quirguistão]{"entity": "pt_country_code", "value": "KG"}
+- [Cambodja]{"entity": "pt_country_code", "value": "KH"}
+- [Kiribati]{"entity": "pt_country_code", "value": "KI"}
+- [Comoros]{"entity": "pt_country_code", "value": "KM"}
+- [Nevis]{"entity": "pt_country_code", "value": "KN"}
+- [DPRK]{"entity": "pt_country_code", "value": "KP"}
+- [Coreia do Sul]{"entity": "pt_country_code", "value": "KR"}
+- [Kuwait]{"entity": "pt_country_code", "value": "KW"}
+- [Ilhas Caimão]{"entity": "pt_country_code", "value": "KY"}
+- [Cazaquistão]{"entity": "pt_country_code", "value": "KZ"}
+- [Laos]{"entity": "pt_country_code", "value": "LA"}
+- [Líbano]{"entity": "pt_country_code", "value": "LB"}
+- [Santa Lúcia]{"entity": "pt_country_code", "value": "LC"}
+- [Sri Lanka]{"entity": "pt_country_code", "value": "LK"}
+- [Liberia]{"entity": "pt_country_code", "value": "LR"}
+- [Lithuania]{"entity": "pt_country_code", "value": "LT"}
+- [Lesoto]{"entity": "pt_country_code", "value": "LS"}
+- [Luxemburgo]{"entity": "pt_country_code", "value": "LU"}
+- [Latvia]{"entity": "pt_country_code", "value": "LV"}
+- [Líbia]{"entity": "pt_country_code", "value": "LY"}
+- [Marrocos]{"entity": "pt_country_code", "value": "MA"}
+- [Monaco]{"entity": "pt_country_code", "value": "MC"}
+- [Moldávia]{"entity": "pt_country_code", "value": "MD"}
+- [Montenegro]{"entity": "pt_country_code", "value": "ME"}
+- [Saint Martin]{"entity": "pt_country_code", "value": "MF"}
+- [Madagáscar]{"entity": "pt_country_code", "value": "MG"}
+- [Ilhas Marshall]{"entity": "pt_country_code", "value": "MH"}
+- [Macedónia]{"entity": "pt_country_code", "value": "MK"}
+- [Máli]{"entity": "pt_country_code", "value": "ML"}
+- [Myanmar]{"entity": "pt_country_code", "value": "MM"}
+- [Mongolia]{"entity": "pt_country_code", "value": "MN"}
+- [Macau]{"entity": "pt_country_code", "value": "MO"}
+- [CNMI]{"entity": "pt_country_code", "value": "MP"}
+- [Martinique]{"entity": "pt_country_code", "value": "MQ"}
+- [Mauritania]{"entity": "pt_country_code", "value": "MR"}
+- [Monserrate]{"entity": "pt_country_code", "value": "MS"}
+- [Malta]{"entity": "pt_country_code", "value": "MT"}
+- [Maurice]{"entity": "pt_country_code", "value": "MU"}
+- [Maldivas]{"entity": "pt_country_code", "value": "MV"}
+- [Malawi]{"entity": "pt_country_code", "value": "MW"}
+- [Mexico]{"entity": "pt_country_code", "value": "MX"}
+- [Malásia]{"entity": "pt_country_code", "value": "MY"}
+- [Moçambique]{"entity": "pt_country_code", "value": "MZ"}
+- [Namibia]{"entity": "pt_country_code", "value": "NA"}
+- [Nova Caledónia]{"entity": "pt_country_code", "value": "NC"}
+- [Niger]{"entity": "pt_country_code", "value": "NE"}
+- [Norfolk Island]{"entity": "pt_country_code", "value": "NF"}
+- [Nigeria]{"entity": "pt_country_code", "value": "NG"}
+- [Nicaragua]{"entity": "pt_country_code", "value": "NI"}
+- [Holanda]{"entity": "pt_country_code", "value": "NL"}
+- [Noruega]{"entity": "pt_country_code", "value": "NO"}
+- [Nepal]{"entity": "pt_country_code", "value": "NP"}
+- [Nauru]{"entity": "pt_country_code", "value": "NR"}
+- [Niuê]{"entity": "pt_country_code", "value": "NU"}
+- [Nova Zelândia]{"entity": "pt_country_code", "value": "NZ"}
+- [Omão]{"entity": "pt_country_code", "value": "OM"}
+- [Panama]{"entity": "pt_country_code", "value": "PA"}
+- [Peru]{"entity": "pt_country_code", "value": "PE"}
+- [Polinésia Francesa]{"entity": "pt_country_code", "value": "PF"}
+- [PNG]{"entity": "pt_country_code", "value": "PG"}
+- [Filipinas]{"entity": "pt_country_code", "value": "PH"}
+- [Paquistão]{"entity": "pt_country_code", "value": "PK"}
+- [Polónia]{"entity": "pt_country_code", "value": "PL"}
+- [São Pedro e Miquelon]{"entity": "pt_country_code", "value": "PM"}
+- [Pitcairn]{"entity": "pt_country_code", "value": "PN"}
+- [Porto Rico]{"entity": "pt_country_code", "value": "PR"}
+- [Palestine]{"entity": "pt_country_code", "value": "PS"}
+- [Palau]{"entity": "pt_country_code", "value": "PW"}
+- [Paraguay]{"entity": "pt_country_code", "value": "PY"}
+- [Qatar]{"entity": "pt_country_code", "value": "QA"}
+- [Reunião]{"entity": "pt_country_code", "value": "RE"}
+- [Roménia]{"entity": "pt_country_code", "value": "RO"}
+- [Sérvia]{"entity": "pt_country_code", "value": "RS"}
+- [Russia]{"entity": "pt_country_code", "value": "RU"}
+- [Ruanda]{"entity": "pt_country_code", "value": "RW"}
+- [Arábia Saudita]{"entity": "pt_country_code", "value": "SA"}
+- [Ilhas Salomão]{"entity": "pt_country_code", "value": "SB"}
+- [Seicheles]{"entity": "pt_country_code", "value": "SC"}
+- [Sudão]{"entity": "pt_country_code", "value": "SD"}
+- [Suécia]{"entity": "pt_country_code", "value": "SE"}
+- [Singapura]{"entity": "pt_country_code", "value": "SG"}
+- [Ascensão]{"entity": "pt_country_code", "value": "SH"}
+- [Eslovénia]{"entity": "pt_country_code", "value": "SI"}
+- [Svalbard]{"entity": "pt_country_code", "value": "SJ"}
+- [Eslováquia]{"entity": "pt_country_code", "value": "SK"}
+- [Serra Leoa]{"entity": "pt_country_code", "value": "SL"}
+- [São Marino]{"entity": "pt_country_code", "value": "SM"}
+- [Senegal]{"entity": "pt_country_code", "value": "SN"}
+- [Somália]{"entity": "pt_country_code", "value": "SO"}
+- [Suriname]{"entity": "pt_country_code", "value": "SR"}
+- [South Sudan]{"entity": "pt_country_code", "value": "SS"}
+- [São Tomé e Príncipe]{"entity": "pt_country_code", "value": "ST"}
+- [Salvador]{"entity": "pt_country_code", "value": "SV"}
+- [Sint Maarten]{"entity": "pt_country_code", "value": "SX"}
+- [Síria]{"entity": "pt_country_code", "value": "SY"}
+- [Andorra]{"entity": "pt_country_code", "value": "AD"}
+- [Turcas e Caicos]{"entity": "pt_country_code", "value": "TC"}
+- [Chade]{"entity": "pt_country_code", "value": "TD"}
+- [TAAF]{"entity": "pt_country_code", "value": "TF"}
+- [Togo]{"entity": "pt_country_code", "value": "TG"}
+- [Tailândia]{"entity": "pt_country_code", "value": "TH"}
+- [Tajiquistão]{"entity": "pt_country_code", "value": "TJ"}
+- [Tokelau]{"entity": "pt_country_code", "value": "TK"}
+- [Timor Leste]{"entity": "pt_country_code", "value": "TL"}
+- [Turquemenistão]{"entity": "pt_country_code", "value": "TM"}
+- [Tunísia]{"entity": "pt_country_code", "value": "TN"}
+- [Tonga]{"entity": "pt_country_code", "value": "TO"}
+- [Turkey]{"entity": "pt_country_code", "value": "TR"}
+- [Trinidade e Tobago]{"entity": "pt_country_code", "value": "TT"}
+- [Tuvalu]{"entity": "pt_country_code", "value": "TV"}
+- [Taiwan]{"entity": "pt_country_code", "value": "TW"}
+- [Tanzania]{"entity": "pt_country_code", "value": "TZ"}
+- [Ucrânia]{"entity": "pt_country_code", "value": "UA"}
+- [Uganda]{"entity": "pt_country_code", "value": "UG"}
+- [Ilha Wake]{"entity": "pt_country_code", "value": "UM"}
+- [Estados Unidos]{"entity": "pt_country_code", "value": "US"}
+- [Uruguai]{"entity": "pt_country_code", "value": "UY"}
+- [Uzbekistan]{"entity": "pt_country_code", "value": "UZ"}
+- [Santa Sé]{"entity": "pt_country_code", "value": "VA"}
+- [São Vicente]{"entity": "pt_country_code", "value": "VC"}
+- [Venezuela]{"entity": "pt_country_code", "value": "VE"}
+- [Ilhas Virgens Britânicas]{"entity": "pt_country_code", "value": "VG"}
+- [American Virgin Islands]{"entity": "pt_country_code", "value": "VI"}
+- [Vietname]{"entity": "pt_country_code", "value": "VN"}
+- [Vanuatu]{"entity": "pt_country_code", "value": "VU"}
+- [Wallis and Futuna]{"entity": "pt_country_code", "value": "WF"}
+- [Samoa]{"entity": "pt_country_code", "value": "WS"}
+- [Iémen]{"entity": "pt_country_code", "value": "YE"}
+- [Maore]{"entity": "pt_country_code", "value": "YT"}
+- [RSA]{"entity": "pt_country_code", "value": "ZA"}
+- [República da Zâmbia]{"entity": "pt_country_code", "value": "ZM"}
+- [Swaziland]{"entity": "pt_country_code", "value": "SZ"}
+- [Emirates]{"entity": "pt_country_code", "value": "AE"}
+- [Afeganistão]{"entity": "pt_country_code", "value": "AF"}
+- [Antígua]{"entity": "pt_country_code", "value": "AG"}
+- [Anguila]{"entity": "pt_country_code", "value": "AI"}
+- [Albânia]{"entity": "pt_country_code", "value": "AL"}
+- [Armênia]{"entity": "pt_country_code", "value": "AM"}
+- [Angola]{"entity": "pt_country_code", "value": "AO"}
+- [Antarctica]{"entity": "pt_country_code", "value": "AQ"}
+- [Argentina]{"entity": "pt_country_code", "value": "AR"}
+- [Tutuila]{"entity": "pt_country_code", "value": "AS"}
+- [Austria]{"entity": "pt_country_code", "value": "AT"}
+- [Australia]{"entity": "pt_country_code", "value": "AU"}
+- [Aruba]{"entity": "pt_country_code", "value": "AW"}
+- [Alanda]{"entity": "pt_country_code", "value": "AX"}
+- [Azerbaijan]{"entity": "pt_country_code", "value": "AZ"}
+- [Bosnia]{"entity": "pt_country_code", "value": "BA"}
+- [Barbados]{"entity": "pt_country_code", "value": "BB"}
+- [Bangladesh]{"entity": "pt_country_code", "value": "BD"}
+- [Bélgica]{"entity": "pt_country_code", "value": "BE"}
+- [Burquina]{"entity": "pt_country_code", "value": "BF"}
+- [Bulgária]{"entity": "pt_country_code", "value": "BG"}
+- [Barein]{"entity": "pt_country_code", "value": "BH"}
+- [Burundi]{"entity": "pt_country_code", "value": "BI"}
+- [Benin]{"entity": "pt_country_code", "value": "BJ"}
+- [São Bartolomeu]{"entity": "pt_country_code", "value": "BL"}
+- [Bermuda]{"entity": "pt_country_code", "value": "BM"}
+- [Brunei]{"entity": "pt_country_code", "value": "BN"}
+- [Bolivia]{"entity": "pt_country_code", "value": "BO"}
+- [Saba]{"entity": "pt_country_code", "value": "BQ"}
+- [Brasil]{"entity": "pt_country_code", "value": "BR"}
+- [Bahaamas]{"entity": "pt_country_code", "value": "BS"}
+- [Butão]{"entity": "pt_country_code", "value": "BT"}
+- [Bouvetøya]{"entity": "pt_country_code", "value": "BV"}
+- [Botsuana]{"entity": "pt_country_code", "value": "BW"}
+- [Belarus]{"entity": "pt_country_code", "value": "BY"}
+- [Belize]{"entity": "pt_country_code", "value": "BZ"}
+- [Canadá]{"entity": "pt_country_code", "value": "CA"}
+- [Ilhas Keeling]{"entity": "pt_country_code", "value": "CC"}
+- [RD Congo]{"entity": "pt_country_code", "value": "CD"}
+- [CAR]{"entity": "pt_country_code", "value": "CF"}
+- [Congo]{"entity": "pt_country_code", "value": "CG"}
+- [Suíça]{"entity": "pt_country_code", "value": "CH"}
+- [Côte d'Ivoire]{"entity": "pt_country_code", "value": "CI"}
+- [Ilhas Cook]{"entity": "pt_country_code", "value": "CK"}
+- [Chile]{"entity": "pt_country_code", "value": "CL"}
+- [Camarões]{"entity": "pt_country_code", "value": "CM"}
+- [China]{"entity": "pt_country_code", "value": "CN"}
+- [Colombia]{"entity": "pt_country_code", "value": "CO"}
+- [Costa Rica]{"entity": "pt_country_code", "value": "CR"}
+- [Cuba]{"entity": "pt_country_code", "value": "CU"}
+- [Cabo Verde]{"entity": "pt_country_code", "value": "CV"}
+- [Curaçao]{"entity": "pt_country_code", "value": "CW"}
+- [Ilha Natal]{"entity": "pt_country_code", "value": "CX"}
+- [Chipre]{"entity": "pt_country_code", "value": "CY"}
+- [República Checa]{"entity": "pt_country_code", "value": "CZ"}
+- [Alemanha]{"entity": "pt_country_code", "value": "DE"}
+- [Djibouti]{"entity": "pt_country_code", "value": "DJ"}
+- [Dinamarca]{"entity": "pt_country_code", "value": "DK"}
+- [Dominica]{"entity": "pt_country_code", "value": "DM"}
+- [República Dominicana]{"entity": "pt_country_code", "value": "DO"}
+- [Argélia]{"entity": "pt_country_code", "value": "DZ"}
+- [Equador]{"entity": "pt_country_code", "value": "EC"}
+- [Estónia]{"entity": "pt_country_code", "value": "EE"}
 
 ## intent:pt_covid_situation
-- ASUS de [covid](pt_virus:COVID) no Alentejo
-- Casos de [covid](pt_virus:COVID) no Alentejo
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} no Alentejo
+- Casos de [covid]{"entity": "pt_virus", "value": "COVID"} no Alentejo
 - Como estão as contagens no mundo?
 - Contagem infectada
 - Diga-me os números reais.
 - Em que países é que se detetaram pessoas infetadas?
-- Estatísticas atualizadas do [coronavirus](pt_virus:COVID)
-- Gostaria de saber se há casos em [Inglaterra](pt_country_code:GB)
+- Estatísticas atualizadas do [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Gostaria de saber se há casos em [Inglaterra]{"entity": "pt_country_code", "value": "GB"}
 - Mortos
 - Número de casos
 - Número de casos confirmados
@@ -3232,11 +3232,11 @@
 - Número de mortes
 - Número de mortes em todo o mundo.
 - Número de mortos
-- Olá. Quantos infetados existem em [portugal](pt_country_code:PT)?
+- Olá. Quantos infetados existem em [portugal]{"entity": "pt_country_code", "value": "PT"}?
 - Quais as cidades mais afetadas
 - Quais são as cidades mais afetadas
-- Quais são as estatísticas mais recentes sobre [coronavírus](pt_virus:COVID)?
-- Qual é o numero de internados com [covid](pt_virus:COVID) em [portugal](pt_country_code:PT)?
+- Quais são as estatísticas mais recentes sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual é o numero de internados com [covid]{"entity": "pt_virus", "value": "COVID"} em [portugal]{"entity": "pt_country_code", "value": "PT"}?
 - Qual é o número de casos confirmados?
 - Qual é o número de casos?
 - Qual é o número de infectados?
@@ -3244,540 +3244,540 @@
 - Qual é o número de mortos devido ao surto?
 - Quantas infecções existem em todo o mundo?
 - Quantas são as contagens no mundo?
-- Quanto mortos em [portugal](pt_country_code:PT) por causa do coronavirus?
-- Quantoa mortos em [portugal](pt_country_code:PT)?
+- Quanto mortos em [portugal]{"entity": "pt_country_code", "value": "PT"} por causa do coronavirus?
+- Quantoa mortos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
 - Quantos casos de [corrid] no mundo
 - Quantos casos de infetados há mundialmente?
-- Quantos casos em [portugal](pt_country_code:PT)?
-- Quantos casos existem em [portugal](pt_country_code:PT)
+- Quantos casos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Quantos casos existem em [portugal]{"entity": "pt_country_code", "value": "PT"}
 - Quantos casos foram registados hoje?
 - Quantos casos novos ha hoje?
-- Quantos infectados existem neste momento em [portugal](pt_country_code:PT)?
-- Quantos infetados tem a [Turquia](pt_country_code:TR)?
-- Quantos internados ha em [portugal](pt_country_code:PT) beste momento?
-- Quantos mortos houve em [portugal](pt_country_code:PT) hoje?
+- Quantos infectados existem neste momento em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Quantos infetados tem a [Turquia]{"entity": "pt_country_code", "value": "TR"}?
+- Quantos internados ha em [portugal]{"entity": "pt_country_code", "value": "PT"} beste momento?
+- Quantos mortos houve em [portugal]{"entity": "pt_country_code", "value": "PT"} hoje?
 - Quantos mortos temos hoje?
 - Sim. Sabes qual o país onde existe o maior número de infectados?
-- Situação atualizada do [coronavírus](pt_virus:COVID)
+- Situação atualizada do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
 - Statistics.
 - casos
-- de [corrige](pt_virus:COVID) no Alentejo
+- de [corrige]{"entity": "pt_virus", "value": "COVID"} no Alentejo
 - existem números
 - falar sobre os números
-- morte na [alemanha](pt_country_code:DE)
-- numero de ifetados [portugal](pt_country_code:PT)
-- numeros para [portugal](pt_country_code:PT) hoje
-- número de infetados em [Grécia](pt_country_code:GR)
+- morte na [alemanha]{"entity": "pt_country_code", "value": "DE"}
+- numero de ifetados [portugal]{"entity": "pt_country_code", "value": "PT"}
+- numeros para [portugal]{"entity": "pt_country_code", "value": "PT"} hoje
+- número de infetados em [Grécia]{"entity": "pt_country_code", "value": "GR"}
 - o que é a contagem de mortes?
 - quais são os números e o galgo hoje
-- qual o numero de casos confirmados em [portugal](pt_country_code:PT)?
-- qual o numero de pessoas nos cuidados intensivos por causa da [covid](pt_virus:COVID) ?
+- qual o numero de casos confirmados em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- qual o numero de pessoas nos cuidados intensivos por causa da [covid]{"entity": "pt_virus", "value": "COVID"} ?
 - quantas pessoas estão infectadas
 - quantas pessoas morreram hoje?
 - quantas pessoas no mundo estao infetadas ?
-- quantas pessoas no mundo têm [covid](pt_virus:COVID) ?
-- quantos casos de [COVID-19](pt_virus:COVID) há em [portugal](pt_country_code:PT)?
-- quantos casos há em [portugal](pt_country_code:PT) no momento?
+- quantas pessoas no mundo têm [covid]{"entity": "pt_virus", "value": "COVID"} ?
+- quantos casos de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- quantos casos há em [portugal]{"entity": "pt_country_code", "value": "PT"} no momento?
 - quantos casos há no mundo?
-- quantos mortos em [portugal](pt_country_code:PT)?
-- relação [covid](pt_virus:COVID) no mundo
-- situação do [covid](pt_virus:COVID) no mundo
+- quantos mortos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- relação [covid]{"entity": "pt_virus", "value": "COVID"} no mundo
+- situação do [covid]{"entity": "pt_virus", "value": "COVID"} no mundo
 - situação mundial
-- [covid](pt_virus:COVID) em [Bélgica](pt_country_code:BE)
-- [COVID-19](pt_virus:COVID) em [Itália](pt_country_code:IT)
-- Como está a situação em [Ucrânia](pt_country_code:UA)?
-- Coronavirus em [Finlândia](pt_country_code:FI)
-- Estatísticas actualizadas em [Singapura](pt_country_code:SG)
-- Informações [França](pt_country_code:FR)
-- Informações actualizadas [Dinamarca](pt_country_code:DK)
-- Informações sobre [Brasil](pt_country_code:BR)
-- Notícias [Argentina](pt_country_code:AR)
-- Notícias atuais [Venezuela](pt_country_code:VE)
-- Notícias de [Ilhas Falkland](pt_country_code:FK)
-- Notícias sobre o [COVID-19](pt_virus:COVID)
-- [novo coronavírus](pt_virus:COVID) em [Noruega](pt_country_code:NO)
-- Situação [Suécia](pt_country_code:SE)
-- Situação actual em [Suiça](pt_country_code:CH)
-- Situação actualizada em [Polónia](pt_country_code:PL)
-- Situação em [Russia](pt_country_code:RU)
+- [covid]{"entity": "pt_virus", "value": "COVID"} em [Bélgica]{"entity": "pt_country_code", "value": "BE"}
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} em [Itália]{"entity": "pt_country_code", "value": "IT"}
+- Como está a situação em [Ucrânia]{"entity": "pt_country_code", "value": "UA"}?
+- Coronavirus em [Finlândia]{"entity": "pt_country_code", "value": "FI"}
+- Estatísticas actualizadas em [Singapura]{"entity": "pt_country_code", "value": "SG"}
+- Informações [França]{"entity": "pt_country_code", "value": "FR"}
+- Informações actualizadas [Dinamarca]{"entity": "pt_country_code", "value": "DK"}
+- Informações sobre [Brasil]{"entity": "pt_country_code", "value": "BR"}
+- Notícias [Argentina]{"entity": "pt_country_code", "value": "AR"}
+- Notícias atuais [Venezuela]{"entity": "pt_country_code", "value": "VE"}
+- Notícias de [Ilhas Falkland]{"entity": "pt_country_code", "value": "FK"}
+- Notícias sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} em [Noruega]{"entity": "pt_country_code", "value": "NO"}
+- Situação [Suécia]{"entity": "pt_country_code", "value": "SE"}
+- Situação actual em [Suiça]{"entity": "pt_country_code", "value": "CH"}
+- Situação actualizada em [Polónia]{"entity": "pt_country_code", "value": "PL"}
+- Situação em [Russia]{"entity": "pt_country_code", "value": "RU"}
 - Quais são os países com mais casos?
 
 ## intent:pt_covid_situation_deaths
-- [República Federal da Alemã](pt_country_code:DE) mortes.
-- Contagem mortes em [Nihon](pt_country_code:JP)
-- Contagem mortes no [República da Guiné-Bissau](pt_country_code:GW)
-- Contagem mortos em [República Islâmica do Afeganistão](pt_country_code:AF)
-- Contagem mortos no [Kyrgyzskaya Respublika](pt_country_code:KG)
-- Mortes de [Germany](pt_country_code:DE)
-- Mortes em [República do Uzbequistão](pt_country_code:UZ)
-- Mortes em [Northern Mariana Islands](pt_country_code:MP).
-- Numero de mortos em [Iyonola](pt_country_code:LC) hoje?
-- Número de mortes em [Quiribáti](pt_country_code:KI)
-- Número de mortos [Reino do Barém](pt_country_code:BH).
-- Número de mortos em [Sesel](pt_country_code:SC).
-- Número total de mortes em [Zimbaué](pt_country_code:ZW).
-- Número total de mortos em [Malawi](pt_country_code:MW)?
-- Olá. Quantos mortos existem em [Free Associated State of Puerto Rico](pt_country_code:PR)?
-- Qual é o numero de mortos com [covid](pt_virus:COVID) em [UAE](pt_country_code:AE)?
-- Qual é o número de mortes em [Gànnaar](pt_country_code:MR)?
-- Qual é o número de mortos em [República de Guinea Ecuatorial](pt_country_code:GQ)?
-- Quantos casos de mortos há em [Kingdom of Eswatini](pt_country_code:SZ)?
-- Quantos faleceram em [Reino da Tailândia](pt_country_code:TH)?
-- Quantos morreram em [Polónia](pt_country_code:PL).
-- Quantos mortos existem neste momento em [HIMI](pt_country_code:HM)?
-- Quantos mortos tem [Libéria](pt_country_code:LR)?
-- Quantos mortos tem a [República da Letônia](pt_country_code:LV)?
-- Quantos mortos tem o [Ahvenanmaa](pt_country_code:AX)?
-- qual o numero de mortes em [Estado da Palestina](pt_country_code:PS)?
-- quantas pessoas em [Caicos Islands](pt_country_code:TC) morreram?
-- quantas pessoas morreram em [Mexico](pt_country_code:MX)?
+- [República Federal da Alemã]{"entity": "pt_country_code", "value": "DE"} mortes.
+- Contagem mortes em [Nihon]{"entity": "pt_country_code", "value": "JP"}
+- Contagem mortes no [República da Guiné-Bissau]{"entity": "pt_country_code", "value": "GW"}
+- Contagem mortos em [República Islâmica do Afeganistão]{"entity": "pt_country_code", "value": "AF"}
+- Contagem mortos no [Kyrgyzskaya Respublika]{"entity": "pt_country_code", "value": "KG"}
+- Mortes de [Germany]{"entity": "pt_country_code", "value": "DE"}
+- Mortes em [República do Uzbequistão]{"entity": "pt_country_code", "value": "UZ"}
+- Mortes em [Northern Mariana Islands]{"entity": "pt_country_code", "value": "MP"}.
+- Numero de mortos em [Iyonola]{"entity": "pt_country_code", "value": "LC"} hoje?
+- Número de mortes em [Quiribáti]{"entity": "pt_country_code", "value": "KI"}
+- Número de mortos [Reino do Barém]{"entity": "pt_country_code", "value": "BH"}.
+- Número de mortos em [Sesel]{"entity": "pt_country_code", "value": "SC"}.
+- Número total de mortes em [Zimbaué]{"entity": "pt_country_code", "value": "ZW"}.
+- Número total de mortos em [Malawi]{"entity": "pt_country_code", "value": "MW"}?
+- Olá. Quantos mortos existem em [Free Associated State of Puerto Rico]{"entity": "pt_country_code", "value": "PR"}?
+- Qual é o numero de mortos com [covid]{"entity": "pt_virus", "value": "COVID"} em [UAE]{"entity": "pt_country_code", "value": "AE"}?
+- Qual é o número de mortes em [Gànnaar]{"entity": "pt_country_code", "value": "MR"}?
+- Qual é o número de mortos em [República de Guinea Ecuatorial]{"entity": "pt_country_code", "value": "GQ"}?
+- Quantos casos de mortos há em [Kingdom of Eswatini]{"entity": "pt_country_code", "value": "SZ"}?
+- Quantos faleceram em [Reino da Tailândia]{"entity": "pt_country_code", "value": "TH"}?
+- Quantos morreram em [Polónia]{"entity": "pt_country_code", "value": "PL"}.
+- Quantos mortos existem neste momento em [HIMI]{"entity": "pt_country_code", "value": "HM"}?
+- Quantos mortos tem [Libéria]{"entity": "pt_country_code", "value": "LR"}?
+- Quantos mortos tem a [República da Letônia]{"entity": "pt_country_code", "value": "LV"}?
+- Quantos mortos tem o [Ahvenanmaa]{"entity": "pt_country_code", "value": "AX"}?
+- qual o numero de mortes em [Estado da Palestina]{"entity": "pt_country_code", "value": "PS"}?
+- quantas pessoas em [Caicos Islands]{"entity": "pt_country_code", "value": "TC"} morreram?
+- quantas pessoas morreram em [Mexico]{"entity": "pt_country_code", "value": "MX"}?
 
 ## intent:pt_covid_situation_infected
-- ASUS de [covid](pt_virus:COVID) ativos em [Austrália](pt_country_code:AU)
-- ASUS de [covid](pt_virus:COVID) ativos no [Ayiti](pt_country_code:HT)
-- ASUS de [covid](pt_virus:COVID) em [República da Turquia](pt_country_code:TR)
-- ASUS de [covid](pt_virus:COVID) no [United Republic of Tanzania](pt_country_code:TZ)
-- ASUS de [covid](pt_virus:COVID) no total em [Република Северна Македонија](pt_country_code:MK)
-- ASUS de [covid](pt_virus:COVID) no total no [Reino da Noruega](pt_country_code:NO)
-- Casos ativos de [covid](pt_virus:COVID) em [Mexico](pt_country_code:MX)
-- Casos ativos de [covid](pt_virus:COVID) no [Comunidade das Bahamas](pt_country_code:BS)
-- Casos confirmados ativos em [República das Seychelles](pt_country_code:SC)
-- Casos confirmados em [Ilizwe leZimbabwe](pt_country_code:ZW)
-- Casos de [covid](pt_virus:COVID) em [Pyidaunzu Thanmăda Myăma](pt_country_code:MM)
-- Casos de [covid](pt_virus:COVID) no [Republic of Chile](pt_country_code:CL)
-- Contagem infectada ativa em [Xīnjiāpō](pt_country_code:SG)
-- Contagem infectada ativa no [Dominica](pt_country_code:DM)
-- Contagem infectada em [Índia](pt_country_code:IN)
-- Contagem infectada no [Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya](pt_country_code:SO)
-- Contagem infectada no total em [Saint Pierre and Miquelon](pt_country_code:PM)
-- Contagem infectada no total no [São Cristóvão e Neves](pt_country_code:KN)
-- Contagem infectados ativos em [Türkiye](pt_country_code:TR)
-- Contagem infectados ativos no [Repubrikin Naoero](pt_country_code:NR)
-- Contagem infectados em [Sultanato de Omã](pt_country_code:OM)
-- Contagem infectados no [Kingdom of Tonga](pt_country_code:TO)
-- Contagem infectados no total em [Republika y'Uburundi](pt_country_code:BI)
-- Contagem infectados no total no [Quirguizistão](pt_country_code:KG)
-- Estatísticas de [Repabliki ya Afrika-Borwa](pt_country_code:ZA)
-- Numero de infectados ativos em [Dominican Republic](pt_country_code:DO) hoje?
-- Numero de infectados em [Dhivehi Raajje](pt_country_code:MV) hoje?
-- Numero de infectados no total em [Sri Lanka](pt_country_code:LK) hoje?
-- Número de casos ativos em [Republic of Sierra Leone](pt_country_code:SL)
-- Número de casos em [Aolepān Aorōkin Ṃajeḷ](pt_country_code:MH)
-- Número de casos no total em [Sri Lanca](pt_country_code:LK)
-- Número de infectados ativos em [Northern Ireland](pt_country_code:GB).
-- Número de infectados em [Sierra Leone](pt_country_code:SL).
-- Número de infectados no total em [Santa Lúcia](pt_country_code:LC).
-- Olá. Quantos infetados existem atualmente em [Saint-Martin](pt_country_code:MF)?
-- Olá. Quantos infetados existem em [Cocos (Keeling) Islands](pt_country_code:CC)?
-- Olá. Quantos infetados no total existem em [Republic of Senegal](pt_country_code:SN)?
-- Olá. Quantos total de infetados existem em [República das Honduras](pt_country_code:HN)?
-- Qual é o numero de infetados ativos com [covid](pt_virus:COVID) em [Saba](pt_country_code:BQ)?
-- Qual é o numero de infetados com [covid](pt_virus:COVID) em [República do Uzbequistão](pt_country_code:UZ)?
-- Qual é o numero de infetados no total com [covid](pt_virus:COVID) em [Cypriot Republic](pt_country_code:CY)?
-- Qual é o numero de total de infetados com [covid](pt_virus:COVID) em [Iyonola](pt_country_code:LC)?
-- Qual é o número de casos ativos em [Estado do Qatar](pt_country_code:QA)?
-- Qual é o número de casos confirmados ativos em [Principality of Andorra](pt_country_code:AD)?
-- Qual é o número de casos confirmados em [Irlanda do Norte](pt_country_code:GB)?
-- Qual é o número de casos em [Maurício](pt_country_code:MU)?
-- Qual é o número de casos no total confirmados em [Saint-Pierre e Miquelon](pt_country_code:PM)?
-- Qual é o número de casos no total em [Taiwan, Province of China](pt_country_code:TW)?
-- Qual é o número de infectados ativos em [República da Maurícia](pt_country_code:MU)?
-- Qual é o número de infectados em [Estado da Líbia](pt_country_code:LY)?
-- Qual é o número de infectados no total em [Dominican Republic](pt_country_code:DO)?
-- Quantos casos ativos de [corrid] em [Nöörje](pt_country_code:NO)
-- Quantos casos ativos em [Suriname](pt_country_code:SR)?
-- Quantos casos ativos existem em [Faroe Islands](pt_country_code:FO)
-- Quantos casos ativos há na [Jamhuuriyadda Federaalka Soomaaliya](pt_country_code:SO)?
-- Quantos casos de [corrid] em [Canadá](pt_country_code:CA)
-- Quantos casos de infetados ativos há em [Mann](pt_country_code:IM)?
-- Quantos casos de infetados há em [Bosna i Hercegovina](pt_country_code:BA)?
-- Quantos casos de infetados no total há em [Turks and Caicos Islands](pt_country_code:TC)?
-- Quantos casos de total de infetados há em [Rephaboliki ya Afrika Borwa](pt_country_code:ZA)?
-- Quantos casos em [Oman](pt_country_code:OM)?
-- Quantos casos existem em [Benin](pt_country_code:BJ)
-- Quantos casos há na [República da Estônia](pt_country_code:EE)?
-- Quantos casos no total de corrid em [Ilha da Irlanda](pt_country_code:IE)
-- Quantos casos no total em [República da Bulgária](pt_country_code:BG)?
-- Quantos casos no total existem em [Naha ya Zimbabwe](pt_country_code:ZW)
-- Quantos casos no total há na [Republic of Cyprus](pt_country_code:CY)?
-- Quantos infectados ativos existem neste momento em [Togo](pt_country_code:TG)?
-- Quantos infectados existem em [Republica do Afeganistão](pt_country_code:AF)?
-- Quantos infectados existem neste momento em [Piruw Republika](pt_country_code:PE)?
-- Quantos infetados ativos tem [Republic of the Sudan](pt_country_code:SD)?
-- Quantos infetados ativos tem a [Cingapura](pt_country_code:SG)?
-- Quantos infetados ativos tem o [Federated States of Micronesia](pt_country_code:FM)?
-- Quantos infetados no total tem [Éire](pt_country_code:IE)?
-- Quantos infetados no total tem a [RDC](pt_country_code:CD)?
-- Quantos infetados no total tem o [República da Arménia](pt_country_code:AM)?
-- Quantos infetados tem [Republic of South Sudan](pt_country_code:SS)?
-- Quantos infetados tem a [Kingdom of Tonga](pt_country_code:TO)?
-- Quantos infetados tem o [Ruanda](pt_country_code:RW)?
-- Quantos total de infetados tem [as-Sūdān](pt_country_code:SD)?
-- Quantos total de infetados tem a [Svalbard og Jan Mayen](pt_country_code:SJ)?
-- Quantos total de infetados tem o [Slovenija](pt_country_code:SI)?
-- casos no total confirmados em [Japan](pt_country_code:JP)
-- casos no total de [covid](pt_virus:COVID) em [Bolívia](pt_country_code:BO)
-- casos no total de [covid](pt_virus:COVID) no [Al-ʾUrdunn](pt_country_code:JO)
-- qual o numero de casos confirmados ativos em [Wallis e Futuna](pt_country_code:WF)?
-- qual o numero de casos confirmados em [Barbuda](pt_country_code:AG)?
-- qual o numero de casos no total confirmados em [Sultanate of Oman](pt_country_code:OM)?
-- quantas pessoas em [Republic of Cabo Verde](pt_country_code:CV) estao infetadas ?
-- quantas pessoas em [Guåhån](pt_country_code:GU) estao infetadas atualmente?
-- quantas pessoas em [Éire](pt_country_code:IE) estiveram infetadas ?
-- quantas pessoas em [República da Moldova](pt_country_code:MD) tiveram covid ?
-- quantas pessoas em [Czechia](pt_country_code:CZ) têm covid ?
-- quantas pessoas em [Uzbequistão](pt_country_code:UZ) têm covid atualmente?
-- quantas pessoas estiveram infectadas em [Repubblica di San Marino](pt_country_code:SM)
-- quantas pessoas estão infectadas atualmente em [Tunisie](pt_country_code:TN)
-- quantas pessoas estão infectadas em [Mēxihco](pt_country_code:MX)
-- quantos casos ativos de [COVID-19](pt_virus:COVID) há em [República das Maldivas](pt_country_code:MV)?
-- quantos casos ativos há em [Ilha Bouvet](pt_country_code:BV) no momento?
-- quantos casos ativos há no [Oʻzbekiston](pt_country_code:UZ)?
-- quantos casos de [COVID-19](pt_virus:COVID) há em [Beluu er a Belau](pt_country_code:PW)?
-- quantos casos há em [Reino da Jordânia](pt_country_code:JO) no momento?
-- quantos casos há no [Република Србија](pt_country_code:RS)?
-- quantos casos no total de [COVID-19](pt_virus:COVID) há em [República da Moldávia](pt_country_code:MD)?
-- quantos casos no total há em [Republic of India](pt_country_code:IN) no momento?
-- quantos casos no total há no [Macao](pt_country_code:MO)?
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} ativos em [Austrália]{"entity": "pt_country_code", "value": "AU"}
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} ativos no [Ayiti]{"entity": "pt_country_code", "value": "HT"}
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} em [República da Turquia]{"entity": "pt_country_code", "value": "TR"}
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} no [United Republic of Tanzania]{"entity": "pt_country_code", "value": "TZ"}
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} no total em [Република Северна Македонија]{"entity": "pt_country_code", "value": "MK"}
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} no total no [Reino da Noruega]{"entity": "pt_country_code", "value": "NO"}
+- Casos ativos de [covid]{"entity": "pt_virus", "value": "COVID"} em [Mexico]{"entity": "pt_country_code", "value": "MX"}
+- Casos ativos de [covid]{"entity": "pt_virus", "value": "COVID"} no [Comunidade das Bahamas]{"entity": "pt_country_code", "value": "BS"}
+- Casos confirmados ativos em [República das Seychelles]{"entity": "pt_country_code", "value": "SC"}
+- Casos confirmados em [Ilizwe leZimbabwe]{"entity": "pt_country_code", "value": "ZW"}
+- Casos de [covid]{"entity": "pt_virus", "value": "COVID"} em [Pyidaunzu Thanmăda Myăma]{"entity": "pt_country_code", "value": "MM"}
+- Casos de [covid]{"entity": "pt_virus", "value": "COVID"} no [Republic of Chile]{"entity": "pt_country_code", "value": "CL"}
+- Contagem infectada ativa em [Xīnjiāpō]{"entity": "pt_country_code", "value": "SG"}
+- Contagem infectada ativa no [Dominica]{"entity": "pt_country_code", "value": "DM"}
+- Contagem infectada em [Índia]{"entity": "pt_country_code", "value": "IN"}
+- Contagem infectada no [Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya]{"entity": "pt_country_code", "value": "SO"}
+- Contagem infectada no total em [Saint Pierre and Miquelon]{"entity": "pt_country_code", "value": "PM"}
+- Contagem infectada no total no [São Cristóvão e Neves]{"entity": "pt_country_code", "value": "KN"}
+- Contagem infectados ativos em [Türkiye]{"entity": "pt_country_code", "value": "TR"}
+- Contagem infectados ativos no [Repubrikin Naoero]{"entity": "pt_country_code", "value": "NR"}
+- Contagem infectados em [Sultanato de Omã]{"entity": "pt_country_code", "value": "OM"}
+- Contagem infectados no [Kingdom of Tonga]{"entity": "pt_country_code", "value": "TO"}
+- Contagem infectados no total em [Republika y'Uburundi]{"entity": "pt_country_code", "value": "BI"}
+- Contagem infectados no total no [Quirguizistão]{"entity": "pt_country_code", "value": "KG"}
+- Estatísticas de [Repabliki ya Afrika-Borwa]{"entity": "pt_country_code", "value": "ZA"}
+- Numero de infectados ativos em [Dominican Republic]{"entity": "pt_country_code", "value": "DO"} hoje?
+- Numero de infectados em [Dhivehi Raajje]{"entity": "pt_country_code", "value": "MV"} hoje?
+- Numero de infectados no total em [Sri Lanka]{"entity": "pt_country_code", "value": "LK"} hoje?
+- Número de casos ativos em [Republic of Sierra Leone]{"entity": "pt_country_code", "value": "SL"}
+- Número de casos em [Aolepān Aorōkin Ṃajeḷ]{"entity": "pt_country_code", "value": "MH"}
+- Número de casos no total em [Sri Lanca]{"entity": "pt_country_code", "value": "LK"}
+- Número de infectados ativos em [Northern Ireland]{"entity": "pt_country_code", "value": "GB"}.
+- Número de infectados em [Sierra Leone]{"entity": "pt_country_code", "value": "SL"}.
+- Número de infectados no total em [Santa Lúcia]{"entity": "pt_country_code", "value": "LC"}.
+- Olá. Quantos infetados existem atualmente em [Saint-Martin]{"entity": "pt_country_code", "value": "MF"}?
+- Olá. Quantos infetados existem em [Cocos (Keeling) Islands]{"entity": "pt_country_code", "value": "CC"}?
+- Olá. Quantos infetados no total existem em [Republic of Senegal]{"entity": "pt_country_code", "value": "SN"}?
+- Olá. Quantos total de infetados existem em [República das Honduras]{"entity": "pt_country_code", "value": "HN"}?
+- Qual é o numero de infetados ativos com [covid]{"entity": "pt_virus", "value": "COVID"} em [Saba]{"entity": "pt_country_code", "value": "BQ"}?
+- Qual é o numero de infetados com [covid]{"entity": "pt_virus", "value": "COVID"} em [República do Uzbequistão]{"entity": "pt_country_code", "value": "UZ"}?
+- Qual é o numero de infetados no total com [covid]{"entity": "pt_virus", "value": "COVID"} em [Cypriot Republic]{"entity": "pt_country_code", "value": "CY"}?
+- Qual é o numero de total de infetados com [covid]{"entity": "pt_virus", "value": "COVID"} em [Iyonola]{"entity": "pt_country_code", "value": "LC"}?
+- Qual é o número de casos ativos em [Estado do Qatar]{"entity": "pt_country_code", "value": "QA"}?
+- Qual é o número de casos confirmados ativos em [Principality of Andorra]{"entity": "pt_country_code", "value": "AD"}?
+- Qual é o número de casos confirmados em [Irlanda do Norte]{"entity": "pt_country_code", "value": "GB"}?
+- Qual é o número de casos em [Maurício]{"entity": "pt_country_code", "value": "MU"}?
+- Qual é o número de casos no total confirmados em [Saint-Pierre e Miquelon]{"entity": "pt_country_code", "value": "PM"}?
+- Qual é o número de casos no total em [Taiwan, Province of China]{"entity": "pt_country_code", "value": "TW"}?
+- Qual é o número de infectados ativos em [República da Maurícia]{"entity": "pt_country_code", "value": "MU"}?
+- Qual é o número de infectados em [Estado da Líbia]{"entity": "pt_country_code", "value": "LY"}?
+- Qual é o número de infectados no total em [Dominican Republic]{"entity": "pt_country_code", "value": "DO"}?
+- Quantos casos ativos de [corrid] em [Nöörje]{"entity": "pt_country_code", "value": "NO"}
+- Quantos casos ativos em [Suriname]{"entity": "pt_country_code", "value": "SR"}?
+- Quantos casos ativos existem em [Faroe Islands]{"entity": "pt_country_code", "value": "FO"}
+- Quantos casos ativos há na [Jamhuuriyadda Federaalka Soomaaliya]{"entity": "pt_country_code", "value": "SO"}?
+- Quantos casos de [corrid] em [Canadá]{"entity": "pt_country_code", "value": "CA"}
+- Quantos casos de infetados ativos há em [Mann]{"entity": "pt_country_code", "value": "IM"}?
+- Quantos casos de infetados há em [Bosna i Hercegovina]{"entity": "pt_country_code", "value": "BA"}?
+- Quantos casos de infetados no total há em [Turks and Caicos Islands]{"entity": "pt_country_code", "value": "TC"}?
+- Quantos casos de total de infetados há em [Rephaboliki ya Afrika Borwa]{"entity": "pt_country_code", "value": "ZA"}?
+- Quantos casos em [Oman]{"entity": "pt_country_code", "value": "OM"}?
+- Quantos casos existem em [Benin]{"entity": "pt_country_code", "value": "BJ"}
+- Quantos casos há na [República da Estônia]{"entity": "pt_country_code", "value": "EE"}?
+- Quantos casos no total de corrid em [Ilha da Irlanda]{"entity": "pt_country_code", "value": "IE"}
+- Quantos casos no total em [República da Bulgária]{"entity": "pt_country_code", "value": "BG"}?
+- Quantos casos no total existem em [Naha ya Zimbabwe]{"entity": "pt_country_code", "value": "ZW"}
+- Quantos casos no total há na [Republic of Cyprus]{"entity": "pt_country_code", "value": "CY"}?
+- Quantos infectados ativos existem neste momento em [Togo]{"entity": "pt_country_code", "value": "TG"}?
+- Quantos infectados existem em [Republica do Afeganistão]{"entity": "pt_country_code", "value": "AF"}?
+- Quantos infectados existem neste momento em [Piruw Republika]{"entity": "pt_country_code", "value": "PE"}?
+- Quantos infetados ativos tem [Republic of the Sudan]{"entity": "pt_country_code", "value": "SD"}?
+- Quantos infetados ativos tem a [Cingapura]{"entity": "pt_country_code", "value": "SG"}?
+- Quantos infetados ativos tem o [Federated States of Micronesia]{"entity": "pt_country_code", "value": "FM"}?
+- Quantos infetados no total tem [Éire]{"entity": "pt_country_code", "value": "IE"}?
+- Quantos infetados no total tem a [RDC]{"entity": "pt_country_code", "value": "CD"}?
+- Quantos infetados no total tem o [República da Arménia]{"entity": "pt_country_code", "value": "AM"}?
+- Quantos infetados tem [Republic of South Sudan]{"entity": "pt_country_code", "value": "SS"}?
+- Quantos infetados tem a [Kingdom of Tonga]{"entity": "pt_country_code", "value": "TO"}?
+- Quantos infetados tem o [Ruanda]{"entity": "pt_country_code", "value": "RW"}?
+- Quantos total de infetados tem [as-Sūdān]{"entity": "pt_country_code", "value": "SD"}?
+- Quantos total de infetados tem a [Svalbard og Jan Mayen]{"entity": "pt_country_code", "value": "SJ"}?
+- Quantos total de infetados tem o [Slovenija]{"entity": "pt_country_code", "value": "SI)"}?
+- casos no total confirmados em [Japan]{"entity": "pt_country_code", "value": "JP"}
+- casos no total de [covid]{"entity": "pt_virus", "value": "COVID"} em [Bolívia]{"entity": "pt_country_code", "value": "BO"}
+- casos no total de [covid]{"entity": "pt_virus", "value": "COVID"} no [Al-ʾUrdunn]{"entity": "pt_country_code", "value": "JO"}
+- qual o numero de casos confirmados ativos em [Wallis e Futuna]{"entity": "pt_country_code", "value": "WF"}?
+- qual o numero de casos confirmados em [Barbuda]{"entity": "pt_country_code", "value": "AG"}?
+- qual o numero de casos no total confirmados em [Sultanate of Oman]{"entity": "pt_country_code", "value": "OM"}?
+- quantas pessoas em [Republic of Cabo Verde]{"entity": "pt_country_code", "value": "CV"} estao infetadas ?
+- quantas pessoas em [Guåhån]{"entity": "pt_country_code", "value": "GU"} estao infetadas atualmente?
+- quantas pessoas em [Éire]{"entity": "pt_country_code", "value": "IE"} estiveram infetadas ?
+- quantas pessoas em [República da Moldova]{"entity": "pt_country_code", "value": "MD"} tiveram covid ?
+- quantas pessoas em [Czechia]{"entity": "pt_country_code", "value": "CZ"} têm covid ?
+- quantas pessoas em [Uzbequistão]{"entity": "pt_country_code", "value": "UZ"} têm covid atualmente?
+- quantas pessoas estiveram infectadas em [Repubblica di San Marino]{"entity": "pt_country_code", "value": "SM"}
+- quantas pessoas estão infectadas atualmente em [Tunisie]{"entity": "pt_country_code", "value": "TN"}
+- quantas pessoas estão infectadas em [Mēxihco]{"entity": "pt_country_code", "value": "MX"}
+- quantos casos ativos de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [República das Maldivas]{"entity": "pt_country_code", "value": "MV"}?
+- quantos casos ativos há em [Ilha Bouvet]{"entity": "pt_country_code", "value": "BV"} no momento?
+- quantos casos ativos há no [Oʻzbekiston]{"entity": "pt_country_code", "value": "UZ"}?
+- quantos casos de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [Beluu er a Belau]{"entity": "pt_country_code", "value": "PW"}?
+- quantos casos há em [Reino da Jordânia]{"entity": "pt_country_code", "value": "JO"} no momento?
+- quantos casos há no [Република Србија]{"entity": "pt_country_code", "value": "RS"}?
+- quantos casos no total de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [República da Moldávia]{"entity": "pt_country_code", "value": "MD"}?
+- quantos casos no total há em [Republic of India]{"entity": "pt_country_code", "value": "IN"} no momento?
+- quantos casos no total há no [Macao]{"entity": "pt_country_code", "value": "MO"}?
 
 ## intent:pt_covid_situation_infected_critical
-- ASUS alarmantes de [covid](pt_virus:COVID) em [República Islâmica do Afeganistão](pt_country_code:AF)
-- ASUS alarmantes de [covid](pt_virus:COVID) no [Domínica](pt_country_code:DM)
-- ASUS criticos de [covid](pt_virus:COVID) em [Maurício](pt_country_code:MU)
-- ASUS criticos de [covid](pt_virus:COVID) no [República Federal do Brasil](pt_country_code:BR)
-- ASUS críticos de [covid](pt_virus:COVID) em [Republic of Argentina](pt_country_code:AR)
-- ASUS críticos de [covid](pt_virus:COVID) no [Republic of Maldives](pt_country_code:MV)
-- ASUS graves de [covid](pt_virus:COVID) em [Dawlat al-Kuwait](pt_country_code:KW)
-- ASUS graves de [covid](pt_virus:COVID) no [República Dominicana](pt_country_code:DO)
-- Casos alarmantes de [covid](pt_virus:COVID) em [Santa Helena, Ascensão e Tristão da Cunha](pt_country_code:SH)
-- Casos alarmantes de [covid](pt_virus:COVID) no [Pitcairn, Henderson, Ducie and Oeno Islands](pt_country_code:PN)
-- Casos confirmados alarmantes em [Congo Brazzaville](pt_country_code:CG)
-- Casos confirmados criticos em [Syria](pt_country_code:SY)
-- Casos confirmados críticos em [Baamas](pt_country_code:BS)
-- Casos confirmados graves em [Ilha Jarvis](pt_country_code:UM)
-- Casos criticos de [covid](pt_virus:COVID) em [Cisi ca Zambia](pt_country_code:ZM)
-- Casos criticos de [covid](pt_virus:COVID) no [Commonwealth of Australia](pt_country_code:AU)
-- Casos críticos de [covid](pt_virus:COVID) em [Niuē](pt_country_code:NU)
-- Casos críticos de [covid](pt_virus:COVID) no [Reino de España](pt_country_code:ES)
-- Casos graves de [covid](pt_virus:COVID) em [Antigua and Barbuda](pt_country_code:AG)
-- Casos graves de [covid](pt_virus:COVID) no [Norfolk Island](pt_country_code:NF)
-- Contagem infectada alarmante em [Sérvia](pt_country_code:RS)
-- Contagem infectada alarmante no [UK](pt_country_code:GB)
-- Contagem infectada critica em [Bailliage dé Jèrri](pt_country_code:JE)
-- Contagem infectada critica no [Norway](pt_country_code:NO)
-- Contagem infectada crítica em [Bonaire, Sint Eustatius and Saba](pt_country_code:BQ)
-- Contagem infectada crítica no [Slovenija](pt_country_code:SI)
-- Contagem infectados alarmantes em [República dos Camarões](pt_country_code:CM)
-- Contagem infectados alarmantes no [Rússia](pt_country_code:RU)
-- Contagem infectados criticos em [Gànnaar](pt_country_code:MR)
-- Contagem infectados criticos no [Kirghizia](pt_country_code:KG)
-- Contagem infectados críticos em [Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu](pt_country_code:LK)
-- Contagem infectados críticos no [Togo](pt_country_code:TG)
-- Contagem infectados graves em [Germany](pt_country_code:DE)
-- Contagem infectados graves no [South Korea](pt_country_code:KR)
-- Infetados alarmantes em [República Árabe do Egito](pt_country_code:EG)
-- Infetados criticos em [República Democrática de São Tomé e Príncipe](pt_country_code:ST)
-- Infetados críticos em [Estado Plurinacional de Bolivia](pt_country_code:BO)
-- Infetados graves em [Groenlândia](pt_country_code:GL)
-- Numero de infectados alarmantes em [Ruanda](pt_country_code:RW) hoje?
-- Numero de infectados criticos em [Islândia](pt_country_code:IS) hoje?
-- Numero de infectados críticos em [Mexican United States](pt_country_code:MX) hoje?
-- Numero de infectados graves em [Bailiado de Jersey](pt_country_code:JE) hoje?
-- Número de casos alarmantes em [Taiwan Area](pt_country_code:TW)
-- Número de casos criticos em [São Vicente e Granadinas](pt_country_code:VC)
-- Número de casos críticos em [Sao Tome and Principe](pt_country_code:ST)
-- Número de casos graves em [Kongeriket Noreg](pt_country_code:NO)
-- Número de infectados alarmantes em [Dominican Republic](pt_country_code:DO).
-- Número de infectados criticos em [Bangladexe](pt_country_code:BD).
-- Número de infectados críticos em [Jamhuri ya Rwanda](pt_country_code:RW).
-- Número de infectados graves em [Luxemburgo](pt_country_code:LU).
-- Olá. Quantos infetados alarmantes existem em [Piruw Suyu](pt_country_code:PE)?
-- Olá. Quantos infetados criticos existem em [Chosŏn](pt_country_code:KP)?
-- Olá. Quantos infetados críticos existem em [Federal Republic of Germany](pt_country_code:DE)?
-- Olá. Quantos infetados graves existem em [Chile](pt_country_code:CL)?
-- Qual é o numero de infetados alarmantes com [covid](pt_virus:COVID) em [Namhan](pt_country_code:KR)?
-- Qual é o numero de infetados criticos com [covid](pt_virus:COVID) em [Coletividade de São Bartolomeu](pt_country_code:BL)?
-- Qual é o numero de infetados críticos com [covid](pt_virus:COVID) em [Hellas](pt_country_code:GR)?
-- Qual é o numero de infetados graves com [covid](pt_virus:COVID) em [Território da Ilha Norfolque](pt_country_code:NF)?
-- Qual é o número de casos alarmantes em [Falklands](pt_country_code:FK)?
-- Qual é o número de casos confirmados alarmantes em [Ilha da Irlanda](pt_country_code:IE)?
-- Qual é o número de casos confirmados criticos em [Republic of North Macedonia](pt_country_code:MK)?
-- Qual é o número de casos confirmados críticos em [East Timor](pt_country_code:TL)?
-- Qual é o número de casos confirmados graves em [Ilhas Cocos Keeling](pt_country_code:CC)?
-- Qual é o número de casos criticos em [Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah](pt_country_code:JO)?
-- Qual é o número de casos críticos em [Argentina](pt_country_code:AR)?
-- Qual é o número de casos graves em [Reino do Lesoto](pt_country_code:LS)?
-- Qual é o número de infectados alarmantes em [United Arab Emirates](pt_country_code:AE)?
-- Qual é o número de infectados criticos em [Saint Helena](pt_country_code:SH)?
-- Qual é o número de infectados críticos em [Baker Island](pt_country_code:UM)?
-- Qual é o número de infectados graves em [República Federal da Nigéria](pt_country_code:NG)?
-- Quantos casos alarmantes de [corrid](pt_virus:COVID) em [Faroe Islands](pt_country_code:FO)
-- Quantos casos alarmantes em [Free Associated State of Puerto Rico](pt_country_code:PR)?
-- Quantos casos alarmantes existem em [Repubilika ya Kôngo ya Dimokalasi](pt_country_code:CD)
-- Quantos casos alarmantes há na [Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui](pt_country_code:MO)?
-- Quantos casos criticos de [corrid](pt_virus:COVID) em [TOM](pt_country_code:TF)
-- Quantos casos criticos em [Ilhas Cook](pt_country_code:CK)?
-- Quantos casos criticos existem em [Maore](pt_country_code:YT)
-- Quantos casos criticos há na [Danmark](pt_country_code:DK)?
-- Quantos casos críticos de [corrid](pt_virus:COVID) em [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah](pt_country_code:SY)
-- Quantos casos críticos em [Reino da Suécia](pt_country_code:SE)?
-- Quantos casos críticos existem em [Irão](pt_country_code:IR)
-- Quantos casos críticos há na [Cocos (Keeling) Islands](pt_country_code:CC)?
-- Quantos casos de infetados alarmantes há em [Udzima wa Komori](pt_country_code:KM)?
-- Quantos casos de infetados criticos há em [República do Botsuana](pt_country_code:BW)?
-- Quantos casos de infetados críticos há em [Republic of Maldives](pt_country_code:MV)?
-- Quantos casos de infetados graves há em [Taiwan, China](pt_country_code:TW)?
-- Quantos casos graves de corrid em [Ilha Aprazível](pt_country_code:NR)
-- Quantos casos graves em [Ilhas Malvinas](pt_country_code:FK)?
-- Quantos casos graves existem em [Druk Gyal Khap](pt_country_code:BT)
-- Quantos casos graves há na [Paraguái](pt_country_code:PY)?
-- Quantos infectados alarmantes existem neste momento em [Mali](pt_country_code:ML)?
-- Quantos infectados criticos existem neste momento em [South Georgia and the South Sandwich Islands](pt_country_code:GS)?
-- Quantos infectados críticos existem neste momento em [Киргизия](pt_country_code:KG)?
-- Quantos infectados graves existem neste momento em [Pleasant Island](pt_country_code:NR)?
-- Quantos infetados alarmantes tem [aṣ-Ṣūmāl](pt_country_code:SO)?
-- Quantos infetados alarmantes tem o [Emirates](pt_country_code:AE)?
-- Quantos infetados criticos tem [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà](pt_country_code:NG)?
-- Quantos infetados criticos tem o [Mauritanie](pt_country_code:MR)?
-- Quantos infetados críticos tem [Schweiz](pt_country_code:CH)?
-- Quantos infetados críticos tem o [Bonaire](pt_country_code:BQ)?
-- Quantos infetados graves tem [Republic of Suriname](pt_country_code:SR)?
-- Quantos infetados graves tem o [República da Estónia](pt_country_code:EE)?
-- qual o numero de casos confirmados alarmantes em [Wilayah Kepulauan Cocos Keeling](pt_country_code:CC)?
-- qual o numero de casos confirmados criticos em [Renndaandi Ginea](pt_country_code:GN)?
-- qual o numero de casos confirmados críticos em [Republic of Honduras](pt_country_code:HN)?
-- qual o numero de casos confirmados graves em [La Grenade](pt_country_code:GD)?
-- quantos casos alarmantes de [COVID-19](pt_virus:COVID) há em [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà](pt_country_code:NG)?
-- quantos casos alarmantes há em [Jamhuriyar Taraiyar Najeriya](pt_country_code:NG) no momento?
-- quantos casos alarmantes há no [Republic of Belarus](pt_country_code:BY)?
-- quantos casos criticos de [COVID-19](pt_virus:COVID) há em [Jamaica](pt_country_code:JM)?
-- quantos casos criticos há em [Portuguese Republic](pt_country_code:PT) no momento?
-- quantos casos criticos há no [Croácia](pt_country_code:HR)?
-- quantos casos críticos de [COVID-19](pt_virus:COVID) há em [Airlann](pt_country_code:IE)?
-- quantos casos críticos há em [Republic of Mozambique](pt_country_code:MZ) no momento?
-- quantos casos críticos há no [República das Seicheles ou Seychelles](pt_country_code:SC)?
-- quantos casos graves de [COVID-19](pt_virus:COVID) há em [República da Lituânia](pt_country_code:LT)?
-- quantos casos graves há em [Nouvelle-Calédonie](pt_country_code:NC) no momento?
-- quantos casos graves há no [Republik Namibia](pt_country_code:NA)?
+- ASUS alarmantes de [covid]{"entity": "pt_virus", "value": "COVID"} em [República Islâmica do Afeganistão]{"entity": "pt_country_code", "value": "AF"}
+- ASUS alarmantes de [covid]{"entity": "pt_virus", "value": "COVID"} no [Domínica]{"entity": "pt_country_code", "value": "DM"}
+- ASUS criticos de [covid]{"entity": "pt_virus", "value": "COVID"} em [Maurício]{"entity": "pt_country_code", "value": "MU"}
+- ASUS criticos de [covid]{"entity": "pt_virus", "value": "COVID"} no [República Federal do Brasil]{"entity": "pt_country_code", "value": "BR"}
+- ASUS críticos de [covid]{"entity": "pt_virus", "value": "COVID"} em [Republic of Argentina]{"entity": "pt_country_code", "value": "AR"}
+- ASUS críticos de [covid]{"entity": "pt_virus", "value": "COVID"} no [Republic of Maldives]{"entity": "pt_country_code", "value": "MV"}
+- ASUS graves de [covid]{"entity": "pt_virus", "value": "COVID"} em [Dawlat al-Kuwait]{"entity": "pt_country_code", "value": "KW"}
+- ASUS graves de [covid]{"entity": "pt_virus", "value": "COVID"} no [República Dominicana]{"entity": "pt_country_code", "value": "DO"}
+- Casos alarmantes de [covid]{"entity": "pt_virus", "value": "COVID"} em [Santa Helena, Ascensão e Tristão da Cunha]{"entity": "pt_country_code", "value": "SH"}
+- Casos alarmantes de [covid]{"entity": "pt_virus", "value": "COVID"} no [Pitcairn, Henderson, Ducie and Oeno Islands]{"entity": "pt_country_code", "value": "PN"}
+- Casos confirmados alarmantes em [Congo Brazzaville]{"entity": "pt_country_code", "value": "CG"}
+- Casos confirmados criticos em [Syria]{"entity": "pt_country_code", "value": "SY"}
+- Casos confirmados críticos em [Baamas]{"entity": "pt_country_code", "value": "BS"}
+- Casos confirmados graves em [Ilha Jarvis]{"entity": "pt_country_code", "value": "UM"}
+- Casos criticos de [covid]{"entity": "pt_virus", "value": "COVID"} em [Cisi ca Zambia]{"entity": "pt_country_code", "value": "ZM"}
+- Casos criticos de [covid]{"entity": "pt_virus", "value": "COVID"} no [Commonwealth of Australia]{"entity": "pt_country_code", "value": "AU"}
+- Casos críticos de [covid]{"entity": "pt_virus", "value": "COVID"} em [Niuē]{"entity": "pt_country_code", "value": "NU"}
+- Casos críticos de [covid]{"entity": "pt_virus", "value": "COVID"} no [Reino de España]{"entity": "pt_country_code", "value": "ES"}
+- Casos graves de [covid]{"entity": "pt_virus", "value": "COVID"} em [Antigua and Barbuda]{"entity": "pt_country_code", "value": "AG"}
+- Casos graves de [covid]{"entity": "pt_virus", "value": "COVID"} no [Norfolk Island]{"entity": "pt_country_code", "value": "NF"}
+- Contagem infectada alarmante em [Sérvia]{"entity": "pt_country_code", "value": "RS"}
+- Contagem infectada alarmante no [UK]{"entity": "pt_country_code", "value": "GB"}
+- Contagem infectada critica em [Bailliage dé Jèrri]{"entity": "pt_country_code", "value": "JE"}
+- Contagem infectada critica no [Norway]{"entity": "pt_country_code", "value": "NO"}
+- Contagem infectada crítica em [Bonaire, Sint Eustatius and Saba]{"entity": "pt_country_code", "value": "BQ"}
+- Contagem infectada crítica no [Slovenija]{"entity": "pt_country_code", "value": "SI)"}
+- Contagem infectados alarmantes em [República dos Camarões]{"entity": "pt_country_code", "value": "CM"}
+- Contagem infectados alarmantes no [Rússia]{"entity": "pt_country_code", "value": "RU"}
+- Contagem infectados criticos em [Gànnaar]{"entity": "pt_country_code", "value": "MR"}
+- Contagem infectados criticos no [Kirghizia]{"entity": "pt_country_code", "value": "KG"}
+- Contagem infectados críticos em [Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu]{"entity": "pt_country_code", "value": "LK"}
+- Contagem infectados críticos no [Togo]{"entity": "pt_country_code", "value": "TG"}
+- Contagem infectados graves em [Germany]{"entity": "pt_country_code", "value": "DE"}
+- Contagem infectados graves no [South Korea]{"entity": "pt_country_code", "value": "KR"}
+- Infetados alarmantes em [República Árabe do Egito]{"entity": "pt_country_code", "value": "EG"}
+- Infetados criticos em [República Democrática de São Tomé e Príncipe]{"entity": "pt_country_code", "value": "ST"}
+- Infetados críticos em [Estado Plurinacional de Bolivia]{"entity": "pt_country_code", "value": "BO"}
+- Infetados graves em [Groenlândia]{"entity": "pt_country_code", "value": "GL"}
+- Numero de infectados alarmantes em [Ruanda]{"entity": "pt_country_code", "value": "RW"} hoje?
+- Numero de infectados criticos em [Islândia]{"entity": "pt_country_code", "value": "IS"} hoje?
+- Numero de infectados críticos em [Mexican United States]{"entity": "pt_country_code", "value": "MX"} hoje?
+- Numero de infectados graves em [Bailiado de Jersey]{"entity": "pt_country_code", "value": "JE"} hoje?
+- Número de casos alarmantes em [Taiwan Area]{"entity": "pt_country_code", "value": "TW"}
+- Número de casos criticos em [São Vicente e Granadinas]{"entity": "pt_country_code", "value": "VC"}
+- Número de casos críticos em [Sao Tome and Principe]{"entity": "pt_country_code", "value": "ST"}
+- Número de casos graves em [Kongeriket Noreg]{"entity": "pt_country_code", "value": "NO"}
+- Número de infectados alarmantes em [Dominican Republic]{"entity": "pt_country_code", "value": "DO"}.
+- Número de infectados criticos em [Bangladexe]{"entity": "pt_country_code", "value": "BD"}.
+- Número de infectados críticos em [Jamhuri ya Rwanda]{"entity": "pt_country_code", "value": "RW"}.
+- Número de infectados graves em [Luxemburgo]{"entity": "pt_country_code", "value": "LU"}.
+- Olá. Quantos infetados alarmantes existem em [Piruw Suyu]{"entity": "pt_country_code", "value": "PE"}?
+- Olá. Quantos infetados criticos existem em [Chosŏn]{"entity": "pt_country_code", "value": "KP"}?
+- Olá. Quantos infetados críticos existem em [Federal Republic of Germany]{"entity": "pt_country_code", "value": "DE"}?
+- Olá. Quantos infetados graves existem em [Chile]{"entity": "pt_country_code", "value": "CL"}?
+- Qual é o numero de infetados alarmantes com [covid]{"entity": "pt_virus", "value": "COVID"} em [Namhan]{"entity": "pt_country_code", "value": "KR"}?
+- Qual é o numero de infetados criticos com [covid]{"entity": "pt_virus", "value": "COVID"} em [Coletividade de São Bartolomeu]{"entity": "pt_country_code", "value": "BL"}?
+- Qual é o numero de infetados críticos com [covid]{"entity": "pt_virus", "value": "COVID"} em [Hellas]{"entity": "pt_country_code", "value": "GR"}?
+- Qual é o numero de infetados graves com [covid]{"entity": "pt_virus", "value": "COVID"} em [Território da Ilha Norfolque]{"entity": "pt_country_code", "value": "NF"}?
+- Qual é o número de casos alarmantes em [Falklands]{"entity": "pt_country_code", "value": "FK"}?
+- Qual é o número de casos confirmados alarmantes em [Ilha da Irlanda]{"entity": "pt_country_code", "value": "IE"}?
+- Qual é o número de casos confirmados criticos em [Republic of North Macedonia]{"entity": "pt_country_code", "value": "MK"}?
+- Qual é o número de casos confirmados críticos em [East Timor]{"entity": "pt_country_code", "value": "TL"}?
+- Qual é o número de casos confirmados graves em [Ilhas Cocos Keeling]{"entity": "pt_country_code", "value": "CC"}?
+- Qual é o número de casos criticos em [Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah]{"entity": "pt_country_code", "value": "JO"}?
+- Qual é o número de casos críticos em [Argentina]{"entity": "pt_country_code", "value": "AR"}?
+- Qual é o número de casos graves em [Reino do Lesoto]{"entity": "pt_country_code", "value": "LS"}?
+- Qual é o número de infectados alarmantes em [United Arab Emirates]{"entity": "pt_country_code", "value": "AE"}?
+- Qual é o número de infectados criticos em [Saint Helena]{"entity": "pt_country_code", "value": "SH"}?
+- Qual é o número de infectados críticos em [Baker Island]{"entity": "pt_country_code", "value": "UM"}?
+- Qual é o número de infectados graves em [República Federal da Nigéria]{"entity": "pt_country_code", "value": "NG"}?
+- Quantos casos alarmantes de [corrid]{"entity": "pt_virus", "value": "COVID"} em [Faroe Islands]{"entity": "pt_country_code", "value": "FO"}
+- Quantos casos alarmantes em [Free Associated State of Puerto Rico]{"entity": "pt_country_code", "value": "PR"}?
+- Quantos casos alarmantes existem em [Repubilika ya Kôngo ya Dimokalasi]{"entity": "pt_country_code", "value": "CD"}
+- Quantos casos alarmantes há na [Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui]{"entity": "pt_country_code", "value": "MO"}?
+- Quantos casos criticos de [corrid]{"entity": "pt_virus", "value": "COVID"} em [TOM]{"entity": "pt_country_code", "value": "TF"}
+- Quantos casos criticos em [Ilhas Cook]{"entity": "pt_country_code", "value": "CK"}?
+- Quantos casos criticos existem em [Maore]{"entity": "pt_country_code", "value": "YT"}
+- Quantos casos criticos há na [Danmark]{"entity": "pt_country_code", "value": "DK"}?
+- Quantos casos críticos de [corrid]{"entity": "pt_virus", "value": "COVID"} em [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah]{"entity": "pt_country_code", "value": "SY"}
+- Quantos casos críticos em [Reino da Suécia]{"entity": "pt_country_code", "value": "SE"}?
+- Quantos casos críticos existem em [Irão]{"entity": "pt_country_code", "value": "IR"}
+- Quantos casos críticos há na [Cocos (Keeling) Islands]{"entity": "pt_country_code", "value": "CC"}?
+- Quantos casos de infetados alarmantes há em [Udzima wa Komori]{"entity": "pt_country_code", "value": "KM"}?
+- Quantos casos de infetados criticos há em [República do Botsuana]{"entity": "pt_country_code", "value": "BW"}?
+- Quantos casos de infetados críticos há em [Republic of Maldives]{"entity": "pt_country_code", "value": "MV"}?
+- Quantos casos de infetados graves há em [Taiwan, China]{"entity": "pt_country_code", "value": "TW"}?
+- Quantos casos graves de corrid em [Ilha Aprazível]{"entity": "pt_country_code", "value": "NR"}
+- Quantos casos graves em [Ilhas Malvinas]{"entity": "pt_country_code", "value": "FK"}?
+- Quantos casos graves existem em [Druk Gyal Khap]{"entity": "pt_country_code", "value": "BT"}
+- Quantos casos graves há na [Paraguái]{"entity": "pt_country_code", "value": "PY"}?
+- Quantos infectados alarmantes existem neste momento em [Mali]{"entity": "pt_country_code", "value": "ML"}?
+- Quantos infectados criticos existem neste momento em [South Georgia and the South Sandwich Islands]{"entity": "pt_country_code", "value": "GS"}?
+- Quantos infectados críticos existem neste momento em [Киргизия]{"entity": "pt_country_code", "value": "KG"}?
+- Quantos infectados graves existem neste momento em [Pleasant Island]{"entity": "pt_country_code", "value": "NR"}?
+- Quantos infetados alarmantes tem [aṣ-Ṣūmāl]{"entity": "pt_country_code", "value": "SO"}?
+- Quantos infetados alarmantes tem o [Emirates]{"entity": "pt_country_code", "value": "AE"}?
+- Quantos infetados criticos tem [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà]{"entity": "pt_country_code", "value": "NG"}?
+- Quantos infetados criticos tem o [Mauritanie]{"entity": "pt_country_code", "value": "MR"}?
+- Quantos infetados críticos tem [Schweiz]{"entity": "pt_country_code", "value": "CH"}?
+- Quantos infetados críticos tem o [Bonaire]{"entity": "pt_country_code", "value": "BQ"}?
+- Quantos infetados graves tem [Republic of Suriname]{"entity": "pt_country_code", "value": "SR"}?
+- Quantos infetados graves tem o [República da Estónia]{"entity": "pt_country_code", "value": "EE"}?
+- qual o numero de casos confirmados alarmantes em [Wilayah Kepulauan Cocos Keeling]{"entity": "pt_country_code", "value": "CC"}?
+- qual o numero de casos confirmados criticos em [Renndaandi Ginea]{"entity": "pt_country_code", "value": "GN"}?
+- qual o numero de casos confirmados críticos em [Republic of Honduras]{"entity": "pt_country_code", "value": "HN"}?
+- qual o numero de casos confirmados graves em [La Grenade]{"entity": "pt_country_code", "value": "GD"}?
+- quantos casos alarmantes de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà]{"entity": "pt_country_code", "value": "NG"}?
+- quantos casos alarmantes há em [Jamhuriyar Taraiyar Najeriya]{"entity": "pt_country_code", "value": "NG"} no momento?
+- quantos casos alarmantes há no [Republic of Belarus]{"entity": "pt_country_code", "value": "BY"}?
+- quantos casos criticos de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [Jamaica]{"entity": "pt_country_code", "value": "JM"}?
+- quantos casos criticos há em [Portuguese Republic]{"entity": "pt_country_code", "value": "PT"} no momento?
+- quantos casos criticos há no [Croácia]{"entity": "pt_country_code", "value": "HR"}?
+- quantos casos críticos de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [Airlann]{"entity": "pt_country_code", "value": "IE"}?
+- quantos casos críticos há em [Republic of Mozambique]{"entity": "pt_country_code", "value": "MZ"} no momento?
+- quantos casos críticos há no [República das Seicheles ou Seychelles]{"entity": "pt_country_code", "value": "SC"}?
+- quantos casos graves de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [República da Lituânia]{"entity": "pt_country_code", "value": "LT"}?
+- quantos casos graves há em [Nouvelle-Calédonie]{"entity": "pt_country_code", "value": "NC"} no momento?
+- quantos casos graves há no [Republik Namibia]{"entity": "pt_country_code", "value": "NA"}?
 
 ## intent:pt_covid_situation_last_update
-- Atualização de [Mozambique](pt_country_code:MZ).
-- Atualização de hoje de [Umoja wa Komori](pt_country_code:KM).
-- Atualização de hoje em [Reino da Tailândia](pt_country_code:TH).
-- Atualização em [Chipre](pt_country_code:CY).
-- Dados atualizados de [Alanda](pt_country_code:AX)?
-- Dados atualizados de infetados e mortes em [Egito](pt_country_code:EG)?
-- Dados atualizados em [República das Filipinas](pt_country_code:PH)?
-- Dados de hoje de casos em [America](pt_country_code:US).
-- Dados de hoje de infetados [Hashemite Kingdom of Jordan](pt_country_code:JO).
-- Dados de hoje de mortes [al-Mamlaka al-ʻArabiyya as-Suʻūdiyya](pt_country_code:SA).
-- Dados de hoje de novos casos em [Rossiya](pt_country_code:RU).
-- Dados de hoje de novos infetados [Croácia](pt_country_code:HR).
-- Dados de hoje de novos mortes [Tuvalu](pt_country_code:TV).
-- Dados de hoje em [República da Eslovénia](pt_country_code:SI).
-- Novos casos e mortes em [República da Indonésia](pt_country_code:ID)?
-- Novos casos em [Guinée équatoriale](pt_country_code:GQ)?
-- Quantas mais mortes em [Região Administrativa de Macau](pt_country_code:MO) no momento?
-- Quantos mais infetados em [Bailiado de Guernsey](pt_country_code:GG)?
-- Ultima atualização em [República de San Marino](pt_country_code:SM)
-- Última atualização de casos e mortes em [U.K.](pt_country_code:GB)?
-- Última atualização de casos em [El Salvador](pt_country_code:SV)?
-- Última atualização de infetados e mortes em [Republic of India](pt_country_code:IN)?
-- Última atualização de infetados em [Republic of the Niger](pt_country_code:NE)?
-- Última atualização de mortes em [Fiji](pt_country_code:FJ)?
-- Últimos dados de [Pérsia](pt_country_code:IR).
-- Últimos dados em [State of Kuwait](pt_country_code:KW).
-- Atualização de [Palaos](pt_country_code:PW).
-- Atualização de hoje de [Maurícia](pt_country_code:MU).
-- Atualização de hoje em [Zimbabué](pt_country_code:ZW).
-- Atualização em [Svalbard og Jan Mayen](pt_country_code:SJ).
-- Dados atualizados de [Sultanate of Oman](pt_country_code:OM)?
-- Dados atualizados de infetados e mortes em [French Southern Territories](pt_country_code:TF)?
-- Dados atualizados em [Shango ḽa Zimbabwe](pt_country_code:ZW)?
-- Dados de hoje de casos em [Países Baixos](pt_country_code:NL).
-- Dados de hoje de infetados [Táiwān shěng](pt_country_code:TW).
-- Dados de hoje de mortes [Ilha Esmeralda das Caraíbas](pt_country_code:MS).
-- Dados de hoje de novos casos em [República Oriental del Uruguay](pt_country_code:UY).
-- Dados de hoje de novos infetados [Reiaume d'Espanha](pt_country_code:ES).
-- Dados de hoje de novos mortes [Tobago](pt_country_code:TT).
-- Dados de hoje em [Italy](pt_country_code:IT).
-- Novos casos e mortes em [Congo-Brazzaville](pt_country_code:CG)?
-- Novos casos em [Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya](pt_country_code:ET)?
-- Quantas mais mortes em [São Marinho](pt_country_code:SM) no momento?
-- Quantos mais infetados em [Balgariya](pt_country_code:BG)?
-- Ultima atualização em [Luxemburgo](pt_country_code:LU)
-- Última atualização de casos e mortes em [Aotearoa](pt_country_code:NZ)?
-- Última atualização de casos em [Mexico](pt_country_code:MX)?
-- Última atualização de infetados e mortes em [Congo-Quinxassa](pt_country_code:CD)?
-- Última atualização de infetados em [Republic of Maldives](pt_country_code:MV)?
-- Última atualização de mortes em [United States Minor Outlying Islands](pt_country_code:UM)?
-- Últimos dados de [Aotearoa](pt_country_code:NZ).
-- Últimos dados em [Muso oa Lesotho](pt_country_code:LS).
+- Atualização de [Mozambique]{"entity": "pt_country_code", "value": "MZ"}.
+- Atualização de hoje de [Umoja wa Komori]{"entity": "pt_country_code", "value": "KM"}.
+- Atualização de hoje em [Reino da Tailândia]{"entity": "pt_country_code", "value": "TH"}.
+- Atualização em [Chipre]{"entity": "pt_country_code", "value": "CY"}.
+- Dados atualizados de [Alanda]{"entity": "pt_country_code", "value": "AX"}?
+- Dados atualizados de infetados e mortes em [Egito]{"entity": "pt_country_code", "value": "EG"}?
+- Dados atualizados em [República das Filipinas]{"entity": "pt_country_code", "value": "PH"}?
+- Dados de hoje de casos em [America]{"entity": "pt_country_code", "value": "US"}.
+- Dados de hoje de infetados [Hashemite Kingdom of Jordan]{"entity": "pt_country_code", "value": "JO"}.
+- Dados de hoje de mortes [al-Mamlaka al-ʻArabiyya as-Suʻūdiyya]{"entity": "pt_country_code", "value": "SA"}.
+- Dados de hoje de novos casos em [Rossiya]{"entity": "pt_country_code", "value": "RU"}.
+- Dados de hoje de novos infetados [Croácia]{"entity": "pt_country_code", "value": "HR"}.
+- Dados de hoje de novos mortes [Tuvalu]{"entity": "pt_country_code", "value": "TV"}.
+- Dados de hoje em [República da Eslovénia]{"entity": "pt_country_code", "value": "SI)"}.
+- Novos casos e mortes em [República da Indonésia]{"entity": "pt_country_code", "value": "ID"}?
+- Novos casos em [Guinée équatoriale]{"entity": "pt_country_code", "value": "GQ"}?
+- Quantas mais mortes em [Região Administrativa de Macau]{"entity": "pt_country_code", "value": "MO"} no momento?
+- Quantos mais infetados em [Bailiado de Guernsey]{"entity": "pt_country_code", "value": "GG"}?
+- Ultima atualização em [República de San Marino]{"entity": "pt_country_code", "value": "SM"}
+- Última atualização de casos e mortes em [U.K.]{"entity": "pt_country_code", "value": "GB"}?
+- Última atualização de casos em [El Salvador]{"entity": "pt_country_code", "value": "SV"}?
+- Última atualização de infetados e mortes em [Republic of India]{"entity": "pt_country_code", "value": "IN"}?
+- Última atualização de infetados em [Republic of the Niger]{"entity": "pt_country_code", "value": "NE"}?
+- Última atualização de mortes em [Fiji]{"entity": "pt_country_code", "value": "FJ"}?
+- Últimos dados de [Pérsia]{"entity": "pt_country_code", "value": "IR"}.
+- Últimos dados em [State of Kuwait]{"entity": "pt_country_code", "value": "KW"}.
+- Atualização de [Palaos]{"entity": "pt_country_code", "value": "PW"}.
+- Atualização de hoje de [Maurícia]{"entity": "pt_country_code", "value": "MU"}.
+- Atualização de hoje em [Zimbabué]{"entity": "pt_country_code", "value": "ZW"}.
+- Atualização em [Svalbard og Jan Mayen]{"entity": "pt_country_code", "value": "SJ"}.
+- Dados atualizados de [Sultanate of Oman]{"entity": "pt_country_code", "value": "OM"}?
+- Dados atualizados de infetados e mortes em [French Southern Territories]{"entity": "pt_country_code", "value": "TF"}?
+- Dados atualizados em [Shango ḽa Zimbabwe]{"entity": "pt_country_code", "value": "ZW"}?
+- Dados de hoje de casos em [Países Baixos]{"entity": "pt_country_code", "value": "NL"}.
+- Dados de hoje de infetados [Táiwān shěng]{"entity": "pt_country_code", "value": "TW"}.
+- Dados de hoje de mortes [Ilha Esmeralda das Caraíbas]{"entity": "pt_country_code", "value": "MS"}.
+- Dados de hoje de novos casos em [República Oriental del Uruguay]{"entity": "pt_country_code", "value": "UY"}.
+- Dados de hoje de novos infetados [Reiaume d'Espanha]{"entity": "pt_country_code", "value": "ES"}.
+- Dados de hoje de novos mortes [Tobago]{"entity": "pt_country_code", "value": "TT"}.
+- Dados de hoje em [Italy]{"entity": "pt_country_code", "value": "IT"}.
+- Novos casos e mortes em [Congo-Brazzaville]{"entity": "pt_country_code", "value": "CG"}?
+- Novos casos em [Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya]{"entity": "pt_country_code", "value": "ET"}?
+- Quantas mais mortes em [São Marinho]{"entity": "pt_country_code", "value": "SM"} no momento?
+- Quantos mais infetados em [Balgariya]{"entity": "pt_country_code", "value": "BG"}?
+- Ultima atualização em [Luxemburgo]{"entity": "pt_country_code", "value": "LU"}
+- Última atualização de casos e mortes em [Aotearoa]{"entity": "pt_country_code", "value": "NZ"}?
+- Última atualização de casos em [Mexico]{"entity": "pt_country_code", "value": "MX"}?
+- Última atualização de infetados e mortes em [Congo-Quinxassa]{"entity": "pt_country_code", "value": "CD"}?
+- Última atualização de infetados em [Republic of Maldives]{"entity": "pt_country_code", "value": "MV"}?
+- Última atualização de mortes em [United States Minor Outlying Islands]{"entity": "pt_country_code", "value": "UM"}?
+- Últimos dados de [Aotearoa]{"entity": "pt_country_code", "value": "NZ"}.
+- Últimos dados em [Muso oa Lesotho]{"entity": "pt_country_code", "value": "LS"}.
 - Fala sobre atualização de casos
 
 ## intent:pt_covid_situation_recovered
-- "[Pyidaunzu Thanmăda Myăma](pt_country_code:MM) recuperados."
-- "[Arab Republic of Egypt](pt_country_code:EG) recuperações."
-- Contagem recuperados em [République du Mali](pt_country_code:ML)
-- Contagem recuperados no [Ilhas Virgens dos Estados Unidos](pt_country_code:VI)
-- Contagem recuperações em [Midway Atoll](pt_country_code:UM)
-- Contagem recuperações no [Monserrate](pt_country_code:MS)
-- Numero de recuperados em [Territory of the Wallis and Futuna Islands](pt_country_code:WF) hoje?
-- Numero de recuperações em [São Marino](pt_country_code:SM) hoje?
-- Número de recuperados [The Democratic Republic of the Congo](pt_country_code:CD).
-- Número de recuperados em [British Indian Ocean Territory](pt_country_code:IO)
-- Número de recuperados em [Vuona gånågisrijkka](pt_country_code:NO).
-- Número de recuperações [Pitkern Ailen](pt_country_code:PN).
-- Número de recuperações em [Liechtenstein](pt_country_code:LI)
-- Número de recuperações em [Rossiya](pt_country_code:RU).
-- Número total de recuperados em [Confoederatio Helvetica](pt_country_code:CH).
-- Número total de recuperados em [Lesoto](pt_country_code:LS)?
-- Número total de recuperações em [Estado da Eritreia](pt_country_code:ER).
-- Número total de recuperações em [Tchade](pt_country_code:TD)?
-- Olá. Quantos recuperados existem em [Noreg](pt_country_code:NO)?
-- Olá. Quantos recuperações existem em [Republic of Kazakhstan](pt_country_code:KZ)?
-- Qual é o numero de recuperados com [covid](pt_virus:COVID) em [Reino de Espanha](pt_country_code:ES)?
-- Qual é o numero de recuperações com [covid](pt_virus:COVID) em [Bermuda](pt_country_code:BM)?
-- Qual é o número de recuperados em [Grão-Ducado do Luxemburgo](pt_country_code:LU)?
-- Qual é o número de recuperações em [Republic of Equatorial Guinea](pt_country_code:GQ)?
-- Quantos casos de recuperados há em [República da Coreia](pt_country_code:KR)?
-- Quantos casos de recuperações há em [Soomaaliya](pt_country_code:SO)?
-- Quantos recuperados existem neste momento em [Republic of Finland](pt_country_code:FI)?
-- Quantos recuperados tem [Chad](pt_country_code:TD)?
-- Quantos recuperados tem a [Sāmoa](pt_country_code:WS)?
-- Quantos recuperados tem o [Suomen tasavalta](pt_country_code:FI)?
-- Quantos recuperaram em [Norgga gonagasriika](pt_country_code:NO).
-- Quantos recuperações existem neste momento em [Hanguk](pt_country_code:KR)?
-- Quantos recuperações tem [Republic of Slovenia](pt_country_code:SI)?
-- Quantos recuperações tem a [Australia](pt_country_code:AU)?
-- Quantos recuperações tem o [República da Costa Rica](pt_country_code:CR)?
-- qual o numero de recuperados em [Federation of Saint Christopher and Nevis](pt_country_code:KN)?
-- qual o numero de recuperações em [Principauté de Monaco](pt_country_code:MC)?
-- quantas pessoas em [People's Republic of Bangladesh](pt_country_code:BD) recuperaram?
-- quantas pessoas recuperaram em [Países Baixos](pt_country_code:NL)?
-- recuperados de [ityoppiah federalih demokrasih ummuno](pt_country_code:ET)
-- recuperados em [Belarus](pt_country_code:BY).
-- recuperações de [België](pt_country_code:BE)
-- recuperações em [República de Madagascar](pt_country_code:MG).
+- "[Pyidaunzu Thanmăda Myăma]{"entity": "pt_country_code", "value": "MM"} recuperados."
+- "[Arab Republic of Egypt]{"entity": "pt_country_code", "value": "EG"} recuperações."
+- Contagem recuperados em [République du Mali]{"entity": "pt_country_code", "value": "ML"}
+- Contagem recuperados no [Ilhas Virgens dos Estados Unidos]{"entity": "pt_country_code", "value": "VI"}
+- Contagem recuperações em [Midway Atoll]{"entity": "pt_country_code", "value": "UM"}
+- Contagem recuperações no [Monserrate]{"entity": "pt_country_code", "value": "MS"}
+- Numero de recuperados em [Territory of the Wallis and Futuna Islands]{"entity": "pt_country_code", "value": "WF"} hoje?
+- Numero de recuperações em [São Marino]{"entity": "pt_country_code", "value": "SM"} hoje?
+- Número de recuperados [The Democratic Republic of the Congo]{"entity": "pt_country_code", "value": "CD"}.
+- Número de recuperados em [British Indian Ocean Territory]{"entity": "pt_country_code", "value": "IO"}
+- Número de recuperados em [Vuona gånågisrijkka]{"entity": "pt_country_code", "value": "NO"}.
+- Número de recuperações [Pitkern Ailen]{"entity": "pt_country_code", "value": "PN"}.
+- Número de recuperações em [Liechtenstein]{"entity": "pt_country_code", "value": "LI"}
+- Número de recuperações em [Rossiya]{"entity": "pt_country_code", "value": "RU"}.
+- Número total de recuperados em [Confoederatio Helvetica]{"entity": "pt_country_code", "value": "CH"}.
+- Número total de recuperados em [Lesoto]{"entity": "pt_country_code", "value": "LS"}?
+- Número total de recuperações em [Estado da Eritreia]{"entity": "pt_country_code", "value": "ER"}.
+- Número total de recuperações em [Tchade]{"entity": "pt_country_code", "value": "TD"}?
+- Olá. Quantos recuperados existem em [Noreg]{"entity": "pt_country_code", "value": "NO"}?
+- Olá. Quantos recuperações existem em [Republic of Kazakhstan]{"entity": "pt_country_code", "value": "KZ"}?
+- Qual é o numero de recuperados com [covid]{"entity": "pt_virus", "value": "COVID"} em [Reino de Espanha]{"entity": "pt_country_code", "value": "ES"}?
+- Qual é o numero de recuperações com [covid]{"entity": "pt_virus", "value": "COVID"} em [Bermuda]{"entity": "pt_country_code", "value": "BM"}?
+- Qual é o número de recuperados em [Grão-Ducado do Luxemburgo]{"entity": "pt_country_code", "value": "LU"}?
+- Qual é o número de recuperações em [Republic of Equatorial Guinea]{"entity": "pt_country_code", "value": "GQ"}?
+- Quantos casos de recuperados há em [República da Coreia]{"entity": "pt_country_code", "value": "KR"}?
+- Quantos casos de recuperações há em [Soomaaliya]{"entity": "pt_country_code", "value": "SO"}?
+- Quantos recuperados existem neste momento em [Republic of Finland]{"entity": "pt_country_code", "value": "FI"}?
+- Quantos recuperados tem [Chad]{"entity": "pt_country_code", "value": "TD"}?
+- Quantos recuperados tem a [Sāmoa]{"entity": "pt_country_code", "value": "WS"}?
+- Quantos recuperados tem o [Suomen tasavalta]{"entity": "pt_country_code", "value": "FI"}?
+- Quantos recuperaram em [Norgga gonagasriika]{"entity": "pt_country_code", "value": "NO"}.
+- Quantos recuperações existem neste momento em [Hanguk]{"entity": "pt_country_code", "value": "KR"}?
+- Quantos recuperações tem [Republic of Slovenia]{"entity": "pt_country_code", "value": "SI)"}?
+- Quantos recuperações tem a [Australia]{"entity": "pt_country_code", "value": "AU"}?
+- Quantos recuperações tem o [República da Costa Rica]{"entity": "pt_country_code", "value": "CR"}?
+- qual o numero de recuperados em [Federation of Saint Christopher and Nevis]{"entity": "pt_country_code", "value": "KN"}?
+- qual o numero de recuperações em [Principauté de Monaco]{"entity": "pt_country_code", "value": "MC"}?
+- quantas pessoas em [People's Republic of Bangladesh]{"entity": "pt_country_code", "value": "BD"} recuperaram?
+- quantas pessoas recuperaram em [Países Baixos]{"entity": "pt_country_code", "value": "NL"}?
+- recuperados de [ityoppiah federalih demokrasih ummuno]{"entity": "pt_country_code", "value": "ET"}
+- recuperados em [Belarus]{"entity": "pt_country_code", "value": "BY"}.
+- recuperações de [België]{"entity": "pt_country_code", "value": "BE"}
+- recuperações em [República de Madagascar]{"entity": "pt_country_code", "value": "MG"}.
 
 ## intent:pt_covid_situation_tested
-- "[Ilha Esmeralda](pt_country_code:IE) testados."
-- "[Saṅghīya Lokatāntrik Gaṇatantra Nepāl](pt_country_code:NP) testes."
-- Contagem testados em [Republic of Liberia](pt_country_code:LR)
-- Contagem testados no [Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà](pt_country_code:NG)
-- Contagem testes em [Beluu er a Belau](pt_country_code:PW)
-- Contagem testes no [Repubblica di San Marino](pt_country_code:SM)
-- Numero de testados em [Macau](pt_country_code:MO) hoje?
-- Numero de testes em [South Sudan](pt_country_code:SS) hoje?
-- Número de testados [República da Guiné Equatorial](pt_country_code:GQ).
-- Número de testados em [Ilhas Cocos Keeling](pt_country_code:CC)
-- Número de testados em [Republic of Panama](pt_country_code:PA).
-- Número de testes [Costa do Marfim](pt_country_code:CI).
-- Número de testes em [República da Índia](pt_country_code:IN)
-- Número de testes em [Bhārat Gaṇarājya](pt_country_code:IN).
-- Número total de testados em [Ilhas Bermudas](pt_country_code:BM).
-- Número total de testados em [República Popular Democrática da Coreia](pt_country_code:KP)?
-- Número total de testes em [Áustria](pt_country_code:AT).
-- Número total de testes em [iRiphabhuliki yaseNingizimu Afrika](pt_country_code:ZA)?
-- Olá. Quantos testados existem em [Malawi](pt_country_code:MW)?
-- Olá. Quantos testes existem em [São Tomé e Príncipe](pt_country_code:ST)?
-- Qual é o numero de testados com [covid](pt_virus:COVID) em [Czech Republic](pt_country_code:CZ)?
-- Qual é o numero de testes com [covid](pt_virus:COVID) em [Belgique](pt_country_code:BE)?
-- Qual é o número de testados em [Republika Bǎlgarija](pt_country_code:BG)?
-- Qual é o número de testes em [Taiwan, China](pt_country_code:TW)?
-- Quantos casos de testados há em [Mauritania](pt_country_code:MR)?
-- Quantos casos de testes há em [Commonwealth of the Northern Mariana Islands](pt_country_code:MP)?
-- Quantos foram testados em [République togolaise](pt_country_code:TG).
-- Quantos testados existem neste momento em [Amerika Sāmoa](pt_country_code:AS)?
-- Quantos testados tem [Groussherzogtum Lëtzebuerg](pt_country_code:LU)?
-- Quantos testados tem a [Ayiti](pt_country_code:HT)?
-- Quantos testados tem o [Departamento de Maiote](pt_country_code:YT)?
-- Quantos testes existem neste momento em [Keeling Islands](pt_country_code:CC)?
-- Quantos testes tem [República de Moçambique](pt_country_code:MZ)?
-- Quantos testes tem a [Republic of Equatorial Guinea](pt_country_code:GQ)?
-- Quantos testes tem o [Táiwān shěng](pt_country_code:TW)?
-- qual o numero de testados em [Schwiiz](pt_country_code:CH)?
-- qual o numero de testes em [Grupo de Ilhas Pitcairn](pt_country_code:PN)?
-- quantas pessoas em [Turcomênia](pt_country_code:TM) foram testadas?
-- quantas pessoas foram testadas em [TOM](pt_country_code:TF)?
-- testados de [Mexico](pt_country_code:MX)
-- testados em [Republic of Cabo Verde](pt_country_code:CV).
-- testes de [República da África Central](pt_country_code:CF)
-- testes em [Hong Kong](pt_country_code:HK).
+- "[Ilha Esmeralda]{"entity": "pt_country_code", "value": "IE"} testados."
+- "[Saṅghīya Lokatāntrik Gaṇatantra Nepāl]{"entity": "pt_country_code", "value": "NP"} testes."
+- Contagem testados em [Republic of Liberia]{"entity": "pt_country_code", "value": "LR"}
+- Contagem testados no [Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà]{"entity": "pt_country_code", "value": "NG"}
+- Contagem testes em [Beluu er a Belau]{"entity": "pt_country_code", "value": "PW"}
+- Contagem testes no [Repubblica di San Marino]{"entity": "pt_country_code", "value": "SM"}
+- Numero de testados em [Macau]{"entity": "pt_country_code", "value": "MO"} hoje?
+- Numero de testes em [South Sudan]{"entity": "pt_country_code", "value": "SS"} hoje?
+- Número de testados [República da Guiné Equatorial]{"entity": "pt_country_code", "value": "GQ"}.
+- Número de testados em [Ilhas Cocos Keeling]{"entity": "pt_country_code", "value": "CC"}
+- Número de testados em [Republic of Panama]{"entity": "pt_country_code", "value": "PA"}.
+- Número de testes [Costa do Marfim]{"entity": "pt_country_code", "value": "CI"}.
+- Número de testes em [República da Índia]{"entity": "pt_country_code", "value": "IN"}
+- Número de testes em [Bhārat Gaṇarājya]{"entity": "pt_country_code", "value": "IN"}.
+- Número total de testados em [Ilhas Bermudas]{"entity": "pt_country_code", "value": "BM"}.
+- Número total de testados em [República Popular Democrática da Coreia]{"entity": "pt_country_code", "value": "KP"}?
+- Número total de testes em [Áustria]{"entity": "pt_country_code", "value": "AT"}.
+- Número total de testes em [iRiphabhuliki yaseNingizimu Afrika]{"entity": "pt_country_code", "value": "ZA"}?
+- Olá. Quantos testados existem em [Malawi]{"entity": "pt_country_code", "value": "MW"}?
+- Olá. Quantos testes existem em [São Tomé e Príncipe]{"entity": "pt_country_code", "value": "ST"}?
+- Qual é o numero de testados com [covid]{"entity": "pt_virus", "value": "COVID"} em [Czech Republic]{"entity": "pt_country_code", "value": "CZ"}?
+- Qual é o numero de testes com [covid]{"entity": "pt_virus", "value": "COVID"} em [Belgique]{"entity": "pt_country_code", "value": "BE"}?
+- Qual é o número de testados em [Republika Bǎlgarija]{"entity": "pt_country_code", "value": "BG"}?
+- Qual é o número de testes em [Taiwan, China]{"entity": "pt_country_code", "value": "TW"}?
+- Quantos casos de testados há em [Mauritania]{"entity": "pt_country_code", "value": "MR"}?
+- Quantos casos de testes há em [Commonwealth of the Northern Mariana Islands]{"entity": "pt_country_code", "value": "MP"}?
+- Quantos foram testados em [République togolaise]{"entity": "pt_country_code", "value": "TG"}.
+- Quantos testados existem neste momento em [Amerika Sāmoa]{"entity": "pt_country_code", "value": "AS"}?
+- Quantos testados tem [Groussherzogtum Lëtzebuerg]{"entity": "pt_country_code", "value": "LU"}?
+- Quantos testados tem a [Ayiti]{"entity": "pt_country_code", "value": "HT"}?
+- Quantos testados tem o [Departamento de Maiote]{"entity": "pt_country_code", "value": "YT"}?
+- Quantos testes existem neste momento em [Keeling Islands]{"entity": "pt_country_code", "value": "CC"}?
+- Quantos testes tem [República de Moçambique]{"entity": "pt_country_code", "value": "MZ"}?
+- Quantos testes tem a [Republic of Equatorial Guinea]{"entity": "pt_country_code", "value": "GQ"}?
+- Quantos testes tem o [Táiwān shěng]{"entity": "pt_country_code", "value": "TW"}?
+- qual o numero de testados em [Schwiiz]{"entity": "pt_country_code", "value": "CH"}?
+- qual o numero de testes em [Grupo de Ilhas Pitcairn]{"entity": "pt_country_code", "value": "PN"}?
+- quantas pessoas em [Turcomênia]{"entity": "pt_country_code", "value": "TM"} foram testadas?
+- quantas pessoas foram testadas em [TOM]{"entity": "pt_country_code", "value": "TF"}?
+- testados de [Mexico]{"entity": "pt_country_code", "value": "MX"}
+- testados em [Republic of Cabo Verde]{"entity": "pt_country_code", "value": "CV"}.
+- testes de [República da África Central]{"entity": "pt_country_code", "value": "CF"}
+- testes em [Hong Kong]{"entity": "pt_country_code", "value": "HK"}.
 - Quantos testes foram realizados até à data?   
 
 ## intent:pt_covid_surfaces
-- [coronavírus](pt_virus:COVID) persiste por quanto tempo nas superfícies?
-- Durabilidade [SARS-Cov-2](pt_virus:COVID) em superfícies.
-- Durabilidade do [SARS-Cov-2](pt_virus:COVID) em superfícies.
-- Durabilidade do [coronavírus](pt_virus:COVID) em superfícies.
-- Durabilidade do [novo coronavírus](pt_virus:COVID) em superfícies.
-- Durabilidade do [vírus](pt_virus:COVID) em superfícies.
+- [coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste por quanto tempo nas superfícies?
+- Durabilidade [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Durabilidade do [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Durabilidade do [coronavírus]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Durabilidade do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Durabilidade do [vírus]{"entity": "pt_virus", "value": "COVID"} em superfícies.
 - E no papel quanto tempo leva a se tornar inactivo
-- Intervalo temporal de existência do [vírus](pt_virus:COVID) nas superfícies?
-- Nova durabilidade do [coronavírus](pt_virus:COVID) em superfícies.
-- Novas superfícies de durabilidade para [coronavírus](pt_virus:COVID).
-- Novas superfícies de sobrevivência ao [coronavírus](pt_virus:COVID).
-- Periodo de durabilidade do [coronavírus](pt_virus:COVID) em superfícies.
-- Periodo de existência do [vírus](pt_virus:COVID) em superfícies.
-- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) persiste em superfícies?
-- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) pode exisitir em superfícies?
-- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) pode persistir em superfícies?
-- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) pode sobreviver em superfícies?
-- Por quanto tempo o [SARS-Cov-2](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) persiste nas superfícies?
-- Por quanto tempo o [coronavírus](pt_virus:COVID) persiste em superfícies?
-- Por quanto tempo o [coronavírus](pt_virus:COVID) persiste nas superfícies?
-- Por quanto tempo o [coronavírus](pt_virus:COVID) pode sobreviver em superfícies?
-- Por quanto tempo o [coronavírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) persiste nas superfícies?
-- Por quanto tempo o [novo coronavírus](pt_virus:COVID) persiste nas superfícies?
-- Por quanto tempo o [novo coronavírus](pt_virus:COVID) pode persistir em superfícies?
-- Por quanto tempo o [novo coronavírus](pt_virus:COVID) pode sobreviver em superfícies?
-- Por quanto tempo o [novo coronavírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) persiste nas
+- Intervalo temporal de existência do [vírus]{"entity": "pt_virus", "value": "COVID"} nas superfícies?
+- Nova durabilidade do [coronavírus]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Novas superfícies de durabilidade para [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Novas superfícies de sobrevivência ao [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Periodo de durabilidade do [coronavírus]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Periodo de existência do [vírus]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Por quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} persiste em superfícies?
+- Por quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} pode exisitir em superfícies?
+- Por quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} pode persistir em superfícies?
+- Por quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Por quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Por quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste em superfícies?
+- Por quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Por quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Por quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} pode persistir em superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} persiste nas
   superfícies?
-- Por quanto tempo o [novo coronavírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) sobrevive em
+- Por quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} sobrevive em
   superfícies?
-- Por quanto tempo o [vírus](pt_virus:COVID) persiste em superfícies?
-- Por quanto tempo o [vírus](pt_virus:COVID) pode persistir em superfícies?
-- Por quanto tempo o [vírus](pt_virus:COVID) pode sobreviver em superfícies?
-- Por quanto tempo o [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) persiste nas superfícies?
-- Por quanto tempo o [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) sobrevive em superfícies?
-- Por quanto tempo o [vírus](pt_virus:COVID) se mantem nas superfícies?
-- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) existe em superfícies?
-- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) persiste nas superfícies?
-- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) pode sobreviver em superfícies?
-- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) sobrevive em superfícies?
-- Quanto tempo o [SARS-Cov-2](pt_virus:COVID) sobrevive em superfícies?
-- Quanto tempo o [coronavírus](pt_virus:COVID) pode sobreviver em superfícies?
-- Quanto tempo o [coronavírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) sobrevive em superfícies?
-- Quanto tempo o [coronavírus](pt_virus:COVID) sobrevive em superfícies?
-- Quanto tempo o [novo coronavírus](pt_virus:COVID) pode sobreviver em superfícies?
-- Quanto tempo o [novo coronavírus](pt_virus:COVID) sobrevive em superfícies?
-- Quanto tempo o [novo coronavírus](pt_virus:COVID) sobrevive nas superfícies?
-- Quanto tempo o [virus](pt_virus:COVID) se mantem vivo em objetos?
-- Quanto tempo o [vírus](pt_virus:COVID) pode sobreviver em superfícies?
-- Quanto tempo o [vírus](pt_virus:COVID) sobrevive em superfícies?
+- Por quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} persiste em superfícies?
+- Por quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} pode persistir em superfícies?
+- Por quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Por quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Por quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Por quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} se mantem nas superfícies?
+- Quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} existe em superfícies?
+- Quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} sobrevive nas superfícies?
+- Quanto tempo o [virus]{"entity": "pt_virus", "value": "COVID"} se mantem vivo em objetos?
+- Quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
 - Sobrevivência em superfícies.
-- Superfícies de durabilidade [SARS-Cov-2](pt_virus:COVID).
-- Superfícies de durabilidade do [vírus](pt_virus:COVID).
-- Superfícies de durabilidade para [coronavírus](pt_virus:COVID).
-- Superfícies de sobrevivência [SARS-Cov-2](pt_virus:COVID).
-- Superfícies de sobrevivência ao [coronavírus](pt_virus:COVID).
-- Superfícies de sobrevivência de [vírus](pt_virus:COVID).
-- Tempo que o [coronavírus](pt_virus:COVID) persiste nas superfícies?
-- Tempo que o [novo coronavírus](pt_virus:COVID) persiste nas superfícies?
-- [coronavírus](pt_virus:COVID) persiste nas superfícies?
-- [coronavírus](pt_virus:COVID) pode sobreviver por quanto tempo em superfícies?
-- gostaria de saber o tempo que leva o [Covid 19](pt_virus:COVID) a tornar-se inativo nas
+- Superfícies de durabilidade [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Superfícies de durabilidade do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Superfícies de durabilidade para [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Superfícies de sobrevivência [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Superfícies de sobrevivência ao [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Superfícies de sobrevivência de [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Tempo que o [coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Tempo que o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- [coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- [coronavírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver por quanto tempo em superfícies?
+- gostaria de saber o tempo que leva o [Covid 19]{"entity": "pt_virus", "value": "COVID"} a tornar-se inativo nas
   diferentes superficies
-- gostaria de saber o tempo que leva o [Covid 19](pt_virus:COVID) a tornar-se inativo nas
+- gostaria de saber o tempo que leva o [Covid 19]{"entity": "pt_virus", "value": "COVID"} a tornar-se inativo nas
   diferentes superficies e na nossa pele também
-- o [coronavírus](pt_virus:COVID) sobrevive em superfícies por quanto tempo?
-- o [novo coronavírus](pt_virus:COVID) persiste nas superfícies por quanto tempo?
-- se andar de elevador depois de uma pessoa infetada apanho [virus](pt_virus:COVID)?
-- tempo de persistência do [novo coronavírus](pt_virus:COVID) em superfícies?
-- tempo médio de sobrevivência do [vírus](pt_virus:COVID) em superfícies?
-- é verdade que o [coronavírus](pt_virus:COVID) pode ficar vários dias em superficies metálicas?
-- Durante quanto tempo pode o [vírus](pt_virus:COVID) sobreviver fora do corpo humano?
+- o [coronavírus]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies por quanto tempo?
+- o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies por quanto tempo?
+- se andar de elevador depois de uma pessoa infetada apanho [virus]{"entity": "pt_virus", "value": "COVID"}?
+- tempo de persistência do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} em superfícies?
+- tempo médio de sobrevivência do [vírus]{"entity": "pt_virus", "value": "COVID"} em superfícies?
+- é verdade que o [coronavírus]{"entity": "pt_virus", "value": "COVID"} pode ficar vários dias em superficies metálicas?
+- Durante quanto tempo pode o [vírus]{"entity": "pt_virus", "value": "COVID"} sobreviver fora do corpo humano?
 
 ## intent:pt_covid_symptoms
 - 37 de febre é sintoma?
@@ -3786,11 +3786,11 @@
 - Gostaria de ver quais são os sintomas
 - Informações sobre os sintomas.
 - Olá Quais são os sintomas
-- Os sintomas da [doença](pt_virus:COVID).
+- Os sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
 - Os sintomas da infecção.
-- Os sintomas de [COVID-19](pt_virus:COVID).
+- Os sintomas de [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Os sintomas.
-- Podes descrever a [doença](pt_virus:COVID)?
+- Podes descrever a [doença]{"entity": "pt_virus", "value": "COVID"}?
 - Quais is sintomas?
 - Quais os principais sintomas?
 - Quais os sintomas de quem está infetado
@@ -3800,84 +3800,84 @@
 - Quais podem ser sinais de infecção?
 - Quais podem ser sintomas de infecção?
 - Quais sintomas aparecem?
-- Quais sintomas estão relacionados com a [doença](pt_virus:COVID)?
+- Quais sintomas estão relacionados com a [doença]{"entity": "pt_virus", "value": "COVID"}?
 - Quais sintomas estão relacionados com a infecção?
-- Quais sintomas estão relacionados com o [COVID-19](pt_virus:COVID)?
+- Quais sintomas estão relacionados com o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Quais são os possiveis sinais de infecção?
 - Quais são os possivéis sintomas da infecção?
-- Quais são os sintomas da [covid](pt_virus:COVID)?
-- Quais são os sintomas da [doença](pt_virus:COVID)?
+- Quais são os sintomas da [covid]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são os sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}?
 - Quais são os sintomas da infecção?
-- Quais são os sintomas do [COVID-19](pt_virus:COVID)?
-- Quais são os sintomas relacionados à [doença](pt_virus:COVID)?
+- Quais são os sintomas do [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são os sintomas relacionados à [doença]{"entity": "pt_virus", "value": "COVID"}?
 - Quais são os sintomas relacionados à infecção?
 - Quais são os sintomas?
 - Qual é a sintomatologia de infecção?
 - Que sintomas da infecção existem?
-- Que sintomas são experienciados com [COVID-19](pt_virus:COVID)?
+- Que sintomas são experienciados com [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Que sintomas são frequentes?
-- Quem pega o [vírus](pt_virus:COVID) desenvolve quais sintomas?
+- Quem pega o [vírus]{"entity": "pt_virus", "value": "COVID"} desenvolve quais sintomas?
 - Sinais de infecção.
 - Sinal de infecção.
 - Sintomas
-- Sintomas da [doença](pt_virus:COVID)?
+- Sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}?
 - Sintomas da infecção?
 - Sintomatologia
 - Sobre os sintomas.
 - Tenho tosse, estarei infectado?
-- Ter febre é sintoma de [covid](pt_virus:COVID)?
-- Tipo de sintomas do [COVID-19](pt_virus:COVID)?
+- Ter febre é sintoma de [covid]{"entity": "pt_virus", "value": "COVID"}?
+- Tipo de sintomas do [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Tosse é sintoma?
 - Tudo bem. Fala-me sobre os sintomas.
 - quais os sintomas
 - quais sintomas
 - qual é o principal sintoma?
-- queria saber se posso estar infetado com [COVID-19](pt_virus:COVID)
-- sintomas associados à [doença](pt_virus:COVID)
+- queria saber se posso estar infetado com [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- sintomas associados à [doença]{"entity": "pt_virus", "value": "COVID"}
 - Dores de cabeça tambem sao sintimaa?
 
 ## intent:pt_covid_worry
 - Preocupação com o surto
-- A [doença](pt_virus:COVID) deve me deixar preocupado?
-- Como proceder sobre preocupações com a [doença](pt_virus:COVID).
+- A [doença]{"entity": "pt_virus", "value": "COVID"} deve me deixar preocupado?
+- Como proceder sobre preocupações com a [doença]{"entity": "pt_virus", "value": "COVID"}.
 - Como proceder sobre preocupações com o surto.
-- Como proceder sobre preocupações com o [vírus](pt_virus:COVID).
+- Como proceder sobre preocupações com o [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - Deverei estar preocupado com o surto?
-- Devo estar preocupado com o [vírus](pt_virus:COVID)?
-- Devo me preocupar com [COVID-19](pt_virus:COVID)?
-- Devo me preocupar com a [doença](pt_virus:COVID)?
+- Devo estar preocupado com o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Devo me preocupar com [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Devo me preocupar com a [doença]{"entity": "pt_virus", "value": "COVID"}?
 - Devo me preocupar com o surto?
-- Devo me preocupar com o [vírus](pt_virus:COVID)?
-- E se eu pegar o [vírus](pt_virus:COVID)?
-- Este [vírus](pt_virus:COVID) deve me deixar preocupada.
+- Devo me preocupar com o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- E se eu pegar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Este [vírus]{"entity": "pt_virus", "value": "COVID"} deve me deixar preocupada.
 - Estou afligida com o surto.
-- Estou angustiada com a [doença](pt_virus:COVID).
+- Estou angustiada com a [doença]{"entity": "pt_virus", "value": "COVID"}.
 - Estou preocupada
-- Estou preocupado com a [doença](pt_virus:COVID).
+- Estou preocupado com a [doença]{"entity": "pt_virus", "value": "COVID"}.
 - Estou preocupado com o surto.
-- Estou preocupado com o [vírus](pt_virus:COVID).
+- Estou preocupado com o [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - Estou preocupado.
 - Eu tenho medo.
-- O [COVID-19](pt_virus:COVID) deve me deixar preocupado?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} deve me deixar preocupado?
 - O que fazer para canalizar a preocupação?
 - O que fazer para canalizar as preocupações?
 - O que fazer para canalizar o medo?
-- O [vírus](pt_virus:COVID) é grave?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} é grave?
 - Quais as fontes fidedignas de informação?
 - Sofro de ansiedade por causa do surto.
-- Tenho medo de pegar o [vírus](pt_virus:COVID).
-- Tenho medo do [vírus](pt_virus:COVID).
+- Tenho medo de pegar o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Tenho medo do [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - complicada esta situação.
 - empatia
 
 ## intent:pt_covid_pregnancy
 - As mulheres grávidas são mais suscetíveis à infeção ou têm maior risco de
-  doenças graves, morbidade ou mortalidade com o [COVID-19](pt_virus:COVID), em comparação com o
+  doenças graves, morbidade ou mortalidade com o [COVID-19]{"entity": "pt_virus", "value": "COVID"}, em comparação com o
   público em geral?
 - As mulheres grávidas são mais suscetíveis à infeção?
 - Estou grávida, devo estar preocupada?
-- Gravidez e [covid](pt_virus:COVID)
-- Mulheres grávidas e [covid](pt_virus:COVID)
+- Gravidez e [covid]{"entity": "pt_virus", "value": "COVID"}
+- Mulheres grávidas e [covid]{"entity": "pt_virus", "value": "COVID"}
 - complicações na gravidez
 
 ## intent:pt_features_date
@@ -4353,21 +4353,21 @@
 - Usando uma máscara.
 
 ## intent:pt_myth_alcohol
-- A pulverização de cloro em todo o corpo pode matar o [novo coronavírus](pt_virus:COVID)?
-- A pulverização de álcool em todo o corpo mata o [vírus](pt_virus:COVID).
-- A pulverização de álcool em todo o corpo pode matar o [novo coronavírus](pt_virus:COVID)?
+- A pulverização de cloro em todo o corpo pode matar o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- A pulverização de álcool em todo o corpo mata o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- A pulverização de álcool em todo o corpo pode matar o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
 - Devo por cloro em todo o corpo.
 - Pulverização de cloro.
 - Usar álcool em todo o corpo.
 - cloro em todo o corpo.
 - se eu me cobrir de álcool
-- se eu me cobrir de álcool, o [vírus](pt_virus:COVID) sairá
+- se eu me cobrir de álcool, o [vírus]{"entity": "pt_virus", "value": "COVID"} sairá
 - Álcool em spray.
 - Álcool em todo o corpo.
 - Alcóol eficácia 
 
 ## intent:pt_myth_packages
-- Pacotes com [vírus](pt_virus:COVID).
+- Pacotes com [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - Pacotes de países infectados.
 - Pacotes de áreas infectadas.
 - Pacotes infectados.
@@ -4377,13 +4377,13 @@
 - cartas de países infectados.
 - letras infectadas.
 - posso receber uma carta de uma área infectada?
-- É seguro receber um pacote de qualquer área em que o [COVID-19](pt_virus:COVID) tenha sido relatado?
-- É seguro receber uma carta de qualquer área em que o [COVID-19](pt_virus:COVID) tenha sido relatado?
+- É seguro receber um pacote de qualquer área em que o [COVID-19]{"entity": "pt_virus", "value": "COVID"} tenha sido relatado?
+- É seguro receber uma carta de qualquer área em que o [COVID-19]{"entity": "pt_virus", "value": "COVID"} tenha sido relatado?
 - posso receber encomendas?
 
 ## intent:pt_myth_transmission_hot_areas
-- O [COVID-19](pt_virus:COVID) enfraquece em alta temperatura?
-- O clima quente vai parar o surto de [COVID-19](pt_virus:COVID)?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} enfraquece em alta temperatura?
+- O clima quente vai parar o surto de [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 
 ## intent:pt_patient_home
 - Alguns intfetados não são internados?
@@ -4416,30 +4416,30 @@
 - Sou estrangeiro e estou doente.
 
 ## intent:pt_portugal_ill_no_covid
-- Estou a precisar de um médico, mas não tenho [covid](pt_virus:COVID).
+- Estou a precisar de um médico, mas não tenho [covid]{"entity": "pt_virus", "value": "COVID"}.
 - Os utentes devem contactar o SNS24 diretamente?
 - Os utentes devem contactar os CSP diretamente ou apenas através do SNS24?
 - Os utentes devem contactar os CSP diretamente?
-- Os utentes sem suspeita de [COVID-19](pt_virus:COVID) devem contactar quem?
-- Quem devem contactar os utentes sem suspeita de [COVID-19](pt_virus:COVID)?
+- Os utentes sem suspeita de [COVID-19]{"entity": "pt_virus", "value": "COVID"} devem contactar quem?
+- Quem devem contactar os utentes sem suspeita de [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 
 ## intent:pt_portugal_rates
-- Qual é a percentagem de casos de [doença](pt_virus:COVID) grave por [COVID-19](pt_virus:COVID)?
-- Qual é a percentagem de casos de [doença](pt_virus:COVID) grave?
-- Qual é a percentagem de casos de [doença](pt_virus:COVID) ligeira e grave por [COVID-19](pt_virus:COVID)?
-- Qual é a percentagem de casos de [doença](pt_virus:COVID) ligeira e grave?
-- Qual é a percentagem de casos de [doença](pt_virus:COVID) ligeira por [COVID-19](pt_virus:COVID)?
-- Qual é a percentagem de casos de [doença](pt_virus:COVID) ligeira?
+- Qual é a percentagem de casos de [doença]{"entity": "pt_virus", "value": "COVID"} grave por [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual é a percentagem de casos de [doença]{"entity": "pt_virus", "value": "COVID"} grave?
+- Qual é a percentagem de casos de [doença]{"entity": "pt_virus", "value": "COVID"} ligeira e grave por [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual é a percentagem de casos de [doença]{"entity": "pt_virus", "value": "COVID"} ligeira e grave?
+- Qual é a percentagem de casos de [doença]{"entity": "pt_virus", "value": "COVID"} ligeira por [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual é a percentagem de casos de [doença]{"entity": "pt_virus", "value": "COVID"} ligeira?
 
 ## intent:pt_prevention_clean_hands
-- A limpeza das mãos impedirá a captura do [vírus](pt_virus:COVID)?
-- A limpeza das mãos impedirá a infecção da [doença](pt_virus:COVID)?
+- A limpeza das mãos impedirá a captura do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- A limpeza das mãos impedirá a infecção da [doença]{"entity": "pt_virus", "value": "COVID"}?
 - Importância da limpeza das mãos.
 - Importância de lavar as mãos.
 - Importância de ter as mãos limpas.
 - Lavando as mãos
-- Lavar as mãos evita que a [doença](pt_virus:COVID) se manifeste?
-- Lavar as mãos impedirá a captura do [vírus](pt_virus:COVID)?
+- Lavar as mãos evita que a [doença]{"entity": "pt_virus", "value": "COVID"} se manifeste?
+- Lavar as mãos impedirá a captura do [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Lavar minhas mãos com sabão reduzirá minhas chances de ser infectado?
 - Lave as mãos
 - Limpando as mãos
@@ -4503,37 +4503,37 @@
 
 ## intent:pt_prevention_food
 - O que devo fazer à fruta que comprei no supermercado?
-- O [vírus](pt_virus:COVID) transmite-se pela comida?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} transmite-se pela comida?
 - Que cuidados devo ter na preparação e confeção de alimentos?
 - É seguro trazer as compras para casa?
 
 ## intent:pt_prevention_general
 - Como evitar o contágio
 - Como evitar?
-- Como me devo proteger do [COVID19](pt_virus:COVID)?
+- Como me devo proteger do [COVID19]{"entity": "pt_virus", "value": "COVID"}?
 - Como me devo proteger?
 - Como posso evitar
 - Como posso evitar o contágio?
 - Como posso prevenir o contágio?
-- Como posso previnir o [covid](pt_virus:COVID)?
-- Como reduzir as chances de propagação da [doença](pt_virus:COVID)?
-- Como reduzir as chances de propagação do [vírus](pt_virus:COVID)?
+- Como posso previnir o [covid]{"entity": "pt_virus", "value": "COVID"}?
+- Como reduzir as chances de propagação da [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Como reduzir as chances de propagação do [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Como reduzir as chances de ser infectado?
-- Como é que eu poderei evitar ser contaminado com este novo [coronavirus](pt_virus:COVID)
-- Como é que eu poderei evitar ser contaminado com este novo [coronavirus](pt_virus:COVID) Agora
+- Como é que eu poderei evitar ser contaminado com este novo [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Como é que eu poderei evitar ser contaminado com este novo [coronavirus]{"entity": "pt_virus", "value": "COVID"} Agora
   que o mundo está assim um caos
-- Como é que eu poderei evitar ser contaminado com este novo [virus](pt_virus:COVID)
+- Como é que eu poderei evitar ser contaminado com este novo [virus]{"entity": "pt_virus", "value": "COVID"}
 - Medidas de proteção necessárias.
-- Medidas de proteção para prevenir a [doença](pt_virus:COVID).
+- Medidas de proteção para prevenir a [doença]{"entity": "pt_virus", "value": "COVID"}.
 - Medidas de proteção.
 - Medidas preventivas a usar.
-- Medidas preventivas para proteger contra [vírus](pt_virus:COVID).
+- Medidas preventivas para proteger contra [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - Medidas preventivas.
 - Muito bem. Obrigada. Que sabes sobre as medidas preventivas?
-- O que fazer para evitar a propagação da [doença](pt_virus:COVID)?
-- O que fazer para me proteger do [vírus](pt_virus:COVID)?
-- O que fazer para se proteger do [vírus](pt_virus:COVID)?
-- O que posso fazer para impedir a propagação da [doença](pt_virus:COVID)?
+- O que fazer para evitar a propagação da [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O que fazer para me proteger do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O que fazer para se proteger do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O que posso fazer para impedir a propagação da [doença]{"entity": "pt_virus", "value": "COVID"}?
 - O que posso fazer para me proteger e impedir a propagação de doenças?
 - O que posso fazer para me proteger?
 - Olá Helena! Que sabes sobre os métodos de prevenção?
@@ -4545,18 +4545,18 @@
 - Proteção de infecção.
 - Quais precauções devem ser tomadas?
 - Quais são as medidas preventivas?
-- Quais são os seus conselhos relacionados com [COVID-19](pt_virus:COVID)
+- Quais são os seus conselhos relacionados com [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - Que medidas posso tomar?
 - Que sabes sobre os métodos de prevenção?
-- Quero saber como prevenir a [doença](pt_virus:COVID)
+- Quero saber como prevenir a [doença]{"entity": "pt_virus", "value": "COVID"}
 - como ajudar
-- como posso lutar contra [COVID-19](pt_virus:COVID)
+- como posso lutar contra [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - diz-me o que devo fazer para evitar a propagaçao
-- diz-me o que devo fazer para evitar a propagaçao do [corona virus](pt_virus:COVID)
+- diz-me o que devo fazer para evitar a propagaçao do [corona virus]{"entity": "pt_virus", "value": "COVID"}
 - medidas
 - medidas de prevenção
-- o que devo fazer para evitar a propagaçao do [corona virus](pt_virus:COVID)
-- quais são os conselhos para combater a [COVID-19](pt_virus:COVID)
+- o que devo fazer para evitar a propagaçao do [corona virus]{"entity": "pt_virus", "value": "COVID"}
+- quais são os conselhos para combater a [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - quais são seus conselhos?
 - que medidas preventivas se devem tomar
 - vamos ajudar
@@ -4592,11 +4592,11 @@
 - Se tiver febre o que faço?
 - Será aconselhável ficar em casa?
 - Será melhor ficar em casa se me sentir mal?
-- Sinto sintomas leves de [doença](pt_virus:COVID), devo ficar em casa?
+- Sinto sintomas leves de [doença]{"entity": "pt_virus", "value": "COVID"}, devo ficar em casa?
 - Sinto-me um pouco doente, devo ficar em casa?
 - Sinto-me um pouco doente, fico em casa?
 - Tenho febre
-- Tenho sintomas leves de [doença](pt_virus:COVID), devo ficar em casa?
+- Tenho sintomas leves de [doença]{"entity": "pt_virus", "value": "COVID"}, devo ficar em casa?
 - Tenho sintomas ligeiros, devo ficar em casa?
 - We tiver febre o que faço?
 - febre
@@ -4604,27 +4604,27 @@
 - tenho dores no corpo mas não tenho febre
 
 ## intent:pt_prevention_informed
-- Acreditas que nem todas as notícias sobre a [COVID-19](pt_virus:COVID) são verídicas?
+- Acreditas que nem todas as notícias sobre a [COVID-19]{"entity": "pt_virus", "value": "COVID"} são verídicas?
 - Devo acompanhar as notícias regularmente?
-- Devo acompanhar as notícias relacionadas à [doença](pt_virus:COVID)?
-- Devo acompanhar as notícias sobre o [vírus](pt_virus:COVID)?
+- Devo acompanhar as notícias relacionadas à [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Devo acompanhar as notícias sobre o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Devo acompanhar as notícias?
-- Devo acompanhar regularmente as notícias sobre o [vírus](pt_virus:COVID)?
-- Devo ficar ciente das informações mais recentes sobre o surto de [COVID-19](pt_virus:COVID)?
+- Devo acompanhar regularmente as notícias sobre o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Devo ficar ciente das informações mais recentes sobre o surto de [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Devo me manter informado regularmente?
 - Devo me manter informado?
-- Devo seguir as notícias relacionadas ao [COVID-19](pt_virus:COVID)?
-- Devo seguir as notícias relacionadas ao [vírus](pt_virus:COVID)?
+- Devo seguir as notícias relacionadas ao [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Devo seguir as notícias relacionadas ao [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Devo verificar regularmente as últimas notícias?
 - Mantenha-se atualizado.
 - Mantenha-se informado.
 - Mitos
-- Podes falar sobre alguns mitos relacionados com a [COVID-19](pt_virus:COVID)?
-- Por que devo acompanhar as notícias relacionadas ao [COVID-19](pt_virus:COVID)?
-- Por que devo acompanhar as notícias relacionadas ao [vírus](pt_virus:COVID)?
-- Por que devo acompanhar as notícias relacionadas à [doença](pt_virus:COVID)?
+- Podes falar sobre alguns mitos relacionados com a [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Por que devo acompanhar as notícias relacionadas ao [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Por que devo acompanhar as notícias relacionadas ao [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Por que devo acompanhar as notícias relacionadas à [doença]{"entity": "pt_virus", "value": "COVID"}?
 - Por que devo estar ciente das informações mais recentes sobre o surto de
-  [COVID-19](pt_virus:COVID)?
+  [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Por que devo verificar regularmente as últimas notícias?
 - Por que é importante acompanhar as notícias?
 - Por que é importante manter-se informado?
@@ -4633,23 +4633,23 @@
 - É importante manter-se informado?
 
 ## intent:pt_prevention_measures
-- A automedicação é eficaz contra o [COVID-19](pt_virus:COVID)?
-- A automedicação, como antibióticos, é eficaz contra o [COVID-19](pt_virus:COVID)?
-- Devo fumar para evitar o [COVID-2019](pt_virus:COVID)?
-- Devo tomar automedicação para prevenir [COVID-19](pt_virus:COVID)?
-- Devo tomar automedicação, como antibióticos, para prevenir o [COVID-19](pt_virus:COVID)?
-- Devo tomar remédios tradicionais à base de plantas para evitar o [COVID-2019](pt_virus:COVID)?
-- Devo usar várias máscaras para evitar [COVID-19](pt_virus:COVID)?
+- A automedicação é eficaz contra o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- A automedicação, como antibióticos, é eficaz contra o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Devo fumar para evitar o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- Devo tomar automedicação para prevenir [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Devo tomar automedicação, como antibióticos, para prevenir o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Devo tomar remédios tradicionais à base de plantas para evitar o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- Devo usar várias máscaras para evitar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Existe algo que eu não deva fazer?
-- Existem medidas não eficazes contra o [COVID-19](pt_virus:COVID)?
-- Existem medidas que não são eficazes contra o [COVID-19](pt_virus:COVID)?
+- Existem medidas não eficazes contra o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existem medidas que não são eficazes contra o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Medidas não efetivas.
 - Medidas não eficazes.
-- O fumo é eficaz contra o [COVID-2019](pt_virus:COVID)?
-- O uso de várias máscaras é eficaz contra o [COVID-2019](pt_virus:COVID)?
-- Que medidas não são eficazes contra o [COVID-19](pt_virus:COVID)?
-- Tomar remédios tradicionais à base de plantas é eficaz contra o [COVID-2019](pt_virus:COVID)?
-- o que não devo fazer para me proteger contra o [vírus](pt_virus:COVID)?
+- O fumo é eficaz contra o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- O uso de várias máscaras é eficaz contra o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- Que medidas não são eficazes contra o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Tomar remédios tradicionais à base de plantas é eficaz contra o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- o que não devo fazer para me proteger contra o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - o que não devo fazer?
 
 ## intent:pt_prevention_medical_attention
@@ -4685,12 +4685,12 @@
 - Estou com febre.
 - Estou com tosse.
 - Estou infectado, o que devo fazer?
-- Eu tenho o [vírus](pt_virus:COVID)?
+- Eu tenho o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Minha temperatura está acima de 38 graus, devo me preocupar?
 - Minha temperatura está acima de 38 graus.
 - Minha temperatura está acima de 39 graus. Devo me preocupar?
-- Não sei o que fazer se tiver o [vírus](pt_virus:COVID).
-- Não sei se tenho o [vírus](pt_virus:COVID).
+- Não sei o que fazer se tiver o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Não sei se tenho o [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - O que devo fazer se tiver sintomas?
 - O que fazer em caso de dificuldade em respirar?
 - O que fazer em caso de febre, tosse e dificuldade em respirar?
@@ -4719,69 +4719,69 @@
 - sou grupo de risco e estou com sintomas
 
 ## intent:pt_prevention_medicine
-- Acreditas que poderá existir cura para o [vírus](pt_virus:COVID)?
+- Acreditas que poderá existir cura para o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - De que formas podem ser tratados os sintomas?
-- Existe algum medicamento para tratar [COVID-19](pt_virus:COVID)?
+- Existe algum medicamento para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Existe algum medicamento?
-- Existe tratamento para [COVID-19](pt_virus:COVID)?
-- Existe um medicamento para [COVID-19](pt_virus:COVID)?
-- Existe um medicamento para o [COVID-19](pt_virus:COVID)?
-- Existe um medicamento para tratar [COVID-19](pt_virus:COVID)?
+- Existe tratamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe um medicamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe um medicamento para o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe um medicamento para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Existe um medicamento?
 - Existe um tratamento?
-- Existe uma vacina para [COVID-19](pt_virus:COVID)?
-- Existe uma vacina para tratar [COVID-19](pt_virus:COVID)?
-- Existe uma vacina, medicamento ou tratamento para o [COVID-19](pt_virus:COVID)?
+- Existe uma vacina para [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe uma vacina para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe uma vacina, medicamento ou tratamento para o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Existe uma vacina, medicamento ou tratamento?
 - Existe vacina ?
-- Existe vacina para o [vírus](pt_virus:COVID)?
-- Existem medicamentos para [COVID-19](pt_virus:COVID).
-- Há algum medicamento para [COVID-19](pt_virus:COVID).
-- Há disponibilidade de medicamentos para tratar [COVID-19](pt_virus:COVID).
-- Informação de medicamento para tratar [COVID-19](pt_virus:COVID).
+- Existe vacina para o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Existem medicamentos para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Há algum medicamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Há disponibilidade de medicamentos para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Informação de medicamento para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Mas como tratar os sintomas?
-- Posso tomar aspirina para [covid](pt_virus:COVID)?
+- Posso tomar aspirina para [covid]{"entity": "pt_virus", "value": "COVID"}?
 - Posso tomar aspirina?
 - Qual é a cura?
 - Quando chega a vacina?
 - Relativamente à vacina? Ouve se dizer que já se descobriu o fármaco que
-  consegue destruir o [COVID-19](pt_virus:COVID) em 48 horas... é verdade?
+  consegue destruir o [COVID-19]{"entity": "pt_virus", "value": "COVID"} em 48 horas... é verdade?
 - Sobre drogas.
-- Sobre medicamentos para [COVID-19](pt_virus:COVID).
-- Sobre medicamentos para tratar [COVID-19](pt_virus:COVID).
+- Sobre medicamentos para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre medicamentos para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Sobre medicamentos.
-- Sobre o tratamento para [COVID-19](pt_virus:COVID).
+- Sobre o tratamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Sobre o tratamento.
-- Sobre um medicamento para [COVID-19](pt_virus:COVID).
-- Sobre um medicamento para tratar [COVID-19](pt_virus:COVID).
+- Sobre um medicamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre um medicamento para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Sobre um medicamento.
-- Sobre um tratamento para [COVID-19](pt_virus:COVID).
+- Sobre um tratamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Sobre um tratamento.
 - Sobre uma droga.
-- Sobre uma vacina para [COVID-19](pt_virus:COVID).
-- Sobre uma vacina para tratar [COVID-19](pt_virus:COVID).
-- Sobre uma vacina, medicamento ou tratamento para [COVID-19](pt_virus:COVID).
+- Sobre uma vacina para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre uma vacina para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre uma vacina, medicamento ou tratamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Sobre uma vacina, medicamento ou tratamento.
 - Sobre uma vacina.
-- Sobre vacinas para [COVID-19](pt_virus:COVID).
-- Sobre vacinas para tratar [COVID-19](pt_virus:COVID).
-- Sobre vacinas, medicamentos ou tratamentos para [COVID-19](pt_virus:COVID).
+- Sobre vacinas para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre vacinas para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre vacinas, medicamentos ou tratamentos para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Sobre vacinas, medicamentos ou tratamentos.
 - Sobre vacinas.
 - Tratamento por vacina?
 - Tudo bem. Mas como tratar os sintomas?
 - Vacina
-- como curar esta [doença](pt_virus:COVID)?
+- como curar esta [doença]{"entity": "pt_virus", "value": "COVID"}?
 - como está o tratamento
 - como tratar os sintomas?
 - existe uma vacina?
-- existem medicamentos para prevenir a [doença](pt_virus:COVID)?
-- existem vacinas para prevenir a [doença](pt_virus:COVID)?
-- já existe vacina para o [virus](pt_virus:COVID)?
+- existem medicamentos para prevenir a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- existem vacinas para prevenir a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- já existe vacina para o [virus]{"entity": "pt_virus", "value": "COVID"}?
 - medicação
 - para quando um tratamento ?
 - remédio
-- vacina [COVID-19](pt_virus:COVID)
+- vacina [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - vacina disponivel?
 
 ## intent:pt_prevention_respiratory_hygiene
@@ -4948,21 +4948,21 @@
 - world health organization
 
 ## intent:pt_spread_air
-- Dizem que o [Covid 19](pt_virus:COVID) se transmite pelo ar é verdade?
+- Dizem que o [Covid 19]{"entity": "pt_virus", "value": "COVID"} se transmite pelo ar é verdade?
 - Então e o bicho transmite-se pelo ar?
 - Espalhando pelo ar.
-- O [vírus](pt_virus:COVID) está espalhado pelo ar?
-- O [vírus](pt_virus:COVID) pode se espalhar pelo ar?
-- O [vírus](pt_virus:COVID) pode ser propagado pelo ar?
-- O [vírus](pt_virus:COVID) pode ser transmitido pelo ar?
-- O [vírus](pt_virus:COVID) que causa a disseminação do [COVID-19](pt_virus:COVID) pelo ar?
-- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) pode se espalhar pelo ar?
-- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) pode ser propagado pelo ar?
-- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) pode ser transmitido pelo ar?
-- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) é propagado pelo ar?
-- O [vírus](pt_virus:COVID) que causa o [COVID-19](pt_virus:COVID) é transmitido pelo ar?
-- O [vírus](pt_virus:COVID) é propagado pelo ar?
-- O [vírus](pt_virus:COVID) é transmitido pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} está espalhado pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode se espalhar pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser propagado pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a disseminação do [COVID-19]{"entity": "pt_virus", "value": "COVID"} pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode se espalhar pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser propagado pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é propagado pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é transmitido pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} é propagado pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} é transmitido pelo ar?
 - Pode ser espalhado pelo ar?
 - Pode ser propagado pelo ar?
 - Pode ser transmitido por via aérea?
@@ -4972,306 +4972,306 @@
 - Transmissão aérea.
 - Transmissão por via aérea.
 - Transmite-se pelo ar?
-- É possível a propagação do [vírus](pt_virus:COVID) pelo ar?
+- É possível a propagação do [vírus]{"entity": "pt_virus", "value": "COVID"} pelo ar?
 - É possível espalhar por via aérea?
-- É possível que o [vírus](pt_virus:COVID) seja espalhado pelo ar?
-- É possível que o [vírus](pt_virus:COVID) seja passado por via aérea?
-- É possível que o [vírus](pt_virus:COVID) seja propagado pelo ar?
-- É possível que o [vírus](pt_virus:COVID) seja transmitido por via aérea?
+- É possível que o [vírus]{"entity": "pt_virus", "value": "COVID"} seja espalhado pelo ar?
+- É possível que o [vírus]{"entity": "pt_virus", "value": "COVID"} seja passado por via aérea?
+- É possível que o [vírus]{"entity": "pt_virus", "value": "COVID"} seja propagado pelo ar?
+- É possível que o [vírus]{"entity": "pt_virus", "value": "COVID"} seja transmitido por via aérea?
 - É possível ser enviado pelo ar?
 - É possível ser espalhado por via aérea?
 - É possível ser propagado pelo ar?
 - É possível ser transmitido por via aérea?
 - É possível transferir por via aérea?
 - É possível transmitir por via aérea?
-- é verdade que o [coronavirus](pt_virus:COVID) se transmite através do ar?
+- é verdade que o [coronavirus]{"entity": "pt_virus", "value": "COVID"} se transmite através do ar?
 
 ## intent:pt_spread_animals
 - Animal
-- Os animais podem espalhar [COVID-19](pt_virus:COVID) aos seres humanos?
-- Os animais podem espalhar [COVID-19](pt_virus:COVID)?
-- Os animais podem espalhar o [vírus](pt_virus:COVID) para os seres humanos?
-- Os animais podem espalhar o [vírus](pt_virus:COVID)?
+- Os animais podem espalhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} aos seres humanos?
+- Os animais podem espalhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Os animais podem espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"} para os seres humanos?
+- Os animais podem espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Os animais podem me infectar?
-- Os seres humanos podem se infectar com o [COVID-19](pt_virus:COVID) de uma fonte animal?
-- Os seres humanos podem se infectar com o [vírus](pt_virus:COVID) de animais?
-- Os seres humanos podem ser infectados com o [COVID-19](pt_virus:COVID) a partir de fontes
+- Os seres humanos podem se infectar com o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma fonte animal?
+- Os seres humanos podem se infectar com o [vírus]{"entity": "pt_virus", "value": "COVID"} de animais?
+- Os seres humanos podem ser infectados com o [COVID-19]{"entity": "pt_virus", "value": "COVID"} a partir de fontes
   animais?
-- Os seres humanos podem ser infectados com o [COVID-19](pt_virus:COVID) de animais?
-- Os seres humanos podem ser infectados com o [COVID-19](pt_virus:COVID) de um animal?
-- Os seres humanos podem ser infectados com o [vírus](pt_virus:COVID) da fonte de animais?
-- Os seres humanos podem ser infectados com o [vírus](pt_virus:COVID) de um animal?
-- Os seres humanos podem ser infectados com o [vírus](pt_virus:COVID) de uma fonte animal?
-- Posso estar infectado com [COVID-19](pt_virus:COVID) de um animal?
-- Posso estar infectado com o [vírus](pt_virus:COVID) de animais?
-- Posso estar infectado com o [vírus](pt_virus:COVID) de um animal?
-- Posso pegar o [COVID-19](pt_virus:COVID) da fonte de animais?
-- Posso pegar o [COVID-19](pt_virus:COVID) de animais?
-- Posso pegar o [COVID-19](pt_virus:COVID) de um animal?
-- Posso pegar o [COVID-19](pt_virus:COVID) de uma fonte animal?
-- Posso pegar o [vírus](pt_virus:COVID) da fonte de animais?
-- Posso pegar o [vírus](pt_virus:COVID) de animais?
-- Posso pegar o [vírus](pt_virus:COVID) de um animal?
-- Posso pegar o [vírus](pt_virus:COVID) de uma fonte animal?
-- Posso ser infectado com [COVID-19](pt_virus:COVID) de animais?
-- Um animal pode espalhar [COVID-19](pt_virus:COVID)?
-- Um animal pode espalhar o [COVID-19](pt_virus:COVID) para humanos?
-- Um animal pode espalhar o [vírus](pt_virus:COVID) para os seres humanos?
-- Um animal pode espalhar o [vírus](pt_virus:COVID)?
+- Os seres humanos podem ser infectados com o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de animais?
+- Os seres humanos podem ser infectados com o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de um animal?
+- Os seres humanos podem ser infectados com o [vírus]{"entity": "pt_virus", "value": "COVID"} da fonte de animais?
+- Os seres humanos podem ser infectados com o [vírus]{"entity": "pt_virus", "value": "COVID"} de um animal?
+- Os seres humanos podem ser infectados com o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma fonte animal?
+- Posso estar infectado com [COVID-19]{"entity": "pt_virus", "value": "COVID"} de um animal?
+- Posso estar infectado com o [vírus]{"entity": "pt_virus", "value": "COVID"} de animais?
+- Posso estar infectado com o [vírus]{"entity": "pt_virus", "value": "COVID"} de um animal?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} da fonte de animais?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de animais?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de um animal?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma fonte animal?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} da fonte de animais?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} de animais?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} de um animal?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma fonte animal?
+- Posso ser infectado com [COVID-19]{"entity": "pt_virus", "value": "COVID"} de animais?
+- Um animal pode espalhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Um animal pode espalhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} para humanos?
+- Um animal pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"} para os seres humanos?
+- Um animal pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Um animal pode me infectar?
 
 ## intent:pt_spread_feces
-- Captura do [vírus](pt_virus:COVID) através de excrementos.
-- Captura do [vírus](pt_virus:COVID) através de fezes.
-- Captura do [vírus](pt_virus:COVID) através do cocô.
+- Captura do [vírus]{"entity": "pt_virus", "value": "COVID"} através de excrementos.
+- Captura do [vírus]{"entity": "pt_virus", "value": "COVID"} através de fezes.
+- Captura do [vírus]{"entity": "pt_virus", "value": "COVID"} através do cocô.
 - Espalhando excrementos.
 - Espalhando pelo cocô.
 - Espalhe pelas fezes.
 - Espalhe pelo cocô.
 - Espalhe por excrementos.
-- Fezes de alguém infectado podem transmitir o [vírus](pt_virus:COVID)?
+- Fezes de alguém infectado podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Infecção através de cocô.
 - Infecção por excrementos.
 - Infecção por fezes.
-- O [vírus](pt_virus:COVID) pode ser capturado através de cocô?
-- O [vírus](pt_virus:COVID) pode ser capturado através de excrementos?
-- O [vírus](pt_virus:COVID) pode ser pego através de fezes?
-- Pegue o [vírus](pt_virus:COVID) através das fezes.
-- Pegue o [vírus](pt_virus:COVID) através de excrementos.
-- Pegue o [vírus](pt_virus:COVID) através do cocô.
-- Posso pegar o [COVID-19](pt_virus:COVID) do cocô de alguém com a [doença](pt_virus:COVID)?
-- Posso pegar o [COVID-19](pt_virus:COVID) do cocô de uma pessoa infectada?
-- Posso pegar o [COVID-19](pt_virus:COVID) dos excrementos de alguém com a [doença](pt_virus:COVID)?
-- Posso pegar o [COVID-19](pt_virus:COVID) dos excrementos de uma pessoa infectada?
-- Posso pegar o [COVID-19](pt_virus:COVID) nas fezes de alguém com a [doença](pt_virus:COVID)?
-- Posso pegar o [COVID-19](pt_virus:COVID) nas fezes de uma pessoa infectada?
-- Posso pegar o [vírus](pt_virus:COVID) através de excrementos?
-- Posso pegar o [vírus](pt_virus:COVID) através de fezes?
-- Posso pegar o [vírus](pt_virus:COVID) através do cocô?
-- Risco de pegar [COVID-19](pt_virus:COVID) nas fezes de alguém com a [doença](pt_virus:COVID).
-- Risco de pegar [COVID-19](pt_virus:COVID) nas fezes de uma pessoa infectada.
-- Risco de pegar [COVID-19](pt_virus:COVID) nos excrementos de alguém com a [doença](pt_virus:COVID).
-- Risco de pegar [COVID-19](pt_virus:COVID) nos excrementos de uma pessoa infectada.
-- Risco de pegar o [COVID-19](pt_virus:COVID) do cocô de alguém com a [doença](pt_virus:COVID).
-- Risco de pegar o [COVID-19](pt_virus:COVID) do cocô de uma pessoa infectada.
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser capturado através de cocô?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser capturado através de excrementos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser pego através de fezes?
+- Pegue o [vírus]{"entity": "pt_virus", "value": "COVID"} através das fezes.
+- Pegue o [vírus]{"entity": "pt_virus", "value": "COVID"} através de excrementos.
+- Pegue o [vírus]{"entity": "pt_virus", "value": "COVID"} através do cocô.
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do cocô de alguém com a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do cocô de uma pessoa infectada?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} dos excrementos de alguém com a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} dos excrementos de uma pessoa infectada?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} nas fezes de alguém com a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} nas fezes de uma pessoa infectada?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} através de excrementos?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} através de fezes?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} através do cocô?
+- Risco de pegar [COVID-19]{"entity": "pt_virus", "value": "COVID"} nas fezes de alguém com a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de pegar [COVID-19]{"entity": "pt_virus", "value": "COVID"} nas fezes de uma pessoa infectada.
+- Risco de pegar [COVID-19]{"entity": "pt_virus", "value": "COVID"} nos excrementos de alguém com a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de pegar [COVID-19]{"entity": "pt_virus", "value": "COVID"} nos excrementos de uma pessoa infectada.
+- Risco de pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do cocô de alguém com a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do cocô de uma pessoa infectada.
 
 ## intent:pt_spread_general
-- [COVID-19](pt_virus:COVID) espalhando.
-- Como a [doença](pt_virus:COVID) se dissemina?
-- Como a [doença](pt_virus:COVID) se espalha.
-- Como a [doença](pt_virus:COVID) se espalha?
-- Como a [doença](pt_virus:COVID) se propaga.
-- Como a [doença](pt_virus:COVID) se propaga?
-- Como a [doença](pt_virus:COVID) se transmite?
-- Como o [COVID-19](pt_virus:COVID) se espalha.
-- Como o [COVID-19](pt_virus:COVID) se espalha?
-- Como o [COVID-19](pt_virus:COVID) se propaga.
-- Como o [COVID-19](pt_virus:COVID) se propaga?
-- Como o [coronavírus](pt_virus:COVID) se espalha.
-- Como o [coronavírus](pt_virus:COVID) se espalha?
-- Como o [coronavírus](pt_virus:COVID) se propaga.
-- Como o [coronavírus](pt_virus:COVID) se propaga?
-- Como o se espalha o [COVID-19](pt_virus:COVID)?
-- Como o [vírus](pt_virus:COVID) se espalha.
-- Como o [vírus](pt_virus:COVID) se espalha?
-- Como o [vírus](pt_virus:COVID) se propaga.
-- Como o [vírus](pt_virus:COVID) se propaga?
-- Como o [vírus](pt_virus:COVID) se transmite?
-- Como posso apanhar o [virus](pt_virus:COVID)?
-- Como posso apanhar o [vírus](pt_virus:COVID)?
-- Como se espalha o [coronavírus](pt_virus:COVID).
-- Como se espalha o [coronavírus](pt_virus:COVID)?
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} espalhando.
+- Como a [doença]{"entity": "pt_virus", "value": "COVID"} se dissemina?
+- Como a [doença]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Como a [doença]{"entity": "pt_virus", "value": "COVID"} se espalha?
+- Como a [doença]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Como a [doença]{"entity": "pt_virus", "value": "COVID"} se propaga?
+- Como a [doença]{"entity": "pt_virus", "value": "COVID"} se transmite?
+- Como o [COVID-19]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Como o [COVID-19]{"entity": "pt_virus", "value": "COVID"} se espalha?
+- Como o [COVID-19]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Como o [COVID-19]{"entity": "pt_virus", "value": "COVID"} se propaga?
+- Como o [coronavírus]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Como o [coronavírus]{"entity": "pt_virus", "value": "COVID"} se espalha?
+- Como o [coronavírus]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Como o [coronavírus]{"entity": "pt_virus", "value": "COVID"} se propaga?
+- Como o se espalha o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Como o [vírus]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Como o [vírus]{"entity": "pt_virus", "value": "COVID"} se espalha?
+- Como o [vírus]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Como o [vírus]{"entity": "pt_virus", "value": "COVID"} se propaga?
+- Como o [vírus]{"entity": "pt_virus", "value": "COVID"} se transmite?
+- Como posso apanhar o [virus]{"entity": "pt_virus", "value": "COVID"}?
+- Como posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Como se espalha o [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Como se espalha o [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
 - Como se espalha [ocoronavírus].
 - Como se espalha.
 - Como se espalha?
-- Como se move o [vírus](pt_virus:COVID)?
-- Como se multiplica a [doença](pt_virus:COVID).
-- Como se multiplica o [vírus](pt_virus:COVID).
-- Como se propaga [COVID-19](pt_virus:COVID)?
-- Como se propaga o [coronavírus](pt_virus:COVID)?
-- Como se propaga o [vírus](pt_virus:COVID)
+- Como se move o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Como se multiplica a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Como se multiplica o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Como se propaga [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Como se propaga o [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Como se propaga o [vírus]{"entity": "pt_virus", "value": "COVID"}
 - Como se propaga.
 - Como se propaga?
 - Como se transmite?
-- Como é feita a transmissão do [coronavírus](pt_virus:COVID).
+- Como é feita a transmissão do [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
 - Como é que o coronavirus se transmite ?
 - Como é que o viros se espalha
-- Como é que se passa o [vírus](pt_virus:COVID)
+- Como é que se passa o [vírus]{"entity": "pt_virus", "value": "COVID"}
 - Como é transmitido
-- Disseminação [COVID-19](pt_virus:COVID).
-- Disseminação da [doença](pt_virus:COVID).
-- Disseminação de [vírus](pt_virus:COVID).
-- Disseminação do [coronavírus](pt_virus:COVID).
-- Disseminação do [vírus](pt_virus:COVID).
-- Divulgação do [COVID-19](pt_virus:COVID).
-- Espalhar o [vírus](pt_virus:COVID).
-- Esquema de propagação de [COVID-19](pt_virus:COVID).
+- Disseminação [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Disseminação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Disseminação de [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Disseminação do [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Disseminação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Divulgação do [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Esquema de propagação de [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Formas de transmissão
-- Maneira de propagação da [doença](pt_virus:COVID).
-- Modo como a [doença](pt_virus:COVID) se dissemina.
-- Modo de propagação de [coronavírus](pt_virus:COVID).
-- Modo de propagação do [vírus](pt_virus:COVID).
-- Multiplicação da [doença](pt_virus:COVID).
-- Proliferar o [vírus](pt_virus:COVID).
+- Maneira de propagação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Modo como a [doença]{"entity": "pt_virus", "value": "COVID"} se dissemina.
+- Modo de propagação de [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Modo de propagação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Multiplicação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Proliferar o [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - Propagação
-- Propagação [COVID-19](pt_virus:COVID).
-- Propagação da [doença](pt_virus:COVID).
-- Propagação de [COVID-19](pt_virus:COVID).
-- Propagação de [coronavírus](pt_virus:COVID).
-- Propagação de [doença](pt_virus:COVID).
-- Propagação do [vírus](pt_virus:COVID).
+- Propagação [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Propagação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Propagação de [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Propagação de [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Propagação de [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Propagação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - Quais são as formas de contágio?
-- Sobre como a [doença](pt_virus:COVID) se espalha.
-- Sobre como a [doença](pt_virus:COVID) se propaga.
+- Sobre como a [doença]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Sobre como a [doença]{"entity": "pt_virus", "value": "COVID"} se propaga.
 - Sobre como ele se propaga.
-- Sobre como o [COVID-19](pt_virus:COVID) se espalha.
-- Sobre como o [COVID-19](pt_virus:COVID) se propaga.
-- Sobre como o [coronavírus](pt_virus:COVID) se espalha.
-- Sobre como o [coronavírus](pt_virus:COVID) se propaga.
-- Sobre como o [vírus](pt_virus:COVID) se espalha.
-- Sobre como o [vírus](pt_virus:COVID) se propaga.
+- Sobre como o [COVID-19]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Sobre como o [COVID-19]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Sobre como o [coronavírus]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Sobre como o [coronavírus]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Sobre como o [vírus]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Sobre como o [vírus]{"entity": "pt_virus", "value": "COVID"} se propaga.
 - Sobre como se espalha.
-- Spread [COVID-19](pt_virus:COVID).
-- Transmissão [COVID-19](pt_virus:COVID).
-- Transmissão da [doença](pt_virus:COVID).
-- Transmissão do [vírus](pt_virus:COVID).
-- como esse [vírus](pt_virus:COVID) funciona?
-- como o [covid](pt_virus:COVID) se espalha?
-- como o [vírus](pt_virus:COVID) é transmitido
-- como se espalha o [virus](pt_virus:COVID)?
+- Spread [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Transmissão [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Transmissão da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Transmissão do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- como esse [vírus]{"entity": "pt_virus", "value": "COVID"} funciona?
+- como o [covid]{"entity": "pt_virus", "value": "COVID"} se espalha?
+- como o [vírus]{"entity": "pt_virus", "value": "COVID"} é transmitido
+- como se espalha o [virus]{"entity": "pt_virus", "value": "COVID"}?
 - como é a transmissão
-- como é propagado o [COVID-19](pt_virus:COVID)
-- como é transmitido o [Covid 19](pt_virus:COVID)?
-- cómo se propagó el [virus](pt_virus:COVID)
+- como é propagado o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- como é transmitido o [Covid 19]{"entity": "pt_virus", "value": "COVID"}?
+- cómo se propagó el [virus]{"entity": "pt_virus", "value": "COVID"}
 - transmissão
-- Obrigado. Já agora como é que o [vírus](pt_virus:COVID) se espalha? 
+- Obrigado. Já agora como é que o [vírus]{"entity": "pt_virus", "value": "COVID"} se espalha? 
 
 ## intent:pt_spread_no_symptoms
-- Alguém que não tem sintomas pode disseminar o [vírus](pt_virus:COVID)?
+- Alguém que não tem sintomas pode disseminar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Alguém que não tem sintomas pode ser infeccioso?
-- Alguém que não tem sintomas pode transmitir o [vírus](pt_virus:COVID)?
-- Alguém sem sintomas pode dispersar o [vírus](pt_virus:COVID)?
-- Alguém sem sintomas pode disseminar o [vírus](pt_virus:COVID)?
-- Alguém sem sintomas pode espalhar o [vírus](pt_virus:COVID)?
-- Alguém sem sintomas pode me pegar o [COVID-19](pt_virus:COVID)?
+- Alguém que não tem sintomas pode transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode dispersar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode disseminar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode me pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Alguém sem sintomas pode ser infeccioso?
-- Alguém sem sintomas pode transmitir o [vírus](pt_virus:COVID)?
-- As pessoas sem sintomas podem transmitir o [vírus](pt_virus:COVID)?
-- O [COVID-19](pt_virus:COVID) pode ser detectado em alguém que não apresenta sintomas?
-- O [COVID-19](pt_virus:COVID) pode ser detectado em alguém sem sintomas?
-- O [COVID-19](pt_virus:COVID) pode ser detectado por alguém sem sintomas?
-- O [COVID-19](pt_virus:COVID) pode ser detectado por uma pessoa que não apresenta sintomas?
-- O [COVID-19](pt_virus:COVID) pode ser disseminado por uma pessoa sem sintomas?
-- O [COVID-19](pt_virus:COVID) pode ser transmitido por uma pessoa sem sintomas?
-- O [vírus](pt_virus:COVID) pode ser adquirido através de alguém sem sintomas?
-- O [vírus](pt_virus:COVID) pode ser contraido vindo de alguém assintomático?
-- O [vírus](pt_virus:COVID) pode ser detectado em alguém que não apresenta sintomas?
-- O [vírus](pt_virus:COVID) pode ser detectado em alguém sem sintomas?
-- O [vírus](pt_virus:COVID) pode ser detectado em pessoas que não apresentam sintomas?
-- O [vírus](pt_virus:COVID) pode ser detectado em pessoas sem sintomas?
-- O [vírus](pt_virus:COVID) pode ser espalhado por uma pessoa sem sintomas?
-- O [vírus](pt_virus:COVID) pode ser propagado numa pessoa sem sintomas?
+- Alguém sem sintomas pode transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- As pessoas sem sintomas podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em alguém que não apresenta sintomas?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em alguém sem sintomas?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser detectado por alguém sem sintomas?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser detectado por uma pessoa que não apresenta sintomas?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser disseminado por uma pessoa sem sintomas?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido por uma pessoa sem sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser adquirido através de alguém sem sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser contraido vindo de alguém assintomático?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em alguém que não apresenta sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em alguém sem sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em pessoas que não apresentam sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em pessoas sem sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser espalhado por uma pessoa sem sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser propagado numa pessoa sem sintomas?
 - Pessoas assintomáticas podem ser infecciosas?
-- Pessoas assintomáticas podem transmitir o [vírus](pt_virus:COVID)?
+- Pessoas assintomáticas podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Pessoas que não apresentam sintomas podem ser infecciosas?
-- Pessoas que não apresentam sintomas podem transmitir [COVID-19](pt_virus:COVID)?
-- Pessoas que não apresentam sintomas podem transmitir o [vírus](pt_virus:COVID)?
+- Pessoas que não apresentam sintomas podem transmitir [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas que não apresentam sintomas podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Pessoas que não apresentam sintomas podem transmitir?
-- Pessoas sem sintomas podem espalhar [COVID-19](pt_virus:COVID)?
+- Pessoas sem sintomas podem espalhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Pessoas sem sintomas podem espalhar?
 - Pessoas sem sintomas podem ser infecciosas?
-- Pessoas sem sintomas podem transmitir [COVID-19](pt_virus:COVID)?
+- Pessoas sem sintomas podem transmitir [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Pessoas sem sintomas podem transmitir?
-- Pessoas sem sintomas visíveis podem transmitir o [vírus](pt_virus:COVID)?
-- Posso adquirir [COVID-19](pt_virus:COVID) de pessoas sem sintomas?
-- Posso adquirir o [vírus](pt_virus:COVID) de alguém sem sintomas?
-- Posso adquirir o [vírus](pt_virus:COVID) de uma pessoa sem sintomas?
-- Posso apanhar [COVID-19](pt_virus:COVID) de pessoas sem sintomas?
-- Posso apanhar o [COVID-19](pt_virus:COVID) de alguém que não apresenta sintomas?
-- Posso apanhar o [COVID-19](pt_virus:COVID) de alguém sem sintomas?
-- Posso apanhar o [COVID-19](pt_virus:COVID) de pessoas assintomáticas?
-- Posso apanhar o [COVID-19](pt_virus:COVID) de pessoas que não apresentam sintomas?
-- Posso apanhar o [COVID-19](pt_virus:COVID) de pessoas sem sintomas?
-- Posso apanhar o [COVID-19](pt_virus:COVID) de uma pessoa que não apresenta sintomas visíveis?
-- Posso apanhar o [COVID-19](pt_virus:COVID) de uma pessoa que não apresenta sintomas?
-- Posso apanhar o [COVID-19](pt_virus:COVID) de uma pessoa sem sintomas?
-- Posso apanhar o [COVID-19](pt_virus:COVID) por uma pessoa assintomática?
-- Posso apanhar o [COVID-19](pt_virus:COVID) por uma pessoa sem sintomas?
-- Posso apanhar o [vírus](pt_virus:COVID) de alguém que não apresenta sintomas?
-- Posso apanhar o [vírus](pt_virus:COVID) de alguém sem sintomas?
-- Posso apanhar o [vírus](pt_virus:COVID) de pessoas que não apresentam sintomas?
-- Posso apanhar o [vírus](pt_virus:COVID) de pessoas sem sintomas?
-- Posso apanhar o [vírus](pt_virus:COVID) de uma pessoa que não apresenta sintomas?
-- Posso apanhar o [vírus](pt_virus:COVID) de uma pessoa sem sintomas?
-- Posso contrair o [COVID-19](pt_virus:COVID) de alguém que não apresenta sintomas?
-- Posso contrair o [vírus](pt_virus:COVID) de alguém que não apresenta sintomas?
-- Posso contrair o [vírus](pt_virus:COVID) de pessoas assintomáticas?
-- Posso contrair o [vírus](pt_virus:COVID) de uma pessoa que não mostra sintomas?
-- Posso ficar com o [vírus](pt_virus:COVID) através de pessoas sem sintomas?
-- Posso ficar contaminado com o [vírus](pt_virus:COVID) por pessoas que não demonstram sintomas?
-- Posso ficar contaminado pelo [vírus](pt_virus:COVID) de uma pessoa sem sintomas?
+- Pessoas sem sintomas visíveis podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Posso adquirir [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso adquirir o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas?
+- Posso adquirir o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas?
+- Posso apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas assintomáticas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas que não apresentam sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas visíveis?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} por uma pessoa assintomática?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} por uma pessoa sem sintomas?
+- Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas?
+- Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas?
+- Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de pessoas que não apresentam sintomas?
+- Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas?
+- Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas?
+- Posso contrair o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas?
+- Posso contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas?
+- Posso contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de pessoas assintomáticas?
+- Posso contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não mostra sintomas?
+- Posso ficar com o [vírus]{"entity": "pt_virus", "value": "COVID"} através de pessoas sem sintomas?
+- Posso ficar contaminado com o [vírus]{"entity": "pt_virus", "value": "COVID"} por pessoas que não demonstram sintomas?
+- Posso ficar contaminado pelo [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas?
 - Posso ficar contaminado por pessoas sem sintomas?
-- Posso ficar doente com [COVID-19](pt_virus:COVID) por uma pessoa que não apresenta sintomas?
-- Posso ser contagiado com [COVID-19](pt_virus:COVID) de pessoas sem sintomas?
-- Posso ter [COVID-19](pt_virus:COVID) vindo de pessoas que não apresentam sintomas?
-- Posso ter o [vírus](pt_virus:COVID) vindo de uma pessoa sem sintomas?
-- Risco de apanhar [COVID-19](pt_virus:COVID) de alguém sem sintomas.
-- Risco de apanhar [COVID-19](pt_virus:COVID) de uma pessoa que não apresenta sintomas.
-- Risco de apanhar [COVID-19](pt_virus:COVID) de uma pessoa que não tem sintomas.
-- Risco de apanhar [COVID-19](pt_virus:COVID) de uma pessoa sem sintomas.
-- Risco de apanhar o [COVID-19](pt_virus:COVID) de alguém que não tem sintomas.
-- Risco de apanhar o [COVID-19](pt_virus:COVID) de alguém sem sintomas.
-- Risco de apanhar o [vírus](pt_virus:COVID) de alguém que não apresenta sintomas.
-- Risco de apanhar o [vírus](pt_virus:COVID) de alguém sem sintomas.
-- Risco de apanhar o [vírus](pt_virus:COVID) de uma pessoa que não apresenta sintomas.
-- Risco de apanhar o [vírus](pt_virus:COVID) de uma pessoa sem sintomas.
-- Risco de contrair o [vírus](pt_virus:COVID) de uma pessoa sem sintomas.
-- Risco de contágio do [vírus](pt_virus:COVID) por alguém sem sintomas.
-- Uma pessoa assintomática pode me passar [COVID-19](pt_virus:COVID)?
+- Posso ficar doente com [COVID-19]{"entity": "pt_virus", "value": "COVID"} por uma pessoa que não apresenta sintomas?
+- Posso ser contagiado com [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso ter [COVID-19]{"entity": "pt_virus", "value": "COVID"} vindo de pessoas que não apresentam sintomas?
+- Posso ter o [vírus]{"entity": "pt_virus", "value": "COVID"} vindo de uma pessoa sem sintomas?
+- Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas.
+- Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas.
+- Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não tem sintomas.
+- Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas.
+- Risco de apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém que não tem sintomas.
+- Risco de apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas.
+- Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas.
+- Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas.
+- Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas.
+- Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas.
+- Risco de contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas.
+- Risco de contágio do [vírus]{"entity": "pt_virus", "value": "COVID"} por alguém sem sintomas.
+- Uma pessoa assintomática pode me passar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Uma pessoa assintomática pode ser infecciosa?
 
 ## intent:pt_spread_pets
 - Animais domésticos
-- Meu animal de estimação pode espalhar o [vírus](pt_virus:COVID)?
+- Meu animal de estimação pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Meu cão da família pode me infectar?
-- Meu cão pode espalhar a [doença](pt_virus:COVID)?
-- Meu cão pode espalhar o [vírus](pt_virus:COVID)?
-- Meu gato da família pode apanhar o [vírus](pt_virus:COVID)?
-- Meu gato da família pode espalhar a [doença](pt_virus:COVID)?
-- Meu gato da família pode espalhar o [vírus](pt_virus:COVID)?
+- Meu cão pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Meu cão pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Meu gato da família pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Meu gato da família pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Meu gato da família pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Meu gato da família pode me infectar?
-- O cão da minha família pode espalhar a [doença](pt_virus:COVID)?
-- O cão da minha família pode espalhar o [vírus](pt_virus:COVID)?
-- O meu animal de companhia pode apanhar o [vírus](pt_virus:COVID)?
-- O meu animal de companhia pode espalhar a [doença](pt_virus:COVID)?
-- O meu animal de companhia pode espalhar o [vírus](pt_virus:COVID)?
+- O cão da minha família pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O cão da minha família pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de companhia pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de companhia pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de companhia pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - O meu animal de companhia pode me infectar?
-- O meu animal de estimação da família pode apanhar o [vírus](pt_virus:COVID)?
-- O meu animal de estimação da família pode espalhar a [doença](pt_virus:COVID)?
-- O meu animal de estimação da família pode espalhar o [virus](pt_virus:COVID)?
-- O meu animal de estimação da família pode espalhar o [vírus](pt_virus:COVID)?
+- O meu animal de estimação da família pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação da família pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação da família pode espalhar o [virus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação da família pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - O meu animal de estimação da família pode me infectar?
-- O meu animal de estimação pode apanhar o [vírus](pt_virus:COVID)?
-- O meu animal de estimação pode apanhar ou espalhar o [vírus](pt_virus:COVID)?
-- O meu animal de estimação pode espalhar a [doença](pt_virus:COVID)?
+- O meu animal de estimação pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação pode apanhar ou espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
 - O meu animal de estimação pode me infectar?
-- O meu animal de estimação pode transmitir o [virus](pt_virus:COVID) à família?
+- O meu animal de estimação pode transmitir o [virus]{"entity": "pt_virus", "value": "COVID"} à família?
 - O meu cachorro pode me infectar?
-- O meu cão da família pode apanhar o [vírus](pt_virus:COVID)?
-- O meu cão pode apanhar o [vírus](pt_virus:COVID)?
-- O meu gato pode apanhar o [vírus](pt_virus:COVID)?
-- O meu gato pode espalhar a [doença](pt_virus:COVID)?
-- O meu gato pode espalhar o [vírus](pt_virus:COVID)?
+- O meu cão da família pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu cão pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu gato pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu gato pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O meu gato pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - O meu gato pode me infectar?
-- Os animais domésticos podem transmitir o [COVID-19](pt_virus:COVID)?
-- Posso apanhar o [COVID-19](pt_virus:COVID) do cão da minha família?
-- Posso apanhar o [COVID-19](pt_virus:COVID) do meu animal de companhia?
-- Posso apanhar o [COVID-19](pt_virus:COVID) do meu animal de estimação da família?
-- Posso apanhar o [COVID-19](pt_virus:COVID) do meu animal de estimação?
-- Posso apanhar o [COVID-19](pt_virus:COVID) do meu cachorro?
-- Posso apanhar o [COVID-19](pt_virus:COVID) do meu gato de família?
-- Posso apanhar o [COVID-19](pt_virus:COVID) do meu gato?
-- Posso apanhar o [virus](pt_virus:COVID) pelo meu animal de companhia?
+- Os animais domésticos podem transmitir o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do cão da minha família?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu animal de companhia?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu animal de estimação da família?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu animal de estimação?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu cachorro?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu gato de família?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu gato?
+- Posso apanhar o [virus]{"entity": "pt_virus", "value": "COVID"} pelo meu animal de companhia?
 - Posso ficar doente através de animais de companhia?
 - Posso ser infetado pelo animal de estimação da minha família?
 - Posso ser infetado pelo cão da minha família?
@@ -5280,26 +5280,26 @@
 - Posso ser infetado pelo meu animal de estimação?
 - Posso ser infetado pelo meu cão?
 - Posso ser infetado pelo meu gato?
-- É possível apanhar a [doença](pt_virus:COVID) vinda dos cães da família?
-- É possível apanhar o [vírus](pt_virus:COVID) de animais de companhia?
-- É possível apanhar o [vírus](pt_virus:COVID) de animais de estimação?
-- É possível apanhar o [vírus](pt_virus:COVID) de cães da família?
-- É possível apanhar o [vírus](pt_virus:COVID) de cães?
-- É possível apanhar o [vírus](pt_virus:COVID) de gatos da família?
-- É possível apanhar o [vírus](pt_virus:COVID) de gatos?
-- É possível apanhar o [vírus](pt_virus:COVID) do cão da minha família?
-- É possível apanhar o [vírus](pt_virus:COVID) do meu animal de companhia?
-- É possível apanhar o [vírus](pt_virus:COVID) do meu animal de estimação?
-- É possível apanhar o [vírus](pt_virus:COVID) do meu cão?
-- É possível apanhar o [vírus](pt_virus:COVID) do meu gato da família?
-- É possível apanhar o [vírus](pt_virus:COVID) do meu gato?
-- É possível apanhar o [vírus](pt_virus:COVID) em animais de estimação da família?
-- É possível apanhar o [vírus](pt_virus:COVID) no meu animal de estimação da família?
-- É possível contrair o [virus](pt_virus:COVID) através de cães?
+- É possível apanhar a [doença]{"entity": "pt_virus", "value": "COVID"} vinda dos cães da família?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de animais de companhia?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de animais de estimação?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de cães da família?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de cães?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de gatos da família?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de gatos?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do cão da minha família?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do meu animal de companhia?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do meu animal de estimação?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do meu cão?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do meu gato da família?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do meu gato?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} em animais de estimação da família?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} no meu animal de estimação da família?
+- É possível contrair o [virus]{"entity": "pt_virus", "value": "COVID"} através de cães?
 - É possível estar infetado pelo meu gato de família?
 - É possível estar infetado pelo meu gato?
 - É possível estar infetado por gatos de família?
-- É possível o meu gato de família ter me passado o [virus](pt_virus:COVID)?
+- É possível o meu gato de família ter me passado o [virus]{"entity": "pt_virus", "value": "COVID"}?
 - É possível ser contaminado por animais de estimação da família?
 - É possível ser contaminado por animais de estimação?
 - É possível ser infetado pelo cachorro da minha família?
@@ -5320,69 +5320,69 @@
 - É possível vir a ser infetado por gatos?
 
 ## intent:pt_spread_risk
-- Chances de apanhar [COVID-19](pt_virus:COVID).
-- Chances de apanhar o [vírus](pt_virus:COVID).
-- Chances de contrair o [vírus](pt_virus:COVID).
-- Chances de encontrar contagiado com [COVID-19](pt_virus:COVID).
-- Chances de estar com [COVID-19](pt_virus:COVID).
-- Chances de estar contaminado pelo [vírus](pt_virus:COVID).
-- Chances de estar doente pelo [vírus](pt_virus:COVID).
-- Chances de estar infetado pelo [COVID-19](pt_virus:COVID).
-- Chances de estar infetado pelo [vírus](pt_virus:COVID).
-- Chances de estar infetado por [COVID-19](pt_virus:COVID).
-- Chances de ficar com o [vírus](pt_virus:COVID).
-- Chances de possuir o [vírus](pt_virus:COVID).
-- Chances de ser infetado pelo [COVID-19](pt_virus:COVID).
-- Chances de ter [COVID-19](pt_virus:COVID).
-- Gostaria de saber qual a probabilidade de contrair [COVID-19](pt_virus:COVID), devido à minha
+- Chances de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de contrair o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de encontrar contagiado com [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de estar com [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de estar contaminado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de estar doente pelo [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de estar infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de estar infetado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de estar infetado por [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de ficar com o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de possuir o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de ser infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de ter [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Gostaria de saber qual a probabilidade de contrair [COVID-19]{"entity": "pt_virus", "value": "COVID"}, devido à minha
   profissão.
-- Quaais são as probabilidadas de apanhar o [vírus](pt_virus:COVID)?
-- Quais são as chances de apanhar [COVID-19](pt_virus:COVID)?
-- Quais são as chances de apanhar o [COVID-19](pt_virus:COVID)?
-- Quais são as chances de apanhar o [vírus](pt_virus:COVID)?
-- Quais são as chances de ficar o [vírus](pt_virus:COVID)?
-- Quais são as chances de poder ser infetado pelo [COVID-19](pt_virus:COVID)?
-- Quais são as chances de ser conatminado pelo [vírus](pt_virus:COVID)?
-- Quais são as chances de ser infetado pelo [COVID-19](pt_virus:COVID)?
-- Quais são as chances de ser infetado pelo [vírus](pt_virus:COVID)?
-- Qual a probabilidade de apanhar o [vírus](pt_virus:COVID)?
-- Qual a probabilidade de eu apanhar o [COVID-19](pt_virus:COVID)?
-- Qual a probabilidade de eu estar com [COVID-19](pt_virus:COVID)?
-- Qual a probabilidade de eu estar infetado pelo [COVID-19](pt_virus:COVID)?
-- Qual a probabilidade de eu estar infetado pelo [vírus](pt_virus:COVID)?
-- Qual a probabilidade de eu o [vírus](pt_virus:COVID) me ter infetado?
-- Qual a probabilidade de eu ser contagiado com [COVID-19](pt_virus:COVID)?
+- Quaais são as probabilidadas de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de ficar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de poder ser infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de ser conatminado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de ser infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de ser infetado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual a probabilidade de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual a probabilidade de eu apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual a probabilidade de eu estar com [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual a probabilidade de eu estar infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual a probabilidade de eu estar infetado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual a probabilidade de eu o [vírus]{"entity": "pt_virus", "value": "COVID"} me ter infetado?
+- Qual a probabilidade de eu ser contagiado com [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Qual o risco de ficar infetado?
-- Qual o risco para [Portugal](pt_country_code:PT)?
-- Que chances tenho de apanhar [COVID-19](pt_virus:COVID)?
-- Que chances tenho de apanhar o [vírus](pt_virus:COVID)?
-- Que chances tenho de estar infetado pelo [COVID-19](pt_virus:COVID)?
-- Que chances tenho de estar infetado pelo [vírus](pt_virus:COVID)?
-- Que chances tenho de possuir [COVID-19](pt_virus:COVID)?
-- Que chances tenho de possuir o [vírus](pt_virus:COVID)?
-- Que chances tenho para apanhar o [COVID-19](pt_virus:COVID)?
-- Que chances tenho para apanhar o [vírus](pt_virus:COVID)?
-- Risco de apanhar [COVID-19](pt_virus:COVID).
-- Risco de apanhar o [vírus](pt_virus:COVID).
-- Risco de contrair o [vírus](pt_virus:COVID).
-- Risco de ser contaminado pelo [COVID-19](pt_virus:COVID).
-- Risco de ser contrair o [vírus](pt_virus:COVID).
-- Risco de ser infetado pelo [COVID-19](pt_virus:COVID).
-- Risco de ser infetado pelo [vírus](pt_virus:COVID).
-- Risco de ter [COVID-19](pt_virus:COVID).
+- Qual o risco para [Portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Que chances tenho de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho de estar infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho de estar infetado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho de possuir [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho de possuir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho para apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho para apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de contrair o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de ser contaminado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de ser contrair o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de ser infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de ser infetado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de ter [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Trabalho numa Câmara Municipal, na recolha do lixo. Temos várias medidas de
   prevenção, mas toda a minha família está em casa. Em teletrbalho, é os miúdos
   como é do conhecimento geral estão sem aulas. Gostaria de saber qual a
-  probabilidade de contrair [COVID-19](pt_virus:COVID), devido à minha profissão.
+  probabilidade de contrair [COVID-19]{"entity": "pt_virus", "value": "COVID"}, devido à minha profissão.
 - posso estar infetado?
-- qual o risco de contrair a [doença](pt_virus:COVID)?
+- qual o risco de contrair a [doença]{"entity": "pt_virus", "value": "COVID"}?
 - risco
 
 ## intent:pt_spread_surfaces_food_objects
-- O [COVID-19](pt_virus:COVID) pode ser transmitido através de alimentos, incluindo os
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido através de alimentos, incluindo os
   refrigerados e congelados?
-- O [COVID-19](pt_virus:COVID) pode ser transmitido através de alimentos?
-- O [virus](pt_virus:COVID) pode ser transmitido através de alimentos?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido através de alimentos?
+- O [virus]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido através de alimentos?
 - Transmissão através de alimentos
 
 ## intent:pt_state_emergency_info
@@ -5406,20 +5406,20 @@
 - Que cuidados devo ter no supermercado
 
 ## intent:pt_test_general
-- Devo ser testado para o [COVID-19](pt_virus:COVID)?
-- despiste de [COVID-19](pt_virus:COVID)
+- Devo ser testado para o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- despiste de [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - o exame é necessário?
 - tenho de fazer o teste?
-- Como fazer um teste de [Covid19](pt_virus:COVID)?
+- Como fazer um teste de [Covid19]{"entity": "pt_virus", "value": "COVID"}?
 
 ## intent:pt_test_per_day
 - Quantos testes devem ser feitos por dia?
 - Quantos testes são feitos por dia?
 - Testes por dia?
-- quantos testes ao [covid](pt_virus:COVID)  foram realizados diariamente em portugal ?
-- quantos testes ao [covid](pt_virus:COVID) foram realizados diariamente em portugal nos ultimos 5
+- quantos testes ao [covid]{"entity": "pt_virus", "value": "COVID"}  foram realizados diariamente em portugal ?
+- quantos testes ao [covid]{"entity": "pt_virus", "value": "COVID"} foram realizados diariamente em portugal nos ultimos 5
   dias ?
-- quantos testes ao [covid](pt_virus:COVID) foram realizados diariamente em portugal nos ultimos
+- quantos testes ao [covid]{"entity": "pt_virus", "value": "COVID"} foram realizados diariamente em portugal nos ultimos
   dias ?
 - quantos testes foramrealizados diariamente em portugal ?
 - quantos testes são realizados diariamente em portugal ?
@@ -5432,17 +5432,17 @@
 - O teste testa o quê?
 
 ## intent:pt_test_where
-- Onde fazer o teste de [COVID-19](pt_virus:COVID)?
+- Onde fazer o teste de [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Onde posso fazer o despiste?
 - Onde posso fazer o teste?
 - Onde posso fazer um teste?
 - Onde posso ser testada?
 - Onde posso ser testado?
-- Onde é feito o teste da [COVID-19](pt_virus:COVID)?
+- Onde é feito o teste da [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Onde é feito o teste?
 - Posso fazer o teste em casa?
 - onde fazer o teste?
-- onde são os centros de testes [COVID-19](pt_virus:COVID)
+- onde são os centros de testes [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 
 ## intent:pt_travel_after
 - Acabei de voltar de uma viagem.
@@ -5490,7 +5490,7 @@
 - Estou planeando viajar de férias.
 - Estou planeando viajar.
 - Estou viajando em breve.
-- Impacto do [virus](pt_virus:COVID) no planeamento de férias.
+- Impacto do [virus]{"entity": "pt_virus", "value": "COVID"} no planeamento de férias.
 - O que antecipar antes da viagem?
 - O que antecipar antes de viajar?
 - O que devo fazer antes de viajar?
@@ -6202,8 +6202,8 @@
 - Diz-me as noticias
 - Quais são as noticias relacionadas
 - Faz-me um update das noticias
-- Noticias sobre [coronavirus](pt_virus:COVID)
-- Noticias sobre [virus](pt_virus:COVID)
+- Noticias sobre [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Noticias sobre [virus]{"entity": "pt_virus", "value": "COVID"}
 - noticias
 - Que noticias tens
 - Quais são as noticias que sabes
@@ -6250,7 +6250,7 @@
 - Onde posso consultar o plano de desconfinamento? 
 
 ## intent: pt_economy_consequences 
-- Economia e [coronavirus](pt_virus:COVID) 
+- Economia e [coronavirus]{"entity": "pt_virus", "value": "COVID"} 
 - Quais são as consequências do COVID-19 na Economia? 
 - Consequências economicas 
 - Okay. Mas efectivamente, este surto está a ter um impacto muito negativo na Economia. 
@@ -9002,12 +9002,9 @@
 
 ## synonym:SI
 - República da Eslovênia
-- República da Eslovénia
 - Eslovênia
 - Eslovénia
 - Republika Slovenija
-- Republic of Slovenia
-- Slovenija
 - Slovenia
 
 ## synonym:SJ

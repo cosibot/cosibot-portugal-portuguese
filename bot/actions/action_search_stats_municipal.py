@@ -16,6 +16,7 @@ class DecsisAPI:
             query_filters = "[{\"date_day\":\"" + today.strftime("%Y-%m-%d")+"\"},{\"municipality\":\""+ str(country_municipal) + "\"}]"
 
             request_url = "https://api.data.decsis.cloud/api/v1/dataset/pt_dgs_covid19_municipalities?query={\"fields\":"+ str(query_fields) +", \"filters\":"+ str(query_filters) +"}&format=json"
+            print(request_url)
             response = requests.get(url = request_url)
 
             json_response = (response.json())
@@ -60,9 +61,11 @@ class ActionSearchStatsMunicipal(Action):
         stats = decsis_api.search(country_municipal)
 
         if stats['code'] == 200 and not stats['has_data']:
+            print("1", stats['has_data'])
             return [SlotSet('country_municipal_search_successful', 'empty'),SlotSet('country_municipal', country_municipal),SlotSet('pt_country_code', 'PT'),]
             #self.get_country_data(country_municipal,"empty",dispatcher, tracker, domain)
         elif stats['code'] == 200 and stats['has_data']:
+            print("2", stats['has_data'])
             return [SlotSet('country_municipal_search_successful', 'ok'),SlotSet('country_municipal', country_municipal), SlotSet('country_municipal_confirmed_accum', int(stats.get('confirmed_accum', None))),]
         else:
             return [SlotSet('country_municipal_search_successful', 'not-ok'),SlotSet('pt_country_code', 'PT'),]

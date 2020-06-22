@@ -1,11 +1,18 @@
-## start
-* start-dialogue{"bot_introduced": "False"}
+## start_conversation
+* start OR start-dialogue OR pt_greeting_hello
+  - action_check_Bot_Introduced
+  - slot{"bot_introduced": "True"}
+  - utter_pt_welcome
+
+
+<!--## start
+* start{"bot_introduced": "False"}
   - action_check_Bot_Introduced
   - slot{"bot_introduced": "True"}
   - utter_pt_welcome
 
 ## start
-* start-dialogue{"bot_introduced": "True"}
+* start{"bot_introduced": "True"}
   - utter_pt_greeting_hello
 
 ## start1_1
@@ -18,6 +25,16 @@
 * start-dialogue{"bot_introduced": "True"}
   - utter_pt_greeting_hello
 
+## pt_greeting_hello
+* pt_greeting_hello{"bot_introduced": "True"}
+  - utter_pt_greeting_hello
+
+## pt_greeting_hello_1
+* pt_greeting_hello{"bot_introduced": "False"}
+  - action_check_Bot_Introduced
+  - slot{"bot_introduced": "True"}
+  - utter_pt_welcome
+-->
 ## pt_bot_appearance
 * pt_bot_appearance
   - utter_pt_bot_appearance
@@ -229,10 +246,6 @@
 ## pt_features_time
 * pt_features_time
   - action_get_time
-
-## pt_greeting_hello
-* pt_greeting_hello
-  - utter_pt_greeting_hello
 
 ## pt_greeting_goodbye
 * pt_greeting_goodbye
@@ -1023,6 +1036,14 @@ TESTED
 * pt_vocative_no
   - utter_pt_further_questions
 
+
+## pt_covid_situation_infected_municipa2
+* pt_covid_situation_last_update{"pt_country_municipal": "Salvaterra de Magos"}
+    - action_search_stats_municipal
+    - slot{"country_municipal_search_successful": "ok"}
+    - slot{"country_municipal": "Salvaterra de Magos"}
+    - slot{"country_municipal_confirmed_accum": 10}
+    - utter_country_municipal_hasdata
 
 ## pt_covid_situation_infected_municipa2
 * pt_covid_situation_last_update{"pt_country_municipal": "Salvaterra de Magos"}
