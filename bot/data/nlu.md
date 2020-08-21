@@ -359,6 +359,7 @@
 ## intent:pt_bot_languages
 - Consegues falar noutras línguas?
 - Consegues falar outras línguas?
+- do you speak english?
 - Em quais idiomas posso falar contigo?
 - Em que idiomas consegues falar?
 - Em que idiomas falas?
@@ -367,13 +368,21 @@
 - Em que línguas és capaz de comunicar?
 - Em que línguas és capaz de falar?
 - Em que línguas és fluente?
+- és capaz de me responder em [alemão]{"entity": "language"}?
+- és capaz de me responder em alemão?
 - Estás a aprender línguas?
-- Falas [Português]{"entity": "language"}?
 - Falas [alemão]{"entity": "language"}?
-- Falas em [inglês]{"entity": "language"}?
 - Falas [espanhol]{"entity": "language"}?
 - Falas [francês]{"entity": "language"}?
 - Falas [inglês]{"entity": "language"}?
+- Falas [Português]{"entity": "language"}?
+- Falas alemão?
+- Falas em [inglês]{"entity": "language"}?
+- Falas em inglês?
+- Falas espanhol?
+- Falas francês?
+- Falas inglês?
+- Falas Português?
 - Gostas de idiomas?
 - Outra língua.
 - Outro idioma.
@@ -388,11 +397,10 @@
 - Que idioma falas?
 - Que idiomas aprendeste?
 - Que idiomas conheces?
-- Que idiomas falas?
 - Que idiomas és capaz de falar?
+- Que idiomas falas?
 - Que línguas falas?
 - Sobre idiomas.
-- és capaz de me responder em [alemão]{"entity": "language"}?
 
 ## intent:pt_bot_movies
 - Aprecias algum filme?
@@ -2080,17 +2088,31 @@
 - what is [coronavirus]{"entity": "pt_virus", "value": "COVID"}
 
 ## intent:pt_covid_aftereffects_immunity
+- Após cura, posso ficar novamente infectado com o vírus?
 - As pessoas que já se curaram do [covid]{"entity": "pt_virus", "value": "COVID"} podem vir a te lo novamente?
+- As pessoas que já se curaram do covid podem vir a te lo novamente?
+- auto imune
 - Depois de recuperar as pessoas ficam imunes?
 - Depois de recuperar do [coronavirus]{"entity": "pt_virus", "value": "COVID"} as pessoas ficam imunes?
+- Depois de recuperar do coronavirus as pessoas ficam imunes?
+- depois de ser infectado estou imune o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- depois de ser infectado estou imune o vírus?
+- depois de ser infetado estou imune à [doença]{"entity": "pt_virus", "value": "COVID"}?
+- depois de ser infetado estou imune à doença?
 - Depois de ter sido infectado fico imune ao [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Depois de ter sido infectado fico imune ao vírus?
+- doença auto-imune
+- Hà pessoas que possam ser imunes ao vírus?
 - Imunidade
 - Os doentes tratados ficam imunizados?
 - Os doentes tratados podem ser novamente infetados?
+- Podem ficar novamente infectados?
+- Posso voltar a ser contaminada?
+- Quem já foi infetado pelo covid-19 fica imune?
+- se apanhar o virus fico imune
 - Uma pessoa infectada com [coronavirus]{"entity": "pt_virus", "value": "COVID"} fica imune?
+- Uma pessoa infectada com coronavirus fica imune?
 - Uma pessoa infectada fica imune?
-- depois de ser infectado estou imune o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- depois de ser infetado estou imune à [doença]{"entity": "pt_virus", "value": "COVID"}?
 
 ## intent:pt_covid_alike
 - Já houve algum surto com [coronavírus]{"entity": "pt_virus", "value": "COVID"} em anos anteriores?
@@ -2121,6 +2143,7 @@
 - Cosibot
 - O que é o cosibot?
 - what is cosibot?
+- Como posso fazer voluntariado?
 
 ## intent:pt_covid_crisis_howlong
 - Acreditas que o [vírus]{"entity": "pt_virus", "value": "COVID"} irá estagnar?
@@ -2164,26 +2187,45 @@
 
 ## intent:pt_covid_incubation
 - [2019nCov]{"entity": "pt_virus", "value": "COVID"} incubation period.
+- 2019nCov incubation period.
 - Diz-me período de incubação.
 - Duração estimada para o período de incubação?
 - Estimar o período de incubação do tempo.
+- incubação
 - Incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Incubação do vírus?
 - Informações sobre o período de incubação.
 - Intervalo de incubação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Intervalo de incubação da doença.
 - Intervalo de incubação de [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Intervalo de incubação de coronavírus.
 - Intervalo de incubação do [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Intervalo de incubação do coronavírus.
 - Intervalo entre o contágio do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas.
+- Intervalo entre o contágio do vírus e o início dos sintomas.
 - Intervalo temporal entre a apanha do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Intervalo temporal entre a apanha do vírus e o início dos sintomas da doença.
 - No período de incubação.
+- novo período de incubação de [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- novo período de incubação de coronavírus.
+- novo período de incubação do [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- novo período de incubação do coronavírus.
+- o período de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- o período de incubação do vírus.
 - O período de incubação.
 - O tempo até ao início dos sintomas após contágio.
 - O tempo até ao início dos sintomas.
 - O tempo entre a apanha do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- O tempo entre a apanha do vírus e o início dos sintomas da doença.
 - O tempo entre a captura do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
 - O tempo entre a captura do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas.
+- O tempo entre a captura do vírus e o início dos sintomas da doença.
+- O tempo entre a captura do vírus e o início dos sintomas.
 - O tempo entre a captura e o início dos sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- O tempo entre a captura e o início dos sintomas da doença.
 - O tempo entre a captura e o início dos sintomas.
 - O tempo entre o contágio do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas.
+- O tempo entre o contágio do vírus e o início dos sintomas.
 - Período de incubação [19-nCoV]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação [19nCov]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}.
@@ -2193,75 +2235,131 @@
 - Período de incubação [covid]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação [COVID19]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação 19-nCoV.
+- Período de incubação 19nCov.
+- Período de incubação 2019-nCoV.
+- Período de incubação 2019nCov.
+- Período de incubação COVID-19.
+- Período de incubação COVID-2019.
+- Período de incubação COVID.
+- Período de incubação COVID19.
+- Período de incubação COVID2019.
+- período de incubação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- período de incubação da doença.
 - Período de incubação de [19-nCoV]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação de [19nCov]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação de [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação de [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação de [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação de [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de 19-nCoV.
+- Período de incubação de 19nCov.
+- Período de incubação de SARS-CoV-2.
+- Período de incubação de SARSCoV-2.
+- Período de incubação de SARSCoV2.
 - Período de incubação do [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação do [COVID19]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
-- Período de incubação do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
 - Período de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
-- Período de incubação [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação do COVID-19.
+- Período de incubação do COVID19.
+- Período de incubação do novo coronavírus?
+- Período de incubação do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação do recente coronavírus.
+- Período de incubação do vírus.
+- período de incubação estimado.
+- Período de incubação novo coronavírus.
+- Período de incubação SARS-CoV-2.
+- Período de incubação SARSCoV-2.
+- Período de incubação SARSCoV2.
 - Período de incubação.
+- periodo incubação?
 - Previsão temporal de incubação.
 - Previsão temporal do período de incubação.
-- Qual o periodo de incubação?
-- Qual o tempo de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Qual é o periodo de incubação?
+- Qual é o tempo de incubação?
 - Qual é o tempo estimado da incubação?
 - Qual é o tempo estimado de incubação?
 - Qual é o tempo estimado do período de incubação?
 - Qual é o tempo estimado para o período de incubação?
+- Qual o periodo de incubação?
+- Qual o tempo de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual o tempo de incubação do vírus?
+- Quanto é o tempo estimado do período de incubação?
 - Quanto tempo até os sintomas aparecerem?
 - Quanto tempo até que os sintomas apareçam?
+- Quanto tempo de incubação?
+- Quanto tempo depois da pessoa ser contaminada leva a sentir os sintomas
 - Quanto tempo dura o período de incubação [19-nCoV]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação [19nCov]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação [2019nCov]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [covid]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação [COVID19]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação [COVID2019]{"entity": "pt_virus", "value": "COVID"}?
-- Quanto tempo dura o período de incubação [covid]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação 19-nCoV?
+- Quanto tempo dura o período de incubação 19nCov?
+- Quanto tempo dura o período de incubação 2019-nCoV?
+- Quanto tempo dura o período de incubação 2019nCov?
+- Quanto tempo dura o período de incubação COVID-19?
+- Quanto tempo dura o período de incubação COVID-2019?
+- Quanto tempo dura o período de incubação COVID?
+- Quanto tempo dura o período de incubação COVID19?
+- Quanto tempo dura o período de incubação COVID2019?
 - Quanto tempo dura o período de incubação da [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação da doença?
 - Quanto tempo dura o período de incubação de [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação de [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação de [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação de SARS-CoV-2?
+- Quanto tempo dura o período de incubação de SARS-CoV2?
+- Quanto tempo dura o período de incubação de SARSCoV2?
 - Quanto tempo dura o período de incubação do [19-nCoV]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação do [19nCov]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação do [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação do [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [covid]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação do [COVID19]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação do [COVID2019]{"entity": "pt_virus", "value": "COVID"}?
-- Quanto tempo dura o período de incubação do [covid]{"entity": "pt_virus", "value": "COVID"}?
-- Quanto tempo dura o período de incubação do [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
-- Quanto tempo dura o período de incubação do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do 19-nCoV?
+- Quanto tempo dura o período de incubação do 19nCov?
+- Quanto tempo dura o período de incubação do COVID-19?
+- Quanto tempo dura o período de incubação do COVID-2019?
+- Quanto tempo dura o período de incubação do COVID?
+- Quanto tempo dura o período de incubação do COVID19?
+- Quanto tempo dura o período de incubação do COVID2019?
+- Quanto tempo dura o período de incubação do novo coronavírus?
+- Quanto tempo dura o período de incubação do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do recente coronavírus?
+- Quanto tempo dura o período de incubação do SARSCoV-2?
+- Quanto tempo dura o período de incubação do vírus?
 - Quanto tempo dura o período de incubação para [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}?
 - Quanto tempo dura o período de incubação para [2019nCov]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação para 2019-nCoV?
+- Quanto tempo dura o período de incubação para 2019nCov?
+- Quanto tempo dura o período de incubação SARS-CoV-2?
+- Quanto tempo dura o período de incubação SARS-CoV2?
+- Quanto tempo dura o período de incubação SARSCoV-2?
+- Quanto tempo dura o período de incubação SARSCoV2?
 - Quanto tempo dura o período de incubação?
 - Quanto tempo leva até os sintomas?
-- Quanto é o tempo estimado do período de incubação?
 - Sobre o período de incubação.
 - Tempo estimado da estimativa do período de incubação.
 - Tempo estimado do período de incubação.
-- novo período de incubação de [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
-- novo período de incubação do [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
-- o período de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
-- período de incubação da [doença]{"entity": "pt_virus", "value": "COVID"}.
-- período de incubação estimado.
 - tempo estimado para o período de incubação.
 
 ## intent:pt_covid_info
@@ -2276,28 +2374,63 @@
 - [2019nCov]{"entity": "pt_virus", "value": "COVID"}
 - [2019nCov]{"entity": "pt_virus", "value": "COVID"} info
 - [2019nCov]{"entity": "pt_virus", "value": "COVID"} informações
-- Atual [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- [covid]{"entity": "pt_virus", "value": "COVID"}
+- [Corona]{"entity": "pt_virus", "value": "COVID"}
 - [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - [COVID-19]{"entity": "pt_virus", "value": "COVID"} info
 - [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
 - [COVID-2019]{"entity": "pt_virus", "value": "COVID"} mais info
 - [COVID-2019]{"entity": "pt_virus", "value": "COVID"} mais informação
+- [covid]{"entity": "pt_virus", "value": "COVID"}
+- [COVID19]{"entity": "pt_virus", "value": "COVID"}
 - [COVID2019]{"entity": "pt_virus", "value": "COVID"}
 - [COVID2019]{"entity": "pt_virus", "value": "COVID"} info
+- [doença]{"entity": "pt_virus", "value": "COVID"}
+- [nCoV]{"entity": "pt_virus", "value": "COVID"}
+- [nCoV]{"entity": "pt_virus", "value": "COVID"} mais informação
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- [vírus corona]{"entity": "pt_virus", "value": "COVID"}
+- 19-nCoV
+- 19-nCoV info"
+- 19-nCoV informações
+- 19nCov info
+- 19nCov informações
+- 19nCov"
+- 2019-nCoV
+- 2019-nCoV info
+- 2019nCov
+- 2019nCov info"
+- 2019nCov informações
+- a pandemia começou em Wuhan?
+- Atual [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Atual coronavírus
+- Boa noite tenho uma dúvida. O vírus e natural ou foi criado em laboratório?
 - Como começou o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Como começou o COVID-19
+- Como surgiu o covid-19?
 - Conta acerca do [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conta acerca do 2019-nCoV
 - Conta do [covid]{"entity": "pt_virus", "value": "COVID"}
+- Conta do COVID
 - Conta mais sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conta mais sobre nCoV
 - Conta mais sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Conta mais sobre o novo coronavírus
 - Conta-me info do [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me info do nCoV
 - Conta-me mais sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me mais sobre 2019nCov
 - Conta-me mais sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - Conta-me mais sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - Conta-me mais sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me mais sobre o 19-nCoV
+- Conta-me mais sobre o 19nCov
+- Conta-me mais sobre o COVID-2019
 - Conte-me a respeito do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me a respeito do COVID-19
 - Conte-me mais a respeito do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais a respeito do COVID-19
 - Conte-me mais em relação ao [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais em relação ao 2019-nCoV"
 - Conte-me mais sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - Conte-me mais sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - Conte-me mais sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
@@ -2305,32 +2438,79 @@
 - Conte-me mais sobre [covid]{"entity": "pt_virus", "value": "COVID"}
 - Conte-me mais sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
 - Conte-me mais sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre 19-nCoV
+- Conte-me mais sobre 19nCov
+- Conte-me mais sobre 2019-nCoV
+- Conte-me mais sobre 2019nCov
+- Conte-me mais sobre COVID
+- Conte-me mais sobre COVID2019
+- Conte-me mais sobre nCoV
 - Conte-me mais sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - Conte-me mais sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - Conte-me mais sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - Conte-me mais sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
-- Conte-me mais sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
 - Conte-me mais sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - Conte-me mais sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
 - Conte-me mais sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
 - Conte-me mais sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
 - Conte-me mais sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o 19-nCoV
+- Conte-me mais sobre o 19nCov
+- Conte-me mais sobre o 2019-nCoV
+- Conte-me mais sobre o 2019nCov
+- Conte-me mais sobre o COVID
+- Conte-me mais sobre o COVID-19
+- Conte-me mais sobre o COVID-2019
+- Conte-me mais sobre o COVID2019
+- Conte-me mais sobre o nCoV
+- Conte-me mais sobre o novo coronavírus
 - Conte-me mais sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- [Corona]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o recente coronavírus
+- Corona
+- COVID
+- COVID-19
+- COVID-19 info
+- COVID-2019
+- COVID-2019 mais info
+- COVID-2019 mais informação
+- covid19
+- COVID2019
+- COVID2019 info
+- Dá-me informação sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Dá-me informação sobre o novo coronavírus
+- Dá-me informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Dá-me informações sobre COVID-19
 - Dados sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Dados sobre coronavírus
 - Dados sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Dados sobre novos coronavírus
+- De onde vem esse vírus?
+- De q origem vem o coronavirus?
 - Detalhes do [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Detalhes do 2019-nCoV
 - Detalhes sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Detalhes sobre 2019-nCoV
 - Detalhes sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Detalhes sobre o COVID-19
 - Diga-me o que é [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é [2019nCov]{"entity": "pt_virus", "value": "COVID"}
-- Diga-me o que é [covid]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [covid]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é [COVID2019]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é 19-nCoV
+- Diga-me o que é 19nCov
+- Diga-me o que é 2019-nCoV
+- Diga-me o que é 2019nCov
+- Diga-me o que é COVID
+- Diga-me o que é COVID-19
+- Diga-me o que é COVID-2019
+- Diga-me o que é COVID2019
+- Diga-me o que é nCoV
 - Diga-me o que é o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é o [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
@@ -2338,237 +2518,463 @@
 - Diga-me o que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é o [nCov]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o 19-nCoV
+- Diga-me o que é o 19nCov
+- Diga-me o que é o 2019-nCoV
+- Diga-me o que é o 2019nCov
+- Diga-me o que é o COVID-19
+- Diga-me o que é o nCoV
+- Diga-me o que é o novo coronavírus
 - Diga-me o que é um [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é um [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é um [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é um [2019nCov]{"entity": "pt_virus", "value": "COVID"}
-- Diga-me o que é um [covid]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é um [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é um [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [covid]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é um [COVID2019]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é um [nCov]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me o que é um [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Diga-me qual é o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um 19-nCoV
+- Diga-me o que é um 19nCov
+- Diga-me o que é um 2019-nCoV
+- Diga-me o que é um 2019nCov
+- Diga-me o que é um COVID
+- Diga-me o que é um COVID-19
+- Diga-me o que é um COVID-2019
+- Diga-me o que é um COVID2019
+- Diga-me o que é um nCoV
+- Diga-me o que é um novo coronavírus
 - Diga-me qual é o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me qual é o [covid]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me qual é o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
 - Diga-me qual é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me qual é o COVID
+- Diga-me qual é o COVID-2019
+- Diga-me qual é o COVID2019
+- Diga-me qual é o novo coronavírus
 - Diz-me acerca do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me acerca do COVID-19
 - Diz-me informação sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me informação sobre o COVID2019
+- diz-me informações do assunto [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- diz-me informações do assunto [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- diz-me informações do assunto 19nCov
+- diz-me informações do assunto 2019nCov
+- diz-me informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- diz-me informações sobre COVID2019
 - Diz-me informações sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me informações sobre o nCoV
 - Diz-me mais sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
 - Diz-me mais sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me mais sobre o COVID2019
+- Diz-me mais sobre o novo coronavírus
 - Diz-me sobre [covid]{"entity": "pt_virus", "value": "COVID"}
 - Diz-me sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
-- Dá-me informação sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Dá-me informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me sobre COVID
+- Diz-me sobre COVID2019
+- doença
+- e o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- e o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- e o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- e o [COVID]{"entity": "pt_virus", "value": "COVID"}
+- e o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- e o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- e o 19nCov
+- e o COVID
+- e o COVID-19
+- e o COVID-2019
+- e o COVID2019
+- e o novo coronavírus
+- e quanto ao [nCov]{"entity": "pt_virus", "value": "COVID"}
+- e quanto ao nCoV
 - Elucida-me sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Elucida-me sobre COVID
 - Elucida-me sobre o assunto [covid]{"entity": "pt_virus", "value": "COVID"}
+- Elucida-me sobre o assunto COVID
 - Envia-me informações sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Envia-me informações sobre o COVID-2019
 - Esclarece sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Esclarece sobre o recente coronavírus
 - Esclarece-me sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Esclarece-me sobre COVID
 - Esclarece-me sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
 - Esclarece-me sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Esclarece-me sobre o COVID
+- Esclarece-me sobre o novo coronavírus
 - Esclarecimento [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - Esclarecimento [covid]{"entity": "pt_virus", "value": "COVID"}
-- Esclarecimento do [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento 2019-nCoV
+- Esclarecimento COVID
 - Esclarecimento do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento do [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento do coronavírus
+- Esclarecimento do COVID-2019
 - Esclarecimento sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento sobre nCoV
 - Esclarecimento sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - Esclarecimento sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
 - Esclarecimento sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento sobre o 19nCov
+- Esclarecimento sobre o COVID-2019
+- Esclarecimento sobre o novo coronavírus
 - Esclarecimentos do [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimentos do nCoV"
 - Esclarecimentos sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimentos sobre nCoV
 - Explica-me [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Explica-me nCoV
 - Fala do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- fala do assunto [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- fala do assunto COVID-2019
+- Fala do COVID-19
 - Fala do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Fala do recente coronavírus
 - Fala mais sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Fala mais sobre o COVID
+- fala sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- fala sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
 - Fala sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
-- Fala-me do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- fala sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- fala sobre 19nCov
+- fala sobre 2019nCov
+- Fala sobre COVID-19
+- fala sobre COVID-2019
 - Fala-me do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Fala-me do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Fala-me do coronavírus
+- Fala-me do COVID-19
+- fala-me informações do assunto [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- fala-me informações do assunto COVID2019
 - Fala-me mais sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - Fala-me mais sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Fala-me mais sobre o 19-nCoV
+- Fala-me mais sobre o novo coronavírus
+- fala-me sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- fala-me sobre o 19-nCoV
 - Foram os chineses?
+- Foram os chineses?
+- há informação do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- há informação do novo coronavírus
 - Info sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - Info sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
 - Info sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
 - Info sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre 19nCov
+- Info sobre 2019nCov
+- Info sobre COVID-2019
+- Info sobre COVID2019
 - Info sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - Info sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - Info sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
 - Info sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
 - Info sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
 - Info sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o 19-nCoV
+- Info sobre o 19nCov
+- Info sobre o 2019nCov
+- Info sobre o COVID-2019
+- Info sobre o COVID2019
+- Info sobre o novo coronavírus
 - Info sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o recente coronavírus
 - Informa-me sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Informa-me sobre 19-nCoV
 - Informa-me sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
 - Informa-me sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Informação [covid]{"entity": "pt_virus", "value": "COVID"}
+- Informa-me sobre o 2019nCov
+- Informa-me sobre o novo coronavírus
 - Informação [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Informação [covid]{"entity": "pt_virus", "value": "COVID"}
+- Informação COVID
+- Informação COVID-2019
 - Informação sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Informações [covid]{"entity": "pt_virus", "value": "COVID"}
-- Informações do [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- Informações sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- Informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
-- Informações sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
-- Informações sobre o [nCoV 2019]{"entity": "pt_virus", "value": "COVID"}
-- Manda informação sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- Mostra informações sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é [19nCov]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é [2019nCov]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é [covid]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é [COVID-19]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é [COVID2019]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é [nCov]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é o [19nCov]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é o [covid]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é o [nCov]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Não sei o que é o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Não sei qual é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Não sei qual é o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- O que se passa sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
-- O que é [covid]{"entity": "pt_virus", "value": "COVID"}
-- O que é a [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
-- O que é a [covid]{"entity": "pt_virus", "value": "COVID"}
-- O que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
-- O que é o [Corona vírus]{"entity": "pt_virus", "value": "COVID"}?
-- O que é o atual [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- O que é o [covid-18]{"entity": "pt_virus", "value": "COVID"}
-- O que é o [covid]{"entity": "pt_virus", "value": "COVID"}?
-- O que é o [covit19]{"entity": "pt_virus", "value": "COVID"}
-- O que é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- O que é o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- O que é que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
-- O que é um [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- O que é um [19nCov]{"entity": "pt_virus", "value": "COVID"}
-- O que é um [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- O que é um [2019nCov]{"entity": "pt_virus", "value": "COVID"}
-- O que é um [covid]{"entity": "pt_virus", "value": "COVID"}
-- O que é um [COVID-19]{"entity": "pt_virus", "value": "COVID"}
-- O que é um [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
-- O que é um [COVID2019]{"entity": "pt_virus", "value": "COVID"}
-- O que é um [nCov]{"entity": "pt_virus", "value": "COVID"}
-- O que é um [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Olá olá como é o [covid]{"entity": "pt_virus", "value": "COVID"}
-- Onde surgiu o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- Qual é a origem do surto?
-- Quando foi detectacta a [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
-- Que tal [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- Que tal [2019nCov]{"entity": "pt_virus", "value": "COVID"}
-- Que tal informações sobre [covid]{"entity": "pt_virus", "value": "COVID"}
-- Recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Recente [coronavírus]{"entity": "pt_virus", "value": "COVID"} mais info
-- Sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- Sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
-- Sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- Sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
-- Sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
-- Sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
-- Sobre a [covid]{"entity": "pt_virus", "value": "COVID"}
-- Sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
-- Sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- Sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
-- Sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- Sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
-- Sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
-- Sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
-- Sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
-- Sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
-- Sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
-- Sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Sobre o [vírus]{"entity": "pt_virus", "value": "COVID"}
-- a pandemia começou em Wuhan?
-- [COVID19]{"entity": "pt_virus", "value": "COVID"}
-- diz-me informações do assunto [19nCov]{"entity": "pt_virus", "value": "COVID"}
-- diz-me informações do assunto [2019nCov]{"entity": "pt_virus", "value": "COVID"}
-- diz-me informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
-- [doença]{"entity": "pt_virus", "value": "COVID"}
-- e o [19nCov]{"entity": "pt_virus", "value": "COVID"}
-- e o [COVID]{"entity": "pt_virus", "value": "COVID"}
-- e o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
-- e o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
-- e o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
-- e o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- e quanto ao [nCov]{"entity": "pt_virus", "value": "COVID"}
-- fala do assunto [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
-- fala sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
-- fala sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
-- fala sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
-- fala-me informações do assunto [COVID2019]{"entity": "pt_virus", "value": "COVID"}
-- fala-me sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
-- há informação do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Informação sobre o recente coronavírus
 - informações [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - informações [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - informações [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - informações [2019nCov]{"entity": "pt_virus", "value": "COVID"}
 - informações [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Informações [covid]{"entity": "pt_virus", "value": "COVID"}
 - informações [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- informações [nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações 19-nCoV
+- informações 19nCov
+- informações 2019-nCoV
+- informações 2019nCov
+- Informações COVID
+- informações COVID-2019
+- informações COVID2019
+- Informações do [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - informações do [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Informações do 19-nCoV
+- informações do 2019-nCoV
 - informações do assunto [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - informações do assunto [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - informações do assunto [2019nCov]{"entity": "pt_virus", "value": "COVID"}
 - informações do assunto [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - informações do assunto [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
 - informações do assunto [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto 19-nCoV
+- informações do assunto 19nCov
+- informações do assunto 2019nCov
+- informações do assunto COVID-19
+- informações do assunto COVID-2019
+- informações do assunto COVID2019
 - informações do assunto relacionado com o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- informações do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto relacionado com o novo coronavírus
+- informações do coronavírus
 - informações do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações do recente coronavírus
 - informações do tema [COVID-19]{"entity": "pt_virus", "value": "COVID"}
-- informações [nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações do tema COVID-19
+- informações nCoV
 - informações recentes sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações recentes sobre coronavírus
 - informações sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - informações sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Informações sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - informações sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
-- informações sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - informações sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [covid]{"entity": "pt_virus", "value": "COVID"}
 - informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
 - informações sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
 - informações sobre [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre 19-nCoV
+- informações sobre 19nCov
+- Informações sobre 2019-nCoV
+- informações sobre 2019nCov
+- informações sobre COVID
+- Informações sobre COVID-19
+- informações sobre COVID-2019
+- informações sobre COVID2019
+- informações sobre nCoV
+- informações sobre novo coronavírus
 - informações sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre novos coronavírus
 - informações sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - informações sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - informações sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - informações sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
 - informações sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Informações sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Informações sobre o [nCoV 2019]{"entity": "pt_virus", "value": "COVID"}
 - informações sobre o [nCoV]{"entity": "pt_virus", "value": "COVID"}
 - informações sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o 19-nCoV
+- informações sobre o 19nCov
+- informações sobre o 2019-nCoV
+- informações sobre o 2019nCov
+- informações sobre o COVID-2019
+- Informações sobre o COVID2019
+- informações sobre o nCoV
+- Informações sobre o nCoV 2019
+- informações sobre o novo coronavírus
 - informações sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- [nCoV]{"entity": "pt_virus", "value": "COVID"}
-- [nCoV]{"entity": "pt_virus", "value": "COVID"} mais informação
+- informações sobre o recente coronavírus
+- Manda informação sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Manda informação sobre o 2019-nCoV
+- Mostra informações sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Mostra informações sobre o nCoV
+- Não sei o que é [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [covid]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é 19-nCoV
+- Não sei o que é 19nCov
+- Não sei o que é 2019-nCoV
+- Não sei o que é 2019nCov
+- Não sei o que é COVID
+- Não sei o que é COVID-19
+- Não sei o que é COVID-2019
+- Não sei o que é COVID2019
+- Não sei o que é nCoV
+- Não sei o que é o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o 19-nCoV
+- Não sei o que é o 19nCov
+- Não sei o que é o 2019-nCoV
+- Não sei o que é o 2019nCov
+- Não sei o que é o COVID
+- Não sei o que é o COVID-19
+- Não sei o que é o COVID-2019
+- Não sei o que é o COVID2019
+- Não sei o que é o nCoV
+- Não sei o que é o novo coronavírus
+- Não sei o que é o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o recente coronavírus
+- Não sei qual é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Não sei qual é o novo coronavírus
+- Não sei qual é o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Não sei qual é o recente coronavírus
+- nCoV
+- nCoV mais informação
 - novas informações sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- novas informações sobre coronavírus
+- novo coronavírus
 - novos dados sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- novos dados sobre coronavírus
 - o que é [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - o que é [19nCov]{"entity": "pt_virus", "value": "COVID"}
 - o que é [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
 - o que é [2019nCov]{"entity": "pt_virus", "value": "COVID"}
 - o que é [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - o que é [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- O que é [covid]{"entity": "pt_virus", "value": "COVID"}
 - o que é [COVID2019]{"entity": "pt_virus", "value": "COVID"}
-- o que é esse [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - o que é [nCov]{"entity": "pt_virus", "value": "COVID"}
 - o que é [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- o que é 19-nCoV
+- o que é 19nCov
+- o que é 2019-nCoV
+- o que é 2019nCov
+- O que é a [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- O que é a [covid]{"entity": "pt_virus", "value": "COVID"}
+- O que é a covid
+- O que é a COVID-19?
+- O que é COVID
+- o que é COVID-19
+- o que é COVID-2019
+- o que é COVID2019
+- o que é esse [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- o que é esse vírus?
+- o que é nCoV
+- o que é novo coronavírus
 - o que é o [ccovid]?
+- O que é o [Corona vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O que é o [covid-18]{"entity": "pt_virus", "value": "COVID"}
+- O que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- O que é o [covid]{"entity": "pt_virus", "value": "COVID"}?
+- O que é o [covit19]{"entity": "pt_virus", "value": "COVID"}
+- O que é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- O que é o atual [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- O que é o atual coronavírus
+- o que é o ccovid?
+- O que é o Corona vírus?
+- o que é o covid 19
+- O que é o covid-18
+- O que é o COVID-19?
+- O que é o covid?
+- O que é o Covid19?
+- o que é o covif
+- O que é o covit19
+- O que é o novo coronavírus
+- O que é o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- O que é o recente coronavírus
+- O que é que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- O que é que é o covid-19
+- O que é um [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [covid]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [nCov]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- O que é um 19-nCoV
+- O que é um 19nCov
+- O que é um 2019-nCoV
+- O que é um 2019nCov
+- O que é um COVID
+- O que é um COVID-19
+- O que é um COVID-2019
+- O que é um COVID2019
+- O que é um nCoV
+- O que é um novo coronavírus
+- o que o covid 19
+- O que se passa sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- O que se passa sobre COVID-19
+- Olá olá como é o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Olá olá como é o covid
 - onde começou o surto?
 - onde começou?
 - onde o surto começou?
+- Onde surgiu o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Onde surgiu o vírus?
 - origem pandêmica
 - origem secreta
+- Pensava ser de origem animal
 - qual a origem do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- qual a origem do vírus?
+- Qual é a origem do surto?
+- Quando foi detectacta a [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quando foi detectacta a COVID-19?
 - que informações tens do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- que informações tens do novo coronavírus
+- Que me consegues dizer sobre o COVID-19?
 - que tal [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Que tal [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Que tal [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- que tal 19-nCoV
+- Que tal 2019-nCoV
+- Que tal 2019nCov
+- Que tal informações sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Que tal informações sobre COVID
+- Quero informações sobre o Covid19
+- Recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Recente [coronavírus]{"entity": "pt_virus", "value": "COVID"} mais info
+- Recente coronavírus
+- Recente coronavírus mais info
 - recentes informações sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- [vírus corona]{"entity": "pt_virus", "value": "COVID"}
+- recentes informações sobre coronavírus
+- Sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre 19-nCoV
+- Sobre 19nCov
+- Sobre 2019-nCoV
+- Sobre 2019nCov
+- Sobre a [covid]{"entity": "pt_virus", "value": "COVID"}
+- Sobre a COVID
+- Sobre COVID-19
+- Sobre COVID2019
+- Sobre nCoV
+- Sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [vírus]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o 19-nCoV
+- Sobre o 19nCov
+- Sobre o 2019-nCoV
+- Sobre o 2019nCov
+- Sobre o COVID
+- Sobre o COVID-19
+- Sobre o COVID-2019
+- Sobre o COVID2019
+- Sobre o nCoV
+- Sobre o novo coronavírus
+- Sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o recente coronavírus
+- Sobre o vírus
+- vírus corona
 
 ## intent:pt_covid_meaning
 - [COVID-19]{"entity": "pt_virus", "value": "COVID"} nome significado.
@@ -2783,36 +3189,62 @@
 - Diabetes
 
 ## intent:pt_covid_sars
-- Alterações entre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS
-- Alterações entre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a síndrome respiratória aguda grave
-- COVID e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- COVID e SARS.
-- COVID e Síndrome Respiratória Aguda Grave.
-- COVID é o mesmo que SARS?
-- COVID é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
 - [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS.
 - [COVID-19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
-- [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
-- [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
 - [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
 - [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
-- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
-- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
+- [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
 - [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS.
 - [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
-- [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
-- [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
 - [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
 - [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
-- [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
-- [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é diferente da síndrome respiratória aguda grave.
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e síndrome respiratória aguda grave.
+- Alterações entre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Alterações entre novos coronavírus e SARS
+- Alterações entre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a síndrome respiratória aguda grave
+- Alterações entre o novo coronavírus e a síndrome respiratória aguda grave
+- COVID é o mesmo que SARS?
+- COVID é o mesmo que Síndrome Respiratória Aguda Grave?
+- COVID e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- COVID e SARS são o mesmo vírus?
+- COVID e SARS.
+- COVID e Síndrome Respiratória Aguda Grave.
+- COVID-19 é o mesmo que SARS?
+- COVID-19 é o mesmo que Síndrome Respiratória Aguda Grave?
+- COVID-19 e SARS são o mesmo vírus?
+- COVID-19 e SARS.
+- COVID-19 e Síndrome Respiratória Aguda Grave.
+- COVID-2019 é o mesmo que SARS?
+- COVID-2019 é o mesmo que Síndrome Respiratória Aguda Grave?
+- COVID-2019 e SARS são o mesmo vírus?
+- COVID-2019 e SARS.
+- COVID-2019 e Síndrome Respiratória Aguda Grave.
+- COVID19 é o mesmo que SARS?
+- COVID19 é o mesmo que Síndrome Respiratória Aguda Grave?
+- COVID19 e SARS são o mesmo vírus?
+- COVID19 e SARS.
+- COVID19 e Síndrome Respiratória Aguda Grave.
+- COVID2019 é o mesmo que SARS?
+- COVID2019 é o mesmo que Síndrome Respiratória Aguda Grave?
+- COVID2019 e SARS são o mesmo vírus?
+- COVID2019 e SARS.
+- COVID2019 e Síndrome Respiratória Aguda Grave.
 - Diferença entre  a [COVID-19]{"entity": "pt_virus", "value": "COVID"} e a SARS.
-- Diferenças entre COVID e SARS
-- Diferenças entre COVID e síndrome respiratória aguda grave
+- Diferença entre  a COVID-19 e a SARS.
 - Diferenças entre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS
 - Diferenças entre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave
 - Diferenças entre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS
@@ -2821,20 +3253,37 @@
 - Diferenças entre [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave
 - Diferenças entre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS
 - Diferenças entre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave
-- Diferenças entre SARS e COVID
+- Diferenças entre COVID e SARS
+- Diferenças entre COVID e síndrome respiratória aguda grave
+- Diferenças entre COVID-19 e SARS
+- Diferenças entre COVID-19 e Síndrome Respiratória Aguda Grave
+- Diferenças entre COVID-2019 e SARS
+- Diferenças entre COVID-2019 e Síndrome Respiratória Aguda Grave
+- Diferenças entre COVID19 e SARS
+- Diferenças entre COVID19 e Síndrome Respiratória Aguda Grave
+- Diferenças entre COVID2019 e SARS
+- Diferenças entre COVID2019 e Síndrome Respiratória Aguda Grave
+- Diferenças entre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Diferenças entre novos coronavírus e SARS
+- Diferenças entre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave
+- Diferenças entre o novo coronavírus e a Síndrome Respiratória Aguda Grave
 - Diferenças entre SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}
 - Diferenças entre SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
 - Diferenças entre SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}
 - Diferenças entre SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}
 - Diferenças entre SARS e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Diferenças entre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS
-- Diferenças entre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave
+- Diferenças entre SARS e COVID
+- Diferenças entre SARS e COVID-19
+- Diferenças entre SARS e COVID-2019
+- Diferenças entre SARS e COVID19
+- Diferenças entre SARS e COVID2019
+- Diferenças entre SARS e novo coronavírus
 - Existe diferença entre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda
-  Grave.
+- Existe diferença entre o novo coronavírus e a Síndrome Respiratória Aguda Grave.
 - Informações do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
+- Informações do novo coronavírus e a Síndrome Respiratória Aguda Grave.
 - Informações dos novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
-- Informações sobre COVID e SARS.
-- Informações sobre COVID e Síndrome Respiratória Aguda Grave.
+- Informações dos novos coronavírus e SARS.
 - Informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS.
 - Informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
 - Informações sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
@@ -2843,82 +3292,141 @@
 - Informações sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
 - Informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
 - Informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Informações sobre COVID e SARS.
+- Informações sobre COVID e Síndrome Respiratória Aguda Grave.
+- Informações sobre COVID-19 e SARS.
+- Informações sobre COVID-19 e Síndrome Respiratória Aguda Grave.
+- Informações sobre COVID-2019 e SARS.
+- Informações sobre COVID-2019 e Síndrome Respiratória Aguda Grave.
+- Informações sobre COVID19 e SARS.
+- Informações sobre COVID19 e Síndrome Respiratória Aguda Grave.
+- Informações sobre COVID2019 e SARS.
+- Informações sobre COVID2019 e Síndrome Respiratória Aguda Grave.
+- Informações sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Informações sobre novos coronavírus e SARS.
+- Informações sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a síndrome respiratória aguda grave.
+- Informações sobre o novo coronavírus e a síndrome respiratória aguda grave.
 - Informações sobre SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - Informações sobre SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}.
-- Informações sobre SARS e COVID.
 - Informações sobre SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}.
 - Informações sobre SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
 - Informações sobre SARS e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Informações sobre SARS e COVID-19.
+- Informações sobre SARS e COVID-2019.
+- Informações sobre SARS e COVID.
+- Informações sobre SARS e COVID19.
+- Informações sobre SARS e COVID2019.
+- Informações sobre SARS e novo coronavírus.
 - Informações sobre SARS e novos [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
-- Informações sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
-- Informações sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a síndrome respiratória aguda grave.
-- O SARS é o mesmo que o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Informações sobre SARS e novos coronavírus.
+- novo coronavírus é diferente da síndrome respiratória aguda grave.
+- novo coronavírus e SARS são o mesmo vírus?
+- novo coronavírus e SARS.
+- novo coronavírus e síndrome respiratória aguda grave.
+- novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- novos coronavírus e SARS são o mesmo vírus?
+- novos coronavírus e SARS.
 - O [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é igual à Síndrome Respiratória Aguda Grave?
-- O [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que o SARS?
 - O [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o [virus]{"entity": "pt_virus", "value": "COVID"} do SARS?
-- O que é o sars?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa COVID é o mesmo que causa a Síndrome Respiratória Aguda
-  Grave?
+- O [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que o SARS?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa [COVID-19]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda Grave
-  são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o COVID são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o COVID ?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"}?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"}?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o COVID e o que causa a Síndrome Respiratória Aguda Grave
-  são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o COVID e o que causa o SARS são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o COVID é o mesmo que causa o SARS?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o COVID ?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o COVID são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa COVID é o mesmo que causa a Síndrome Respiratória Aguda
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome Respiratória Aguda
-  Grave?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda
-  Grave são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome Respiratória
-  Aguda Grave?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda Grave
-  são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome Respiratória Aguda
-  Grave?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda
-  Grave são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome Respiratória
-  Aguda Grave?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o que causa a SARS são os mesmos?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória
-  Aguda Grave são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o [vírus]{"entity": "pt_virus", "value": "COVID"} da SARS são os mesmos?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o [vírus]{"entity": "pt_virus", "value": "COVID"} da Síndrome Respiratória Aguda
-  Grave são os mesmos?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo da SARS?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome
-  Respiratória Aguda Grave ?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome
-  Respiratória Aguda Grave?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o que causa a SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o COVID é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o COVID e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o COVID e o que causa o SARS são os mesmos?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} que desenvolve a SARS é o mesmo que o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- O novo coronavírus é igual à Síndrome Respiratória Aguda Grave?
+- O novo coronavírus é o mesmo que o SARS?
+- O novo coronavírus é o virus do SARS?
+- O que é o sars?
+- O SARS é o mesmo que o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- O SARS é o mesmo que o novo coronavírus?
+- O vírus que causa a SARS é o mesmo que causa o COVID ?
+- O vírus que causa a SARS é o mesmo que causa o COVID-19?
+- O vírus que causa a SARS é o mesmo que causa o COVID-2019?
+- O vírus que causa a SARS é o mesmo que causa o COVID19?
+- O vírus que causa a SARS é o mesmo que causa o COVID2019?
+- O vírus que causa a SARS é o mesmo que causa o novo coronavírus?
+- O vírus que causa a SARS e o que causa novos coronavírus são os mesmos?
+- O vírus que causa a SARS e o que causa o COVID são os mesmos?
+- O vírus que causa a SARS e o que causa o COVID-19 são os mesmos?
+- O vírus que causa a SARS e o que causa o COVID-2019 são os mesmos?
+- O vírus que causa a SARS e o que causa o COVID19 são os mesmos?
+- O vírus que causa a SARS e o que causa o COVID2019 são os mesmos?
+- O vírus que causa a SARS e o que causa o novo coronavírus são os mesmos?
+- O vírus que causa COVID é o mesmo que causa a Síndrome Respiratória Aguda Grave?
+- O vírus que causa COVID-19 e o que causa a Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que causa o COVID é o mesmo que causa o SARS?
+- O vírus que causa o COVID e o que causa a Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que causa o COVID e o que causa o SARS são os mesmos?
+- O vírus que causa o COVID-19 é o mesmo que causa a Síndrome Respiratória Aguda Grave?
+- O vírus que causa o COVID-19 é o mesmo que causa o SARS?
+- O vírus que causa o COVID-19 e o que causa o SARS são os mesmos?
+- O vírus que causa o COVID-2019 é o mesmo que causa a Síndrome Respiratória Aguda Grave?
+- O vírus que causa o COVID-2019 é o mesmo que causa o SARS?
+- O vírus que causa o COVID-2019 e o que causa a Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que causa o COVID-2019 e o que causa o SARS são os mesmos?
+- O vírus que causa o COVID19 é o mesmo que causa a Síndrome Respiratória Aguda Grave?
+- O vírus que causa o COVID19 é o mesmo que causa o SARS?
+- O vírus que causa o COVID19 e o que causa a Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que causa o COVID19 e o que causa o SARS são os mesmos?
+- O vírus que causa o COVID2019 é o mesmo que causa a Síndrome Respiratória Aguda Grave?
+- O vírus que causa o COVID2019 é o mesmo que causa o SARS?
+- O vírus que causa o COVID2019 e o que causa a Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que causa o COVID2019 e o que causa o SARS são os mesmos?
+- O vírus que causa o novo coronavírus é o mesmo da SARS?
+- O vírus que causa o novo coronavírus é o mesmo que causa a Síndrome Respiratória Aguda Grave ?
+- O vírus que causa o novo coronavírus é o mesmo que causa a Síndrome Respiratória Aguda Grave?
+- O vírus que causa o novo coronavírus é o mesmo que causa o SARS?
+- O vírus que causa o novo coronavírus e o que causa a SARS são os mesmos?
+- O vírus que causa o novo coronavírus e o que causa a Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que causa o novo coronavírus e o vírus da SARS são os mesmos?
+- O vírus que causa o novo coronavírus e o vírus da Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que desenvolve a SARS é o mesmo que o novo coronavírus?
 - Recentes [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
-- SARS e [COVID]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Recentes coronavírus e SARS.
 - SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
 - SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}.
+- SARS e [COVID]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - SARS e [COVID]{"entity": "pt_virus", "value": "COVID"}.
 - SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}.
@@ -2926,42 +3434,78 @@
 - SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
 - SARS e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são diferentes
 - SARS e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e COVID são o mesmo vírus?
+- SARS e COVID-19 são o mesmo vírus?
+- SARS e COVID-19.
+- SARS e COVID-2019 são o mesmo vírus?
+- SARS e COVID-2019.
+- SARS e COVID.
+- SARS e COVID19 são o mesmo vírus?
+- SARS e COVID19.
+- SARS e COVID2019 são o mesmo vírus?
+- SARS e COVID2019.
+- SARS e novo coronavírus são diferentes
+- SARS e novo coronavírus são o mesmo vírus?
 - SARS e novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e novos coronavírus são o mesmo vírus?
 - SARS é o mesmo que [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - SARS é o mesmo que [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que [COVID]{"entity": "pt_virus", "value": "COVID"}?
 - SARS é o mesmo que [COVID19]{"entity": "pt_virus", "value": "COVID"}?
 - SARS é o mesmo que [COVID2019]{"entity": "pt_virus", "value": "COVID"}?
-- SARS é o mesmo que [COVID]{"entity": "pt_virus", "value": "COVID"}?
 - SARS é o mesmo que [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
-- Sobre [COVID]{"entity": "pt_virus", "value": "COVID"} e SARS.
-- Sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS.
-- Sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
-- Sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS.
-- Sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
-- Sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
-- Sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
-- Sobre SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
-- Sobre SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}.
-- Sobre SARS e [COVID]{"entity": "pt_virus", "value": "COVID"}.
-- Sobre SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}.
-- Sobre SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
-- Sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
-- Sobre o [COVID]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
-- Sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
-- Sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
-- Sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a síndrome respiratória aguda grave.
-- Síndrome Respiratória Aguda Grave e COVID são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que COVID-19?
+- SARS é o mesmo que COVID-2019?
+- SARS é o mesmo que COVID?
+- SARS é o mesmo que COVID19?
+- SARS é o mesmo que COVID2019?
+- SARS é o mesmo que novo coronavírus?
 - Síndrome Respiratória Aguda Grave e [COVID-19]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Síndrome Respiratória Aguda Grave e [COVID-2019]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Síndrome Respiratória Aguda Grave e [COVID19]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Síndrome Respiratória Aguda Grave e [COVID2019]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
 - Síndrome respiratória aguda grave e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
-- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e síndrome respiratória aguda grave.
-- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é diferente da síndrome respiratória aguda grave.
-- novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Síndrome Respiratória Aguda Grave e COVID são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Síndrome Respiratória Aguda Grave e COVID são o mesmo vírus?
+- Síndrome Respiratória Aguda Grave e COVID-19 são o mesmo vírus?
+- Síndrome Respiratória Aguda Grave e COVID-2019 são o mesmo vírus?
+- Síndrome Respiratória Aguda Grave e COVID19 são o mesmo vírus?
+- Síndrome Respiratória Aguda Grave e COVID2019 são o mesmo vírus?
+- Síndrome respiratória aguda grave e novo coronavírus são o mesmo vírus?
+- Sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Sobre COVID e SARS.
+- Sobre COVID-19 e SARS.
+- Sobre COVID-2019 e SARS.
+- Sobre COVID19 e SARS.
+- Sobre COVID19 e Síndrome Respiratória Aguda Grave.
+- Sobre COVID2019 e SARS.
+- Sobre COVID2019 e Síndrome Respiratória Aguda Grave.
+- Sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre novos coronavírus e SARS.
+- Sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
+- Sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
+- Sobre o [COVID]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
+- Sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a síndrome respiratória aguda grave.
+- Sobre o COVID e a Síndrome Respiratória Aguda Grave.
+- Sobre o COVID-19 e a Síndrome Respiratória Aguda Grave.
+- Sobre o COVID-2019 e a Síndrome Respiratória Aguda Grave.
+- Sobre o novo coronavírus e a síndrome respiratória aguda grave.
+- Sobre SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e COVID-19.
+- Sobre SARS e COVID-2019.
+- Sobre SARS e COVID.
+- Sobre SARS e COVID19.
+- Sobre SARS e COVID2019.
 
 ## intent:pt_country
 - em [Portugal]{"entity": "pt_country_code", "value": "PT"}
@@ -3213,94 +3757,130 @@
 - [Estónia]{"entity": "pt_country_code", "value": "EE"}
 
 ## intent:pt_covid_situation
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} em [Itália]{"entity": "pt_country_code", "value": "IT"}
+- [covid]{"entity": "pt_virus", "value": "COVID"} em [Bélgica]{"entity": "pt_country_code", "value": "BE"}
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} em [Noruega]{"entity": "pt_country_code", "value": "NO"}
 - ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} no Alentejo
+- ASUS de covid no Alentejo
+- casos
 - Casos de [covid]{"entity": "pt_virus", "value": "COVID"} no Alentejo
+- Casos de covid no Alentejo
+- Como está a situação em [Ucrânia]{"entity": "pt_country_code", "value": "UA"}?
 - Como estão as contagens no mundo?
 - Contagem infectada
+- Coronavirus em [Finlândia]{"entity": "pt_country_code", "value": "FI"}
+- de [corrige]{"entity": "pt_virus", "value": "COVID"} no Alentejo
+- de corrige no Alentejo
 - Diga-me os números reais.
 - Em que países é que se detetaram pessoas infetadas?
+- Estatísticas actualizadas em [Singapura]{"entity": "pt_country_code", "value": "SG"}
 - Estatísticas atualizadas do [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- Gostaria de saber se há casos em [Inglaterra]{"entity": "pt_country_code", "value": "GB"}
-- Mortos
-- Número de casos
-- Número de casos confirmados
-- Número de casos em todo o mundo.
-- Número de falecimentos
-- Número de infectados
-- Número de infectados mundialmente.
-- Número de infetados mundialmente.
-- Número de mortes
-- Número de mortes em todo o mundo.
-- Número de mortos
-- Olá. Quantos infetados existem em [portugal]{"entity": "pt_country_code", "value": "PT"}?
-- Quais as cidades mais afetadas
-- Quais são as cidades mais afetadas
-- Quais são as estatísticas mais recentes sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
-- Qual é o numero de internados com [covid]{"entity": "pt_virus", "value": "COVID"} em [portugal]{"entity": "pt_country_code", "value": "PT"}?
-- Qual é o número de casos confirmados?
-- Qual é o número de casos?
-- Qual é o número de infectados?
-- Qual é o número de mortes?
-- Qual é o número de mortos devido ao surto?
-- Quantas infecções existem em todo o mundo?
-- Quantas são as contagens no mundo?
-- Quanto mortos em [portugal]{"entity": "pt_country_code", "value": "PT"} por causa do coronavirus?
-- Quantoa mortos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
-- Quantos casos de [corrid] no mundo
-- Quantos casos de infetados há mundialmente?
-- Quantos casos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
-- Quantos casos existem em [portugal]{"entity": "pt_country_code", "value": "PT"}
-- Quantos casos foram registados hoje?
-- Quantos casos novos ha hoje?
-- Quantos infectados existem neste momento em [portugal]{"entity": "pt_country_code", "value": "PT"}?
-- Quantos infetados tem a [Turquia]{"entity": "pt_country_code", "value": "TR"}?
-- Quantos internados ha em [portugal]{"entity": "pt_country_code", "value": "PT"} beste momento?
-- Quantos mortos houve em [portugal]{"entity": "pt_country_code", "value": "PT"} hoje?
-- Quantos mortos temos hoje?
-- Sim. Sabes qual o país onde existe o maior número de infectados?
-- Situação atualizada do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
-- Statistics.
-- casos
-- de [corrige]{"entity": "pt_virus", "value": "COVID"} no Alentejo
+- Estatísticas atualizadas do Coronavirus
 - existem números
 - falar sobre os números
-- morte na [alemanha]{"entity": "pt_country_code", "value": "DE"}
-- numero de ifetados [portugal]{"entity": "pt_country_code", "value": "PT"}
-- numeros para [portugal]{"entity": "pt_country_code", "value": "PT"} hoje
-- número de infetados em [Grécia]{"entity": "pt_country_code", "value": "GR"}
-- o que é a contagem de mortes?
-- quais são os números e o galgo hoje
-- qual o numero de casos confirmados em [portugal]{"entity": "pt_country_code", "value": "PT"}?
-- qual o numero de pessoas nos cuidados intensivos por causa da [covid]{"entity": "pt_virus", "value": "COVID"} ?
-- quantas pessoas estão infectadas
-- quantas pessoas morreram hoje?
-- quantas pessoas no mundo estao infetadas ?
-- quantas pessoas no mundo têm [covid]{"entity": "pt_virus", "value": "COVID"} ?
-- quantos casos de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [portugal]{"entity": "pt_country_code", "value": "PT"}?
-- quantos casos há em [portugal]{"entity": "pt_country_code", "value": "PT"} no momento?
-- quantos casos há no mundo?
-- quantos mortos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
-- relação [covid]{"entity": "pt_virus", "value": "COVID"} no mundo
-- situação do [covid]{"entity": "pt_virus", "value": "COVID"} no mundo
-- situação mundial
-- [covid]{"entity": "pt_virus", "value": "COVID"} em [Bélgica]{"entity": "pt_country_code", "value": "BE"}
-- [COVID-19]{"entity": "pt_virus", "value": "COVID"} em [Itália]{"entity": "pt_country_code", "value": "IT"}
-- Como está a situação em [Ucrânia]{"entity": "pt_country_code", "value": "UA"}?
-- Coronavirus em [Finlândia]{"entity": "pt_country_code", "value": "FI"}
-- Estatísticas actualizadas em [Singapura]{"entity": "pt_country_code", "value": "SG"}
+- Gostaria de saber se há casos em [Inglaterra]{"entity": "pt_country_code", "value": "GB"}
+- Gostaria de saber se há casos em Évora
 - Informações [França]{"entity": "pt_country_code", "value": "FR"}
 - Informações actualizadas [Dinamarca]{"entity": "pt_country_code", "value": "DK"}
 - Informações sobre [Brasil]{"entity": "pt_country_code", "value": "BR"}
+- morte na [alemanha]{"entity": "pt_country_code", "value": "DE"}
+- morte na alemanha
+- Mortos
 - Notícias [Argentina]{"entity": "pt_country_code", "value": "AR"}
 - Notícias atuais [Venezuela]{"entity": "pt_country_code", "value": "VE"}
 - Notícias de [Ilhas Falkland]{"entity": "pt_country_code", "value": "FK"}
 - Notícias sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
-- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} em [Noruega]{"entity": "pt_country_code", "value": "NO"}
+- Número de casos
+- Número de casos confirmados
+- Número de casos em todo o mundo.
+- Número de falecimentos
+- numero de ifetados [portugal]{"entity": "pt_country_code", "value": "PT"}
+- numero de ifetados portugal
+- Número de infectados
+- Número de infectados mundialmente.
+- número de infetados em [Grécia]{"entity": "pt_country_code", "value": "GR"}
+- número de infetados em lisboa
+- Número de infetados mundialmente.
+- Número de mortes
+- Número de mortes em todo o mundo.
+- Número de mortos
+- numeros para [portugal]{"entity": "pt_country_code", "value": "PT"} hoje
+- numeros para portugal hoje
+- o que é a contagem de mortes?
+- Olá. Quantos infetados existem em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Olá. Quantos infetados existem em portugal?
+- Quais as cidades mais afetadas
+- Quais são as cidades mais afetadas
+- Quais são as estatísticas mais recentes sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as estatísticas mais recentes sobre coronavírus?
+- quais são os números e o galgo hoje
+- Quais são os países com mais casos?
+- Qual é o número de casos confirmados?
+- Qual é o número de casos?
+- Qual é o número de infectados?
+- Qual é o numero de internados com [covid]{"entity": "pt_virus", "value": "COVID"} em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Qual é o numero de internados com covid em portugal?
+- Qual é o número de mortes?
+- Qual é o número de mortos devido ao surto?
+- Qual é o país mais infectado pelo covid-19
+- Qual é o pais mais infetado no mundo?
+- qual o numero de casos confirmados em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- qual o numero de casos confirmados em Portugal?
+- qual o numero de pessoas nos cuidados intensivos por causa da [covid]{"entity": "pt_virus", "value": "COVID"} ?
+- qual o numero de pessoas nos cuidados intensivos por causa da covid ?
+- Qual país mais infetado?
+- Quantas infecções existem em todo o mundo?
+- quantas pessoas estão infectadas
+- quantas pessoas morreram hoje?
+- quantas pessoas no mundo estao infetadas ?
+- quantas pessoas no mundo têm [covid]{"entity": "pt_virus", "value": "COVID"} ?
+- quantas pessoas no mundo têm covid ?
+- Quantas são as contagens no mundo?
+- Quanto mortos em [portugal]{"entity": "pt_country_code", "value": "PT"} por causa do coronavirus?
+- Quanto mortos em Portugal por causa do coronavirus?
+- Quantoa mortos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Quantoa mortos em portugal?
+- Quantos casos de [corrid] no mundo
+- quantos casos de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Quantos casos de corrid no mundo
+- quantos casos de covid-19 há em Portugal?
+- Quantos casos de infetados há mundialmente?
+- Quantos casos de infetados há mundialmente?
+- Quantos casos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Quantos casos em Portugal?
+- Quantos casos existem em [portugal]{"entity": "pt_country_code", "value": "PT"}
+- Quantos casos existem em Portugal
+- Quantos casos foram registados hoje?
+- quantos casos há em [portugal]{"entity": "pt_country_code", "value": "PT"} no momento?
+- quantos casos há em portugal no momento?
+- quantos casos há no mundo?
+- quantos casos mundialmente
+- quantos casos no mundo?
+- Quantos casos novos ha hoje?
+- Quantos infectados existem neste momento em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Quantos infectados existem neste momento em Portugal?
+- Quantos infetados tem a [Turquia]{"entity": "pt_country_code", "value": "TR"}?
+- Quantos infetados tem a Turquia?
+- Quantos internados ha em [portugal]{"entity": "pt_country_code", "value": "PT"} beste momento?
+- Quantos internados ha em portugal beste momento?
+- quantos mortos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- quantos mortos em portugal?
+- Quantos mortos houve em [portugal]{"entity": "pt_country_code", "value": "PT"} hoje?
+- Quantos mortos houve em Portugal hoje?
+- Quantos mortos temos hoje?
+- relação [covid]{"entity": "pt_virus", "value": "COVID"} no mundo
+- relação covid no mundo
+- Sim. Sabes qual o país onde existe o maior número de infectados?
 - Situação [Suécia]{"entity": "pt_country_code", "value": "SE"}
 - Situação actual em [Suiça]{"entity": "pt_country_code", "value": "CH"}
 - Situação actualizada em [Polónia]{"entity": "pt_country_code", "value": "PL"}
+- Situação atualizada do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Situação atualizada do coronavírus
+- situação do [covid]{"entity": "pt_virus", "value": "COVID"} no mundo
+- situação do covid no mundo
 - Situação em [Russia]{"entity": "pt_country_code", "value": "RU"}
-- Quais são os países com mais casos?
+- situação mundial
+- Statistics.
 
 ## intent:pt_covid_situation_deaths
 - [República Federal da Alemã]{"entity": "pt_country_code", "value": "DE"} mortes.
@@ -3837,48 +4417,74 @@
 - Dores de cabeça tambem sao sintimaa?
 
 ## intent:pt_covid_worry
-- Preocupação com o surto
 - A [doença]{"entity": "pt_virus", "value": "COVID"} deve me deixar preocupado?
+- A doença deve me deixar preocupado?
+- Acreditas que vai ficar tudo bem?
+- Assustada com a situação de não serem feitos testes nos lares na zona do Alentejo(Portalegre).
+- Como diminuir o impacto psicológico da pandemia COVID-19 na sociedade portuguesa?
 - Como proceder sobre preocupações com a [doença]{"entity": "pt_virus", "value": "COVID"}.
-- Como proceder sobre preocupações com o surto.
+- Como proceder sobre preocupações com a doença.
 - Como proceder sobre preocupações com o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Como proceder sobre preocupações com o surto.
+- Como proceder sobre preocupações com o vírus.
+- complicada esta situação.
 - Deverei estar preocupado com o surto?
 - Devo estar preocupado com o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Devo estar preocupado com o vírus?
 - Devo me preocupar com [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
 - Devo me preocupar com a [doença]{"entity": "pt_virus", "value": "COVID"}?
-- Devo me preocupar com o surto?
+- Devo me preocupar com a doença?
+- Devo me preocupar com COVID-19?
 - Devo me preocupar com o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Devo me preocupar com o surto?
+- Devo me preocupar com o vírus?
 - E se eu pegar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- E se eu pegar o vírus?
+- empatia
 - Este [vírus]{"entity": "pt_virus", "value": "COVID"} deve me deixar preocupada.
+- Este vírus deve me deixar preocupada.
 - Estou afligida com o surto.
 - Estou angustiada com a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Estou angustiada com a doença.
+- Estou assustada com isto tudo
+- Estou muito preocupado com isto
 - Estou preocupada
+- estou preocupada com isso
 - Estou preocupado com a [doença]{"entity": "pt_virus", "value": "COVID"}.
-- Estou preocupado com o surto.
+- Estou preocupado com a doença.
 - Estou preocupado com o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Estou preocupado com o surto.
+- Estou preocupado com o vírus.
 - Estou preocupado.
 - Eu tenho medo.
+- isso não é bom...
 - O [COVID-19]{"entity": "pt_virus", "value": "COVID"} deve me deixar preocupado?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} é grave?
+- O COVID-19 deve me deixar preocupado?
 - O que fazer para canalizar a preocupação?
 - O que fazer para canalizar as preocupações?
 - O que fazer para canalizar o medo?
-- O [vírus]{"entity": "pt_virus", "value": "COVID"} é grave?
+- O vírus é grave?
+- Opção 1: Preocupação com o surto
+- Preocupação com o surto
 - Quais as fontes fidedignas de informação?
 - Sofro de ansiedade por causa do surto.
 - Tenho medo de pegar o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Tenho medo de pegar o vírus.
 - Tenho medo do [vírus]{"entity": "pt_virus", "value": "COVID"}.
-- complicada esta situação.
-- empatia
+- Tenho medo do vírus.
 
 ## intent:pt_covid_pregnancy
-- As mulheres grávidas são mais suscetíveis à infeção ou têm maior risco de
-  doenças graves, morbidade ou mortalidade com o [COVID-19]{"entity": "pt_virus", "value": "COVID"}, em comparação com o
-  público em geral?
+- As mulheres grávidas são mais suscetíveis à infeção ou têm maior risco de doenças graves, morbidade ou mortalidade com o [COVID-19]{"entity": "pt_virus", "value": "COVID"}, em comparação com o   público em geral?
+- As mulheres grávidas são mais suscetíveis à infeção ou têm maior risco de doenças graves, morbidade ou mortalidade com o COVID-19, em comparação com o público em geral?
 - As mulheres grávidas são mais suscetíveis à infeção?
-- Estou grávida, devo estar preocupada?
-- Gravidez e [covid]{"entity": "pt_virus", "value": "COVID"}
-- Mulheres grávidas e [covid]{"entity": "pt_virus", "value": "COVID"}
 - complicações na gravidez
+- Estou grávida, devo estar preocupada?
+- grávidas
+- Gravidez e [covid]{"entity": "pt_virus", "value": "COVID"}
+- Gravidez e covid
+- Mulheres grávidas e [covid]{"entity": "pt_virus", "value": "COVID"}
+- Mulheres grávidas e covid
 
 ## intent:pt_features_date
 - Consegues dizer a data de hoje?
@@ -4065,6 +4671,7 @@
 - Adieu
 - Adios
 - Agradeço a tua ajuda
+- até à próxima
 - Até amanhã
 - Até logo
 - Até loguinho
@@ -4072,10 +4679,12 @@
 - Até mais ver
 - Au revoir!
 - Boa Noite
+- bye
 - Chegou a minha hora
 - Deixa-me ir
 - Despeço-me
 - Devia de ir andando
+- é tudo. até à próxima
 - Então tchau
 - Espero falar contigo novamente
 - Eu disse adeus
@@ -4096,6 +4705,8 @@
 - Hora de ir
 - Indo
 - Já passou a minha hora
+- Mais nada. Adeus!
+- Muito grato pela informação dada. Adeus.
 - Obrigado Até mais logo
 - Obrigado pelo teu tempo.
 - Obrigado por o serviço
@@ -4108,13 +4719,13 @@
 - Saindo da sessão
 - Saindo...
 - Tchau
+- Té amanhã
 - Tem um bom dia
 - Tenho de ir
 - Tenho de ir andando
 - Tenho que correr.
 - Tenho que ir agora.
 - Terminar e desligar
-- Té amanhã
 - Vejo-te depois
 - Vemo-nos em breve.
 - Vemo-nos mais tarde
@@ -4123,6 +4734,7 @@
 - Voltaremos a ver-nos
 - Vou andando
 - Vou dormir
+- Xau
 
 ## intent:pt_greeting_hello
 - Aloha
@@ -4403,14 +5015,15 @@
 - São encaminhados para onde?
 
 ## intent:pt_portugal_government_measures
+- Medidas do governo português.
+- medidas governo português
 - Medidas do governo
-- Quais são as medidas do governo português face à pandemia?
+- Quais são as medidas do governo português face à pandemia?"
 
 ## intent:pt_portugal_ill_foreigner
 - Estou doente e não tenho médico de família.
 - Estou doente e sou estrangeiro.
-- No caso de estrangeiros e pessoas sem médico de família atribuído, quem devem
-  contactar e como?
+- No caso de estrangeiros e pessoas sem médico de família atribuído, quem devem contactar e como?
 - No caso de estrangeiros, quem devem contactar e como?
 - Sou estrangeiro e esto doente.
 - Sou estrangeiro e estou doente.
@@ -4433,23 +5046,39 @@
 
 ## intent:pt_prevention_clean_hands
 - A limpeza das mãos impedirá a captura do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- A limpeza das mãos impedirá a captura do vírus?
 - A limpeza das mãos impedirá a infecção da [doença]{"entity": "pt_virus", "value": "COVID"}?
+- A limpeza das mãos impedirá a infecção da doença?
+- com o quê devo lavar as mãos?
+- como desinfetar as mãos?
+- Como devo lavar as mãos?
+- Como higienizar as mãos?
+- como lavar as maos
+- Como lavar corretamente as mãos?
+- devo lavar as mãos
+- DEvo lavar as mãos com o quê?
+- devo lavar as mãos como?
+- É necessário lavar a cada quanto tempo?
+- Eu não tenho auco em gel como eu posso lava as minhas mãos
 - Importância da limpeza das mãos.
 - Importância de lavar as mãos.
 - Importância de ter as mãos limpas.
 - Lavando as mãos
 - Lavar as mãos evita que a [doença]{"entity": "pt_virus", "value": "COVID"} se manifeste?
+- Lavar as mãos evita que a doença se manifeste?
 - Lavar as mãos impedirá a captura do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Lavar as mãos impedirá a captura do vírus?
+- Lavar corretamente as mãos?
 - Lavar minhas mãos com sabão reduzirá minhas chances de ser infectado?
 - Lave as mãos
 - Limpando as mãos
-- Limpar minhas mãos com sabão reduzirá minhas chances de ser infectado?
 - Limpar minhas mãos com álcool ajuda a reduzir minhas chances de ser infectado?
+- Limpar minhas mãos com sabão reduzirá minhas chances de ser infectado?
 - Limpeza das mãos
 - Mãos limpas
 - Por que a limpeza das mãos é importante?
-- Por que lavar as mãos regularmente?
 - Por que lavar as mãos é importante?
+- Por que lavar as mãos regularmente?
 - Por que lavar as mãos?
 - Por que limpar as mãos regularmente?
 - Por que mãos limpas?
@@ -4457,14 +5086,14 @@
 - Prevenção de lavagem das mãos
 - Prevenção de lavar as mãos
 - Prevenção de mãos limpas
+- Quais formas devo manter a higiene?
+- quais os agentes que podem ser utilizados com eficácia para desinfetar as mãos?
 - Qual a importância de lavar as mãos?
 - Quantas vezes se deve lavar as mãos com
 - Quão importante é ter as mãos limpas?
+- Que gel devo utilizar para desinfetar as mãos?
 - Sobre a limpeza de mãos.
 - Sobre como lavar as mãos.
-- devo lavar as mãos
-- É necessário lavar a cada quanto tempo?
-- Quais formas devo manter a higiene?
 
 ## intent:pt_prevention_distance
 - A que distância devo estar de alguém a tossir ou espirrar?
@@ -4494,12 +5123,19 @@
 - Qual a distância de afastamento
 
 ## intent:pt_prevention_entering_home
-- Entrar em casa
-- O que fazer ao entrar em casa?
-- Que cuidados ter ao entrar em casa?
-- Tenho de deixar os sapatos na rua?
+- Devo lavar os sacos de compras?
 - devo lavar os sapatos antes de entrar em casa?
 - Devo mudar de roupa ao chegar a casa?
+- Entrar em casa
+- limpeza de calçados
+- limpeza de sapatos
+- O que fazer ao entrar em casa?
+- Porque é que é qua quando entro em casa devo deixar os sapatos na rua?
+- quais os cuidados que devo ter ao chegar em casa?
+- quais os cuidados que devo ter ao entrar em casa?
+- Quando entro em casa devo deixar os sapatos na rua?
+- Que cuidados ter ao entrar em casa?
+- Tenho de deixar os sapatos na rua?
 
 ## intent:pt_prevention_food
 - O que devo fazer à fruta que comprei no supermercado?
@@ -4653,6 +5289,9 @@
 - o que não devo fazer?
 
 ## intent:pt_prevention_medical_attention
+- Caso apresente algum destes, o que devo fazer ?
+- Caso tenha sintomas, quem devo contactar?
+- Caso tenha tosse e febre, o que é que devo fazer?
 - Como devo fazer se estiver infectado?
 - Como posso contactar a saude 24?
 - Como proceder em caso de dificuldade em respirar?
@@ -4669,14 +5308,13 @@
 - Como sei que estou infectado?
 - Como sei se estou doente?
 - Como sei se estou infectado?
+- contacto com infectado
 - Devo ir ao hospital?
 - Devo ligar para a assistência médica se estiver doente?
 - Devo ligar para o serviço de saúde se estiver com tosse?
 - Devo ligar para o serviço de saúde se tiver dificuldade em respirar?
-- Devo ligar para o serviço de saúde se tiver febre, tosse e dificuldade em
-  respirar?
-- Devo ligar para o serviço de saúde se tiver febre, tosse ou dificuldade em
-  respirar?
+- Devo ligar para o serviço de saúde se tiver febre, tosse e dificuldade em respirar?
+- Devo ligar para o serviço de saúde se tiver febre, tosse ou dificuldade em respirar?
 - Devo ligar para o serviço de saúde se tiver febre?
 - Devo procurar imediatamente atendimento médico se tiver febre?
 - E se a febre estiver alta?
@@ -4685,17 +5323,24 @@
 - Estou com febre.
 - Estou com tosse.
 - Estou infectado, o que devo fazer?
+- eu tenho covid 19?
 - Eu tenho o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Eu tenho o vírus?
+- gostaria de saber o que é que eu poderei fazer ou a quem me posso dirigir se tiver sintomas de tosse, rouquidão ou febre?
 - Minha temperatura está acima de 38 graus, devo me preocupar?
 - Minha temperatura está acima de 38 graus.
 - Minha temperatura está acima de 39 graus. Devo me preocupar?
 - Não sei o que fazer se tiver o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Não sei o que fazer se tiver o vírus.
 - Não sei se tenho o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Não sei se tenho o vírus.
+- numero telefone
 - O que devo fazer se tiver sintomas?
 - O que fazer em caso de dificuldade em respirar?
 - O que fazer em caso de febre, tosse e dificuldade em respirar?
 - O que fazer em caso de febre, tosse ou dificuldade em respirar?
 - O que fazer em caso de febre?
+- o que fazer em caso de sintomas
 - O que fazer em caso de tosse?
 - O que fazer quando se tem sintomas
 - O que fazer se estiver com febre?
@@ -4703,85 +5348,154 @@
 - O que fazer se eu tiver febre, tosse e dificuldade em respirar?
 - O que fazer se eu tiver febre, tosse ou dificuldade em respirar?
 - O que fazer se eu tossir?
+- O que fazer se tiver infetado?
+- o que fazer se tiver sintomas?
 - O que fazer, caso tenhamos sintomas?
+- Olá Helena, tenho febre o que devo fazer?
+- Onde me dirijo se tiver sintomas?
+- perda de sentidos
+- Posso optar por me dirigir a um Hospital ?
 - Preciso de um médico.
 - Preciso de um médico. E agora?
+- qual é o número do sns24
 - Quando ligar para o serviço de saúde?
 - Quando procurar atendimento médico?
-- Tenho dificuldade em respirar.
-- Tenho sintomas. O que fazer?
-- numero telefone
-- o que fazer em caso de sintomas
-- o que fazer se tiver sintomas?
-- qual é o número do sns24
 - quando tenho de ir ao medico
 - que hospital?
+- sintomas procedimento
 - sou grupo de risco e estou com sintomas
+- Sou o António e gostaria de saber o que é que eu poderei fazer ou a quem me posso dirigir se tiver sintomas de tosse, rouquidão ou febre?
+- Tenho dificuldade em respirar.
+- Tenho febre e tosse, devo ir ao médico?
+- Tenho febre. O que devo fazer
+- tenho febre. Que devo fazer?
+- Tenho sintomas. O que fazer?
 
 ## intent:pt_prevention_medicine
+- [vírus]{"entity": "pt_virus", "value": "COVID"} tem medicamentos especializados?
 - Acreditas que poderá existir cura para o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Acreditas que poderá existir cura para o vírus?
+- como curar esta [doença]{"entity": "pt_virus", "value": "COVID"}?
+- como curar esta doença?
+- como está o tratamento
+- como tratar os sintomas?
+- consegue destruir o [COVID-19]{"entity": "pt_virus", "value": "COVID"} em 48 horas... é verdade?
+- Convid 19 tem medicamentos especializados?
 - De que formas podem ser tratados os sintomas?
+- E existe vacina?
 - Existe algum medicamento para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe algum medicamento para tratar COVID-19?
 - Existe algum medicamento?
 - Existe tratamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe tratamento para COVID-19?
 - Existe um medicamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe um medicamento para COVID-19?
 - Existe um medicamento para o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe um medicamento para o COVID-19?
 - Existe um medicamento para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe um medicamento para tratar COVID-19?
 - Existe um medicamento?
 - Existe um tratamento?
 - Existe uma vacina para [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe uma vacina para COVID-19?
 - Existe uma vacina para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe uma vacina para tratar COVID-19?
 - Existe uma vacina, medicamento ou tratamento para o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe uma vacina, medicamento ou tratamento para o COVID-19?
 - Existe uma vacina, medicamento ou tratamento?
-- Existe vacina ?
+- existe uma vacina?
 - Existe vacina para o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Existe vacina para o vírus?
+- Existe vacina?
 - Existem medicamentos para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Existem medicamentos para [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Existem medicamentos para COVID-19.
+- existem medicamentos para prevenir a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- existem medicamentos para prevenir a doença?
+- existem vacinas para prevenir a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- existem vacinas para prevenir a doença?
+- Existente cura
 - Há algum medicamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Há algum medicamento para COVID-19.
 - Há disponibilidade de medicamentos para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Há disponibilidade de medicamentos para tratar [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Há disponibilidade de medicamentos para tratar COVID-19.
 - Informação de medicamento para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Informação de medicamento para tratar COVID-19.
+- já existe vacina para o [virus]{"entity": "pt_virus", "value": "COVID"}?
+- Já existe vacina?
+- já tem vacina?
 - Mas como tratar os sintomas?
+- medicação
+- Medicamentos
+- para quando um tratamento?
 - Posso tomar aspirina para [covid]{"entity": "pt_virus", "value": "COVID"}?
+- Posso tomar aspirina para [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Posso tomar aspirina para covid?
 - Posso tomar aspirina?
+- quais os medicamentos utilizados para tratar a COVID-19?
+- Qual é a cura do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual é a cura do coronavirus?
 - Qual é a cura?
+- Qual o medicamento ou medicamentos que estso a ser  utilizados no tratamento do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Qual o medicamento ou medicamentos que estso a ser  utilizados no tratamento do coronavirus.
+- Qual o medicamento ou medicamentos que estso a ser  utilizados no tratsmento do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Qual o medicamento ou medicamentos que estso a ser  utilizados no tratsmento do coronavirus.
+- Qual o tratamento para a [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual o tratamento para a COVID-19?
+- Qual o tratamento?
 - Quando chega a vacina?
+- Quando é que chega a vacina?
+- Quando será disponibilizada uma vacina para a [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quando será disponibilizada uma vacina para a COVID-19 em Portugal?
+- quando vai haver uma vacina?
 - Relativamente à vacina? Ouve se dizer que já se descobriu o fármaco que
-  consegue destruir o [COVID-19]{"entity": "pt_virus", "value": "COVID"} em 48 horas... é verdade?
+- Relativamente à vacina? Ouve se dizer que já se descobriu o fármaco que consegue destruir o [vírus]{"entity": "pt_virus", "value": "COVID"} em 48 horas... é verdade?
+- Relativamente à vacina? Ouve se dizer que já se descobriu o fármaco que consegue destruir o COVID-19 em 48 horas... é verdade?
+- remédio
 - Sobre drogas.
 - Sobre medicamentos para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre medicamentos para [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre medicamentos para COVID-19.
 - Sobre medicamentos para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre medicamentos para tratar [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre medicamentos para tratar COVID-19.
 - Sobre medicamentos.
 - Sobre o tratamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre o tratamento para COVID-19.
 - Sobre o tratamento.
 - Sobre um medicamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre um medicamento para COVID-19.
 - Sobre um medicamento para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre um medicamento para tratar COVID-19.
 - Sobre um medicamento.
 - Sobre um tratamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre um tratamento para COVID-19.
 - Sobre um tratamento.
 - Sobre uma droga.
 - Sobre uma vacina para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre uma vacina para COVID-19.
 - Sobre uma vacina para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre uma vacina para tratar COVID-19.
 - Sobre uma vacina, medicamento ou tratamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre uma vacina, medicamento ou tratamento para COVID-19.
 - Sobre uma vacina, medicamento ou tratamento.
 - Sobre uma vacina.
 - Sobre vacinas para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre vacinas para COVID-19."
 - Sobre vacinas para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre vacinas para tratar [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre vacinas para tratar COVID-19.
 - Sobre vacinas, medicamentos ou tratamentos para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre vacinas, medicamentos ou tratamentos para COVID-19.
 - Sobre vacinas, medicamentos ou tratamentos.
 - Sobre vacinas.
+- Tratamento covid-19
 - Tratamento por vacina?
 - Tudo bem. Mas como tratar os sintomas?
 - Vacina
-- como curar esta [doença]{"entity": "pt_virus", "value": "COVID"}?
-- como está o tratamento
-- como tratar os sintomas?
-- existe uma vacina?
-- existem medicamentos para prevenir a [doença]{"entity": "pt_virus", "value": "COVID"}?
-- existem vacinas para prevenir a [doença]{"entity": "pt_virus", "value": "COVID"}?
-- já existe vacina para o [virus]{"entity": "pt_virus", "value": "COVID"}?
-- medicação
-- para quando um tratamento ?
-- remédio
 - vacina [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- vacina covid-19
 - vacina disponivel?
 
 ## intent:pt_prevention_respiratory_hygiene
@@ -4833,11 +5547,16 @@
 - Cobrir o nariz quando espirro ajudará a evitar a propagação?
 - Cobrir o nariz quando tossir ajudará a evitar a propagação?
 - Como seguir uma boa higiene respiratória?
+- etiqueta respiratória
+- higien
+- higiene
+- higiéne
+- higienização
+- O que é uma boa higiene respiratória?
 - O que fazer ao tossir ou espirrar?
 - O que fazer ao tossir?
 - O que fazer quando espirrar ou tossir?
 - O que fazer quando espirrar?
-- O que é uma boa higiene respiratória?
 - Siga uma boa higiene respiratória.
 
 ## intent:pt_prevention_touch
@@ -5147,16 +5866,28 @@
 - Obrigado. Já agora como é que o [vírus]{"entity": "pt_virus", "value": "COVID"} se espalha? 
 
 ## intent:pt_spread_no_symptoms
+- A pediatra dos meus miúdos acusou positivo de COVID 19, tivemos consulta com ela há 15 dias, à partida não haverá caso de alarme certo?
 - Alguém que não tem sintomas pode disseminar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém que não tem sintomas pode disseminar o vírus?
 - Alguém que não tem sintomas pode ser infeccioso?
 - Alguém que não tem sintomas pode transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém que não tem sintomas pode transmitir o vírus?
 - Alguém sem sintomas pode dispersar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode dispersar o vírus?
 - Alguém sem sintomas pode disseminar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode disseminar o vírus?
 - Alguém sem sintomas pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode espalhar o vírus?
 - Alguém sem sintomas pode me pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode me pegar o COVID-19?
 - Alguém sem sintomas pode ser infeccioso?
 - Alguém sem sintomas pode transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode transmitir o vírus?
+- Antes do aparecimento de sintomas, a pessoa pode transmitir a infeção?
+- antissomático
 - As pessoas sem sintomas podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- As pessoas sem sintomas podem transmitir o vírus?
+- assintomático
 - O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em alguém que não apresenta sintomas?
 - O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em alguém sem sintomas?
 - O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser detectado por alguém sem sintomas?
@@ -5171,22 +5902,46 @@
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em pessoas sem sintomas?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser espalhado por uma pessoa sem sintomas?
 - O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser propagado numa pessoa sem sintomas?
+- O COVID-19 pode ser detectado em alguém que não apresenta sintomas?
+- O COVID-19 pode ser detectado por alguém sem sintomas?
+- O COVID-19 pode ser detectado por uma pessoa que não apresenta sintomas?
+- O COVID-19 pode ser disseminado por uma pessoa sem sintomas?
+- O COVID-19 pode ser transmitido por uma pessoa sem sintomas?
+- o que é uma pessoa asintomática
+- O vírus pode ser adquirido através de alguém sem sintomas?
+- O vírus pode ser contraido vindo de alguém assintomático?
+- O vírus pode ser detectado em alguém que não apresenta sintomas?
+- O vírus pode ser detectado em alguém sem sintomas?
+- O vírus pode ser detectado em pessoas que não apresentam sintomas?
+- O vírus pode ser detectado em pessoas sem sintomas?
+- O vírus pode ser espalhado por uma pessoa sem sintomas?
+- O vírus pode ser propagado numa pessoa sem sintomas?
 - Pessoas assintomáticas podem ser infecciosas?
 - Pessoas assintomáticas podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas assintomáticas podem transmitir o vírus?
 - Pessoas que não apresentam sintomas podem ser infecciosas?
 - Pessoas que não apresentam sintomas podem transmitir [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas que não apresentam sintomas podem transmitir COVID-19?
 - Pessoas que não apresentam sintomas podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas que não apresentam sintomas podem transmitir o vírus?
 - Pessoas que não apresentam sintomas podem transmitir?
 - Pessoas sem sintomas podem espalhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas sem sintomas podem espalhar COVID-19?
 - Pessoas sem sintomas podem espalhar?
 - Pessoas sem sintomas podem ser infecciosas?
 - Pessoas sem sintomas podem transmitir [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas sem sintomas podem transmitir COVID-19?
 - Pessoas sem sintomas podem transmitir?
 - Pessoas sem sintomas visíveis podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas sem sintomas visíveis podem transmitir o vírus?
 - Posso adquirir [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso adquirir COVID-19 de pessoas sem sintomas?
 - Posso adquirir o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas?
 - Posso adquirir o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas?
+- Posso adquirir o vírus de alguém sem sintomas?
+- Posso adquirir o vírus de uma pessoa sem sintomas?
 - Posso apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso apanhar COVID-19 de pessoas sem sintomas?
 - Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas?
 - Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas?
 - Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas assintomáticas?
@@ -5203,84 +5958,81 @@
 - Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
 - Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas?
 - Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas?
+- Posso apanhar o COVID-19 de alguém que não apresenta sintomas?
+- Posso apanhar o COVID-19 de alguém sem sintomas?
+- Posso apanhar o COVID-19 de pessoas assintomáticas?
+- Posso apanhar o COVID-19 de pessoas que não apresentam sintomas?
+- Posso apanhar o COVID-19 de pessoas sem sintomas?
+- Posso apanhar o COVID-19 de uma pessoa que não apresenta sintomas visíveis?
+- Posso apanhar o COVID-19 de uma pessoa que não apresenta sintomas?
+- Posso apanhar o COVID-19 de uma pessoa sem sintomas?
+- Posso apanhar o COVID-19 por uma pessoa assintomática?
+- Posso apanhar o COVID-19 por uma pessoa sem sintomas?
+- Posso apanhar o vírus de alguém que não apresenta sintomas?
+- Posso apanhar o vírus de alguém sem sintomas?
+- Posso apanhar o vírus de pessoas que não apresentam sintomas?
+- Posso apanhar o vírus de pessoas sem sintomas?
+- Posso apanhar o vírus de uma pessoa que não apresenta sintomas?
+- Posso apanhar o vírus de uma pessoa sem sintomas?
 - Posso contrair o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas?
 - Posso contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas?
 - Posso contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de pessoas assintomáticas?
 - Posso contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não mostra sintomas?
+- Posso contrair o COVID-19 de alguém que não apresenta sintomas?
+- Posso contrair o vírus de alguém que não apresenta sintomas?
+- Posso contrair o vírus de pessoas assintomáticas?
+- Posso contrair o vírus de uma pessoa que não mostra sintomas?
 - Posso ficar com o [vírus]{"entity": "pt_virus", "value": "COVID"} através de pessoas sem sintomas?
+- Posso ficar com o vírus através de pessoas sem sintomas?
 - Posso ficar contaminado com o [vírus]{"entity": "pt_virus", "value": "COVID"} por pessoas que não demonstram sintomas?
+- Posso ficar contaminado com o vírus por pessoas que não demonstram sintomas?
 - Posso ficar contaminado pelo [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas?
+- Posso ficar contaminado pelo vírus de uma pessoa sem sintomas?
+- Posso ficar contaminado por pessoas sem sintomas?
 - Posso ficar contaminado por pessoas sem sintomas?
 - Posso ficar doente com [COVID-19]{"entity": "pt_virus", "value": "COVID"} por uma pessoa que não apresenta sintomas?
+- Posso ficar doente com COVID-19 por uma pessoa que não apresenta sintomas?
 - Posso ser contagiado com [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso ser contagiado com COVID-19 de pessoas sem sintomas?
 - Posso ter [COVID-19]{"entity": "pt_virus", "value": "COVID"} vindo de pessoas que não apresentam sintomas?
+- Posso ter COVID-19 vindo de pessoas que não apresentam sintomas?
 - Posso ter o [vírus]{"entity": "pt_virus", "value": "COVID"} vindo de uma pessoa sem sintomas?
+- Posso ter o vírus vindo de uma pessoa sem sintomas?
+- posso transmitir vírus
 - Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas.
 - Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas.
 - Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não tem sintomas.
 - Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas.
+- Risco de apanhar COVID-19 de alguém sem sintomas.
+- Risco de apanhar COVID-19 de uma pessoa que não apresenta sintomas.
+- Risco de apanhar COVID-19 de uma pessoa que não tem sintomas.
+- Risco de apanhar COVID-19 de uma pessoa sem sintomas.
 - Risco de apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém que não tem sintomas.
 - Risco de apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas.
 - Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas.
 - Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas.
 - Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas.
 - Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas.
-- Risco de contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas.
+- Risco de apanhar o COVID-19 de alguém que não tem sintomas.
+- Risco de apanhar o COVID-19 de alguém sem sintomas.
+- Risco de apanhar o vírus de alguém que não apresenta sintomas.
+- Risco de apanhar o vírus de alguém sem sintomas.
+- Risco de apanhar o vírus de uma pessoa que não apresenta sintomas.
+- Risco de apanhar o vírus de uma pessoa sem sintomas.
 - Risco de contágio do [vírus]{"entity": "pt_virus", "value": "COVID"} por alguém sem sintomas.
+- Risco de contágio do vírus por alguém sem sintomas.
+- Risco de contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas.
+- Risco de contrair o vírus de uma pessoa sem sintomas.
 - Uma pessoa assintomática pode me passar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Uma pessoa assintomática pode me passar COVID-19?
 - Uma pessoa assintomática pode ser infecciosa?
+- Vimos numa informação que o contágio ocorre apenas 1 dia antes da apresentação de sintomas, é verdade?
 
 ## intent:pt_spread_pets
+- animais de estimação
 - Animais domésticos
-- Meu animal de estimação pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- Meu cão da família pode me infectar?
-- Meu cão pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
-- Meu cão pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- Meu gato da família pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- Meu gato da família pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
-- Meu gato da família pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- Meu gato da família pode me infectar?
-- O cão da minha família pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
-- O cão da minha família pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- O meu animal de companhia pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- O meu animal de companhia pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
-- O meu animal de companhia pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- O meu animal de companhia pode me infectar?
-- O meu animal de estimação da família pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- O meu animal de estimação da família pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
-- O meu animal de estimação da família pode espalhar o [virus]{"entity": "pt_virus", "value": "COVID"}?
-- O meu animal de estimação da família pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- O meu animal de estimação da família pode me infectar?
-- O meu animal de estimação pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- O meu animal de estimação pode apanhar ou espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- O meu animal de estimação pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
-- O meu animal de estimação pode me infectar?
-- O meu animal de estimação pode transmitir o [virus]{"entity": "pt_virus", "value": "COVID"} à família?
-- O meu cachorro pode me infectar?
-- O meu cão da família pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- O meu cão pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- O meu gato pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- O meu gato pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
-- O meu gato pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
-- O meu gato pode me infectar?
-- Os animais domésticos podem transmitir o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
-- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do cão da minha família?
-- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu animal de companhia?
-- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu animal de estimação da família?
-- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu animal de estimação?
-- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu cachorro?
-- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu gato de família?
-- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu gato?
-- Posso apanhar o [virus]{"entity": "pt_virus", "value": "COVID"} pelo meu animal de companhia?
-- Posso ficar doente através de animais de companhia?
-- Posso ser infetado pelo animal de estimação da minha família?
-- Posso ser infetado pelo cão da minha família?
-- Posso ser infetado pelo gato da minha família?
-- Posso ser infetado pelo meu animal de companhia?
-- Posso ser infetado pelo meu animal de estimação?
-- Posso ser infetado pelo meu cão?
-- Posso ser infetado pelo meu gato?
 - É possível apanhar a [doença]{"entity": "pt_virus", "value": "COVID"} vinda dos cães da família?
+- É possível apanhar a doença vinda dos cães da família?
 - É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de animais de companhia?
 - É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de animais de estimação?
 - É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de cães da família?
@@ -5295,11 +6047,27 @@
 - É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do meu gato?
 - É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} em animais de estimação da família?
 - É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} no meu animal de estimação da família?
+- É possível apanhar o vírus de animais de companhia?
+- É possível apanhar o vírus de animais de estimação?
+- É possível apanhar o vírus de cães da família?
+- É possível apanhar o vírus de cães?
+- É possível apanhar o vírus de gatos da família?
+- É possível apanhar o vírus de gatos?
+- É possível apanhar o vírus do cão da minha família?
+- É possível apanhar o vírus do meu animal de companhia?
+- É possível apanhar o vírus do meu animal de estimação?
+- É possível apanhar o vírus do meu cão?
+- É possível apanhar o vírus do meu gato da família?
+- É possível apanhar o vírus do meu gato?
+- É possível apanhar o vírus em animais de estimação da família?
+- É possível apanhar o vírus no meu animal de estimação da família?
 - É possível contrair o [virus]{"entity": "pt_virus", "value": "COVID"} através de cães?
+- É possível contrair o virus através de cães?
 - É possível estar infetado pelo meu gato de família?
 - É possível estar infetado pelo meu gato?
 - É possível estar infetado por gatos de família?
 - É possível o meu gato de família ter me passado o [virus]{"entity": "pt_virus", "value": "COVID"}?
+- É possível o meu gato de família ter me passado o virus?
 - É possível ser contaminado por animais de estimação da família?
 - É possível ser contaminado por animais de estimação?
 - É possível ser infetado pelo cachorro da minha família?
@@ -5318,6 +6086,89 @@
 - É possível ser infetado por gatos da família?
 - É possível ser infetado por gatos?
 - É possível vir a ser infetado por gatos?
+- Meu animal de estimação pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Meu animal de estimação pode espalhar o vírus?
+- Meu cão da família pode me infectar?
+- Meu cão pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Meu cão pode espalhar a doença?
+- Meu cão pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Meu cão pode espalhar o vírus?
+- Meu gato da família pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Meu gato da família pode apanhar o vírus?
+- Meu gato da família pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Meu gato da família pode espalhar a doença?
+- Meu gato da família pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Meu gato da família pode espalhar o vírus?
+- Meu gato da família pode me infectar?
+- O cão da minha família pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O cão da minha família pode espalhar a doença?
+- O cão da minha família pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O cão da minha família pode espalhar o vírus?
+- O meu animal de companhia pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de companhia pode apanhar o vírus?
+- O meu animal de companhia pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de companhia pode espalhar a doença?
+- O meu animal de companhia pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de companhia pode espalhar o vírus?
+- O meu animal de companhia pode me infectar?
+- O meu animal de estimação da família pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação da família pode apanhar o vírus?
+- O meu animal de estimação da família pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação da família pode espalhar a doença?
+- O meu animal de estimação da família pode espalhar o [virus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação da família pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação da família pode espalhar o virus?
+- O meu animal de estimação da família pode me infectar?
+- O meu animal de estimação pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação pode apanhar o vírus?
+- O meu animal de estimação pode apanhar ou espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação pode apanhar ou espalhar o vírus?
+- O meu animal de estimação pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação pode espalhar a doença?
+- O meu animal de estimação pode me infectar?
+- O meu animal de estimação pode transmitir o [virus]{"entity": "pt_virus", "value": "COVID"} à família?
+- O meu animal de estimação pode transmitir o virus à família?
+- O meu cachorro pode me infectar?
+- O meu cão da família pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu cão da família pode apanhar o vírus?
+- O meu cão pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu cão pode apanhar o vírus?
+- O meu gato pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu gato pode apanhar o vírus?
+- O meu gato pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O meu gato pode espalhar a doença?
+- O meu gato pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu gato pode espalhar o vírus?
+- O meu gato pode me infectar?
+- Os animais domésticos podem transmitir o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Os animais domésticos podem transmitir o COVID-19?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do cão da minha família?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu animal de companhia?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu animal de estimação da família?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu animal de estimação?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu cachorro?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu gato de família?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu gato?
+- Posso apanhar o [virus]{"entity": "pt_virus", "value": "COVID"} pelo meu animal de companhia?
+- Posso apanhar o COVID-19 do cão da minha família?
+- Posso apanhar o COVID-19 do meu animal de companhia?
+- Posso apanhar o COVID-19 do meu animal de estimação da família?
+- Posso apanhar o COVID-19 do meu animal de estimação?
+- Posso apanhar o COVID-19 do meu cachorro?
+- Posso apanhar o COVID-19 do meu gato de família?
+- Posso apanhar o COVID-19 do meu gato?
+- Posso apanhar o virus pelo meu animal de companhia?
+- Posso ficar doente através de animais de companhia?
+- posso pegar coronavirus do meu animal de estimação
+- posso pegar coronavirus do meu cão?
+- posso pegar coronavirus do meu gato?
+- Posso ser infetado pelo animal de estimação da minha família?
+- Posso ser infetado pelo cão da minha família?
+- Posso ser infetado pelo gato da minha família?
+- Posso ser infetado pelo meu animal de companhia?
+- Posso ser infetado pelo meu animal de estimação?
+- Posso ser infetado pelo meu cão?
+- Posso ser infetado pelo meu gato?
 
 ## intent:pt_spread_risk
 - Chances de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
@@ -5379,10 +6230,13 @@
 - risco
 
 ## intent:pt_spread_surfaces_food_objects
-- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido através de alimentos, incluindo os
-  refrigerados e congelados?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido através de alimentos, incluindo os refrigerados e congelados?
 - O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido através de alimentos?
 - O [virus]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido através de alimentos?
+- o coronavírus pode ser transmitido através dos alimentos?
+- O COVID-19 pode ser transmitido através de alimentos, incluindo os refrigerados e congelados?
+- O COVID-19 pode ser transmitido através de alimentos?
+- O virus pode ser transmitido através de alimentos?
 - Transmissão através de alimentos
 
 ## intent:pt_state_emergency_info
@@ -5425,9 +6279,13 @@
 - quantos testes são realizados diariamente em portugal ?
 
 ## intent:pt_test_what
-- Como são efetuados os testes?
 - Como é efetuado o teste?
+- como é feito o teste da covid?
 - Como é feito o teste?
+- Como são efectuados os testes?
+- Como são efetuados os testes?
+- Como se fazem os testes ao coronavirus?
+- Como se processam os testes ao coronavirus?
 - O que é colhido para o teste?
 - O teste testa o quê?
 
@@ -5804,6 +6662,7 @@
 - Não trouxe os meus informação pessoal.
 
 ## intent:pt_user_no_further_questions
+- Agora não!!!! Obrigada
 - Ajudaste-me com todas as minhas dúvidas, obrigada.
 - Ajudaste-me com todas as minhas dúvidas, obrigado.
 - Ajudaste-me com todas as minhas dúvidas.
@@ -5813,6 +6672,9 @@
 - Ajudaste-me com tudo, obrigada.
 - Ajudaste-me com tudo, obrigado.
 - Ajudaste-me com tudo.
+- De momento mais nada, obrigado.
+- De momento mais nada.
+- é tudo
 - Elucidaste todas as minhas dúvidas, obrigada.
 - Elucidaste todas as minhas dúvidas, obrigado.
 - Elucidaste todas as minhas dúvidas.
@@ -5831,21 +6693,28 @@
 - Esclareceste todas as minhas questões, obrigada.
 - Esclareceste todas as minhas questões, obrigado.
 - Esclareceste todas as minhas questões.
+- isso é tudo
+- isso é tudp
 - Já estou elucidada, obrigada.
 - Já estou elucidado, obrigado.
 - Já estou elucidado.
 - Já estou esclarecida, obrigada.
 - Já estou esclarecido, obrigado.
 - Já estou esclarecido.
+- Já me esclareceu o suficiente. Muito obrigado!
 - Mais nada, obrigada.
 - Mais nada, obrigado.
 - Mais nada.
+- nada mais
 - Nada, obrigada.
 - Nada, obrigado.
 - Nada.
+- Não de momento vou me atualizando mais obrigado
 - Não preciso de mais ajuda, obrigada.
 - Não preciso de mais ajuda, obrigado.
 - Não preciso de mais ajuda.
+- Não preciso de mais nada
+- Não tenh mais perguntas
 - Não tenho mais dúvidas, obrigada.
 - Não tenho mais dúvidas, obrigado.
 - Não tenho mais dúvidas.
@@ -5855,15 +6724,17 @@
 - Não tenho mais questões, obrigada.
 - Não tenho mais questões, obrigado.
 - Não tenho mais questões.
+- Não, de momento vou-me atualizando
+- Não, de momento vou-me atualizando, mas obrigada
 - Obrigada pela tua ajuda.
 - Obrigada pelo tempo investido em mim.
 - Obrigada pelo teu tempo
 - Obrigado pela tua ajuda.
 - Obrigado pelo tempo investido em mim.
 - Obrigado pelo teu tempo
-- Por agora não tenho mais perguntas.
-- é tudo
 - Por agora é tudo, obrigado.
+- Por agora é tudo, obrigado. Fiquei perfeitamente esclarecido.
+- Por agora não tenho mais perguntas.
 
 ## intent:pt_user_particles
 - Aaha
