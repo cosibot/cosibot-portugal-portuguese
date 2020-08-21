@@ -2106,13 +2106,13 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>O Cosibot é uma iniciativa sem fins lucrativos criada pela ROBO.AI
-              para ar informação fiável de fontes oficiais sobre a Covid 19, por
-              exemplo da Organização Mundial de Saúde.</speak>
+            ssml: <speakO Cosibot é uma iniciativa sem fins lucrativos criada pela ROBO.AI para dar informação fiável de fontes oficiais sobre a Covid 19, por exemplo da Organização Mundial de Saúde. Queres ajudar neste projecto? Clica no link abaixo.</speak>
           - type: html
-            text: <p>O Cosibot é uma iniciativa sem fins lucrativos criada pela ROBO.AI para
-              ar informação fiável de fontes oficiais sobre a COVID-19, por
-              exemplo da Organização Mundial de Saúde.</p>
+            text: <p>O Cosibot é uma iniciativa sem fins lucrativos criada pela ROBO.AI para dar informação fiável de fontes oficiais sobre a COVID-19, por exemplo da Organização Mundial de Saúde.<br>Queres ajudar neste projecto? Clica no link abaixo:</p>
+          - type: links
+            links:
+              - title: Voluntariado Cosibot
+                url: https://cosibot.org/pt/voluntariado\
   utter_pt_state_emergency_info:
     - custom:
         answers:
@@ -2466,13 +2466,14 @@ responses:
               recentemente identificado, estão em curso as investigações para o
               seu desenvolvimento. O tratamento para a infeção por este novo
               coronavírus é dirigido aos sinais e sintomas que os doentes
-              apresentam.</speak>
+              apresentam. O tratamento para a infeção por este novo coronavírus é dirigido aos sinais e sintomas que os doentes apresentam e tem como objetivo proporcionar alívio e maior conforto aos doentes.
+              À data, considerando o conhecimento científico atual e as recomendações da OMS, encontram-se em investigação, algumas estratégias terapêuticas apontadas como potenciais candidatos terapêuticos.</speak>
           - type: html
             text: <p>Atualmente não existe vacina contra o SARS-CoV-2. Sendo um vírus
               recentemente identificado, estão em curso as investigações para o
               seu desenvolvimento. O tratamento para a infeção por este novo
               coronavírus é dirigido aos sinais e sintomas que os doentes
-              apresentam.<a
+              apresentam.<br>O tratamento para a infeção por este novo coronavírus é dirigido aos sinais e sintomas que os doentes apresentam e tem como objetivo proporcionar alívio e maior conforto aos doentes. À data, considerando o conhecimento científico atual e as recomendações da OMS, encontram-se em investigação, algumas estratégias terapêuticas apontadas como potenciais candidatos terapêuticos.<a
               href='https://covid19.min-saude.pt/perguntas-frequentes/'
               target='_blank'>(1)</a></p>
           - type: hints
@@ -2637,9 +2638,7 @@ responses:
               alternativa, toalhetes com solução alcoólica) e não se deve tocar
               com as mãos na cara sem antes as ter higienizado; não cuspir para
               o chão.<a
-              href='https://www.dgs.pt/documentos-e-publicacoes/plano-nacional-\
-              de-preparacao-e-resposta-para-a-doenca-por-novo-coronavirus-covid\
-              -19-pdf.aspx' target='_blank'>(1)</a></p>"
+              href='https://www.dgs.pt/directrizes-da-dgs/orientacoes-e-circulares-informativas/orientacao-n-0022020-de-25012020-pdf.aspx' target='_blank'>(1)</a></p>"
           - type: hints
             options:
               - label: Medidas Preventivas
@@ -2948,15 +2947,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Muitas pessoas infetadas apresentam apenas sintomas ligeiros,
-              sobretudo na fase inicial da doença. Portanto, é possível contrair
-              o vírus de alguém que tenha apenas uma tosse ligeira, por exemplo,
-              e não se sinta doente.</speak>
+            ssml: <speak>A pessoa pode transmitir a infeção cerca de um a dois dias antes do aparecimento dos sintomas, no entanto, a pessoa é mais infeciosa durante o período sintomático, mesmo que os sintomas sejam leves e muito inespecíficos. Estima-se que o período infecioso dure de 7 a 12 dias em casos moderados e até duas semanas, em média, em casos graves.</speak>
           - type: html
-            text: <p>Muitas pessoas infetadas apresentam apenas sintomas ligeiros, sobretudo
-              na fase inicial da doença. Portanto, é possível contrair o vírus
-              de alguém que tenha apenas uma tosse ligeira, por exemplo, e não
-              se sinta doente.<a
+            text: <p>A pessoa pode transmitir a infeção cerca de um a dois dias antes do aparecimento dos sintomas, no entanto, a pessoa é mais infeciosa durante o período sintomático, mesmo que os sintomas sejam leves e muito inespecíficos.<br>Estima-se que o período infecioso dure de 7 a 12 dias em casos moderados e até duas semanas, em média, em casos graves.<a
               href='https://covid19.min-saude.pt/perguntas-frequentes/'
               target='_blank'>(1)</a></p>
           - type: hints
