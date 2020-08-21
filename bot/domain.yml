@@ -2106,9 +2106,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speakO Cosibot é uma iniciativa sem fins lucrativos criada pela ROBO.AI para ar informação fiável de fontes oficiais sobre a Covid 19, por exemplo da Organização Mundial de Saúde. Queres ajudar neste projecto? Clica no link abaixo.</speak>
+            ssml: <speakO Cosibot é uma iniciativa sem fins lucrativos criada pela ROBO.AI para dar informação fiável de fontes oficiais sobre a Covid 19, por exemplo da Organização Mundial de Saúde. Queres ajudar neste projecto? Clica no link abaixo.</speak>
           - type: html
-            text: <p>O Cosibot é uma iniciativa sem fins lucrativos criada pela ROBO.AI para ar informação fiável de fontes oficiais sobre a COVID-19, por exemplo da Organização Mundial de Saúde.<br>Queres ajudar neste projecto? Clica no link abaixo:</p>
+            text: <p>O Cosibot é uma iniciativa sem fins lucrativos criada pela ROBO.AI para dar informação fiável de fontes oficiais sobre a COVID-19, por exemplo da Organização Mundial de Saúde.<br>Queres ajudar neste projecto? Clica no link abaixo:</p>
           - type: links
             links:
               - title: Voluntariado Cosibot
