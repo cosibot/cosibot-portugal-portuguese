@@ -2305,6 +2305,9 @@ responses:
               utentes assintomáticos.<a
               href='https://www.dgs.pt/directrizes-da-dgs/normas-e-circulares-normativas/norma-n-0032020-de-19032020-pdf.aspx'
               target='_blank'>(1)</a></p>
+          - type: youtube
+            thumbnailURL: https://www.youtube.com/watch?v=bnZ9vRr7_vI
+            youtubeId: bnZ9vRr7_vI
           - type: hints
             options:
               - label: Como Colocar uma Máscara
