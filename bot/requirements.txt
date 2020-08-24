@@ -1,2 +1,4 @@
 fasttext==0.9.2
+spacy==2.3.2
+xx-ent-wiki-sm @ https://github.com/explosion/spacy-models/releases/download/xx_ent_wiki_sm-2.3.0/xx_ent_wiki_sm-2.3.0.tar.gz
 

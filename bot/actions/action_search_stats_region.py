@@ -15,9 +15,9 @@ class DecsisAPI:
             query_fields = "[{\"region\": \"field\"}, {\"confirmed_accum\": \"field\"},{\"confirmed_accum_male\": \"field\"},{\"confirmed_accum_female\": \"field\"},{\"confirmed_new\": \"field\"},{\"waiting_lab_results\": \"field\"},{\"hospitalized\": \"field\"},{\"hospitalized_critical\": \"field\"},{\"recovered\": \"field\"},{\"deaths\": \"field\"},{\"suspected\": \"field\"}]"
 
             today = date.today()
-            query_filters = "[{\"date_day\":\"" + today.strftime("%Y-%m-%d")+"\"},{\"region\":\""+ str(country_region) + "\"}]"
+            query_filters = "[{\"region\":\""+ str(country_region) + "\"}]"
 
-            request_url = "https://api.data.decsis.cloud/api/v1/dataset/pt_dgs_covid19_regions?query={\"fields\":"+ str(query_fields) +", \"filters\":"+ str(query_filters) +"}&format=json"
+            request_url = "https://api.data.decsis.cloud/api/v1/dataset/pt_dgs_covid19_regions?query={\"fields\":"+ str(query_fields) +", \"filters\":"+ str(query_filters) +"}&format=json&last-data=date_day"
             response = requests.get(url = request_url)
 
             json_response = (response.json())
