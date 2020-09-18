@@ -1536,10 +1536,6 @@ responses:
             ssml: <speak>Li algures na internet que foi o ovo.</speak>
           - type: text
             text: Li algures na internet que foi o ovo.
-          - type: youtube
-            title: cool video tittle
-            thumbnailURL: https://www.youtube.com/watch?v=R2U1LXCEPEU
-            youtubeId: R2U1LXCEPEU
   utter_pt_cc_religion:
     - custom:
         answers:
@@ -2536,7 +2532,7 @@ responses:
               href='https://www.sns.gov.pt/2020/01/28/coronavirus-2019-ncov/'
               target='_blank'>(1)</a></p>
           - type: youtube
-            thumbnailURL: https://www.youtube.com/watch?v=_TzLRKoCHxQ
+            thumbnailURL: https://youtu.be/_TzLRKoCHxQ
             youtubeId: TzLRKoCHxQ
           - type: hints
             options:
