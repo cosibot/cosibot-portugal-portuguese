@@ -1,0 +1,84 @@
+name: ci-tests
+on: [push]
+
+jobs:
+
+  # unit-tests:
+  #   name: Run unit tests
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - uses: actions/checkout@v1
+  #   - id: files
+  #     uses: jitterbit/get-changed-files@v1
+  #   - name: set_unit_test
+  #     if: |
+  #         contains(  steps.files.outputs.all, 'bot/actions'  )
+  #     run: echo "::set-env name=RUN_UNIT_TESTS::true"
+  #   - name: Set up Python 3.7
+  #     if: env.RUN_UNIT_TESTS == 'true'
+  #     uses: actions/setup-python@v1
+  #     with:
+  #       python-version: 3.7
+    
+  #   - name: Install dependencies
+  #     if: env.RUN_UNIT_TESTS == 'true'
+  #     run: |
+  #       python -m pip install --upgrade pip
+  #       pip install -r model-ci-requirements.txt
+
+  #   - name: Run unit tests 
+  #     if: env.RUN_UNIT_TESTS == 'true'
+  #     run: |
+  #       cd bot
+  #       pytest --doctest-modules --cov=bot --cov-report=html
+
+  #   - name: Save tests
+  #     if: env.RUN_UNIT_TESTS == 'true'
+  #     uses: actions/upload-artifact@v2
+  #     with:
+  #       name: unit-tests
+  #       path: bot/htmlcov
+
+  training-testing:
+    name: Train and test bot
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - id: files
+      uses: jitterbit/get-changed-files@v1
+    - name: set_training
+      if: |
+          contains(  steps.files.outputs.all, 'bot/data/'  )
+          || contains( steps.files.outputs.all, 'bot/config.yml'  )
+          || contains(  steps.files.outputs.all, 'bot/domain.yml'  )
+          || contains(  steps.files.outputs.all, 'bot/tests/conversation_tests.md'  )
+      run: echo "::set-env name=RUN_TRAINING::true"
+    - name: Set up Python 3.7
+      if: env.RUN_TRAINING == 'true'
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      if: env.RUN_TRAINING == 'true'
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r model-ci-requirements.txt
+
+    - name: Train model
+      if: env.RUN_TRAINING == 'true'
+      run: |
+        cd bot
+        rasa train
+
+    - name: Run Through Test stories
+      if: env.RUN_TRAINING == 'true'
+      run: |
+        cd bot
+        rasa test
+    
+    - name: Save tests
+      if: env.RUN_TRAINING == 'true'
+      uses: actions/upload-artifact@v2
+      with:
+        name: tests
+        path: bot/results
