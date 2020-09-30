@@ -483,12 +483,55 @@
 GENERAL SITUATION 
 -->
 
-## pt_covid_situation_happy 
-* pt_covid_situation{"pt_country_code" : "Estados Unidos da América"}
+## pt_covid_situation_without_country
+* pt_covid_situation OR pt_covid_situation_deaths OR pt_covid_situation_infected OR pt_covid_situation_infected_critical OR pt_covid_situation_recovered OR pt_covid_situation_tested OR pt_covid_situation_last_update
+  - utter_pt_want_to_add_country
+* pt_vocative_yes
+  - utter_pt_ask_which_country
+* pt_country{"pt_country_code": "US"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
   - slot{"country": "Estados Unidos da América"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation
+
+## covid_situation_without_country2
+* pt_covid_situation OR pt_covid_situation_tested OR pt_covid_situation_recovered OR pt_covid_situation_last_update OR pt_covid_situation_infected_critical OR pt_covid_situation_infected OR pt_covid_situation_deaths
+  - utter_pt_want_to_add_country
+* pt_vocative_no
+  - utter_pt_further_questions
+
+
+## covid_situation_without_country3
+* pt_covid_situation OR pt_covid_situation_tested OR pt_covid_situation_recovered OR pt_covid_situation_last_update OR pt_covid_situation_infected_critical OR pt_covid_situation_infected OR pt_covid_situation_deaths
+  - utter_pt_want_to_add_country
+* pt_country{"pt_country_code" : "ES"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Espanha"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation
+
+<!-- ### -->
+
+## pt_covid_situation_happy
+* pt_covid_situation{"pt_country_code": "Itália"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Itália"}
   - slot{"new_cases": "517"}
   - slot{"total_cases": "17543"}
   - slot{"total_recovered": "921"}
