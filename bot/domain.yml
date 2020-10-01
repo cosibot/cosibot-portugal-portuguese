@@ -2533,7 +2533,7 @@ responses:
               target='_blank'>(1)</a></p>
           - type: youtube
             thumbnailURL: https://youtu.be/_TzLRKoCHxQ
-            youtubeId: TzLRKoCHxQ
+            youtubeId: _TzLRKoCHxQ
           - type: hints
             options:
               - label: Medidas Preventivas
