@@ -14,7 +14,7 @@ slots:
     initial_value: False
   bot_version:
     type: text
-    initial_value: "0.1"
+    initial_value: "0.2.1"
   bot_time:
     type: text
   bot_date:
@@ -701,8 +701,8 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>A última atualização indica que, em {country} existe um total {active_cases} casos ativos. 
-              {total_recovered} recuperaram e {total_deaths} não resistiram à COVID-19. </speak>
+            ssml: "<speak>A última atualização indica que, em {country} existe um total {active_cases} casos ativos. 
+              {total_recovered} recuperaram e {total_deaths} não resistiram à COVID-19. </speak>"
           - type: text
             text: A última atualização indica que, em {country} existe um total {active_cases} casos ativos. 
               {total_recovered} recuperaram e {total_deaths} não resistiram à COVID-19. 
@@ -710,7 +710,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>De acordo com a última atualização, em {country} existe um total de 
+            ssml: <speak>De acordo com a última atualização, em {country} existe um total de 
               {total_deaths} fatalidades pelo COVID-19.</speak>
           - type: text
             text: De acordo com a última atualização, em {country} existe um total de 
@@ -719,7 +719,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>Os últimos dados disponiveis indicam que neste momento em
+            ssml: <speak>Os últimos dados disponiveis indicam que neste momento em
               {country} existe um valor total de {active_cases} infetados.</speak>
           - type: text
             text: Os últimos dados disponiveis indicam que neste momento em
@@ -728,7 +728,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>A última atualização disponível em {country} aponta para 
+            ssml: <speak>A última atualização disponível em {country} aponta para 
               um total de {total_infected_critical} infetados internados na Unidade de Cuidados Intensivos.</speak>
           - type: text
             text: A última atualização disponível em {country} aponta para 
@@ -737,7 +737,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>Neste momento em {country} existe um valor total de {active_cases} casos ativos. Na última
+            ssml: <speak>Neste momento em {country} existe um valor total de {active_cases} casos ativos. Na última
               atualização disponível foram identificados {new_cases} novos casos.</speak>
           - type: text
             text: Neste momento em {country} existe um valor total de {active_cases} casos ativos. Na última
@@ -780,7 +780,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>Os últimos dados indicam que, no momento, em {country}, há um 
+            ssml: <speak>Os últimos dados indicam que, no momento, em {country}, há um 
               total de {total_recovered} casos recuperados.</speak>
           - type: text
             text: Os últimos dados indicam que, no momento, em {country}, há um 
@@ -789,7 +789,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>A última atualização de dados indica que em {country} 
+            ssml: <speak>A última atualização de dados indica que em {country} 
               foram realizados {total_tests} desde o início de recolha de dados. </speak>
           - type: text
             text: A última atualização de dados indica que em {country} 
@@ -800,7 +800,7 @@ responses:
           - type: text
             text: Deseja adicionar um país à sua pesquisa?
           - type: ssml
-            text: <speak>Deseja adicionar um país à sua pesquisa?</speak>
+            ssml: <speak>Deseja adicionar um país à sua pesquisa?</speak>
           - type: multichoice
             options:
               - label: Sim
@@ -813,7 +813,7 @@ responses:
           - type: text
             text: Que país devo adicionar à sua pesquisa?
           - type: ssml
-            text: <speak>Que país devo adicionar à sua pesquisa?</speak>
+            ssml: <speak>Que país devo adicionar à sua pesquisa?</speak>
   utter_pt_covid_no_country_current_statistics:
     - custom:
         answers:
@@ -2533,7 +2533,7 @@ responses:
               target='_blank'>(1)</a></p>
           - type: youtube
             thumbnailURL: https://youtu.be/_TzLRKoCHxQ
-            youtubeId: TzLRKoCHxQ
+            youtubeId: _TzLRKoCHxQ
           - type: hints
             options:
               - label: Medidas Preventivas
