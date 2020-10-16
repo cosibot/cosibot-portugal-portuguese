@@ -1003,8 +1003,8 @@ TESTED
 ## pt_covid_situation_infected_municipal_notOk
 * pt_covid_situation_infected{"pt_country_municipal":"Lisboa"}
   - action_search_stats_municipal
-  - slot{"country_municipal_search_successful": "not-ok"}
-  - utter_country_municipal_nodata
+  - slot{"country_region_search_successful": "not-ok"}
+  - utter_country_region_nodata
 * pt_vocative_yes
   - action_search_stats
   - slot{"search_successful": "ok"}
@@ -1021,8 +1021,8 @@ TESTED
 ## pt_covid_situation_infected_municipal_empty
 * pt_covid_situation_infected{"pt_country_municipal":"Lisboa"}
   - action_search_stats_municipal
-  - slot{"country_municipal_search_successful": "not-ok"}
-  - utter_country_municipal_nodata
+  - slot{"country_region_search_successful": "not-ok"}
+  - utter_country_region_nodata
 * pt_vocative_yes
   - action_search_stats
   - slot{"search_successful": "ok"}
@@ -1039,16 +1039,16 @@ TESTED
 ## pt_covid_situation_infected_municipal_empty2
 * pt_covid_situation_last_update{"pt_country_municipal": "Abrantes"}
     - action_search_stats_municipal
-    - slot{"country_municipal_search_successful": "ok"}
-    - slot{"country_municipal": "Abrantes"}
-    - slot{"country_municipal_confirmed_accum": 8}
-    - utter_country_municipal_hasdata
+    - slot{"country_region_search_successful": "ok"}
+    - slot{"country_region": "Abrantes"}
+    - slot{"country_region_confirmed_accum": 8}
+    - utter_country_region_hasdata
 * pt_covid_situation_last_update{"pt_country_municipal": "Ribeira Brava"}
     - action_search_stats_municipal
-    - slot{"country_municipal_search_successful": "empty"}
-    - slot{"country_municipal": "Ribeira Brava"}
+    - slot{"country_region_search_successful": "empty"}
+    - slot{"country_region": "Ribeira Brava"}
     - slot{"pt_country_code": "PT"}
-    - utter_country_municipal_nodata
+    - utter_country_region_nodata
 * pt_vocative_yes
     - action_search_stats
     - slot{"search_successful": "ok"}
@@ -1066,16 +1066,16 @@ TESTED
 ## pt_covid_situation_infected_municipal_notOk
 * pt_covid_situation_infected{"pt_country_municipal":"Lisboa"}
   - action_search_stats_municipal
-  - slot{"country_municipal_search_successful": "not-ok"}
-  - utter_country_municipal_nodata
+  - slot{"country_region_search_successful": "not-ok"}
+  - utter_country_region_nodata
 * pt_vocative_no
   - utter_pt_further_questions
 
 ## pt_covid_situation_infected_municipal_empty
 * pt_covid_situation_infected{"pt_country_municipal":"Lisboa"}
   - action_search_stats_municipal
-  - slot{"country_municipal_search_successful": "not-ok"}
-  - utter_country_municipal_nodata
+  - slot{"country_region_search_successful": "not-ok"}
+  - utter_country_region_nodata
 * pt_vocative_no
   - utter_pt_further_questions
 
@@ -1083,24 +1083,24 @@ TESTED
 ## pt_covid_situation_infected_municipa2
 * pt_covid_situation_last_update{"pt_country_municipal": "Salvaterra de Magos"}
     - action_search_stats_municipal
-    - slot{"country_municipal_search_successful": "ok"}
-    - slot{"country_municipal": "Salvaterra de Magos"}
-    - slot{"country_municipal_confirmed_accum": 10}
-    - utter_country_municipal_hasdata
+    - slot{"country_region_search_successful": "ok"}
+    - slot{"country_region": "Salvaterra de Magos"}
+    - slot{"country_region_confirmed_accum": 10}
+    - utter_country_region_hasdata
 
 ## pt_covid_situation_infected_municipa2
 * pt_covid_situation_last_update{"pt_country_municipal": "Salvaterra de Magos"}
     - action_search_stats_municipal
-    - slot{"country_municipal_search_successful": "ok"}
-    - slot{"country_municipal": "Salvaterra de Magos"}
-    - slot{"country_municipal_confirmed_accum": 10}
-    - utter_country_municipal_hasdata
+    - slot{"country_region_search_successful": "ok"}
+    - slot{"country_region": "Salvaterra de Magos"}
+    - slot{"country_region_confirmed_accum": 10}
+    - utter_country_region_hasdata
 
     ## pt_covid_situation_infected_region_notOk
 * pt_covid_situation_infected{"pt_country_region":"Norte"}
   - action_search_stats_region
   - slot{"country_region_search_successful": "not-ok"}
-  - utter_country_municipal_nodata
+  - utter_country_region_nodata
 * pt_vocative_yes
   - action_search_stats
   - slot{"search_successful": "ok"}
@@ -1118,7 +1118,7 @@ TESTED
 * pt_covid_situation_infected{"pt_country_region":"Lisboa"}
   - action_search_stats_region
   - slot{"country_region_search_successful": "not-ok"}
-  - utter_country_municipal_nodata
+  - utter_country_region_nodata
 * pt_vocative_yes
   - action_search_stats
   - slot{"search_successful": "ok"}
@@ -1144,7 +1144,7 @@ TESTED
     - slot{"country_region_search_successful": "empty"}
     - slot{"country_region": "Algarve"}
     - slot{"pt_country_code": "PT"}
-    - utter_country_municipal_nodata
+    - utter_country_region_nodata
 * pt_vocative_yes
     - action_search_stats
     - slot{"search_successful": "ok"}
@@ -1163,7 +1163,7 @@ TESTED
 * pt_covid_situation_infected{"pt_country_region":"Alentejo"}
   - action_search_stats_region
   - slot{"country_region_search_successful": "not-ok"}
-  - utter_country_municipal_nodata
+  - utter_country_region_nodata
 * pt_vocative_no
   - utter_pt_further_questions
 
@@ -1171,7 +1171,7 @@ TESTED
 * pt_covid_situation_infected{"pt_country_region":"Lisboa"}
   - action_search_stats_region
   - slot{"country_region_search_successful": "not-ok"}
-  - utter_country_municipal_nodata
+  - utter_country_region_nodata
 * pt_vocative_no
   - utter_pt_further_questions
 
@@ -1179,9 +1179,9 @@ TESTED
 ## pt_covid_situation_infected_region2
 * pt_covid_situation_last_update{"pt_country_region": "Ilha da Madeira"}
     - action_search_stats_municipal
-    - slot{"country_municipal_search_successful": "ok"}
-    - slot{"country_municipal": "Madeira"}
-    - slot{"country_municipal_confirmed_accum": 10}
+    - slot{"country_region_search_successful": "ok"}
+    - slot{"country_region": "Madeira"}
+    - slot{"country_region_confirmed_accum": 10}
     - utter_country_region_hasdata
 
 
@@ -1189,10 +1189,10 @@ TESTED
 * pt_covid_situation{"pt_country_municipal": "Ribeira Brava"}
     - slot{"pt_country_municipal": "Ribeira Brava"}
     - action_search_stats_municipal
-    - slot{"country_municipal_search_successful": "empty"}
-    - slot{"country_municipal": "Ribeira Brava"}
+    - slot{"country_region_search_successful": "empty"}
+    - slot{"country_region": "Ribeira Brava"}
     - slot{"pt_country_code": "PT"}
-    - utter_country_municipal_nodata
+    - utter_country_region_nodata
 * pt_vocative_yes
     - action_search_stats
     - slot{"search_successful": "ok"}

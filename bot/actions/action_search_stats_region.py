@@ -12,7 +12,7 @@ class DecsisAPI:
 
     def search(self, country_region, date_filter=None):
         try:
-            query_fields = "[{\"region\": \"field\"}, {\"confirmed_accum\": \"field\"},{\"confirmed_accum_male\": \"field\"},{\"confirmed_accum_female\": \"field\"},{\"confirmed_new\": \"field\"},{\"waiting_lab_results\": \"field\"},{\"hospitalized\": \"field\"},{\"hospitalized_critical\": \"field\"},{\"recovered\": \"field\"},{\"deaths\": \"field\"},{\"suspected\": \"field\"}]"
+            query_fields = "[{\"region\": \"field\"}, {\"confirmed_accum\": \"field\"},{\"confirmed_new\": \"field\"},{\"waiting_lab_results\": \"field\"},{\"hospitalized\": \"field\"},{\"hospitalized_critical\": \"field\"},{\"recovered\": \"field\"},{\"deaths\": \"field\"}]"
 
             today = date.today()
             query_filters = "[{\"region\":\""+ str(country_region) + "\"}]"
@@ -63,10 +63,20 @@ class ActionSearchStatsRegion(Action):
         stats = decsis_api.search(country_region)
 
         if stats['code'] == 200 and not stats['has_data']:
-            return [SlotSet('country_region_search_successful', 'empty'),SlotSet('country_region', country_region),SlotSet('pt_country_code', 'PT'),]
-            #self.get_country_data(country_municipal,"empty",dispatcher, tracker, domain)
+            return [
+                SlotSet('country_region_search_successful', 'empty'),
+                SlotSet('country_region', country_region),
+                SlotSet('pt_country_code', 'PT'),
+                FollowupAction("utter_country_region_nodata")]
         elif stats['code'] == 200 and stats['has_data']:
-            return [SlotSet('country_region_search_successful', 'ok'),SlotSet('country_region', country_region), SlotSet('country_region_confirmed_accum', int(stats.get('confirmed_accum', None))),]
+            return [SlotSet('country_region_search_successful', 'ok'),
+                SlotSet('country_region', country_region),
+                SlotSet('country_region_confirmed_accum',int(stats.get('confirmed_accum', "N/A"))),
+                SlotSet('country_region_confirmed_new',int(stats.get('confirmed_new', "N/A"))),
+                SlotSet('country_region_hospitalized_critical',int(stats.get('hospitalized_critical', "N/A"))),
+                FollowupAction("utter_country_region_hasdata")]
         else:
-            return [SlotSet('country_regionsearch_successful', 'not-ok'),SlotSet('pt_country_code', 'PT'),]
-            #self.get_country_data(country_municipal, "not-ok",dispatcher, tracker, domain)
+            return [
+                SlotSet('country_regionsearch_successful', 'not-ok'),
+                SlotSet('pt_country_code', 'PT'),
+                FollowupAction("utter_country_region_nodata")]
