@@ -1883,22 +1883,6 @@
 - Quantos casos existem em [Vouzela]{"entity": "pt_country_municipal", "value": "Vouzela"}?
 - Quantos casos existem em [vouzela]{"entity": "pt_country_municipal", "value": "Vouzela"}?
 
-
-
-
-
-
-for i, row in district.iterrows():
-    print("## synonym: " + district.loc[i, 2])
-    print("- " + district.loc[i, 2].lower())
-    idx = [2, 3, 4, 5]
-    for idx_ in idx:
-        if not pd.isnull(district.iloc[i, idx_]):
-            print("- " + district.loc[i, idx_])
-    if any(char in district.loc[i, 2] for char in mapping.keys()):
-        word = district.loc[i, 2]
-        for key in mapping.keys():
-
 ## synonym:Belmonte
 - belmonte
 ## synonym:Chamusca
