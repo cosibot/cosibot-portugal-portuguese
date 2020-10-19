@@ -3836,7 +3836,7 @@
 - quantas pessoas no mundo têm [covid]{"entity": "pt_virus", "value": "COVID"} ?
 - quantas pessoas no mundo têm covid ?
 - Quantas são as contagens no mundo?
-- Quanto mortos em [portugal]{"entity": "pt_country_code", "value": "PT"} por causa do coronavirus?
+- Quanto mortos em [Portugal]{"entity": "pt_country_code", "value": "PT"} por causa do coronavirus?
 - Quanto mortos em Portugal por causa do coronavirus?
 - Quantoa mortos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
 - Quantoa mortos em portugal?
