@@ -15,25 +15,25 @@ jobs:
           contains(  steps.files.outputs.all, 'bot/actions'  )
       run: echo "RUN_UNIT_TESTS=true" >> $GITHUB_ENV
     - name: Set up Python 3.7
-      if: $RUN_UNIT_TESTS == 'true'
+      if: env.RUN_UNIT_TESTS == 'true'
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
     
     - name: Install dependencies
-      if: $RUN_UNIT_TESTS == 'true'
+      if: env.RUN_UNIT_TESTS == 'true'
       run: |
         python -m pip install --upgrade pip
         pip install -r model-ci-requirements.txt
 
     - name: Run unit tests 
-      if: $RUN_UNIT_TESTS == 'true'
+      if: env.RUN_UNIT_TESTS == 'true'
       run: |
         cd bot
         pytest --doctest-modules --cov=bot --cov-report=html
 
     - name: Save tests
-      if: $RUN_UNIT_TESTS == 'true'
+      if: env.RUN_UNIT_TESTS == 'true'
       uses: actions/upload-artifact@v2
       with:
         name: unit-tests
@@ -54,30 +54,30 @@ jobs:
           || contains(  steps.files.outputs.all, 'bot/tests/conversation_tests.md'  )
       run: echo "RUN_TRAINING=true" >> $GITHUB_ENV
     - name: Set up Python 3.7
-      if: $RUN_TRAINING == 'true'
+      if: env.RUN_TRAINING == 'true'
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
     - name: Install dependencies
-      if: $RUN_TRAINING == 'true'
+      if: env.RUN_TRAINING == 'true'
       run: |
         python -m pip install --upgrade pip
         pip install -r model-ci-requirements.txt
 
     - name: Train model
-      if: $RUN_TRAINING == 'true'
+      if: env.RUN_TRAINING == 'true'
       run: |
         cd bot
         rasa train
 
     - name: Run Through Test stories
-      if: $RUN_TRAINING == 'true'
+      if: env.RUN_TRAINING == 'true'
       run: |
         cd bot
         rasa test
     
     - name: Save tests
-      if: $RUN_TRAINING == 'true'
+      if: env.RUN_TRAINING == 'true'
       uses: actions/upload-artifact@v2
       with:
         name: tests
