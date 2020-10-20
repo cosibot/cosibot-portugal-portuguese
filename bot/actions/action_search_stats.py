@@ -89,21 +89,24 @@ class ActionSearchStats(Action):
                     entity = next((e for e in tracker.latest_message["entities"] if
                                    e['entity'] == 'pt_country_code'), None)
                     print(entity)
-                    input_country = tracker.latest_message['text'][entity['start']:entity['end']]
-                except Exception:
+                    input_country = tracker.latest_message['text'][entity['start']:entity['end']].capitalize()
+                except:
                     if country_code == "PT" and tracker.get_slot("pt_country_code") == "PT":
                         input_country = "Portugal"
-                return [SlotSet('search_successful', 'ok'),
-                        SlotSet('country', input_country),
-                        SlotSet('active_cases', int(stats.get('active_cases', None))),
-                        SlotSet('new_cases', int(stats.get('new_cases', None))),
-                        SlotSet('total_cases', int(stats.get('total_cases', None))),
-                        SlotSet('total_recovered', int(stats.get('total_recovered', None))),
-                        SlotSet('total_deaths', int(stats.get('total_deaths', None))),
-                        SlotSet('total_tests', int(stats.get('total_tests', None))),
-                        SlotSet('new_deaths', int(stats.get('new_deaths', None))),
-                        SlotSet('total_infected_critical', int(stats.get('critical', None))), ]
-        elif country_code is None:
+                
+                return [
+                    SlotSet('search_successful', 'ok'), 
+                    SlotSet('country', input_country), 
+                    SlotSet('active_cases', int(stats.get('active_cases', None))), 
+                    SlotSet('new_cases', int(stats.get('new_cases', None))), 
+                    SlotSet('total_cases', int(stats.get('total_cases', None))),
+                    SlotSet('total_recovered', int(stats.get('total_recovered', None))), 
+                    SlotSet('total_deaths', int(stats.get('total_deaths', None))),
+                    SlotSet('total_tests', int(stats.get('total_tests', None))), 
+                    SlotSet('new_deaths', int(stats.get('new_deaths', None))),
+                    SlotSet('total_infected_critical', int(stats.get('critical', None))),  ]
+        
+        elif country_code is None: 
             """In this case, no entity was recognized. Example: when user asks for 'world information'"""
             print('wrong-country')
             return [SlotSet('search_successful', 'wrong-country'),

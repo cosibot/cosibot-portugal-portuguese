@@ -3,7 +3,7 @@ import requests
 from datetime import datetime, timedelta
 
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import SlotSet
+from rasa_sdk.events import FollowupAction, SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 
 
@@ -11,7 +11,7 @@ class DecsisAPI:
 
     def search(self, country_municipal: str, date_filter=None) -> dict:
         try:
-            query_fields = "[{\"municipality\": \"field\"}, {\"confirmed_accum\": \"field\"},{\"confirmed_accum_male\": \"field\"},{\"confirmed_accum_female\": \"field\"},{\"confirmed_new\": \"field\"},{\"waiting_lab_results\": \"field\"},{\"hospitalized\": \"field\"},{\"hospitalized_critical\": \"field\"},{\"recovered\": \"field\"},{\"deaths\": \"field\"},{\"suspected\": \"field\"}]"
+            query_fields = "[{\"municipality\": \"field\"}, {\"confirmed_accum\": \"field\"}]"
 
             # today = date.today()
             query_filters = "[{\"municipality\":\"" + str(country_municipal) + "\"}]"
@@ -65,16 +65,20 @@ class ActionSearchStatsMunicipal(Action):
 
         if stats['code'] == 200 and not stats['has_data']:
             print("1", stats['has_data'])
-            return [SlotSet('country_municipal_search_successful', 'empty'),
-                    SlotSet('country_municipal', country_municipal),
-                    SlotSet('pt_country_code', 'PT'), ]
-            # self.get_country_data(country_municipal,"empty",dispatcher, tracker, domain)
+            return [
+                SlotSet('country_region_search_successful', 'empty'),
+                SlotSet('country_region', country_municipal),
+                SlotSet('pt_country_code', 'PT'),
+                FollowupAction("utter_country_region_nodata")]
         elif stats['code'] == 200 and stats['has_data']:
             print("2", stats['has_data'])
-            return [SlotSet('country_municipal_search_successful', 'ok'),
-                    SlotSet('country_municipal', country_municipal),
-                    SlotSet('country_municipal_confirmed_accum', int(stats.get('confirmed_accum', None))), ]
+            return [
+                SlotSet('country_region_search_successful', 'ok'),
+                SlotSet('country_region', country_municipal), 
+                SlotSet('country_region_confirmed_accum', int(stats.get('confirmed_accum', None))),
+                FollowupAction("utter_country_municipal_hasdata")]
         else:
-            return [SlotSet('country_municipal_search_successful', 'not-ok'),
-                    SlotSet('pt_country_code', 'PT'), ]
-            # self.get_country_data(country_municipal, "not-ok",dispatcher, tracker, domain)
+            return [
+                SlotSet('country_region_search_successful', 'not-ok'),
+                SlotSet('pt_country_code', 'PT'),
+                FollowupAction("utter_country_region_nodata")]
