@@ -1,6 +1,0 @@
-movies
-film
-films
-DVD
-movie
-cinema

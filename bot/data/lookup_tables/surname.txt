@@ -1,9 +1,0 @@
-último nome
-nome de família
-apelido
-surname
-family name
-last name
-lastname
-last-name
-family-name
