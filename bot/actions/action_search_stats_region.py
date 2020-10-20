@@ -1,12 +1,11 @@
-from typing import Text
-
+from typing import Text, Any, Dict, List
 import requests
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 
-from .action_search_stats import DecsisAPI as contry_api
+from rasa_sdk import Action, Tracker
+from rasa_sdk.events import FollowupAction, SlotSet
+from rasa_sdk.executor import CollectingDispatcher
 
-from rasa_sdk import Action
-from rasa_sdk.events import SlotSet, FollowupAction, UserUtteranceReverted
 
 class DecsisAPI:
 
@@ -14,47 +13,47 @@ class DecsisAPI:
         try:
             query_fields = "[{\"region\": \"field\"}, {\"confirmed_accum\": \"field\"},{\"confirmed_new\": \"field\"},{\"waiting_lab_results\": \"field\"},{\"hospitalized\": \"field\"},{\"hospitalized_critical\": \"field\"},{\"recovered\": \"field\"},{\"deaths\": \"field\"}]"
 
-            today = date.today()
-            query_filters = "[{\"region\":\""+ str(country_region) + "\"}]"
+            # today = date.today()
+            query_filters = "[{\"region\":\"" + str(country_region) + "\"}]"
 
-            request_url = "https://api.data.decsis.cloud/api/v1/dataset/pt_dgs_covid19_regions?query={\"fields\":"+ str(query_fields) +", \"filters\":"+ str(query_filters) +"}&format=json&last-data=date_day"
-            response = requests.get(url = request_url)
+            request_url = "https://api.data.decsis.cloud/api/v1/dataset/pt_dgs_covid19_regions?query={\"fields\":" + str(query_fields) + ", \"filters\":" + str(query_filters) + "}&format=json&last-data=date_day"
+            response = requests.get(url=request_url)
 
             json_response = (response.json())
 
             if (len(json_response) > 0):
-                #return json_response[0]
+                # return json_response[0]
                 stats = json_response[0]
                 stats['code'] = response.status_code
                 stats['has_data'] = True
-
                 return stats
             else:
                 date_search = datetime.today() - timedelta(days=1)
-                query_filters = "[{\"date_day\":\"" + date_search.strftime("%Y-%m-%d")+"\"},{\"region\":\""+ str(country_region) + "\"}]"
+                query_filters = "[{\"date_day\":\"" + date_search.strftime("%Y-%m-%d")+"\"},{\"region\":\"" + str(country_region) + "\"}]"
 
-                request_url = "https://api.data.decsis.cloud/api/v1/dataset/pt_dgs_covid19_regions?query={\"fields\":"+ str(query_fields) +", \"filters\":"+ str(query_filters) +"}&format=json"
-                response = requests.get(url = request_url)
+                request_url = "https://api.data.decsis.cloud/api/v1/dataset/pt_dgs_covid19_regions?query={\"fields\":" + str(query_fields) + ", \"filters\":" + str(query_filters) + "}&format=json"
+                response = requests.get(url=request_url)
                 json_response = (response.json())[0]
-    
-                #return json_response
+                # return json_response
                 stats = json_response
                 stats['code'] = response.status_code
                 stats['has_data'] = True
 
                 return stats
-        except:
+        except Exception:
             return {'code': response.status_code, 'has_data': False}
-            #return stats
+            # return stats
 
 
 class ActionSearchStatsRegion(Action):
 
     def name(self):
         return "action_search_stats_region"
-    
-    def run(self, dispatcher, tracker, domain):
-        
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
         country_region = next(tracker.get_latest_entity_values("pt_country_region"), None)
         print("country region is {}".format(country_region))
 
