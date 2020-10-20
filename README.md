@@ -7,6 +7,7 @@
 
 This is the Portuguese version, available in Portuguese.
 
+
 ## Add Cosibot to your website
 You can add the Cosibot Corona Virus Chatbot as a popup to your website. It is straightforward and it can be done in just three simple steps:
 1. [Ask for an API key](https://cosibot.org/contact)
