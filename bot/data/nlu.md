@@ -5478,47 +5478,60 @@
 - Xau
 
 ## intent:pt_greeting_hello
-- Aloha
 - Alõ
+- Aloha
 - Boa Manhã
 - Boa noite
 - Boa tarde
 - Bom dia
+- Bon dia
 - Bonjour
+- chama-me camarada
 - Ciao
-- Como vai isso
 - Como é que vai isso?
+- Como vai isso
 - Ei
 - Ei bot
+- ei tu
 - Ei, você!
 - Hello
+- hi
 - Hola
 - Meu nome é...
+- oi
+- Ola
 - Olá
-- Olá Helena
+- Ola amigo
 - Olá amigo
+- Ola bom dia.
 - Olá bom dia.
+- Ola bot
 - Olá bot
+- Ola estou bem então e tu
 - Olá estou bem então e tu
+- Ola eu sou o
 - Olá eu sou o
+- Ola Helena
+- Olá Helena
+- Ola para ti
 - Olá para ti
+- Ola robô
 - Olá robô
+- Ola sou o
 - Olá sou o
+- Ola tudo bem
 - Olá tudo bem
+- Ola, eu sou o
 - Olá, eu sou o
+- Ola, o meu nome é
 - Olá, o meu nome é
 - Ora viva!
-- Prazer em conhecer-te
 - Prazer em conhecê-lo
+- Prazer em conhecer-te
 - Saudações
 - Shalom
 - Tão que tal?
 - Yello
-- chama-me camarada
-- ei tu
-- hi
-- oi
-- Bon dia
 
 ## intent:pt_greeting_how_are_you
 - Como Estás hoje?

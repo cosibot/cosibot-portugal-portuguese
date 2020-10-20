@@ -433,7 +433,7 @@ responses:
           - type: ssml
             ssml: <speak>Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da Covid 19, tais como evitar a propagação, ou esclarecer alguns mitos que se leem por aí. Como posso ajudá-lo?</speak>
           - type: text
-            text: Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da Covid 19, tais como evitar a propagação, ou esclarecer alguns mitos que se leem por aí. Como posso ajudá-lo? 
+            text: Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da COVID-19, tais como evitar a propagação, ou esclarecer alguns mitos que se leem por aí. Como posso ajudá-lo? 
   utter_pt_portugal_rates:
     - custom:
         answers:
@@ -1453,7 +1453,7 @@ responses:
               papel ou um secador de ar quente.</speak>
           - type: html
             text: <p>Secadores de mãos não são eficazes a matar vírus. Para se proteger
-              contra a Covid 19, deve lavar frequentemente as mãos com um
+              contra a COVID-19, deve lavar frequentemente as mãos com um
               sabonete à base de álcool ou lavá-las com água e sabão. Depois de
               limpar as mãos, deve secá-las cuidadosamente usando toalhas de
               papel ou um secador de ar quente.<a
@@ -3173,7 +3173,7 @@ responses:
           - type: ssml
             ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19.</speak>
           - type: text
-            text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19."
+            text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de COVID-19."
 
   utter_country_region_nodata:
     - custom:
