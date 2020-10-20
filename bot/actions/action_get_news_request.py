@@ -1,14 +1,9 @@
-from typing import Text
-
-import logging
-
-logger = logging.getLogger(__name__)
-
-from rasa_sdk import Action
-from rasa_sdk.events import SlotSet, FollowupAction, UserUtteranceReverted
-from datetime import date
-import time
+from typing import Text, Any, Dict, List
 import requests
+
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import UserUtteranceReverted
 
 
 news_config = {
@@ -41,11 +36,13 @@ class ActionGetNews(Action):
 
             response = requests.get(url=news_config["search_URL"], params=params,)
             return response.json()
-        except:
+        except Exception:
             return []
 
-    def run(self, dispatcher, tracker, domain):
-        #search_term = tracker.latest_message.get('text')
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        # search_term = tracker.latest_message.get('text')
         search_term = "covid-19 Coronavirus"
 
         res = self.google_search(search_term)

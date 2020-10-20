@@ -1,14 +1,9 @@
-from typing import Text
-
-import logging
-
-logger = logging.getLogger(__name__)
-
-from rasa_sdk import Action
-from rasa_sdk.events import SlotSet, FollowupAction, UserUtteranceReverted
-from datetime import date
-import time
+from typing import Any, Text, Dict, List
 import requests
+
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import SlotSet, UserUtteranceReverted
 
 
 fallback_config = {
@@ -22,6 +17,7 @@ fallback_config = {
 
 
 class ActionDefaultFallback(Action):
+
     def name(self) -> Text:
         return "action_default_fallback"
 
@@ -41,10 +37,13 @@ class ActionDefaultFallback(Action):
 
             response = requests.get(url=fallback_config["search_URL"], params=params,)
             return response.json()
-        except:
+        except Exception:
             return []
 
-    def run(self, dispatcher, tracker, domain):
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
         nr_tries = tracker.get_slot("total_nr_tries")
         nr_tries = nr_tries + 1.0
 
@@ -63,6 +62,7 @@ class ActionDefaultFallback(Action):
                     if len(links_info) == 3:
                         break
                 message = self.build_links_answer(links_info)
+                print(domain)
                 return_response = domain["responses"]["utter_fallback_request_hasdata"][0]["custom"]
                 return_response["answers"].append(message)
                 dispatcher.utter_message(json_message=return_response)
