@@ -1,5 +1,0 @@
-message
-description
-remark
-comment
-note

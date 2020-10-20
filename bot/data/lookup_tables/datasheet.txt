@@ -1,5 +1,0 @@
-datasheet
-data-sheet
-spec sheet
-product sheet
-product datasheet

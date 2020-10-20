@@ -1,9 +1,0 @@
-cancelar
-stop
-anular
-interromper
-sair
-desistir
-cessar
-abortar
-revogar

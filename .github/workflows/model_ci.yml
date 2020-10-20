@@ -8,11 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - id: files
-      uses: jitterbit/get-changed-files@v1
     - name: set_unit_test
-      if: |
-          contains(  steps.files.outputs.all, 'bot/actions'  )
       run: echo "RUN_UNIT_TESTS=true" >> $GITHUB_ENV
     - name: Set up Python 3.7
       if: env.RUN_UNIT_TESTS == 'true'
@@ -44,14 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - id: files
-      uses: jitterbit/get-changed-files@v1
     - name: set_training
-      if: |
-          contains(  steps.files.outputs.all, 'bot/data/'  )
-          || contains( steps.files.outputs.all, 'bot/config.yml'  )
-          || contains(  steps.files.outputs.all, 'bot/domain.yml'  )
-          || contains(  steps.files.outputs.all, 'bot/tests/conversation_tests.md'  )
       run: echo "RUN_TRAINING=true" >> $GITHUB_ENV
     - name: Set up Python 3.7
       if: env.RUN_TRAINING == 'true'

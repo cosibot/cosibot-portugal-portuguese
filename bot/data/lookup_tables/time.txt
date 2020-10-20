@@ -1,6 +1,0 @@
-tempo
-horas
-hours
-hour
-time
-time of day
