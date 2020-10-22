@@ -1,0 +1,626 @@
+[
+  {
+    "text": "Qual é a tua roupa?",
+    "intent": "pt_bot_appearance",
+    "intent_prediction": {
+      "name": "pt_spread_washing_clothes",
+      "confidence": 0.775577962398529
+    }
+  },
+  {
+    "text": "Tens corpo?",
+    "intent": "pt_bot_appearance",
+    "intent_prediction": {
+      "name": "pt_bot_real",
+      "confidence": 0.5978779792785645
+    }
+  },
+  {
+    "text": "Podes dar-me assistência?",
+    "intent": "pt_bot_capabilities",
+    "intent_prediction": {
+      "name": "pt_vocative_help",
+      "confidence": 0.9199062585830688
+    }
+  },
+  {
+    "text": "Podes falar comigo?",
+    "intent": "pt_bot_capabilities",
+    "intent_prediction": {
+      "name": "pt_vocative_call",
+      "confidence": 0.5410329699516296
+    }
+  },
+  {
+    "text": "Que devo escrever?",
+    "intent": "pt_bot_capabilities",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.7147489190101624
+    }
+  },
+  {
+    "text": "Qual é o teu objetivo?",
+    "intent": "pt_bot_goal",
+    "intent_prediction": {
+      "name": "pt_bot_capabilities",
+      "confidence": 0.6603462100028992
+    }
+  },
+  {
+    "text": "Aprecias livros?",
+    "intent": "pt_bot_movies",
+    "intent_prediction": {
+      "name": "pt_bot_books",
+      "confidence": 0.6870359778404236
+    }
+  },
+  {
+    "text": "De onde é que és?",
+    "intent": "pt_bot_origin",
+    "intent_prediction": {
+      "name": "pt_bot_residence",
+      "confidence": 0.7405065894126892
+    }
+  },
+  {
+    "text": "De onde és?",
+    "intent": "pt_bot_origin",
+    "intent_prediction": {
+      "name": "pt_bot_residence",
+      "confidence": 0.7845320701599121
+    }
+  },
+  {
+    "text": "Diz-me de onde és",
+    "intent": "pt_bot_origin",
+    "intent_prediction": {
+      "name": "pt_bot_residence",
+      "confidence": 0.9075997471809387
+    }
+  },
+  {
+    "text": "Como te sentes sobre ficar com amigos?",
+    "intent": "pt_bot_personal_questions",
+    "intent_prediction": {
+      "name": "pt_user_friend",
+      "confidence": 0.7265701293945312
+    }
+  },
+  {
+    "text": "És muito simpático?",
+    "intent": "pt_bot_personality",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.9313431978225708
+    }
+  },
+  {
+    "text": "És simpático?",
+    "intent": "pt_bot_personality",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.8850982189178467
+    }
+  },
+  {
+    "text": "Onde tens andado?",
+    "intent": "pt_bot_residence",
+    "intent_prediction": {
+      "name": "pt_bot_personal_questions",
+      "confidence": 0.8015918135643005
+    }
+  },
+  {
+    "text": "Onde fica Évora",
+    "intent": "pt_cc_geography",
+    "intent_prediction": {
+      "name": "pt_covid_situation",
+      "confidence": 0.8657953143119812
+    }
+  },
+  {
+    "text": "Queres falar comigo?",
+    "intent": "pt_cc_lets_talk",
+    "intent_prediction": {
+      "name": "pt_vocative_call",
+      "confidence": 0.4860689342021942
+    }
+  },
+  {
+    "text": "Destino é real?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_cc_religion",
+      "confidence": 0.7961776256561279
+    }
+  },
+  {
+    "text": "O que faz um amigo bom?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_user_friend",
+      "confidence": 0.5696782469749451
+    }
+  },
+  {
+    "text": "O que é amor?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_user_love",
+      "confidence": 0.9419404864311218
+    }
+  },
+  {
+    "text": "O que é o tempo?",
+    "intent": "pt_cc_philosophical",
+    "intent_prediction": {
+      "name": "pt_cc_weather",
+      "confidence": 0.9589797854423523
+    }
+  },
+  {
+    "text": "Não sabes.",
+    "intent": "pt_comment_negative",
+    "intent_prediction": {
+      "name": "pt_comment_offense",
+      "confidence": 0.5752962827682495
+    }
+  },
+  {
+    "text": "Preciso de ser mais claro.",
+    "intent": "pt_comment_negative",
+    "intent_prediction": {
+      "name": "pt_vocative_yes",
+      "confidence": 0.7436688542366028
+    }
+  },
+  {
+    "text": "que piada",
+    "intent": "pt_comment_negative",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.6057778000831604
+    }
+  },
+  {
+    "text": "A Cortana é mais inteligente que tu",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.8456359505653381
+    }
+  },
+  {
+    "text": "A Glados é mais inteligente que tu",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.8908768892288208
+    }
+  },
+  {
+    "text": "A Siri é melhor que tu",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.9082021117210388
+    }
+  },
+  {
+    "text": "Google é mais inteligente que tu",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.9252052903175354
+    }
+  },
+  {
+    "text": "Não pareces inteligente",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.49387070536613464
+    }
+  },
+  {
+    "text": "Não és nada inteligente",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.4484155774116516
+    }
+  },
+  {
+    "text": "O Agente Smith é melhor que tu",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.9268998503684998
+    }
+  },
+  {
+    "text": "Siri é mais inteligente que tu",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.8139562606811523
+    }
+  },
+  {
+    "text": "Vai dar uma volta",
+    "intent": "pt_comment_offense",
+    "intent_prediction": {
+      "name": "pt_vocative_call",
+      "confidence": 0.8937203288078308
+    }
+  },
+  {
+    "text": "Tu és bom!",
+    "intent": "pt_comment_positive",
+    "intent_prediction": {
+      "name": "pt_comment_smart",
+      "confidence": 0.7395734786987305
+    }
+  },
+  {
+    "text": "Que mais sabes sobre o coronavírus?",
+    "intent": "pt_coronavirus_info",
+    "intent_prediction": {
+      "name": "pt_covid_info",
+      "confidence": 0.5005572438240051
+    }
+  },
+  {
+    "text": "Sérvia",
+    "intent": "pt_country",
+    "intent_prediction": {
+      "name": "pt_quarantine_general",
+      "confidence": 0.4368525445461273
+    }
+  },
+  {
+    "text": "Notícias sobre o COVID-19",
+    "intent": "pt_covid_situation",
+    "intent_prediction": {
+      "name": "pt_covid_current_statistics",
+      "confidence": 0.6670114994049072
+    }
+  },
+  {
+    "text": "Quantos testes foram realizados até à data?",
+    "intent": "pt_covid_situation_tested",
+    "intent_prediction": {
+      "name": "pt_test_per_day",
+      "confidence": 0.5725542306900024
+    }
+  },
+  {
+    "text": "Quais as fontes fidedignas de informação?",
+    "intent": "pt_covid_worry",
+    "intent_prediction": {
+      "name": "pt_bot_fear",
+      "confidence": 0.6124778985977173
+    }
+  },
+  {
+    "text": "Boa Noite",
+    "intent": "pt_greeting_goodbye",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.6405335068702698
+    }
+  },
+  {
+    "text": "Obrigado pelo teu tempo.",
+    "intent": "pt_greeting_goodbye",
+    "intent_prediction": {
+      "name": "pt_user_no_further_questions",
+      "confidence": 0.6726543307304382
+    }
+  },
+  {
+    "text": "Como vai isso",
+    "intent": "pt_greeting_hello",
+    "intent_prediction": {
+      "name": "pt_greeting_how_are_you",
+      "confidence": 0.7941110730171204
+    }
+  },
+  {
+    "text": "Como é que vai isso?",
+    "intent": "pt_greeting_hello",
+    "intent_prediction": {
+      "name": "pt_greeting_how_are_you",
+      "confidence": 0.5579494833946228
+    }
+  },
+  {
+    "text": "Oi como vai isso",
+    "intent": "pt_greeting_how_are_you",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.6527355313301086
+    }
+  },
+  {
+    "text": "Tão e que tal",
+    "intent": "pt_greeting_how_are_you",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.7557211518287659
+    }
+  },
+  {
+    "text": "Tão que tal",
+    "intent": "pt_greeting_how_are_you",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.823154628276825
+    }
+  },
+  {
+    "text": "Olá boa tarde tudo bem",
+    "intent": "pt_greeting_how_are_you",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.9311375021934509
+    }
+  },
+  {
+    "text": "Estou com febre.",
+    "intent": "pt_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "pt_prevention_home",
+      "confidence": 0.8456028699874878
+    }
+  },
+  {
+    "text": "sou grupo de risco e estou com sintomas",
+    "intent": "pt_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "pt_covid_aftereffects_immunity",
+      "confidence": 0.5635006427764893
+    }
+  },
+  {
+    "text": "Direção geral de saúde",
+    "intent": "pt_sources",
+    "intent_prediction": {
+      "name": "pt_prevention_touch",
+      "confidence": 0.452010840177536
+    }
+  },
+  {
+    "text": "Os animais podem espalhar COVID-19 aos seres humanos?",
+    "intent": "pt_spread_animals",
+    "intent_prediction": {
+      "name": "pt_bot_capabilities",
+      "confidence": 0.16182948648929596
+    }
+  },
+  {
+    "text": "Viajando depois.",
+    "intent": "pt_travel_after",
+    "intent_prediction": {
+      "name": "pt_travel_before",
+      "confidence": 0.575400710105896
+    }
+  },
+  {
+    "text": "O que fazer na viagem?",
+    "intent": "pt_travel_while",
+    "intent_prediction": {
+      "name": "pt_travel_before",
+      "confidence": 0.5763161778450012
+    }
+  },
+  {
+    "text": "como viajar",
+    "intent": "pt_travel_while",
+    "intent_prediction": {
+      "name": "pt_travel_before",
+      "confidence": 0.71571946144104
+    }
+  },
+  {
+    "text": "Estou de mau humor",
+    "intent": "pt_user_angry",
+    "intent_prediction": {
+      "name": "pt_user_happy",
+      "confidence": 0.7411657571792603
+    }
+  },
+  {
+    "text": "hoje estou de mau humor",
+    "intent": "pt_user_angry",
+    "intent_prediction": {
+      "name": "pt_user_happy",
+      "confidence": 0.9196473360061646
+    }
+  },
+  {
+    "text": "Ajudaste-me com tudo, obrigado.",
+    "intent": "pt_user_no_further_questions",
+    "intent_prediction": {
+      "name": "pt_vocative_thank_you",
+      "confidence": 0.7330251932144165
+    }
+  },
+  {
+    "text": "Esclareceste todas as minhas perguntas.",
+    "intent": "pt_user_no_further_questions",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.6697835922241211
+    }
+  },
+  {
+    "text": "Não tenho mais perguntas.",
+    "intent": "pt_user_no_further_questions",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.7243964672088623
+    }
+  },
+  {
+    "text": "Obrigada pela tua ajuda.",
+    "intent": "pt_user_no_further_questions",
+    "intent_prediction": {
+      "name": "pt_vocative_thank_you",
+      "confidence": 0.6148509383201599
+    }
+  },
+  {
+    "text": "Obrigado pela tua ajuda.",
+    "intent": "pt_user_no_further_questions",
+    "intent_prediction": {
+      "name": "pt_vocative_thank_you",
+      "confidence": 0.9547252058982849
+    }
+  },
+  {
+    "text": "Por agora é tudo, obrigado.",
+    "intent": "pt_user_no_further_questions",
+    "intent_prediction": {
+      "name": "pt_vocative_thank_you",
+      "confidence": 0.9215630292892456
+    }
+  },
+  {
+    "text": "Por agora não tenho mais perguntas.",
+    "intent": "pt_user_no_further_questions",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.6981149911880493
+    }
+  },
+  {
+    "text": "Estás a meter-me medo.",
+    "intent": "pt_user_scared",
+    "intent_prediction": {
+      "name": "pt_bot_fear",
+      "confidence": 0.7531659603118896
+    }
+  },
+  {
+    "text": "Que medo!",
+    "intent": "pt_user_scared",
+    "intent_prediction": {
+      "name": "pt_bot_fear",
+      "confidence": 0.48864778876304626
+    }
+  },
+  {
+    "text": "estás a entender",
+    "intent": "pt_vocative_call",
+    "intent_prediction": {
+      "name": "pt_comment_negative",
+      "confidence": 0.8154560327529907
+    }
+  },
+  {
+    "text": "estás a ler",
+    "intent": "pt_vocative_call",
+    "intent_prediction": {
+      "name": "pt_bot_books",
+      "confidence": 0.7610397934913635
+    }
+  },
+  {
+    "text": "Responde por favor",
+    "intent": "pt_vocative_help",
+    "intent_prediction": {
+      "name": "pt_bot_capabilities",
+      "confidence": 0.6020515561103821
+    }
+  },
+  {
+    "text": "és muito atencioso.",
+    "intent": "pt_vocative_thank_you",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.7663387656211853
+    }
+  },
+  {
+    "text": "és muito prestável",
+    "intent": "pt_vocative_thank_you",
+    "intent_prediction": {
+      "name": "pt_comment_positive",
+      "confidence": 0.7981422543525696
+    }
+  },
+  {
+    "text": "Muito bem",
+    "intent": "pt_vocative_yes",
+    "intent_prediction": {
+      "name": "pt_greeting_hello",
+      "confidence": 0.7386928796768188
+    }
+  },
+  {
+    "text": "Posso tomar aspirina",
+    "intent": "pt_covid_ibuprofen",
+    "intent_prediction": {
+      "name": "pt_prevention_medicine",
+      "confidence": 0.9336845278739929
+    }
+  },
+  {
+    "text": "Tu és mesmo engraçado",
+    "intent": "pt_user_laugh",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.9205319881439209
+    }
+  },
+  {
+    "text": "rir",
+    "intent": "pt_user_laugh",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.8589081764221191
+    }
+  },
+  {
+    "text": "Isto é engraçado.",
+    "intent": "pt_user_laugh",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.6343520283699036
+    }
+  },
+  {
+    "text": "isso é engraçado",
+    "intent": "pt_user_laugh",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.7507551312446594
+    }
+  },
+  {
+    "text": "fazes-me rir",
+    "intent": "pt_user_laugh",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.9024672508239746
+    }
+  },
+  {
+    "text": "és engraçado",
+    "intent": "pt_user_laugh",
+    "intent_prediction": {
+      "name": "pt_cc_joke",
+      "confidence": 0.9297255873680115
+    }
+  },
+  {
+    "text": "Quantos infetados tem Beja?",
+    "intent": "pt_covid_situation",
+    "intent_prediction": {
+      "name": "pt_covid_situation_infected",
+      "confidence": 0.8153509497642517
+    }
+  }
+]

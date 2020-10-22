@@ -1,0 +1,47 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: "pt"  # your two-letter language code
+pipeline:
+  # - name: language_detection.lang_detect_component.CustomLangDetect
+  # - name: SpacyNLP
+  # - name: SpacyTokenizer
+  # - name: SpacyFeaturizer
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4
+  - name: CRFEntityExtractor
+  - name: DIETClassifier
+    # entity_recognition: False
+    epochs: 100
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    epochs: 100
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  #- name: "KerasPolicy"
+  #  featurizer:
+  #  - name: MaxHistoryTrackerFeaturizer
+  #    max_history: 10
+  #    state_featurizer:
+  #      - name: BinarySingleStateFeaturizer
+  - name: MemoizationPolicy
+    max_history: 20
+  - name: TEDPolicy
+    max_history: 20
+    epochs: 100
+  - name: MappingPolicy
+  - name: "FallbackPolicy"
+    nlu_threshold: 0.55
+    core_threshold: 0.3
+    fallback_action_name: "action_default_fallback"
+  - name: custom.policies.language_detection.lang_change_policy.LangChangePolicy
+    lang_detect_threshold: 0.8
+    fallback_action_name: 'utter_pt_bot_languages'
+    model_path: "./custom/policies/language_detection/lid.176.ftz"

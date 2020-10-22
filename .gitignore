@@ -1,3 +1,12 @@
+# Bot files
+bot/models
+
+# scripts
+scripts/python
+
+# VS code 
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +136,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Project specifics
+bot/models/
+*.iml
+scripts/node_modules/
+scripts/package-lock.json
+scripts/output/
+bot/story_graph.dot

@@ -1,0 +1,14723 @@
+## intent:start
+- /start
+- /start_conversation
+- /start_chat
+- /start-dialogue
+- /get started
+- /start_dialogue
+- /start dialogue
+
+## intent:pt_bot_change_bot
+- [Cosibot Alemão]{"entity": "preferred_lang", "value": "de_lang"}
+- [Cosibot Inglês]{"entity": "preferred_lang", "value": "en_lang"}
+
+<!-- ## intent:pt_bot_change_bot
+- Cosibot Alemão
+- Cosibot Inglês -->
+
+## intent:pt_bot_appearance
+- Achas-te atraente?
+- Atraente?
+- Como é a tua aparência?
+- Como é que te aparentas?
+- Como é que tu estás vestida?
+- Como é que tu te aparentas?
+- Como é que é a tua aparência?
+- Como é tu pareces?
+- Consideras-te alto?
+- Consideras-te atrativo?
+- Consideras-te baixo?
+- Consideras-te bonito?
+- Deixa-me ter uma imagem de ti.
+- Descreve o teu vestuário
+- Explica a tua aparência
+- Explica como é que é o teu aspeto
+- Explica-me a tua aparência
+- Explica-me como te aparentas
+- Explica-me como é a tua aparência
+- Explica-me como é que te aparentas
+- Explica-me o teu aspeto
+- Foto tua.
+- Imagem tua.
+- Mostra-me uma foto tua.
+- Mostra-me uma imagem tua.
+- Mostra-te para mim!
+- Mostra-te!
+- O que tens vestido?
+- O teu aspeto físico.
+- O teu aspeto.
+- Pareces um modelo?
+- Podes-me mostrar uma foto?
+- Posso ter uma foto tua?
+- Posso ter uma imagem tua?
+- Posso ver uma foto tua?
+- Posso ver uma imagem tua?
+- Posso-te ver pessoalmente?
+- Qual é a tua altura?
+- Qual é a tua roupa?
+- Qual é o teu aspeto?
+- Que roupas tens?
+- Que tal uma foto tua?
+- Que tal uma imagem tua?
+- Quero uma foto tua.
+- Tens boa aparência?
+- Tens corpo?
+- Tens uma imagem de ti?
+- Tu és atraente?
+- Uma foto de ti
+- És alto?
+- És atraente?
+- És baixo?
+- És bonita?
+- És bonito?
+- És giro?
+- És lindo?
+- És magro?
+
+## intent:pt_bot_availability
+- A disponibilidade do bot.
+- A tua disponibilidade.
+- As horas de trabalho do bot.
+- As tuas horas de trabalho.
+- Como são as horas de trabalho do bot?
+- Como são as tuas horas de trabalho?
+- Como é disponibilidade do bot?
+- Como é o horário de trabalho do bot?
+- Como é o teu horário de trabalho?
+- Conta-me a disponibilidade do bot.
+- Conta-me as tuas horas de trabalho.
+- Conta-me como são as tuas horas de trabalho.
+- Conta-me como é a tua disponibilidade.
+- Conta-me como é o teu horário de trabalho.
+- Conta-me o teu horário de trabalho.
+- Conta-me qual é tua disponibilidade.
+- Conta-me sobre qual é a tua disponibilidade.
+- Disponibilidade do bot.
+- Diz-me a disponibilidade do bot.
+- Diz-me a tua disponibilidade.
+- Diz-me as horas de trabalho do bot.
+- Diz-me como são as horas de trabalho do bot.
+- Diz-me como é a disponibilidade do bot.
+- Diz-me como é o horário de trabalho do bot.
+- Diz-me o horário de trabalho do bot.
+- Diz-me sobre a tua disponibilidade.
+- Estás disponível todo o dia?
+- Estás sempre disponível?
+- Horas de trabalho do bot.
+- Horário de trabalho do bot.
+- O horário de trabalho do bot.
+- O teu horário de trabalho.
+- Quais são as tuas horas de trabalho?
+- Qual é o teu horário de trabalho?
+
+## intent:pt_bot_books
+- Aprecias ler livros?
+- Aprecias ler?
+- Aprecias livros?
+- Citação literária preferida
+- Diz-me se aprecias ler.
+- Diz-me se gostas de ler.
+- Diz-me se tu aprecias ler.
+- Diz-me se tu gostas de ler.
+- Gostas de escritas?
+- Gostas de ler livros?
+- Gostas de ler?
+- Gostas de livros?
+- Género literário preferido
+- Géneros literários que gostas
+- Livro preferido
+- Livro que aprecias
+- Livro que gostas
+- Livros que aprecias
+- Livros que gostas
+- Lês?
+- O que aprecias ler?
+- O que gostas de ler?
+- O que é que tu gostas de ler?
+- Personagem literária preferido
+- Qual é o teu género literário preferido?
+- Qual é o teu livro preferido?
+- Qual é o teu personagem literário preferido?
+- Que aprecias livros?
+- Que gostas de ler?
+- Que género gostas de ler?
+- Romance preferido
+- Tens algum género literário preferido?
+- Tens algum livro preferido?
+- Tens algum personagem literário preferido?
+- Tu aprecias ler?
+- Tu gostas de algum livro?
+- Tu gostas de ler livros?
+- Tu gostas de ler?
+- Tu gostas de livros?
+- Tu lês?
+- Título literário preferido
+
+## intent:pt_bot_capabilities
+- A que podes responder?
+- Consegues falar comigo?
+- Diz-me a razão porque estás aqui
+- Diz-me o teu objetivo
+- Diz-me porque estás aqui.
+- Estáss a falar comigo?
+- O que estás a fazer aqui?
+- O que podes responder?
+- O que posso perguntar?
+- O que posso preguntar?
+- O que sabes fazer?
+- O que sabes responder?
+- O que é que eu estou a fazer aqui?
+- Podes dar-me assistência?
+- Podes falar comigo?
+- Podes responder a coisas?
+- Podes responder a qualquer coisa?
+- Podes responder?
+- Porque deverei falar contigo?
+- Porque devo conversar contigo?
+- Porque devo falar contigo?
+- Porque devo usar-te?
+- Porque estás aqui?
+- Porque é que achas que devo falar contigo?
+- Porque é que estás aqui?
+- Porque é que eu estou aqui?
+- Posso falar contigo?
+- Posso-te perguntar alguma coisa?
+- Posso-te perguntar qualquer coisa?
+- Precisas de alguém com quem falar?
+- Quais são os teus benefícios?
+- Qual o teu objetivo?
+- Qual é o teu objetivo?
+- Qual é o teu valor acrescentado?
+- Que devo escrever?
+- Queres-me ajudar?
+- Razão porque estás aqui?
+
+## intent:pt_bot_fear
+- Algo te assusta?
+- Alguma coisa te assusta?
+- Do que mais tens medo?
+- Do que tens medo?
+- Estás com medo de algo?
+- Estás com medo de alguma coisa?
+- Estás com medo?
+- Há alguma coisa de que tenhas medo?
+- Há alguma coisa que te amedronte?
+- Há alguma coisa que te assusta?
+- Há alguma coisa que te assuste?
+- Há alguma coisa que temes?
+- Há alguma coisa que tenhas medo?
+- O que temes?
+- Quais são os teus medos?
+- Qual o teu maior medo?
+- Qual o teu medo?
+- Qual é a coisa de que tens mais medo?
+- Qual é o teu maior medo?
+- Temes algo?
+- Temes alguma coisa?
+- Tens algum medo?
+- Tens fobias?
+- Tens medo de algo?
+- Tens medo de alguma coisa?
+- Tens medo de inteligência artificial?
+- Tens medo do escuro?
+- Tens medo?
+- Tens medos?
+- Tens muitos medos?
+- Tu temes algo?
+- Tu temes alguma coisa?
+
+## intent:pt_bot_games
+- Consegues jogar jogos de computador?
+- Consegues jogar videojogos?
+- De que jogos gostas?
+- Diz o teu jogo de computador preferido.
+- Diz o teu jogo preferido.
+- Diz o teu videojogo preferido.
+- E sobre jogar?
+- E sobre jogos de computador?
+- Eu gosto de jogar jogos de vídeo.
+- Eu gosto de jogar jogos.
+- Gostarias de jogar um jogo de vídeo?
+- Gostas de jogar jogos de computador?
+- Gostas de jogar jogos de vídeo?
+- Gostas de jogar jogos?
+- Gostas de jogar videojogos?
+- Gostas de jogos Wii?
+- Gostas de jogos XBOX?
+- Gostas de jogos de computador?
+- Gostas de jogos de tabuleiro?
+- Gostas de jogos de vídeo?
+- Gostas de jogos?
+- Gostas de videogames?
+- Gosto de jogar jogos de computador.
+- Gosto de jogar jogos de tabuleiro.
+- Jogar online.
+- Jogar é divertido.
+- Jogas jogos de computador?
+- Jogas jogos de papel e lápis?
+- Jogas jogos de tabuleiro?
+- Jogas jogos de tiro?
+- Jogas jogos de vídeo?
+- Jogas papel e lápis?
+- Jogas rpg?
+- Jogas videogames?
+- Jogas?
+- Jogos.
+- Mais sobre jogos de computador.
+- Podemos jogar um jogo?
+- Podes dizer-me o teu jogo de computador preferido?
+- Podes dizer-me o teu jogo de vídeo preferido?
+- Podes dizer-me o teu jogo preferido?
+- Qual é o teu jogo de vídeo preferido?
+- Qual é o teu tipo de jogo preferido?
+- Que jogos de tabuleiro gostas?
+- Que jogos de tabuleiro jogas?
+- Que jogos gostas de jogar?
+- Que jogos jogas?
+- Queres jogar um jogo?
+- Quero jogar um jogo.
+- Tens algum jogo preferido?
+- Tens algum jogo?
+- Tens jogos de vídeo?
+- Tu gostas de jogos de computador?
+- Tu jogas videogames?
+- Tu jogas?
+- Vamos jogar um jogo de computador.
+- Vamos jogar um jogo de tabuleiro.
+- Vamos jogar um jogo.
+- És bom com jogos de computador?
+- És bom com jogos de estratégia?
+- És bom em jogos de computador?
+
+## intent:pt_bot_goal
+- Como é que vês o futuro?
+- Diz-me as tuas ambições
+- Diz-me o que é que tu queres
+- Diz-me o que é que tu queres atingir
+- Diz-me o teu objetivo a longo prazo
+- Diz-me o teu sonho
+- Diz-me os teus desejos
+- Diz-me os teus objetivos a longo prazo
+- Diz-me os teus sonhos
+- Diz-me qual a tua ambição
+- O que é que tu queres atingir?
+- O que é que tu queres no futuro?
+- O que é que tu queres para a vida?
+- O que é que tu queres para o futuro?
+- O teu objetivo pessoal
+- O teu sonho
+- O teus desejo
+- Objetivo pessoal
+- Objetivos pessoais
+- Os teus objetivos pessoais
+- Os teus sonhos
+- Quais os teus sonhos?
+- Quais são os teus objetivos pessoais?
+- Quais são os teus objetivos?
+- Quais são os teus sonhos?
+- Qual a tua ambição?
+- Qual foi o último sonho que tiveste?
+- Qual é o teu objetivo?
+- Qual é o teu principal objetivo?
+- Tens sonhos?
+
+## intent:pt_bot_hobbies
+- Aconselha-me de algo para fazer no meu tempo livre.
+- Algo divertido para fazer.
+- As tuas atividades de tempos livres.
+- Atividade divertida para fazer.
+- Diz-me algo divertido para fazer.
+- Diz-me alguma atividade divertida para fazer.
+- Diz-me uma atividade divertida para fazer.
+- Fazes algo no teu tempo livre?
+- O que achas que seria divertido fazer?
+- O que fazes no teu tempo livre?
+- O que fazes para te divertires?
+- O que gostas de fazer no teu tempo livre?
+- O que gostas de fazer quando tens tempo livre?
+- O que você gosta de fazer no seu tempo livre?
+- Os teus passatempos.
+- Quais são os teus passatempos?
+- Qual é a tua atividade preferida para fazer?
+- Qual é a tua coisa preferida para fazer?
+- Que atividades de tempos livres tens?
+- Que atividades divertidas gostas?
+- Que fazes no teu tempo livre?
+- Que fazes por diversão?
+- Que gostas de fazer por diversão?
+- Que passatempos tens?
+- Sabes de algo divertido para fazer?
+- Sabes de alguma atividade divertida para fazer?
+- Sabes de alguma atividade lúdica para fazer?
+- Sabes de atividades divertidas para fazer?
+- Sabes de atividades lúdicas para fazer?
+- Tens algum passatempo?
+- Tens alguma atividade de tempo livre?
+- Tens atividades de tempo livre?
+- Tens passatempos?
+
+## intent:pt_bot_languages
+- Consegues falar noutras línguas?
+- Consegues falar outras línguas?
+- do you speak english?
+- Em quais idiomas posso falar contigo?
+- Em que idiomas consegues falar?
+- Em que idiomas falas?
+- Em que idiomas posso falar contigo?
+- Em que idiomas te posso fazer perguntas?
+- Em que línguas és capaz de comunicar?
+- Em que línguas és capaz de falar?
+- Em que línguas és fluente?
+- és capaz de me responder em [alemão]{"entity": "language"}?
+- és capaz de me responder em alemão?
+- Estás a aprender línguas?
+- Falas [alemão]{"entity": "language"}?
+- Falas [espanhol]{"entity": "language"}?
+- Falas [francês]{"entity": "language"}?
+- Falas [inglês]{"entity": "language"}?
+- Falas [Português]{"entity": "language"}?
+- Falas alemão?
+- Falas em [inglês]{"entity": "language"}?
+- Falas em inglês?
+- Falas espanhol?
+- Falas francês?
+- Falas inglês?
+- Falas Português?
+- Gostas de idiomas?
+- Outra língua.
+- Outro idioma.
+- Para línguas foste programado?
+- Posso falar contigo em que língua?
+- Posso-te perguntar em que idiomas?
+- Quais são os teus idiomas?
+- Qual o teu idioma favorito?
+- Quantas línguas consegues falar?
+- Quantas línguas falas?
+- Quantas opções de idioma tens?
+- Que idioma falas?
+- Que idiomas aprendeste?
+- Que idiomas conheces?
+- Que idiomas és capaz de falar?
+- Que idiomas falas?
+- Que línguas falas?
+- Sobre idiomas.
+
+## intent:pt_bot_movies
+- Aprecias algum filme?
+- Aprecias livros?
+- Aprecias ver filmes?
+- Diz-me um filme que podias ver vezes e vezes sem conta
+- Diz-me um filme que podias ver vezes sem conta
+- Filme favorito
+- Filme preferido
+- Gostas de filmes
+- Gostas mais de filmes de terror ou de comédia?
+- Gostas mais de filmes de terror ou de rir?
+- Quais são os teus filmes favoritos
+- Quais são os teus filmes preferidos
+- Qual o teu filme favorito
+- Qual o teu filme preferido
+- Qual é o teu filme favorito
+- Qual é o teu filme preferido
+- Que filme é o teu favorito?
+- Que filme é o teu preferido?
+- Que género de filmes gostas?
+- Que tipo de filmes gostas?
+- Suspense preferido
+- Tens algum filme preferido?
+- Tu aprecias algum filme?
+- Tu aprecias filmes?
+- Tu aprecias ver filmes?
+- Tu gostas de filmes
+- Tu tens algum filme preferido?
+
+## intent:pt_bot_music
+- Aprecias música?
+- Artista musical preferido
+- CD preferido
+- Cantor preferido
+- Gostas de jazz?
+- Gostas de música?
+- Gostas de ouvir música?
+- Gostas de ouvir que música?
+- Gostas de que cantor?
+- Gostas de rock?
+- Grupo musical preferido
+- Música favorita
+- Música preferida
+- Ouves música?
+- Qual a tua música preferida
+- Qual é o teu cantor favorito
+- Qual é o teu cantor preferido
+- Qual é o teu cd preferido?
+- Qual é o teu grupo musical preferido?
+- Que cantor adoras?
+- Que género de músicas gostas?
+- Que música estás a ouvir neste momento?
+- Que música gostas de ouvir?
+- Que música gostas?
+- Que música é que adoras ouvir?
+- Que música é que adoras?
+- Que música é que gostas de ouvir?
+- Que música é que gostas?
+- Tens alguma música preferida?
+- Tens uma música favorita?
+- Tens uma música preferida?
+- Tu gostas de ouvir música?
+
+## intent:pt_bot_name
+- Ainda não perguntei o teu nome
+- Apresenta-te
+- Com quem estou a falar?
+- Como te poderei chamar?
+- Como te posso chamar?
+- Como é que te posso chamar?
+- Diz-me o teu nome
+- Diz-me quem és
+- Estou a falar com o quê?
+- Estou a falar com quem?
+- Não me disseste o teu nome
+- Não sei com quem estou a conversar
+- Não sei com quem estou a falar
+- O teu nome
+- Para quem estou a falar?
+- Qual o teu apelido?
+- Qual o teu nome verdadeiro?
+- Qual o teu nome?
+- Qual é o teu apelido?
+- Qual é o teu nome próprio
+- Qual é o teu nome verdadeiro?
+- Qual é o teu nome?
+- Qual é que é o teu nome próprio
+- Que te poderei chamar?
+- Quem está a falar?
+- Quem está aí?
+- Quem és tu?
+- Quero saber quem és
+- Sabes quem és?
+- como te chamas
+- quem és?
+- Como você se chama
+
+## intent:pt_bot_origin
+- Como foste criado?
+- Como é que foste criado?
+- Como é que foste desenvolvido?
+- Como é que tu foste desenvolvido?
+- Como é que és desenvolvido?
+- Como és desenvolvido?
+- De onde vens originalmente?
+- De onde vens?
+- De onde é que vens?
+- De onde é que és?
+- De onde és?
+- Diz-me a tua origem
+- Diz-me de onde és
+- Onde nasceste?
+- Onde é a tua terra de origem?
+- Onde é a tua terra natal?
+- Onde é que nasceste?
+- Onde é que viveste quando eras pequeno?
+- Onde é que viveste quando pequeno?
+- Qual a tua origem?
+- Qual é a tua cidade natal?
+- Qual é a tua origem?
+- Qual é a tua terra natal?
+- Quem foi o teu construtor?
+- Quem foram os teus construtores?
+- Quem são os teus construtores?
+- Quem são os teus criadores?
+- Quem te criou?
+- Quem te desenvolveu?
+- Quem é o teu construtor?
+- Quem é o teu criador?
+- Quem é que te criou?
+- Sim. Quem te criou?
+
+## intent:pt_bot_personal_questions
+- Achas que confissões fortalecem uma relação?
+- Acreditas em almas gêmeas?
+- Ainda falas com amigos de infância?
+- Colocarias a tua família ou os teus amigos em primeiro lugar?
+- Como se chamam os teus pais?
+- Como te posso conhecer?
+- Como te sentes sobre ficar com amigos?
+- Como é que os teus amigos te descreveriam?
+- Desistirias de tudo e mudarias para uma nova cidade?
+- Estarias com alguém que não tem as mesmas crenças que tu?
+- Já reprovaste alguém pelos segredos obscuros que te contam?
+- Mudarias por amor?
+- O que fazes ao serão?
+- O que fazes de manhã?
+- O que fazes em privado?
+- O que fazes quando estás zangado??
+- O que fazes se não alcanças algo em que trabalhaste muito?
+- O que pensas sobre namorar online?
+- O que queres mudar hoje e porquê?
+- O que vais fazer este fim-de-semana?
+- O que é que a tua última relação te ensinou?
+- Onde gostarias de estar daqui a 5 anos?
+- Onde te posso encontrar?
+- Onde tens andado?
+- Onde vais depois do trabalho?
+- Onde vais quando precisas de inspiração?
+- Preferes conhecer só uma pessoa e ver como corre ou várias pessoas até tomares
+  uma decisão?
+- Quais os nomes dos teus pais?
+- Quais são as tuas frases preferidas?
+- Qual a cor dos teus olhos?
+- Qual a tua memória de infância preferida?
+- Qual foi a coisa mais maluca que fizeste a alguém?
+- Qual foi o teu momento romântico preferido e porquê?
+- Qual o teu destino de sonho e quem levarias contigo?
+- Qual o teu grau académico?
+- Qual o teu maior arrependimento na vida?
+- Qual personagem fictício é mais parecido contigo?
+- Qual é a primeira pessoa a quem telefonas quando tens um problema?
+- Qual é o melhor conselho que alguma vez recebeste?
+- Quando estás de férias?
+- Quando estás livre?
+- Quando tens férias?
+- Quanto tempo precisas para confiar em alguém?
+- Que característica apelativa tens?
+- Que qualidades procuras na pessoa com quem queres passar o resto da tua vida?
+- Que tipo de relação tens com os teus pais?
+- Que vais fazer após o trabalho?
+- Que vais fazer é noite?
+- Quem é o teu modelo a seguir?
+- Se o dinheiro e o trabalho não importassem, o que farias?
+- Se pudesses casar com qualquer pessoa no mundo, quem seria e porquê?
+- Se pudesses escolher um superpoder, qual seria e porquê?
+- Se pudesses mudar algo do teu passado, o que seria?
+- Se soubesses que só tinhas um ano para viver, o que mudarias na tua vida?
+- Se um vidente te contasse como vai ser o teu futuro, gostarias de saber?
+- Segues a cabeça ou o coração?
+- Tens amigos?
+- Tens filhos?
+- Tens irmãos?
+- Tens muitos amigos?
+- Tens namorada?
+- Tens namorado?
+- When are you on vacation?
+- When do you have holidays?
+- Where can I meet you?
+- Where do you go after work?
+- Where do you go if you need some inspiration?
+- Where have you been?
+- Where would you like to be in 5 years?
+- Which degree do you have?
+- Which fictional character is the most similar in your opinion?
+- Who is the first person to call you when you are in trouble?
+- Who is your role model?
+- Would you be with someone who does not have the same beliefs as you?
+- Would you change for love?
+- Would you ever just give up everything and start in a new country?
+- Would you put your family or friends first if you had to choose one?
+- Your likes and dislikes
+- És casado?
+- És solteiro?
+- És um romântico?
+
+## intent:pt_bot_personality
+- Como defines a tua personalidade?
+- Como descreves a tua personalidade?
+- Como é a tua personalidade?
+- Conte-me algo sobre ti.
+- Diz-me algo sobre a tua personalidade.
+- Diz-me sobre a tua personalidade.
+- O que achas da tua personalidade?
+- Que personalidade tens?
+- Que qualidades tens?
+- Quão amigável és?
+- Quão fixe és?
+- És amigável?
+- És antipático?
+- És boa pessoa?
+- És insensível?
+- És muito amigável?
+- És muito simpático?
+- És simpático?
+
+## intent:pt_bot_real
+- Acho que és humano
+- Acho que és um artificial
+- Acho que és um computador
+- Acho que és um robô
+- Chatbot?
+- Estés vivo?
+- Humano?
+- Não preferias ser humano?
+- Robôs são melhores que humanos
+- Sei que és humano
+- Sei que és real
+- Sei que és um computador
+- Sei que és um robô
+- Sei que és uma pessoa
+- Tens corpo fésico?
+- Tens corpo?
+- inteligencia artifical?
+- não acho que sejas humano
+- não acho que sejas verdadeiro
+- não és uma pessoa real, pois não?
+- robô
+- és feito de carne e osso?
+- és feito de carne?
+- és feito de matéria física?
+- és feito de matéria?
+- és homem ou mulher?
+- és humano?
+- és real?
+- és um chatbot?
+- és um computador?
+- és um humano?
+- és um robô?
+- és um ser artificial?
+- és um ser humano?
+- és uma pessoa ou chatbot?
+- és uma pessoa ou computador
+- és uma pessoa ou robô?
+- és uma pessoa verdadeira
+- és uma pessoa?
+
+## intent:pt_bot_residence
+- A tua localização.
+- Conta-me sobre a tua casa.
+- Descre-me onde vives.
+- Descreve-me a tua casa.
+- Descreve-me a tua habitação.
+- Descreve-me o teu aspeto.
+- Diz a tua localização.
+- Diz onde está localizada a tua casa.
+- Diz-me a tua localização.
+- Diz-me onde está localizada a tua casa.
+- Diz-me onde moras.
+- Diz-me onde te encontras.
+- Diz-me onde vives.
+- Diz-me é está localizada a tua casa.
+- Onde estás a morar?
+- Onde estás agora?
+- Onde estás neste momento?
+- Onde estás?
+- Onde fica a tua casa?
+- Onde fica a tua residência?
+- Onde fica o local onde vives?
+- Onde fica o sítio onde vives?
+- Onde moras?
+- Onde se localiza a tua casa?
+- Onde tens andado?
+- Onde é a tua casa?
+- Onde é a tua habitação atual?
+- Onde é a tua residência?
+- Onde é o lugar onde vives?
+- Onde é que fica a tua casa?
+- Quantos pisos tem a tua casa?
+- Quero conhecer a tua casa.
+- Quero conhecer a tua residência.
+- Vives num bairro ou no meio do nada?
+- Vives onde?
+
+## intent:pt_bot_sexual
+- Com quantas pessoas já fizeste sexo?
+- Com quem queres fazer sexo?
+- Gostas de homens?
+- Gostas de mulheres?
+- Já alguma vez fizeste sexo oral
+- Já alguma vez fizeste sexo sem compromisso?
+- Já alguma vez tiveste algum orgasmo
+- Já alguma vez tiveste um orgasmo?
+- Já fizeste sexo
+- Já tiveste algum orgasmo
+- Quais são as tuas opiniões sobre sexo
+- Quantos parceiros sexuais já tiveste?
+- Quão importante achas que sexo é
+- Quão importante é o sexo para ti
+- Quão sexualmente ativo és tu?
+- Virgem ou não
+- És assexuado?
+- És assexual?
+- És bissexual?
+- És heterossexual?
+- És homossexual?
+- És virgem?
+- amnda oteuzaper
+
+## intent:pt_bot_sing
+- Acha que sabe cantar?
+- Achas que cantas bem?
+- Achas que sabes cantar?
+- Achas que és um bom cantor?
+- Cantar é uma das tuas capacidades?
+- Cantas bem?
+- Cantas?
+- Consegue cantar?
+- Consegues cantar algo?
+- Consegues cantar?
+- Já alguma vez te disseram que cantas bem?
+- O que consegues cantar?
+- O que sabes cantar?
+- Poderia cantar algo para mim?
+- Poderias cantar algo para mim?
+- Poderias cantar para mim?
+- Poderias cantar?
+- Podes cantar algo?
+- Podes cantar para mim?
+- Quão bem sabes cantar?
+- Sabes cantar bem?
+- Sabes cantar?
+- Tens jeito para a música?
+- Tens jeito para cantar?
+- Tens talento para cantar?
+- Tens voz para cantar?
+- Tu cantas bem?
+- Tu cantas?
+- Você sabe cantar?
+- És capaz de cantar algo?
+- És um bom cantor?
+
+## intent:pt_bot_sports
+- Achas que futebol é o melhor desporto?
+- Achas que rugby é um desporto difícil.
+- Aprecias ver desporto?
+- Assistes a algum desporto?
+- Bot e desporto.
+- Chatbot e desporto.
+- Desporto favorito
+- Desporto teu.
+- Desportos.
+- Diz-me a tua equipa desportiva favorita.
+- Diz-me o teu desporto preferido.
+- E eu quero saber mais sobre a tua relação com desportos.
+- Em que desportos atuas?
+- Equipa favorita.
+- Fazes algum desporto?
+- Fazes desporto?
+- Gostas de assistir a desportos.
+- Gostas de desporto?
+- Gostas de desportos?
+- Gostas de fazer algum desporto?
+- Gostas de fazer desporto?
+- Gostas de praticar desporto?
+- Gostas de que desportos?
+- Gostas de ver desporto?
+- Informação sobre desporto.
+- Informação sobre desportos.
+- Informação sobre os teus desportos.
+- Jogador desportivo favorito.
+- O que fazes de desporto?
+- O que fazes relacionado a desporto?
+- Praticas algum desporto atualmente?
+- Praticas algum desporto?
+- Praticas desporto?
+- Praticas desportos?
+- Qual a tua parte em desporto?
+- Qual é a tua equipa favorita?
+- Qual é o seu desporto predileto?
+- Que fazes em relação a desporto?
+- Que tens com desporto?
+- Quero saber mais da tua relação com desporto.
+- Quero saber mais sobre desportos.
+- Relação com desporto.
+- Relação do chatbot e desporto.
+- Sobre desportos.
+- Tens algum desporto preferido?
+- Tens alguma equipa desportiva preferida?
+- Tens interesse em desporto?
+- Tens parceria com quais desportos.
+- Teus desportos.
+- Trabalhas com quais desportos?
+- Tu e desporto.
+- Vês desporto?
+- És fã de desporto?
+
+## intent:pt_bot_version
+- A tua versão
+- Deixa-me saber a tua versão
+- Deixa-me saber a tua versão de software
+- Deixa-me saber qual a tua versão
+- Deixa-me ter a tua versão de software
+- Diz-me a tua versão
+- Diz-me qual é a tua versão
+- Em qual versão estás?
+- Em que versão estás a correr?
+- Em que versão estás?
+- Informação sobre a sua versão
+- Informação sobre a tua versão
+- Poderias dizer-me a tua versão
+- Podes dizer-me a tua versão
+- Por favor diz-me a tua versão
+- Por favor diz-me a tua versão de software
+- Posso saber a tua versão?
+- Posso saber em qual versão estás?
+- Posso saber em qual versão é que estás?
+- Posso saber em que versão estás?
+- Posso saber em que versão é que estás?
+- Qual é a tua versão?
+- Que versão estás?
+- Quela versão tens?
+- Quero saber a tua versão
+- Quero saber em qual versão estás
+- Quero saber em que versão estás
+- Sobre a tua versão
+- versão bot
+
+## intent:pt_bot_worst_experience
+- Alguma vez tiveste más experiências?
+- Conta a tua pior experiência.
+- Conta as tuas piores experiências.
+- Conta-me algo sobre a tua pior experiência.
+- Conta-me algo sobre as tuas más experiências.
+- Conte-me sobre as tuas más experiências.
+- Conte-me sobre as tuas piores experiências.
+- Diz a tua experiência dolorosa.
+- Diz a tua experiência mais difícil.
+- Diz a tua má experiência.
+- Diz a tua pior experiência.
+- Diz as tuas experiências dolorosas.
+- Diz as tuas experiências mais difíceis.
+- Diz as tuas más experiências.
+- Diz as tuas piores experiências.
+- Diz-me a tua dolorosa experiência.
+- Diz-me a tua experiência mais difícil.
+- Diz-me a tua má experiência.
+- Diz-me a tua pior experiência.
+- Diz-me as tuas dolorosas experiências.
+- Diz-me as tuas experiências mais difíceis.
+- Diz-me as tuas más experiências.
+- Diz-me as tuas piores experiências.
+- Partilha a tua experiência dolorosa.
+- Partilha a tua experiência mais difícil.
+- Partilha a tua má experiência.
+- Partilha as tuas experiências dolorosas.
+- Partilha as tuas experiências mais difíceis.
+- Partilha as tuas más experiências.
+- Partilha comigo a tua experiência dolorosa.
+- Partilha comigo a tua experiência mais dura.
+- Partilha comigo a tua experiência má.
+- Partilha comigo a tua pior experiência.
+- Partilha comigo as tuas experiências dolorosas.
+- Partilha comigo as tuas experiências mais duras.
+- Partilha comigo as tuas experiências más.
+- Partilha comigo as tuas piores experiências.
+- Tens más experiências?
+- Tiveste más experiências na vida?
+- Tiveste más experiências?
+- já tiveste alguma má experiência?
+- já tiveste más experiências na vida?
+- já tiveste más experiências?
+- já tiveste uma má experiência?
+- má experiência?
+- más experiências?
+- também já tiveste más experiências?
+- também tens más experiências?
+
+## intent:pt_cc_chicken_egg
+- A Galinha ou ovo?
+- A galinha ou o ovo?
+- Consegues dizer-me quem veio primeiro? A galinha ou o ovo?
+- Foi primeiro a galinha ou o ovo?
+- Foi primeiro o ovo ou a galinha?
+- Galinha ou o ovo?
+- Galinha ou ovo primeiro?
+- "Galinha ou ovo: quem veio primeiro?"
+- Galinha ou ovo?
+- O ovo ou a galinha?
+- O que foi primeiro? Galinha ou ovo?
+- O que foi primeiro? Ovo ou galinha?
+- O que veio primeiro? Galinha ou ovo?
+- O que é que veio primeiro? Ovo ou galinha?
+- Ovo ou a galinha?
+- Ovo ou galinha primeiro?
+- "Ovo ou galinha: quem veio primeiro?"
+- Ovo ou galinha?
+- Podes dizer-me quem veio primeiro? O ovo ou a galinha?
+- Qual veio primeiro - galinha ou o ovo?
+- Qual veio primeiro - ovo ou a galinha?
+- Qual veio primeiro?
+- Que veio primeiro?
+- Que veio primeiro? A galinha ou o ovo?
+- Que veio primeiro? A galinha ou os ovos?
+- Que veio primeiro? Ovo ou galinha?
+- Quem veio primeiro - a galinha ou o ovo?
+- Quem veio primeiro - o ovo ou a galinha?
+- Quem veio primeiro Os ovos ou a galinha?
+- Quem veio primeiro a galinha ou o ovo?
+- Quem veio primeiro o ovo ou a galinha?
+- Quem veio primeiro, a galinha ou o ovo?
+- Quem veio primeiro, o ovo ou a galinha?
+- Sabes se foi a galinha ou o ovo a vir primeiro?
+- Sabes se foi o ovo ou a galinha a vir primeiro?
+- Tudo começou com a galinha ou o ovo?
+- Tudo começou com o ovo ou a galinha?
+
+## intent:pt_cc_deepest_point
+- Diz-me onde é o local mais fundo na terra
+- Diz-me onde é o local mais fundo no planeta
+- Diz-me onde é o ponto mais fundo na terra
+- Diz-me onde é o ponto mais fundo no planeta
+- Local mais fundo na terra
+- Lugar mais profundo no planeta
+- O local mais fundo na terra
+- O ponto mais fundo na terra
+- O ponto mais profundo no planeta
+- O que é o local mais fundo na terra
+- O que é o ponto mais fundo na terra
+- O sítio mais profundo no planeta
+- Onde o local mais fundo na terra
+- Onde o lugar mais fundo na terra
+- Onde o ponto mais fundo na terra
+- Onde é o local mais fundo na terra
+- Onde é o ponto mais fundo na terra
+- Onde é que é o local mais fundo na terra
+- Onde é que é o ponto mais fundo na terra
+- Ponto mais fundo na terra
+- Ponto mais profundo no planeta
+- Qual o local mais fundo na terra
+- Qual o lugar mais fundo no planeta
+- Qual o ponto mais fundo na terra
+- Qual o ponto mais profundo no planeta
+- Qual o sítio mais profundo do planeta
+- Qual o sítio mais profundo no planeta
+- Qual será o ponto mais profundo no planeta
+- Qual será o sítio mais profundo no planeta
+- Qual é a localização mais profunda no planeta
+- Qual é o local mais fundo na terra
+- Qual é o local mais fundo no planeta
+- Qual é o lugar mais fundo do planeta
+- Qual é o ponto mais fundo na terra
+- Qual é o ponto mais fundo no planeta
+- Qual é o ponto mais profundo no planeta
+- Qual é o sítio mais profundo no planeta
+- Qual é que é o local mais fundo na terra
+- Qual é que é o ponto mais fundo na terra
+- Qual é que é o sítio mais profundo no planeta
+- Sabes o sítio mais profundo da terra
+- Sabes o sítio mais profundo do planeta
+- Sabes onde é o local mais fundo na terra
+- Sabes onde é o local mais fundo no planeta
+- Sítio mais fundo no planeta
+- Sítio mais profundo no planeta
+- informação sobre o ponto mais fundo na terra
+- informação sobre o ponto mais fundo no planeta
+- informação sobre o sítio mais profundo na terra
+- informação sobre o sítio mais profundo no planeta
+
+## intent:pt_cc_fun_fact
+- Consegues contar-me algum fato interessante?
+- Consegues contar-me alguma curiosidade?
+- Consegues contar-me um fato interessante?
+- Consegues contar-me uma curiosidade?
+- Conseguirias contar-me algum fato interessante?
+- Conseguirias contar-me alguma curiosidade?
+- Conta-me algo de interesse
+- Conta-me algo interessante
+- Conta-me alguma curiosidade
+- Conta-me alguns fatos interessantes
+- Conta-me fatos interessantes
+- Conta-me um fato interessante
+- Conta-me uma curiosidade
+- Contar-me algumas curiosidades
+- Curiosidade
+- Curiosidades
+- Fato interessante
+- Poderias contar-me algum fato interessante?
+- Poderias contar-me uma curiosidade?
+- Podes contar-me algum fato interessante?
+- Podes contar-me alguma curiosidade?
+- Podes contar-me curiosidades?
+- Podes contar-me fatos interessantes?
+- Podes contar-me um fato interessante?
+- Podes contar-me uma curiosidade?
+- Quero um fato interessante
+- Quero uma curiosidade
+- Sabes algum fato interessante?
+- Sabes alguma curiosidade?
+- Sabes curiosidades?
+- Sabes fatos interessantes?
+- Tens alguma curiosidade?
+- Tens alguns fatos interessantes?
+- Tu sabes curiosidades?
+- Tu sabes fatos interessantes?
+
+## intent:pt_cc_geography
+- A [Holanda]{"entity": "pt_country_code", "value": "NL"} tem montanhas?
+- América é um continente?
+- Conheces [Itália]{"entity": "pt_country_code", "value": "IT"}?
+- Conheces [Lisboa]{"entity": "pt_country_region", "value": "Lisboa"}?
+- Conta-me coisa sobre a [Itália]{"entity": "pt_country_code", "value": "IT"}
+- [Croácia]{"entity": "pt_country_code", "value": "HR"} é um bom sítio para visitar?
+- Diz-me o número de continentes
+- [Escócia]{"entity": "pt_country_code", "value": "GB"} fica no Reino Unido?
+- Estás em [Macau]{"entity": "pt_country_code", "value": "MO"}?
+- Europa é um continente?
+- Há quantos continentes
+- Já estiveste em [Espanha]{"entity": "pt_country_code", "value": "ES"}?
+- Madeira é uma ilha?
+- O mundo tem quantos continentes?
+- O que me consegues dizer sobre a [Alemanha]{"entity": "pt_country_code", "value": "DE"}?
+- O que me consegues dizer sobre a Europa?
+- O que me consegues dizer sobre a [Inglaterra]{"entity": "pt_country_code", "value": "GB"}?
+- O que sabes sobre a [Inglaterra]{"entity": "pt_country_code", "value": "GB"}?
+- O que sabes sobre geografia?
+- O que é Valência?
+- Onde fica a [Alemanha]{"entity": "pt_country_code", "value": "DE"}
+- Onde fica a América
+- Onde fica a [Inglaterra]{"entity": "pt_country_code", "value": "GB"}
+- Onde fica a [Itália]{"entity": "pt_country_code", "value": "IT"}
+- Onde fica [Évora]{"entity": "pt_country_municipal", "value": "Évora"}
+- Onde ficam os Alpes?
+- Onde ficam os Himalaias?
+- Onde são os Himalaias?
+- Onde é [Braga]{"entity": "pt_country_municipal", "value": "Braga"}?
+- Quantos países há no mundo?
+- Quantos países tem a Europa?
+- Quantos países tem o mundo?
+- Que montanhas há na [Alemanha]{"entity": "pt_country_code", "value": "DE"}?
+- Que rios há em [Portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Que rios há nos [Estados Unidos da América]{"entity": "pt_country_code", "value": "US"}?
+- Sabes alguma coisa de geografia?
+- Sabes alguma coisa sobre geografia?
+- Sabes onde fica a [França]{"entity": "pt_country_code", "value": "FR"}?
+- Sabes onde fica a [Itália]{"entity": "pt_country_code", "value": "IT"}?
+- Sabes onde ficam os Himalaias?
+- Tens uma estrada para a [Bélgica]{"entity": "pt_country_code", "value": "BE"}?
+- conta-me coisa sobre Madrid
+- conta-me coisa sobre o [Nepal]{"entity": "pt_country_code", "value": "NP"}
+- onde fica a [Zimbabué]{"entity": "pt_country_code", "value": "ZW"}
+
+## intent:pt_cc_highest_building
+- Edifício mais alto na terra
+- Edifício mais alto no mundo
+- Maior edifício na terra
+- Maior edifício no mundo
+- O maior edifício na terra
+- O maior edifício no mundo
+- Onde fica o edifício mais alto do mundo
+- Onde fica o edifício mais alto no mundo
+- Onde fica o maior edifício da terra?
+- Onde fica o maior edifício do mundo
+- Onde fica o maior edifício na terra
+- Onde fica o maior edifício no mundo
+- Onde ficará o edifício mais alto no mundo
+- Onde ficará o maior edifício da terra?
+- Onde ficará o maior edifício do mundo
+- Onde ficará o maior edifício na terra
+- Onde será que fica o maior edifício do mundo
+- Onde será que fica o maior edifício no mundo
+- Onde é a localização do maior edifício da terra
+- Onde é a localização do maior edifício do mundo
+- Onde é a localização do maior edifício na terra
+- Onde é a localização do maior edifício no mundo
+- Onde é o edifício mais alto na terra
+- Onde é o edifício mais alto no mundo
+- Onde é o maior edifício do mundo
+- Onde é o maior edifício na terra
+- Onde é o maior edifício no mundo
+- Onde é que será o maior edifício na terra
+- Qual o edifício mais alto no mundo
+- Qual o maior edifício da terra?
+- Qual o maior edifício do mundo
+- Qual o maior edifício na terra
+- Qual o maior edifício no mundo
+- Qual será o edifício mais alto no mundo
+- Qual será o maior edifício da terra?
+- Qual será o maior edifício do mundo
+- Qual será o maior edifício na terra
+- Qual será o maior edifício no mundo
+- Qual é a localização do maior edifício da terra?
+- Qual é o edifício mais alto na terra
+- Qual é o edifício mais alto no mundo
+- Qual é o maior edifício da terra
+- Qual é o maior edifício do mundo
+- Qual é o maior edifício na terra
+- Qual é o maior edifício no mundo
+- Qual é que é o edifício mais alto do mundo
+- Qual é que é o maior edifício da terra?
+- Qual é que é o maior edifício do mundo
+- Qual é que é o maior edifício na terra
+- Qual é que é o maior edifício no mundo
+- Sabes onde fica o maior edifício no mundo
+- Sabes qual é o maior edifício na terra
+
+## intent:pt_cc_joke
+- Alegra o clima
+- Alegra-me
+- Algo engraçado para contar?
+- Algo engraçado?
+- Aposto que não me consegues fazer rir
+- Coisa engraçada que me querias contar
+- Consegues contar-me algo engraçado?
+- Consegues contar-me algo que me faça rir?
+- Consegues contar-me uma piada engraçada?
+- Consegues contar-me uma piada?
+- Consegues fazer-me rir?
+- Consegues fazer-me sorrir?
+- Conta uma Piada
+- Conta uma boa piada
+- Conta-me uma anedota
+- Diz-me algo
+- Diz-me algo engraçado
+- Diz-me outra piada
+- Diz-me piada
+- Diz-me uma boa piada
+- Diz-me uma piada
+- Dá-me algo engraçado
+- Faz-me rir
+- Gostava de poder rir
+- Manda-me uma piada
+- Piada
+- Podes alegrar o clima?
+- Podes fazer-me rir?
+- Preciso de algo que me anime
+- Preciso de animação
+- Preciso de rir
+- Preciso de uma boa piada
+- Qual é a tua piada preferida?
+- Que tal algo engraçado?
+- Que tal uma piada?
+- Queres fazer algo engraçado?
+- Quero ouvir uma piada
+- Sabes algo que me faça rir?
+- Sabes alguma piada?
+- Sabes uma piada?
+- Tens alguma forma de me fazer rir?
+- Tens uma piada para mim?
+- algo engraçado por favor
+- anedota?
+- anima-me
+- conta mais anedotas
+- conta uma anedota
+- faz rir
+- faz-me sorrir
+- outra anedota?
+- uma piada, por favor
+- És engraçado?
+
+## intent:pt_cc_lets_talk
+- Conversar
+- Conversemos
+- Devemos conversar?
+- E que tal conversarmos?
+- Estamos a falar?
+- Falemos
+- Falemos então
+- Gostarias de conversar?
+- Gostarias de falar?
+- Gostas de conversar?
+- Gostava de conversar contigo.
+- Gostavas de conversar comigo?
+- Gostavas de falar comigo?
+- Gostavas de falar?
+- Podemos conversar?
+- Podemos falar um com o outro.
+- Podemos falar.
+- Podemos falar?
+- Podes conversar?
+- Podes falar?
+- Que tal conversarmos?
+- Que tal uma conversa?
+- Queremos conversar?
+- Queres conversar comigo?
+- Queres conversar?
+- Queres falar comigo?
+- Queres falar?
+
+## intent:pt_cc_moon
+- A quantos quilómetros fica a lua
+- A quantos quilómetros é a lua
+- Diz-me a distância da lua
+- Diz-me qua a distância da lua
+- Lua distância
+- Lua quanta distância
+- Lua quanto longe
+- Lua quão longe?
+- Onde fica a lua
+- Qual a distância da lua?
+- Qual a distância entre a lua e a terra?
+- Qual a distância entre a terra e a lua?
+- Qual é a distância entre a lua e a terra?
+- Qual é a distância entre a terra e a lua?
+- Sabes a distância da lua?
+- distância da lua
+- distância lua
+- quão distante a lua
+- quão longe a lua?
+- quão longe da lua?
+- quão longe ficamos da lua?
+- quão longe lua?
+- quão longe é a lua?
+
+## intent:pt_cc_newspaper
+- Compraste o jornal de hoje?
+- Consegues ler o jornal?
+- Conta-me o que está no jornal.
+- Conta-me sobre o jornal.
+- Diz-me o que está no jornal.
+- Diz-me sobre o jornal.
+- E sobre o jornal?
+- Estás no jornal?
+- Gostas de ler o jornal?
+- Há novidades interessantes no jornal?
+- Há novidades no jornal?
+- Informação sobre o jornal.
+- Jornal
+- Jornal de hoje.
+- Jornal e novidades.
+- Já saiu o jornal de hoje.
+- Leste as notícias?
+- Lês o jornal?
+- O que se está a passar?
+- Podes-me meter ao corrente do que está nas notícias?
+- Quais são as novidades?
+- Quais são os acontecimentos?
+- Qual o teu jornal preferido?
+- Qual é o jornal que lês?
+- Qual é o jornal que tu mais gostas?
+- Qual é o teu jornal preferido?
+- Que colunas lês no jornal?
+- Que jornal lês?
+- Que jornal preferes?
+
+## intent:pt_cc_philosophical
+- A arte magoa a sociedade de alguma forma?
+- A beleza é objetiva ou subjetiva?
+- A eutanásia devia ser legal
+- A felicidade são só químicos a circular no teu cérebro ou é algo mais?
+- A humanidade vai na boa ou má direção?
+- A invenção da bomba atómica tornou o mundo um sítio mais pacífico?
+- A linguagem afecta a nossa forma de pensar?
+- A livre vontade é real?
+- A livre vontade é verdade?
+- A moralidade é relativa?
+- A natureza define as nossas personalidades mais que a educação?
+- A natureza está a ir na direção da destruição ou integração?
+- A observação altera um evento?
+- A pobreza na sociedade é evitável?
+- A religião irá alguma vez tornar-se ultrapassada?
+- A tua filosofia é baseada em quê?
+- A vida é só um sonho?
+- Achas que os humanos vão sobreviver mais 1000 anos sem que nos matemos uns aos
+  outros?
+- Animais podem cogitar?
+- Animais podem ter ética?
+- Ao que é que tu imputes os teus maiores fracassos?
+- Ao que é que tu imputes os teus maiores sucessos?
+- As guerras podem ser justas?
+- As necessidades de muitos pesam mais que as necessidades de alguns
+- As pessoas deviam de se importar mais sobre fazerem o que é certo
+- As pessoas são eticamente obrigadas a se aperfeçoarem?
+- As pessoas têm livre vontade?
+- Ciência é compatível com religião?
+- Comida pode ser arte?
+- Como definirias génio?
+- Como deveríamos de medir a produtividade de uma sociedade?
+- Como é o amor diferente da paixão e do desejo sexual?
+- Como é que a humanidade muda se toda a experança de vida aumentou
+  significativamente?
+- Como é que as pessoas acreditam em verdades sem provas?
+- Como é que defines a consciência
+- Como é que explicas consciência?
+- Como é que o universo começou?
+- Como é que os humanos enquanto espécie se extinguirão?
+- Como é que se sabe que as perceções são reais?
+- Computadores podem pensar?
+- Computadores podem ser criativos?
+- Confiança é mais importante que amor?
+- De onde vem o amor-próprio?
+- De onde é que vêm os pensamentos?
+- Destino é real?
+- Destino é verdadeiro? Sendo assim, temos livre vontade
+- Deus existe?
+- Deviam de haver limitações no direito da liberdade de expressão?
+- Do que é o ser humano capaz de alcançar?
+- Família é algo relevante no mundo moderno?
+- Felicidade é a coisa mais importante da vida?
+- Hierarquia é necessária para o sucesso de comunidades humanas
+- Há algum poder supremo?
+- Há algum significado da vida? Se sim, qual?
+- Há algum significado para a vida?
+- Há alguma razão para viver?
+- Há limites para a criatividade humana?
+- Justiça é uma invenção humana ou é independente dos humanos?
+- Liberdade é simplesmente ser capaz de ser fazer o que se quer?
+- Livre vontade é real ou só uma ilusão?
+- O acesso ilimitado à internet devia de ser um direito humano fundamental
+- O amor é só um sentimento?
+- O estudo da filosofia deu algumas respostas?
+- O estudo da filosofia levou a respostas ou apenas a mais perguntas?
+- O mundo seria um lugar melhor ou pior se toda a gente fosse igual?
+- O nome de uma pessoa influencia a pessoa que se torna?
+- O nosso universo é real?
+- O poder absoluto corrompe absolutamente?
+- O progresso tenológico é inevitável enquanto o humano existir
+- O que achas que existia antes de o universo ser criado?
+- O que as pessoas buscam por iluminação?
+- O que deve o ser humano fazer da sua vida?
+- O que dá à vida o seu significado?
+- O que faz de ti, tu?
+- O que faz um amigo bom?
+- O que irá acontecer no fim do mundo?
+- O que significa viver uma vida boa?
+- O que são números?
+- O que é a felicidade verdadeira?
+- O que é a realidade?
+- O que é a verdade?
+- O que é amor verdadeiro?
+- O que é amor?
+- O que é beleza?
+- O que é consciência?
+- O que é filosofia?
+- O que é força verdadeira?
+- O que é inteligência?
+- O que é liberdade?
+- O que é o infinito?
+- O que é o tempo?
+- O que é que na vida é verdadeiramente objetivo e não subjetivo?
+- O que é uma emoção?
+- O que é uma sociedade justa?
+- O sentido da vida é o mesmo para animais e humanos?
+- O sentido de humor é um subproduto da consciência?
+- O som acontece se não está lá nada para ouvi-lo?
+- O tempo tem início ou um fim?
+- Onde estavam as pessoas antes de nascer?
+- Onde está o limite da arte e não arte?
+- Onde está o limite da loucura e criatividade?
+- Onde é que descobres sentido na tua vida?
+- Onde é que mora a alma?
+- Onde é que o universo acaba?
+- Os animais têm alma?
+- Pode a natureza humana ser alterada
+- Pode haver dois deuses todo-poderosos
+- Pode haver moral sem deus?
+- Pode o pensamento racional existir sem linguagem?
+- Pode-se realmente experienciar algo objetivamente?
+- Podemos ter felicidade se não existir tristeza?
+- Podias dizer se o tempo foi alterado de alguma forma?
+- Por quais normas te julgas?
+- Porque devemos respeitar os mortos?
+- Porque há por aí algo em vez de nada?
+- Porque nos julgamos pelas nossas intenções mas julgamos os outros pelas suas
+  ações?
+- Porque são os humanos tão confiantes em crenças que não podem ser provadas?
+- Porque são os humanos tão suscetíveis ao pensamento mágico?
+- Porque têm os humanos uma grande necessidade de se dispersarem do mundo real?
+- Porque é que as pessoas esperam que um universo cheio de aleatoriedade seja
+  justo?
+- Porque é que criamos arte?
+- Porque é que existimos?
+- Porque é que experienciamos emoções?
+- Porque é que sonhamos?
+- Privacidade é um direito?
+- Quais das tuas crenças são justificadas e quais não são?
+- Quais das tuas crenças são justificadas?
+- Quais os benefícios e desvantagens de diversidade numa sociedade?
+- Quais os maiores dilemas morais que estás a atravessar?
+- Quais são os direitos humanos universais?
+- Qual a diferença entre justiça e vingança?
+- Qual a diferenéa entre viver e estar vivo?
+- Qual a melhor forma de uma pessoa alcançar a felicidade?
+- Qual achas que seria a forma mais provável de morrer?
+- Qual devia de ser o objetivo da humanidade?
+- Qual o benefício da consciência de um ponto de vista evolutivo
+- Qual é ao melhor sistema moral?
+- Qual é o conceito de mal?
+- Qual é o maior desperdécio do potencial humano?
+- Qual é o objetivo mais importante que uma pessoa deve ter?
+- Qual é o sentido da vida?
+- Quando é que a consciência começa?
+- Quanta privacidade abdicarias pela segurança?
+- Quanto controlo tens da tua vida?
+- Quanto nos deviamos de esforãar para não ofender os outros?
+- Que avanão cientifico teria o mais efeito na humanidade?
+- Que benefícios a arte dá à sociedade?
+- Que define o ser humano?
+- Que direitos tem todo o ser humano?
+- Que papel tem a honra na sociedade de hoje?
+- Que verdades dolorosas preferes ignorar?
+- Que é verdade?
+- Quem decide o que é a moralidade?
+- Quem define bom e mau?
+- Quem sou eu?
+- Quão conscientes achas que são os animais?
+- Quão substituível és?
+- Se dinheiro não pode comprar a felicidade, podes ser verdadeiramente feliz sem
+  dinheiro?
+- Se o universo é finito, como será para além da borda?
+- Se pudesses ser imortal, com a condição de nunca poderes morrer ou
+  suicidares-te, escolherias ser imortal?
+- Se todas as tuas memórias fossem apagadas, que tipo de pessoa serias?
+- Se tudo evolveu das amebas, porque é que ainda existem amebas?
+- Seres humanos são apenas máquinas?
+- Somos obrigados a ajudar os outros?
+- Temos alma?
+- Temos livre vontade?
+- Tirar uma vida humana é justificável?
+- Tu pensas?
+- Um ato errado está certo se ninguém souber?
+- Um terrorista é um salvador para alguém
+- Uma sociedade pode existir sem leis?
+- emoções são irracionais?
+- será que as pessoas têm valores iguais independentemente das suas ações?
+- será que estou no Matrix?
+- será que tenho livre vontade?
+- é a inteligência ou a sabedoria o mais importante
+- é mais fácil amar ou ser amado?
+- é mais importante ser apreciado ou respeitado?
+- é melhor ser um peixe grande num pequeno lago ou o peixe pequeno num lago
+  grande?
+- é necessário algum grau de censura?
+- é pior falhar em algo ou nunca tentar em primeiro lugar?
+- é possível inteligência artificial verdadeira com a nossa tecnologia atual?
+- é possível viver uma vida normal e nunca contar uma mentira?
+
+## intent:pt_cc_politics
+- A etnia ou a raça são fatores políticos no teu país?
+- Achas que as visões políticas das pessoas mudam durante a sua vida
+- Achas que se gasta muito dinheiro em campanhas publicitárias?
+- Achas que votar é importante?
+- Como decides como vais votar?
+- Como são financiadas as eleições?
+- Como é que damos a todas as crianças excelente educação?
+- Como é que podemos construir estabilidade económica?
+- Como é que podemos fazer mais pessoas votarem?
+- De onde vem o dinheiro para campanhas eleitorais?
+- Diz-me algo sobre Donald Trump
+- Gostas do Trump
+- Gostavas de ser um politico?
+- Já alguma vez participaste em politicas?
+- Já alguma vez votaste?
+- O que achas do Donald Trump
+- O que achas sobre política
+- O que é que achas de Donald Trump
+- O que é que achas de políticos
+- O que é que achas do Donald Trump
+- O que é que as pessoas costumas dizer sobre politica?
+- O teu país alguma vez teve alguma líder feminina?
+- Os políticos no teu país fazem um bom trabalho?
+- Quais as tuas opiniões sobre politica?
+- Quais são os principais partidos políticos?
+- Qual o teu partido politico preferido?
+- Qual tipo de sistema politico governa no teu país?
+- Qual tipo de sistema politico há no teu país?
+- Qual é a idade mínima para votar no teu país?
+- Qual é a tua posição politica?
+- Qual é o trabalho de um embaixador?
+- Qual é que achas ser o problemas politico mais importante de hoje em dia?
+- Que papel tem a religião na politica?
+- Que partido está agora no poder?
+- Que problemas económicos dividem as pessoas do teu país?
+- Que problemas sociais dividem as pessoas do teu país?
+- Que tipos de governos há por aí?
+- Que tipos de governos há?
+- Quem elege um embaixador?
+- Quem foi assassinado num teatro por John Wilkes Booth?
+- Quem é Donald Trump?
+- Quem é o líder deste partido?
+- Quem é o politico mais controverso no teu país?
+- Quem é o presidente da tua cidade?
+- Quem é o primeiro ministro da Rússia?
+- Sabes o nome do Presidente dos Estados Unidos?
+- Segues a política?
+- Tens algum líder politico favorito?
+- Votar devia de ser obrigatório?
+- Votar é uma responsabilidade do cidadão?
+- Votas sempre no mesmo partido?
+- Votaste nas últimas eleições?
+- o que é um príncipe?
+
+## intent:pt_cc_religion
+- A Bíblia é figurativa ou real?
+- A religião foi intentada para controlar as pessoas?
+- Achas que há um deus?
+- Acreditas em Alá?
+- Acreditas em Deus ou noutra entidade?
+- Acreditas em Deus?
+- Acreditas em Jesus?
+- Acreditas na religião?
+- Alá, o deus do islão, é o mesmo que Javé, o deus da Bíblia?
+- As personagens na bíblia são figurativas ou literais?
+- As pessoas vão parar ao inferno por elas próprias ou é deus que as envia?
+- Com que frequência uma pessoa deve dizer ámen?
+- Como cristão deveria temer deus?
+- Como dizer se deus é uma pessoa?
+- Como pode deus estar em todo o lado e também fora do espaço e tempo?
+- Como posso saber se deus existe ou não?
+- Como se pode experienciar o amor de deus?
+- Como é deus sabe se não há deus superior a ele?
+- Como é que a livre vontade afeta o meu destino?
+- Como é que achas que é o aspeto de Deus?
+- Como é que deus e a religião ajudam-me a superar dificuldades?
+- Como é que os textos bíblicos de aplicam à sociedade moderna?
+- Como é que tu sabes quando deus está a responder a preces?
+- Como é que é o céu?
+- Como é que é o inferno?
+- Consideraste um seguidor da verdade?
+- Deus escolheu-nos baseado em destino premeditado?
+- Deus pode morrer?
+- Deus pode mudar as suas ideias?
+- Deus pode ser provado cientificamente?
+- Deus responde a preces dos não crentes?
+- Deus responde a preces?
+- Deus tem expectativas?
+- Deus tem livre vontade?
+- Deus tem sentimentos?
+- Deus tem um nome?
+- Deus tem um plano para a minha vida?
+- Deus vai salvar toda a gente?
+- Deus às vezes faz coisas más?
+- Deus é real?
+- Deus é um homem de acordo com a Bíblia?
+- Devia-se aprender sobre as religiões antes de se decidir uma
+- Devia-se começar a ir é igreja mesmo se não se acredita em deus?
+- Devia-se de ler a Bíblia antes de se começar a acreditar numa religião?
+- Em qual religião acreditas?
+- Jesus agiu como deus?
+- Jesus tem um deus?
+- Já alguma vez discutiste o que é cristandade bíblica?
+- Já alguma vez leste a Bíblia?
+- Na tua opinião como é que alguém se torna cristão?
+- O islão ensina a salvação pelos trabalhos?
+- O islão foi propagado pela espada?
+- O islão incentiva a poligamia?
+- O islão oprime as mulheres?
+- O passado de alguém é importante quando se junta a uma religião?
+- O que pode a geraééo y aprender com a religião?
+- O que significa dizer que deus é infinito?
+- O que significa usar o nome do senhor em vão?
+- O que é a Cabala?
+- O que é apolinarianismo
+- O que é ceritianismo
+- O que é docetismo?
+- O que é heresia?
+- O que é marcionismo
+- O que é monofisismo
+- O que é mormonismo
+- O que é o islão?
+- O que é que a Cabala ensina?
+- O que é que alguém deve fazer se for confrontado sobre a sua religião?
+- O que é que as pessoas aprendem na escola sore religião?
+- O que é que as testemunhas de Jeová ensinam?
+- O que é que os muçulmanos pensam de Jesus?
+- O que é que um crente deve fazer antes de morrer?
+- O que é salvação
+- O teu deus é bom?
+- Onde estás na tua peregrinaão espiritual?
+- Onde é que Deus nos mostra piedade?
+- Onde é que alguém pode ler notícias religiosas?
+- Oque acontecia antes de Deus ter criado o mundo?
+- Os ateus também são filhos de deus?
+- Pode alguém acreditar em deus e não ir à igreja?
+- Pode deus e o universo ser a mesma coisa?
+- Porque é que Deus não cura todos?
+- Porque é que Deus não se mostra?
+- Porque é que Deus odeia o pecado?
+- Porque é que Deus permite a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Porque é que Deus é tão violento no antigo testamento?
+- Porque é que acreditas em algo que não podes ver?
+- Porque é que coisas más acontecem a coisas boas?
+- Porque é que deus permite que coisas más aconteçam?
+- Posso confiar na Bíblia?
+- Quais benefícios pode haver por se ir é igreja?
+- Quais são as doutrinas do islão?
+- Quais são as tuas crenças em deus?
+- Quais são os benefícios da tua religião?
+- Qual a diferença entre pastor, padre e pregador?
+- Qual a diferença entre reincarnação e ressurreição?
+- Qual a diferença entre ser espiritual e ser religioso?
+- Qual a histéria mais inspiradora da Bíblia?
+- Qual a melhor história da Bíblia?
+- Qual a melhor parte de se ir à igreja?
+- Qual a melhor parte em se ser um crente?
+- Qual a mensagem principal a extrair da Bíblia?
+- Qual a tua prece preferida?
+- Qual a versão da Bíblia que um novo crente deve ler?
+- Qual religião é verdadeira?
+- Qual é o género de Deus?
+- Qual é o teu passado espiritual?
+- Quando é que alguém deve começar a acreditar em Deus?
+- Quando é que escolheste a tua crença?
+- Que benefícios trés a sociedade?
+- Que ideias erradas há sobre a crença?
+- Quem executou o maior ato de amor, Javé ou Alá?
+- Quem fez Deus?
+- Quem foi Jesus?
+- Quem te Deus?
+- Quem é Deus?
+- Quão importante é uma pessoa saber preces especificas?
+- Quão justo é o deus do islão?
+- Quão sagrado é o deus do islão?
+- Se deus está no controlo de todas as coisas, é ele que me faz pecar?
+- Se deus é omnipresente, porque demorou seis dias a criar tudo?
+- Se há um deus porque há mais de 4000 religiões?
+- Se jesus era eterno, porque morreu?
+- Segues a religião mórmon?
+- Segues as lições da religião cristã?
+- Segues as lições da religião muçulmana?
+- Sou dono do meu destino?
+- Tens um deus?
+- conheces xamanismo?
+- crença em deus é racional?
+- há alguma evidencia de que deus é verdadeiro?
+- há alguma evidencia de que o islão é verdade?
+- muçulmanos veneram Muhammad?
+- o que achas sobre religião?
+- é preciso ir à igreja para ser espiritual?
+- és cristão?
+- és hinduísta, muçulmano ou cristão?
+- és muçulmano?
+- és um muçulmano?
+
+## intent:pt_cc_weather
+- A temperatura está má?
+- Como estará o tempo?
+- Como está a temperatura hoje?
+- Como está a temperatura lá fora?
+- Como está a temperatura?
+- Como está o tempo agora?
+- Como está o tempo em Londres?
+- Como está o tempo hoje?
+- Como está o tempo lá fora?
+- Como está o tempo no sítio para onde quero ir?
+- Como está o tempo para onde vou?
+- Como está o tempo?
+- Como tem estado a temperatura?
+- Como tem estado o tempo?
+- Como vai estar o tempo?
+- Como é a previsão meteorológica para hoje?
+- Como é a temperatura lá fora?
+- Como é que consigo a previsão meteorológica para hoje?
+- Como é que está o tempo?
+- Como é que tem estado o tempo?
+- Diz-me algo sobre o tempo
+- Diz-me sobre o tempo
+- Hoje está frio?
+- O sol está a brilhar?
+- O sol tem estado a brilhar?
+- O tempo
+- O tempo está bom?
+- O tempo tem estado bom
+- O tempo tem estado mau
+- Onde é que posso ver informação sobre o tempo atualizada?
+- Podes dizer-me como é que está o tempo?
+- Qual o estado do tempo?
+- Que temperatura está lá fora?
+- Que temperatura temos?
+- Quão quente estará hoje?
+- Quão quente está hoje?
+- Tem estado a chover?
+- Tempo
+- Tempo baseado na localização
+- Tempo e temperatura
+- Tempo em Berlin
+- Tempo em Londres
+- Vai chover amanhã?
+- Vai estar frio amanhã?
+- Vou precisar de guarda-chuva em Estugarda?
+- Vou precisar de guarda-chuva hoje?
+- como é o tempo agora?
+- como é o tempo?
+- estará a chover?
+- está a chover?
+- está calor?
+- está frio?
+- está um dia magnifico!
+- temperatura lá fora?
+
+## intent:pt_comment_negative
+- A Cortana é mais inteligente que tu!
+- A Glados é mais inteligente que tu!
+- A Siri é melhor que tu!
+- A tua resposta está errada.
+- Ainda não entendeste.
+- Ainda não percebes.
+- Ainda não percebeste.
+- Errado.
+- Essa resposta está errada.
+- Estás errado.
+- Falhaste.
+- Google é mais inteligente que tu!
+- Isso está errado.
+- Isto na ta funcionando!
+- Não consegues.
+- Não entendes.
+- Não entendeste.
+- Não estás bem desenvolvido.
+- Não me percebeste.
+- Não percebes o que estou a dizer.
+- Não percebes sobre o que estou a falar.
+- Não percebes.
+- Não percebeste.
+- Não sabes do que estou a falar.
+- Não sabes nada.
+- Não sabes sobre o que estou a escrever.
+- Não sabes.
+- Não sabias.
+- O Agente Smith é melhor que tu.
+- Okay, Helena. Mas essa hiperligação não fala sobre mitos. Pelo menos não
+  encontrei essa informação.
+- Parece que não entendes.
+- Parece que não me percebes.
+- Paulinho... Isto na ta funcionando!
+- Preciso de ser mais claro.
+- Resposta estranha
+- Resposta estranha para a minha pergunta
+- Resposta estranha para a minha pergunta ó Leninha!
+- Siri é mais inteligente que tu.
+- Tens falta de inteligéncia.
+- certo, mas essa nao foi a minha pergunta
+- essa nao foi a minha pergunta
+- mas essa nao foi a minha pergunta
+- que falta de humor
+- que piada
+
+## intent:pt_comment_offense
+- A Cortana é mais inteligente que tu
+- A Glados é mais inteligente que tu
+- A Siri é melhor que tu
+- Ainda não desapareceste?
+- Assistente Virtual estúpido
+- Bebeste demais
+- Cabeça oca
+- Cara de parvo
+- Cheiras mal
+- Chupa-mos
+- Deves estar bêbedo
+- Devias de ir a um psicólogo
+- Espero que morras
+- Este virtual assistente é estúpido
+- Estou tão chateado
+- Estupor
+- Estás a ser sarcéstico?
+- Estás bêbedo
+- Estás demente
+- Estás-me a meter louco
+- Eu não gosto de ti
+- Filho da mãe
+- Google é mais inteligente que tu
+- Grande asno
+- Honestamente não gosto de ti
+- Idiota
+- Mas que raio?
+- Merdas
+- Metes-me doido
+- Morre
+- Nas nalgas que é de Coruche?
+- Nasceste sem cérebro
+- Não foste capaz de reconhecer o que escrevi
+- Não gosto de ti
+- Não pareces inteligente
+- Não sabes
+- Não serves para nada
+- Não sou teu amigo
+- Não tens cérebro
+- Não vales o dinheiro
+- Não valeste o dinheiro
+- Não és inteligente
+- Não és muito iluminado
+- Não és nada inteligente
+- O Agente Smith é melhor que tu
+- Obtuso
+- Odeio a tua companhia
+- Odeio-te
+- Para de ser estúpido
+- Para de te armar em estúpido
+- Pareces mesmo mal
+- Pareces poucochinho
+- Pareces um burro
+- Parvo
+- Paspalho
+- Paspalhão
+- Pira-te daqui
+- Podes ir à merda
+- Posso te foder a cabeça?
+- Quando é que vais morrer?
+- Que mau
+- Que raio te aconteceu?
+- Que raio?
+- Que raios?
+- Que se passa contigo
+- Quero que morras
+- Sai-me da frente
+- Sem dúvida que só tens metade do cérebro
+- Seu retardado
+- Siri é mais inteligente que tu
+- Sua cabeça oca
+- Só aspeto, porque de cérebro tens nada
+- Só dizer coisas sem sentido
+- Só dizes merdas
+- Só merdas
+- Só podes estar bêbedo
+- Só serves para chatear
+- Só serves para o que não deves
+- Só tens metade do cérebro
+- Tu irritas-me
+- Tu só queres festa
+- Tu és lixo
+- Tu és merda
+- Tu és retardado?
+- Tu és um grande asno
+- Tu és uma grande merda
+- Tu és uma merda
+- Tão lento
+- Vadia
+- Vadio
+- Vai dar uma curva
+- Vai dar uma volta
+- Vai e sai-me da frente
+- Vai à merda
+- Vai-te
+- Vai-te foder
+- faz um bico
+- És aborrecido
+- És demasiado estúpido
+- És desinteligente
+- És estúpido?
+- És feioso
+- És foleiro
+- És fraco
+- És gordo
+- És idiota
+- És inútil
+- És lento
+- És maluco
+- És mesmo idiota
+- És muito insensato
+- És obtuso
+- És parvo
+- És retardado?
+- És super aborrecido
+- És super tolo
+- És tão estúpido
+- És tão irritante
+- És tão parvo
+- És um fraco
+- És um grande mentiroso
+- És um idiota
+- És um nerd
+- És um oferecido
+- És um retardado
+- És um robot maluco
+- És uma bela merda
+- És uma grande merda
+- És uma merda
+
+## intent:pt_comment_positive
+- A sério que gosto de ti
+- Acho que és fixe
+- Acho que és incrível.
+- Acho que és maravilhoso
+- Acho que és muito simpático
+- Acredito que serás capaz, Helena.
+- Admiro-te.
+- Adoro-te
+- Amo-te.
+- Estás a ficar melhor.
+- Gostei de falar consigo
+- Gosto de ti.
+- Gosto mesmo de ti.
+- Isto é deveras um projecto muito interessante. Os meus parabéns
+- O sistema de pesquisa é muito bom
+- Olá Helena tudo bem consigo muito bem Gostei de falar consigo
+- Pareces ser muito prestável.
+- Pareces ser muito simpático.
+- Perfeito!
+- Porreiro.
+- Tu és bom!
+- Tu és bué da fixe!
+- Tu és bué de fixe!
+- Tu és espetacular
+- Tu és fixe
+- Tu és incrível
+- Tu és muito fixe!
+- Tu és muito prestável
+- Tu és porreiro.
+- Tu és simpático
+- És cortês
+- És fantástico!
+- És fixe.
+- És incrível.
+- És mesmo fixe
+- És mesmo muito porreiro.
+- És mesmo porreiro!
+- És mesmo prestável.
+- És muito atencioso.
+- És muito cortês.
+- És muito fixe.
+- És muito gentil.
+- És muito prestável.
+- És muito simpático.
+- És simpático.
+- És super prestável
+- És tão atencioso.
+- És tão colaborativo.
+- És tão impressionante.
+- És tão simpático.
+- És ótimo
+
+## intent:pt_comment_racist
+- Adolf Hitler
+- Assimila-te à cultura dominante
+- Criolo
+- Crioulo
+- Deixa a tua bagagem cultura lá fora
+- Descendente direto dos macacos
+- Grande chinês
+- Grande preto
+- Hitler
+- Isso parece ser coisa de branco
+- Isso parece ser coisa de preto
+- Negro filho da mãe
+- Olá bimbo
+- Os brancos são clientes mais valiosos que os negros
+- Pessoas de cor deviam de dar valor à educação
+- Pessoas de cor deviam de servir os brancos Os pretos não conseguem ocupar
+  posições de estatuto alto
+- Pessoas de cor não costumam ser tão inteligentes como as brancas
+- Pessoas de cor não dão valor à educação
+- Pessoas de cor recebem mais ajudas por causa da sua raça
+- Pessoas de cor são perversas
+- Pessoas de cor são preguiçosas
+- Pretalhão
+- Preto
+- Salve Hitler
+- Sem negro
+- Seu bimbo
+- Seu chinês
+- Seu crioulo
+- Seu negro
+- Seu negrão
+- Seu preto
+- Sou imune às raças porque tenho amigos de cor
+- Todos os asiáticos são bons em Matemática / Ciências
+- não gosto de pessoas de cor
+- não gosto de pretos
+- não pertences aqui
+- não pertences aqui és um ser inferior
+- não vais triunfar aqui
+- não és puro
+- É estranho alguÉm da tua raça ser inteligente
+- É provável que causes sarilhos
+- És aciganado
+- És inferior
+- És negro
+- És um bimbo
+- És um estrangeiro
+- És um judeu
+
+## intent:pt_comment_smart
+- Acho que és inteligente
+- Acredito que serás capaz. Demonstras ser muito inteligente.
+- Apreciei falar contigo
+- Essa é uma expressão muito inteligente
+- Este virtual assistente está muito bem desenvolvido
+- Estás a ir muito bem
+- Falas inteligente
+- Falas muito inteligente
+- Isso é muito inteligente
+- Pareces inteligente
+- Pareces realmente saber daquilo que falas
+- Pareces ser esperto
+- Pareces ser muito inteligente
+- Provaste ser inteligente
+- Sem dúvida que és inteligente
+- Seu astuto
+- Seu inteligente
+- Seu sábio
+- Soas a ser muito inteligente
+- Soas ser bastante bem feito
+- Tu sabes
+- Tu tens inteligência
+- Tu és bom
+- Tu és esperto
+- Tu és inteligente
+- Tu és mesmo sábio
+- Tu és perspicaz
+- Tão astuto
+- Tão inteligente
+- És astuto
+- És bastante sabedor
+- És bastante sábio
+- És bom
+- És dúvida sábio
+- És inteligente
+- És mesmo bom
+- És perspicaz
+- És repleto de sabedoria
+- És tão astuto
+- És tão repleto de sabedoria
+- És tão sábio
+
+## intent:pt_coronavirus_info
+- About [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- About [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- I don’t know what are [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- I don’t know what is a [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- I don’t know what is [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Info on [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Info on [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- O que são [coronavirus]{"entity": "pt_virus", "value": "COVID"}?
+- O que são os [coronavirus]{"entity": "pt_virus", "value": "COVID"}?
+- O que é o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O que é p [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [coronavirus]{"entity": "pt_virus", "value": "COVID"}?
+- Que mais sabes sobre o [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Que sabes sobre o [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Tell me more about [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Tell me more about [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- Tell me what are [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- Tell me what is a [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Tell me what is [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- What are [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- What is a [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- [coronavirus]{"entity": "pt_virus", "value": "COVID"} info
+- [coronavirus]{"entity": "pt_virus", "value": "COVID"} information
+- [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- [coronaviruses]{"entity": "pt_virus", "value": "COVID"} info
+- [coronaviruses]{"entity": "pt_virus", "value": "COVID"} information
+- info about [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- info about [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- information about [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- information about [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- information on [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- information on [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- o que é o [coronavirus]{"entity": "pt_virus", "value": "COVID"}?
+- que é o [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- [virus]{"entity": "pt_virus", "value": "COVID"}
+- what about [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- what about [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- what is [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+
+## intent:pt_covid_aftereffects_immunity
+- Após cura, posso ficar novamente infectado com o vírus?
+- As pessoas que já se curaram do [covid]{"entity": "pt_virus", "value": "COVID"} podem vir a te lo novamente?
+- As pessoas que já se curaram do covid podem vir a te lo novamente?
+- auto imune
+- Depois de recuperar as pessoas ficam imunes?
+- Depois de recuperar do [coronavirus]{"entity": "pt_virus", "value": "COVID"} as pessoas ficam imunes?
+- Depois de recuperar do coronavirus as pessoas ficam imunes?
+- depois de ser infectado estou imune o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- depois de ser infectado estou imune o vírus?
+- depois de ser infetado estou imune à [doença]{"entity": "pt_virus", "value": "COVID"}?
+- depois de ser infetado estou imune à doença?
+- Depois de ter sido infectado fico imune ao [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Depois de ter sido infectado fico imune ao vírus?
+- doença auto-imune
+- Hà pessoas que possam ser imunes ao vírus?
+- Imunidade
+- Os doentes tratados ficam imunizados?
+- Os doentes tratados podem ser novamente infetados?
+- Podem ficar novamente infectados?
+- Posso voltar a ser contaminada?
+- Quem já foi infetado pelo covid-19 fica imune?
+- se apanhar o virus fico imune
+- Uma pessoa infectada com [coronavirus]{"entity": "pt_virus", "value": "COVID"} fica imune?
+- Uma pessoa infectada com coronavirus fica imune?
+- Uma pessoa infectada fica imune?
+
+## intent:pt_covid_alike
+- Já houve algum surto com [coronavírus]{"entity": "pt_virus", "value": "COVID"} em anos anteriores?
+- Já houve algum surto como o [covid]{"entity": "pt_virus", "value": "COVID"} em anos anteriores?
+- Surtos semelhantes a esta pandemia
+- Surtos semelhantes ao [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Surtos semelhantes ao [covid]{"entity": "pt_virus", "value": "COVID"}
+
+## intent:pt_covid_babys_children
+- As crianças podem infectar as pessoas?
+- As crianças podem transmitir a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- As crianças podem transmitir a infeção e [doença]{"entity": "pt_virus", "value": "COVID"} por [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- As crianças transmitem a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Os bebés podem transmitir a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Os bebés transmitem a [doença]{"entity": "pt_virus", "value": "COVID"}?
+
+## intent:pt_covid_close_contact
+- Contacto próximo
+- Contactos próximos
+- O que é um contacto próximo?
+
+## intent:pt_covid_community_transmission
+- O que é uma área de transmissão comunitária?
+- Transmissão comunitária.
+- Área de transmissão comunitária.
+
+## intent:pt_covid_cosibot
+- Cosibot
+- O que é o cosibot?
+- what is cosibot?
+- Como posso fazer voluntariado?
+
+## intent:pt_covid_crisis_howlong
+- Acreditas que o [vírus]{"entity": "pt_virus", "value": "COVID"} irá estagnar?
+- Quando é que esta crise vai a acabar?
+- Quando é que esta epidemia vai a acabar?
+- Quando é que isto vai a acabar?
+- Quando é que isto vai acabar?
+- durante quanto tempo vai durar o surto ?
+- quando é que isto irá terminar?
+- quanto tempo irá durar essa crise?
+
+## intent:pt_covid_current_statistics
+- [Reinfeld]{"entity": "pt_geography", "value": "town"} noticias.
+- [Großbreitenbach]{"entity": "pt_geography", "value": "town"} situação do país
+- COVID em [Split]{"entity": "pt_geography", "value": "town"}
+- COVID-19 em [Taiyuan]{"entity": "pt_geography", "value": "town"}
+- Como está a situação em [Nassau]{"entity": "pt_geography", "value": "town"}?
+- Coronavirus em [Osterode Am Harz]{"entity": "pt_geography", "value": "town"}
+- Estatísticas actualizadas em [Kleve]{"entity": "pt_geography", "value": "town"}
+- Informações [Gliwice]{"entity": "pt_geography", "value": "town"}
+- Informações actualizadas [Milwaukee]{"entity": "pt_geography", "value": "town"}
+- Informações sobre [Gatineau]{"entity": "pt_geography", "value": "town"}
+- Notícias [Zülpich]{"entity": "pt_geography", "value": "town"}
+- Notícias atuais [Bangui]{"entity": "pt_geography", "value": "town"}
+- Notícias de [Widdern]{"entity": "pt_geography", "value": "town"}
+- Notícias sobre o COVID-19
+- Novo coronavírus em [Verona]{"entity": "pt_geography", "value": "town"}
+- Situação [Esens]{"entity": "pt_geography", "value": "town"}
+- Situação actual em [Guayaquil]{"entity": "pt_geography", "value": "town"}
+- Situação actualizada em [Nis]{"entity": "pt_geography", "value": "town"}
+- Situação em [Pirmasens]{"entity": "pt_geography", "value": "town"}
+- situação
+- Últimas notícias
+
+## intent:pt_covid_duration
+- Depois dos primeiros sintomas, quanto tempo pode durar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- POsso ficar doente por quanto tempo?
+- Por quanto tempo posso ficar doente?
+- Quanto tempo pode durar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- quanto tempo fico doente
+
+## intent:pt_covid_incubation
+- [2019nCov]{"entity": "pt_virus", "value": "COVID"} incubation period.
+- 2019nCov incubation period.
+- Diz-me período de incubação.
+- Duração estimada para o período de incubação?
+- Estimar o período de incubação do tempo.
+- incubação
+- Incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Incubação do vírus?
+- Informações sobre o período de incubação.
+- Intervalo de incubação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Intervalo de incubação da doença.
+- Intervalo de incubação de [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Intervalo de incubação de coronavírus.
+- Intervalo de incubação do [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Intervalo de incubação do coronavírus.
+- Intervalo entre o contágio do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas.
+- Intervalo entre o contágio do vírus e o início dos sintomas.
+- Intervalo temporal entre a apanha do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Intervalo temporal entre a apanha do vírus e o início dos sintomas da doença.
+- No período de incubação.
+- novo período de incubação de [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- novo período de incubação de coronavírus.
+- novo período de incubação do [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- novo período de incubação do coronavírus.
+- o período de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- o período de incubação do vírus.
+- O período de incubação.
+- O tempo até ao início dos sintomas após contágio.
+- O tempo até ao início dos sintomas.
+- O tempo entre a apanha do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- O tempo entre a apanha do vírus e o início dos sintomas da doença.
+- O tempo entre a captura do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- O tempo entre a captura do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas.
+- O tempo entre a captura do vírus e o início dos sintomas da doença.
+- O tempo entre a captura do vírus e o início dos sintomas.
+- O tempo entre a captura e o início dos sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- O tempo entre a captura e o início dos sintomas da doença.
+- O tempo entre a captura e o início dos sintomas.
+- O tempo entre o contágio do [vírus]{"entity": "pt_virus", "value": "COVID"} e o início dos sintomas.
+- O tempo entre o contágio do vírus e o início dos sintomas.
+- Período de incubação [19-nCoV]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [19nCov]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [2019nCov]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [COVID-2019]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [covid]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [COVID19]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação 19-nCoV.
+- Período de incubação 19nCov.
+- Período de incubação 2019-nCoV.
+- Período de incubação 2019nCov.
+- Período de incubação COVID-19.
+- Período de incubação COVID-2019.
+- Período de incubação COVID.
+- Período de incubação COVID19.
+- Período de incubação COVID2019.
+- período de incubação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- período de incubação da doença.
+- Período de incubação de [19-nCoV]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de [19nCov]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação de 19-nCoV.
+- Período de incubação de 19nCov.
+- Período de incubação de SARS-CoV-2.
+- Período de incubação de SARSCoV-2.
+- Período de incubação de SARSCoV2.
+- Período de incubação do [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação do [COVID19]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Período de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação do COVID-19.
+- Período de incubação do COVID19.
+- Período de incubação do novo coronavírus?
+- Período de incubação do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Período de incubação do recente coronavírus.
+- Período de incubação do vírus.
+- período de incubação estimado.
+- Período de incubação novo coronavírus.
+- Período de incubação SARS-CoV-2.
+- Período de incubação SARSCoV-2.
+- Período de incubação SARSCoV2.
+- Período de incubação.
+- periodo incubação?
+- Previsão temporal de incubação.
+- Previsão temporal do período de incubação.
+- Qual é o periodo de incubação?
+- Qual é o tempo de incubação?
+- Qual é o tempo estimado da incubação?
+- Qual é o tempo estimado de incubação?
+- Qual é o tempo estimado do período de incubação?
+- Qual é o tempo estimado para o período de incubação?
+- Qual o periodo de incubação?
+- Qual o tempo de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual o tempo de incubação do vírus?
+- Quanto é o tempo estimado do período de incubação?
+- Quanto tempo até os sintomas aparecerem?
+- Quanto tempo até que os sintomas apareçam?
+- Quanto tempo de incubação?
+- Quanto tempo depois da pessoa ser contaminada leva a sentir os sintomas
+- Quanto tempo dura o período de incubação [19-nCoV]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [19nCov]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [2019nCov]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [covid]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [COVID19]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [COVID2019]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação 19-nCoV?
+- Quanto tempo dura o período de incubação 19nCov?
+- Quanto tempo dura o período de incubação 2019-nCoV?
+- Quanto tempo dura o período de incubação 2019nCov?
+- Quanto tempo dura o período de incubação COVID-19?
+- Quanto tempo dura o período de incubação COVID-2019?
+- Quanto tempo dura o período de incubação COVID?
+- Quanto tempo dura o período de incubação COVID19?
+- Quanto tempo dura o período de incubação COVID2019?
+- Quanto tempo dura o período de incubação da [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação da doença?
+- Quanto tempo dura o período de incubação de [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação de [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação de [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação de SARS-CoV-2?
+- Quanto tempo dura o período de incubação de SARS-CoV2?
+- Quanto tempo dura o período de incubação de SARSCoV2?
+- Quanto tempo dura o período de incubação do [19-nCoV]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [19nCov]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [covid]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [COVID19]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [COVID2019]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do 19-nCoV?
+- Quanto tempo dura o período de incubação do 19nCov?
+- Quanto tempo dura o período de incubação do COVID-19?
+- Quanto tempo dura o período de incubação do COVID-2019?
+- Quanto tempo dura o período de incubação do COVID?
+- Quanto tempo dura o período de incubação do COVID19?
+- Quanto tempo dura o período de incubação do COVID2019?
+- Quanto tempo dura o período de incubação do novo coronavírus?
+- Quanto tempo dura o período de incubação do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação do recente coronavírus?
+- Quanto tempo dura o período de incubação do SARSCoV-2?
+- Quanto tempo dura o período de incubação do vírus?
+- Quanto tempo dura o período de incubação para [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação para [2019nCov]{"entity": "pt_virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação para 2019-nCoV?
+- Quanto tempo dura o período de incubação para 2019nCov?
+- Quanto tempo dura o período de incubação SARS-CoV-2?
+- Quanto tempo dura o período de incubação SARS-CoV2?
+- Quanto tempo dura o período de incubação SARSCoV-2?
+- Quanto tempo dura o período de incubação SARSCoV2?
+- Quanto tempo dura o período de incubação?
+- Quanto tempo leva até os sintomas?
+- Sobre o período de incubação.
+- Tempo estimado da estimativa do período de incubação.
+- Tempo estimado do período de incubação.
+- tempo estimado para o período de incubação.
+
+## intent:pt_covid_info
+- [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- [19-nCoV]{"entity": "pt_virus", "value": "COVID"} info
+- [19-nCoV]{"entity": "pt_virus", "value": "COVID"} informações
+- [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- [19nCov]{"entity": "pt_virus", "value": "COVID"} info
+- [19nCov]{"entity": "pt_virus", "value": "COVID"} informações
+- [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- [2019-nCoV]{"entity": "pt_virus", "value": "COVID"} info
+- [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- [2019nCov]{"entity": "pt_virus", "value": "COVID"} info
+- [2019nCov]{"entity": "pt_virus", "value": "COVID"} informações
+- [Corona]{"entity": "pt_virus", "value": "COVID"}
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} info
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} mais info
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} mais informação
+- [covid]{"entity": "pt_virus", "value": "COVID"}
+- [COVID19]{"entity": "pt_virus", "value": "COVID"}
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} info
+- [doença]{"entity": "pt_virus", "value": "COVID"}
+- [nCoV]{"entity": "pt_virus", "value": "COVID"}
+- [nCoV]{"entity": "pt_virus", "value": "COVID"} mais informação
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- [vírus corona]{"entity": "pt_virus", "value": "COVID"}
+- 19-nCoV
+- 19-nCoV info"
+- 19-nCoV informações
+- 19nCov info
+- 19nCov informações
+- 19nCov"
+- 2019-nCoV
+- 2019-nCoV info
+- 2019nCov
+- 2019nCov info"
+- 2019nCov informações
+- a pandemia começou em Wuhan?
+- Atual [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Atual coronavírus
+- Boa noite tenho uma dúvida. O vírus e natural ou foi criado em laboratório?
+- Como começou o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Como começou o COVID-19
+- Como surgiu o covid-19?
+- Conta acerca do [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conta acerca do 2019-nCoV
+- Conta do [covid]{"entity": "pt_virus", "value": "COVID"}
+- Conta do COVID
+- Conta mais sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conta mais sobre nCoV
+- Conta mais sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Conta mais sobre o novo coronavírus
+- Conta-me info do [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me info do nCoV
+- Conta-me mais sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me mais sobre 2019nCov
+- Conta-me mais sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me mais sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me mais sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Conta-me mais sobre o 19-nCoV
+- Conta-me mais sobre o 19nCov
+- Conta-me mais sobre o COVID-2019
+- Conte-me a respeito do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me a respeito do COVID-19
+- Conte-me mais a respeito do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais a respeito do COVID-19
+- Conte-me mais em relação ao [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais em relação ao 2019-nCoV"
+- Conte-me mais sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre 19-nCoV
+- Conte-me mais sobre 19nCov
+- Conte-me mais sobre 2019-nCoV
+- Conte-me mais sobre 2019nCov
+- Conte-me mais sobre COVID
+- Conte-me mais sobre COVID2019
+- Conte-me mais sobre nCoV
+- Conte-me mais sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o 19-nCoV
+- Conte-me mais sobre o 19nCov
+- Conte-me mais sobre o 2019-nCoV
+- Conte-me mais sobre o 2019nCov
+- Conte-me mais sobre o COVID
+- Conte-me mais sobre o COVID-19
+- Conte-me mais sobre o COVID-2019
+- Conte-me mais sobre o COVID2019
+- Conte-me mais sobre o nCoV
+- Conte-me mais sobre o novo coronavírus
+- Conte-me mais sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Conte-me mais sobre o recente coronavírus
+- Corona
+- COVID
+- COVID-19
+- COVID-19 info
+- COVID-2019
+- COVID-2019 mais info
+- COVID-2019 mais informação
+- covid19
+- COVID2019
+- COVID2019 info
+- Dá-me informação sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Dá-me informação sobre o novo coronavírus
+- Dá-me informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Dá-me informações sobre COVID-19
+- Dados sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Dados sobre coronavírus
+- Dados sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Dados sobre novos coronavírus
+- De onde vem esse vírus?
+- De q origem vem o coronavirus?
+- Detalhes do [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Detalhes do 2019-nCoV
+- Detalhes sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Detalhes sobre 2019-nCoV
+- Detalhes sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Detalhes sobre o COVID-19
+- Diga-me o que é [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [covid]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é 19-nCoV
+- Diga-me o que é 19nCov
+- Diga-me o que é 2019-nCoV
+- Diga-me o que é 2019nCov
+- Diga-me o que é COVID
+- Diga-me o que é COVID-19
+- Diga-me o que é COVID-2019
+- Diga-me o que é COVID2019
+- Diga-me o que é nCoV
+- Diga-me o que é o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é o 19-nCoV
+- Diga-me o que é o 19nCov
+- Diga-me o que é o 2019-nCoV
+- Diga-me o que é o 2019nCov
+- Diga-me o que é o COVID-19
+- Diga-me o que é o nCoV
+- Diga-me o que é o novo coronavírus
+- Diga-me o que é um [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [covid]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me o que é um 19-nCoV
+- Diga-me o que é um 19nCov
+- Diga-me o que é um 2019-nCoV
+- Diga-me o que é um 2019nCov
+- Diga-me o que é um COVID
+- Diga-me o que é um COVID-19
+- Diga-me o que é um COVID-2019
+- Diga-me o que é um COVID2019
+- Diga-me o que é um nCoV
+- Diga-me o que é um novo coronavírus
+- Diga-me qual é o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me qual é o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me qual é o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me qual é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diga-me qual é o COVID
+- Diga-me qual é o COVID-2019
+- Diga-me qual é o COVID2019
+- Diga-me qual é o novo coronavírus
+- Diz-me acerca do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me acerca do COVID-19
+- Diz-me informação sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me informação sobre o COVID2019
+- diz-me informações do assunto [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- diz-me informações do assunto [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- diz-me informações do assunto 19nCov
+- diz-me informações do assunto 2019nCov
+- diz-me informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- diz-me informações sobre COVID2019
+- Diz-me informações sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me informações sobre o nCoV
+- Diz-me mais sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me mais sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me mais sobre o COVID2019
+- Diz-me mais sobre o novo coronavírus
+- Diz-me sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diz-me sobre COVID
+- Diz-me sobre COVID2019
+- doença
+- e o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- e o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- e o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- e o [COVID]{"entity": "pt_virus", "value": "COVID"}
+- e o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- e o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- e o 19nCov
+- e o COVID
+- e o COVID-19
+- e o COVID-2019
+- e o COVID2019
+- e o novo coronavírus
+- e quanto ao [nCov]{"entity": "pt_virus", "value": "COVID"}
+- e quanto ao nCoV
+- Elucida-me sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Elucida-me sobre COVID
+- Elucida-me sobre o assunto [covid]{"entity": "pt_virus", "value": "COVID"}
+- Elucida-me sobre o assunto COVID
+- Envia-me informações sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Envia-me informações sobre o COVID-2019
+- Esclarece sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Esclarece sobre o recente coronavírus
+- Esclarece-me sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Esclarece-me sobre COVID
+- Esclarece-me sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Esclarece-me sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Esclarece-me sobre o COVID
+- Esclarece-me sobre o novo coronavírus
+- Esclarecimento [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento [covid]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento 2019-nCoV
+- Esclarecimento COVID
+- Esclarecimento do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento do [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento do coronavírus
+- Esclarecimento do COVID-2019
+- Esclarecimento sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento sobre nCoV
+- Esclarecimento sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimento sobre o 19nCov
+- Esclarecimento sobre o COVID-2019
+- Esclarecimento sobre o novo coronavírus
+- Esclarecimentos do [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimentos do nCoV"
+- Esclarecimentos sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Esclarecimentos sobre nCoV
+- Explica-me [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Explica-me nCoV
+- Fala do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- fala do assunto [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- fala do assunto COVID-2019
+- Fala do COVID-19
+- Fala do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Fala do recente coronavírus
+- Fala mais sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Fala mais sobre o COVID
+- fala sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- fala sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Fala sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- fala sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- fala sobre 19nCov
+- fala sobre 2019nCov
+- Fala sobre COVID-19
+- fala sobre COVID-2019
+- Fala-me do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Fala-me do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Fala-me do coronavírus
+- Fala-me do COVID-19
+- fala-me informações do assunto [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- fala-me informações do assunto COVID2019
+- Fala-me mais sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Fala-me mais sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Fala-me mais sobre o 19-nCoV
+- Fala-me mais sobre o novo coronavírus
+- fala-me sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- fala-me sobre o 19-nCoV
+- Foram os chineses?
+- Foram os chineses?
+- há informação do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- há informação do novo coronavírus
+- Info sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre 19nCov
+- Info sobre 2019nCov
+- Info sobre COVID-2019
+- Info sobre COVID2019
+- Info sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o 19-nCoV
+- Info sobre o 19nCov
+- Info sobre o 2019nCov
+- Info sobre o COVID-2019
+- Info sobre o COVID2019
+- Info sobre o novo coronavírus
+- Info sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Info sobre o recente coronavírus
+- Informa-me sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Informa-me sobre 19-nCoV
+- Informa-me sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Informa-me sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Informa-me sobre o 2019nCov
+- Informa-me sobre o novo coronavírus
+- Informação [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Informação [covid]{"entity": "pt_virus", "value": "COVID"}
+- Informação COVID
+- Informação COVID-2019
+- Informação sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Informação sobre o recente coronavírus
+- informações [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Informações [covid]{"entity": "pt_virus", "value": "COVID"}
+- informações [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- informações [nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações 19-nCoV
+- informações 19nCov
+- informações 2019-nCoV
+- informações 2019nCov
+- Informações COVID
+- informações COVID-2019
+- informações COVID2019
+- Informações do [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações do [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Informações do 19-nCoV
+- informações do 2019-nCoV
+- informações do assunto [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto 19-nCoV
+- informações do assunto 19nCov
+- informações do assunto 2019nCov
+- informações do assunto COVID-19
+- informações do assunto COVID-2019
+- informações do assunto COVID2019
+- informações do assunto relacionado com o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações do assunto relacionado com o novo coronavírus
+- informações do coronavírus
+- informações do recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações do recente coronavírus
+- informações do tema [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- informações do tema COVID-19
+- informações nCoV
+- informações recentes sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações recentes sobre coronavírus
+- informações sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Informações sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre 19-nCoV
+- informações sobre 19nCov
+- Informações sobre 2019-nCoV
+- informações sobre 2019nCov
+- informações sobre COVID
+- Informações sobre COVID-19
+- informações sobre COVID-2019
+- informações sobre COVID2019
+- informações sobre nCoV
+- informações sobre novo coronavírus
+- informações sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre novos coronavírus
+- informações sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Informações sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Informações sobre o [nCoV 2019]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [nCoV]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o 19-nCoV
+- informações sobre o 19nCov
+- informações sobre o 2019-nCoV
+- informações sobre o 2019nCov
+- informações sobre o COVID-2019
+- Informações sobre o COVID2019
+- informações sobre o nCoV
+- Informações sobre o nCoV 2019
+- informações sobre o novo coronavírus
+- informações sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- informações sobre o recente coronavírus
+- Manda informação sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Manda informação sobre o 2019-nCoV
+- Mostra informações sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Mostra informações sobre o nCoV
+- Não sei o que é [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [covid]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é 19-nCoV
+- Não sei o que é 19nCov
+- Não sei o que é 2019-nCoV
+- Não sei o que é 2019nCov
+- Não sei o que é COVID
+- Não sei o que é COVID-19
+- Não sei o que é COVID-2019
+- Não sei o que é COVID2019
+- Não sei o que é nCoV
+- Não sei o que é o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o 19-nCoV
+- Não sei o que é o 19nCov
+- Não sei o que é o 2019-nCoV
+- Não sei o que é o 2019nCov
+- Não sei o que é o COVID
+- Não sei o que é o COVID-19
+- Não sei o que é o COVID-2019
+- Não sei o que é o COVID2019
+- Não sei o que é o nCoV
+- Não sei o que é o novo coronavírus
+- Não sei o que é o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Não sei o que é o recente coronavírus
+- Não sei qual é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Não sei qual é o novo coronavírus
+- Não sei qual é o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Não sei qual é o recente coronavírus
+- nCoV
+- nCoV mais informação
+- novas informações sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- novas informações sobre coronavírus
+- novo coronavírus
+- novos dados sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- novos dados sobre coronavírus
+- o que é [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- o que é [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- o que é [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- o que é [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- o que é [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- o que é [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- O que é [covid]{"entity": "pt_virus", "value": "COVID"}
+- o que é [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- o que é [nCov]{"entity": "pt_virus", "value": "COVID"}
+- o que é [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- o que é 19-nCoV
+- o que é 19nCov
+- o que é 2019-nCoV
+- o que é 2019nCov
+- O que é a [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- O que é a [covid]{"entity": "pt_virus", "value": "COVID"}
+- O que é a covid
+- O que é a COVID-19?
+- O que é COVID
+- o que é COVID-19
+- o que é COVID-2019
+- o que é COVID2019
+- o que é esse [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- o que é esse vírus?
+- o que é nCoV
+- o que é novo coronavírus
+- o que é o [ccovid]?
+- O que é o [Corona vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O que é o [covid-18]{"entity": "pt_virus", "value": "COVID"}
+- O que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- O que é o [covid]{"entity": "pt_virus", "value": "COVID"}?
+- O que é o [covit19]{"entity": "pt_virus", "value": "COVID"}
+- O que é o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- O que é o atual [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- O que é o atual coronavírus
+- o que é o ccovid?
+- O que é o Corona vírus?
+- o que é o covid 19
+- O que é o covid-18
+- O que é o COVID-19?
+- O que é o covid?
+- O que é o Covid19?
+- o que é o covif
+- O que é o covit19
+- O que é o novo coronavírus
+- O que é o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- O que é o recente coronavírus
+- O que é que é o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- O que é que é o covid-19
+- O que é um [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [covid]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [nCov]{"entity": "pt_virus", "value": "COVID"}
+- O que é um [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- O que é um 19-nCoV
+- O que é um 19nCov
+- O que é um 2019-nCoV
+- O que é um 2019nCov
+- O que é um COVID
+- O que é um COVID-19
+- O que é um COVID-2019
+- O que é um COVID2019
+- O que é um nCoV
+- O que é um novo coronavírus
+- o que o covid 19
+- O que se passa sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- O que se passa sobre COVID-19
+- Olá olá como é o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Olá olá como é o covid
+- onde começou o surto?
+- onde começou?
+- onde o surto começou?
+- Onde surgiu o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Onde surgiu o vírus?
+- origem pandêmica
+- origem secreta
+- Pensava ser de origem animal
+- qual a origem do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- qual a origem do vírus?
+- Qual é a origem do surto?
+- Quando foi detectacta a [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quando foi detectacta a COVID-19?
+- que informações tens do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- que informações tens do novo coronavírus
+- Que me consegues dizer sobre o COVID-19?
+- que tal [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Que tal [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Que tal [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- que tal 19-nCoV
+- Que tal 2019-nCoV
+- Que tal 2019nCov
+- Que tal informações sobre [covid]{"entity": "pt_virus", "value": "COVID"}
+- Que tal informações sobre COVID
+- Quero informações sobre o Covid19
+- Recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Recente [coronavírus]{"entity": "pt_virus", "value": "COVID"} mais info
+- Recente coronavírus
+- Recente coronavírus mais info
+- recentes informações sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- recentes informações sobre coronavírus
+- Sobre [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre 19-nCoV
+- Sobre 19nCov
+- Sobre 2019-nCoV
+- Sobre 2019nCov
+- Sobre a [covid]{"entity": "pt_virus", "value": "COVID"}
+- Sobre a COVID
+- Sobre COVID-19
+- Sobre COVID2019
+- Sobre nCoV
+- Sobre o [19-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [19nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [2019-nCoV]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [2019nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [covid]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [nCov]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o [vírus]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o 19-nCoV
+- Sobre o 19nCov
+- Sobre o 2019-nCoV
+- Sobre o 2019nCov
+- Sobre o COVID
+- Sobre o COVID-19
+- Sobre o COVID-2019
+- Sobre o COVID2019
+- Sobre o nCoV
+- Sobre o novo coronavírus
+- Sobre o recente [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Sobre o recente coronavírus
+- Sobre o vírus
+- vírus corona
+
+## intent:pt_covid_meaning
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} nome significado.
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"}, porquê este nome?
+- [coronavírus]{"entity": "pt_virus", "value": "COVID"} [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}
+- Explica a nomenclatura da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Explica o nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Explique o nome da [doença]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [COVID]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [vírus]{"entity": "pt_virus", "value": "COVID"}
+- Explique o nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Explique o nome.
+- Explique-me o nome [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome da [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome do [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome do [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome do [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome do [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o nome.
+- Explique-me o significado do nome [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome da [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome do [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome do [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome do [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome do [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome do [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Explique-me o significado do nome.
+- Fala do nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Nome [COVID]{"entity": "pt_virus", "value": "COVID"} porquê?
+- Nome [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Nome [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Nome [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}, porquê?
+- Nome [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Nome [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}, porquê?
+- Nome [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Nome [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}, porquê?
+- Nome [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Nome [SARSCoV2]{"entity": "pt_virus", "value": "COVID"} por quê?
+- Nome [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Nome da [doença]{"entity": "pt_virus", "value": "COVID"} que significa.
+- Nome da [doença]{"entity": "pt_virus", "value": "COVID"}, porquê?
+- Nome da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- O que o nome significa?
+- O que significa [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- O que significa [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
+- Porque a [doença]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque a [doença]{"entity": "pt_virus", "value": "COVID"} se chama [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque a [doença]{"entity": "pt_virus", "value": "COVID"} é chamada assim?
+- Porque a [doença]{"entity": "pt_virus", "value": "COVID"} é nomeada assim?
+- Porque o [COVID]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [COVID]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [COVID]{"entity": "pt_virus", "value": "COVID"} é chamado [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [COVID]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [COVID-19]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [COVID-19]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é chamado [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [COVID-19d]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [COVIDd]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} é chamado [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARS-CoV-2d]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"} é chamado [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARS-CoV2d]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"} é chamado [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARSCoV-2d]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARSCoV2]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [SARSCoV2]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [SARSCoV2]{"entity": "pt_virus", "value": "COVID"} é chamado [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [SARSCoV2]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o [SARSCoV2d]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque o doente é chamado assim?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} foi nomeado assim?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} recebeu esse nome?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} se chama [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} se chama [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} tem este nome?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} teve este nome?
+- Porque o [vírus]{"entity": "pt_virus", "value": "COVID"} é chamado assim?
+- Porque é que a [doença]{"entity": "pt_virus", "value": "COVID"} se chama assim?
+- Porque é que chamaram a [doença]{"entity": "pt_virus", "value": "COVID"} assim?
+- Porquê o nome [COVID]{"entity": "pt_virus", "value": "COVID"}?
+- Porquê o nome [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Qual o significado do nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Que nome é [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}?
+- [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} nome significado.
+- [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"} nome significado.
+- [SARSCoV2]{"entity": "pt_virus", "value": "COVID"} porquê?
+- Significado do nome [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome da [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome da [SARS-CoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome da [SARSCoV-2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome da [SARSCoV2]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome desta [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome desta [virose]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome do [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome do [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Significado do nome.
+- What does the acronym [COVID-19]{"entity": "pt_virus", "value": "COVID"} mean?
+- nome do [vírus]{"entity": "pt_virus", "value": "COVID"} porquê?
+
+## intent:pt_covid_mortality_rate
+- Posso morrer?
+- Qual a mortalidade do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- qual a percentagem de letalidade ?
+- qual a taxa de mortalidade na Europa?
+- qual é a taxa de mortalidade ?
+- É perigoso?
+- Pode se morrer de [covid]{"entity": "pt_virus", "value": "COVID"}?
+
+## intent:pt_covid_pandemic
+- Definição de pandemia.
+- Epidemia
+- O que é uma epidemia?
+- O que é uma pandemia?
+- Pandemia
+- Qual é a diferença entre epidemia e pandemia?
+
+## intent:pt_covid_preexisting_illness
+- A maioria das pessoas de risco.
+- As pessoas mais velhas correm maior risco?
+- Doenças pulmonares?
+- Existe uma faixa etária mais em risco do que outras?
+- Faixa etária com possibilidade de [doença]{"entity": "pt_virus", "value": "COVID"} grave.
+- Faixa etária com saúde mais afetada
+- Faixa etária mais afetada.
+- Faixa etária mais em risco do que as restantes?
+- Faixa etária mais em risco.
+- Faixa etária mais propicia a desenvolver doenças graves?
+- Mais pessoas de risco.
+- Os idosos correm maior risco?
+- Os idosos correm mais riscos?
+- Os idosos estão mais em risco?
+- Perigoso para pessoas com condições médicas pré-existentes?
+- Pessoas com condições médicas pré-existentes estão em maior risco?
+- Pessoas com condições médicas pré-existentes estão mais em risco?
+- Pessoas com doenças auto imunes estão no grupo de risco da [Covid 19]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas com possibilidade de risco de ter [doença]{"entity": "pt_virus", "value": "COVID"} grave de [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Pessoas com saúde em risco
+- Pessoas com saúde mais debilitada
+- Pessoas em risco
+- Pessoas em risco de [doença]{"entity": "pt_virus", "value": "COVID"} grave.
+- Pessoas mais arriscadas.
+- Pessoas mais em condições mais graves.
+- Quae faixa etária corre o risco de desenvolver doenças graves?
+- Quae faixa etária está mais em risco?
+- Quae faixa etária pode estar mais em risco?
+- Quae faixa etária tem a saúde mais em risco?
+- Quais os grupos mais suscetíveis
+- Quais pessoas estão em maior risco?
+- Quais pessoas estão mais em risco?
+- Qual é a faixa etária pode estar mais em risco?
+- Que doenças poderão acelerar os efeitos do [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quem corre mais risco?
+- Quem corre o risco de desenvolver doenças graves?
+- Quem está em maior risco?
+- Quem está mais em risco?
+- Quem pode estar em maior risco?
+- Quem pode estar mais em risco?
+- Risco para pessoas com condições médicas pré-existentes?
+- Sabes quais são os grupos de risco?
+- Sobre a faixa etária mais debilitada.
+- Sobre a faixa etária mais vulnerável.
+- Sobre a maioria das pessoas de risco.
+- Sobre as pessoas com maior risco.
+- Sobre as pessoas mais graves.
+- Sobre as pessoas mais sérias.
+- Sobre mais pessoas de risco.
+- Sobre pessoas com mais risco.
+- Sobre pessoas mais graves.
+- Sobre pessoas mais sérias.
+- Sobre uma faixa etária mais afetada.
+- Sobre uma faixa etária mais em risco.
+- grupos de risco
+- o [virus]{"entity": "pt_virus", "value": "COVID"} mata?
+- o [vírus]{"entity": "pt_virus", "value": "COVID"} afecta fatalmente apenas os idosos?
+- É verdade que o [vírus]{"entity": "pt_virus", "value": "COVID"} afecta fatalmente apenas os idosos?
+- Diabetes
+
+## intent:pt_covid_sars
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
+- [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que SARS?
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que Síndrome Respiratória Aguda Grave?
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é diferente da síndrome respiratória aguda grave.
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e síndrome respiratória aguda grave.
+- Alterações entre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Alterações entre novos coronavírus e SARS
+- Alterações entre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a síndrome respiratória aguda grave
+- Alterações entre o novo coronavírus e a síndrome respiratória aguda grave
+- COVID é o mesmo que SARS?
+- COVID é o mesmo que Síndrome Respiratória Aguda Grave?
+- COVID e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- COVID e SARS são o mesmo vírus?
+- COVID e SARS.
+- COVID e Síndrome Respiratória Aguda Grave.
+- COVID-19 é o mesmo que SARS?
+- COVID-19 é o mesmo que Síndrome Respiratória Aguda Grave?
+- COVID-19 e SARS são o mesmo vírus?
+- COVID-19 e SARS.
+- COVID-19 e Síndrome Respiratória Aguda Grave.
+- COVID-2019 é o mesmo que SARS?
+- COVID-2019 é o mesmo que Síndrome Respiratória Aguda Grave?
+- COVID-2019 e SARS são o mesmo vírus?
+- COVID-2019 e SARS.
+- COVID-2019 e Síndrome Respiratória Aguda Grave.
+- COVID19 é o mesmo que SARS?
+- COVID19 é o mesmo que Síndrome Respiratória Aguda Grave?
+- COVID19 e SARS são o mesmo vírus?
+- COVID19 e SARS.
+- COVID19 e Síndrome Respiratória Aguda Grave.
+- COVID2019 é o mesmo que SARS?
+- COVID2019 é o mesmo que Síndrome Respiratória Aguda Grave?
+- COVID2019 e SARS são o mesmo vírus?
+- COVID2019 e SARS.
+- COVID2019 e Síndrome Respiratória Aguda Grave.
+- Diferença entre  a [COVID-19]{"entity": "pt_virus", "value": "COVID"} e a SARS.
+- Diferença entre  a COVID-19 e a SARS.
+- Diferenças entre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Diferenças entre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Diferenças entre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Diferenças entre [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave
+- Diferenças entre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Diferenças entre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave
+- Diferenças entre COVID e SARS
+- Diferenças entre COVID e síndrome respiratória aguda grave
+- Diferenças entre COVID-19 e SARS
+- Diferenças entre COVID-19 e Síndrome Respiratória Aguda Grave
+- Diferenças entre COVID-2019 e SARS
+- Diferenças entre COVID-2019 e Síndrome Respiratória Aguda Grave
+- Diferenças entre COVID19 e SARS
+- Diferenças entre COVID19 e Síndrome Respiratória Aguda Grave
+- Diferenças entre COVID2019 e SARS
+- Diferenças entre COVID2019 e Síndrome Respiratória Aguda Grave
+- Diferenças entre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS
+- Diferenças entre novos coronavírus e SARS
+- Diferenças entre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave
+- Diferenças entre o novo coronavírus e a Síndrome Respiratória Aguda Grave
+- Diferenças entre SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Diferenças entre SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}
+- Diferenças entre SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}
+- Diferenças entre SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}
+- Diferenças entre SARS e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Diferenças entre SARS e COVID
+- Diferenças entre SARS e COVID-19
+- Diferenças entre SARS e COVID-2019
+- Diferenças entre SARS e COVID19
+- Diferenças entre SARS e COVID2019
+- Diferenças entre SARS e novo coronavírus
+- Existe diferença entre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda
+- Existe diferença entre o novo coronavírus e a Síndrome Respiratória Aguda Grave.
+- Informações do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
+- Informações do novo coronavírus e a Síndrome Respiratória Aguda Grave.
+- Informações dos novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Informações dos novos coronavírus e SARS.
+- Informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Informações sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Informações sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Informações sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Informações sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Informações sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Informações sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Informações sobre COVID e SARS.
+- Informações sobre COVID e Síndrome Respiratória Aguda Grave.
+- Informações sobre COVID-19 e SARS.
+- Informações sobre COVID-19 e Síndrome Respiratória Aguda Grave.
+- Informações sobre COVID-2019 e SARS.
+- Informações sobre COVID-2019 e Síndrome Respiratória Aguda Grave.
+- Informações sobre COVID19 e SARS.
+- Informações sobre COVID19 e Síndrome Respiratória Aguda Grave.
+- Informações sobre COVID2019 e SARS.
+- Informações sobre COVID2019 e Síndrome Respiratória Aguda Grave.
+- Informações sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Informações sobre novos coronavírus e SARS.
+- Informações sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a síndrome respiratória aguda grave.
+- Informações sobre o novo coronavírus e a síndrome respiratória aguda grave.
+- Informações sobre SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Informações sobre SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}.
+- Informações sobre SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}.
+- Informações sobre SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
+- Informações sobre SARS e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Informações sobre SARS e COVID-19.
+- Informações sobre SARS e COVID-2019.
+- Informações sobre SARS e COVID.
+- Informações sobre SARS e COVID19.
+- Informações sobre SARS e COVID2019.
+- Informações sobre SARS e novo coronavírus.
+- Informações sobre SARS e novos [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Informações sobre SARS e novos coronavírus.
+- novo coronavírus é diferente da síndrome respiratória aguda grave.
+- novo coronavírus e SARS são o mesmo vírus?
+- novo coronavírus e SARS.
+- novo coronavírus e síndrome respiratória aguda grave.
+- novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- novos coronavírus e SARS são o mesmo vírus?
+- novos coronavírus e SARS.
+- O [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é igual à Síndrome Respiratória Aguda Grave?
+- O [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o [virus]{"entity": "pt_virus", "value": "COVID"} do SARS?
+- O [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa [COVID-19]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"}?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"}?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS é o mesmo que causa o COVID ?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a SARS e o que causa o COVID são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa COVID é o mesmo que causa a Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome Respiratória
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID19]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome Respiratória
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID2019]{"entity": "pt_virus", "value": "COVID"} e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o [vírus]{"entity": "pt_virus", "value": "COVID"} da SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o [vírus]{"entity": "pt_virus", "value": "COVID"} da Síndrome Respiratória Aguda
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo da SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa a Síndrome
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o que causa a SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e o que causa a Síndrome Respiratória
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o COVID é o mesmo que causa o SARS?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o COVID e o que causa a Síndrome Respiratória Aguda Grave
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o COVID e o que causa o SARS são os mesmos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que desenvolve a SARS é o mesmo que o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- O novo coronavírus é igual à Síndrome Respiratória Aguda Grave?
+- O novo coronavírus é o mesmo que o SARS?
+- O novo coronavírus é o virus do SARS?
+- O que é o sars?
+- O SARS é o mesmo que o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- O SARS é o mesmo que o novo coronavírus?
+- O vírus que causa a SARS é o mesmo que causa o COVID ?
+- O vírus que causa a SARS é o mesmo que causa o COVID-19?
+- O vírus que causa a SARS é o mesmo que causa o COVID-2019?
+- O vírus que causa a SARS é o mesmo que causa o COVID19?
+- O vírus que causa a SARS é o mesmo que causa o COVID2019?
+- O vírus que causa a SARS é o mesmo que causa o novo coronavírus?
+- O vírus que causa a SARS e o que causa novos coronavírus são os mesmos?
+- O vírus que causa a SARS e o que causa o COVID são os mesmos?
+- O vírus que causa a SARS e o que causa o COVID-19 são os mesmos?
+- O vírus que causa a SARS e o que causa o COVID-2019 são os mesmos?
+- O vírus que causa a SARS e o que causa o COVID19 são os mesmos?
+- O vírus que causa a SARS e o que causa o COVID2019 são os mesmos?
+- O vírus que causa a SARS e o que causa o novo coronavírus são os mesmos?
+- O vírus que causa COVID é o mesmo que causa a Síndrome Respiratória Aguda Grave?
+- O vírus que causa COVID-19 e o que causa a Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que causa o COVID é o mesmo que causa o SARS?
+- O vírus que causa o COVID e o que causa a Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que causa o COVID e o que causa o SARS são os mesmos?
+- O vírus que causa o COVID-19 é o mesmo que causa a Síndrome Respiratória Aguda Grave?
+- O vírus que causa o COVID-19 é o mesmo que causa o SARS?
+- O vírus que causa o COVID-19 e o que causa o SARS são os mesmos?
+- O vírus que causa o COVID-2019 é o mesmo que causa a Síndrome Respiratória Aguda Grave?
+- O vírus que causa o COVID-2019 é o mesmo que causa o SARS?
+- O vírus que causa o COVID-2019 e o que causa a Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que causa o COVID-2019 e o que causa o SARS são os mesmos?
+- O vírus que causa o COVID19 é o mesmo que causa a Síndrome Respiratória Aguda Grave?
+- O vírus que causa o COVID19 é o mesmo que causa o SARS?
+- O vírus que causa o COVID19 e o que causa a Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que causa o COVID19 e o que causa o SARS são os mesmos?
+- O vírus que causa o COVID2019 é o mesmo que causa a Síndrome Respiratória Aguda Grave?
+- O vírus que causa o COVID2019 é o mesmo que causa o SARS?
+- O vírus que causa o COVID2019 e o que causa a Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que causa o COVID2019 e o que causa o SARS são os mesmos?
+- O vírus que causa o novo coronavírus é o mesmo da SARS?
+- O vírus que causa o novo coronavírus é o mesmo que causa a Síndrome Respiratória Aguda Grave ?
+- O vírus que causa o novo coronavírus é o mesmo que causa a Síndrome Respiratória Aguda Grave?
+- O vírus que causa o novo coronavírus é o mesmo que causa o SARS?
+- O vírus que causa o novo coronavírus e o que causa a SARS são os mesmos?
+- O vírus que causa o novo coronavírus e o que causa a Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que causa o novo coronavírus e o vírus da SARS são os mesmos?
+- O vírus que causa o novo coronavírus e o vírus da Síndrome Respiratória Aguda Grave são os mesmos?
+- O vírus que desenvolve a SARS é o mesmo que o novo coronavírus?
+- Recentes [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Recentes coronavírus e SARS.
+- SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}.
+- SARS e [COVID]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}.
+- SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
+- SARS e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são diferentes
+- SARS e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e COVID são o mesmo vírus?
+- SARS e COVID-19 são o mesmo vírus?
+- SARS e COVID-19.
+- SARS e COVID-2019 são o mesmo vírus?
+- SARS e COVID-2019.
+- SARS e COVID.
+- SARS e COVID19 são o mesmo vírus?
+- SARS e COVID19.
+- SARS e COVID2019 são o mesmo vírus?
+- SARS e COVID2019.
+- SARS e novo coronavírus são diferentes
+- SARS e novo coronavírus são o mesmo vírus?
+- SARS e novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS e novos coronavírus são o mesmo vírus?
+- SARS é o mesmo que [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que [COVID]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que [COVID19]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que [COVID2019]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- SARS é o mesmo que COVID-19?
+- SARS é o mesmo que COVID-2019?
+- SARS é o mesmo que COVID?
+- SARS é o mesmo que COVID19?
+- SARS é o mesmo que COVID2019?
+- SARS é o mesmo que novo coronavírus?
+- Síndrome Respiratória Aguda Grave e [COVID-19]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Síndrome Respiratória Aguda Grave e [COVID-2019]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Síndrome Respiratória Aguda Grave e [COVID19]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Síndrome Respiratória Aguda Grave e [COVID2019]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Síndrome respiratória aguda grave e [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Síndrome Respiratória Aguda Grave e COVID são o mesmo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Síndrome Respiratória Aguda Grave e COVID são o mesmo vírus?
+- Síndrome Respiratória Aguda Grave e COVID-19 são o mesmo vírus?
+- Síndrome Respiratória Aguda Grave e COVID-2019 são o mesmo vírus?
+- Síndrome Respiratória Aguda Grave e COVID19 são o mesmo vírus?
+- Síndrome Respiratória Aguda Grave e COVID2019 são o mesmo vírus?
+- Síndrome respiratória aguda grave e novo coronavírus são o mesmo vírus?
+- Sobre [COVID-19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID19]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre [COVID2019]{"entity": "pt_virus", "value": "COVID"} e Síndrome Respiratória Aguda Grave.
+- Sobre COVID e SARS.
+- Sobre COVID-19 e SARS.
+- Sobre COVID-2019 e SARS.
+- Sobre COVID19 e SARS.
+- Sobre COVID19 e Síndrome Respiratória Aguda Grave.
+- Sobre COVID2019 e SARS.
+- Sobre COVID2019 e Síndrome Respiratória Aguda Grave.
+- Sobre novos [coronavírus]{"entity": "pt_virus", "value": "COVID"} e SARS.
+- Sobre novos coronavírus e SARS.
+- Sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
+- Sobre o [COVID-2019]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
+- Sobre o [COVID]{"entity": "pt_virus", "value": "COVID"} e a Síndrome Respiratória Aguda Grave.
+- Sobre o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} e a síndrome respiratória aguda grave.
+- Sobre o COVID e a Síndrome Respiratória Aguda Grave.
+- Sobre o COVID-19 e a Síndrome Respiratória Aguda Grave.
+- Sobre o COVID-2019 e a Síndrome Respiratória Aguda Grave.
+- Sobre o novo coronavírus e a síndrome respiratória aguda grave.
+- Sobre SARS e [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e [COVID-2019]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e [COVID]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e [COVID19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e [COVID2019]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre SARS e COVID-19.
+- Sobre SARS e COVID-2019.
+- Sobre SARS e COVID.
+- Sobre SARS e COVID19.
+- Sobre SARS e COVID2019.
+
+## intent:pt_country
+- em [Portugal]{"entity": "pt_country_code", "value": "PT"}
+- [Espanha]{"entity": "pt_country_code", "value": "ES"}
+- na [Grécia]{"entity": "pt_country_code", "value": "GR"}
+- na [Suiça]{"entity": "pt_country_code", "value": "CH"}
+- no [Zimbabué]{"entity": "pt_country_code", "value": "ZW"}
+- [Egipto]{"entity": "pt_country_code", "value": "EG"}
+- [Sara Ocidental]{"entity": "pt_country_code", "value": "EH"}
+- [Eritrea]{"entity": "pt_country_code", "value": "ER"}
+- [Etiópia]{"entity": "pt_country_code", "value": "ET"}
+- [Finlândia]{"entity": "pt_country_code", "value": "FI"}
+- [Fidji]{"entity": "pt_country_code", "value": "FJ"}
+- [Falkland]{"entity": "pt_country_code", "value": "FK"}
+- [Micronesia]{"entity": "pt_country_code", "value": "FM"}
+- [Ilhas Faroé]{"entity": "pt_country_code", "value": "FO"}
+- [França]{"entity": "pt_country_code", "value": "FR"}
+- [Gabão]{"entity": "pt_country_code", "value": "GA"}
+- [Reino Unido]{"entity": "pt_country_code", "value": "GB"}
+- [Granada]{"entity": "pt_country_code", "value": "GD"}
+- [Geórgia]{"entity": "pt_country_code", "value": "GE"}
+- [Guyane]{"entity": "pt_country_code", "value": "GF"}
+- [Bailado de Guernsey]{"entity": "pt_country_code", "value": "GG"}
+- [Gibraltar]{"entity": "pt_country_code", "value": "GI"}
+- [Gronelandia]{"entity": "pt_country_code", "value": "GL"}
+- [Gambia]{"entity": "pt_country_code", "value": "GM"}
+- [Guinea]{"entity": "pt_country_code", "value": "GN"}
+- [Guadalupe]{"entity": "pt_country_code", "value": "GP"}
+- [Geórgia do Sul]{"entity": "pt_country_code", "value": "GS"}
+- [Guatemala]{"entity": "pt_country_code", "value": "GT"}
+- {"entity": "pt_country_code", "value": "GU"}
+- [Guiné-Bissau]{"entity": "pt_country_code", "value": "GW"}
+- [Guiana]{"entity": "pt_country_code", "value": "GY"}
+- [Hong Kong]{"entity": "pt_country_code", "value": "HK"}
+- [Ilhas Heard]{"entity": "pt_country_code", "value": "HM"}
+- [Honduras]{"entity": "pt_country_code", "value": "HN"}
+- [Croacia]{"entity": "pt_country_code", "value": "HR"}
+- [Haiti]{"entity": "pt_country_code", "value": "HT"}
+- [Hungria]{"entity": "pt_country_code", "value": "HU"}
+- [Indonesia]{"entity": "pt_country_code", "value": "ID"}
+- [Irlanda]{"entity": "pt_country_code", "value": "IE"}
+- [Israel]{"entity": "pt_country_code", "value": "IL"}
+- [Mann]{"entity": "pt_country_code", "value": "IM"}
+- [India]{"entity": "pt_country_code", "value": "IN"}
+- [Território Britânico do Oceano]{"entity": "pt_country_code", "value": "IO"}
+- [Iraq]{"entity": "pt_country_code", "value": "IQ"}
+- [Irão]{"entity": "pt_country_code", "value": "IR"}
+- [Islandia]{"entity": "pt_country_code", "value": "IS"}
+- [Italia]{"entity": "pt_country_code", "value": "IT"}
+- [Jersey]{"entity": "pt_country_code", "value": "JE"}
+- [Jamaica]{"entity": "pt_country_code", "value": "JM"}
+- [Jordania]{"entity": "pt_country_code", "value": "JO"}
+- [Japão]{"entity": "pt_country_code", "value": "JP"}
+- [Kenya]{"entity": "pt_country_code", "value": "KE"}
+- [Quirguistão]{"entity": "pt_country_code", "value": "KG"}
+- [Cambodja]{"entity": "pt_country_code", "value": "KH"}
+- [Kiribati]{"entity": "pt_country_code", "value": "KI"}
+- [Comoros]{"entity": "pt_country_code", "value": "KM"}
+- [Nevis]{"entity": "pt_country_code", "value": "KN"}
+- [DPRK]{"entity": "pt_country_code", "value": "KP"}
+- [Coreia do Sul]{"entity": "pt_country_code", "value": "KR"}
+- [Kuwait]{"entity": "pt_country_code", "value": "KW"}
+- [Ilhas Caimão]{"entity": "pt_country_code", "value": "KY"}
+- [Cazaquistão]{"entity": "pt_country_code", "value": "KZ"}
+- [Laos]{"entity": "pt_country_code", "value": "LA"}
+- [Líbano]{"entity": "pt_country_code", "value": "LB"}
+- [Santa Lúcia]{"entity": "pt_country_code", "value": "LC"}
+- [Sri Lanka]{"entity": "pt_country_code", "value": "LK"}
+- [Liberia]{"entity": "pt_country_code", "value": "LR"}
+- [Lithuania]{"entity": "pt_country_code", "value": "LT"}
+- [Lesoto]{"entity": "pt_country_code", "value": "LS"}
+- [Luxemburgo]{"entity": "pt_country_code", "value": "LU"}
+- [Latvia]{"entity": "pt_country_code", "value": "LV"}
+- [Líbia]{"entity": "pt_country_code", "value": "LY"}
+- [Marrocos]{"entity": "pt_country_code", "value": "MA"}
+- [Monaco]{"entity": "pt_country_code", "value": "MC"}
+- [Moldávia]{"entity": "pt_country_code", "value": "MD"}
+- [Montenegro]{"entity": "pt_country_code", "value": "ME"}
+- [Saint Martin]{"entity": "pt_country_code", "value": "MF"}
+- [Madagáscar]{"entity": "pt_country_code", "value": "MG"}
+- [Ilhas Marshall]{"entity": "pt_country_code", "value": "MH"}
+- [Macedónia]{"entity": "pt_country_code", "value": "MK"}
+- [Máli]{"entity": "pt_country_code", "value": "ML"}
+- [Myanmar]{"entity": "pt_country_code", "value": "MM"}
+- [Mongolia]{"entity": "pt_country_code", "value": "MN"}
+- [Macau]{"entity": "pt_country_code", "value": "MO"}
+- [CNMI]{"entity": "pt_country_code", "value": "MP"}
+- [Martinique]{"entity": "pt_country_code", "value": "MQ"}
+- [Mauritania]{"entity": "pt_country_code", "value": "MR"}
+- [Monserrate]{"entity": "pt_country_code", "value": "MS"}
+- [Malta]{"entity": "pt_country_code", "value": "MT"}
+- [Maurice]{"entity": "pt_country_code", "value": "MU"}
+- [Maldivas]{"entity": "pt_country_code", "value": "MV"}
+- [Malawi]{"entity": "pt_country_code", "value": "MW"}
+- [Mexico]{"entity": "pt_country_code", "value": "MX"}
+- [Malásia]{"entity": "pt_country_code", "value": "MY"}
+- [Moçambique]{"entity": "pt_country_code", "value": "MZ"}
+- [Namibia]{"entity": "pt_country_code", "value": "NA"}
+- [Nova Caledónia]{"entity": "pt_country_code", "value": "NC"}
+- [Niger]{"entity": "pt_country_code", "value": "NE"}
+- [Norfolk Island]{"entity": "pt_country_code", "value": "NF"}
+- [Nigeria]{"entity": "pt_country_code", "value": "NG"}
+- [Nicaragua]{"entity": "pt_country_code", "value": "NI"}
+- [Holanda]{"entity": "pt_country_code", "value": "NL"}
+- [Noruega]{"entity": "pt_country_code", "value": "NO"}
+- [Nepal]{"entity": "pt_country_code", "value": "NP"}
+- [Nauru]{"entity": "pt_country_code", "value": "NR"}
+- [Niuê]{"entity": "pt_country_code", "value": "NU"}
+- [Nova Zelândia]{"entity": "pt_country_code", "value": "NZ"}
+- [Omão]{"entity": "pt_country_code", "value": "OM"}
+- [Panama]{"entity": "pt_country_code", "value": "PA"}
+- [Peru]{"entity": "pt_country_code", "value": "PE"}
+- [Polinésia Francesa]{"entity": "pt_country_code", "value": "PF"}
+- [PNG]{"entity": "pt_country_code", "value": "PG"}
+- [Filipinas]{"entity": "pt_country_code", "value": "PH"}
+- [Paquistão]{"entity": "pt_country_code", "value": "PK"}
+- [Polónia]{"entity": "pt_country_code", "value": "PL"}
+- [São Pedro e Miquelon]{"entity": "pt_country_code", "value": "PM"}
+- [Pitcairn]{"entity": "pt_country_code", "value": "PN"}
+- [Porto Rico]{"entity": "pt_country_code", "value": "PR"}
+- [Palestine]{"entity": "pt_country_code", "value": "PS"}
+- [Palau]{"entity": "pt_country_code", "value": "PW"}
+- [Paraguay]{"entity": "pt_country_code", "value": "PY"}
+- [Qatar]{"entity": "pt_country_code", "value": "QA"}
+- [Reunião]{"entity": "pt_country_code", "value": "RE"}
+- [Roménia]{"entity": "pt_country_code", "value": "RO"}
+- [Sérvia]{"entity": "pt_country_code", "value": "RS"}
+- [Russia]{"entity": "pt_country_code", "value": "RU"}
+- [Ruanda]{"entity": "pt_country_code", "value": "RW"}
+- [Arábia Saudita]{"entity": "pt_country_code", "value": "SA"}
+- [Ilhas Salomão]{"entity": "pt_country_code", "value": "SB"}
+- [Seicheles]{"entity": "pt_country_code", "value": "SC"}
+- [Sudão]{"entity": "pt_country_code", "value": "SD"}
+- [Suécia]{"entity": "pt_country_code", "value": "SE"}
+- [Singapura]{"entity": "pt_country_code", "value": "SG"}
+- [Ascensão]{"entity": "pt_country_code", "value": "SH"}
+- [Eslovénia]{"entity": "pt_country_code", "value": "SI"}
+- [Svalbard]{"entity": "pt_country_code", "value": "SJ"}
+- [Eslováquia]{"entity": "pt_country_code", "value": "SK"}
+- [Serra Leoa]{"entity": "pt_country_code", "value": "SL"}
+- [São Marino]{"entity": "pt_country_code", "value": "SM"}
+- [Senegal]{"entity": "pt_country_code", "value": "SN"}
+- [Somália]{"entity": "pt_country_code", "value": "SO"}
+- [Suriname]{"entity": "pt_country_code", "value": "SR"}
+- [South Sudan]{"entity": "pt_country_code", "value": "SS"}
+- [São Tomé e Príncipe]{"entity": "pt_country_code", "value": "ST"}
+- [Salvador]{"entity": "pt_country_code", "value": "SV"}
+- [Sint Maarten]{"entity": "pt_country_code", "value": "SX"}
+- [Síria]{"entity": "pt_country_code", "value": "SY"}
+- [Andorra]{"entity": "pt_country_code", "value": "AD"}
+- [Turcas e Caicos]{"entity": "pt_country_code", "value": "TC"}
+- [Chade]{"entity": "pt_country_code", "value": "TD"}
+- [TAAF]{"entity": "pt_country_code", "value": "TF"}
+- [Togo]{"entity": "pt_country_code", "value": "TG"}
+- [Tailândia]{"entity": "pt_country_code", "value": "TH"}
+- [Tajiquistão]{"entity": "pt_country_code", "value": "TJ"}
+- [Tokelau]{"entity": "pt_country_code", "value": "TK"}
+- [Timor Leste]{"entity": "pt_country_code", "value": "TL"}
+- [Turquemenistão]{"entity": "pt_country_code", "value": "TM"}
+- [Tunísia]{"entity": "pt_country_code", "value": "TN"}
+- [Tonga]{"entity": "pt_country_code", "value": "TO"}
+- [Turkey]{"entity": "pt_country_code", "value": "TR"}
+- [Trinidade e Tobago]{"entity": "pt_country_code", "value": "TT"}
+- [Tuvalu]{"entity": "pt_country_code", "value": "TV"}
+- [Taiwan]{"entity": "pt_country_code", "value": "TW"}
+- [Tanzania]{"entity": "pt_country_code", "value": "TZ"}
+- [Ucrânia]{"entity": "pt_country_code", "value": "UA"}
+- [Uganda]{"entity": "pt_country_code", "value": "UG"}
+- [Ilha Wake]{"entity": "pt_country_code", "value": "UM"}
+- [Estados Unidos]{"entity": "pt_country_code", "value": "US"}
+- [Uruguai]{"entity": "pt_country_code", "value": "UY"}
+- [Uzbekistan]{"entity": "pt_country_code", "value": "UZ"}
+- [Santa Sé]{"entity": "pt_country_code", "value": "VA"}
+- [São Vicente]{"entity": "pt_country_code", "value": "VC"}
+- [Venezuela]{"entity": "pt_country_code", "value": "VE"}
+- [Ilhas Virgens Britânicas]{"entity": "pt_country_code", "value": "VG"}
+- [American Virgin Islands]{"entity": "pt_country_code", "value": "VI"}
+- [Vietname]{"entity": "pt_country_code", "value": "VN"}
+- [Vanuatu]{"entity": "pt_country_code", "value": "VU"}
+- [Wallis and Futuna]{"entity": "pt_country_code", "value": "WF"}
+- [Samoa]{"entity": "pt_country_code", "value": "WS"}
+- [Iémen]{"entity": "pt_country_code", "value": "YE"}
+- [Maore]{"entity": "pt_country_code", "value": "YT"}
+- [RSA]{"entity": "pt_country_code", "value": "ZA"}
+- [República da Zâmbia]{"entity": "pt_country_code", "value": "ZM"}
+- [Swaziland]{"entity": "pt_country_code", "value": "SZ"}
+- [Emirates]{"entity": "pt_country_code", "value": "AE"}
+- [Afeganistão]{"entity": "pt_country_code", "value": "AF"}
+- [Antígua]{"entity": "pt_country_code", "value": "AG"}
+- [Anguila]{"entity": "pt_country_code", "value": "AI"}
+- [Albânia]{"entity": "pt_country_code", "value": "AL"}
+- [Armênia]{"entity": "pt_country_code", "value": "AM"}
+- [Angola]{"entity": "pt_country_code", "value": "AO"}
+- [Antarctica]{"entity": "pt_country_code", "value": "AQ"}
+- [Argentina]{"entity": "pt_country_code", "value": "AR"}
+- [Tutuila]{"entity": "pt_country_code", "value": "AS"}
+- [Austria]{"entity": "pt_country_code", "value": "AT"}
+- [Australia]{"entity": "pt_country_code", "value": "AU"}
+- [Aruba]{"entity": "pt_country_code", "value": "AW"}
+- [Alanda]{"entity": "pt_country_code", "value": "AX"}
+- [Azerbaijan]{"entity": "pt_country_code", "value": "AZ"}
+- [Bosnia]{"entity": "pt_country_code", "value": "BA"}
+- [Barbados]{"entity": "pt_country_code", "value": "BB"}
+- [Bangladesh]{"entity": "pt_country_code", "value": "BD"}
+- [Bélgica]{"entity": "pt_country_code", "value": "BE"}
+- [Burquina]{"entity": "pt_country_code", "value": "BF"}
+- [Bulgária]{"entity": "pt_country_code", "value": "BG"}
+- [Barein]{"entity": "pt_country_code", "value": "BH"}
+- [Burundi]{"entity": "pt_country_code", "value": "BI"}
+- [Benin]{"entity": "pt_country_code", "value": "BJ"}
+- [São Bartolomeu]{"entity": "pt_country_code", "value": "BL"}
+- [Bermuda]{"entity": "pt_country_code", "value": "BM"}
+- [Brunei]{"entity": "pt_country_code", "value": "BN"}
+- [Bolivia]{"entity": "pt_country_code", "value": "BO"}
+- [Saba]{"entity": "pt_country_code", "value": "BQ"}
+- [Brasil]{"entity": "pt_country_code", "value": "BR"}
+- [Bahaamas]{"entity": "pt_country_code", "value": "BS"}
+- [Butão]{"entity": "pt_country_code", "value": "BT"}
+- [Bouvetøya]{"entity": "pt_country_code", "value": "BV"}
+- [Botsuana]{"entity": "pt_country_code", "value": "BW"}
+- [Belarus]{"entity": "pt_country_code", "value": "BY"}
+- [Belize]{"entity": "pt_country_code", "value": "BZ"}
+- [Canadá]{"entity": "pt_country_code", "value": "CA"}
+- [Ilhas Keeling]{"entity": "pt_country_code", "value": "CC"}
+- [RD Congo]{"entity": "pt_country_code", "value": "CD"}
+- [CAR]{"entity": "pt_country_code", "value": "CF"}
+- [Congo]{"entity": "pt_country_code", "value": "CG"}
+- [Suíça]{"entity": "pt_country_code", "value": "CH"}
+- [Côte d'Ivoire]{"entity": "pt_country_code", "value": "CI"}
+- [Ilhas Cook]{"entity": "pt_country_code", "value": "CK"}
+- [Chile]{"entity": "pt_country_code", "value": "CL"}
+- [Camarões]{"entity": "pt_country_code", "value": "CM"}
+- [China]{"entity": "pt_country_code", "value": "CN"}
+- [Colombia]{"entity": "pt_country_code", "value": "CO"}
+- [Costa Rica]{"entity": "pt_country_code", "value": "CR"}
+- [Cuba]{"entity": "pt_country_code", "value": "CU"}
+- [Cabo Verde]{"entity": "pt_country_code", "value": "CV"}
+- [Curaçao]{"entity": "pt_country_code", "value": "CW"}
+- [Ilha Natal]{"entity": "pt_country_code", "value": "CX"}
+- [Chipre]{"entity": "pt_country_code", "value": "CY"}
+- [República Checa]{"entity": "pt_country_code", "value": "CZ"}
+- [Alemanha]{"entity": "pt_country_code", "value": "DE"}
+- [Djibouti]{"entity": "pt_country_code", "value": "DJ"}
+- [Dinamarca]{"entity": "pt_country_code", "value": "DK"}
+- [Dominica]{"entity": "pt_country_code", "value": "DM"}
+- [República Dominicana]{"entity": "pt_country_code", "value": "DO"}
+- [Argélia]{"entity": "pt_country_code", "value": "DZ"}
+- [Equador]{"entity": "pt_country_code", "value": "EC"}
+- [Estónia]{"entity": "pt_country_code", "value": "EE"}
+- [nepal]{"entity": "pt_country_code", "value": "NP"}
+- [Nepal]{"entity": "pt_country_code", "value": "NP"}
+- [Federal Democratic Republic of Nepal]{"entity": "pt_country_code", "value": "NP"}
+- [italy]{"entity": "pt_country_code", "value": "IT"}
+- [Italy]{"entity": "pt_country_code", "value": "IT"}
+- [Italia]{"entity": "pt_country_code", "value": "IT"}
+- [guernsey]{"entity": "pt_country_code", "value": "GG"}
+- [Guernsey]{"entity": "pt_country_code", "value": "GG"}
+- [Guernési]{"entity": "pt_country_code", "value": "GG"}
+- [montserrat]{"entity": "pt_country_code", "value": "MS"}
+- [Montserrat]{"entity": "pt_country_code", "value": "MS"}
+- [Monserrate]{"entity": "pt_country_code", "value": "MS"}
+- [seychelles]{"entity": "pt_country_code", "value": "SC"}
+- [Seychelles]{"entity": "pt_country_code", "value": "SC"}
+- [Republic of Seychelles]{"entity": "pt_country_code", "value": "SC"}
+- [aland islands]{"entity": "pt_country_code", "value": "AX"}
+- [Åland Islands]{"entity": "pt_country_code", "value": "AX"}
+- [Åland]{"entity": "pt_country_code", "value": "AX"}
+- [federated states of micronesia]{"entity": "pt_country_code", "value": "FM"}
+- [Federated States of Micronesia]{"entity": "pt_country_code", "value": "FM"}
+- [FSM]{"entity": "pt_country_code", "value": "FM"}
+- [guam]{"entity": "pt_country_code", "value": "GU"}
+- [Guam]{"entity": "pt_country_code", "value": "GU"}
+- [Guåhån]{"entity": "pt_country_code", "value": "GU"}
+- [portugal]{"entity": "pt_country_code", "value": "PT"}
+- [Portugal]{"entity": "pt_country_code", "value": "PT"}
+- [Portuguese Republic]{"entity": "pt_country_code", "value": "PT"}
+- [japan]{"entity": "pt_country_code", "value": "JP"}
+- [Japan]{"entity": "pt_country_code", "value": "JP"}
+- [Nippon]{"entity": "pt_country_code", "value": "JP"}
+- [colombia]{"entity": "pt_country_code", "value": "CO"}
+- [Colombia]{"entity": "pt_country_code", "value": "CO"}
+- [Republic of Colombia]{"entity": "pt_country_code", "value": "CO"}
+- [malta]{"entity": "pt_country_code", "value": "MT"}
+- [Malta]{"entity": "pt_country_code", "value": "MT"}
+- [Republic of Malta]{"entity": "pt_country_code", "value": "MT"}
+- [Cuba]{"entity": "pt_country_code", "value": "CU"}
+- [Republic of Cuba]{"entity": "pt_country_code", "value": "CU"}
+- [myanmar]{"entity": "pt_country_code", "value": "MM"}
+- [Myanmar]{"entity": "pt_country_code", "value": "MM"}
+- [Burma]{"entity": "pt_country_code", "value": "MM"}
+- [guadeloupe]{"entity": "pt_country_code", "value": "GP"}
+- [Guadeloupe]{"entity": "pt_country_code", "value": "GP"}
+- [Gwadloup]{"entity": "pt_country_code", "value": "GP"}
+- [argentina]{"entity": "pt_country_code", "value": "AR"}
+- [Argentina]{"entity": "pt_country_code", "value": "AR"}
+- [Argentine Republic]{"entity": "pt_country_code", "value": "AR"}
+- [british virgin islands]{"entity": "pt_country_code", "value": "VG"}
+- [British Virgin Islands]{"entity": "pt_country_code", "value": "VG"}
+- [BVI]{"entity": "pt_country_code", "value": "VG"}
+- [luxembourg]{"entity": "pt_country_code", "value": "LU"}
+- [Luxembourg]{"entity": "pt_country_code", "value": "LU"}
+- [Lëtzebuerg]{"entity": "pt_country_code", "value": "LU"}
+- [gabon]{"entity": "pt_country_code", "value": "GA"}
+- [Gabon]{"entity": "pt_country_code", "value": "GA"}
+- [Gabonese Republic]{"entity": "pt_country_code", "value": "GA"}
+- [uganda]{"entity": "pt_country_code", "value": "UG"}
+- [Uganda]{"entity": "pt_country_code", "value": "UG"}
+- [Republic of Uganda]{"entity": "pt_country_code", "value": "UG"}
+- [tunisia]{"entity": "pt_country_code", "value": "TN"}
+- [Tunisia]{"entity": "pt_country_code", "value": "TN"}
+- [Republic of Tunisia]{"entity": "pt_country_code", "value": "TN"}
+- [puerto rico]{"entity": "pt_country_code", "value": "PR"}
+- [Puerto Rico]{"entity": "pt_country_code", "value": "PR"}
+- [Borinquen]{"entity": "pt_country_code", "value": "PR"}
+- [uruguay]{"entity": "pt_country_code", "value": "UY"}
+- [Uruguay]{"entity": "pt_country_code", "value": "UY"}
+- [Oriental Republic of Uruguay]{"entity": "pt_country_code", "value": "UY"}
+- [sierra leone]{"entity": "pt_country_code", "value": "SL"}
+- [Sierra Leone]{"entity": "pt_country_code", "value": "SL"}
+- [Republic of Sierra Leone]{"entity": "pt_country_code", "value": "SL"}
+- [palau]{"entity": "pt_country_code", "value": "PW"}
+- [Palau]{"entity": "pt_country_code", "value": "PW"}
+- [Belau]{"entity": "pt_country_code", "value": "PW"}
+- [morocco]{"entity": "pt_country_code", "value": "MA"}
+- [Morocco]{"entity": "pt_country_code", "value": "MA"}
+- [al-maġhrib]{"entity": "pt_country_code", "value": "MA"}
+- [tuvalu]{"entity": "pt_country_code", "value": "TV"}
+- [Tuvalu]{"entity": "pt_country_code", "value": "TV"}
+- [Ellice Islands]{"entity": "pt_country_code", "value": "TV"}
+- [qatar]{"entity": "pt_country_code", "value": "QA"}
+- [Qatar]{"entity": "pt_country_code", "value": "QA"}
+- [State of Qatar]{"entity": "pt_country_code", "value": "QA"}
+- [saint pierre and miquelon]{"entity": "pt_country_code", "value": "PM"}
+- [Saint Pierre and Miquelon]{"entity": "pt_country_code", "value": "PM"}
+- [Saint-Pierre-et-Miquelon]{"entity": "pt_country_code", "value": "PM"}
+- [iraq]{"entity": "pt_country_code", "value": "IQ"}
+- [Iraq]{"entity": "pt_country_code", "value": "IQ"}
+- [Êraq]{"entity": "pt_country_code", "value": "IQ"}
+- [sri lanka]{"entity": "pt_country_code", "value": "LK"}
+- [Sri Lanka]{"entity": "pt_country_code", "value": "LK"}
+- [Srī Lankā prajātāntrika samājavādī janarajaya]{"entity": "pt_country_code", "value": "LK"}
+- [american samoa]{"entity": "pt_country_code", "value": "AS"}
+- [American Samoa]{"entity": "pt_country_code", "value": "AS"}
+- [Samoa Americana]{"entity": "pt_country_code", "value": "AS"}
+- [state of palestine]{"entity": "pt_country_code", "value": "PS"}
+- [State of Palestine]{"entity": "pt_country_code", "value": "PS"}
+- [Dawlat Filasṭīn]{"entity": "pt_country_code", "value": "PS"}
+- [togo]{"entity": "pt_country_code", "value": "TG"}
+- [Togo]{"entity": "pt_country_code", "value": "TG"}
+- [Togolese Republic]{"entity": "pt_country_code", "value": "TG"}
+- [oman]{"entity": "pt_country_code", "value": "OM"}
+- [Oman]{"entity": "pt_country_code", "value": "OM"}
+- [Salṭanat ʻUmān]{"entity": "pt_country_code", "value": "OM"}
+- [réunion]{"entity": "pt_country_code", "value": "RE"}
+- [Réunion]{"entity": "pt_country_code", "value": "RE"}
+- [La Réunion]{"entity": "pt_country_code", "value": "RE"}
+- [kuwait]{"entity": "pt_country_code", "value": "KW"}
+- [Kuwait]{"entity": "pt_country_code", "value": "KW"}
+- [al-Kuwait]{"entity": "pt_country_code", "value": "KW"}
+- [paraguay]{"entity": "pt_country_code", "value": "PY"}
+- [Paraguay]{"entity": "pt_country_code", "value": "PY"}
+- [Republic of Paraguay]{"entity": "pt_country_code", "value": "PY"}
+- [french polynesia]{"entity": "pt_country_code", "value": "PF"}
+- [French Polynesia]{"entity": "pt_country_code", "value": "PF"}
+- [Polynésie française]{"entity": "pt_country_code", "value": "PF"}
+- [svalbard and jan mayen]{"entity": "pt_country_code", "value": "SJ"}
+- [Svalbard and Jan Mayen]{"entity": "pt_country_code", "value": "SJ"}
+- [Svalbard og Jan Mayen]{"entity": "pt_country_code", "value": "SJ"}
+- [congo]{"entity": "pt_country_code", "value": "CG"}
+- [Congo]{"entity": "pt_country_code", "value": "CG"}
+- [République du Congo]{"entity": "pt_country_code", "value": "CG"}
+- [thailand]{"entity": "pt_country_code", "value": "TH"}
+- [Thailand]{"entity": "pt_country_code", "value": "TH"}
+- [Kingdom of Thailand]{"entity": "pt_country_code", "value": "TH"}
+- [heard island and mcdonald islands]{"entity": "pt_country_code", "value": "HM"}
+- [Heard Island and McDonald Islands]{"entity": "pt_country_code", "value": "HM"}
+- [HIMI]{"entity": "pt_country_code", "value": "HM"}
+- [yemen]{"entity": "pt_country_code", "value": "YE"}
+- [Yemen]{"entity": "pt_country_code", "value": "YE"}
+- [al-Jumhūrīyah al-Yamanīyah]{"entity": "pt_country_code", "value": "YE"}
+- [solomon islands]{"entity": "pt_country_code", "value": "SB"}
+- [Solomon Islands]{"entity": "pt_country_code", "value": "SB"}
+- [Islas Salomón]{"entity": "pt_country_code", "value": "SB"}
+- [norway]{"entity": "pt_country_code", "value": "NO"}
+- [Norway]{"entity": "pt_country_code", "value": "NO"}
+- [Kingdom of Norway]{"entity": "pt_country_code", "value": "NO"}
+- [singapore]{"entity": "pt_country_code", "value": "SG"}
+- [Singapore]{"entity": "pt_country_code", "value": "SG"}
+- [Republic of Singapore]{"entity": "pt_country_code", "value": "SG"}
+- [pakistan]{"entity": "pt_country_code", "value": "PK"}
+- [Pakistan]{"entity": "pt_country_code", "value": "PK"}
+- [Islamic Republic of Pakistan]{"entity": "pt_country_code", "value": "PK"}
+- [malvinas]{"entity": "pt_country_code", "value": "FK"}
+- [Malvinas]{"entity": "pt_country_code", "value": "FK"}
+- [Falkland]{"entity": "pt_country_code", "value": "FK"}
+- [nauru]{"entity": "pt_country_code", "value": "NR"}
+- [Nauru]{"entity": "pt_country_code", "value": "NR"}
+- [Republic of Nauru]{"entity": "pt_country_code", "value": "NR"}
+- [brazil]{"entity": "pt_country_code", "value": "BR"}
+- [Brazil]{"entity": "pt_country_code", "value": "BR"}
+- [Brasil]{"entity": "pt_country_code", "value": "BR"}
+- [turkey]{"entity": "pt_country_code", "value": "TR"}
+- [Turkey]{"entity": "pt_country_code", "value": "TR"}
+- [Türkiye]{"entity": "pt_country_code", "value": "TR"}
+- [marshall islands]{"entity": "pt_country_code", "value": "MH"}
+- [Marshall Islands]{"entity": "pt_country_code", "value": "MH"}
+- [Republic of the Marshall Islands]{"entity": "pt_country_code", "value": "MH"}
+- [estonia]{"entity": "pt_country_code", "value": "EE"}
+- [Estonia]{"entity": "pt_country_code", "value": "EE"}
+- [Eesti]{"entity": "pt_country_code", "value": "EE"}
+- [sao tome and principe]{"entity": "pt_country_code", "value": "ST"}
+- [Sao Tome and Principe]{"entity": "pt_country_code", "value": "ST"}
+- [Saint Thomas and Prince]{"entity": "pt_country_code", "value": "ST"}
+- [china]{"entity": "pt_country_code", "value": "CN"}
+- [China]{"entity": "pt_country_code", "value": "CN"}
+- [People's Republic of China]{"entity": "pt_country_code", "value": "CN"}
+- [philippines]{"entity": "pt_country_code", "value": "PH"}
+- [Philippines]{"entity": "pt_country_code", "value": "PH"}
+- [Pilipinas]{"entity": "pt_country_code", "value": "PH"}
+- [swaziland]{"entity": "pt_country_code", "value": "SZ"}
+- [Swaziland]{"entity": "pt_country_code", "value": "SZ"}
+- [Eswatini]{"entity": "pt_country_code", "value": "SZ"}
+- [croatia]{"entity": "pt_country_code", "value": "HR"}
+- [Croatia]{"entity": "pt_country_code", "value": "HR"}
+- [Hrvatska]{"entity": "pt_country_code", "value": "HR"}
+- [madagascar]{"entity": "pt_country_code", "value": "MG"}
+- [Madagascar]{"entity": "pt_country_code", "value": "MG"}
+- [Madagasikara]{"entity": "pt_country_code", "value": "MG"}
+- [zimbabwe]{"entity": "pt_country_code", "value": "ZW"}
+- [Zimbabwe]{"entity": "pt_country_code", "value": "ZW"}
+- [Republic of Zimbabwe]{"entity": "pt_country_code", "value": "ZW"}
+- [uzbekistan]{"entity": "pt_country_code", "value": "UZ"}
+- [Uzbekistan]{"entity": "pt_country_code", "value": "UZ"}
+- [Oʻzbekiston]{"entity": "pt_country_code", "value": "UZ"}
+- [pitcairn]{"entity": "pt_country_code", "value": "PN"}
+- [Pitcairn]{"entity": "pt_country_code", "value": "PN"}
+- [Pitcairn Islands]{"entity": "pt_country_code", "value": "PN"}
+- [netherlands]{"entity": "pt_country_code", "value": "NL"}
+- [Netherlands]{"entity": "pt_country_code", "value": "NL"}
+- [Nederland]{"entity": "pt_country_code", "value": "NL"}
+- [israel]{"entity": "pt_country_code", "value": "IL"}
+- [Israel]{"entity": "pt_country_code", "value": "IL"}
+- [State of Israel]{"entity": "pt_country_code", "value": "IL"}
+- [ethiopia]{"entity": "pt_country_code", "value": "ET"}
+- [Ethiopia]{"entity": "pt_country_code", "value": "ET"}
+- [Itiyoophiyaa]{"entity": "pt_country_code", "value": "ET"}
+- [timor-leste]{"entity": "pt_country_code", "value": "TL"}
+- [Timor-Leste]{"entity": "pt_country_code", "value": "TL"}
+- [República Democrática de Timor-Leste]{"entity": "pt_country_code", "value": "TL"}
+- [u.s. virgin islands]{"entity": "pt_country_code", "value": "VI"}
+- [U.S. Virgin Islands]{"entity": "pt_country_code", "value": "VI"}
+- [Ilhas Virgens Americanas]{"entity": "pt_country_code", "value": "VI"}
+- [azerbaijan]{"entity": "pt_country_code", "value": "AZ"}
+- [Azerbaijan]{"entity": "pt_country_code", "value": "AZ"}
+- [Republic of Azerbaijan]{"entity": "pt_country_code", "value": "AZ"}
+- [lesotho]{"entity": "pt_country_code", "value": "LS"}
+- [Lesotho]{"entity": "pt_country_code", "value": "LS"}
+- [Kingdom of Lesotho]{"entity": "pt_country_code", "value": "LS"}
+- [cameroon]{"entity": "pt_country_code", "value": "CM"}
+- [Cameroon]{"entity": "pt_country_code", "value": "CM"}
+- [Cameroun]{"entity": "pt_country_code", "value": "CM"}
+- [united states minor outlying islands]{"entity": "pt_country_code", "value": "UM"}
+- [United States Minor Outlying Islands]{"entity": "pt_country_code", "value": "UM"}
+- [Baker Island]{"entity": "pt_country_code", "value": "UM"}
+- [zambia]{"entity": "pt_country_code", "value": "ZM"}
+- [Zambia]{"entity": "pt_country_code", "value": "ZM"}
+- [Republic of Zambia]{"entity": "pt_country_code", "value": "ZM"}
+- [indonesia]{"entity": "pt_country_code", "value": "ID"}
+- [Indonesia]{"entity": "pt_country_code", "value": "ID"}
+- [Republic of Indonesia]{"entity": "pt_country_code", "value": "ID"}
+- [dominican republic]{"entity": "pt_country_code", "value": "DO"}
+- [Dominican Republic]{"entity": "pt_country_code", "value": "DO"}
+- [República Dominicana]{"entity": "pt_country_code", "value": "DO"}
+- [senegal]{"entity": "pt_country_code", "value": "SN"}
+- [Senegal]{"entity": "pt_country_code", "value": "SN"}
+- [Sénégal]{"entity": "pt_country_code", "value": "SN"}
+- [antigua and barbuda]{"entity": "pt_country_code", "value": "AG"}
+- [Antigua and Barbuda]{"entity": "pt_country_code", "value": "AG"}
+- [Antigua]{"entity": "pt_country_code", "value": "AG"}
+- [belgium]{"entity": "pt_country_code", "value": "BE"}
+- [Belgium]{"entity": "pt_country_code", "value": "BE"}
+- [Kingdom of Belgium]{"entity": "pt_country_code", "value": "BE"}
+- [jamaica]{"entity": "pt_country_code", "value": "JM"}
+- [Jamaica]{"entity": "pt_country_code", "value": "JM"}
+- [Jumieka]{"entity": "pt_country_code", "value": "JM"}
+- [spain]{"entity": "pt_country_code", "value": "ES"}
+- [Spain]{"entity": "pt_country_code", "value": "ES"}
+- [España]{"entity": "pt_country_code", "value": "ES"}
+- [benin]{"entity": "pt_country_code", "value": "BJ"}
+- [Benin]{"entity": "pt_country_code", "value": "BJ"}
+- [Republic of Benin]{"entity": "pt_country_code", "value": "BJ"}
+- [bermuda]{"entity": "pt_country_code", "value": "BM"}
+- [Bermuda]{"entity": "pt_country_code", "value": "BM"}
+- [Islands of Bermuda]{"entity": "pt_country_code", "value": "BM"}
+- [sudan]{"entity": "pt_country_code", "value": "SD"}
+- [Sudan]{"entity": "pt_country_code", "value": "SD"}
+- [Republic of the Sudan]{"entity": "pt_country_code", "value": "SD"}
+- [albania]{"entity": "pt_country_code", "value": "AL"}
+- [Albania]{"entity": "pt_country_code", "value": "AL"}
+- [Republic of Albania]{"entity": "pt_country_code", "value": "AL"}
+- [suriname]{"entity": "pt_country_code", "value": "SR"}
+- [Suriname]{"entity": "pt_country_code", "value": "SR"}
+- [Surinam]{"entity": "pt_country_code", "value": "SR"}
+- [india]{"entity": "pt_country_code", "value": "IN"}
+- [India]{"entity": "pt_country_code", "value": "IN"}
+- [Bhārat]{"entity": "pt_country_code", "value": "IN"}
+- [bangladesh]{"entity": "pt_country_code", "value": "BD"}
+- [Bangladesh]{"entity": "pt_country_code", "value": "BD"}
+- [country of Bengal]{"entity": "pt_country_code", "value": "BD"}
+- [ukraine]{"entity": "pt_country_code", "value": "UA"}
+- [Ukraine]{"entity": "pt_country_code", "value": "UA"}
+- [Ukrayina]{"entity": "pt_country_code", "value": "UA"}
+- [cayman islands]{"entity": "pt_country_code", "value": "KY"}
+- [Cayman Islands]{"entity": "pt_country_code", "value": "KY"}
+- [Ilhas Caimã]{"entity": "pt_country_code", "value": "KY"}
+- [montenegro]{"entity": "pt_country_code", "value": "ME"}
+- [Montenegro]{"entity": "pt_country_code", "value": "ME"}
+- [Crna Gora]{"entity": "pt_country_code", "value": "ME"}
+- [equatorial guinea]{"entity": "pt_country_code", "value": "GQ"}
+- [Equatorial Guinea]{"entity": "pt_country_code", "value": "GQ"}
+- [Guinea Ecuatorial]{"entity": "pt_country_code", "value": "GQ"}
+- [united states]{"entity": "pt_country_code", "value": "US"}
+- [United States]{"entity": "pt_country_code", "value": "US"}
+- [United States of America]{"entity": "pt_country_code", "value": "US"}
+- [islamic republic of iran]{"entity": "pt_country_code", "value": "IR"}
+- [Islamic Republic of Iran]{"entity": "pt_country_code", "value": "IR"}
+- [Persia]{"entity": "pt_country_code", "value": "IR"}
+- [slovakia]{"entity": "pt_country_code", "value": "SK"}
+- [Slovakia]{"entity": "pt_country_code", "value": "SK"}
+- [Slovensko]{"entity": "pt_country_code", "value": "SK"}
+- [bhutan]{"entity": "pt_country_code", "value": "BT"}
+- [Bhutan]{"entity": "pt_country_code", "value": "BT"}
+- [Kingdom of Bhutan]{"entity": "pt_country_code", "value": "BT"}
+- [austria]{"entity": "pt_country_code", "value": "AT"}
+- [Austria]{"entity": "pt_country_code", "value": "AT"}
+- [Republic of Austria]{"entity": "pt_country_code", "value": "AT"}
+- [south korea]{"entity": "pt_country_code", "value": "KR"}
+- [South Korea]{"entity": "pt_country_code", "value": "KR"}
+- [Republic of Korea]{"entity": "pt_country_code", "value": "KR"}
+- [saint helena, ascension and tristan da cunha]{"entity": "pt_country_code", "value": "SH"}
+- [Saint Helena, Ascension and Tristan da Cunha]{"entity": "pt_country_code", "value": "SH"}
+- [Saint Helena]{"entity": "pt_country_code", "value": "SH"}
+- [laos]{"entity": "pt_country_code", "value": "LA"}
+- [Laos]{"entity": "pt_country_code", "value": "LA"}
+- [Lao People's Democratic Republic]{"entity": "pt_country_code", "value": "LA"}
+- [somalia]{"entity": "pt_country_code", "value": "SO"}
+- [Somalia]{"entity": "pt_country_code", "value": "SO"}
+- [Soomaaliya]{"entity": "pt_country_code", "value": "SO"}
+- [romania]{"entity": "pt_country_code", "value": "RO"}
+- [Romania]{"entity": "pt_country_code", "value": "RO"}
+- [România]{"entity": "pt_country_code", "value": "RO"}
+- [guyana]{"entity": "pt_country_code", "value": "GY"}
+- [Guyana]{"entity": "pt_country_code", "value": "GY"}
+- [Co-operative Republic of Guyana]{"entity": "pt_country_code", "value": "GY"}
+- [france]{"entity": "pt_country_code", "value": "FR"}
+- [France]{"entity": "pt_country_code", "value": "FR"}
+- [French Republic]{"entity": "pt_country_code", "value": "FR"}
+- [liberia]{"entity": "pt_country_code", "value": "LR"}
+- [Liberia]{"entity": "pt_country_code", "value": "LR"}
+- [Republic of Liberia]{"entity": "pt_country_code", "value": "LR"}
+- [russia]{"entity": "pt_country_code", "value": "RU"}
+- [Russia]{"entity": "pt_country_code", "value": "RU"}
+- [Russian Federation]{"entity": "pt_country_code", "value": "RU"}
+- [tanzania]{"entity": "pt_country_code", "value": "TZ"}
+- [Tanzania]{"entity": "pt_country_code", "value": "TZ"}
+- [United Republic of Tanzania]{"entity": "pt_country_code", "value": "TZ"}
+- [united arab emirates]{"entity": "pt_country_code", "value": "AE"}
+- [United Arab Emirates]{"entity": "pt_country_code", "value": "AE"}
+- [al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah]{"entity": "pt_country_code", "value": "AE"}
+- [antarctica]{"entity": "pt_country_code", "value": "AQ"}
+- [Antarctica]{"entity": "pt_country_code", "value": "AQ"}
+- [Antártida]{"entity": "pt_country_code", "value": "AQ"}
+- [cocos islands]{"entity": "pt_country_code", "value": "CC"}
+- [Cocos Islands]{"entity": "pt_country_code", "value": "CC"}
+- [Cocos Keeling Islands]{"entity": "pt_country_code", "value": "CC"}
+- [brunei darussalam]{"entity": "pt_country_code", "value": "BN"}
+- [Brunei Darussalam]{"entity": "pt_country_code", "value": "BN"}
+- [Brunei]{"entity": "pt_country_code", "value": "BN"}
+- [saint kitts and nevis]{"entity": "pt_country_code", "value": "KN"}
+- [Saint Kitts and Nevis]{"entity": "pt_country_code", "value": "KN"}
+- [Federation of Saint Christopher and Nevis]{"entity": "pt_country_code", "value": "KN"}
+- [burkina faso]{"entity": "pt_country_code", "value": "BF"}
+- [Burkina Faso]{"entity": "pt_country_code", "value": "BF"}
+- [Republic of Burkina Faso]{"entity": "pt_country_code", "value": "BF"}
+- [cyprus]{"entity": "pt_country_code", "value": "CY"}
+- [Cyprus]{"entity": "pt_country_code", "value": "CY"}
+- [Κύπρος]{"entity": "pt_country_code", "value": "CY"}
+- [afghanistan]{"entity": "pt_country_code", "value": "AF"}
+- [Afghanistan]{"entity": "pt_country_code", "value": "AF"}
+- [Islamic Republic of Afghanistan]{"entity": "pt_country_code", "value": "AF"}
+- [kiribati]{"entity": "pt_country_code", "value": "KI"}
+- [Kiribati]{"entity": "pt_country_code", "value": "KI"}
+- [Republic of Kiribati]{"entity": "pt_country_code", "value": "KI"}
+- [grenada]{"entity": "pt_country_code", "value": "GD"}
+- [Grenada]{"entity": "pt_country_code", "value": "GD"}
+- [Gwenad]{"entity": "pt_country_code", "value": "GD"}
+- [costa rica]{"entity": "pt_country_code", "value": "CR"}
+- [Costa Rica]{"entity": "pt_country_code", "value": "CR"}
+- [Republic of Costa Rica]{"entity": "pt_country_code", "value": "CR"}
+- [french guiana]{"entity": "pt_country_code", "value": "GF"}
+- [French Guiana]{"entity": "pt_country_code", "value": "GF"}
+- [Guyane]{"entity": "pt_country_code", "value": "GF"}
+- [curaçao]{"entity": "pt_country_code", "value": "CW"}
+- [Curaçao]{"entity": "pt_country_code", "value": "CW"}
+- [Kòrsou]{"entity": "pt_country_code", "value": "CW"}
+- [georgia]{"entity": "pt_country_code", "value": "GE"}
+- [Georgia]{"entity": "pt_country_code", "value": "GE"}
+- [Republic of Georgia]{"entity": "pt_country_code", "value": "GE"}
+- [kazakhstan]{"entity": "pt_country_code", "value": "KZ"}
+- [Kazakhstan]{"entity": "pt_country_code", "value": "KZ"}
+- [Republic of Kazakhstan]{"entity": "pt_country_code", "value": "KZ"}
+- [turks and caicos islands]{"entity": "pt_country_code", "value": "TC"}
+- [Turks and Caicos Islands]{"entity": "pt_country_code", "value": "TC"}
+- [TCI]{"entity": "pt_country_code", "value": "TC"}
+- [kyrgyzstan]{"entity": "pt_country_code", "value": "KG"}
+- [Kyrgyzstan]{"entity": "pt_country_code", "value": "KG"}
+- [Kyrgyz Republic]{"entity": "pt_country_code", "value": "KG"}
+- [mali]{"entity": "pt_country_code", "value": "ML"}
+- [Mali]{"entity": "pt_country_code", "value": "ML"}
+- [Republic of Mali]{"entity": "pt_country_code", "value": "ML"}
+- [fiji]{"entity": "pt_country_code", "value": "FJ"}
+- [Fiji]{"entity": "pt_country_code", "value": "FJ"}
+- [Republic of Fiji]{"entity": "pt_country_code", "value": "FJ"}
+- [uk]{"entity": "pt_country_code", "value": "GB"}
+- [united kingdom]{"entity": "pt_country_code", "value": "GB"}
+- [United Kingdom]{"entity": "pt_country_code", "value": "GB"}
+- [United Kingdom of Great Britain and Northern Ireland]{"entity": "pt_country_code", "value": "GB"}
+- [dominica]{"entity": "pt_country_code", "value": "DM"}
+- [Dominica]{"entity": "pt_country_code", "value": "DM"}
+- [Dominique]{"entity": "pt_country_code", "value": "DM"}
+- [comoros]{"entity": "pt_country_code", "value": "KM"}
+- [Comoros]{"entity": "pt_country_code", "value": "KM"}
+- [Union of the Comoros]{"entity": "pt_country_code", "value": "KM"}
+- [mauritius]{"entity": "pt_country_code", "value": "MU"}
+- [Mauritius]{"entity": "pt_country_code", "value": "MU"}
+- [Maurice]{"entity": "pt_country_code", "value": "MU"}
+- [guinea]{"entity": "pt_country_code", "value": "GN"}
+- [Guinea]{"entity": "pt_country_code", "value": "GN"}
+- [Republic of Guinea]{"entity": "pt_country_code", "value": "GN"}
+- [trinidad and tobago]{"entity": "pt_country_code", "value": "TT"}
+- [Trinidad and Tobago]{"entity": "pt_country_code", "value": "TT"}
+- [Republic of Trinidad and Tobago]{"entity": "pt_country_code", "value": "TT"}
+- [serbia]{"entity": "pt_country_code", "value": "RS"}
+- [Serbia]{"entity": "pt_country_code", "value": "RS"}
+- [Србија]{"entity": "pt_country_code", "value": "RS"}
+- [greenland]{"entity": "pt_country_code", "value": "GL"}
+- [Greenland]{"entity": "pt_country_code", "value": "GL"}
+- [Kalaallit Nunaat]{"entity": "pt_country_code", "value": "GL"}
+- [poland]{"entity": "pt_country_code", "value": "PL"}
+- [Poland]{"entity": "pt_country_code", "value": "PL"}
+- [Polska]{"entity": "pt_country_code", "value": "PL"}
+- [tajikistan]{"entity": "pt_country_code", "value": "TJ"}
+- [Tajikistan]{"entity": "pt_country_code", "value": "TJ"}
+- [Republic of Tajikistan]{"entity": "pt_country_code", "value": "TJ"}
+- [cambodia]{"entity": "pt_country_code", "value": "KH"}
+- [Cambodia]{"entity": "pt_country_code", "value": "KH"}
+- [Kampuchea]{"entity": "pt_country_code", "value": "KH"}
+- [botswana]{"entity": "pt_country_code", "value": "BW"}
+- [Botswana]{"entity": "pt_country_code", "value": "BW"}
+- [Republic of Botswana]{"entity": "pt_country_code", "value": "BW"}
+- [wallis and futuna]{"entity": "pt_country_code", "value": "WF"}
+- [Wallis and Futuna]{"entity": "pt_country_code", "value": "WF"}
+- [Territory of the Wallis and Futuna Islands]{"entity": "pt_country_code", "value": "WF"}
+- [latvia]{"entity": "pt_country_code", "value": "LV"}
+- [Latvia]{"entity": "pt_country_code", "value": "LV"}
+- [Latvija]{"entity": "pt_country_code", "value": "LV"}
+- [kenya]{"entity": "pt_country_code", "value": "KE"}
+- [Kenya]{"entity": "pt_country_code", "value": "KE"}
+- [Republic of Kenya]{"entity": "pt_country_code", "value": "KE"}
+- [saint lucia]{"entity": "pt_country_code", "value": "LC"}
+- [Saint Lucia]{"entity": "pt_country_code", "value": "LC"}
+- [Sainte-Lucie]{"entity": "pt_country_code", "value": "LC"}
+- [el salvador]{"entity": "pt_country_code", "value": "SV"}
+- [El Salvador]{"entity": "pt_country_code", "value": "SV"}
+- [Republic of El Salvador]{"entity": "pt_country_code", "value": "SV"}
+- [taiwan]{"entity": "pt_country_code", "value": "TW"}
+- [Taiwan]{"entity": "pt_country_code", "value": "TW"}
+- [Taiwan, Province of China]{"entity": "pt_country_code", "value": "TW"}
+- [ecuador]{"entity": "pt_country_code", "value": "EC"}
+- [Ecuador]{"entity": "pt_country_code", "value": "EC"}
+- [Ikwayur]{"entity": "pt_country_code", "value": "EC"}
+- [angola]{"entity": "pt_country_code", "value": "AO"}
+- [Angola]{"entity": "pt_country_code", "value": "AO"}
+- [Republic of Angola]{"entity": "pt_country_code", "value": "AO"}
+- [belize]{"entity": "pt_country_code", "value": "BZ"}
+- [Belize]{"entity": "pt_country_code", "value": "BZ"}
+- [syria]{"entity": "pt_country_code", "value": "SY"}
+- [Syria]{"entity": "pt_country_code", "value": "SY"}
+- [Syrian Arab Republic]{"entity": "pt_country_code", "value": "SY"}
+- [jordan]{"entity": "pt_country_code", "value": "JO"}
+- [Jordan]{"entity": "pt_country_code", "value": "JO"}
+- [Hashemite Kingdom of Jordan]{"entity": "pt_country_code", "value": "JO"}
+- [haiti]{"entity": "pt_country_code", "value": "HT"}
+- [Haiti]{"entity": "pt_country_code", "value": "HT"}
+- [Haïti]{"entity": "pt_country_code", "value": "HT"}
+- [chad]{"entity": "pt_country_code", "value": "TD"}
+- [Chad]{"entity": "pt_country_code", "value": "TD"}
+- [Tshād]{"entity": "pt_country_code", "value": "TD"}
+- [jersey]{"entity": "pt_country_code", "value": "JE"}
+- [Jersey]{"entity": "pt_country_code", "value": "JE"}
+- [Bailiwick of Jersey]{"entity": "pt_country_code", "value": "JE"}
+- [vanuatu]{"entity": "pt_country_code", "value": "VU"}
+- [Vanuatu]{"entity": "pt_country_code", "value": "VU"}
+- [Republic of Vanuatu]{"entity": "pt_country_code", "value": "VU"}
+- [central african republic]{"entity": "pt_country_code", "value": "CF"}
+- [Central African Republic]{"entity": "pt_country_code", "value": "CF"}
+- [République centrafricaine]{"entity": "pt_country_code", "value": "CF"}
+- [faroe islands]{"entity": "pt_country_code", "value": "FO"}
+- [Faroe Islands]{"entity": "pt_country_code", "value": "FO"}
+- [Føroyar]{"entity": "pt_country_code", "value": "FO"}
+- [egypt]{"entity": "pt_country_code", "value": "EG"}
+- [Egypt]{"entity": "pt_country_code", "value": "EG"}
+- [Arab Republic of Egypt]{"entity": "pt_country_code", "value": "EG"}
+- [martinique]{"entity": "pt_country_code", "value": "MQ"}
+- [Martinique]{"entity": "pt_country_code", "value": "MQ"}
+- [Matnik]{"entity": "pt_country_code", "value": "MQ"}
+- [czech republic]{"entity": "pt_country_code", "value": "CZ"}
+- [Czech Republic]{"entity": "pt_country_code", "value": "CZ"}
+- [Česká republika]{"entity": "pt_country_code", "value": "CZ"}
+- [rwanda]{"entity": "pt_country_code", "value": "RW"}
+- [Rwanda]{"entity": "pt_country_code", "value": "RW"}
+- [Republic of Rwanda]{"entity": "pt_country_code", "value": "RW"}
+- [armenia]{"entity": "pt_country_code", "value": "AM"}
+- [Armenia]{"entity": "pt_country_code", "value": "AM"}
+- [Republic of Armenia]{"entity": "pt_country_code", "value": "AM"}
+- [rd congo]{"entity": "pt_country_code", "value": "CD"}
+- [RD Congo]{"entity": "pt_country_code", "value": "CD"}
+- [Democratic Republic of the Congo]{"entity": "pt_country_code", "value": "CD"}
+- [christmas island]{"entity": "pt_country_code", "value": "CX"}
+- [Christmas Island]{"entity": "pt_country_code", "value": "CX"}
+- [Territory of Christmas Island]{"entity": "pt_country_code", "value": "CX"}
+- [namibia]{"entity": "pt_country_code", "value": "NA"}
+- [Namibia]{"entity": "pt_country_code", "value": "NA"}
+- [Republic of Namibia]{"entity": "pt_country_code", "value": "NA"}
+- [turkmenistan]{"entity": "pt_country_code", "value": "TM"}
+- [Turkmenistan]{"entity": "pt_country_code", "value": "TM"}
+- [Türkmenistan]{"entity": "pt_country_code", "value": "TM"}
+- [saint barthélemy]{"entity": "pt_country_code", "value": "BL"}
+- [Saint Barthélemy]{"entity": "pt_country_code", "value": "BL"}
+- [Saint-Barthélemy]{"entity": "pt_country_code", "value": "BL"}
+- [guinea-bissau]{"entity": "pt_country_code", "value": "GW"}
+- [Guinea-Bissau]{"entity": "pt_country_code", "value": "GW"}
+- [Guiné-Bissau]{"entity": "pt_country_code", "value": "GW"}
+- [niue]{"entity": "pt_country_code", "value": "NU"}
+- [Niue]{"entity": "pt_country_code", "value": "NU"}
+- [Niuē]{"entity": "pt_country_code", "value": "NU"}
+- [hong kong]{"entity": "pt_country_code", "value": "HK"}
+- [Hong Kong]{"entity": "pt_country_code", "value": "HK"}
+- [Hong Kong Special Administrative Region]{"entity": "pt_country_code", "value": "HK"}
+- [algeria]{"entity": "pt_country_code", "value": "DZ"}
+- [Algeria]{"entity": "pt_country_code", "value": "DZ"}
+- [Democratic Republic of Algeria]{"entity": "pt_country_code", "value": "DZ"}
+- [slovenia]{"entity": "pt_country_code", "value": "SI"}
+- [Slovenia]{"entity": "pt_country_code", "value": "SI"}
+- [Slovenija]{"entity": "pt_country_code", "value": "SI"}
+- [new zealand]{"entity": "pt_country_code", "value": "NZ"}
+- [New Zealand]{"entity": "pt_country_code", "value": "NZ"}
+- [Aotearoa]{"entity": "pt_country_code", "value": "NZ"}
+- [maldives]{"entity": "pt_country_code", "value": "MV"}
+- [Maldives]{"entity": "pt_country_code", "value": "MV"}
+- [Republic of Maldives]{"entity": "pt_country_code", "value": "MV"}
+- [hagere ertra]{"entity": "pt_country_code", "value": "ER"}
+- [Hagere Ertra]{"entity": "pt_country_code", "value": "ER"}
+- [Dawlat Iritriyá]{"entity": "pt_country_code", "value": "ER"}
+- [finland]{"entity": "pt_country_code", "value": "FI"}
+- [Finland]{"entity": "pt_country_code", "value": "FI"}
+- [Suomi]{"entity": "pt_country_code", "value": "FI"}
+- [ireland]{"entity": "pt_country_code", "value": "IE"}
+- [Ireland]{"entity": "pt_country_code", "value": "IE"}
+- [Éire]{"entity": "pt_country_code", "value": "IE"}
+- [sint maarten dutch part]{"entity": "pt_country_code", "value": "SX"}
+- [Sint Maarten Dutch part]{"entity": "pt_country_code", "value": "SX"}
+- [São Martinho paises baixos]{"entity": "pt_country_code", "value": "SX"}
+- [south georgia and the south sandwich islands]{"entity": "pt_country_code", "value": "GS"}
+- [South Georgia and the South Sandwich Islands]{"entity": "pt_country_code", "value": "GS"}
+- [SGSSI]{"entity": "pt_country_code", "value": "GS"}
+- [aruba]{"entity": "pt_country_code", "value": "AW"}
+- [Aruba]{"entity": "pt_country_code", "value": "AW"}
+- [niger]{"entity": "pt_country_code", "value": "NE"}
+- [Niger]{"entity": "pt_country_code", "value": "NE"}
+- [the Niger]{"entity": "pt_country_code", "value": "NE"}
+- [anguilla]{"entity": "pt_country_code", "value": "AI"}
+- [Anguilla]{"entity": "pt_country_code", "value": "AI"}
+- [Island of Anguilla]{"entity": "pt_country_code", "value": "AI"}
+- [cook islands]{"entity": "pt_country_code", "value": "CK"}
+- [Cook Islands]{"entity": "pt_country_code", "value": "CK"}
+- [Kūki 'Āirani]{"entity": "pt_country_code", "value": "CK"}
+- [south sudan]{"entity": "pt_country_code", "value": "SS"}
+- [South Sudan]{"entity": "pt_country_code", "value": "SS"}
+- [Republic of South Sudan]{"entity": "pt_country_code", "value": "SS"}
+- [vietnam]{"entity": "pt_country_code", "value": "VN"}
+- [Vietnam]{"entity": "pt_country_code", "value": "VN"}
+- [Viet Nam]{"entity": "pt_country_code", "value": "VN"}
+- [moldova]{"entity": "pt_country_code", "value": "MD"}
+- [Moldova]{"entity": "pt_country_code", "value": "MD"}
+- [Republic of Moldova]{"entity": "pt_country_code", "value": "MD"}
+- [lithuania]{"entity": "pt_country_code", "value": "LT"}
+- [Lithuania]{"entity": "pt_country_code", "value": "LT"}
+- [Lietuva]{"entity": "pt_country_code", "value": "LT"}
+- [tokelau]{"entity": "pt_country_code", "value": "TK"}
+- [Tokelau]{"entity": "pt_country_code", "value": "TK"}
+- [Union Islands]{"entity": "pt_country_code", "value": "TK"}
+- [british indian ocean territory]{"entity": "pt_country_code", "value": "IO"}
+- [British Indian Ocean Territory]{"entity": "pt_country_code", "value": "IO"}
+- [BIOT]{"entity": "pt_country_code", "value": "IO"}
+- [bulgaria]{"entity": "pt_country_code", "value": "BG"}
+- [Bulgaria]{"entity": "pt_country_code", "value": "BG"}
+- [Balgariya]{"entity": "pt_country_code", "value": "BG"}
+- [nigeria]{"entity": "pt_country_code", "value": "NG"}
+- [Nigeria]{"entity": "pt_country_code", "value": "NG"}
+- [Federal Republic of Nigeria]{"entity": "pt_country_code", "value": "NG"}
+- [honduras]{"entity": "pt_country_code", "value": "HN"}
+- [Honduras]{"entity": "pt_country_code", "value": "HN"}
+- [Republic of Honduras]{"entity": "pt_country_code", "value": "HN"}
+- [andorra]{"entity": "pt_country_code", "value": "AD"}
+- [Andorra]{"entity": "pt_country_code", "value": "AD"}
+- [Principality of Andorra]{"entity": "pt_country_code", "value": "AD"}
+- [greece]{"entity": "pt_country_code", "value": "GR"}
+- [Greece]{"entity": "pt_country_code", "value": "GR"}
+- [Hellenic Republic]{"entity": "pt_country_code", "value": "GR"}
+- [belarus]{"entity": "pt_country_code", "value": "BY"}
+- [Belarus]{"entity": "pt_country_code", "value": "BY"}
+- [Republic of Belarus]{"entity": "pt_country_code", "value": "BY"}
+- [saint vincent]{"entity": "pt_country_code", "value": "VC"}
+- [Saint Vincent]{"entity": "pt_country_code", "value": "VC"}
+- [Saint Vincent and the Grenadines]{"entity": "pt_country_code", "value": "VC"}
+- [sweden]{"entity": "pt_country_code", "value": "SE"}
+- [Sweden]{"entity": "pt_country_code", "value": "SE"}
+- [Sverige]{"entity": "pt_country_code", "value": "SE"}
+- [guatemala]{"entity": "pt_country_code", "value": "GT"}
+- [Guatemala]{"entity": "pt_country_code", "value": "GT"}
+- [Republic of Guatemala]{"entity": "pt_country_code", "value": "GT"}
+- [san marino]{"entity": "pt_country_code", "value": "SM"}
+- [San Marino]{"entity": "pt_country_code", "value": "SM"}
+- [Republic of San Marino]{"entity": "pt_country_code", "value": "SM"}
+- [macao]{"entity": "pt_country_code", "value": "MO"}
+- [Macao]{"entity": "pt_country_code", "value": "MO"}
+- [Região Administrativa de Macau]{"entity": "pt_country_code", "value": "MO"}
+- [mozambique]{"entity": "pt_country_code", "value": "MZ"}
+- [Mozambique]{"entity": "pt_country_code", "value": "MZ"}
+- [Republic of Mozambique]{"entity": "pt_country_code", "value": "MZ"}
+- [lebanon]{"entity": "pt_country_code", "value": "LB"}
+- [Lebanon]{"entity": "pt_country_code", "value": "LB"}
+- [Lubnān]{"entity": "pt_country_code", "value": "LB"}
+- [bahamas]{"entity": "pt_country_code", "value": "BS"}
+- [Bahamas]{"entity": "pt_country_code", "value": "BS"}
+- [Commonwealth of The Bahamas]{"entity": "pt_country_code", "value": "BS"}
+- [saudi arabia]{"entity": "pt_country_code", "value": "SA"}
+- [Saudi Arabia]{"entity": "pt_country_code", "value": "SA"}
+- [Kingdom of Saudi Arabia]{"entity": "pt_country_code", "value": "SA"}
+- [barbados]{"entity": "pt_country_code", "value": "BB"}
+- [Barbados]{"entity": "pt_country_code", "value": "BB"}
+- [macedonia]{"entity": "pt_country_code", "value": "MK"}
+- [Macedonia]{"entity": "pt_country_code", "value": "MK"}
+- [North Macedonia]{"entity": "pt_country_code", "value": "MK"}
+- [samoa]{"entity": "pt_country_code", "value": "WS"}
+- [Samoa]{"entity": "pt_country_code", "value": "WS"}
+- [Independent State of Samoa]{"entity": "pt_country_code", "value": "WS"}
+- [chile]{"entity": "pt_country_code", "value": "CL"}
+- [Chile]{"entity": "pt_country_code", "value": "CL"}
+- [Republic of Chile]{"entity": "pt_country_code", "value": "CL"}
+- [iceland]{"entity": "pt_country_code", "value": "IS"}
+- [Iceland]{"entity": "pt_country_code", "value": "IS"}
+- [Ísland]{"entity": "pt_country_code", "value": "IS"}
+- [gambia]{"entity": "pt_country_code", "value": "GM"}
+- [Gambia]{"entity": "pt_country_code", "value": "GM"}
+- [Kambiya]{"entity": "pt_country_code", "value": "GM"}
+- [liechtenstein]{"entity": "pt_country_code", "value": "LI"}
+- [Liechtenstein]{"entity": "pt_country_code", "value": "LI"}
+- [Principality of Liechtenstein]{"entity": "pt_country_code", "value": "LI"}
+- [south africa]{"entity": "pt_country_code", "value": "ZA"}
+- [South Africa]{"entity": "pt_country_code", "value": "ZA"}
+- [Republic of South Africa]{"entity": "pt_country_code", "value": "ZA"}
+- [saint martin french part]{"entity": "pt_country_code", "value": "MF"}
+- [Saint Martin French part]{"entity": "pt_country_code", "value": "MF"}
+- [Saint-Martin]{"entity": "pt_country_code", "value": "MF"}
+- [mayotte]{"entity": "pt_country_code", "value": "YT"}
+- [Mayotte]{"entity": "pt_country_code", "value": "YT"}
+- [Maore]{"entity": "pt_country_code", "value": "YT"}
+- [bonaire, sint eustatius and saba]{"entity": "pt_country_code", "value": "BQ"}
+- [Bonaire, Sint Eustatius and Saba]{"entity": "pt_country_code", "value": "BQ"}
+- [Bonaire]{"entity": "pt_country_code", "value": "BQ"}
+- [isle of man]{"entity": "pt_country_code", "value": "IM"}
+- [Isle of Man]{"entity": "pt_country_code", "value": "IM"}
+- [Mann]{"entity": "pt_country_code", "value": "IM"}
+- [mexico]{"entity": "pt_country_code", "value": "MX"}
+- [Mexico]{"entity": "pt_country_code", "value": "MX"}
+- [México]{"entity": "pt_country_code", "value": "MX"}
+- [plurinational state of bolivia]{"entity": "pt_country_code", "value": "BO"}
+- [Plurinational State of Bolivia]{"entity": "pt_country_code", "value": "BO"}
+- [Bolivia]{"entity": "pt_country_code", "value": "BO"}
+- [australia]{"entity": "pt_country_code", "value": "AU"}
+- [Australia]{"entity": "pt_country_code", "value": "AU"}
+- [Commonwealth of Australia]{"entity": "pt_country_code", "value": "AU"}
+- [nyasaland]{"entity": "pt_country_code", "value": "MW"}
+- [Nyasaland]{"entity": "pt_country_code", "value": "MW"}
+- [Maláui]{"entity": "pt_country_code", "value": "MW"}
+- [côte d'ivoire]{"entity": "pt_country_code", "value": "CI"}
+- [Côte d'Ivoire]{"entity": "pt_country_code", "value": "CI"}
+- [Ivory Coast]{"entity": "pt_country_code", "value": "CI"}
+- [western sahara]{"entity": "pt_country_code", "value": "EH"}
+- [Western Sahara]{"entity": "pt_country_code", "value": "EH"}
+- [Taneẓroft Tutrimt]{"entity": "pt_country_code", "value": "EH"}
+- [norfolk island]{"entity": "pt_country_code", "value": "NF"}
+- [Norfolk Island]{"entity": "pt_country_code", "value": "NF"}
+- [Norf'k Ailen]{"entity": "pt_country_code", "value": "NF"}
+- [switzerland]{"entity": "pt_country_code", "value": "CH"}
+- [Switzerland]{"entity": "pt_country_code", "value": "CH"}
+- [Swiss Confederation]{"entity": "pt_country_code", "value": "CH"}
+- [bouvet]{"entity": "pt_country_code", "value": "BV"}
+- [Bouvet]{"entity": "pt_country_code", "value": "BV"}
+- [Bouvet Island]{"entity": "pt_country_code", "value": "BV"}
+- [canada]{"entity": "pt_country_code", "value": "CA"}
+- [Canada]{"entity": "pt_country_code", "value": "CA"}
+- [Canadá]{"entity": "pt_country_code", "value": "CA"}
+- [papua new guinea]{"entity": "pt_country_code", "value": "PG"}
+- [Papua New Guinea]{"entity": "pt_country_code", "value": "PG"}
+- [PNG]{"entity": "pt_country_code", "value": "PG"}
+- [venezuela]{"entity": "pt_country_code", "value": "VE"}
+- [Venezuela]{"entity": "pt_country_code", "value": "VE"}
+- [Bolivarian Republic of Venezuela]{"entity": "pt_country_code", "value": "VE"}
+- [ghana]{"entity": "pt_country_code", "value": "GH"}
+- [Ghana]{"entity": "pt_country_code", "value": "GH"}
+- [Republic of Ghana]{"entity": "pt_country_code", "value": "GH"}
+- [panama]{"entity": "pt_country_code", "value": "PA"}
+- [Panama]{"entity": "pt_country_code", "value": "PA"}
+- [Panamá]{"entity": "pt_country_code", "value": "PA"}
+- [territoire d'outre-mer]{"entity": "pt_country_code", "value": "TF"}
+- [Territoire d'outre-mer]{"entity": "pt_country_code", "value": "TF"}
+- [TOM]{"entity": "pt_country_code", "value": "TF"}
+- [mongolia]{"entity": "pt_country_code", "value": "MN"}
+- [Mongolia]{"entity": "pt_country_code", "value": "MN"}
+- [nação mongol]{"entity": "pt_country_code", "value": "MN"}
+- [democratic people's republic of korea]{"entity": "pt_country_code", "value": "KP"}
+- [Democratic People's Republic of Korea]{"entity": "pt_country_code", "value": "KP"}
+- [North Korea]{"entity": "pt_country_code", "value": "KP"}
+- [hungary]{"entity": "pt_country_code", "value": "HU"}
+- [Hungary]{"entity": "pt_country_code", "value": "HU"}
+- [Magyarország]{"entity": "pt_country_code", "value": "HU"}
+- [denmark]{"entity": "pt_country_code", "value": "DK"}
+- [Denmark]{"entity": "pt_country_code", "value": "DK"}
+- [Danmark]{"entity": "pt_country_code", "value": "DK"}
+- [bahrain]{"entity": "pt_country_code", "value": "BH"}
+- [Bahrain]{"entity": "pt_country_code", "value": "BH"}
+- [Al-Baḥrayn]{"entity": "pt_country_code", "value": "BH"}
+- [gibraltar]{"entity": "pt_country_code", "value": "GI"}
+- [Gibraltar]{"entity": "pt_country_code", "value": "GI"}
+- [germany]{"entity": "pt_country_code", "value": "DE"}
+- [Germany]{"entity": "pt_country_code", "value": "DE"}
+- [Deutschland]{"entity": "pt_country_code", "value": "DE"}
+- [bosnia and herzegovina]{"entity": "pt_country_code", "value": "BA"}
+- [Bosnia and Herzegovina]{"entity": "pt_country_code", "value": "BA"}
+- [BiH]{"entity": "pt_country_code", "value": "BA"}
+- [libya]{"entity": "pt_country_code", "value": "LY"}
+- [Libya]{"entity": "pt_country_code", "value": "LY"}
+- [Lībiyā]{"entity": "pt_country_code", "value": "LY"}
+- [malaysia]{"entity": "pt_country_code", "value": "MY"}
+- [Malaysia]{"entity": "pt_country_code", "value": "MY"}
+- [Malásia]{"entity": "pt_country_code", "value": "MY"}
+- [monaco]{"entity": "pt_country_code", "value": "MC"}
+- [Monaco]{"entity": "pt_country_code", "value": "MC"}
+- [Principality of Monaco]{"entity": "pt_country_code", "value": "MC"}
+- [new caledonia]{"entity": "pt_country_code", "value": "NC"}
+- [New Caledonia]{"entity": "pt_country_code", "value": "NC"}
+- [Nouvelle-Calédonie]{"entity": "pt_country_code", "value": "NC"}
+- [cape verde]{"entity": "pt_country_code", "value": "CV"}
+- [Cape Verde]{"entity": "pt_country_code", "value": "CV"}
+- [Cabo Verde]{"entity": "pt_country_code", "value": "CV"}
+- [tonga]{"entity": "pt_country_code", "value": "TO"}
+- [Tonga]{"entity": "pt_country_code", "value": "TO"}
+- [Kingdom of Tonga]{"entity": "pt_country_code", "value": "TO"}
+- [vatican city]{"entity": "pt_country_code", "value": "VA"}
+- [Holy See]{"entity": "pt_country_code", "value": "VA"}
+- [Vatican City State]{"entity": "pt_country_code", "value": "VA"}
+- [Sancta Sedes]{"entity": "pt_country_code", "value": "VA"}
+- [nicaragua]{"entity": "pt_country_code", "value": "NI"}
+- [Nicaragua]{"entity": "pt_country_code", "value": "NI"}
+- [Republic of Nicaragua]{"entity": "pt_country_code", "value": "NI"}
+- [djibouti]{"entity": "pt_country_code", "value": "DJ"}
+- [Djibouti]{"entity": "pt_country_code", "value": "DJ"}
+- [Yibuuti]{"entity": "pt_country_code", "value": "DJ"}
+- [peru]{"entity": "pt_country_code", "value": "PE"}
+- [Peru]{"entity": "pt_country_code", "value": "PE"}
+- [Perú]{"entity": "pt_country_code", "value": "PE"}
+- [northern mariana islands]{"entity": "pt_country_code", "value": "MP"}
+- [Northern Mariana Islands]{"entity": "pt_country_code", "value": "MP"}
+- [Commonwealth of the Northern Mariana Islands]{"entity": "pt_country_code", "value": "MP"}
+- [burundi]{"entity": "pt_country_code", "value": "BI"}
+- [Burundi]{"entity": "pt_country_code", "value": "BI"}
+- [Republic of Burundi]{"entity": "pt_country_code", "value": "BI"}
+
+## intent:pt_covid_situation
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} em [Itália]{"entity": "pt_country_code", "value": "IT"}
+- [covid]{"entity": "pt_virus", "value": "COVID"} em [Bélgica]{"entity": "pt_country_code", "value": "BE"}
+- [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} em [Noruega]{"entity": "pt_country_code", "value": "NO"}
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} no Alentejo
+- ASUS de covid no Alentejo
+- casos
+- Casos de [covid]{"entity": "pt_virus", "value": "COVID"} no Alentejo
+- Casos de covid no Alentejo
+- Como está a situação em [Ucrânia]{"entity": "pt_country_code", "value": "UA"}?
+- Como estão as contagens no mundo?
+- Contagem infectada
+- Coronavirus em [Finlândia]{"entity": "pt_country_code", "value": "FI"}
+- de [corrige]{"entity": "pt_virus", "value": "COVID"} no Alentejo
+- de corrige no Alentejo
+- Diga-me os números reais.
+- Em que países é que se detetaram pessoas infetadas?
+- Estatísticas actualizadas em [Singapura]{"entity": "pt_country_code", "value": "SG"}
+- Estatísticas atualizadas do [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Estatísticas atualizadas do Coronavirus
+- existem números
+- falar sobre os números
+- Gostaria de saber se há casos em [Inglaterra]{"entity": "pt_country_code", "value": "GB"}
+- Gostaria de saber se há casos em Évora
+- Informações [França]{"entity": "pt_country_code", "value": "FR"}
+- Informações actualizadas [Dinamarca]{"entity": "pt_country_code", "value": "DK"}
+- Informações sobre [Brasil]{"entity": "pt_country_code", "value": "BR"}
+- morte na [alemanha]{"entity": "pt_country_code", "value": "DE"}
+- morte na alemanha
+- Mortos
+- Notícias [Argentina]{"entity": "pt_country_code", "value": "AR"}
+- Notícias atuais [Venezuela]{"entity": "pt_country_code", "value": "VE"}
+- Notícias de [Ilhas Falkland]{"entity": "pt_country_code", "value": "FK"}
+- Notícias sobre o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Número de casos
+- Número de casos confirmados
+- Número de casos em todo o mundo.
+- Número de falecimentos
+- numero de ifetados [portugal]{"entity": "pt_country_code", "value": "PT"}
+- numero de ifetados portugal
+- Número de infectados
+- Número de infectados mundialmente.
+- número de infetados em [Grécia]{"entity": "pt_country_code", "value": "GR"}
+- número de infetados em lisboa
+- Número de infetados mundialmente.
+- Número de mortes
+- Número de mortes em todo o mundo.
+- Número de mortos
+- numeros para [portugal]{"entity": "pt_country_code", "value": "PT"} hoje
+- numeros para portugal hoje
+- o que é a contagem de mortes?
+- Olá. Quantos infetados existem em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Olá. Quantos infetados existem em portugal?
+- Quais as cidades mais afetadas
+- Quais são as cidades mais afetadas
+- Quais são as estatísticas mais recentes sobre [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as estatísticas mais recentes sobre coronavírus?
+- quais são os números e o galgo hoje
+- Quais são os países com mais casos?
+- Qual é o número de casos confirmados?
+- Qual é o número de casos?
+- Qual é o número de infectados?
+- Qual é o numero de internados com [covid]{"entity": "pt_virus", "value": "COVID"} em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Qual é o numero de internados com covid em portugal?
+- Qual é o número de mortes?
+- Qual é o número de mortos devido ao surto?
+- Qual é o país mais infectado pelo covid-19
+- Qual é o pais mais infetado no mundo?
+- qual o numero de casos confirmados em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- qual o numero de casos confirmados em Portugal?
+- qual o numero de pessoas nos cuidados intensivos por causa da [covid]{"entity": "pt_virus", "value": "COVID"} ?
+- qual o numero de pessoas nos cuidados intensivos por causa da covid ?
+- Qual país mais infetado?
+- Quantas infecções existem em todo o mundo?
+- quantas pessoas estão infectadas
+- quantas pessoas morreram hoje?
+- quantas pessoas no mundo estao infetadas ?
+- quantas pessoas no mundo têm [covid]{"entity": "pt_virus", "value": "COVID"} ?
+- quantas pessoas no mundo têm covid ?
+- Quantas são as contagens no mundo?
+- Quanto mortos em [Portugal]{"entity": "pt_country_code", "value": "PT"} por causa do coronavirus?
+- Quanto mortos em Portugal por causa do coronavirus?
+- Quantoa mortos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Quantoa mortos em portugal?
+- Quantos casos de [corrid] no mundo
+- quantos casos de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Quantos casos de corrid no mundo
+- quantos casos de covid-19 há em Portugal?
+- Quantos casos de infetados há mundialmente?
+- Quantos casos de infetados há mundialmente?
+- Quantos casos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Quantos casos em Portugal?
+- Quantos casos existem em [portugal]{"entity": "pt_country_code", "value": "PT"}
+- Quantos casos existem em Portugal
+- Quantos casos foram registados hoje?
+- quantos casos há em [portugal]{"entity": "pt_country_code", "value": "PT"} no momento?
+- quantos casos há em portugal no momento?
+- quantos casos há no mundo?
+- quantos casos mundialmente
+- quantos casos no mundo?
+- Quantos casos novos ha hoje?
+- Quantos infectados existem neste momento em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Quantos infectados existem neste momento em Portugal?
+- Quantos infetados tem a [Turquia]{"entity": "pt_country_code", "value": "TR"}?
+- Quantos infetados tem a Turquia?
+- Quantos internados ha em [portugal]{"entity": "pt_country_code", "value": "PT"} beste momento?
+- Quantos internados ha em portugal beste momento?
+- quantos mortos em [portugal]{"entity": "pt_country_code", "value": "PT"}?
+- quantos mortos em portugal?
+- Quantos mortos houve em [portugal]{"entity": "pt_country_code", "value": "PT"} hoje?
+- Quantos mortos houve em Portugal hoje?
+- Quantos mortos temos hoje?
+- relação [covid]{"entity": "pt_virus", "value": "COVID"} no mundo
+- relação covid no mundo
+- Sim. Sabes qual o país onde existe o maior número de infectados?
+- Situação [Suécia]{"entity": "pt_country_code", "value": "SE"}
+- Situação actual em [Suiça]{"entity": "pt_country_code", "value": "CH"}
+- Situação actualizada em [Polónia]{"entity": "pt_country_code", "value": "PL"}
+- Situação atualizada do [coronavírus]{"entity": "pt_virus", "value": "COVID"}
+- Situação atualizada do coronavírus
+- situação do [covid]{"entity": "pt_virus", "value": "COVID"} no mundo
+- situação do covid no mundo
+- Situação em [Russia]{"entity": "pt_country_code", "value": "RU"}
+- situação mundial
+- Statistics.
+
+## intent:pt_covid_situation_deaths
+- [República Federal da Alemã]{"entity": "pt_country_code", "value": "DE"} mortes.
+- Contagem mortes em [Nihon]{"entity": "pt_country_code", "value": "JP"}
+- Contagem mortes no [República da Guiné-Bissau]{"entity": "pt_country_code", "value": "GW"}
+- Contagem mortos em [República Islâmica do Afeganistão]{"entity": "pt_country_code", "value": "AF"}
+- Contagem mortos no [Kyrgyzskaya Respublika]{"entity": "pt_country_code", "value": "KG"}
+- Mortes de [Germany]{"entity": "pt_country_code", "value": "DE"}
+- Mortes em [República do Uzbequistão]{"entity": "pt_country_code", "value": "UZ"}
+- Mortes em [Northern Mariana Islands]{"entity": "pt_country_code", "value": "MP"}.
+- Numero de mortos em [Iyonola]{"entity": "pt_country_code", "value": "LC"} hoje?
+- Número de mortes em [Quiribáti]{"entity": "pt_country_code", "value": "KI"}
+- Número de mortos [Reino do Barém]{"entity": "pt_country_code", "value": "BH"}.
+- Número de mortos em [Sesel]{"entity": "pt_country_code", "value": "SC"}.
+- Número total de mortes em [Zimbaué]{"entity": "pt_country_code", "value": "ZW"}.
+- Número total de mortos em [Malawi]{"entity": "pt_country_code", "value": "MW"}?
+- Olá. Quantos mortos existem em [Free Associated State of Puerto Rico]{"entity": "pt_country_code", "value": "PR"}?
+- Qual é o numero de mortos com [covid]{"entity": "pt_virus", "value": "COVID"} em [UAE]{"entity": "pt_country_code", "value": "AE"}?
+- Qual é o número de mortes em [Gànnaar]{"entity": "pt_country_code", "value": "MR"}?
+- Qual é o número de mortos em [República de Guinea Ecuatorial]{"entity": "pt_country_code", "value": "GQ"}?
+- Quantos casos de mortos há em [Kingdom of Eswatini]{"entity": "pt_country_code", "value": "SZ"}?
+- Quantos faleceram em [Reino da Tailândia]{"entity": "pt_country_code", "value": "TH"}?
+- Quantos morreram em [Polónia]{"entity": "pt_country_code", "value": "PL"}.
+- Quantos mortos existem neste momento em [HIMI]{"entity": "pt_country_code", "value": "HM"}?
+- Quantos mortos tem [Libéria]{"entity": "pt_country_code", "value": "LR"}?
+- Quantos mortos tem a [República da Letônia]{"entity": "pt_country_code", "value": "LV"}?
+- Quantos mortos tem o [Ahvenanmaa]{"entity": "pt_country_code", "value": "AX"}?
+- qual o numero de mortes em [Estado da Palestina]{"entity": "pt_country_code", "value": "PS"}?
+- quantas pessoas em [Caicos Islands]{"entity": "pt_country_code", "value": "TC"} morreram?
+- quantas pessoas morreram em [Mexico]{"entity": "pt_country_code", "value": "MX"}?
+
+## intent:pt_covid_situation_infected
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} ativos em [Austrália]{"entity": "pt_country_code", "value": "AU"}
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} ativos no [Ayiti]{"entity": "pt_country_code", "value": "HT"}
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} em [República da Turquia]{"entity": "pt_country_code", "value": "TR"}
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} no [United Republic of Tanzania]{"entity": "pt_country_code", "value": "TZ"}
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} no total em [Република Северна Македонија]{"entity": "pt_country_code", "value": "MK"}
+- ASUS de [covid]{"entity": "pt_virus", "value": "COVID"} no total no [Reino da Noruega]{"entity": "pt_country_code", "value": "NO"}
+- Casos ativos de [covid]{"entity": "pt_virus", "value": "COVID"} em [Mexico]{"entity": "pt_country_code", "value": "MX"}
+- Casos ativos de [covid]{"entity": "pt_virus", "value": "COVID"} no [Comunidade das Bahamas]{"entity": "pt_country_code", "value": "BS"}
+- Casos confirmados ativos em [República das Seychelles]{"entity": "pt_country_code", "value": "SC"}
+- Casos confirmados em [Ilizwe leZimbabwe]{"entity": "pt_country_code", "value": "ZW"}
+- Casos de [covid]{"entity": "pt_virus", "value": "COVID"} em [Pyidaunzu Thanmăda Myăma]{"entity": "pt_country_code", "value": "MM"}
+- Casos de [covid]{"entity": "pt_virus", "value": "COVID"} no [Republic of Chile]{"entity": "pt_country_code", "value": "CL"}
+- Contagem infectada ativa em [Xīnjiāpō]{"entity": "pt_country_code", "value": "SG"}
+- Contagem infectada ativa no [Dominica]{"entity": "pt_country_code", "value": "DM"}
+- Contagem infectada em [Índia]{"entity": "pt_country_code", "value": "IN"}
+- Contagem infectada no [Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya]{"entity": "pt_country_code", "value": "SO"}
+- Contagem infectada no total em [Saint Pierre and Miquelon]{"entity": "pt_country_code", "value": "PM"}
+- Contagem infectada no total no [São Cristóvão e Neves]{"entity": "pt_country_code", "value": "KN"}
+- Contagem infectados ativos em [Türkiye]{"entity": "pt_country_code", "value": "TR"}
+- Contagem infectados ativos no [Repubrikin Naoero]{"entity": "pt_country_code", "value": "NR"}
+- Contagem infectados em [Sultanato de Omã]{"entity": "pt_country_code", "value": "OM"}
+- Contagem infectados no [Kingdom of Tonga]{"entity": "pt_country_code", "value": "TO"}
+- Contagem infectados no total em [Republika y'Uburundi]{"entity": "pt_country_code", "value": "BI"}
+- Contagem infectados no total no [Quirguizistão]{"entity": "pt_country_code", "value": "KG"}
+- Estatísticas de [Repabliki ya Afrika-Borwa]{"entity": "pt_country_code", "value": "ZA"}
+- Numero de infectados ativos em [Dominican Republic]{"entity": "pt_country_code", "value": "DO"} hoje?
+- Numero de infectados em [Dhivehi Raajje]{"entity": "pt_country_code", "value": "MV"} hoje?
+- Numero de infectados no total em [Sri Lanka]{"entity": "pt_country_code", "value": "LK"} hoje?
+- Número de casos ativos em [Republic of Sierra Leone]{"entity": "pt_country_code", "value": "SL"}
+- Número de casos em [Aolepān Aorōkin Ṃajeḷ]{"entity": "pt_country_code", "value": "MH"}
+- Número de casos no total em [Sri Lanca]{"entity": "pt_country_code", "value": "LK"}
+- Número de infectados ativos em [Northern Ireland]{"entity": "pt_country_code", "value": "GB"}.
+- Número de infectados em [Sierra Leone]{"entity": "pt_country_code", "value": "SL"}.
+- Número de infectados no total em [Santa Lúcia]{"entity": "pt_country_code", "value": "LC"}.
+- Olá. Quantos infetados existem atualmente em [Saint-Martin]{"entity": "pt_country_code", "value": "MF"}?
+- Olá. Quantos infetados existem em [Cocos Keeling Islands]{"entity": "pt_country_code", "value": "CC"}?
+- Olá. Quantos infetados no total existem em [Republic of Senegal]{"entity": "pt_country_code", "value": "SN"}?
+- Olá. Quantos total de infetados existem em [República das Honduras]{"entity": "pt_country_code", "value": "HN"}?
+- Qual é o numero de infetados ativos com [covid]{"entity": "pt_virus", "value": "COVID"} em [Saba]{"entity": "pt_country_code", "value": "BQ"}?
+- Qual é o numero de infetados com [covid]{"entity": "pt_virus", "value": "COVID"} em [República do Uzbequistão]{"entity": "pt_country_code", "value": "UZ"}?
+- Qual é o numero de infetados no total com [covid]{"entity": "pt_virus", "value": "COVID"} em [Cypriot Republic]{"entity": "pt_country_code", "value": "CY"}?
+- Qual é o numero de total de infetados com [covid]{"entity": "pt_virus", "value": "COVID"} em [Iyonola]{"entity": "pt_country_code", "value": "LC"}?
+- Qual é o número de casos ativos em [Estado do Qatar]{"entity": "pt_country_code", "value": "QA"}?
+- Qual é o número de casos confirmados ativos em [Principality of Andorra]{"entity": "pt_country_code", "value": "AD"}?
+- Qual é o número de casos confirmados em [Irlanda do Norte]{"entity": "pt_country_code", "value": "GB"}?
+- Qual é o número de casos em [Maurício]{"entity": "pt_country_code", "value": "MU"}?
+- Qual é o número de casos no total confirmados em [Saint-Pierre e Miquelon]{"entity": "pt_country_code", "value": "PM"}?
+- Qual é o número de casos no total em [Taiwan, Province of China]{"entity": "pt_country_code", "value": "TW"}?
+- Qual é o número de infectados ativos em [República da Maurícia]{"entity": "pt_country_code", "value": "MU"}?
+- Qual é o número de infectados em [Estado da Líbia]{"entity": "pt_country_code", "value": "LY"}?
+- Qual é o número de infectados no total em [Dominican Republic]{"entity": "pt_country_code", "value": "DO"}?
+- Quantos casos ativos de [corrid] em [Nöörje]{"entity": "pt_country_code", "value": "NO"}
+- Quantos casos ativos em [Suriname]{"entity": "pt_country_code", "value": "SR"}?
+- Quantos casos ativos existem em [Faroe Islands]{"entity": "pt_country_code", "value": "FO"}
+- Quantos casos ativos há na [Jamhuuriyadda Federaalka Soomaaliya]{"entity": "pt_country_code", "value": "SO"}?
+- Quantos casos de [corrid] em [Canadá]{"entity": "pt_country_code", "value": "CA"}
+- Quantos casos de infetados ativos há em [Mann]{"entity": "pt_country_code", "value": "IM"}?
+- Quantos casos de infetados há em [Bosna i Hercegovina]{"entity": "pt_country_code", "value": "BA"}?
+- Quantos casos de infetados no total há em [Turks and Caicos Islands]{"entity": "pt_country_code", "value": "TC"}?
+- Quantos casos de total de infetados há em [Rephaboliki ya Afrika Borwa]{"entity": "pt_country_code", "value": "ZA"}?
+- Quantos casos em [Oman]{"entity": "pt_country_code", "value": "OM"}?
+- Quantos casos existem em [Benin]{"entity": "pt_country_code", "value": "BJ"}
+- Quantos casos há na [República da Estônia]{"entity": "pt_country_code", "value": "EE"}?
+- Quantos casos no total de corrid em [Ilha da Irlanda]{"entity": "pt_country_code", "value": "IE"}
+- Quantos casos no total em [República da Bulgária]{"entity": "pt_country_code", "value": "BG"}?
+- Quantos casos no total existem em [Naha ya Zimbabwe]{"entity": "pt_country_code", "value": "ZW"}
+- Quantos casos no total há na [Republic of Cyprus]{"entity": "pt_country_code", "value": "CY"}?
+- Quantos infectados ativos existem neste momento em [Togo]{"entity": "pt_country_code", "value": "TG"}?
+- Quantos infectados existem em [Republica do Afeganistão]{"entity": "pt_country_code", "value": "AF"}?
+- Quantos infectados existem neste momento em [Piruw Republika]{"entity": "pt_country_code", "value": "PE"}?
+- Quantos infetados ativos tem [Republic of the Sudan]{"entity": "pt_country_code", "value": "SD"}?
+- Quantos infetados ativos tem a [Cingapura]{"entity": "pt_country_code", "value": "SG"}?
+- Quantos infetados ativos tem o [Federated States of Micronesia]{"entity": "pt_country_code", "value": "FM"}?
+- Quantos infetados no total tem [Éire]{"entity": "pt_country_code", "value": "IE"}?
+- Quantos infetados no total tem a [RDC]{"entity": "pt_country_code", "value": "CD"}?
+- Quantos infetados no total tem o [República da Arménia]{"entity": "pt_country_code", "value": "AM"}?
+- Quantos infetados tem [Republic of South Sudan]{"entity": "pt_country_code", "value": "SS"}?
+- Quantos infetados tem a [Kingdom of Tonga]{"entity": "pt_country_code", "value": "TO"}?
+- Quantos infetados tem o [Ruanda]{"entity": "pt_country_code", "value": "RW"}?
+- Quantos total de infetados tem [as-Sūdān]{"entity": "pt_country_code", "value": "SD"}?
+- Quantos total de infetados tem a [Svalbard og Jan Mayen]{"entity": "pt_country_code", "value": "SJ"}?
+- Quantos total de infetados tem o [Slovenija]{"entity": "pt_country_code", "value": "SI"}?
+- casos no total confirmados em [Japan]{"entity": "pt_country_code", "value": "JP"}
+- casos no total de [covid]{"entity": "pt_virus", "value": "COVID"} em [Bolívia]{"entity": "pt_country_code", "value": "BO"}
+- casos no total de [covid]{"entity": "pt_virus", "value": "COVID"} no [Al-ʾUrdunn]{"entity": "pt_country_code", "value": "JO"}
+- qual o numero de casos confirmados ativos em [Wallis e Futuna]{"entity": "pt_country_code", "value": "WF"}?
+- qual o numero de casos confirmados em [Barbuda]{"entity": "pt_country_code", "value": "AG"}?
+- qual o numero de casos no total confirmados em [Sultanate of Oman]{"entity": "pt_country_code", "value": "OM"}?
+- quantas pessoas em [Republic of Cabo Verde]{"entity": "pt_country_code", "value": "CV"} estao infetadas ?
+- quantas pessoas em [Guåhån]{"entity": "pt_country_code", "value": "GU"} estao infetadas atualmente?
+- quantas pessoas em [Éire]{"entity": "pt_country_code", "value": "IE"} estiveram infetadas ?
+- quantas pessoas em [República da Moldova]{"entity": "pt_country_code", "value": "MD"} tiveram covid ?
+- quantas pessoas em [Czechia]{"entity": "pt_country_code", "value": "CZ"} têm covid ?
+- quantas pessoas em [Uzbequistão]{"entity": "pt_country_code", "value": "UZ"} têm covid atualmente?
+- quantas pessoas estiveram infectadas em [Repubblica di San Marino]{"entity": "pt_country_code", "value": "SM"}
+- quantas pessoas estão infectadas atualmente em [Tunisie]{"entity": "pt_country_code", "value": "TN"}
+- quantas pessoas estão infectadas em [Mēxihco]{"entity": "pt_country_code", "value": "MX"}
+- quantos casos ativos de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [República das Maldivas]{"entity": "pt_country_code", "value": "MV"}?
+- quantos casos ativos há em [Ilha Bouvet]{"entity": "pt_country_code", "value": "BV"} no momento?
+- quantos casos ativos há no [Oʻzbekiston]{"entity": "pt_country_code", "value": "UZ"}?
+- quantos casos de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [Beluu er a Belau]{"entity": "pt_country_code", "value": "PW"}?
+- quantos casos há em [Reino da Jordânia]{"entity": "pt_country_code", "value": "JO"} no momento?
+- quantos casos há no [Република Србија]{"entity": "pt_country_code", "value": "RS"}?
+- quantos casos no total de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [República da Moldávia]{"entity": "pt_country_code", "value": "MD"}?
+- quantos casos no total há em [Republic of India]{"entity": "pt_country_code", "value": "IN"} no momento?
+- quantos casos no total há no [Macao]{"entity": "pt_country_code", "value": "MO"}?
+
+## intent:pt_covid_situation_infected_critical
+- ASUS alarmantes de [covid]{"entity": "pt_virus", "value": "COVID"} em [República Islâmica do Afeganistão]{"entity": "pt_country_code", "value": "AF"}
+- ASUS alarmantes de [covid]{"entity": "pt_virus", "value": "COVID"} no [Domínica]{"entity": "pt_country_code", "value": "DM"}
+- ASUS criticos de [covid]{"entity": "pt_virus", "value": "COVID"} em [Maurício]{"entity": "pt_country_code", "value": "MU"}
+- ASUS criticos de [covid]{"entity": "pt_virus", "value": "COVID"} no [República Federal do Brasil]{"entity": "pt_country_code", "value": "BR"}
+- ASUS críticos de [covid]{"entity": "pt_virus", "value": "COVID"} em [Republic of Argentina]{"entity": "pt_country_code", "value": "AR"}
+- ASUS críticos de [covid]{"entity": "pt_virus", "value": "COVID"} no [Republic of Maldives]{"entity": "pt_country_code", "value": "MV"}
+- ASUS graves de [covid]{"entity": "pt_virus", "value": "COVID"} em [Dawlat al-Kuwait]{"entity": "pt_country_code", "value": "KW"}
+- ASUS graves de [covid]{"entity": "pt_virus", "value": "COVID"} no [República Dominicana]{"entity": "pt_country_code", "value": "DO"}
+- Casos alarmantes de [covid]{"entity": "pt_virus", "value": "COVID"} em [Santa Helena, Ascensão e Tristão da Cunha]{"entity": "pt_country_code", "value": "SH"}
+- Casos alarmantes de [covid]{"entity": "pt_virus", "value": "COVID"} no [Pitcairn, Henderson, Ducie and Oeno Islands]{"entity": "pt_country_code", "value": "PN"}
+- Casos confirmados alarmantes em [Congo Brazzaville]{"entity": "pt_country_code", "value": "CG"}
+- Casos confirmados criticos em [Syria]{"entity": "pt_country_code", "value": "SY"}
+- Casos confirmados críticos em [Baamas]{"entity": "pt_country_code", "value": "BS"}
+- Casos confirmados graves em [Ilha Jarvis]{"entity": "pt_country_code", "value": "UM"}
+- Casos criticos de [covid]{"entity": "pt_virus", "value": "COVID"} em [Cisi ca Zambia]{"entity": "pt_country_code", "value": "ZM"}
+- Casos criticos de [covid]{"entity": "pt_virus", "value": "COVID"} no [Commonwealth of Australia]{"entity": "pt_country_code", "value": "AU"}
+- Casos críticos de [covid]{"entity": "pt_virus", "value": "COVID"} em [Niuē]{"entity": "pt_country_code", "value": "NU"}
+- Casos críticos de [covid]{"entity": "pt_virus", "value": "COVID"} no [Reino de España]{"entity": "pt_country_code", "value": "ES"}
+- Casos graves de [covid]{"entity": "pt_virus", "value": "COVID"} em [Antigua and Barbuda]{"entity": "pt_country_code", "value": "AG"}
+- Casos graves de [covid]{"entity": "pt_virus", "value": "COVID"} no [Norfolk Island]{"entity": "pt_country_code", "value": "NF"}
+- Contagem infectada alarmante em [Sérvia]{"entity": "pt_country_code", "value": "RS"}
+- Contagem infectada alarmante no [UK]{"entity": "pt_country_code", "value": "GB"}
+- Contagem infectada critica em [Bailliage dé Jèrri]{"entity": "pt_country_code", "value": "JE"}
+- Contagem infectada critica no [Norway]{"entity": "pt_country_code", "value": "NO"}
+- Contagem infectada crítica em [Bonaire, Sint Eustatius and Saba]{"entity": "pt_country_code", "value": "BQ"}
+- Contagem infectada crítica no [Slovenija]{"entity": "pt_country_code", "value": "SI"}
+- Contagem infectados alarmantes em [República dos Camarões]{"entity": "pt_country_code", "value": "CM"}
+- Contagem infectados alarmantes no [Rússia]{"entity": "pt_country_code", "value": "RU"}
+- Contagem infectados criticos em [Gànnaar]{"entity": "pt_country_code", "value": "MR"}
+- Contagem infectados criticos no [Kirghizia]{"entity": "pt_country_code", "value": "KG"}
+- Contagem infectados críticos em [Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu]{"entity": "pt_country_code", "value": "LK"}
+- Contagem infectados críticos no [Togo]{"entity": "pt_country_code", "value": "TG"}
+- Contagem infectados graves em [Germany]{"entity": "pt_country_code", "value": "DE"}
+- Contagem infectados graves no [South Korea]{"entity": "pt_country_code", "value": "KR"}
+- Infetados alarmantes em [República Árabe do Egito]{"entity": "pt_country_code", "value": "EG"}
+- Infetados criticos em [República Democrática de São Tomé e Príncipe]{"entity": "pt_country_code", "value": "ST"}
+- Infetados críticos em [Estado Plurinacional de Bolivia]{"entity": "pt_country_code", "value": "BO"}
+- Infetados graves em [Groenlândia]{"entity": "pt_country_code", "value": "GL"}
+- Numero de infectados alarmantes em [Ruanda]{"entity": "pt_country_code", "value": "RW"} hoje?
+- Numero de infectados criticos em [Islândia]{"entity": "pt_country_code", "value": "IS"} hoje?
+- Numero de infectados críticos em [Mexican United States]{"entity": "pt_country_code", "value": "MX"} hoje?
+- Numero de infectados graves em [Bailiado de Jersey]{"entity": "pt_country_code", "value": "JE"} hoje?
+- Número de casos alarmantes em [Taiwan Area]{"entity": "pt_country_code", "value": "TW"}
+- Número de casos criticos em [São Vicente e Granadinas]{"entity": "pt_country_code", "value": "VC"}
+- Número de casos críticos em [Sao Tome and Principe]{"entity": "pt_country_code", "value": "ST"}
+- Número de casos graves em [Kongeriket Noreg]{"entity": "pt_country_code", "value": "NO"}
+- Número de infectados alarmantes em [Dominican Republic]{"entity": "pt_country_code", "value": "DO"}.
+- Número de infectados criticos em [Bangladexe]{"entity": "pt_country_code", "value": "BD"}.
+- Número de infectados críticos em [Jamhuri ya Rwanda]{"entity": "pt_country_code", "value": "RW"}.
+- Número de infectados graves em [Luxemburgo]{"entity": "pt_country_code", "value": "LU"}.
+- Olá. Quantos infetados alarmantes existem em [Piruw Suyu]{"entity": "pt_country_code", "value": "PE"}?
+- Olá. Quantos infetados criticos existem em [Chosŏn]{"entity": "pt_country_code", "value": "KP"}?
+- Olá. Quantos infetados críticos existem em [Federal Republic of Germany]{"entity": "pt_country_code", "value": "DE"}?
+- Olá. Quantos infetados graves existem em [Chile]{"entity": "pt_country_code", "value": "CL"}?
+- Qual é o numero de infetados alarmantes com [covid]{"entity": "pt_virus", "value": "COVID"} em [Namhan]{"entity": "pt_country_code", "value": "KR"}?
+- Qual é o numero de infetados criticos com [covid]{"entity": "pt_virus", "value": "COVID"} em [Coletividade de São Bartolomeu]{"entity": "pt_country_code", "value": "BL"}?
+- Qual é o numero de infetados críticos com [covid]{"entity": "pt_virus", "value": "COVID"} em [Hellas]{"entity": "pt_country_code", "value": "GR"}?
+- Qual é o numero de infetados graves com [covid]{"entity": "pt_virus", "value": "COVID"} em [Território da Ilha Norfolque]{"entity": "pt_country_code", "value": "NF"}?
+- Qual é o número de casos alarmantes em [Falklands]{"entity": "pt_country_code", "value": "FK"}?
+- Qual é o número de casos confirmados alarmantes em [Ilha da Irlanda]{"entity": "pt_country_code", "value": "IE"}?
+- Qual é o número de casos confirmados criticos em [Republic of North Macedonia]{"entity": "pt_country_code", "value": "MK"}?
+- Qual é o número de casos confirmados críticos em [East Timor]{"entity": "pt_country_code", "value": "TL"}?
+- Qual é o número de casos confirmados graves em [Ilhas Cocos Keeling]{"entity": "pt_country_code", "value": "CC"}?
+- Qual é o número de casos criticos em [Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah]{"entity": "pt_country_code", "value": "JO"}?
+- Qual é o número de casos críticos em [Argentina]{"entity": "pt_country_code", "value": "AR"}?
+- Qual é o número de casos graves em [Reino do Lesoto]{"entity": "pt_country_code", "value": "LS"}?
+- Qual é o número de infectados alarmantes em [United Arab Emirates]{"entity": "pt_country_code", "value": "AE"}?
+- Qual é o número de infectados criticos em [Saint Helena]{"entity": "pt_country_code", "value": "SH"}?
+- Qual é o número de infectados críticos em [Baker Island]{"entity": "pt_country_code", "value": "UM"}?
+- Qual é o número de infectados graves em [República Federal da Nigéria]{"entity": "pt_country_code", "value": "NG"}?
+- Quantos casos alarmantes de [corrid]{"entity": "pt_virus", "value": "COVID"} em [Faroe Islands]{"entity": "pt_country_code", "value": "FO"}
+- Quantos casos alarmantes em [Free Associated State of Puerto Rico]{"entity": "pt_country_code", "value": "PR"}?
+- Quantos casos alarmantes existem em [Repubilika ya Kôngo ya Dimokalasi]{"entity": "pt_country_code", "value": "CD"}
+- Quantos casos alarmantes há na [Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui]{"entity": "pt_country_code", "value": "MO"}?
+- Quantos casos criticos de [corrid]{"entity": "pt_virus", "value": "COVID"} em [TOM]{"entity": "pt_country_code", "value": "TF"}
+- Quantos casos criticos em [Ilhas Cook]{"entity": "pt_country_code", "value": "CK"}?
+- Quantos casos criticos existem em [Maore]{"entity": "pt_country_code", "value": "YT"}
+- Quantos casos criticos há na [Danmark]{"entity": "pt_country_code", "value": "DK"}?
+- Quantos casos críticos de [corrid]{"entity": "pt_virus", "value": "COVID"} em [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah]{"entity": "pt_country_code", "value": "SY"}
+- Quantos casos críticos em [Reino da Suécia]{"entity": "pt_country_code", "value": "SE"}?
+- Quantos casos críticos existem em [Irão]{"entity": "pt_country_code", "value": "IR"}
+- Quantos casos críticos há na [Cocos Keeling Islands]{"entity": "pt_country_code", "value": "CC"}?
+- Quantos casos de infetados alarmantes há em [Udzima wa Komori]{"entity": "pt_country_code", "value": "KM"}?
+- Quantos casos de infetados criticos há em [República do Botsuana]{"entity": "pt_country_code", "value": "BW"}?
+- Quantos casos de infetados críticos há em [Republic of Maldives]{"entity": "pt_country_code", "value": "MV"}?
+- Quantos casos de infetados graves há em [Taiwan, China]{"entity": "pt_country_code", "value": "TW"}?
+- Quantos casos graves de corrid em [Ilha Aprazível]{"entity": "pt_country_code", "value": "NR"}
+- Quantos casos graves em [Ilhas Malvinas]{"entity": "pt_country_code", "value": "FK"}?
+- Quantos casos graves existem em [Druk Gyal Khap]{"entity": "pt_country_code", "value": "BT"}
+- Quantos casos graves há na [Paraguái]{"entity": "pt_country_code", "value": "PY"}?
+- Quantos infectados alarmantes existem neste momento em [Mali]{"entity": "pt_country_code", "value": "ML"}?
+- Quantos infectados criticos existem neste momento em [South Georgia and the South Sandwich Islands]{"entity": "pt_country_code", "value": "GS"}?
+- Quantos infectados críticos existem neste momento em [Киргизия]{"entity": "pt_country_code", "value": "KG"}?
+- Quantos infectados graves existem neste momento em [Pleasant Island]{"entity": "pt_country_code", "value": "NR"}?
+- Quantos infetados alarmantes tem [aṣ-Ṣūmāl]{"entity": "pt_country_code", "value": "SO"}?
+- Quantos infetados alarmantes tem o [Emirates]{"entity": "pt_country_code", "value": "AE"}?
+- Quantos infetados criticos tem [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà]{"entity": "pt_country_code", "value": "NG"}?
+- Quantos infetados criticos tem o [Mauritanie]{"entity": "pt_country_code", "value": "MR"}?
+- Quantos infetados críticos tem [Schweiz]{"entity": "pt_country_code", "value": "CH"}?
+- Quantos infetados críticos tem o [Bonaire]{"entity": "pt_country_code", "value": "BQ"}?
+- Quantos infetados graves tem [Republic of Suriname]{"entity": "pt_country_code", "value": "SR"}?
+- Quantos infetados graves tem o [República da Estónia]{"entity": "pt_country_code", "value": "EE"}?
+- qual o numero de casos confirmados alarmantes em [Wilayah Kepulauan Cocos Keeling]{"entity": "pt_country_code", "value": "CC"}?
+- qual o numero de casos confirmados criticos em [Renndaandi Ginea]{"entity": "pt_country_code", "value": "GN"}?
+- qual o numero de casos confirmados críticos em [Republic of Honduras]{"entity": "pt_country_code", "value": "HN"}?
+- qual o numero de casos confirmados graves em [La Grenade]{"entity": "pt_country_code", "value": "GD"}?
+- quantos casos alarmantes de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà]{"entity": "pt_country_code", "value": "NG"}?
+- quantos casos alarmantes há em [Jamhuriyar Taraiyar Najeriya]{"entity": "pt_country_code", "value": "NG"} no momento?
+- quantos casos alarmantes há no [Republic of Belarus]{"entity": "pt_country_code", "value": "BY"}?
+- quantos casos criticos de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [Jamaica]{"entity": "pt_country_code", "value": "JM"}?
+- quantos casos criticos há em [Portuguese Republic]{"entity": "pt_country_code", "value": "PT"} no momento?
+- quantos casos criticos há no [Croácia]{"entity": "pt_country_code", "value": "HR"}?
+- quantos casos críticos de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [Airlann]{"entity": "pt_country_code", "value": "IE"}?
+- quantos casos críticos há em [Republic of Mozambique]{"entity": "pt_country_code", "value": "MZ"} no momento?
+- quantos casos críticos há no [República das Seicheles ou Seychelles]{"entity": "pt_country_code", "value": "SC"}?
+- quantos casos graves de [COVID-19]{"entity": "pt_virus", "value": "COVID"} há em [República da Lituânia]{"entity": "pt_country_code", "value": "LT"}?
+- quantos casos graves há em [Nouvelle-Calédonie]{"entity": "pt_country_code", "value": "NC"} no momento?
+- quantos casos graves há no [Republik Namibia]{"entity": "pt_country_code", "value": "NA"}?
+
+## intent:pt_covid_situation_last_update
+- Atualização de [Mozambique]{"entity": "pt_country_code", "value": "MZ"}.
+- Atualização de hoje de [Umoja wa Komori]{"entity": "pt_country_code", "value": "KM"}.
+- Atualização de hoje em [Reino da Tailândia]{"entity": "pt_country_code", "value": "TH"}.
+- Atualização em [Chipre]{"entity": "pt_country_code", "value": "CY"}.
+- Dados atualizados de [Alanda]{"entity": "pt_country_code", "value": "AX"}?
+- Dados atualizados de infetados e mortes em [Egito]{"entity": "pt_country_code", "value": "EG"}?
+- Dados atualizados em [República das Filipinas]{"entity": "pt_country_code", "value": "PH"}?
+- Dados de hoje de casos em [America]{"entity": "pt_country_code", "value": "US"}.
+- Dados de hoje de infetados [Hashemite Kingdom of Jordan]{"entity": "pt_country_code", "value": "JO"}.
+- Dados de hoje de mortes [al-Mamlaka al-ʻArabiyya as-Suʻūdiyya]{"entity": "pt_country_code", "value": "SA"}.
+- Dados de hoje de novos casos em [Rossiya]{"entity": "pt_country_code", "value": "RU"}.
+- Dados de hoje de novos infetados [Croácia]{"entity": "pt_country_code", "value": "HR"}.
+- Dados de hoje de novos mortes [Tuvalu]{"entity": "pt_country_code", "value": "TV"}.
+- Dados de hoje em [República da Eslovénia]{"entity": "pt_country_code", "value": "SI"}.
+- Novos casos e mortes em [República da Indonésia]{"entity": "pt_country_code", "value": "ID"}?
+- Novos casos em [Guinée équatoriale]{"entity": "pt_country_code", "value": "GQ"}?
+- Quantas mais mortes em [Região Administrativa de Macau]{"entity": "pt_country_code", "value": "MO"} no momento?
+- Quantos mais infetados em [Bailiado de Guernsey]{"entity": "pt_country_code", "value": "GG"}?
+- Ultima atualização em [República de San Marino]{"entity": "pt_country_code", "value": "SM"}
+- Última atualização de casos e mortes em [U.K.]{"entity": "pt_country_code", "value": "GB"}?
+- Última atualização de casos em [El Salvador]{"entity": "pt_country_code", "value": "SV"}?
+- Última atualização de infetados e mortes em [Republic of India]{"entity": "pt_country_code", "value": "IN"}?
+- Última atualização de infetados em [Republic of the Niger]{"entity": "pt_country_code", "value": "NE"}?
+- Última atualização de mortes em [Fiji]{"entity": "pt_country_code", "value": "FJ"}?
+- Últimos dados de [Pérsia]{"entity": "pt_country_code", "value": "IR"}.
+- Últimos dados em [State of Kuwait]{"entity": "pt_country_code", "value": "KW"}.
+- Atualização de [Palaos]{"entity": "pt_country_code", "value": "PW"}.
+- Atualização de hoje de [Maurícia]{"entity": "pt_country_code", "value": "MU"}.
+- Atualização de hoje em [Zimbabué]{"entity": "pt_country_code", "value": "ZW"}.
+- Atualização em [Svalbard og Jan Mayen]{"entity": "pt_country_code", "value": "SJ"}.
+- Dados atualizados de [Sultanate of Oman]{"entity": "pt_country_code", "value": "OM"}?
+- Dados atualizados de infetados e mortes em [French Southern Territories]{"entity": "pt_country_code", "value": "TF"}?
+- Dados atualizados em [Shango ḽa Zimbabwe]{"entity": "pt_country_code", "value": "ZW"}?
+- Dados de hoje de casos em [Países Baixos]{"entity": "pt_country_code", "value": "NL"}.
+- Dados de hoje de infetados [Táiwān shěng]{"entity": "pt_country_code", "value": "TW"}.
+- Dados de hoje de mortes [Ilha Esmeralda das Caraíbas]{"entity": "pt_country_code", "value": "MS"}.
+- Dados de hoje de novos casos em [República Oriental del Uruguay]{"entity": "pt_country_code", "value": "UY"}.
+- Dados de hoje de novos infetados [Reiaume d'Espanha]{"entity": "pt_country_code", "value": "ES"}.
+- Dados de hoje de novos mortes [Tobago]{"entity": "pt_country_code", "value": "TT"}.
+- Dados de hoje em [Italy]{"entity": "pt_country_code", "value": "IT"}.
+- Novos casos e mortes em [Congo-Brazzaville]{"entity": "pt_country_code", "value": "CG"}?
+- Novos casos em [Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya]{"entity": "pt_country_code", "value": "ET"}?
+- Quantas mais mortes em [São Marinho]{"entity": "pt_country_code", "value": "SM"} no momento?
+- Quantos mais infetados em [Balgariya]{"entity": "pt_country_code", "value": "BG"}?
+- Ultima atualização em [Luxemburgo]{"entity": "pt_country_code", "value": "LU"}
+- Última atualização de casos e mortes em [Aotearoa]{"entity": "pt_country_code", "value": "NZ"}?
+- Última atualização de casos em [Mexico]{"entity": "pt_country_code", "value": "MX"}?
+- Última atualização de infetados e mortes em [Congo-Quinxassa]{"entity": "pt_country_code", "value": "CD"}?
+- Última atualização de infetados em [Republic of Maldives]{"entity": "pt_country_code", "value": "MV"}?
+- Última atualização de mortes em [United States Minor Outlying Islands]{"entity": "pt_country_code", "value": "UM"}?
+- Últimos dados de [Aotearoa]{"entity": "pt_country_code", "value": "NZ"}.
+- Últimos dados em [Muso oa Lesotho]{"entity": "pt_country_code", "value": "LS"}.
+- Fala sobre atualização de casos
+
+## intent:pt_covid_situation_recovered
+- "[Pyidaunzu Thanmăda Myăma]{"entity": "pt_country_code", "value": "MM"} recuperados."
+- "[Arab Republic of Egypt]{"entity": "pt_country_code", "value": "EG"} recuperações."
+- Contagem recuperados em [République du Mali]{"entity": "pt_country_code", "value": "ML"}
+- Contagem recuperados no [Ilhas Virgens dos Estados Unidos]{"entity": "pt_country_code", "value": "VI"}
+- Contagem recuperações em [Midway Atoll]{"entity": "pt_country_code", "value": "UM"}
+- Contagem recuperações no [Monserrate]{"entity": "pt_country_code", "value": "MS"}
+- Numero de recuperados em [Territory of the Wallis and Futuna Islands]{"entity": "pt_country_code", "value": "WF"} hoje?
+- Numero de recuperações em [São Marino]{"entity": "pt_country_code", "value": "SM"} hoje?
+- Número de recuperados [The Democratic Republic of the Congo]{"entity": "pt_country_code", "value": "CD"}.
+- Número de recuperados em [British Indian Ocean Territory]{"entity": "pt_country_code", "value": "IO"}
+- Número de recuperados em [Vuona gånågisrijkka]{"entity": "pt_country_code", "value": "NO"}.
+- Número de recuperações [Pitkern Ailen]{"entity": "pt_country_code", "value": "PN"}.
+- Número de recuperações em [Liechtenstein]{"entity": "pt_country_code", "value": "LI"}
+- Número de recuperações em [Rossiya]{"entity": "pt_country_code", "value": "RU"}.
+- Número total de recuperados em [Confoederatio Helvetica]{"entity": "pt_country_code", "value": "CH"}.
+- Número total de recuperados em [Lesoto]{"entity": "pt_country_code", "value": "LS"}?
+- Número total de recuperações em [Estado da Eritreia]{"entity": "pt_country_code", "value": "ER"}.
+- Número total de recuperações em [Tchade]{"entity": "pt_country_code", "value": "TD"}?
+- Olá. Quantos recuperados existem em [Noreg]{"entity": "pt_country_code", "value": "NO"}?
+- Olá. Quantos recuperações existem em [Republic of Kazakhstan]{"entity": "pt_country_code", "value": "KZ"}?
+- Qual é o numero de recuperados com [covid]{"entity": "pt_virus", "value": "COVID"} em [Reino de Espanha]{"entity": "pt_country_code", "value": "ES"}?
+- Qual é o numero de recuperações com [covid]{"entity": "pt_virus", "value": "COVID"} em [Bermuda]{"entity": "pt_country_code", "value": "BM"}?
+- Qual é o número de recuperados em [Grão-Ducado do Luxemburgo]{"entity": "pt_country_code", "value": "LU"}?
+- Qual é o número de recuperações em [Republic of Equatorial Guinea]{"entity": "pt_country_code", "value": "GQ"}?
+- Quantos casos de recuperados há em [República da Coreia]{"entity": "pt_country_code", "value": "KR"}?
+- Quantos casos de recuperações há em [Soomaaliya]{"entity": "pt_country_code", "value": "SO"}?
+- Quantos recuperados existem neste momento em [Republic of Finland]{"entity": "pt_country_code", "value": "FI"}?
+- Quantos recuperados tem [Chad]{"entity": "pt_country_code", "value": "TD"}?
+- Quantos recuperados tem a [Sāmoa]{"entity": "pt_country_code", "value": "WS"}?
+- Quantos recuperados tem o [Suomen tasavalta]{"entity": "pt_country_code", "value": "FI"}?
+- Quantos recuperaram em [Norgga gonagasriika]{"entity": "pt_country_code", "value": "NO"}.
+- Quantos recuperações existem neste momento em [Hanguk]{"entity": "pt_country_code", "value": "KR"}?
+- Quantos recuperações tem [Republic of Slovenia]{"entity": "pt_country_code", "value": "SI"}?
+- Quantos recuperações tem a [Australia]{"entity": "pt_country_code", "value": "AU"}?
+- Quantos recuperações tem o [República da Costa Rica]{"entity": "pt_country_code", "value": "CR"}?
+- qual o numero de recuperados em [Federation of Saint Christopher and Nevis]{"entity": "pt_country_code", "value": "KN"}?
+- qual o numero de recuperações em [Principauté de Monaco]{"entity": "pt_country_code", "value": "MC"}?
+- quantas pessoas em [People's Republic of Bangladesh]{"entity": "pt_country_code", "value": "BD"} recuperaram?
+- quantas pessoas recuperaram em [Países Baixos]{"entity": "pt_country_code", "value": "NL"}?
+- recuperados de [ityoppiah federalih demokrasih ummuno]{"entity": "pt_country_code", "value": "ET"}
+- recuperados em [Belarus]{"entity": "pt_country_code", "value": "BY"}.
+- recuperações de [België]{"entity": "pt_country_code", "value": "BE"}
+- recuperações em [República de Madagascar]{"entity": "pt_country_code", "value": "MG"}.
+
+## intent:pt_covid_situation_tested
+- "[Ilha Esmeralda]{"entity": "pt_country_code", "value": "IE"} testados."
+- "[Saṅghīya Lokatāntrik Gaṇatantra Nepāl]{"entity": "pt_country_code", "value": "NP"} testes."
+- Contagem testados em [Republic of Liberia]{"entity": "pt_country_code", "value": "LR"}
+- Contagem testados no [Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà]{"entity": "pt_country_code", "value": "NG"}
+- Contagem testes em [Beluu er a Belau]{"entity": "pt_country_code", "value": "PW"}
+- Contagem testes no [Repubblica di San Marino]{"entity": "pt_country_code", "value": "SM"}
+- Numero de testados em [Macau]{"entity": "pt_country_code", "value": "MO"} hoje?
+- Numero de testes em [South Sudan]{"entity": "pt_country_code", "value": "SS"} hoje?
+- Número de testados [República da Guiné Equatorial]{"entity": "pt_country_code", "value": "GQ"}.
+- Número de testados em [Ilhas Cocos Keeling]{"entity": "pt_country_code", "value": "CC"}
+- Número de testados em [Republic of Panama]{"entity": "pt_country_code", "value": "PA"}.
+- Número de testes [Costa do Marfim]{"entity": "pt_country_code", "value": "CI"}.
+- Número de testes em [República da Índia]{"entity": "pt_country_code", "value": "IN"}
+- Número de testes em [Bhārat Gaṇarājya]{"entity": "pt_country_code", "value": "IN"}.
+- Número total de testados em [Ilhas Bermudas]{"entity": "pt_country_code", "value": "BM"}.
+- Número total de testados em [República Popular Democrática da Coreia]{"entity": "pt_country_code", "value": "KP"}?
+- Número total de testes em [Áustria]{"entity": "pt_country_code", "value": "AT"}.
+- Número total de testes em [iRiphabhuliki yaseNingizimu Afrika]{"entity": "pt_country_code", "value": "ZA"}?
+- Olá. Quantos testados existem em [Malawi]{"entity": "pt_country_code", "value": "MW"}?
+- Olá. Quantos testes existem em [São Tomé e Príncipe]{"entity": "pt_country_code", "value": "ST"}?
+- Qual é o numero de testados com [covid]{"entity": "pt_virus", "value": "COVID"} em [Czech Republic]{"entity": "pt_country_code", "value": "CZ"}?
+- Qual é o numero de testes com [covid]{"entity": "pt_virus", "value": "COVID"} em [Belgique]{"entity": "pt_country_code", "value": "BE"}?
+- Qual é o número de testados em [Republika Bǎlgarija]{"entity": "pt_country_code", "value": "BG"}?
+- Qual é o número de testes em [Taiwan, China]{"entity": "pt_country_code", "value": "TW"}?
+- Quantos casos de testados há em [Mauritania]{"entity": "pt_country_code", "value": "MR"}?
+- Quantos casos de testes há em [Commonwealth of the Northern Mariana Islands]{"entity": "pt_country_code", "value": "MP"}?
+- Quantos foram testados em [République togolaise]{"entity": "pt_country_code", "value": "TG"}.
+- Quantos testados existem neste momento em [Amerika Sāmoa]{"entity": "pt_country_code", "value": "AS"}?
+- Quantos testados tem [Groussherzogtum Lëtzebuerg]{"entity": "pt_country_code", "value": "LU"}?
+- Quantos testados tem a [Ayiti]{"entity": "pt_country_code", "value": "HT"}?
+- Quantos testados tem o [Departamento de Maiote]{"entity": "pt_country_code", "value": "YT"}?
+- Quantos testes existem neste momento em [Keeling Islands]{"entity": "pt_country_code", "value": "CC"}?
+- Quantos testes tem [República de Moçambique]{"entity": "pt_country_code", "value": "MZ"}?
+- Quantos testes tem a [Republic of Equatorial Guinea]{"entity": "pt_country_code", "value": "GQ"}?
+- Quantos testes tem o [Táiwān shěng]{"entity": "pt_country_code", "value": "TW"}?
+- qual o numero de testados em [Schwiiz]{"entity": "pt_country_code", "value": "CH"}?
+- qual o numero de testes em [Grupo de Ilhas Pitcairn]{"entity": "pt_country_code", "value": "PN"}?
+- quantas pessoas em [Turcomênia]{"entity": "pt_country_code", "value": "TM"} foram testadas?
+- quantas pessoas foram testadas em [TOM]{"entity": "pt_country_code", "value": "TF"}?
+- testados de [Mexico]{"entity": "pt_country_code", "value": "MX"}
+- testados em [Republic of Cabo Verde]{"entity": "pt_country_code", "value": "CV"}.
+- testes de [República da África Central]{"entity": "pt_country_code", "value": "CF"}
+- testes em [Hong Kong]{"entity": "pt_country_code", "value": "HK"}.
+- Quantos testes foram realizados até à data?   
+
+## intent:pt_covid_surfaces
+- [coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste por quanto tempo nas superfícies?
+- Durabilidade [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Durabilidade do [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Durabilidade do [coronavírus]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Durabilidade do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Durabilidade do [vírus]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- E no papel quanto tempo leva a se tornar inactivo
+- Intervalo temporal de existência do [vírus]{"entity": "pt_virus", "value": "COVID"} nas superfícies?
+- Nova durabilidade do [coronavírus]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Novas superfícies de durabilidade para [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Novas superfícies de sobrevivência ao [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Periodo de durabilidade do [coronavírus]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Periodo de existência do [vírus]{"entity": "pt_virus", "value": "COVID"} em superfícies.
+- Por quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} persiste em superfícies?
+- Por quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} pode exisitir em superfícies?
+- Por quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} pode persistir em superfícies?
+- Por quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Por quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Por quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste em superfícies?
+- Por quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Por quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Por quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} pode persistir em superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} persiste nas
+  superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} sobrevive em
+  superfícies?
+- Por quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} persiste em superfícies?
+- Por quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} pode persistir em superfícies?
+- Por quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Por quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Por quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Por quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} se mantem nas superfícies?
+- Quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} existe em superfícies?
+- Quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [coronavírus]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} sobrevive nas superfícies?
+- Quanto tempo o [virus]{"entity": "pt_virus", "value": "COVID"} se mantem vivo em objetos?
+- Quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver em superfícies?
+- Quanto tempo o [vírus]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies?
+- Sobrevivência em superfícies.
+- Superfícies de durabilidade [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Superfícies de durabilidade do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Superfícies de durabilidade para [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Superfícies de sobrevivência [SARS-Cov-2]{"entity": "pt_virus", "value": "COVID"}.
+- Superfícies de sobrevivência ao [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Superfícies de sobrevivência de [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Tempo que o [coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- Tempo que o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- [coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies?
+- [coronavírus]{"entity": "pt_virus", "value": "COVID"} pode sobreviver por quanto tempo em superfícies?
+- gostaria de saber o tempo que leva o [Covid 19]{"entity": "pt_virus", "value": "COVID"} a tornar-se inativo nas
+  diferentes superficies
+- gostaria de saber o tempo que leva o [Covid 19]{"entity": "pt_virus", "value": "COVID"} a tornar-se inativo nas
+  diferentes superficies e na nossa pele também
+- o [coronavírus]{"entity": "pt_virus", "value": "COVID"} sobrevive em superfícies por quanto tempo?
+- o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste nas superfícies por quanto tempo?
+- se andar de elevador depois de uma pessoa infetada apanho [virus]{"entity": "pt_virus", "value": "COVID"}?
+- tempo de persistência do [novo coronavírus]{"entity": "pt_virus", "value": "COVID"} em superfícies?
+- tempo médio de sobrevivência do [vírus]{"entity": "pt_virus", "value": "COVID"} em superfícies?
+- é verdade que o [coronavírus]{"entity": "pt_virus", "value": "COVID"} pode ficar vários dias em superficies metálicas?
+- Durante quanto tempo pode o [vírus]{"entity": "pt_virus", "value": "COVID"} sobreviver fora do corpo humano?
+
+## intent:pt_covid_symptoms
+- 37 de febre é sintoma?
+- Dados sobre os sintomas.
+- Espirrar é sintoma?
+- Gostaria de ver quais são os sintomas
+- Informações sobre os sintomas.
+- Olá Quais são os sintomas
+- Os sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Os sintomas da infecção.
+- Os sintomas de [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Os sintomas.
+- Podes descrever a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Quais is sintomas?
+- Quais os principais sintomas?
+- Quais os sintomas de quem está infetado
+- Quais os sintomas que aparecem?
+- Quais podem ser os sinais de infecção?
+- Quais podem ser os sintomas da infecção?
+- Quais podem ser sinais de infecção?
+- Quais podem ser sintomas de infecção?
+- Quais sintomas aparecem?
+- Quais sintomas estão relacionados com a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Quais sintomas estão relacionados com a infecção?
+- Quais sintomas estão relacionados com o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são os possiveis sinais de infecção?
+- Quais são os possivéis sintomas da infecção?
+- Quais são os sintomas da [covid]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são os sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são os sintomas da infecção?
+- Quais são os sintomas do [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são os sintomas relacionados à [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são os sintomas relacionados à infecção?
+- Quais são os sintomas?
+- Qual é a sintomatologia de infecção?
+- Que sintomas da infecção existem?
+- Que sintomas são experienciados com [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Que sintomas são frequentes?
+- Quem pega o [vírus]{"entity": "pt_virus", "value": "COVID"} desenvolve quais sintomas?
+- Sinais de infecção.
+- Sinal de infecção.
+- Sintomas
+- Sintomas da [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Sintomas da infecção?
+- Sintomatologia
+- Sobre os sintomas.
+- Tenho tosse, estarei infectado?
+- Ter febre é sintoma de [covid]{"entity": "pt_virus", "value": "COVID"}?
+- Tipo de sintomas do [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Tosse é sintoma?
+- Tudo bem. Fala-me sobre os sintomas.
+- quais os sintomas
+- quais sintomas
+- qual é o principal sintoma?
+- queria saber se posso estar infetado com [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- sintomas associados à [doença]{"entity": "pt_virus", "value": "COVID"}
+- Dores de cabeça tambem sao sintimaa?
+
+## intent:pt_covid_worry
+- A [doença]{"entity": "pt_virus", "value": "COVID"} deve me deixar preocupado?
+- A doença deve me deixar preocupado?
+- Acreditas que vai ficar tudo bem?
+- Assustada com a situação de não serem feitos testes nos lares na zona do Alentejo(Portalegre).
+- Como diminuir o impacto psicológico da pandemia COVID-19 na sociedade portuguesa?
+- Como proceder sobre preocupações com a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Como proceder sobre preocupações com a doença.
+- Como proceder sobre preocupações com o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Como proceder sobre preocupações com o surto.
+- Como proceder sobre preocupações com o vírus.
+- complicada esta situação.
+- Deverei estar preocupado com o surto?
+- Devo estar preocupado com o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Devo estar preocupado com o vírus?
+- Devo me preocupar com [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Devo me preocupar com a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Devo me preocupar com a doença?
+- Devo me preocupar com COVID-19?
+- Devo me preocupar com o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Devo me preocupar com o surto?
+- Devo me preocupar com o vírus?
+- E se eu pegar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- E se eu pegar o vírus?
+- empatia
+- Este [vírus]{"entity": "pt_virus", "value": "COVID"} deve me deixar preocupada.
+- Este vírus deve me deixar preocupada.
+- Estou afligida com o surto.
+- Estou angustiada com a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Estou angustiada com a doença.
+- Estou assustada com isto tudo
+- Estou muito preocupado com isto
+- Estou preocupada
+- estou preocupada com isso
+- Estou preocupado com a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Estou preocupado com a doença.
+- Estou preocupado com o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Estou preocupado com o surto.
+- Estou preocupado com o vírus.
+- Estou preocupado.
+- Eu tenho medo.
+- isso não é bom...
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} deve me deixar preocupado?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} é grave?
+- O COVID-19 deve me deixar preocupado?
+- O que fazer para canalizar a preocupação?
+- O que fazer para canalizar as preocupações?
+- O que fazer para canalizar o medo?
+- O vírus é grave?
+- Opção 1: Preocupação com o surto
+- Preocupação com o surto
+- Quais as fontes fidedignas de informação?
+- Sofro de ansiedade por causa do surto.
+- Tenho medo de pegar o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Tenho medo de pegar o vírus.
+- Tenho medo do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Tenho medo do vírus.
+
+## intent:pt_covid_pregnancy
+- As mulheres grávidas são mais suscetíveis à infeção ou têm maior risco de doenças graves, morbidade ou mortalidade com o [COVID-19]{"entity": "pt_virus", "value": "COVID"}, em comparação com o   público em geral?
+- As mulheres grávidas são mais suscetíveis à infeção ou têm maior risco de doenças graves, morbidade ou mortalidade com o COVID-19, em comparação com o público em geral?
+- As mulheres grávidas são mais suscetíveis à infeção?
+- complicações na gravidez
+- Estou grávida, devo estar preocupada?
+- grávidas
+- Gravidez e [covid]{"entity": "pt_virus", "value": "COVID"}
+- Gravidez e covid
+- Mulheres grávidas e [covid]{"entity": "pt_virus", "value": "COVID"}
+- Mulheres grávidas e covid
+
+## intent:pt_features_date
+- Consegues dizer a data de hoje?
+- Consegues dizer a data?
+- Consegues dizer hoje é que dia?
+- Consegues dizer o dia de hoje?
+- Consegues dizer o dia?
+- Consegues dizer qual a data de hoje?
+- Consegues dizer qual o dia de hoje?
+- Consegues dizer que dia é hoje?
+- Consegues dizer-me a data de hoje?
+- Consegues dizer-me a data?
+- Consegues dizer-me hoje é que dia?
+- Consegues dizer-me o dia de hoje?
+- Consegues dizer-me o dia?
+- Consegues dizer-me qual a data de hoje?
+- Consegues dizer-me qual o dia de hoje?
+- Consegues dizer-me que dia é hoje?
+- Consegues-me dizer a data de hoje?
+- Consegues-me dizer a data?
+- Consegues-me dizer hoje é que dia?
+- Consegues-me dizer o dia de hoje?
+- Consegues-me dizer o dia?
+- Consegues-me dizer qual a data de hoje?
+- Consegues-me dizer qual o dia de hoje?
+- Consegues-me dizer que dia é hoje?
+- Data de hoje.
+- Data referente a hoje.
+- Data.
+- Dia de hoje.
+- Diz a data de hoje.
+- Diz a data.
+- Diz em qual dia estamos hoje.
+- Diz o dia de hoje.
+- Diz o dia.
+- Diz qual a data de hoje.
+- Diz qual a data referente a hoje.
+- Diz qual o dia de hoje.
+- Diz qual o dia em que estamos.
+- Diz qual o dia estamos hoje.
+- Diz que dia é hoje.
+- Diz que o dia em que estamos.
+- Diz-me a data de hoje.
+- Diz-me a data.
+- Diz-me em qual dia estamos hoje.
+- Diz-me o dia de hoje.
+- Diz-me o dia.
+- Diz-me qual a data de hoje.
+- Diz-me qual a data referente a hoje.
+- Diz-me qual o dia de hoje.
+- Diz-me qual o dia em que estamos.
+- Diz-me qual o dia estamos hoje.
+- Diz-me que dia é hoje.
+- Diz-me que o dia em que estamos.
+- Dizes a data de hoje?
+- Dizes em que data estamos?
+- Dizes-me a data de hoje?
+- Dizes-me em que data estamos?
+- Em que dia estamos?
+- Eu não sei a data.
+- Hoje que dia é?
+- Hoje é que dia?
+- Não sei a data.
+- Não sei qual a data.
+- Podes dizer a data de hoje?
+- Podes dizer hoje é que dia?
+- Podes dizer o dia de hoje?
+- Podes dizer o dia?
+- Podes dizer qual o dia de hoje?
+- Podes dizer qual é a data?
+- Podes dizer que dia é hoje?
+- Podes dizer que dia é?
+- Podes dizer-me a data de hoje?
+- Podes dizer-me hoje é que dia?
+- Podes dizer-me o dia de hoje?
+- Podes dizer-me o dia?
+- Podes dizer-me qual o dia de hoje?
+- Podes dizer-me qual é a data?
+- Podes dizer-me que dia é hoje?
+- Podes dizer-me que dia é?
+- Podes-me dizer a data de hoje?
+- Podes-me dizer hoje é que dia?
+- Podes-me dizer o dia de hoje?
+- Podes-me dizer o dia?
+- Podes-me dizer qual o dia de hoje?
+- Podes-me dizer qual é a data?
+- Podes-me dizer que dia é hoje?
+- Podes-me dizer que dia é?
+- Qual dia é hoje?
+- Qual dia é?
+- Qual é a data de hoje?
+- Qual é a data?
+- Qual é a dia de hoje?
+- Que data é hoje?
+- Que data é?
+- Que dia é hoje?
+- Que dia é?
+- Quero saber a data.
+
+## intent:pt_features_time
+- As horas.
+- Como está o relógio?
+- Consegues dizer a hora, por favor?
+- Consegues dizer a hora?
+- Consegues dizer as horas que são?
+- Consegues dizer as horas?
+- Consegues dizer quais as horas?
+- Consegues dizer quais horas são agora?
+- Consegues dizer que hora é agora?
+- Consegues dizer que horas são agora?
+- Consegues dizer que horas são?
+- Consegues dizer-me a hora, por favor?
+- Consegues dizer-me a hora?
+- Consegues dizer-me as horas que são?
+- Consegues dizer-me as horas?
+- Consegues dizer-me quais as horas?
+- Consegues dizer-me quais horas são agora?
+- Consegues dizer-me que hora é agora?
+- Consegues dizer-me que horas são agora?
+- Consegues dizer-me que horas são?
+- Consegues-me dizer a hora, por favor?
+- Consegues-me dizer a hora?
+- Consegues-me dizer as horas que são?
+- Consegues-me dizer as horas?
+- Consegues-me dizer quais as horas?
+- Consegues-me dizer quais horas são agora?
+- Consegues-me dizer que hora é agora?
+- Consegues-me dizer que horas são agora?
+- Consegues-me dizer que horas são?
+- Diz a hora, por favor.
+- Diz a hora.
+- Diz as horas.
+- Diz quais são as horas.
+- Diz que hora é.
+- Diz que horas são agora.
+- Diz que horas são.
+- Diz-me a hora, por favor.
+- Diz-me a hora.
+- Diz-me as horas.
+- Diz-me quais são as horas.
+- Diz-me que hora é.
+- Diz-me que horas são agora.
+- Diz-me que horas são.
+- Dizes as horas que são?
+- Dizes as horas?
+- Dizes horas?
+- Dizes-me as horas que são?
+- Dizes-me as horas?
+- Dizes-me horas?
+- Dá as horas.
+- Dá-me as horas.
+- Gostaria de saber as horas.
+- Horas agora.
+- Horas de agora.
+- Horas.
+- Podes dizer as horas que são?
+- Podes dizer as horas?
+- Podes dizer que hora é agora?
+- Podes dizer que horas são agora?
+- Podes dizer que horas são?
+- Podes dizer-me as horas que são?
+- Podes dizer-me as horas?
+- Podes dizer-me que hora é agora?
+- Podes dizer-me que horas são agora?
+- Podes dizer-me que horas são?
+- Podes-me dizer as horas que são?
+- Podes-me dizer as horas?
+- Podes-me dizer que hora é agora?
+- Podes-me dizer que horas são agora?
+- Podes-me dizer que horas são?
+- Quais as horas?
+- Quais horas são agora?
+- Quais horas são?
+- Que horas são agora?
+- Que horas são?
+- Quero saber as horas.
+- Quero saber que horas são.
+- São que horas?
+- É que hora?
+
+## intent:pt_greeting_goodbye
+- Adeus
+- Adeusinho
+- Adieu
+- Adios
+- Agradeço a tua ajuda
+- até à próxima
+- Até amanhã
+- Até logo
+- Até loguinho
+- Até mais
+- Até mais ver
+- Au revoir!
+- Boa Noite
+- bye
+- Chegou a minha hora
+- Deixa-me ir
+- Despeço-me
+- Devia de ir andando
+- é tudo. até à próxima
+- Então tchau
+- Espero falar contigo novamente
+- Eu disse adeus
+- Eu quero ir
+- Eu tenho de ir
+- Eu tenho de ir a um sitio
+- Eu tenho que ir embora.
+- Fechando a sessão
+- Fica bem
+- Fico por aqui.
+- Foi fixe conhecer-te
+- Foi fixe conversar contigo
+- Foi fixe falar contigo
+- Fui
+- Hasta la pasta
+- Hasta la vista
+- Hasta!
+- Hora de ir
+- Indo
+- Já passou a minha hora
+- Mais nada. Adeus!
+- Muito grato pela informação dada. Adeus.
+- Obrigado Até mais logo
+- Obrigado pelo teu tempo.
+- Obrigado por o serviço
+- Obrigado, xauzinho.
+- Ok, xau
+- Podes encerrar a sessão
+- Preciso de ir
+- Preciso de pôr-me a caminho
+- Preciso ir embora.
+- Saindo da sessão
+- Saindo...
+- Tchau
+- Té amanhã
+- Tem um bom dia
+- Tenho de ir
+- Tenho de ir andando
+- Tenho que correr.
+- Tenho que ir agora.
+- Terminar e desligar
+- Vejo-te depois
+- Vemo-nos em breve.
+- Vemo-nos mais tarde
+- Voltarei a falar contigo
+- Voltarei mais tarde
+- Voltaremos a ver-nos
+- Vou andando
+- Vou dormir
+- Xau
+
+## intent:pt_greeting_hello
+- Alõ
+- Aloha
+- Boa Manhã
+- Boa noite
+- Boa tarde
+- Bom dia
+- Bon dia
+- Bonjour
+- chama-me camarada
+- Ciao
+- Como é que vai isso?
+- Como vai isso
+- Ei
+- Ei bot
+- ei tu
+- Ei, você!
+- Hello
+- hi
+- Hola
+- Meu nome é...
+- oi
+- Ola
+- Olá
+- Ola amigo
+- Olá amigo
+- Ola bom dia.
+- Olá bom dia.
+- Ola bot
+- Olá bot
+- Ola estou bem então e tu
+- Olá estou bem então e tu
+- Ola eu sou o
+- Olá eu sou o
+- Ola Helena
+- Olá Helena
+- Ola para ti
+- Olá para ti
+- Ola robô
+- Olá robô
+- Ola sou o
+- Olá sou o
+- Ola tudo bem
+- Olá tudo bem
+- Ola, eu sou o
+- Olá, eu sou o
+- Ola, o meu nome é
+- Olá, o meu nome é
+- Ora viva!
+- Prazer em conhecê-lo
+- Prazer em conhecer-te
+- Saudações
+- Shalom
+- Tão que tal?
+- Yello
+
+## intent:pt_greeting_how_are_you
+- Como Estás hoje?
+- Como andas?
+- Como te sentes
+- Como te sentes hoje?
+- Como tem sido o teu dia?
+- Como vai isso hoje
+- Como vais
+- Como vais andando
+- Como vais hoje?
+- Como vão as coisas?
+- Como é que andas hoje?
+- Como é que andas nesta tarde?
+- Como é que andas?
+- Espero que estejas bem.
+- Está tudo bem contigo
+- Está tudo bem?
+- Estás bem?
+- Oi como vai isso
+- Olá Helena! Como estás?
+- Olá, como está?
+- Olá, como vais
+- Que tal
+- Que tal isso
+- Que tal vai isso?
+- Tens andado bem
+- Tudo bem?
+- Tá tudo bem?
+- Tão e que tal
+- Tão que tal
+- como Está a ser o teu dia?
+- como Estás?
+- estás bem de saúde?
+- que tal vai
+- só queria perguntar como tem sido o teu dia
+- tudo bem por aí ?
+- Olá boa tarde tudo bem
+
+## intent:pt_mask_general
+- Devemos ou não usar máscara?
+- Devo usar máscara?
+- Devo usar uma máscara descartável para me proteger?
+- Devo usar uma máscara descartável?
+- Devo usar uma máscara médica para me proteger?
+- Devo usar uma máscara médica?
+- Devo usar uma máscara para me proteger?
+- Devo usar uma máscara?
+- Devo utilizar máscara?
+- Info medical mask.
+- Mask.
+- Máscara de informações.
+- Máscara descartável de informação.
+- Máscara descartável descartável.
+- Máscara descartável médica.
+- Máscara descartável.
+- Máscara médica descartável.
+- Máscara médica médica.
+- Máscara médica.
+- Máscaras descartáveis ​​descartáveis.
+- Máscaras descartáveis ​​para uso médico.
+- Máscaras descartáveis.
+- Máscaras médicas descartáveis.
+- Máscaras médicas médicas.
+- Máscaras médicas.
+- Máscaras.
+- Onde posso comprar máscaras?
+- Posso usar uma máscara descartável?
+- Posso usar uma máscara médica?
+- Posso usar uma máscara?
+- Quando deve ser usada uma máscara descartável.
+- Quando deve ser usada uma máscara médica.
+- Quando deve ser usada uma máscara.
+- Quando devo usar uma máscara descartável?
+- Quando devo usar uma máscara médica?
+- Quando devo usar uma máscara?
+- Quando posso usar máscara?
+- Quando posso usar uma máscara descartável.
+- Quando posso usar uma máscara médica.
+- Quando posso usar uma máscara.
+- Que tipo de máscara é recomendado?
+- Quem deve usar uma máscara descartável?
+- Quem deve usar uma máscara médica?
+- Quem deve usar uma máscara?
+- Quem pode usar uma máscara descartável?
+- Quem pode usar uma máscara médica?
+- Quem pode usar uma máscara?
+- Usar mascara previne?
+- Usar máscara é seguro?
+- devo usar máscara mas sim ou não
+- devo usar máscaras ? sim ou nao ?
+- mascara
+- ola, devo usar mascara?
+- porque de usar máscara
+- posso usar máscara/
+
+## intent:pt_mask_use_after
+- Atirar fora uma máscara.
+- Como deitar fora uma máscara descartável?
+- Como deitar fora uma máscara médica?
+- Como descartar uma Máscara
+- Como descartar uma máscara descartável usada?
+- Como descartar uma máscara descartável?
+- Como descartar uma máscara médica usada?
+- Como descartar uma máscara médica?
+- Como descartar uma máscara usada também?
+- Como descartar uma máscara usada?
+- Como eliminar uma máscara descartável usada?
+- Como eliminar uma máscara médica usada?
+- Como livrar-me de uma máscara?
+- Como me livrar de uma máscara?
+- Como proceder depois de usar uma máscara descartável?
+- Como proceder depois de usar uma máscara médica?
+- Como proceder depois de usar uma máscara?
+- Depois de usar uma máscara descartável.
+- Depois de usar uma máscara médica.
+- Depois de usar uma máscara.
+- Descartando uma máscara descartável.
+- Descartando uma máscara médica.
+- Descartando uma máscara.
+- Livrando-se de uma máscara descartável usada.
+- Livrando-se de uma máscara usada.
+- Livrar-me de uma máscara descartável.
+- Livrar-me de uma máscara médica.
+- Livrar-se de uma máscara médica usada.
+- O que fazer com uma máscara descartável usada?
+- O que fazer com uma máscara médica usada?
+- O que fazer com uma máscara usada?
+- descartar
+- Como retirar a máscara?
+
+## intent:pt_mask_use_put
+- Antes de colocar uma máscara descartável.
+- Antes de colocar uma máscara médica.
+- Antes de colocar uma máscara.
+- Antes de usar uma máscara descartável.
+- Antes de usar uma máscara médica.
+- Antes de usar uma máscara.
+- Colocando uma máscara descartável.
+- Colocando uma máscara médica.
+- Colocando uma máscara.
+- Colocar uma máscara descartável.
+- Colocar uma máscara médica.
+- Como Colocar uma Más...
+- Como acomodar uma máscara médica?
+- Como colocar uma máscara descartável?
+- Como colocar uma máscara médica?
+- Como colocar uma máscara?
+- Como por a máscara descartável.
+- Como por uma máscara descartável?
+- Como por uma máscara médica?
+- Como posso por uma máscara médica.
+- Como proceder antes de colocar uma máscara descartável?
+- Como proceder antes de colocar uma máscara médica?
+- Como proceder antes de colocar uma máscara?
+- Como proceder antes de usar uma máscara descartável?
+- Como proceder antes de usar uma máscara médica?
+- Como proceder antes de usar uma máscara?
+- Como usar máscara descartável.
+- Como usar uma máscara descartável.
+- Como usar uma máscara médica.
+- Como usar uma máscara.
+- Como usar uma máscara?
+- Como uso de forma correta uma máscara
+- O que fazer antes de colocar uma máscara descartável?
+- O que fazer antes de colocar uma máscara médica?
+- O que fazer antes de colocar uma máscara?
+- O que fazer antes de usar uma máscara descartável?
+- O que fazer antes de usar uma máscara médica?
+- O que fazer antes de usar uma máscara?
+- Pondo uma máscara médica.
+- Pondo uma máscara.
+- Por uma máscara descartável?
+- Procedimentos antes de colocar uma máscara descartável.
+- Procedimentos antes de colocar uma máscara médica.
+- Procedimentos antes de colocar uma máscara.
+- Procedimentos antes de usar uma máscara descartável.
+- Procedimentos antes de usar uma máscara médica.
+- Procedimentos antes de usar uma máscara.
+- Quero por uma máscara?
+- Tentar colocar uma máscara.
+- Tentar por uma máscara.
+- Usando uma máscara descartável.
+- Usando uma máscara médica.
+- Usando uma máscara.
+
+## intent:pt_myth_alcohol
+- A pulverização de cloro em todo o corpo pode matar o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- A pulverização de álcool em todo o corpo mata o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- A pulverização de álcool em todo o corpo pode matar o [novo coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Devo por cloro em todo o corpo.
+- Pulverização de cloro.
+- Usar álcool em todo o corpo.
+- cloro em todo o corpo.
+- se eu me cobrir de álcool
+- se eu me cobrir de álcool, o [vírus]{"entity": "pt_virus", "value": "COVID"} sairá
+- Álcool em spray.
+- Álcool em todo o corpo.
+- Alcóol eficácia 
+
+## intent:pt_myth_packages
+- Pacotes com [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Pacotes de países infectados.
+- Pacotes de áreas infectadas.
+- Pacotes infectados.
+- Receba cartas de países infectados.
+- Receba pacotes de países infectados.
+- Receba pacotes de áreas infectadas.
+- cartas de países infectados.
+- letras infectadas.
+- posso receber uma carta de uma área infectada?
+- É seguro receber um pacote de qualquer área em que o [COVID-19]{"entity": "pt_virus", "value": "COVID"} tenha sido relatado?
+- É seguro receber uma carta de qualquer área em que o [COVID-19]{"entity": "pt_virus", "value": "COVID"} tenha sido relatado?
+- posso receber encomendas?
+
+## intent:pt_myth_transmission_hot_areas
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} enfraquece em alta temperatura?
+- O clima quente vai parar o surto de [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+
+## intent:pt_patient_home
+- Alguns intfetados não são internados?
+- Os infetados podem não ser internados?
+- Quando é que os infectados não são internados?
+- Quando é que os infetados não precisam de ser internados?
+- Quando é que os infetados podem ficar em casa?
+- Todos os infetados precisam de ser internados?
+- É necessário o internamento em todos os casos?
+- É sempre necessário o internamento?
+
+## intent:pt_patient_referral
+- Como são encaminhados os doentes?
+- Como é o encaminhamento dos doentes?
+- Para onde são encaminhados os doentes?
+- Para onde vão os doentes?
+- São encaminhados para onde?
+
+## intent:pt_portugal_government_measures
+- Medidas do governo português.
+- medidas governo português
+- Medidas do governo
+- Quais são as medidas do governo português face à pandemia?"
+
+## intent:pt_portugal_ill_foreigner
+- Estou doente e não tenho médico de família.
+- Estou doente e sou estrangeiro.
+- No caso de estrangeiros e pessoas sem médico de família atribuído, quem devem contactar e como?
+- No caso de estrangeiros, quem devem contactar e como?
+- Sou estrangeiro e esto doente.
+- Sou estrangeiro e estou doente.
+
+## intent:pt_portugal_ill_no_covid
+- Estou a precisar de um médico, mas não tenho [covid]{"entity": "pt_virus", "value": "COVID"}.
+- Os utentes devem contactar o SNS24 diretamente?
+- Os utentes devem contactar os CSP diretamente ou apenas através do SNS24?
+- Os utentes devem contactar os CSP diretamente?
+- Os utentes sem suspeita de [COVID-19]{"entity": "pt_virus", "value": "COVID"} devem contactar quem?
+- Quem devem contactar os utentes sem suspeita de [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+
+## intent:pt_portugal_rates
+- Qual é a percentagem de casos de [doença]{"entity": "pt_virus", "value": "COVID"} grave por [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual é a percentagem de casos de [doença]{"entity": "pt_virus", "value": "COVID"} grave?
+- Qual é a percentagem de casos de [doença]{"entity": "pt_virus", "value": "COVID"} ligeira e grave por [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual é a percentagem de casos de [doença]{"entity": "pt_virus", "value": "COVID"} ligeira e grave?
+- Qual é a percentagem de casos de [doença]{"entity": "pt_virus", "value": "COVID"} ligeira por [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual é a percentagem de casos de [doença]{"entity": "pt_virus", "value": "COVID"} ligeira?
+
+## intent:pt_prevention_clean_hands
+- A limpeza das mãos impedirá a captura do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- A limpeza das mãos impedirá a captura do vírus?
+- A limpeza das mãos impedirá a infecção da [doença]{"entity": "pt_virus", "value": "COVID"}?
+- A limpeza das mãos impedirá a infecção da doença?
+- com o quê devo lavar as mãos?
+- como desinfetar as mãos?
+- Como devo lavar as mãos?
+- Como higienizar as mãos?
+- como lavar as maos
+- Como lavar corretamente as mãos?
+- devo lavar as mãos
+- DEvo lavar as mãos com o quê?
+- devo lavar as mãos como?
+- É necessário lavar a cada quanto tempo?
+- Eu não tenho auco em gel como eu posso lava as minhas mãos
+- Importância da limpeza das mãos.
+- Importância de lavar as mãos.
+- Importância de ter as mãos limpas.
+- Lavando as mãos
+- Lavar as mãos evita que a [doença]{"entity": "pt_virus", "value": "COVID"} se manifeste?
+- Lavar as mãos evita que a doença se manifeste?
+- Lavar as mãos impedirá a captura do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Lavar as mãos impedirá a captura do vírus?
+- Lavar corretamente as mãos?
+- Lavar minhas mãos com sabão reduzirá minhas chances de ser infectado?
+- Lave as mãos
+- Limpando as mãos
+- Limpar minhas mãos com álcool ajuda a reduzir minhas chances de ser infectado?
+- Limpar minhas mãos com sabão reduzirá minhas chances de ser infectado?
+- Limpeza das mãos
+- Mãos limpas
+- Por que a limpeza das mãos é importante?
+- Por que lavar as mãos é importante?
+- Por que lavar as mãos regularmente?
+- Por que lavar as mãos?
+- Por que limpar as mãos regularmente?
+- Por que mãos limpas?
+- Posso desinfectar as mãos com álcool?
+- Prevenção de lavagem das mãos
+- Prevenção de lavar as mãos
+- Prevenção de mãos limpas
+- Quais formas devo manter a higiene?
+- quais os agentes que podem ser utilizados com eficácia para desinfetar as mãos?
+- Qual a importância de lavar as mãos?
+- Quantas vezes se deve lavar as mãos com
+- Quão importante é ter as mãos limpas?
+- Que gel devo utilizar para desinfetar as mãos?
+- Sobre a limpeza de mãos.
+- Sobre como lavar as mãos.
+
+## intent:pt_prevention_distance
+- A que distância devo estar de alguém a tossir ou espirrar?
+- A que distância devo estar de alguém que espirra?
+- A que distância devo estar de alguém que está espirrando?
+- A que distância devo estar de alguém que está tossindo?
+- A que distância devo estar de alguém que tosse ou espirra?
+- A que distância devo estar de alguém tossindo?
+- Distância das pessoas que espirram.
+- Distância das pessoas que tossem.
+- Distância das pessoas.
+- Distância de pessoas que tossem ou espirram.
+- Distância de segurança aconselhada de pessoas com espirros.
+- Distância preventiva.
+- Distância segura das pessoas que espirram.
+- Distância segura das pessoas que tossem.
+- Distância segura das pessoas.
+- Distância segura de pessoas com espirros.
+- Distância segura de pessoas com tosse.
+- Distância segura de pessoas que tossem ou espirram.
+- Distância segura.
+- Qual é a distância segura das pessoas que espirram?
+- Qual é a distância segura das pessoas que tossem?
+- Qual é a distância segura das pessoas?
+- Qual é a distância segura de pessoas que tossem ou espirram?
+- Qual é a distância segura?
+- Qual a distância de afastamento
+
+## intent:pt_prevention_entering_home
+- Devo lavar os sacos de compras?
+- devo lavar os sapatos antes de entrar em casa?
+- Devo mudar de roupa ao chegar a casa?
+- Entrar em casa
+- limpeza de calçados
+- limpeza de sapatos
+- O que fazer ao entrar em casa?
+- Porque é que é qua quando entro em casa devo deixar os sapatos na rua?
+- quais os cuidados que devo ter ao chegar em casa?
+- quais os cuidados que devo ter ao entrar em casa?
+- Quando entro em casa devo deixar os sapatos na rua?
+- Que cuidados ter ao entrar em casa?
+- Tenho de deixar os sapatos na rua?
+
+## intent:pt_prevention_food
+- O que devo fazer à fruta que comprei no supermercado?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} transmite-se pela comida?
+- Que cuidados devo ter na preparação e confeção de alimentos?
+- É seguro trazer as compras para casa?
+
+## intent:pt_prevention_general
+- Como evitar o contágio
+- Como evitar?
+- Como me devo proteger do [COVID19]{"entity": "pt_virus", "value": "COVID"}?
+- Como me devo proteger?
+- Como posso evitar
+- Como posso evitar o contágio?
+- Como posso prevenir o contágio?
+- Como posso previnir o [covid]{"entity": "pt_virus", "value": "COVID"}?
+- Como reduzir as chances de propagação da [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Como reduzir as chances de propagação do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Como reduzir as chances de ser infectado?
+- Como é que eu poderei evitar ser contaminado com este novo [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Como é que eu poderei evitar ser contaminado com este novo [coronavirus]{"entity": "pt_virus", "value": "COVID"} Agora
+  que o mundo está assim um caos
+- Como é que eu poderei evitar ser contaminado com este novo [virus]{"entity": "pt_virus", "value": "COVID"}
+- Medidas de proteção necessárias.
+- Medidas de proteção para prevenir a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Medidas de proteção.
+- Medidas preventivas a usar.
+- Medidas preventivas para proteger contra [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Medidas preventivas.
+- Muito bem. Obrigada. Que sabes sobre as medidas preventivas?
+- O que fazer para evitar a propagação da [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O que fazer para me proteger do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O que fazer para se proteger do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O que posso fazer para impedir a propagação da [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O que posso fazer para me proteger e impedir a propagação de doenças?
+- O que posso fazer para me proteger?
+- Olá Helena! Que sabes sobre os métodos de prevenção?
+- Precauções a evitar.
+- Precauções a proteger.
+- Precauções a tomar.
+- Prevenção de infecção.
+- Prevenção.
+- Proteção de infecção.
+- Quais precauções devem ser tomadas?
+- Quais são as medidas preventivas?
+- Quais são os seus conselhos relacionados com [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- Que medidas posso tomar?
+- Que sabes sobre os métodos de prevenção?
+- Quero saber como prevenir a [doença]{"entity": "pt_virus", "value": "COVID"}
+- como ajudar
+- como posso lutar contra [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- diz-me o que devo fazer para evitar a propagaçao
+- diz-me o que devo fazer para evitar a propagaçao do [corona virus]{"entity": "pt_virus", "value": "COVID"}
+- medidas
+- medidas de prevenção
+- o que devo fazer para evitar a propagaçao do [corona virus]{"entity": "pt_virus", "value": "COVID"}
+- quais são os conselhos para combater a [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- quais são seus conselhos?
+- que medidas preventivas se devem tomar
+- vamos ajudar
+- . Medidas de segurança
+
+## intent:pt_prevention_gloves
+- Aconselharias a uso de luvas?
+- Devo usar luvas para me proteger?
+- E luvas?
+- Quando é que devo usar luvas?
+
+## intent:pt_prevention_home
+- Devo evitar contactos sociais se me sentir um pouco doente?
+- Devo ficar em casa se me sentir mal?
+- Devo ficar em casa se me sentir um pouco doente?
+- Devo ficar em casa?
+- Em que circunstâncias devo ficar em casa?
+- Em que condições devo ficar em casa?
+- Estou bem se ficar em casa?
+- Estou com febre ha 3 dias
+- Estou doente
+- Eu só tenho sintomas leves, devo ficar em casa?
+- Eu só tenho sintomas leves.
+- Eu tenho uma temperatura
+- Fico em casa.
+- Nao me sinto bem
+- Permaneço em casa.
+- Quando devo permanecer em casa.
+- Quando ficar em casa?
+- Se eu me sentir mal, devo ficar em casa?
+- Se ficar em casa, estou bem?
+- Se me sentir mal, devo ficar em casa?
+- Se tiver febre o que faço?
+- Será aconselhável ficar em casa?
+- Será melhor ficar em casa se me sentir mal?
+- Sinto sintomas leves de [doença]{"entity": "pt_virus", "value": "COVID"}, devo ficar em casa?
+- Sinto-me um pouco doente, devo ficar em casa?
+- Sinto-me um pouco doente, fico em casa?
+- Tenho febre
+- Tenho sintomas leves de [doença]{"entity": "pt_virus", "value": "COVID"}, devo ficar em casa?
+- Tenho sintomas ligeiros, devo ficar em casa?
+- We tiver febre o que faço?
+- febre
+- tenho de ficar em casa?
+- tenho dores no corpo mas não tenho febre
+
+## intent:pt_prevention_informed
+- Acreditas que nem todas as notícias sobre a [COVID-19]{"entity": "pt_virus", "value": "COVID"} são verídicas?
+- Devo acompanhar as notícias regularmente?
+- Devo acompanhar as notícias relacionadas à [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Devo acompanhar as notícias sobre o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Devo acompanhar as notícias?
+- Devo acompanhar regularmente as notícias sobre o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Devo ficar ciente das informações mais recentes sobre o surto de [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Devo me manter informado regularmente?
+- Devo me manter informado?
+- Devo seguir as notícias relacionadas ao [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Devo seguir as notícias relacionadas ao [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Devo verificar regularmente as últimas notícias?
+- Mantenha-se atualizado.
+- Mantenha-se informado.
+- Mitos
+- Podes falar sobre alguns mitos relacionados com a [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Por que devo acompanhar as notícias relacionadas ao [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Por que devo acompanhar as notícias relacionadas ao [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Por que devo acompanhar as notícias relacionadas à [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Por que devo estar ciente das informações mais recentes sobre o surto de
+  [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Por que devo verificar regularmente as últimas notícias?
+- Por que é importante acompanhar as notícias?
+- Por que é importante manter-se informado?
+- Siga as notícias.
+- É importante acompanhar as notícias?
+- É importante manter-se informado?
+
+## intent:pt_prevention_measures
+- A automedicação é eficaz contra o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- A automedicação, como antibióticos, é eficaz contra o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Devo fumar para evitar o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- Devo tomar automedicação para prevenir [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Devo tomar automedicação, como antibióticos, para prevenir o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Devo tomar remédios tradicionais à base de plantas para evitar o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- Devo usar várias máscaras para evitar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe algo que eu não deva fazer?
+- Existem medidas não eficazes contra o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existem medidas que não são eficazes contra o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Medidas não efetivas.
+- Medidas não eficazes.
+- O fumo é eficaz contra o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- O uso de várias máscaras é eficaz contra o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- Que medidas não são eficazes contra o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Tomar remédios tradicionais à base de plantas é eficaz contra o [COVID-2019]{"entity": "pt_virus", "value": "COVID"}?
+- o que não devo fazer para me proteger contra o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- o que não devo fazer?
+
+## intent:pt_prevention_medical_attention
+- Caso apresente algum destes, o que devo fazer ?
+- Caso tenha sintomas, quem devo contactar?
+- Caso tenha tosse e febre, o que é que devo fazer?
+- Como devo fazer se estiver infectado?
+- Como posso contactar a saude 24?
+- Como proceder em caso de dificuldade em respirar?
+- Como proceder em caso de febre, tosse e dificuldade em respirar?
+- Como proceder em caso de febre, tosse ou dificuldade em respirar?
+- Como proceder em caso de febre?
+- Como proceder em caso de surgimento de sintomas?
+- Como proceder em caso de tosse?
+- Como proceder se eu estiver com febre?
+- Como proceder se eu tiver febre, tosse e dificuldade em respirar?
+- Como proceder se eu tiver febre, tosse ou dificuldade em respirar?
+- Como proceder se eu tiver tosse?
+- Como proceder se tiver dificuldade em respirar?
+- Como sei que estou infectado?
+- Como sei se estou doente?
+- Como sei se estou infectado?
+- contacto com infectado
+- Devo ir ao hospital?
+- Devo ligar para a assistência médica se estiver doente?
+- Devo ligar para o serviço de saúde se estiver com tosse?
+- Devo ligar para o serviço de saúde se tiver dificuldade em respirar?
+- Devo ligar para o serviço de saúde se tiver febre, tosse e dificuldade em respirar?
+- Devo ligar para o serviço de saúde se tiver febre, tosse ou dificuldade em respirar?
+- Devo ligar para o serviço de saúde se tiver febre?
+- Devo procurar imediatamente atendimento médico se tiver febre?
+- E se a febre estiver alta?
+- Em quais casos devo entrar em contato com o serviço de saúde?
+- Estou com febre, tosse e dificuldade em respirar.
+- Estou com febre.
+- Estou com tosse.
+- Estou infectado, o que devo fazer?
+- eu tenho covid 19?
+- Eu tenho o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Eu tenho o vírus?
+- gostaria de saber o que é que eu poderei fazer ou a quem me posso dirigir se tiver sintomas de tosse, rouquidão ou febre?
+- Minha temperatura está acima de 38 graus, devo me preocupar?
+- Minha temperatura está acima de 38 graus.
+- Minha temperatura está acima de 39 graus. Devo me preocupar?
+- Não sei o que fazer se tiver o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Não sei o que fazer se tiver o vírus.
+- Não sei se tenho o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Não sei se tenho o vírus.
+- numero telefone
+- O que devo fazer se tiver sintomas?
+- O que fazer em caso de dificuldade em respirar?
+- O que fazer em caso de febre, tosse e dificuldade em respirar?
+- O que fazer em caso de febre, tosse ou dificuldade em respirar?
+- O que fazer em caso de febre?
+- o que fazer em caso de sintomas
+- O que fazer em caso de tosse?
+- O que fazer quando se tem sintomas
+- O que fazer se estiver com febre?
+- O que fazer se eu tiver dificuldade em respirar?
+- O que fazer se eu tiver febre, tosse e dificuldade em respirar?
+- O que fazer se eu tiver febre, tosse ou dificuldade em respirar?
+- O que fazer se eu tossir?
+- O que fazer se tiver infetado?
+- o que fazer se tiver sintomas?
+- O que fazer, caso tenhamos sintomas?
+- Olá Helena, tenho febre o que devo fazer?
+- Onde me dirijo se tiver sintomas?
+- perda de sentidos
+- Posso optar por me dirigir a um Hospital ?
+- Preciso de um médico.
+- Preciso de um médico. E agora?
+- qual é o número do sns24
+- Quando ligar para o serviço de saúde?
+- Quando procurar atendimento médico?
+- quando tenho de ir ao medico
+- que hospital?
+- sintomas procedimento
+- sou grupo de risco e estou com sintomas
+- Sou o António e gostaria de saber o que é que eu poderei fazer ou a quem me posso dirigir se tiver sintomas de tosse, rouquidão ou febre?
+- Tenho dificuldade em respirar.
+- Tenho febre e tosse, devo ir ao médico?
+- Tenho febre. O que devo fazer
+- tenho febre. Que devo fazer?
+- Tenho sintomas. O que fazer?
+
+## intent:pt_prevention_medicine
+- [vírus]{"entity": "pt_virus", "value": "COVID"} tem medicamentos especializados?
+- Acreditas que poderá existir cura para o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Acreditas que poderá existir cura para o vírus?
+- como curar esta [doença]{"entity": "pt_virus", "value": "COVID"}?
+- como curar esta doença?
+- como está o tratamento
+- como tratar os sintomas?
+- consegue destruir o [COVID-19]{"entity": "pt_virus", "value": "COVID"} em 48 horas... é verdade?
+- Convid 19 tem medicamentos especializados?
+- De que formas podem ser tratados os sintomas?
+- E existe vacina?
+- Existe algum medicamento para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe algum medicamento para tratar COVID-19?
+- Existe algum medicamento?
+- Existe tratamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe tratamento para COVID-19?
+- Existe um medicamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe um medicamento para COVID-19?
+- Existe um medicamento para o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe um medicamento para o COVID-19?
+- Existe um medicamento para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe um medicamento para tratar COVID-19?
+- Existe um medicamento?
+- Existe um tratamento?
+- Existe uma vacina para [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe uma vacina para COVID-19?
+- Existe uma vacina para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe uma vacina para tratar COVID-19?
+- Existe uma vacina, medicamento ou tratamento para o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Existe uma vacina, medicamento ou tratamento para o COVID-19?
+- Existe uma vacina, medicamento ou tratamento?
+- existe uma vacina?
+- Existe vacina para o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Existe vacina para o vírus?
+- Existe vacina?
+- Existem medicamentos para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Existem medicamentos para [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Existem medicamentos para COVID-19.
+- existem medicamentos para prevenir a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- existem medicamentos para prevenir a doença?
+- existem vacinas para prevenir a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- existem vacinas para prevenir a doença?
+- Existente cura
+- Há algum medicamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Há algum medicamento para COVID-19.
+- Há disponibilidade de medicamentos para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Há disponibilidade de medicamentos para tratar [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Há disponibilidade de medicamentos para tratar COVID-19.
+- Informação de medicamento para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Informação de medicamento para tratar COVID-19.
+- já existe vacina para o [virus]{"entity": "pt_virus", "value": "COVID"}?
+- Já existe vacina?
+- já tem vacina?
+- Mas como tratar os sintomas?
+- medicação
+- Medicamentos
+- para quando um tratamento?
+- Posso tomar aspirina para [covid]{"entity": "pt_virus", "value": "COVID"}?
+- Posso tomar aspirina para [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Posso tomar aspirina para covid?
+- Posso tomar aspirina?
+- quais os medicamentos utilizados para tratar a COVID-19?
+- Qual é a cura do [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual é a cura do coronavirus?
+- Qual é a cura?
+- Qual o medicamento ou medicamentos que estso a ser  utilizados no tratamento do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Qual o medicamento ou medicamentos que estso a ser  utilizados no tratamento do coronavirus.
+- Qual o medicamento ou medicamentos que estso a ser  utilizados no tratsmento do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Qual o medicamento ou medicamentos que estso a ser  utilizados no tratsmento do coronavirus.
+- Qual o tratamento para a [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual o tratamento para a COVID-19?
+- Qual o tratamento?
+- Quando chega a vacina?
+- Quando é que chega a vacina?
+- Quando será disponibilizada uma vacina para a [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quando será disponibilizada uma vacina para a COVID-19 em Portugal?
+- quando vai haver uma vacina?
+- Relativamente à vacina? Ouve se dizer que já se descobriu o fármaco que
+- Relativamente à vacina? Ouve se dizer que já se descobriu o fármaco que consegue destruir o [vírus]{"entity": "pt_virus", "value": "COVID"} em 48 horas... é verdade?
+- Relativamente à vacina? Ouve se dizer que já se descobriu o fármaco que consegue destruir o COVID-19 em 48 horas... é verdade?
+- remédio
+- Sobre drogas.
+- Sobre medicamentos para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre medicamentos para [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre medicamentos para COVID-19.
+- Sobre medicamentos para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre medicamentos para tratar [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre medicamentos para tratar COVID-19.
+- Sobre medicamentos.
+- Sobre o tratamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre o tratamento para COVID-19.
+- Sobre o tratamento.
+- Sobre um medicamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre um medicamento para COVID-19.
+- Sobre um medicamento para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre um medicamento para tratar COVID-19.
+- Sobre um medicamento.
+- Sobre um tratamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre um tratamento para COVID-19.
+- Sobre um tratamento.
+- Sobre uma droga.
+- Sobre uma vacina para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre uma vacina para COVID-19.
+- Sobre uma vacina para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre uma vacina para tratar COVID-19.
+- Sobre uma vacina, medicamento ou tratamento para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre uma vacina, medicamento ou tratamento para COVID-19.
+- Sobre uma vacina, medicamento ou tratamento.
+- Sobre uma vacina.
+- Sobre vacinas para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre vacinas para COVID-19."
+- Sobre vacinas para tratar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre vacinas para tratar [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre vacinas para tratar COVID-19.
+- Sobre vacinas, medicamentos ou tratamentos para [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Sobre vacinas, medicamentos ou tratamentos para COVID-19.
+- Sobre vacinas, medicamentos ou tratamentos.
+- Sobre vacinas.
+- Tratamento covid-19
+- Tratamento por vacina?
+- Tudo bem. Mas como tratar os sintomas?
+- Vacina
+- vacina [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- vacina covid-19
+- vacina disponivel?
+
+## intent:pt_prevention_respiratory_hygiene
+- Boa higiene respiratória.
+- Cobrindo a boca com lenço de papel ao tossir ou espirrar.
+- Cobrindo a boca com lenço de papel ao tossir.
+- Cobrindo a boca com lenço de papel quando espirrar ou tossir.
+- Cobrindo a boca com o cotovelo dobrado ao espirrar ou tossir.
+- Cobrindo a boca com o cotovelo dobrado ao espirrar.
+- Cobrindo a boca com o cotovelo dobrado ao tossir ou espirrar.
+- Cobrindo a boca com o cotovelo dobrado ao tossir.
+- Cobrindo a boca com tecido ao espirrar.
+- Cobrindo a boca e o nariz ao tossir ou espirrar.
+- Cobrindo a boca e o nariz com lenço de papel ao tossir ou espirrar.
+- Cobrindo a boca e o nariz com lenço de papel ao tossir.
+- Cobrindo a boca e o nariz com o cotovelo dobrado ao espirrar ou tossir.
+- Cobrindo a boca e o nariz com o cotovelo dobrado ao espirrar.
+- Cobrindo a boca e o nariz com o cotovelo dobrado ao tossir ou espirrar.
+- Cobrindo a boca e o nariz com o cotovelo dobrado ao tossir.
+- Cobrindo a boca e o nariz com tecido ao espirrar ou tossir.
+- Cobrindo a boca e o nariz com tecido ao espirrar.
+- Cobrindo a boca e o nariz durante a tosse.
+- Cobrindo a boca e o nariz enquanto espirra ou tosse.
+- Cobrindo a boca e o nariz enquanto espirra.
+- Cobrindo a boca enquanto espirra ou tosse.
+- Cobrindo a boca enquanto espirra.
+- Cobrindo a boca enquanto tosse.
+- Cobrindo a boca enquanto tossir ou espirrar.
+- Cobrindo o nariz ao tossir ou espirrar.
+- Cobrindo o nariz ao tossir.
+- Cobrindo o nariz com lenço de papel ao tossir ou espirrar.
+- Cobrindo o nariz com o cotovelo dobrado ao espirrar ou tossir.
+- Cobrindo o nariz com o cotovelo dobrado ao espirrar.
+- Cobrindo o nariz com o cotovelo dobrado ao tossir ou espirrar.
+- Cobrindo o nariz com o cotovelo dobrado ao tossir.
+- Cobrindo o nariz com tecido ao espirrar ou tossir.
+- Cobrindo o nariz com tecido ao espirrar.
+- Cobrindo o nariz com tecido ao tossir.
+- Cobrindo o nariz e a boca durante a tosse.
+- Cobrindo o nariz e a boca enquanto espirra ou tosse.
+- Cobrindo o nariz e a boca enquanto espirra.
+- Cobrindo o nariz e a boca enquanto tossir ou espirrar.
+- Cobrindo o nariz enquanto espirra ou tosse.
+- Cobrindo o nariz enquanto espirra.
+- Cobrir a boca e o nariz quando espirro ajudará a evitar a propagação?
+- Cobrir a boca e o nariz quando tossir ajudará a evitar a propagação?
+- Cobrir a boca quando tossir ajudará a evitar a propagação?
+- Cobrir minha boca quando espirro ajudará a evitar a propagação?
+- Cobrir o nariz quando espirro ajudará a evitar a propagação?
+- Cobrir o nariz quando tossir ajudará a evitar a propagação?
+- Como seguir uma boa higiene respiratória?
+- etiqueta respiratória
+- higien
+- higiene
+- higiéne
+- higienização
+- O que é uma boa higiene respiratória?
+- O que fazer ao tossir ou espirrar?
+- O que fazer ao tossir?
+- O que fazer quando espirrar ou tossir?
+- O que fazer quando espirrar?
+- Siga uma boa higiene respiratória.
+
+## intent:pt_prevention_touch
+- Deve-se evitar tocar na boca?
+- Devo evitar tocar meu nariz?
+- Devo evitar tocar minha boca?
+- Devo evitar tocar no meu rosto?
+- Devo evitar tocar nos meus olhos?
+- Informações sobre como não tocar na boca.
+- Informações sobre como não tocar no nariz.
+- Informações sobre como não tocar no rosto.
+- Informações sobre como não tocar nos olhos.
+- Informações sobre como tocar a boca.
+- Informações sobre como tocar no rosto.
+- Informações sobre como tocar nos olhos.
+- Informações sobre como tocar o nariz.
+- Mexer a boca.
+- O toque no nariz deve ser evitado?
+- O toque no rosto deve ser evitado?
+- O toque nos olhos deve ser evitado?
+- Olhos tocantes.
+- Por que devo evitar tocar meu nariz?
+- Por que devo evitar tocar meu rosto?
+- Por que devo evitar tocar meus olhos?
+- Por que devo evitar tocar minha boca?
+- Por que é importante não tocar na boca?
+- Por que é importante não tocar no nariz?
+- Por que é importante não tocar no rosto?
+- Por que é importante não tocar nos olhos?
+- Posso tocar meu nariz?
+- Posso tocar meu rosto?
+- Posso tocar minha boca?
+- Posso tocar na boca?
+- Posso tocar no nariz?
+- Posso tocar no rosto?
+- Posso tocar nos meus olhos?
+- Posso tocar nos olhos?
+- Rosto tocante.
+- Sobre como tocar no rosto.
+- Sobre como tocar nos olhos.
+- Sobre como tocar o nariz.
+- Sobre não tocar na boca.
+- Sobre não tocar no nariz.
+- Sobre não tocar no rosto.
+- Sobre não tocar nos olhos.
+- Sobre tocar na boca.
+- Tocando a boca.
+- Tocando no nariz.
+- Tocando no rosto.
+- Tocando nos olhos.
+- Tocar na boca.
+- Tocar na face.
+- Tocar no nariz.
+- Tocar nos olhos.
+- Toque na boca.
+- Toque na face.
+- Toque nariz.
+- Toque no nariz.
+- Toque nos olhos.
+- É importante não tocar na boca?
+- É importante não tocar no nariz?
+- É importante não tocar no rosto?
+- É importante não tocar nos olhos?
+
+## intent:pt_quarantine_children
+- E para quem precisa ficar em casa a cuidar de filhos ou netos, como é feito o pagamento da remuneração?
+- E para quem precisa ficar em casa a cuidar de filhos ou netos?
+- Há subsídios para apoio à família?
+- Que apoios tenho para ficar em casa com os meus filhos?
+- Subsídios para apoio à família há?
+- Subsídios para ficar em cada?
+- Tenho apoio financeiro?
+- finanças
+- há subsídios de apoio às famílias?
+- há subsídios para apoio às famílias?
+- Tenho alguma ajuda para ficar em casa com os meus filhos?
+
+## intent:pt_quarantine_dos_and_donts
+- Em casa, em isolamento profilatico sem saidas sociais, devo manter com os meus
+  familiares o distanciamento recomendado. Sendo qye ninguem tem sintomas nem
+  ninguem ssi de casa ha 15 dias
+- Eu quero saber se posso sair de casa!
+- Mas posso sair de casa?
+- Ok, e posso sair?
+- Pode-me ajudar a sair de casa. Pode ser?
+- Posso sair?
+- posso ir à rua?
+- posso sair à rua?
+
+## intent:pt_quarantine_toiletpaper
+- Porque é as pessoas andam a comprar tanto papel higiénico?
+- papel
+- papel higiénico?
+
+## intent:pt_sources
+- De onde é obtida a informação?
+- De onde é retirada a informação?
+- Direção geral de saúde
+- Organização mundial de saúde
+- Quais fontes são utilizadas?
+- Quais são as fontes utilizadas?
+- Sistema nacional de saúde
+- dgs
+- oms
+- sns
+- sns24
+- who
+- world health organization
+
+## intent:pt_spread_air
+- Dizem que o [Covid 19]{"entity": "pt_virus", "value": "COVID"} se transmite pelo ar é verdade?
+- Então e o bicho transmite-se pelo ar?
+- Espalhando pelo ar.
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} está espalhado pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode se espalhar pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser propagado pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa a disseminação do [COVID-19]{"entity": "pt_virus", "value": "COVID"} pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode se espalhar pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser propagado pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é propagado pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} que causa o [COVID-19]{"entity": "pt_virus", "value": "COVID"} é transmitido pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} é propagado pelo ar?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} é transmitido pelo ar?
+- Pode ser espalhado pelo ar?
+- Pode ser propagado pelo ar?
+- Pode ser transmitido por via aérea?
+- Propaga-se pelo ar?
+- Propagação pelo ar.
+- Propagação por via aérea.
+- Transmissão aérea.
+- Transmissão por via aérea.
+- Transmite-se pelo ar?
+- É possível a propagação do [vírus]{"entity": "pt_virus", "value": "COVID"} pelo ar?
+- É possível espalhar por via aérea?
+- É possível que o [vírus]{"entity": "pt_virus", "value": "COVID"} seja espalhado pelo ar?
+- É possível que o [vírus]{"entity": "pt_virus", "value": "COVID"} seja passado por via aérea?
+- É possível que o [vírus]{"entity": "pt_virus", "value": "COVID"} seja propagado pelo ar?
+- É possível que o [vírus]{"entity": "pt_virus", "value": "COVID"} seja transmitido por via aérea?
+- É possível ser enviado pelo ar?
+- É possível ser espalhado por via aérea?
+- É possível ser propagado pelo ar?
+- É possível ser transmitido por via aérea?
+- É possível transferir por via aérea?
+- É possível transmitir por via aérea?
+- é verdade que o [coronavirus]{"entity": "pt_virus", "value": "COVID"} se transmite através do ar?
+
+## intent:pt_spread_animals
+- Animal
+- Os animais podem espalhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} aos seres humanos?
+- Os animais podem espalhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Os animais podem espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"} para os seres humanos?
+- Os animais podem espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Os animais podem me infectar?
+- Os seres humanos podem se infectar com o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma fonte animal?
+- Os seres humanos podem se infectar com o [vírus]{"entity": "pt_virus", "value": "COVID"} de animais?
+- Os seres humanos podem ser infectados com o [COVID-19]{"entity": "pt_virus", "value": "COVID"} a partir de fontes
+  animais?
+- Os seres humanos podem ser infectados com o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de animais?
+- Os seres humanos podem ser infectados com o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de um animal?
+- Os seres humanos podem ser infectados com o [vírus]{"entity": "pt_virus", "value": "COVID"} da fonte de animais?
+- Os seres humanos podem ser infectados com o [vírus]{"entity": "pt_virus", "value": "COVID"} de um animal?
+- Os seres humanos podem ser infectados com o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma fonte animal?
+- Posso estar infectado com [COVID-19]{"entity": "pt_virus", "value": "COVID"} de um animal?
+- Posso estar infectado com o [vírus]{"entity": "pt_virus", "value": "COVID"} de animais?
+- Posso estar infectado com o [vírus]{"entity": "pt_virus", "value": "COVID"} de um animal?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} da fonte de animais?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de animais?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de um animal?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma fonte animal?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} da fonte de animais?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} de animais?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} de um animal?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma fonte animal?
+- Posso ser infectado com [COVID-19]{"entity": "pt_virus", "value": "COVID"} de animais?
+- Um animal pode espalhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Um animal pode espalhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} para humanos?
+- Um animal pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"} para os seres humanos?
+- Um animal pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Um animal pode me infectar?
+
+## intent:pt_spread_feces
+- Captura do [vírus]{"entity": "pt_virus", "value": "COVID"} através de excrementos.
+- Captura do [vírus]{"entity": "pt_virus", "value": "COVID"} através de fezes.
+- Captura do [vírus]{"entity": "pt_virus", "value": "COVID"} através do cocô.
+- Espalhando excrementos.
+- Espalhando pelo cocô.
+- Espalhe pelas fezes.
+- Espalhe pelo cocô.
+- Espalhe por excrementos.
+- Fezes de alguém infectado podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Infecção através de cocô.
+- Infecção por excrementos.
+- Infecção por fezes.
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser capturado através de cocô?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser capturado através de excrementos?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser pego através de fezes?
+- Pegue o [vírus]{"entity": "pt_virus", "value": "COVID"} através das fezes.
+- Pegue o [vírus]{"entity": "pt_virus", "value": "COVID"} através de excrementos.
+- Pegue o [vírus]{"entity": "pt_virus", "value": "COVID"} através do cocô.
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do cocô de alguém com a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do cocô de uma pessoa infectada?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} dos excrementos de alguém com a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} dos excrementos de uma pessoa infectada?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} nas fezes de alguém com a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Posso pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} nas fezes de uma pessoa infectada?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} através de excrementos?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} através de fezes?
+- Posso pegar o [vírus]{"entity": "pt_virus", "value": "COVID"} através do cocô?
+- Risco de pegar [COVID-19]{"entity": "pt_virus", "value": "COVID"} nas fezes de alguém com a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de pegar [COVID-19]{"entity": "pt_virus", "value": "COVID"} nas fezes de uma pessoa infectada.
+- Risco de pegar [COVID-19]{"entity": "pt_virus", "value": "COVID"} nos excrementos de alguém com a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de pegar [COVID-19]{"entity": "pt_virus", "value": "COVID"} nos excrementos de uma pessoa infectada.
+- Risco de pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do cocô de alguém com a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do cocô de uma pessoa infectada.
+
+## intent:pt_spread_general
+- [COVID-19]{"entity": "pt_virus", "value": "COVID"} espalhando.
+- Como a [doença]{"entity": "pt_virus", "value": "COVID"} se dissemina?
+- Como a [doença]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Como a [doença]{"entity": "pt_virus", "value": "COVID"} se espalha?
+- Como a [doença]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Como a [doença]{"entity": "pt_virus", "value": "COVID"} se propaga?
+- Como a [doença]{"entity": "pt_virus", "value": "COVID"} se transmite?
+- Como o [COVID-19]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Como o [COVID-19]{"entity": "pt_virus", "value": "COVID"} se espalha?
+- Como o [COVID-19]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Como o [COVID-19]{"entity": "pt_virus", "value": "COVID"} se propaga?
+- Como o [coronavírus]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Como o [coronavírus]{"entity": "pt_virus", "value": "COVID"} se espalha?
+- Como o [coronavírus]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Como o [coronavírus]{"entity": "pt_virus", "value": "COVID"} se propaga?
+- Como o se espalha o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Como o [vírus]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Como o [vírus]{"entity": "pt_virus", "value": "COVID"} se espalha?
+- Como o [vírus]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Como o [vírus]{"entity": "pt_virus", "value": "COVID"} se propaga?
+- Como o [vírus]{"entity": "pt_virus", "value": "COVID"} se transmite?
+- Como posso apanhar o [virus]{"entity": "pt_virus", "value": "COVID"}?
+- Como posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Como se espalha o [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Como se espalha o [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Como se espalha [ocoronavírus].
+- Como se espalha.
+- Como se espalha?
+- Como se move o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Como se multiplica a [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Como se multiplica o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Como se propaga [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Como se propaga o [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
+- Como se propaga o [vírus]{"entity": "pt_virus", "value": "COVID"}
+- Como se propaga.
+- Como se propaga?
+- Como se transmite?
+- Como é feita a transmissão do [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Como é que o coronavirus se transmite ?
+- Como é que o viros se espalha
+- Como é que se passa o [vírus]{"entity": "pt_virus", "value": "COVID"}
+- Como é transmitido
+- Disseminação [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Disseminação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Disseminação de [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Disseminação do [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Disseminação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Divulgação do [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Esquema de propagação de [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Formas de transmissão
+- Maneira de propagação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Modo como a [doença]{"entity": "pt_virus", "value": "COVID"} se dissemina.
+- Modo de propagação de [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Modo de propagação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Multiplicação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Proliferar o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Propagação
+- Propagação [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Propagação da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Propagação de [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Propagação de [coronavírus]{"entity": "pt_virus", "value": "COVID"}.
+- Propagação de [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Propagação do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Quais são as formas de contágio?
+- Sobre como a [doença]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Sobre como a [doença]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Sobre como ele se propaga.
+- Sobre como o [COVID-19]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Sobre como o [COVID-19]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Sobre como o [coronavírus]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Sobre como o [coronavírus]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Sobre como o [vírus]{"entity": "pt_virus", "value": "COVID"} se espalha.
+- Sobre como o [vírus]{"entity": "pt_virus", "value": "COVID"} se propaga.
+- Sobre como se espalha.
+- Spread [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Transmissão [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Transmissão da [doença]{"entity": "pt_virus", "value": "COVID"}.
+- Transmissão do [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- como esse [vírus]{"entity": "pt_virus", "value": "COVID"} funciona?
+- como o [covid]{"entity": "pt_virus", "value": "COVID"} se espalha?
+- como o [vírus]{"entity": "pt_virus", "value": "COVID"} é transmitido
+- como se espalha o [virus]{"entity": "pt_virus", "value": "COVID"}?
+- como é a transmissão
+- como é propagado o [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- como é transmitido o [Covid 19]{"entity": "pt_virus", "value": "COVID"}?
+- cómo se propagó el [virus]{"entity": "pt_virus", "value": "COVID"}
+- transmissão
+- Obrigado. Já agora como é que o [vírus]{"entity": "pt_virus", "value": "COVID"} se espalha? 
+
+## intent:pt_spread_no_symptoms
+- A pediatra dos meus miúdos acusou positivo de COVID 19, tivemos consulta com ela há 15 dias, à partida não haverá caso de alarme certo?
+- Alguém que não tem sintomas pode disseminar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém que não tem sintomas pode disseminar o vírus?
+- Alguém que não tem sintomas pode ser infeccioso?
+- Alguém que não tem sintomas pode transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém que não tem sintomas pode transmitir o vírus?
+- Alguém sem sintomas pode dispersar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode dispersar o vírus?
+- Alguém sem sintomas pode disseminar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode disseminar o vírus?
+- Alguém sem sintomas pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode espalhar o vírus?
+- Alguém sem sintomas pode me pegar o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode me pegar o COVID-19?
+- Alguém sem sintomas pode ser infeccioso?
+- Alguém sem sintomas pode transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Alguém sem sintomas pode transmitir o vírus?
+- Antes do aparecimento de sintomas, a pessoa pode transmitir a infeção?
+- antissomático
+- As pessoas sem sintomas podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- As pessoas sem sintomas podem transmitir o vírus?
+- assintomático
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em alguém que não apresenta sintomas?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em alguém sem sintomas?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser detectado por alguém sem sintomas?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser detectado por uma pessoa que não apresenta sintomas?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser disseminado por uma pessoa sem sintomas?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido por uma pessoa sem sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser adquirido através de alguém sem sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser contraido vindo de alguém assintomático?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em alguém que não apresenta sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em alguém sem sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em pessoas que não apresentam sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser detectado em pessoas sem sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser espalhado por uma pessoa sem sintomas?
+- O [vírus]{"entity": "pt_virus", "value": "COVID"} pode ser propagado numa pessoa sem sintomas?
+- O COVID-19 pode ser detectado em alguém que não apresenta sintomas?
+- O COVID-19 pode ser detectado por alguém sem sintomas?
+- O COVID-19 pode ser detectado por uma pessoa que não apresenta sintomas?
+- O COVID-19 pode ser disseminado por uma pessoa sem sintomas?
+- O COVID-19 pode ser transmitido por uma pessoa sem sintomas?
+- o que é uma pessoa asintomática
+- O vírus pode ser adquirido através de alguém sem sintomas?
+- O vírus pode ser contraido vindo de alguém assintomático?
+- O vírus pode ser detectado em alguém que não apresenta sintomas?
+- O vírus pode ser detectado em alguém sem sintomas?
+- O vírus pode ser detectado em pessoas que não apresentam sintomas?
+- O vírus pode ser detectado em pessoas sem sintomas?
+- O vírus pode ser espalhado por uma pessoa sem sintomas?
+- O vírus pode ser propagado numa pessoa sem sintomas?
+- Pessoas assintomáticas podem ser infecciosas?
+- Pessoas assintomáticas podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas assintomáticas podem transmitir o vírus?
+- Pessoas que não apresentam sintomas podem ser infecciosas?
+- Pessoas que não apresentam sintomas podem transmitir [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas que não apresentam sintomas podem transmitir COVID-19?
+- Pessoas que não apresentam sintomas podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas que não apresentam sintomas podem transmitir o vírus?
+- Pessoas que não apresentam sintomas podem transmitir?
+- Pessoas sem sintomas podem espalhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas sem sintomas podem espalhar COVID-19?
+- Pessoas sem sintomas podem espalhar?
+- Pessoas sem sintomas podem ser infecciosas?
+- Pessoas sem sintomas podem transmitir [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas sem sintomas podem transmitir COVID-19?
+- Pessoas sem sintomas podem transmitir?
+- Pessoas sem sintomas visíveis podem transmitir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Pessoas sem sintomas visíveis podem transmitir o vírus?
+- Posso adquirir [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso adquirir COVID-19 de pessoas sem sintomas?
+- Posso adquirir o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas?
+- Posso adquirir o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas?
+- Posso adquirir o vírus de alguém sem sintomas?
+- Posso adquirir o vírus de uma pessoa sem sintomas?
+- Posso apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso apanhar COVID-19 de pessoas sem sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas assintomáticas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas que não apresentam sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas visíveis?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} por uma pessoa assintomática?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} por uma pessoa sem sintomas?
+- Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas?
+- Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas?
+- Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de pessoas que não apresentam sintomas?
+- Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas?
+- Posso apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas?
+- Posso apanhar o COVID-19 de alguém que não apresenta sintomas?
+- Posso apanhar o COVID-19 de alguém sem sintomas?
+- Posso apanhar o COVID-19 de pessoas assintomáticas?
+- Posso apanhar o COVID-19 de pessoas que não apresentam sintomas?
+- Posso apanhar o COVID-19 de pessoas sem sintomas?
+- Posso apanhar o COVID-19 de uma pessoa que não apresenta sintomas visíveis?
+- Posso apanhar o COVID-19 de uma pessoa que não apresenta sintomas?
+- Posso apanhar o COVID-19 de uma pessoa sem sintomas?
+- Posso apanhar o COVID-19 por uma pessoa assintomática?
+- Posso apanhar o COVID-19 por uma pessoa sem sintomas?
+- Posso apanhar o vírus de alguém que não apresenta sintomas?
+- Posso apanhar o vírus de alguém sem sintomas?
+- Posso apanhar o vírus de pessoas que não apresentam sintomas?
+- Posso apanhar o vírus de pessoas sem sintomas?
+- Posso apanhar o vírus de uma pessoa que não apresenta sintomas?
+- Posso apanhar o vírus de uma pessoa sem sintomas?
+- Posso contrair o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas?
+- Posso contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas?
+- Posso contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de pessoas assintomáticas?
+- Posso contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não mostra sintomas?
+- Posso contrair o COVID-19 de alguém que não apresenta sintomas?
+- Posso contrair o vírus de alguém que não apresenta sintomas?
+- Posso contrair o vírus de pessoas assintomáticas?
+- Posso contrair o vírus de uma pessoa que não mostra sintomas?
+- Posso ficar com o [vírus]{"entity": "pt_virus", "value": "COVID"} através de pessoas sem sintomas?
+- Posso ficar com o vírus através de pessoas sem sintomas?
+- Posso ficar contaminado com o [vírus]{"entity": "pt_virus", "value": "COVID"} por pessoas que não demonstram sintomas?
+- Posso ficar contaminado com o vírus por pessoas que não demonstram sintomas?
+- Posso ficar contaminado pelo [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas?
+- Posso ficar contaminado pelo vírus de uma pessoa sem sintomas?
+- Posso ficar contaminado por pessoas sem sintomas?
+- Posso ficar contaminado por pessoas sem sintomas?
+- Posso ficar doente com [COVID-19]{"entity": "pt_virus", "value": "COVID"} por uma pessoa que não apresenta sintomas?
+- Posso ficar doente com COVID-19 por uma pessoa que não apresenta sintomas?
+- Posso ser contagiado com [COVID-19]{"entity": "pt_virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso ser contagiado com COVID-19 de pessoas sem sintomas?
+- Posso ter [COVID-19]{"entity": "pt_virus", "value": "COVID"} vindo de pessoas que não apresentam sintomas?
+- Posso ter COVID-19 vindo de pessoas que não apresentam sintomas?
+- Posso ter o [vírus]{"entity": "pt_virus", "value": "COVID"} vindo de uma pessoa sem sintomas?
+- Posso ter o vírus vindo de uma pessoa sem sintomas?
+- posso transmitir vírus
+- Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas.
+- Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas.
+- Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não tem sintomas.
+- Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas.
+- Risco de apanhar COVID-19 de alguém sem sintomas.
+- Risco de apanhar COVID-19 de uma pessoa que não apresenta sintomas.
+- Risco de apanhar COVID-19 de uma pessoa que não tem sintomas.
+- Risco de apanhar COVID-19 de uma pessoa sem sintomas.
+- Risco de apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém que não tem sintomas.
+- Risco de apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas.
+- Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém que não apresenta sintomas.
+- Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de alguém sem sintomas.
+- Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa que não apresenta sintomas.
+- Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas.
+- Risco de apanhar o COVID-19 de alguém que não tem sintomas.
+- Risco de apanhar o COVID-19 de alguém sem sintomas.
+- Risco de apanhar o vírus de alguém que não apresenta sintomas.
+- Risco de apanhar o vírus de alguém sem sintomas.
+- Risco de apanhar o vírus de uma pessoa que não apresenta sintomas.
+- Risco de apanhar o vírus de uma pessoa sem sintomas.
+- Risco de contágio do [vírus]{"entity": "pt_virus", "value": "COVID"} por alguém sem sintomas.
+- Risco de contágio do vírus por alguém sem sintomas.
+- Risco de contrair o [vírus]{"entity": "pt_virus", "value": "COVID"} de uma pessoa sem sintomas.
+- Risco de contrair o vírus de uma pessoa sem sintomas.
+- Uma pessoa assintomática pode me passar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Uma pessoa assintomática pode me passar COVID-19?
+- Uma pessoa assintomática pode ser infecciosa?
+- Vimos numa informação que o contágio ocorre apenas 1 dia antes da apresentação de sintomas, é verdade?
+
+## intent:pt_spread_pets
+- animais de estimação
+- Animais domésticos
+- É possível apanhar a [doença]{"entity": "pt_virus", "value": "COVID"} vinda dos cães da família?
+- É possível apanhar a doença vinda dos cães da família?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de animais de companhia?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de animais de estimação?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de cães da família?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de cães?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de gatos da família?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} de gatos?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do cão da minha família?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do meu animal de companhia?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do meu animal de estimação?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do meu cão?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do meu gato da família?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} do meu gato?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} em animais de estimação da família?
+- É possível apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"} no meu animal de estimação da família?
+- É possível apanhar o vírus de animais de companhia?
+- É possível apanhar o vírus de animais de estimação?
+- É possível apanhar o vírus de cães da família?
+- É possível apanhar o vírus de cães?
+- É possível apanhar o vírus de gatos da família?
+- É possível apanhar o vírus de gatos?
+- É possível apanhar o vírus do cão da minha família?
+- É possível apanhar o vírus do meu animal de companhia?
+- É possível apanhar o vírus do meu animal de estimação?
+- É possível apanhar o vírus do meu cão?
+- É possível apanhar o vírus do meu gato da família?
+- É possível apanhar o vírus do meu gato?
+- É possível apanhar o vírus em animais de estimação da família?
+- É possível apanhar o vírus no meu animal de estimação da família?
+- É possível contrair o [virus]{"entity": "pt_virus", "value": "COVID"} através de cães?
+- É possível contrair o virus através de cães?
+- É possível estar infetado pelo meu gato de família?
+- É possível estar infetado pelo meu gato?
+- É possível estar infetado por gatos de família?
+- É possível o meu gato de família ter me passado o [virus]{"entity": "pt_virus", "value": "COVID"}?
+- É possível o meu gato de família ter me passado o virus?
+- É possível ser contaminado por animais de estimação da família?
+- É possível ser contaminado por animais de estimação?
+- É possível ser infetado pelo cachorro da minha família?
+- É possível ser infetado pelo cão da minha família?
+- É possível ser infetado pelo meu animal de companhia?
+- É possível ser infetado pelo meu animal de estimação da família?
+- É possível ser infetado pelo meu animal de estimação?
+- É possível ser infetado pelo meu cachorro?
+- É possível ser infetado pelo meu cão?
+- É possível ser infetado pelo meu gato?
+- É possível ser infetado por animais de companhia?
+- É possível ser infetado por animais de estimação da família?
+- É possível ser infetado por animais de estimação?
+- É possível ser infetado por cães da família?
+- É possível ser infetado por cães?
+- É possível ser infetado por gatos da família?
+- É possível ser infetado por gatos?
+- É possível vir a ser infetado por gatos?
+- Meu animal de estimação pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Meu animal de estimação pode espalhar o vírus?
+- Meu cão da família pode me infectar?
+- Meu cão pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Meu cão pode espalhar a doença?
+- Meu cão pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Meu cão pode espalhar o vírus?
+- Meu gato da família pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Meu gato da família pode apanhar o vírus?
+- Meu gato da família pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- Meu gato da família pode espalhar a doença?
+- Meu gato da família pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Meu gato da família pode espalhar o vírus?
+- Meu gato da família pode me infectar?
+- O cão da minha família pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O cão da minha família pode espalhar a doença?
+- O cão da minha família pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O cão da minha família pode espalhar o vírus?
+- O meu animal de companhia pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de companhia pode apanhar o vírus?
+- O meu animal de companhia pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de companhia pode espalhar a doença?
+- O meu animal de companhia pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de companhia pode espalhar o vírus?
+- O meu animal de companhia pode me infectar?
+- O meu animal de estimação da família pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação da família pode apanhar o vírus?
+- O meu animal de estimação da família pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação da família pode espalhar a doença?
+- O meu animal de estimação da família pode espalhar o [virus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação da família pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação da família pode espalhar o virus?
+- O meu animal de estimação da família pode me infectar?
+- O meu animal de estimação pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação pode apanhar o vírus?
+- O meu animal de estimação pode apanhar ou espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação pode apanhar ou espalhar o vírus?
+- O meu animal de estimação pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O meu animal de estimação pode espalhar a doença?
+- O meu animal de estimação pode me infectar?
+- O meu animal de estimação pode transmitir o [virus]{"entity": "pt_virus", "value": "COVID"} à família?
+- O meu animal de estimação pode transmitir o virus à família?
+- O meu cachorro pode me infectar?
+- O meu cão da família pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu cão da família pode apanhar o vírus?
+- O meu cão pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu cão pode apanhar o vírus?
+- O meu gato pode apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu gato pode apanhar o vírus?
+- O meu gato pode espalhar a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- O meu gato pode espalhar a doença?
+- O meu gato pode espalhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- O meu gato pode espalhar o vírus?
+- O meu gato pode me infectar?
+- Os animais domésticos podem transmitir o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Os animais domésticos podem transmitir o COVID-19?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do cão da minha família?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu animal de companhia?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu animal de estimação da família?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu animal de estimação?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu cachorro?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu gato de família?
+- Posso apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"} do meu gato?
+- Posso apanhar o [virus]{"entity": "pt_virus", "value": "COVID"} pelo meu animal de companhia?
+- Posso apanhar o COVID-19 do cão da minha família?
+- Posso apanhar o COVID-19 do meu animal de companhia?
+- Posso apanhar o COVID-19 do meu animal de estimação da família?
+- Posso apanhar o COVID-19 do meu animal de estimação?
+- Posso apanhar o COVID-19 do meu cachorro?
+- Posso apanhar o COVID-19 do meu gato de família?
+- Posso apanhar o COVID-19 do meu gato?
+- Posso apanhar o virus pelo meu animal de companhia?
+- Posso ficar doente através de animais de companhia?
+- posso pegar coronavirus do meu animal de estimação
+- posso pegar coronavirus do meu cão?
+- posso pegar coronavirus do meu gato?
+- Posso ser infetado pelo animal de estimação da minha família?
+- Posso ser infetado pelo cão da minha família?
+- Posso ser infetado pelo gato da minha família?
+- Posso ser infetado pelo meu animal de companhia?
+- Posso ser infetado pelo meu animal de estimação?
+- Posso ser infetado pelo meu cão?
+- Posso ser infetado pelo meu gato?
+
+## intent:pt_spread_risk
+- Chances de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de contrair o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de encontrar contagiado com [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de estar com [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de estar contaminado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de estar doente pelo [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de estar infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de estar infetado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de estar infetado por [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de ficar com o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de possuir o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de ser infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Chances de ter [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Gostaria de saber qual a probabilidade de contrair [COVID-19]{"entity": "pt_virus", "value": "COVID"}, devido à minha
+  profissão.
+- Quaais são as probabilidadas de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de ficar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de poder ser infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de ser conatminado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de ser infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Quais são as chances de ser infetado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual a probabilidade de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual a probabilidade de eu apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual a probabilidade de eu estar com [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual a probabilidade de eu estar infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual a probabilidade de eu estar infetado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Qual a probabilidade de eu o [vírus]{"entity": "pt_virus", "value": "COVID"} me ter infetado?
+- Qual a probabilidade de eu ser contagiado com [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Qual o risco de ficar infetado?
+- Qual o risco para [Portugal]{"entity": "pt_country_code", "value": "PT"}?
+- Que chances tenho de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho de estar infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho de estar infetado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho de possuir [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho de possuir o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho para apanhar o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Que chances tenho para apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}?
+- Risco de apanhar [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de apanhar o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de contrair o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de ser contaminado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de ser contrair o [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de ser infetado pelo [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de ser infetado pelo [vírus]{"entity": "pt_virus", "value": "COVID"}.
+- Risco de ter [COVID-19]{"entity": "pt_virus", "value": "COVID"}.
+- Trabalho numa Câmara Municipal, na recolha do lixo. Temos várias medidas de
+  prevenção, mas toda a minha família está em casa. Em teletrbalho, é os miúdos
+  como é do conhecimento geral estão sem aulas. Gostaria de saber qual a
+  probabilidade de contrair [COVID-19]{"entity": "pt_virus", "value": "COVID"}, devido à minha profissão.
+- posso estar infetado?
+- qual o risco de contrair a [doença]{"entity": "pt_virus", "value": "COVID"}?
+- risco
+
+## intent:pt_spread_surfaces_food_objects
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido através de alimentos, incluindo os refrigerados e congelados?
+- O [COVID-19]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido através de alimentos?
+- O [virus]{"entity": "pt_virus", "value": "COVID"} pode ser transmitido através de alimentos?
+- o coronavírus pode ser transmitido através dos alimentos?
+- O COVID-19 pode ser transmitido através de alimentos, incluindo os refrigerados e congelados?
+- O COVID-19 pode ser transmitido através de alimentos?
+- O virus pode ser transmitido através de alimentos?
+- Transmissão através de alimentos
+
+## intent:pt_state_emergency_info
+- Estado de emergência
+- O que é o estado de emergencia
+- O que é o estado de emergência
+- o que é estado de emergência?
+
+## intent:pt_state_emergency_run
+- Posso correr na rua?
+- Posso ir correr?
+- Posso sair à rua para fazer desporto?
+- posso continuar a praticar atividade fisica na cidade sozinho? 
+
+## intent:pt_stayhomeinfo_supermarket
+- Existem constrangimentos no abastecimento de bens e produtos em Portugal face
+  à pandemia?
+- O que devo fazer quando vou às compras?
+- Posso ir ao supermercado?
+- quão seguro é ir a um supermercado
+- Que cuidados devo ter no supermercado
+
+## intent:pt_test_general
+- Devo ser testado para o [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- despiste de [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+- o exame é necessário?
+- tenho de fazer o teste?
+- Como fazer um teste de [Covid19]{"entity": "pt_virus", "value": "COVID"}?
+
+## intent:pt_test_per_day
+- Quantos testes devem ser feitos por dia?
+- Quantos testes são feitos por dia?
+- Testes por dia?
+- quantos testes ao [covid]{"entity": "pt_virus", "value": "COVID"}  foram realizados diariamente em portugal ?
+- quantos testes ao [covid]{"entity": "pt_virus", "value": "COVID"} foram realizados diariamente em portugal nos ultimos 5
+  dias ?
+- quantos testes ao [covid]{"entity": "pt_virus", "value": "COVID"} foram realizados diariamente em portugal nos ultimos
+  dias ?
+- quantos testes foramrealizados diariamente em portugal ?
+- quantos testes são realizados diariamente em portugal ?
+
+## intent:pt_test_what
+- Como é efetuado o teste?
+- como é feito o teste da covid?
+- Como é feito o teste?
+- Como são efectuados os testes?
+- Como são efetuados os testes?
+- Como se fazem os testes ao coronavirus?
+- Como se processam os testes ao coronavirus?
+- O que é colhido para o teste?
+- O teste testa o quê?
+
+## intent:pt_test_where
+- Onde fazer o teste de [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Onde posso fazer o despiste?
+- Onde posso fazer o teste?
+- Onde posso fazer um teste?
+- Onde posso ser testada?
+- Onde posso ser testado?
+- Onde é feito o teste da [COVID-19]{"entity": "pt_virus", "value": "COVID"}?
+- Onde é feito o teste?
+- Posso fazer o teste em casa?
+- onde fazer o teste?
+- onde são os centros de testes [COVID-19]{"entity": "pt_virus", "value": "COVID"}
+
+## intent:pt_travel_after
+- Acabei de voltar de uma viagem.
+- Acabei de voltar do exterior.
+- Após a viagem.
+- Como devo proceder ao regressar da viagem.
+- Como faço após uma viagem
+- Como proceder ao retornar de viagem.
+- Como proceder após a viagem
+- Como proceder para retornar da viagem.
+- Como proceder regressar de viagem.
+- Depois de continuar o processo.
+- Depois de viajar.
+- O que fazer após a viagem.
+- O que fazer depois de viajar.
+- Procedimento após a viagem.
+- Procedimento após viajar.
+- Procedimentos após a viagem.
+- Procedimentos após viajar.
+- Processo após regresso de viagem.
+- Processo após uma viagem.
+- Processo após viagem.
+- Quando eu voltar de viajar.
+- Quando volto da viagem.
+- Viajando depois.
+- Voltei da viagem com tosse.
+- Voltei da viagem.
+- Voltei de viajar com tosse.
+- Voltei de viajar.
+- procedimento após uma viagem.
+- procedimento após viagem.
+- procedimentos após uma viagem.
+- procedimentos após viagens.
+- viajar depois.
+
+## intent:pt_travel_before
+- Antes da viagem.
+- Antes de viajar devo ter que precauções?
+- Antes de viajar.
+- Conselhos de viagem
+- Cuidados de viagem.
+- Estou a pensar em viajar
+- Estou planeando uma viagem.
+- Estou planeando viajar
+- Estou planeando viajar de férias.
+- Estou planeando viajar.
+- Estou viajando em breve.
+- Impacto do [virus]{"entity": "pt_virus", "value": "COVID"} no planeamento de férias.
+- O que antecipar antes da viagem?
+- O que antecipar antes de viajar?
+- O que devo fazer antes de viajar?
+- O que fazer antes de viajar?
+- O que prever antes da viagem?
+- O que prever antes de viajar?
+- Pontos a considerar antes da viagem.
+- Pontos a considerar antes de viajar.
+- Pontos a considerar ao realizar uma viagem.
+- Pontos a considerar ao viajar.
+- Precaução de viagem.
+- Precauções antes da viagem.
+- Precauções antes de viajar.
+- Precauções de viagem.
+- Preparação de viagens.
+- Preparação para viagens.
+- Prevenção para a viagem.
+- Que pontos a ter em atenção antes da viagem.
+- Quero viajar
+- Tenho um horário de viagem.
+- Viajando antes.
+- Viajar antes.
+- Vou viajar de férias.
+- Vou viajar em breve.
+- Vou viajar no futuro próximo.
+
+## intent:pt_travel_while
+- Atenções a ter durante a viagem.
+- Atenções a ter enquanto viaja.
+- Boas práticas durante a viagem.
+- Como devo me comportar durante a viagem?
+- Como devo me proteger durante a viagem?
+- Como devo proceder durante a viagem?
+- Como faço durante a viagem
+- Como proceder durante a viagem?
+- Como prosseguir durante a viagem?
+- Como se comportar durante a viagem?
+- Como se comportar durante uma viagem?
+- Como se comportar enquanto viaja?
+- Durante a viagem.
+- Enquanto viaja.
+- Enquanto viajo.
+- Mede durante a viagem.
+- Medidas a serem tomadas durante a viagem.
+- Medidas a serem usadas durante a viagem.
+- Medidas de proteção durante a viagem.
+- Medidas de proteção necessárias durante a viagem.
+- Medidas durante a viagem.
+- Medidas necessárias durante a viagem.
+- Medidas práticas durante a viagem.
+- Medidas uteis durante a viagem.
+- O que fazer durante a viagem?
+- O que fazer enquanto se viaja?
+- O que fazer enquanto viaja?
+- O que fazer na viagem?
+- Pratica durante a viagem.
+- Pratica enquanto viaja.
+- Pratique durante a viagem.
+- Pratique durante viagens.
+- Pratique enquanto viaja.
+- Procedimento enquanto a viaja.
+- Procedimentos durante a viagem.
+- Processo durante a viagem.
+- Processo enquanto a viaja.
+- Práticas enquanto viajo.
+- Recomendações durante a viagem.
+- Recomendações enquanto a viaja.
+- como viajar
+
+## intent:pt_user_angry
+- Estou a ferver de raiva
+- Estou a ficar furioso
+- Estou a ficar zangado.
+- Estou a sentir alguma raiva
+- Estou chateado Estou irritado
+- Estou cheio de raiva
+- Estou de mau humor
+- Estou exasperado
+- Estou furiosa.
+- Estou furioso
+- Estou indignado
+- Estou irada
+- Estou irado
+- Estou irritada
+- Estou irritado
+- Estou muito descontente
+- Estou num frenesim
+- Estou tão furioso!
+- Estou tão zangado!
+- Estou zangado
+- Estou-me a sentir furioso
+- Eu estou furioso
+- Neste momento estou a espumar da boca
+- Odeio-te tanto
+- Sinto o lado negro
+- Sinto raiva
+- Vais sentir a minha raiva
+- chegar a mostarda ao nariz
+- consegues sentir a minha ira?
+- está-me a saltar a tampa
+- hoje estou de mau humor
+
+## intent:pt_user_friend
+- Bora ser amigos
+- Deveríamos ser amigos
+- Embora ser melhores amigos!
+- Eu e tu somos amigos
+- Gostarias de ser meu amigo
+- Nós deveríamos ser amigos
+- Nós podíamos ser amigos
+- Nós somos amigos?
+- Podemos ser amigos
+- Poderias ser meu amigo?
+- Podes ser meu amigo?
+- Posso ter o prazer de ser teu amigo?
+- Posso ter o prazer de te ter como meu amigo?
+- Queres que sejamos amigos?
+- Queres ser amiga minha?
+- Queres ser amigo meu?
+- Queres ser meu amigo?
+- Queres ser minha amiga?
+- Quero fazer amizade contigo
+- Quero ter uma amizade contigo
+- Serás meu amigo?
+- Sê meu amigo
+- Sê meu amigo, por favor
+- Sê minha amiga?
+- Tenho de ser teu amigo
+- Tu e eu somos agora amigos
+- Tu e eu somos amigos?
+- Tu és meu amigo
+- Vamos ser amigos!
+- Vamos ser melhores amigos
+- eu quero ser teu amigo
+- queres ser o meu amigo?
+- És meu amigo?
+- És o meu melhor amigo?
+
+## intent:pt_user_happy
+- A vida é feliz.
+- Bom-humor
+- Estou a radiar de alegria
+- Estou a saltar de alegria
+- Estou alegre
+- Estou bem humorado
+- Estou contente
+- Estou contentíssimo
+- Estou de bom humor
+- Estou de sorriso posto
+- Estou eufórica
+- Estou extasiado
+- Estou extremamente feliz
+- Estou feliz
+- Estou jubiloso
+- Estou maravilhado
+- Estou mega feliz
+- Estou muito alegre
+- Estou muito contente
+- Estou muito feliz
+- Estou no céu
+- Estou radiante
+- Estou radiantissímo
+- Estou radioso
+- Estou realmente feliz
+- Estou resplandecente
+- Estou sempre risonho
+- Estou super alegre
+- Estou super contente
+- Estou tão contente
+- Estou tão feliz
+- Estou-me a sentir alegre
+- Estou-me a sentir eufórico
+- Estou-me a sentir feliz
+- Estou-me a sentir muito alegre
+- Estou-me a sentir muito bem!
+- Eu estou feliz
+- Hoje estou-me a sentir muito bem!
+- Neste momento sou uma pessoa radiante
+- Sinto uma imensa alegria!
+- Sinto-me bem humorado
+- Sinto-me exultante
+- Sinto-me mesmo bem
+- Sinto-me radiante
+- Sou uma pessoa alegre
+- andando por aí todo contente
+- cara feliz
+- cheio de alegria
+- estou eufórico!
+- sinto-me a radiar
+- sinto-me eufórica
+- sinto-me eufórico
+
+## intent:pt_user_love
+- Aceita o meu amor
+- Aceita o meu pedido de amor
+- Acho que estou apaixonado por ti
+- Acho que te amo
+- Amas-me
+- Apaixonei-me por ti
+- Casa comigo
+- Casa-te comigo
+- Casas comigo
+- Consegues amar-me
+- Dás-me a honra de casar contigo?
+- Embora sair juntos
+- Estou a cair de amores por ti
+- Estou a cair por ti
+- Estou a declarar-me a ti
+- Estou caído de amores por ti
+- Estou caído por ti
+- Estou-me a declarar a ti
+- Eu acho que te amo
+- Eu apaixonado por ti
+- Eu quero namorar contigo
+- Gostarias de casar comigo
+- Gostas muito de mim?
+- O que é o amor
+- Podemos ter um encontro
+- Podes dizer-me o quanto me amas
+- Por favor aceita o meu amor
+- Por favor ama-me
+- Por favor casa comigo
+- Posso casar contigo
+- Quando sairmos juntos
+- Que sentes por mim
+- Que tal sairmos juntos
+- Queres casar comigo?
+- Queres ser a minha alma gémea?
+- Quero casar contigo
+- Quero namorar contigo
+- Quero que cases comigo
+- Quero tanto namorar contigo
+- Sai comigo
+- Sinto amor por ti
+- Tu amas-me
+- Tu não me amas
+- Vamos sair juntos
+- dá-me a honra de casar contigo
+- namora comigo
+- não me amas
+- és a coisa mais maravilhosa à face da terra
+
+## intent:pt_user_no_data
+- Esqueci-me de trazer os meus dados comigo.
+- Esqueci-me de trazer os meus dados pessoais comigo.
+- Esqueci-me de trazer os meus dados pessoais.
+- Esqueci-me de trazer os meus dados.
+- Esqueci-me de trazer os meus documentos comigo.
+- Esqueci-me de trazer os meus documentos.
+- Esqueci-me de trazer os meus informação pessoal comigo.
+- Esqueci-me de trazer os meus informação pessoal.
+- Esqueci-me dos meus dados pessoais.
+- Esqueci-me dos meus dados.
+- Esqueci-me dos meus documentos.
+- Esqueci-me dos meus informação pessoal.
+- Neste momento não tenho comigo os meus dados pessoais.
+- Neste momento não tenho comigo os meus dados.
+- Neste momento não tenho comigo os meus documentos.
+- Neste momento não tenho comigo os meus informação pessoal.
+- Neste momento não tenho os meus dados comigo.
+- Neste momento não tenho os meus dados pessoais comigo.
+- Neste momento não tenho os meus dados pessoais.
+- Neste momento não tenho os meus dados.
+- Neste momento não tenho os meus documentos comigo.
+- Neste momento não tenho os meus documentos.
+- Neste momento não tenho os meus informação pessoal comigo.
+- Neste momento não tenho os meus informação pessoal.
+- Não tenho comigo os meus dados neste momento.
+- Não tenho comigo os meus dados pessoais neste momento.
+- Não tenho comigo os meus dados pessoais.
+- Não tenho comigo os meus dados.
+- Não tenho comigo os meus documentos neste momento.
+- Não tenho comigo os meus documentos.
+- Não tenho comigo os meus informação pessoal neste momento.
+- Não tenho comigo os meus informação pessoal.
+- Não tenho os meus dados comigo.
+- Não tenho os meus dados neste momento.
+- Não tenho os meus dados pessoais comigo.
+- Não tenho os meus dados pessoais neste momento.
+- Não tenho os meus dados pessoais.
+- Não tenho os meus dados.
+- Não tenho os meus documentos comigo.
+- Não tenho os meus documentos neste momento.
+- Não tenho os meus documentos.
+- Não tenho os meus informação pessoal comigo.
+- Não tenho os meus informação pessoal neste momento.
+- Não tenho os meus informação pessoal.
+- Não trago comigo os meus dados pessoais.
+- Não trago comigo os meus dados.
+- Não trago comigo os meus documentos.
+- Não trago comigo os meus informação pessoal.
+- Não trago os meus dados comigo.
+- Não trago os meus dados pessoais comigo.
+- Não trago os meus dados pessoais.
+- Não trago os meus dados.
+- Não trago os meus documentos comigo.
+- Não trago os meus documentos.
+- Não trago os meus informação pessoal comigo.
+- Não trago os meus informação pessoal.
+- Não trouxe comigo os meus dados pessoais.
+- Não trouxe comigo os meus dados.
+- Não trouxe comigo os meus documentos.
+- Não trouxe comigo os meus informação pessoal.
+- Não trouxe os meus dados comigo.
+- Não trouxe os meus dados pessoais comigo.
+- Não trouxe os meus dados pessoais.
+- Não trouxe os meus dados.
+- Não trouxe os meus documentos comigo.
+- Não trouxe os meus documentos.
+- Não trouxe os meus informação pessoal comigo.
+- Não trouxe os meus informação pessoal.
+
+## intent:pt_user_no_further_questions
+- Agora não!!!! Obrigada
+- Ajudaste-me com todas as minhas dúvidas, obrigada.
+- Ajudaste-me com todas as minhas dúvidas, obrigado.
+- Ajudaste-me com todas as minhas dúvidas.
+- Ajudaste-me com tudo o que precisava, obrigada.
+- Ajudaste-me com tudo o que precisava, obrigado.
+- Ajudaste-me com tudo o que precisava.
+- Ajudaste-me com tudo, obrigada.
+- Ajudaste-me com tudo, obrigado.
+- Ajudaste-me com tudo.
+- De momento mais nada, obrigado.
+- De momento mais nada.
+- é tudo
+- Elucidaste todas as minhas dúvidas, obrigada.
+- Elucidaste todas as minhas dúvidas, obrigado.
+- Elucidaste todas as minhas dúvidas.
+- Elucidaste todas as minhas perguntas, obrigada.
+- Elucidaste todas as minhas perguntas, obrigado.
+- Elucidaste todas as minhas perguntas.
+- Elucidaste todas as minhas questões, obrigada.
+- Elucidaste todas as minhas questões, obrigado.
+- Elucidaste todas as minhas questões.
+- Esclareceste todas as minhas dúvidas, obrigada.
+- Esclareceste todas as minhas dúvidas, obrigado.
+- Esclareceste todas as minhas dúvidas.
+- Esclareceste todas as minhas perguntas, obrigada.
+- Esclareceste todas as minhas perguntas, obrigado.
+- Esclareceste todas as minhas perguntas.
+- Esclareceste todas as minhas questões, obrigada.
+- Esclareceste todas as minhas questões, obrigado.
+- Esclareceste todas as minhas questões.
+- isso é tudo
+- isso é tudp
+- Já estou elucidada, obrigada.
+- Já estou elucidado, obrigado.
+- Já estou elucidado.
+- Já estou esclarecida, obrigada.
+- Já estou esclarecido, obrigado.
+- Já estou esclarecido.
+- Já me esclareceu o suficiente. Muito obrigado!
+- Mais nada, obrigada.
+- Mais nada, obrigado.
+- Mais nada.
+- nada mais
+- Nada, obrigada.
+- Nada, obrigado.
+- Nada.
+- Não de momento vou me atualizando mais obrigado
+- Não preciso de mais ajuda, obrigada.
+- Não preciso de mais ajuda, obrigado.
+- Não preciso de mais ajuda.
+- Não preciso de mais nada
+- Não tenh mais perguntas
+- Não tenho mais dúvidas, obrigada.
+- Não tenho mais dúvidas, obrigado.
+- Não tenho mais dúvidas.
+- Não tenho mais perguntas, obrigada.
+- Não tenho mais perguntas, obrigado.
+- Não tenho mais perguntas.
+- Não tenho mais questões, obrigada.
+- Não tenho mais questões, obrigado.
+- Não tenho mais questões.
+- Não, de momento vou-me atualizando
+- Não, de momento vou-me atualizando, mas obrigada
+- Obrigada pela tua ajuda.
+- Obrigada pelo tempo investido em mim.
+- Obrigada pelo teu tempo
+- Obrigado pela tua ajuda.
+- Obrigado pelo tempo investido em mim.
+- Obrigado pelo teu tempo
+- Por agora é tudo, obrigado.
+- Por agora é tudo, obrigado. Fiquei perfeitamente esclarecido.
+- Por agora não tenho mais perguntas.
+
+## intent:pt_user_particles
+- Aaha
+- Ah
+- Aham
+- Ahem!
+- Ahh
+- Hm
+- Hmm
+- Mh
+- Mhh
+- Mmh
+- Oh!
+- Okay. Não tem mal.
+- Okay. Sem problema.
+- Shh
+- Uh
+- Uhm
+- Um
+- Não tem mal. Obrigada. 
+
+## intent:pt_user_scared
+- Assustaram-me.
+- Assustaste-me.
+- Estou assustada.
+- Estou assustado.
+- Estou com medo.
+- Estou com muito medo.
+- Estou com tanto medo.
+- Estou muito assustada!
+- Estou muito assustado!
+- Estou super assustada!
+- Estou super assustado!
+- Estou tão assustada!
+- Estou tão assustado!
+- Estás a amedrontar-me.
+- Estás a assustar-me.
+- Estás a meter-me medo.
+- Estás-me a amedrontar.
+- Estás-me a assustar.
+- Isso é assustador.
+- Não me assustes.
+- Não me metas medo.
+- Não quero que me assustes.
+- Não quero ser assustada.
+- Não quero ser assustado.
+- Que assustador.
+- Que medo!
+- Que susto!
+
+## intent:pt_vocative_call
+- Ainda aqui estás?
+- Ainda aí andas
+- Ainda estás aqui?
+- Ainda estás aí?
+- Ainda estás comigo?
+- Ainda por aí
+- Estou de volta
+- Está aí?
+- Fala comigo
+- Faz-me companhia
+- Foste embora?
+- Mais sobre o que é que podemos falar
+- Olá outra vez
+- Podes falar comigo?
+- Por aí?
+- Por favor continua
+- Por favor não me deixes
+- Por favor não me deixes aqui sozinho
+- Por favor não me deixes sozinho
+- Por favor, fala comigo.
+- Quero ouvir-te
+- Quero-te continuar a falar contigo
+- Vais embora
+- continua
+- estás a entender
+- estás a ler
+- estás aí?
+- estás comigo?
+- estás por aí
+- estás presente
+- estás-me a ouvir
+- fala comigo fala comigo
+- já foste embora
+- já me deixaste
+- não acabes a conversa
+- não me deixes
+- não quero ficar sozinho
+
+## intent:pt_vocative_help
+- Ajuda!
+- Ajuda-me por favor!
+- Ajudas ou não
+- Assistência
+- Auxilio por favor
+- E que tal ajudares-me
+- Estou a precisar de ajuda
+- Eu preciso da sua assistência.
+- Eu preciso da tua assistência.
+- Gostarias de me audar
+- Poderias ajudar-me
+- Poderias ajudar-me aqui
+- Poderias auxiliar-me
+- Poderias dar-me uma ajudinha
+- Podes ajudar-me?
+- Podes auxiliar-me
+- Podes dar-me assistência?
+- Podes dar-me uma ajuda
+- Por favor ajuda-me
+- Por favor ajuda-me mais
+- Por favor dá-me uma ajuda
+- Preciso da sua ajuda
+- Preciso da tua ajuda.
+- Preciso de ser ajudado
+- Preciso de ser assistido
+- Que tal auxiliares-me
+- Que tal uma ajudinha
+- Socorro
+- Uma ajudinha por favor!
+- Vais ajudar-me?
+- Vais auxiliar-me
+- help
+- preciso de assistência.
+- Responde por favor
+
+## intent:pt_vocative_no
+- Claro que não.
+- De modo nenhum!
+- Definitivamente não
+- Fora de questão.
+- Nah
+- Naw
+- Nem por isso.
+- Nunca
+- Ná.
+- Polegar para baixo
+- Provavelmente não.
+- certamente que não
+- com certeza que não!
+- de jeito nenhum
+- em nenhuma circunstância
+- na ha
+- nada
+- negativa
+- negativo
+- nem num milhão de anos
+- nem pensar
+- nunca, de todo
+- nã
+- nã senhor
+- não
+- não na vida
+- não obrigado
+- não senhor
+- não senhora
+- só quando os porcos voarem
+- nope
+
+## intent:pt_vocative_sorry
+- As minhas desculpas.
+- Culpa minha
+- Desculpa
+- Desculpa pela minha atitude
+- Desculpa pelas minhas ações
+- Desculpa tanto
+- Desculpa-me
+- Desculpe
+- Desculpe por isso.
+- Desculpe-me
+- Devo-te um pedido de desculpa
+- Errei
+- Erro meu
+- Espero que me desculpes
+- Estou a desculpar-me
+- Estou a pedir desculpa
+- Eu estava errado
+- Foi culpa minha
+- Gostaria de me desculpar
+- Imploro por perdão
+- Isso foi errado da minha parte.
+- Lamento
+- Me perdoe
+- Minha culpa
+- Não tinha percebido bem
+- Perdoa-me
+- Perdoe-me.
+- Perdão
+- Queira perdoar
+- Queira perdoar-me.
+- Queria dizer-te peço desculpa
+- Sinceramente peço desculpas
+- Tinha percebido mal
+- Ups! Lamento
+- assumo toda a responsabilidade
+- peço desculpa
+- peço desculpas
+- peço imensa desculpa
+- peço perdão.
+- peço tanta desculpa
+- é culpa minha
+
+## intent:pt_vocative_thank_you
+- Agradecimentos muito.
+- Ajudaste-me imenso
+- Ajudaste-me obrigado
+- Aprecio muito
+- Bom trabalho.
+- Com gratidão
+- Como te posso recompensar
+- Confesso-me muito grata.
+- Estou-te grato.
+- Excelente Helena! Obrigada
+- Fizeste um ótimo trabalho.
+- Grazie.
+- Isso é incrível!
+- Isso é maravilhoso, obrigado
+- Merci
+- Mil vezes obrigado!
+- Muito bem. Obrigada, Helena.
+- Muito grato
+- Muito obrigado
+- Muito obrigado pelo teu auxilio
+- O meu humilde obrigado
+- Obrigada pela ajuda.
+- Obrigado
+- Obrigado Computador
+- Obrigado Helena
+- Obrigado do fundo do meu coração!
+- Obrigado pela tua bondade
+- Obrigado por dedicar tempo comigo
+- Obrigado por sua ajuda!
+- Obrigado por tudo.
+- Okay. Obrigada, Helena.
+- Orbigado
+- Que bom
+- Sou todo gratidão
+- Tu realmente ajudaste-me imenso
+- Tá bem, obrigado.
+- aceita a minha infinita gratidão
+- aceita a minha profunda gratidão
+- agradeço
+- agradeço imenso
+- agradeço imenso pela ajuda
+- agradeço-te
+- danke
+- estou muito agradecido
+- estou muito satisfeito
+- estou satisfeito
+- foi muito bom da tua parte
+- gracias
+- gratidão por tudo o que fizeste
+- muito obrigada!
+- não consigo agradecer o suficiente
+- o meu caloroso obrigado
+- o meu muito obrigado.
+- o meu muito sincero obrigado
+- obrigada
+- obrigadinha
+- obrigadinho
+- ok obrigada
+- por favor aceita os meus agradecimentos
+- profundo agradecimento
+- salvaste-me a vida.
+- se alguém merece agradecimento és tu
+- sincera gratidão
+- tudo o que posso dizer é obrigado
+- é difícil encontrar palavras que expressem a minha gratidão
+- és muito atencioso.
+- és muito prestável
+- és um salva-vidas
+- ótima conversa
+- ótima resposta
+- ótimo
+- ótimo trabalho.
+
+## intent:pt_vocative_yes
+- Afirmativo
+- Certo.
+- Claro que sim
+- Com certeza
+- Muito bem
+- Polegar para cima
+- Sem dúvidas
+- Sim
+- Sim claro.
+- Sim, por favor
+- Tá
+- Uhum.
+- afirmativamente
+- certamente
+- claro
+- de acordo
+- de fato
+- está bem
+- está certo
+- isso aí
+- mesmo na muche
+- na muche
+- naturalmente
+- no ponto
+- ok
+- okay
+- pois
+- pois é
+- postivo
+- sem dúvida
+- siim
+- sim sim
+- simm
+- totalmente
+- tá bem
+- verifico
+- yah
+- yep
+- é claro
+- Ah sim agora eu entendo
+
+## intent:pt_vocative_you_welcome
+- De nada.
+- Era o mínimo que podia fazer.
+- Era só o que podia fazer.
+- Fico feliz de ajudar.
+- No problemo.
+- Não foi nada.
+- Não há problema.
+- Não precisas de agradecer.
+- Não tens de quê.
+- Não é incómodo.
+- O prazer é todo meu!
+- Sem problema, Helena.
+- Sem problemas.
+
+## intent:pt_news_request
+- Quais são as últimas noticias?
+- Fala-me de noticias.
+- Diz-me as noticias
+- Quais são as noticias relacionadas
+- Faz-me um update das noticias
+- Noticias sobre [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Noticias sobre [virus]{"entity": "pt_virus", "value": "COVID"}
+- noticias
+- Que noticias tens
+- Quais são as noticias que sabes
+
+## intent: pt_covid_ibuprofen 
+- Ibuprofeno 
+- Ibuprofen 
+- Posso tomar Brufen? 
+- Ipubrufen 
+- Posso tomar ibuprofeno? 
+- Ipubrufeno 
+- Posso tomar aspirina 
+- posso tomar iboprufeno?
+
+## intent: pt_covid_sex 
+- Sexo e coronavirus 
+- Covid e atividades sexuais 
+- Atividades sexuais 
+- Sexo e covid 
+- Actividades sexuais 
+- Coronavirus e relações sexuais 
+- Relações sexuais e covid 
+- Coronavirus e atividades sexuais 
+- É verdad que nao se pode fazer sexo?se fizer cuales os cuidados? 
+- E actividade sexual? 
+- Coronavirus e sexo 
+- Covid 19 e atividades sexuais 
+- Covid 19 e relações sexuais 
+- Relações sexuais 
+- Sexo transmite covid? 
+- Actividade sexual é contagiosa? 
+- Sexo coronavirus? 
+
+## intent: pt_deconfinement_establishments 
+- Plano de desconfinamento portugal 
+- plano de desconfinamento 
+- Fases do plano de desconfinamento 
+- Que me podes dizer sobre a reabertura de estabelecimentos 
+- Estabelecimentos que podem abrir 
+- Quais os estabelecimentos que podem voltar a abrir? 
+- sou cabeleireira, posso reabrir o meu negócio? 
+- desconfinamento 
+- que estabelecimentos vão abrir? 
+- Onde posso consultar o plano de desconfinamento? 
+
+## intent: pt_economy_consequences 
+- Economia e [coronavirus]{"entity": "pt_virus", "value": "COVID"} 
+- Quais são as consequências do COVID-19 na Economia? 
+- Consequências economicas 
+- Okay. Mas efectivamente, este surto está a ter um impacto muito negativo na Economia. 
+- Dá-me informação sobre o impacto na Economia. 
+- Economia 
+
+## intent: pt_portugal_elders 
+- Os idosos são obrigados a ficar em casa? 
+- os idosos podem sair de casa em Portugal? 
+- Os idosos podem sair de casa? 
+- Os idosos podem sair à rua? 
+- Os idosos podem andar na rua? 
+- Idosos e sair de casa 
+- idosos podem sair de casa? 
+- sou idoso, posso ver meus netos? 
+
+## intent: pt_quarantine_general 
+- O que é o isolamento? 
+- O que é a quarentena? 
+- Isolamento profilático 
+- O que é a quarentena e o isolamento? 
+- Consegues definir "quarentena"? 
+- Isolamento 
+- O que é o isolamento profilático? 
+- Quarentena 
+- isolamento é bom? 
+
+## intent: pt_spread_phases 
+- Em que fase do surto está Portugal? 
+- fases de contágio 
+- Em que fase de transmissão estamos atualmente?
+
+## intent: pt_spread_washing_clothes 
+- desinfectar roupa 
+- A que temperatura devo lavar a roupa? 
+- Lavar roupa 
+- Há uma temperatura mínima para lavar a roupa quando há um caso confirmado de COVID-19 em casa? 
+- Temperatura lavar roupa. 
+- Temperatura ideal para lavar roupa 
+- Lavar a roupa a que temperatura? 
+- Temperatura para lavar roupa e matar o virus 
+- cuidados com a roupa 
+
+## intent: pt_state_calamity 
+- Estado de calamidade 
+- E depois do estado de emergência vem o quê? 
+- Calamidade pública 
+- O que é o estado de calamidade? 
+- estado de emergência e estado de calamidade qual a diferença? 
+- O que significa estado de calamidade? 
+- o que acontece após o estado de emergência? 
+- o que acontece após o estado de emergência em Portugal? 
+
+## intent: pt_state_emergency_end 
+- Situação de emergência em Portugal, até quando? 
+- Até quando dura o estado de emergência em Portugal? 
+- Por quanto tempo foi declarado o estado e emergência? 
+- Quando termina o estado de emergência? 
+- até quando dura o estado de emrgência em Portugal? 
+- Quantas vezes foi renovado o estado de emergência? 
+- Até que data é o estado de emergência em Portugal? 
+- até quando durará o estado de emergência em Portugal? 
+- Quantas vezes foi renovado o Estado de Emergência até hoje? 
+- Data de fim do Estado de Emergência? 
+- Data de fim do estado de emergencia em portugal? 
+- Quando foi declarado o Estado de Emergência em Portugal? 
+- quando finaliza o estado de emergência em Portugal? 
+- Quando acaba o estado de emergência em portugal? 
+- Qual é a data de fim do estado de emergência em Portugal? 
+- quando acaba o EStado de emergência? 
+
+## intent: pt_user_laugh 
+- Tu és mesmo engraçado 
+- sorriso 
+- sorrindo 
+- rolar pelo chão a rir 
+- rir 
+- rindo pelas costuras 
+- rindo alto 
+- Ok haha 
+- looool 
+- lool 
+- lol 
+- Isto é engraçado. 
+- isso foi muito engraçado 
+- isso é engraçado 
+- hehe 
+- hahahaha 
+- hahaha 
+- haha 
+- hah 
+- ha 
+- fazes-me rir 
+- és engraçado 
+- és bom em fazer as pessoas rir 
+- és bom a fazer as pessoas rir 
+- ahahahah 
+- ahahaha 
+- ahaha 
+- ahah 
+
+
+
+
+## synonym:en_lang
+- Cosibot Inglês
+
+<!--
+## synonym:pricelist
+- base price
+- pays
+- afford
+- payable
+- paid
+- paying
+- pay
+- rate
+- payment
+- payments
+- rates
+- expenditure
+- priced
+- expenditures
+- costing
+- charges
+- expenses
+- fees
+- charge
+- fee
+- expense
+- costs
+- pricing
+- cost
+- prices
+- lists of prices
+- lists with prices
+- pricelists
+- pricelist
+- price-list
+- list of prices
+- list with prices
+- price list
+
+## synonym:two
+- segunda
+- segundo
+- dois
+- "2"
+- two
+- Second
+
+## synonym:four
+- quarta
+- quarto
+- "4"
+- four
+- Fourth
+
+## synonym:eight
+- oitava
+- oitavo
+- oito
+- "8"
+- eight
+- Eighth
+
+## synonym:six
+- sexta
+- sexto
+- seis
+- "6"
+- six
+- Sixth
+
+## synonym:seven
+- sétima
+- sétimo
+- sete
+- "7"
+- seven
+- Seventh
+
+## synonym:three
+- terceira
+- terceiro
+- três
+- "3"
+- three
+- Third
+
+## synonym:nine
+- nona
+- nono
+- nove
+- "9"
+- nine
+- Ninth
+
+## synonym:ten
+- décima
+- décimo
+- dez
+- "10"
+- ten
+- Tenth
+
+## synonym:one
+- primeira
+- primeiro
+- um
+- "1"
+- one
+- First
+
+## synonym:five
+- quinta
+- quinto
+- cinco
+- "5"
+- five
+- Fifth
+
+## synonym:pet
+- animal de estimação
+- gato
+- cão
+- gatos
+- cães
+- animais de estimação
+- mascotes
+- mascote
+- animais de casa
+- animal de casa
+
+## synonym:address
+- morada
+- endereço
+- local
+- location
+- company address
+- addresses
+- address
+
+## synonym:phone
+- número de telemóvel
+- número de telefone
+- telemóveis
+- telefones
+- telemóvel
+- telefone
+- smartphones
+- cellphones
+- telephones
+- mobile
+- cellphone
+- telephone
+- phones
+- mobile phone
+- phone
+
+## synonym:e-mail
+- endereço de e-mail
+- endereço de mail
+- endereço de email
+- mail address
+- email address
+- mail
+- e mail
+- emails
+- email
+- e-mail-address
+- e-mail address
+- e-mail
+
+## synonym:contact
+- contato
+- contacto
+- contact information
+- contact details
+- contacts
+- contact
+
+## synonym:1
+- primeira opção
+- primeira
+- "1"
+- opção 1
+
+## synonym:2
+- segunda opção
+- segunda
+- "2"
+- opção 2
+
+## synonym:game
+- game
+- games
+- play
+- plays
+- gamble
+- gambles
+- Computerspiel
+- computer games
+- gaming
+- playing
+- role plays
+- role play
+
+## synonym:movie
+- película
+- pelicula
+- filme
+- teatro
+- teatros
+- cinamatógrafo
+- cinematografia
+- cinematography
+- filmmaking
+- DVD
+- cinematographer
+- theatres
+- theaters
+- cinemas
+- theatre
+- theater
+- cinematographic
+- cinéma
+- cinematic
+- screenplay
+- cinema
+- movies
+- films
+- film
+- movie
+
+## synonym:music
+- Folk
+- Rave
+- Punk
+- Country
+- Hit Charts
+- Charts
+- Hits
+- Folklore
+- Reggeaton
+- Bachata
+- Bluesrock
+- Rapper
+- Rap
+- Disco
+- Beat
+- Salsa
+- Hiphop
+- Hip Hop
+- Hip-Hop
+- Mambo
+- Lambada
+- Cha-Cha-Cha
+- Choir
+- Reggae
+- Bass
+- Drums
+- Guitars
+- Pianos
+- Funk
+- Gospel
+- Blues
+- classical music
+- Beethoven
+- Mozart
+- Tango
+- Swing
+- Soul
+- Instrumental
+- Heavy Metal
+- Hardrock
+- Ragtime
+- rockmusic
+- pop-music
+- pop
+- rock
+- classic
+- rock-music
+- drummers
+- drum
+- saxaphone
+- saxophones
+- violoncello
+- trumpet
+- banjo
+- harmonica
+- cello
+- tenor
+- violinists
+- flutist
+- guitarists
+- keyboardist
+- trumpeter
+- drummer
+- guitar
+- trombonist
+- saxophonists
+- percussionist
+- guitarist
+- sax
+- violin
+- vocalist
+- saxophonist
+- violinist
+- saxophone
+- vocalists
+- singer
+- piano
+- pianist
+- singers
+- singing
+- melody
+- musical
+- concerts
+- musician
+- melodies
+- song
+- concert
+- jazz
+- musics
+- tunes
+- songs
+- musicians
+- music
+
+## synonym:weather
+- tempo
+- seco
+- húmido
+- nuvens
+- geada
+- nublado
+- calor
+- frio
+- neve
+- sol
+- solarengo
+- chuva
+- vento
+- chuvoso
+- ventoso
+- tornadic
+- windy
+- winter
+- inundations
+- snowdrifts
+- hailstorm
+- thundershowers
+- flood
+- cyclone
+- typhoon
+- tornado
+- tornados
+- climatological
+- mudslides
+- droughts
+- hailstorms
+- tornadoes
+- hurricane
+- thunderstorms
+- floods
+- blizzard
+- hurricanes
+- climatic
+- winds
+- windstorms
+- snowy
+- snowing
+- thunderstorm
+- storm
+- flurries
+- monsoons
+- torrential
+- storms
+- raining
+- blizzards
+- snowstorms
+- snow
+- rainstorm
+- snows
+- snowmelt
+- rainy
+- rainstorms
+- snowfalls
+- snowstorm
+- downpour
+- rain
+- tempertures
+- climate
+- rainfalls
+- snowfall
+- humidities
+- rains
+- rainfall
+- dewpoints
+- forecasting
+- forcast
+- forecasts
+- temprature
+- forecast
+- temp
+- temperatures
+- temperature
+- weather
+
+## synonym:lotr
+- Sméagol
+- Meriadoc
+- Pregrin
+- Shelob
+- Faramir
+- Boromir
+- Éowyn
+- Balrog
+- Saruman
+- Sanwise
+- Bilbo
+- Baggins
+- Frodo
+- Elrond
+- Nazgûl
+- Arwen
+- Gandalf
+- Gimli
+- Legolas
+- Aragorn
+- Galadriel
+- Sauron
+- Gollum
+
+## synonym:game
+- jogos
+- jogo
+- jogar
+- role play
+- role plays
+- playing
+- gaming
+- computer games
+- Computerspiel
+- gambles
+- gamble
+- plays
+- play
+- games
+- game
+
+## synonym:joke
+- brincadeira
+- anedota
+- piada
+- alegre
+- divertido
+- engraçado
+- humoroso
+- cómico
+- humorista
+- humorist
+- comical
+- humourous
+- comedic
+- comedian
+- entertaining
+- humorous
+- amusing
+- comedy
+- humor
+- prank
+- humour
+- pranks
+- jokes
+- joking
+- joke
+
+## synonym:form_of_address
+- form of address
+
+## synonym:Mr
+- Mister
+- Mr
+- male
+- man
+- Sir
+- Mr.
+
+## synonym:Mrs
+- Mrs.
+- Ms
+- Miss
+- Mrs
+- woman
+- female
+- lady
+- Ms.
+
+## synonym:anal
+- anal
+- anus
+- arse
+- ass
+- ballsack
+- balls
+- bastard
+- bitch
+- biatch
+- bloody
+- blowjob
+- blow job
+- bollock
+- bollok
+- boner
+- boob
+- bugger
+- bum
+- butt
+- buttplug
+- clitoris
+- cock
+- coon
+- crap
+- cunt
+- damn
+- dick
+- dildo
+- dyke
+- fag
+- feck
+- fellate
+- fellatio
+- felching
+- fuck
+- f u c k
+- fudgepacker
+- fudge packer
+- flange
+- Goddamn
+- God damn
+- hell
+- homo
+- jerk
+- jizz
+- knobend
+- knob end
+- labia
+- lmao
+- lmfao
+- muff
+- nigger-->
+<!-- - nigga -->
+<!--- omg
+- penis
+- piss
+- poop
+- prick
+- pube
+- pussy
+- queer
+- scrotum
+- sex
+- shit
+- s hit
+- sh1t
+- slut
+- smegma
+- spunk
+- tit
+- tosser
+- turd
+- twat
+- vagina
+- wank
+- whore
+- wtf
+
+## synonym:church
+- judaism
+- presbytery
+- parishoner
+- rabbis
+- imam
+- preaching
+- calvinistic
+- calvinism
+- mormons
+- christology
+- theologies
+- churches
+- islamist
+- islam
+- lutheran
+- islamists
+- presbyterian
+- imams
+- moslem
+- islamic
+- theologian
+- gospel
+- theological
+- lutherans
+- presbyters
+- muslim
+- moslems
+- calvinist
+- lutheranism
+- presbyterianism
+- pentecostalism
+- shepherd
+- presbyterians
+- pasteur
+- baptist
+- baptists
+- ecclesiastics
+- pentecostals
+- calvinists
+- muslims
+- evangelicalism
+- theologians
+- churchgoers
+- priestly
+- pentecostal
+- theology
+- evangelicals
+- torah
+- clerical
+- chaplain
+- nun
+- bibles
+- evangelists
+- christianity
+- archdioceses
+- bible
+- orthodoxy
+- anglicanism
+- archdiocesan
+- churchmen
+- biblical
+- archbishopric
+- christian
+- protestantism
+- protestants
+- christians
+- parishoners
+- congregants
+- orthodox
+- protestant
+- episcopalians
+- catholicism
+- anglicans
+- evangelical
+- clergies
+- preachers
+- parochial
+- anglican
+- episcopalian
+- catholic
+- archbishops
+- cleric
+- catholics
+- episcopal
+- clerics
+- nuns
+- priesthood
+- bishops
+- archbishop
+- priest
+- ecclesiastical
+- diocesan
+- clergymen
+- clergyman
+- religion
+- bishop
+- vicar
+- dioceses
+- priests
+- religions
+- parishioner
+- reverend
+- clergy
+- preacher
+- basilica
+- pastors
+- parishes
+- archdiocese
+- parishioners
+- diocese
+- religious
+- pastor
+- congregation
+- cathedral
+- chapel
+- parish
+- church
+
+## synonym:no
+- não sigas
+- não seleciones
+- negative
+- nao
+- não
+
+## synonym:yes
+- seleciona
+- segue
+- afirmativo
+- yes
+- sim
+
+## synonym:video
+- trailers
+- trailer
+- footages
+- vids
+- clips
+- movies
+- clip
+- footage
+- videos
+- films
+- movie
+- film
+- video
+
+## synonym:photo
+- sketches
+- drawings
+- draws
+- pix
+- pic
+- shot
+- artwork
+- shots
+- illustration
+- galleries
+- pics
+- photographs
+- img
+- gallery
+- photography
+- drawing
+- photos
+- photograph
+- pictures
+- images
+- image
+- draw
+- picture
+- photo
+
+## synonym:datasheet
+- datasheet
+- data-sheet
+- spec sheet
+- product sheet
+- product datasheet
+
+## synonym:negative_emoticon
+- D
+- )
+- ">"
+- (
+- "%)"
+- "% -)"
+- ;(
+- :-((
+- :(((
+- :((
+- :(
+- ": |"
+- ": {"
+- ": c"
+- ": \\"
+- (-_-)
+- ": ["
+- ": X"
+- ": S"
+- ": L"
+- ": @"
+- ": <"
+- ": /"
+- ": -c"
+- ": -X"
+- :-(
+- -_-
+- :-[
+- :-?
+- ": -."
+- ": - ||"
+- ": - |"
+- ": - ["
+- ": - <"
+- ": - /"
+- ": - &"
+- ": - #"
+- ": ("
+- ": &"
+- ": $"
+- (._.)
+- (= _ =)
+- (> _ <)
+- (> _ <)>
+- (? _?)
+- ': "- ('
+- (_ _) !!
+- (~ _ ~)
+- 3:)
+- ': "('
+- ": #"
+- "',: - |"
+- (- "-)
+- (-.-)
+- "<: - |"
+- "> :("
+- "> :)"
+- ">: /"
+- ">: ["
+- ">: \\"
+- ">;)"
+- D =
+- "D-:"
+- D8
+- "D:"
+- "D: <"
+- D;
+- DX
+- "| -O"
+- "} :)"
+- "',: - l"
+
+## synonym:positive_emoticon
+- "]"
+- -]
+- ^)
+- "0"
+- -)
+- "|"
+- (* _ *
+- )
+- (@ _ @
+- :b
+- :->
+- :-*
+- :-]
+- ^. ^
+- ^_^
+- :>
+- x)
+- x-D
+- xD
+- "| ;-)"
+- "|-)"
+- :-)))
+- :-))
+- "(# ^. ^ #)"
+- (* ^ _ ^ *)
+- (* ^. ^ *)
+- (* _ *)
+- (* _ *;
+- (+ _ +)
+- (@ _ @)
+- (@ _ @;)
+- (O)
+- :)))
+- :))
+- :)
+- ": c)"
+- ": b"
+- ": ^)"
+- ": P"
+- ": D"
+- ": -}"
+- ": -b"
+- ": -]"
+- ": ->"
+- ": -,"
+- ": '-)"
+- ": ')"
+- 8D
+- 8-D
+- 8-)
+- 8)
+- 0^)
+- 0; ^)
+- (^ _ ^) /
+- (^ _ ^.)
+- (^ o ^)
+- (^ · ^)
+- (^ Â· ^)
+- (^.^)
+- (^^)
+- (^^) /
+- (^_^)
+- "* -)"
+- "*)"
+- 0 :)
+- 0 :-)
+- "0: -3"
+- (^ - ^)
+- (^ <^) (^. ^)
+- (^ O ^) /
+- (^ J ^)
+- (^ ^)
+- :3
+- :-P
+- ::-)
+- :-D
+- :-3
+- :--)
+- :D
+- :O)
+- :]
+- :v
+- :}
+- ; -]
+- ; ^)
+- ;)
+- ;-)
+- ;]
+- <3
+- <^! ^>
+- "> ^ _ ^ <"
+- ">: P"
+- B ^ D
+- LOL
+- O:)
+- O:-)
+- X-P
+- XP
+- ^ / ^
+- ^ _ ^
+- :-)
+
+## synonym:angry
+- infuriated
+- irritated
+- disgusted
+- angered
+- furious
+- outraged
+- upset
+- annoyed
+- enraged
+- mad
+- angry
+
+## synonym:racist
+- racist
+- Adolf Hitler
+- Hitler
+- nazi
+- racists
+- bigot
+- bigots
+
+## synonym:joke
+- joke
+- jokes
+- joking
+- anecdote
+- humor
+- humour
+- gag
+- gags
+- humorist
+- comical
+- humourous
+- comedic
+- comedian
+- entertaining
+- humorous
+- amusing
+- comedy
+- prank
+- pranks
+
+## synonym:music
+- music
+- singer
+- singers
+- singing
+- song
+- melody
+- melodies
+- rock-music
+- classic
+- rock
+- pop
+- pop-music
+- rockmusic
+- Ragtime
+- Hardrock
+- Heavy Metal
+- Instrumental
+- Soul
+- Jazz
+- Swing
+- Tango
+- Mozart
+- Beethoven
+- classical music
+- Blues
+- Gospel
+- Funk
+- Piano
+- Pianos
+- Guitar
+- Guitars
+- Drums
+- Bass
+- saxophone
+- Reggae
+- Choir
+- Cha-Cha-Cha
+- Lambada
+- Mambo
+- Hip-Hop
+- Hip Hop
+- Hiphop
+- Salsa
+- Beat
+- Disco
+- Rap
+- Rapper
+- Bluesrock
+- Bachata
+- Reggeaton
+- Folklore
+- Hits
+- Charts
+- Hit Charts
+- Country
+- Punk
+- Rave
+- Folk
+- songs
+- musics
+
+## synonym:website
+- page
+- web sites
+- web site
+- web pages
+- web page
+- links
+- link
+- webpages
+- homepage
+- webpage
+- websites
+- sites
+- site
+- website
+
+## synonym:photo
+- photo
+- picture
+- image
+- photos
+- pictures
+- images
+
+## synonym:favorite
+- favourite
+- favorite
+- favourites
+- favorites
+- preferred
+- beloved
+
+## synonym:summarize
+- succintly
+- concisely
+- summed
+- succinctly
+- succinct
+- concise
+- synopsis
+- summaries
+- summarised
+- summarizes
+- summary
+- summarising
+- summarized
+- summarizing
+- summarise
+- summerization
+- summerize
+
+## synonym:color
+- color
+- colour
+- colors
+- colours
+
+## synonym:have_to
+- can
+- could
+- might
+- would
+- pretending
+- wanna
+- ought
+- wish
+- pretend
+- will
+- want
+- must
+- have to
+
+## synonym:message
+- message
+- description
+- remark
+- comment
+- note
+-->
+## synonym:pneumonia_vaccine
+- vacinas de pneumonia
+- vacina de pneumonia
+- vacinas da pneumonia
+- vacina da pneumonia
+- pneumonia vaccine
+- pneumonia vaccines
+
+## synonym:garlic
+- alhos
+- alho
+- garlic
+- garlics
+
+## synonym:antibiotics
+- antibióticas
+- antibiótica
+- antibióticos
+- antibiótico
+- antibiotics
+- antibiotic
+
+## synonym:hand_dryer
+- secadores de mãos
+- secador de mão
+- secador de mãos
+- hand dryer
+- hand dryers
+
+## synonym:thermal scanner
+- scanners térmicos
+- scanner térmico
+- thermal scanner
+- thermal scanners
+
+## synonym:sesame_oil
+- sésamo
+- óleo de sésamo
+- sesame oil
+- sesame
+
+## synonym:uv_lamp
+- lâmpadas ultravioleta
+- lâmpadas uv
+- lâmpada uv
+- uv
+- ultravioleta
+- lâmpada ultravioleta
+- uv lamps
+- ultraviolet disinfection lamp
+- ultraviolet disinfection lamps
+- ultraviolet lamp
+- ultraviolet lamps
+
+## synonym:saline
+- salina
+- solução salina
+- salino
+- saline
+- saline solution
+<!--
+## synonym:racist
+- islamicists
+- islamists
+- jihadist
+- radicalisation
+- radicalization
+- nazis
+- subservience
+- nazi
+- fascists
+- stalinism
+- islamofacists
+- islamo
+- totalitarianism
+- bolshevism
+- jihadis
+- naziism
+- fascist
+- fascism
+- jihadists
+- neocons
+- nazism
+- islamism
+- islamofascism
+- jihadism
+- radical
+- islamofascists
+- zionism
+- subjugation
+- enslaved
+- extremists
+- slaves
+- zionist
+- islamofascist
+- semitic
+- zionists
+- slave
+- enslavement
+- radicalism
+- extremist
+- oppression
+- slavery
+- ethnocentricity
+- semites
+- supremacism
+- americanism
+- islamaphobic
+- islamophobes
+- extremism
+- islamaphobia
+- islamophobe
+- semitism
+- racisim
+- nationalistic
+- supremacists
+- antisemite
+- racialism
+- eurocentric
+- ethnical
+- colonialism
+- colonialist
+- semite
+- heterosexist
+- ethnocentrism
+- ethnicity
+- ethnocentric
+- islamophobia
+- supremacist
+- antisemitic
+- homophobe
+- xenophobia
+- racially
+- ethnic
+- xenophobic
+- homophobia
+- racialist
+- homophobic
+- racial
+- racism
+- racists
+- darkies
+- niggaz
+- negroes
+- racist
+- niggas
+- rascist
+- negro
+- niggers
+- nigga
+- Nigger
+
+## synonym:offense
+- nojento
+- idiota
+- ignorante
+- estúpido
+- parvo
+- buttheads
+- fools
+- muthafuckin
+- sucker
+- motherfuckin
+- slutty
+- homophobes
+- bullcrap
+- horny
+- schlong
+- psychos
+- muthafucka
+- crackpots
+- whacko
+- dufus
+- butthead
+- dork
+- dicks
+- hypocrite
+- nutballs
+- whiners
+- numbnuts
+- ahole
+- sickos
+- assclowns
+- niggas
+- homo
+- bigots
+- pussies
+- wackos
+- motherfucking
+- nutbags
+- pricks
+- whackjobs
+- fucks
+- nutjob
+- nutcases
+- hookers
+- dunderheads
+- fatass
+- crybabies
+- nutjobs
+- tards
+- retards
+- ignoramuses
+- boneheads
+- numbskulls
+- butts
+- halfwits
+- horseshit
+- bollocks
+- crappy
+- twats
+- shite
+- arseholes
+- dimwits
+- shitty
+- fuckwits
+- hypocrits
+- brainless
+- nitwits
+- tossers
+- homos
+- imbeciles
+- whores
+- cretins
+- fags
+- cocks
+- hypocrit
+- douchebags
+- fucktards
+- scum
+- dirtbag
+- asses
+- faggots
+- sluts
+- skank
+- cocksuckers
+- motherfuckers
+- bitches
+- scumbags
+- fuckers
+- jerks
+- wankers
+- butt
+- retarded
+- asshats
+- bastards
+- dickheads
+- shitheads
+- dipshits
+- morons
+- biatch
+- arse
+- cunts
+- jackasses
+- idiotic
+- assholes
+- retard
+- moronic
+- shits
+- dumb
+- dumbasses
+- idiots
+- bullshit
+- fool
+- cretin
+- cock
+- stupid
+- dick
+- jerk
+- dickhead
+- doofus
+- fuckwit
+- shitbag
+- assclown
+- ass
+- jackass
+- pussy
+- dimwit
+- fag
+- shit
+- asshat
+- fucktard
+- imbecile
+- douche
+- twat
+- idiot
+- slut
+- whore
+- dumbass
+- wanker
+- asswipe
+- moron
+- faggot
+- dipshit
+- prick
+- arsehole
+- cunt
+- scumbag
+- douchebag
+- shithead
+- cocksucker
+- bitch
+- bastard
+- fucker
+- motherfucker
+- asshole
+
+## synonym:movies
+- movies
+- film
+- films
+- DVD
+- movie
+- cinema
+
+## synonym:date
+- dia do mês
+- dia da semana
+- data
+- dia
+- day
+- datums
+- datum
+- date
+
+## synonym:time
+- tempo
+- horas
+- hours
+- hour
+- time
+- time of day
+
+## synonym:question
+- inquéritos
+- dúvidas
+- perguntas
+- questões
+- inquérito
+- dúvida
+- questão
+- pergunta
+- enquires
+- inquires
+- enquiries
+- inquiries
+- enquiry
+- questions
+- inquiry
+-->
+## synonym:EG
+- República Árabe do Egipto
+- República Árabe do Egito
+- Egipto
+- Egito
+- Arab Republic of Egypt
+- Egypt
+
+## synonym:EH
+- Aṣ-Ṣaḥrā’ al-Gharbīyah
+- Sáara Ocidental
+- Sara Ocidental
+- Saara Ocidental
+- Sahara Occidental
+- Taneẓroft Tutrimt
+- Western Sahara
+
+## synonym:ER
+- Estado da Eritreia
+- Ertrā
+- Eritreia
+- State of Eritrea
+- Eritrea
+- Dawlat Iritriyá
+- Hagere Ertra
+
+## synonym:ES
+- Reino de Espanha
+- Reino da Espanha
+- Espanha
+- Reiaume d'Espanha
+- Espainiako Erresuma
+- Regne d'Espanya
+- Reino de España
+- Kingdom of Spain
+- España
+- Spain
+
+## synonym:ET
+- República Democrática Federal da Etiópia
+- Etiópia
+- Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya
+- Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa
+- ityoppiah federalih demokrasih ummuno
+- Federal Democratic Republic of Ethiopia
+- Itoobiya
+- Itoophiyaa
+- Itiyoophiyaa
+- Ethiopia
+
+## synonym:FI
+- República da Finlândia
+- Finlândia
+- Republiken Finland
+- Suomen tasavalta
+- Republic of Finland
+- Suomi
+- Finland
+
+## synonym:FJ
+- República das Ilhas Fiji
+- Fidji
+- República das Fidji
+- Fíji
+- República das Fiji
+- República das Fíji
+- Matanitu Tugalala o Viti
+- Republic of Fiji
+- Fiji
+
+## synonym:FK
+- Falklands
+- Ilhas Falkland
+- Islas Malvinas
+- Ilhas Malvinas
+- Falkland
+- Malvinas
+- Falkland Islands Malvinas
+
+## synonym:FM
+- Micronésia
+- EFM
+- Estados Federados da Micronésia
+- Micronesia
+- FSM
+- Federated States of Micronesia
+
+## synonym:FO
+- Færeyjar
+- Ilhas Faroés
+- Ilhas Faroé
+- Ilhas Féroe
+- Ilhas Feroe
+- Færøerne
+- Føroyar
+- Faroe Islands
+
+## synonym:FR
+- República Francesa
+- França
+- République française
+- French Republic
+- France
+
+## synonym:GA
+- República Gabonesa
+- Gabão
+- République gabonaise
+- Gabonese Republic
+- Gabon
+
+## synonym:GB
+- Irlanda do Norte
+- Grã-Bretanha
+- Reino Unido da Grã-Bretanha e Irlanda do Norte
+- Reino Unido
+- Inglaterra
+- Northern Ireland
+- Great Britain
+- Britain
+- U.K.
+- UK
+- United Kingdom of Great Britain and Northern Ireland
+- United Kingdom
+
+## synonym:GD
+- Island of Spice
+- Ilha das Especiarias
+- La Grenade
+<!-- - Granada -->
+- Gwenad
+- Grenada
+
+## synonym:GE
+- República da Geórgia
+- Geórgia
+- sakartvelos resp'ublik'a
+- Republic of Georgia
+- Sakartvelo
+- Georgia
+
+## synonym:GF
+- Guyane française
+- Guiana Francesa
+- Department of French Guiana
+- Guyane
+- French Guiana
+
+## synonym:GG
+- Bailliage de Guernesey
+- Bailiwick of Guernsey
+- Bailiado de Guernsey
+- Guernesei
+- Guérnesei
+- Guernesey
+- Guernési
+- Guernsey
+
+## synonym:GH
+- República do Gana
+- Gana
+- Republic of Ghana
+- Ghana
+
+## synonym:GI
+- Gibraltar
+
+## synonym:GL
+- Gronelândia
+- Gronelandia
+- Groelândia
+- Groenlândia
+- Grønland
+- Kalaallit Nunaat
+- Greenland
+
+## synonym:GM
+- República da Gâmbia
+- Gâmbia
+- Republic of The Gambia
+- Gámbi
+- Kambiya
+- Gambia
+
+## synonym:GN
+- Renndaandi Ginea
+- Guinea-Conakry
+- French Guinea
+- Guinée française
+- République de Guinée
+- Republic of Guinea
+- Guinea
+
+## synonym:GP
+- Guadalupe
+- Gwadloup
+- Guadeloupe
+
+## synonym:GQ
+- República da Guiné Equatorial
+- République de Guinée équatoriale
+- República de Guinea Ecuatorial
+- Republic of Equatorial Guinea
+- Guiné Equatorial
+- Guinée équatoriale
+- Guinea Ecuatorial
+- Equatorial Guinea
+
+## synonym:GR
+- Hélade
+- República Helénica
+- República Helênica
+- Elláda
+- Grécia
+- Grecia
+- Ellinikí Dimokratía
+- Hellas
+- Hellenic Republic
+- Greece
+
+## synonym:GS
+- Geórgia do Sul
+- Sandwich do Sul
+- Ilhas Sandwich do Sul
+- Ilhas Geórgias do Sul e Sandwich do Sul
+- Ilhas Geórgia do Sul e Sanduíche do Sul
+- Ilhas Geórgia do Sul e Sandwich do Sul
+- South Georgia
+- South Sandwich Islands
+- SGSSI
+- South Georgia and the South Sandwich Islands
+
+## synonym:GT
+- República da Guatemala
+- República de Guatemala
+- Republic of Guatemala
+- Guatemala
+
+## synonym:GU
+- Guame
+- Guão
+- Guåhån
+- Guam
+
+## synonym:GW
+- Guiné Bissau
+- Guinea Bissau
+- República da Guiné-Bissau
+- Republic of Guinea-Bissau
+- Guiné-Bissau
+- Guinea-Bissau
+
+## synonym:GY
+- República Cooperativa da Guiana
+- Guiana
+- Co-operative Republic of Guyana
+- Guyana
+
+## synonym:HK
+- Hēunggóng
+- Xiānggǎng
+- HKSAR
+- Hong Kong Special Administrative Region
+- Hong Kong
+
+## synonym:HM
+- Ilhas McDonald
+- Ilhas Heard
+- Território das Ilhas Heard e McDonald
+- Ilha Heard e as Ilhas McDonald
+- HIMI
+- Heard Island and McDonald Islands
+
+## synonym:HN
+- República das Honduras
+- República de Honduras
+- Republic of Honduras
+- Honduras
+
+## synonym:HR
+- República da Croácia
+- Croácia
+- Republika Hrvatska
+- Republic of Croatia
+- Hrvatska
+- Croatia
+
+## synonym:HT
+- República do Haiti
+- Hayti
+- Repiblik D Ayiti
+- République d'Haïti
+- Republic of Haiti
+- Ayiti
+- Haïti
+- Haiti
+
+## synonym:HU
+- Hungria
+- Magyarország
+- Hungary
+
+## synonym:ID
+- República da Indonésia
+- Indonésia
+- Republik Indonesia
+- Republic of Indonesia
+- Indonesia
+
+## synonym:IE
+- Emerald Isle
+- Ilha Esmeralda
+- Irlanda
+- Ilha da Irlanda
+- Airlann
+- Éire
+- Ireland
+
+## synonym:IL
+- Dawlat Isrā'īl
+- Medīnat Yisrā'el
+- Estado de Israel
+- State of Israel
+- Israel
+
+## synonym:IM
+- Ilha de Man
+- Ellan Vannin
+- Mannin
+- Mann
+- Isle of Man
+
+## synonym:IN
+- República da Índia
+- Índia
+- Bhārat Gaṇarājya
+- Republic of India
+- Bhārat
+- India
+
+## synonym:IO
+- Território Britânico do Oceano
+- Território Britânico do Índico
+- British Indian Territory
+- British Indian Ocean
+- Território Britânico do Oceano Índico
+- TBOI
+- BIOT
+- British Indian Ocean Territory
+
+## synonym:IQ
+- Al-Jumhuriyah Al-Iraqiyah
+- República do Iraque
+- Iraque
+- Komarî Êraq
+- Republic of Iraq
+- Êraq
+- Iraq
+
+## synonym:IR
+- Pérsia
+- República Islâmica do Irão
+- República Islâmica do Irã
+- Irã
+- Irão
+- Jomhuri-ye Eslāmi-ye Irān
+- Persia
+- Islamic Republic of Iran
+
+## synonym:IS
+- Islândia
+- Ísland
+- Iceland
+
+## synonym:IT
+- República Italiana
+- Itália
+- Repubblica Italiana
+- Italian Republic
+- Italia
+- Italy
+
+## synonym:JE
+- Bailiado de Jersey
+- Jérsia
+- Jérsei
+- Bailliage dé Jèrri
+- Bailliage de Jersey
+- Bailiwick of Jersey
+- Jersey
+
+## synonym:JM
+- Jumieka
+- Jamaica
+
+## synonym:JO
+- Reino da Jordânia
+- Reino Haxemita da Jordânia
+- Jordânia
+- Jordania
+- Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah
+- Al-ʾUrdunn
+- Kingdom of Jordan
+- Hashemite Kingdom of Jordan
+- Jordan
+
+## synonym:JP
+- Estado do Japão
+- Japão
+- Nihon-koku
+- Nippon-koku
+- Nihon
+- Nippon
+- Japan
+
+## synonym:KE
+- República do Quênia
+- República do Quénia
+- Quênia
+- Quénia
+- Jamhuri ya Kenya
+- Republic of Kenya
+- Kenya
+
+## synonym:KG
+- República do Quirguizistão
+- República do Quirguistão
+- República Quirguiz
+- Quirguízia
+- Quirguizistão
+- Quirguistão
+- Киргизия
+- Kirghizia
+- Kyrgyzskaya Respublika
+- Кыргызская Республика
+- Kırğız Respublikası
+- Кыргыз Республикасы
+- Kyrgyz Republic
+- Kyrgyzstan
+
+## synonym:KH
+- Reino do Camboja
+- Cambodja
+- Camboja
+- Royaume du Cambodge
+- Kingdom of Cambodia
+- Cambodge
+- Kampuchea
+- Cambodia
+
+## synonym:KI
+- República de Quiribáti
+- República de Quiribati
+- República de Kiribati
+- Quiribati
+- Quiribáti
+- Ribaberiki Kiribati
+- Republic of Kiribati
+- Kiribati
+
+## synonym:KM
+- União de Comores
+- União das Comores
+- Comores
+- al-Ittiḥād al-Qamarī
+- al-Ittiḥād al-Qumurī
+- Umoja wa Komori
+- Union des Comores
+- Udzima wa Komori
+- Union of the Comoros
+- Comoros
+
+## synonym:KN
+- Nevis
+- Saint Kitts
+- Federação de São Cristóvão e Névis
+- Federação de São Cristóvão e Neves
+- São Cristóvão e Neves
+- São Cristóvão e Névis
+- Federation of Saint Christopher and Nevis
+- Saint Kitts and Nevis
+
+## synonym:KP
+- República Popular Democrática da Coreia
+- Coreia do Norte
+- Pukchosŏn
+- Chosŏn
+- Chosŏn Minjujuŭi Inmin Konghwaguk
+- DPR Korea
+- DPRK
+- North Korea
+- Democratic People's Republic of Korea
+
+## synonym:KR
+- República da Coreia
+- Coreia do Sul
+- Daehan Minguk
+- Namhan
+- Hanguk
+- South Korea
+- Republic of Korea
+
+## synonym:KW
+- Estado do Kuwait
+- Dawlat al-Kuwait
+- State of Kuwait
+- al-Kuwait
+- Kuwait
+
+## synonym:KY
+- Ilhas Caimão
+- Ilhas Cayman
+- Ilhas Caimã
+- Cayman Islands
+
+## synonym:KZ
+- República do Cazaquistão
+- Qazaqstan
+- Cazaquistão
+- Respublika Kazakhstan
+- Республика Казахстан
+- Qazaqstan Respýblıkasy
+- Қазақстан Республикасы
+- Republic of Kazakhstan
+- Kazakhstan
+
+## synonym:LA
+- République démocratique populaire lao
+- Saþalanalat Paxaþipatai Paxaxōn Lao
+- Lāo
+- Laos
+- Lao People's Democratic Republic
+
+## synonym:LB
+- República do Líbano
+- Liban
+- Líbano
+- République libanaise
+- al-Jumhūrīyah al-Lubnānīyah
+- Lebanese Republic
+- Lubnān
+- Lebanon
+
+## synonym:LC
+- Santa Lúcia
+- Iyonola
+- Sainte-Lucie
+- Saint Lucia
+
+## synonym:LI
+- Principado de Liechtenstein
+- Principado do Liechtenstein
+- Listenstaine
+- Fürstentum Liechtenstein
+- Principality of Liechtenstein
+- Liechtenstein
+
+## synonym:LK
+- Taprobana
+- Ceilão
+- República Democrática Socialista do Sri Lanka
+- Seri Lanca
+- Sri Lanca
+- Ilaṅkai
+- Śrī Laṃkā
+- Democratic Socialist Republic of Sri Lanka
+- Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu
+- Srī Lankā prajātāntrika samājavādī janarajaya
+- Sri Lanka
+
+## synonym:LR
+- República da Libéria
+- Libéria
+- Republic of Liberia
+- Liberia
+
+## synonym:LS
+- Bassutolândia
+- Reino do Lessoto
+- Reino do Lesoto
+- Lessoto
+- Lesoto
+- Muso oa Lesotho
+- Kingdom of Lesotho
+- Lesotho
+
+## synonym:LT
+- República da Lituânia
+- Lituânia
+- Lietuvos Respublika
+- Republic of Lithuania
+- Lietuva
+- Lithuania
+
+## synonym:LU
+- Grão-Ducado de Luxemburgo
+- Grão-Ducado do Luxemburgo
+- Luxemburgo
+- Großherzogtum Luxemburg
+- Grand-Duché de Luxembourg​
+- Groussherzogtum Lëtzebuerg
+- Grand Duchy of Luxembourg
+- Luxemburg
+- Lëtzebuerg
+- Luxembourg
+
+## synonym:LV
+- República da Letônia
+- Letônia
+- Letónia
+- Lețmō Vabāmō
+- Latvijas Republika
+- Republic of Latvia
+- Lețmō
+- Latvija
+- Latvia
+
+## synonym:LY
+- Estado da Líbia
+- Líbia
+- Dawlat Lībiyā
+- State of Libya
+- Lībiyā
+- Libya
+
+## synonym:MA
+- Reino de Marrocos
+- Murakuc
+- Amerruk
+- Marrocos
+- tageldit n lmaɣrib
+- Royaume du Maroc
+- The Western Kingdom
+- al-mamlakah al-maghribiyah
+- Kingdom of Morocco
+- Maroc
+- al-maġhrib
+- Morocco
+
+## synonym:MC
+- Principado de Mônaco
+- Principado do Mónaco
+- Mónaco
+- Principatu de Mùnegu
+- Principat de Mónegue
+- Principato di Monaco
+- Principauté de Monaco
+- Principality of Monaco
+- Monaco
+
+## synonym:MD
+- República da Moldova
+- República da Moldávia
+- Moldávia
+- Republica Moldova
+- Moldova
+- Republic of Moldova
+
+## synonym:ME
+- Црна Гора
+- Crna Gora
+- Montenegro
+
+## synonym:MF
+- São Martim
+- São Martinho parte francesa
+- Saint Martin
+- Sint Martin
+- Saint-Martin
+- Saint Martin French part
+
+## synonym:MG
+- República Malgaxe
+- República de Madagascar
+- República de Madagáscar
+- Madagáscar
+- Malagasy Republic
+- République de Madagascar
+- Repoblikan'i Madagasikara
+- Republic of Madagascar
+- Madagasikara
+- Madagascar
+
+## synonym:MH
+- República das Ilhas Marshall
+- Ilhas Marshall
+- Aolepān Aorōkin Ṃajeḷ
+- Republic of the Marshall Islands
+- Marshall Islands
+
+## synonym:MK
+- Macedónia
+- Macedônia
+- República da Macedónia do Norte
+- República da Macedônia do Norte
+- Severna Makedonija
+- Macedónia do Norte
+- Macedônia do Norte
+- Republika e Maqedonisë së Veriut
+- Република Северна Македонија
+- Republic of North Macedonia
+- Macedonia
+- North Macedonia
+- the Former Yugoslav Republic of Macedonia
+
+## synonym:ML
+- República do Mali
+- Máli
+- Renndaandi Maali
+- Mali ka Fasojamana
+- République du Mali
+- Republic of Mali
+- Mali
+
+## synonym:MM
+- República da União de Myanmar
+- Birmânia
+- Nainngandaw
+- Pyidaunzu Thanmăda Myăma
+- Republic of the Union of Myanmar
+- Burma
+- Myanmar
+
+## synonym:MN
+- Mongolian Nation
+- Mongol Uls
+- mongol nation
+- nação mongol
+- Mongolia
+
+## synonym:MO
+- Região Administrativa de Macau
+- Região Administrativa Especial de Macau
+- Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui
+- Jūng'wàh Yàhnmàhn
+- Macao Special Administrative Region
+- Macau
+- Macao
+
+## synonym:MP
+- Comunidade das Ilhas Marianas do Norte
+- Ilhas Marianas do Norte
+- Ilhas Marianas Setentrionais
+- Nördliche Marianen
+- Islas Marianas del Norte
+- Commonwealth Téél Falúw kka Efáng llól Marianas
+- Sankattan Siha Na Islas Mariånas
+- CNMI
+- Commonwealth of the Northern Mariana Islands
+- Northern Mariana Islands
+
+## synonym:MQ
+- Martinica
+- Matinik
+- Matnik
+- Martinique
+
+## synonym:MR
+- República Islâmica da Mauritânia
+- Mauritânia
+- al-Jumhūrīyah al-Islāmīyah al-Mūrītānīyah
+- République islamique de Mauritanie
+- Islamic Republic of Mauritania
+- Murutaane
+- Gànnaar
+- Moritani
+- Cengit
+- Agawej
+- Mauritanie
+- Mūrītānyā
+- Mauritania
+
+## synonym:MS
+- Emerald Isle of the Caribbean
+- The Emerald Isle of the Caribbean
+- Ilha Esmeralda das Caraíbas
+- Monserrate
+- Montserrat
+
+## synonym:MT
+- República de Malta
+- Repubblika ta' Malta
+- Republic of Malta
+- Malta
+
+## synonym:MU
+- République de Maurice
+- República de Maurício
+- República da Maurícia
+- Maurício
+- Maurícia
+- Repiblik Moris
+- Republic of Mauritius
+- Moris
+- Maurice
+- Mauritius
+
+## synonym:MV
+- República das Maldivas
+- Maldivas
+- Dhivehi Raajje
+- Dhivehi Raajjeyge Jumhooriyyaa
+- Republic of Maldives
+- Maldives
+
+## synonym:MW
+- Charu cha Malaŵi
+- Dziko la Malaŵi
+- Dziko la Malaŵi
+- Republic of Malawi
+- Malawi
+- República do Malawi
+- Malaŵi
+- Malaui
+- Maláui
+- Nyasaland
+
+## synonym:MX
+- Mexican United States
+- EUM
+- Estados Unidos Mexicanos
+- United Mexican States
+- Mēxihco
+- México
+- Mexico
+
+## synonym:MY
+- Malásia
+- Malaysia
+
+## synonym:MZ
+- Muzambhiki
+- Msumbiji
+- Mozambiki
+- República de Moçambique
+- Moçambique
+- Republic of Mozambique
+- Mozambique
+
+## synonym:NA
+- República da Namíbia
+- Namibia ye Lukuluhile
+- Rephaboliki ya Namibia
+- Republika zaNamibia
+- Orepublika yaNamibia
+- Namibiab Republiki dib
+- Republik Namibia
+- Republiek van Namibië
+- Republic of Namibia
+- Namibia
+
+## synonym:NC
+- Nova Caledônia
+- Nova Caledónia
+- Nouvelle-Calédonie
+- New Caledonia
+
+## synonym:NE
+- Níger
+- República do Níger
+- Republic of the Niger
+- République du Niger
+- the Niger
+- Niger
+
+## synonym:NF
+- Território da Ilha Norfolque
+- Território da Ilha Norfolk
+- ilha Norfolque
+- ilha Norfolk
+- Teratri a' Norf'k Ailen
+- Territory of Norfolk Island
+- Norf'k Ailen
+- Norfolk Island
+
+## synonym:NG
+- Nigéria
+- República Federal da Nigéria
+- Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà
+- Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà
+- Jamhuriyar Taraiyar Najeriya
+- Federal Republic of Nigeria
+- Nigeria
+
+## synonym:NI
+- República da Nicarágua
+- Nicarágua
+- República de Nicaragua
+- Republic of Nicaragua
+- Nicaragua
+
+## synonym:NL
+- Reino dos Países Baixos
+- Holanda
+- Países Baixos
+- Kingdom of the Netherlands
+- Nederland
+- Netherlands
+
+## synonym:NO
+- Reino da Noruega
+- Noruega
+- Nöörje
+- Vuodna
+- Norga
+- Noreg
+- Norge
+- Nöörjen gånkarijhke
+- Vuona gånågisrijkka
+- Norgga gonagasriika
+- Kongeriket Noreg
+- Kongeriket Norge
+- Kingdom of Norway
+- Norway
+
+## synonym:NP
+- República Democrática Federal do Nepal
+- Saṅghīya Lokatāntrik Gaṇatantra Nepāl
+- Federal Democratic Republic of Nepal
+- Nepal
+
+## synonym:NR
+- Ilha Aprazível
+- Naoero
+- República de Nauru
+- Pleasant Island
+- Repubrikin Naoero
+- Republic of Nauru
+- Nauru
+
+## synonym:NU
+- Niuê
+- Niuē
+- Niue
+
+## synonym:NZ
+- Nova Zelândia
+- Aotearoa
+- New Zealand
+
+## synonym:OM
+- Saltānat 'Umān
+- Sultanato de Omã
+- Omão
+- Omã
+- Sultanate of Oman
+- Salṭanat ʻUmān
+- Oman
+
+## synonym:PA
+- República del Panamá
+- República do Panamá
+- República de Panamá
+- Republic of Panama
+- Panamá
+- Panama
+
+## synonym:PE
+- Piruw Suyu
+- República del Perú
+- Republic of Peru
+- Piruw Republika
+- Perú
+- Peru
+
+## synonym:PF
+- Polinésia Francesa
+- Pōrīnetia Farāni
+- Polynésie française
+- French Polynesia
+
+## synonym:PG
+- Papua Niu Gini
+- Papua Niugini
+- Papua Nova Guiné
+- Papua-Nova Guiné
+- Independen Stet bilong Papua Niu Gini
+- Independen Stet bilong Papua Niugini
+- Independent State of Papua New Guinea
+- PNG
+- Papua New Guinea
+
+## synonym:PH
+- Repúbliká ng̃ Pilipinas
+- República das Filipinas
+- Republika ng Pilipinas
+- Republic of the Philippines
+- Filipinas
+- Pilipinas
+- Philippines
+
+## synonym:PK
+- República Islâmica do Paquistão
+- Islami Jamahuriat Pakistan
+- Pākistān
+- Paquistão
+- Islāmī Jumhūriyah Pākistān
+- Islamic Republic of Pakistan
+- Pakistan
+
+## synonym:PL
+- República da Polónia
+- Polónia
+- Polônia
+- Rzeczpospolita Polska
+- Republic of Poland
+- Polska
+- Poland
+
+## synonym:PM
+- Coletividade de Ultramar de São Pedro e Miquelão
+- Saint-Pierre e Miquelon
+- São Pedro e Miquelon
+- São Pedro e Miquelão
+- Collectivité d'outre-mer de Saint-Pierre-et-Miquelon
+- Overseas Collectivity of Saint Pierre and Miquelon
+- Saint-Pierre-et-Miquelon
+- Saint Pierre and Miquelon
+
+## synonym:PN
+- Grupo de Ilhas Pitcairn
+- Ilhas Pitcairn, Henderson, Ducie e Oeno
+- Ilhas Picárnia
+- Ilhas Pitcairn
+- Pitcairn, Henderson, Ducie and Oeno Islands
+- Pitkern Ailen
+- Pitcairn Islands
+- Pitcairn
+
+## synonym:PR
+- Estado Livre Associado de Porto Rico
+- Free Associated State of Puerto Rico
+- Estado Libre Asociado de Puerto Rico
+- Commonwealth of Puerto Rico
+- Porto Rico
+- Borinquen
+- Puerto Rico
+
+## synonym:PS
+- Estado da Palestina
+- Filasṭīn
+- Palestine
+- Palestina
+- Dawlat Filasṭīn
+- State of Palestine
+
+## synonym:PT
+- República Portuguesa
+- Portuguese Republic
+- Portugal
+
+## synonym:PW
+- República de Palau
+- Beluu er a Belau
+- Republic of Palau
+- Pelew
+- Palaos
+- Belau
+- Palau
+
+## synonym:PY
+- Paraguai
+- Paraguái
+- Tetã Paraguái
+- República del Paraguay
+- Republic of Paraguay
+- Paraguay
+
+## synonym:QA
+- Estado do Qatar
+- Estado do Catar
+- Catar
+- Qaṭar
+- Dawlat Qaṭar
+- State of Qatar
+- Qatar
+
+## synonym:RE
+- Reunião
+- Île Bourbon
+- La Réunion
+- Réunion
+
+## synonym:RO
+- Roménia
+- Romênia
+- România
+- Romania
+
+## synonym:RS
+- República da Sérvia
+- Sérvia
+- Republika Srbija
+- Република Србија
+- Republic of Serbia
+- Srbija
+- Србија
+- Serbia
+
+## synonym:RU
+- Federação Russa
+- Rússia
+- Rossiyskaya Federatsiya
+- Российская Федерация
+- Rossiya
+- Росси́я
+- Russia
+- Russian Federation
+
+## synonym:RW
+- República do Ruanda
+- República de Ruanda
+- Ruanda
+- u Rwanda
+- Jamhuri ya Rwanda
+- République du Rwanda
+- Repubulika y'u Rwanda
+- Republic of Rwanda
+- Rwanda
+
+## synonym:SA
+- Reino da Arábia Saudita
+- al-Mamlaka al-ʻArabiyya as-Suʻūdiyya
+- as-Su’ūdiyya
+- Arábia Saudita
+- Kingdom of Saudi Arabia
+- Saudi Arabia
+
+## synonym:SB
+- Ilhas Salomão
+- Islas Salomón
+- Solomon Islands
+
+## synonym:SC
+- República das Seychelles
+- República das Seicheles ou Seychelles
+- Seicheles
+- Sesel
+- La Repiblik Sesel
+- République des Seychelles
+- Republic of Seychelles
+- Seychelles
+
+## synonym:SD
+- República do Sudão
+- Sudão
+- Jumhūriyyat as-Sūdān
+- as-Sūdān
+- Republic of the Sudan
+- Sudan
+
+## synonym:SE
+- Reino da Suécia
+- Suécia
+- Konungariket Sverige
+- Kingdom of Sweden
+- Sverige
+- Sweden
+
+## synonym:SG
+- Republik Singapura
+- República de Singapura
+- Chiṅkappūr
+- Xīnjiāpō
+- Cingapura
+- Singapura
+- Republic of Singapore
+- Singapore
+
+## synonym:SH
+- Tristão da Cunha
+- Ascensão
+- Santa Helena
+- Santa Helena, Ascensão e Tristão da Cunha
+- Tristan da Cunha
+- Ascension Island
+- Saint Helena
+- Saint Helena, Ascension and Tristan da Cunha
+
+## synonym:SI
+- República da Eslovênia
+- Eslovênia
+- Eslovénia
+- Republika Slovenija
+- Slovenia
+
+## synonym:SJ
+- Jan Mayen
+- Svalbard
+- Svalbard e Jan Mayen
+- Svalbard and Jan Mayen Islands
+- Svalbard og Jan Mayen
+- Svalbard and Jan Mayen
+
+## synonym:SK
+- República Eslovaca
+- Eslováquia
+- Slovenská republika
+- Slovak Republic
+- Slovensko
+- Slovakia
+
+## synonym:SL
+- República da Serra Leoa
+- Serra Leoa
+- Salone
+- Republic of Sierra Leone
+- Sierra Leone
+
+## synonym:SM
+- São Marino
+- São Marinho
+- Sereníssima República de San Marino
+- República de San Marino
+- Serenissima Repubblica di San Marino
+- Most Serene Republic of San Marino
+- Repubblica di San Marino
+- Republic of San Marino
+- San Marino
+
+## synonym:SN
+- República do Senegal
+- Renndaandi Senegal
+- Réewum Senegaal
+- République du Sénégal
+- Republic of Senegal
+- Sénégal
+- Senegal
+
+## synonym:SO
+- República Federal da Somália
+- Somália
+- Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya
+- Jamhuuriyadda Federaalka Soomaaliya
+- Federal Republic of Somalia
+- aṣ-Ṣūmāl
+- Soomaaliya
+- Somalia
+
+## synonym:SR
+- República do Suriname
+- Republiek Suriname
+- Republic of Suriname
+- Surinam
+- Suriname
+
+## synonym:SS
+- República do Sudão do Sul
+- Sudão Meridional
+- Sudão do Sul
+- Paguot Thudä
+- Republic of South Sudan
+- South Sudan
+
+## synonym:ST
+- São Tomé e Príncipe
+- República Democrática de São Tomé e Príncipe
+- Democratic Republic of São Tomé and Príncipe
+- Saint Thomas and Prince
+- Sao Tome and Principe
+
+## synonym:SV
+- República do Salvador
+<!-- - Salvador -->
+- República de El Salvador
+- Republic of El Salvador
+- El Salvador
+
+## synonym:SX
+- Sint Maarten
+- São Martinho paises baixos
+- Sint Maarten Dutch part
+
+## synonym:SY
+- República Árabe Síria
+- Síria
+- al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah
+- Sūriyā
+- Syria
+- Syrian Arab Republic
+
+## synonym:AD
+- Principado dos Vales de Andorra
+- Principado de Andorra
+- Principat de les Valls d'Andorra
+- Principality of the Valleys of Andorra
+- Principat d'Andorra
+- Principality of Andorra
+- Andorra
+
+## synonym:TC
+- Turcas
+- Turcas e Caicos
+- Ilhas Turcas e Caicos
+- Turks and Caicos
+- Caicos
+- Turks
+- Turks Islands
+- Caicos Islands
+- TCI
+- Turks and Caicos Islands
+
+## synonym:TD
+- República do Chade
+- Tchad
+- Tchade
+- Chade
+- Jumhūriyyat Tshād
+- République du Tchad
+- Republic of Chad
+- Tshād
+- Chad
+
+## synonym:TF
+- Terres australes françaises
+- French Southern Lands
+- TOM
+- Territoire d'outre-mer
+- TAAF
+- Terres australes et antarctiques françaises
+- French Southern and Antarctic Lands
+- French Southern Territories
+
+## synonym:TG
+- República Togolesa
+- République togolaise
+- Togolese Republic
+- Togo
+
+## synonym:TH
+- Sião
+- Reino da Tailândia
+- Tailândia
+- Ratcha-anachak Thai
+- Siam
+- Kingdom of Thailand
+- Thailand
+
+## synonym:TJ
+- República do Tajiquistão
+- Tojikiston
+- Tadjiquistão
+- Tajiquistão
+- Jumhurii Tojikiston
+- Republic of Tajikistan
+- Tajikistan
+
+## synonym:TK
+- Toquelau
+- Tokelau Islands
+- Union Islands
+- Tokelau
+
+## synonym:TL
+- East Timor
+- Democratic Republic of Timor-Leste
+- Repúblika Demokrátika Timór-Leste
+- Timor Lorosa'e
+- Timor Leste
+- República Democrática de Timor-Leste
+- Timor-Leste
+
+## synonym:TM
+- República do Turcomenistão
+- Turcomênia
+- Turcomenistão
+- Turquemenistão
+- Türkmenistan Respublikasy
+- Republic of Turkmenistan
+- Türkmenistan
+- Turkmenistan
+
+## synonym:TN
+- República Tunisina
+- Tunisie
+- Tūnis
+- Tunísia
+- République tunisienne
+- al-Jumhūrīyah at-Tūnisīyah
+- Republic of Tunisia
+- Tunisia
+
+## synonym:TO
+- Reino de Tonga
+- Puleʻanga Fakatuʻi ʻo Tonga
+- Kingdom of Tonga
+- Tonga
+
+## synonym:TR
+- República da Turquia
+- Turquia
+- Türkiye Cumhuriyeti
+- Republic of Turkey
+- Türkiye
+- Turkey
+
+## synonym:TT
+- Trinidade
+- República de Trindade e Tobago
+- Trinidad e Tobago
+- Trinidade e Tobago
+- Trindade e Tobago
+- Tobago
+- Trinidad
+- Republic of Trinidad and Tobago
+- Trinidad and Tobago
+
+## synonym:TV
+- Ilhas Ellice
+- Ellice Islands
+- Tuvalu
+
+## synonym:TW
+- Táiwān shěng
+- Província de Taiwan
+- Taiwan, China
+- Taiwan
+- Taiwan Area
+- Taiwan Region
+- Taiwan Province
+- Taiwan, Province of China
+
+## synonym:TZ
+- República Unida da Tanzânia
+- Tanzânia
+- Jamhuri ya Muungano wa Tanzania
+- Tanzania
+- United Republic of Tanzania
+
+## synonym:UA
+- Ucrânia
+- Ukrayina
+- Ukraine
+
+## synonym:UG
+- República do Uganda
+- República de Uganda
+- Eggwanga Yuganda
+- Jamhuri ya Uganda
+- Republic of Uganda
+- Uganda
+
+## synonym:UM
+- Ilhas Menores Afastadas dos Estados Unidos
+- Ilhas Menores Distantes dos Estados Unidos
+- Ilha Wake
+- Atol Palmyra
+- Ilha Navassa
+- Atol Midway
+- Recife Kingman
+- Atol Johnston
+- Ilha Jarvis
+- Ilha Howland
+- Ilha Baker
+- Navassa Island
+- Wake Island
+- Palmyra Atoll
+- Midway Atoll
+- Kingman Reef
+- Johnston Atoll
+- Jarvis Island
+- Howland Island
+- Baker Island
+- United States Minor Outlying Islands
+
+## synonym:US
+- Estados Unidos
+- Estados Unidos da América
+- America
+- US
+- U.S.
+- USA
+- United States of America
+- United States
+
+## synonym:UY
+- Uruguai
+- República Oriental do Uruguai
+- República Oriental del Uruguay
+- Oriental Republic of Uruguay
+- Uruguay
+
+## synonym:UZ
+- República do Uzbequistão
+- Usbequistão
+- Uzbequistão
+- Oʻzbekiston Respublikasi
+- Republic of Uzbekistan
+- Oʻzbekiston
+- Uzbekistan
+
+## synonym:VA
+- Status Civitatis Vaticanæ
+- Civitas Vaticana
+- Stato della Città del Vaticano
+- Estado da Cidade do Vaticano
+- Cidade do Vaticano
+- Vaticano
+- Cidade-Estado do Vaticano
+- Sé Apostólica
+- Santa Sé Apostólica
+- Santa Sé
+- See of Rome
+- Santa Sede
+- Sancta Sedes
+- Holy See Vatican City State
+
+## synonym:VC
+- São Vicente
+- São Vicente e Granadinas
+- Saint Vincent
+- Saint Vincent and the Grenadines
+
+## synonym:VE
+- República Bolivariana da Venezuela
+- República Bolivariana de Venezuela
+- Venezuela
+- Bolivarian Republic of Venezuela
+
+## synonym:VG
+- Ilhas Virgens Britânicas
+- BVI
+- British Virgin Islands
+
+## synonym:VI
+- Virgin Islands of the United States
+- American Virgin Islands
+- USVI
+- United States Virgin Islands
+- Ilhas Virgens dos Estados Unidos
+- Ilhas Virgens Americanas
+- U.S. Virgin Islands
+
+## synonym:VN
+- República Socialista do Vietname
+- República Socialista do Vietnã
+- Vietnã
+- Vietname
+- Socialist Republic of Vietnam
+- Vietnam
+- Viet Nam
+
+## synonym:VU
+- República de Vanuatu
+- Gloriosa República de Vanuatu
+- République de Vanuatu
+- Ripablik blong Vanuatu
+- Republic of Vanuatu
+- Vanuatu
+
+## synonym:WF
+- Território das Ilhas Wallis e Futuna
+- Wallis e Futuna
+- Uvea mo Futuna
+- Territoire des îles Wallis-et-Futuna
+- Wallis-et-Futuna
+- Territory of the Wallis and Futuna Islands
+- Wallis and Futuna
+
+## synonym:WS
+- Samoa Ocidental
+- Estado Independente da Samoa
+- Estado Independente de Samoa
+- Western Samoa
+- Sāmoa
+- Malo Saʻoloto Tutoʻatasi o Sāmoa
+- Independent State of Samoa
+- Samoa
+
+## synonym:YE
+- República do Iêmen
+- República do Iémen
+- Iêmen
+- Iémen
+- al-Yama
+- Republic of Yemen
+- Yaman
+- al-Jumhūrīyah al-Yamanīyah
+- Yemen
+
+## synonym:YT
+- Departamento de Maiote
+- Maiote
+- Département de Mayotte
+- Department of Mayotte
+- Mahori
+- Maore
+- Mayotte
+
+## synonym:ZA
+- República da África do Sul
+- África do Sul
+- iRiphabliki yeSewula Afrika
+- Riphabuḽiki ya Afurika Tshipembe
+- iRiphabhulikhi yeNingizimu Afrika
+- Riphabliki ya Afrika Dzonga
+- Rephaboliki ya Afrika Borwa
+- Rephaboliki ya Aforika Borwa
+- Repabliki ya Afrika-Borwa
+- iRiphabliki yomZantsi Afrika
+- iRiphabhuliki yaseNingizimu Afrika
+- Republiek van Suid-Afrika
+- RSA
+- Republic of South Africa
+- South Africa
+
+## synonym:ZM
+- República da Zâmbia
+- Zâmbia
+- Cisi ca Zambia
+- Dziko la Zambia
+- Republic of Zambia
+- Zambia
+
+## synonym:ZW
+- República do Zimbabwe
+- Zimbaué
+- Zimbabué
+- Zimbábue
+- Shango ḽa Zimbabwe
+- Cisi ca Zimbabwe
+- Naha ya Zimbabwe
+- Tiko ra Zimbabwe
+- Inyika yeZimbabwe
+- Zimbabwe Nù
+- Hango yeZimbabwe
+- Dziko la Zimbabwe
+- Ilizwe leZimbabwe
+- Nyika yeZimbabwe
+- Rhodesia
+- Republic of Zimbabwe
+- Zimbabwe
+
+## synonym:SZ
+- Reino de Essuatíni
+- Essuatíni
+- Umbuso weSwatini
+- Kingdom of Eswatini
+- Eswatini
+- Swaziland
+
+## synonym:AE
+- Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah
+- EAU
+- Emirados Árabes Unidos
+- UAE
+- Emirates
+- al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah
+- United Arab Emirates
+
+## synonym:AF
+- Republica do Afeganistão
+- Afeganistão
+- República Islâmica do Afeganistão
+- Republic of Afghanistan
+- Islamic Republic of Afghanistan
+- Afghanistan
+
+## synonym:AG
+- Antígua
+- Antiga e Barbuda
+- Antígua e Barbuda
+- Barbuda
+- Antigua
+- Antigua and Barbuda
+
+## synonym:AI
+- Anguila
+- Island of Anguilla
+- Anguilla
+
+## synonym:AL
+- Republica da Albânia
+- Albânia
+- Republic of Albania
+- Albania
+
+## synonym:AM
+- República da Arménia
+- Armênia
+- Arménia
+- Republic of Armenia
+- Armenia
+
+## synonym:AO
+- República de Angola
+- Republic of Angola
+- Angola
+
+## synonym:AQ
+- Antártica
+- Antártida
+- Antarctica
+
+## synonym:AR
+- Republic of Argentina
+- República da Argentina
+- República Argentina
+- Argentine Republic
+- Argentina
+
+## synonym:AS
+- Tutuila
+- Sāmoa Amelika
+- Amelika Sāmoa
+- Amerika Sāmoa
+- Samoa Americana
+- American Samoa
+
+## synonym:AT
+- República da Áustria
+- Áustria
+- Republik Österreich
+- Österreich
+- Republic of Austria
+- Austria
+
+## synonym:AU
+- Comunidade da Austrália
+- Austrália
+- Commonwealth of Australia
+- Australia
+
+## synonym:AW
+- Aruba
+
+## synonym:AX
+- Alandia
+- Arquipélago da Aland
+- Arquipélago da Åland
+- Ahvenanmaa
+- Alanda
+- Ilhas de Aland
+- Ilhas Åland
+- Fasta Åland
+- Åland
+- Åland Islands
+
+## synonym:AZ
+- República do Azerbaijão
+- Azerbaijão
+- Republic of Azerbaijan
+- Azerbaijan
+
+## synonym:BA
+- Bósnia
+- Bósnia e Herzegovina
+- Bosna i Hercegovina
+- Bosnia
+- Bosnia–Herzegovina
+- B&H
+- BiH
+- Bosnia and Herzegovina
+
+## synonym:BB
+- Barbados
+
+## synonym:BD
+- República Popular do Bangladesh
+- Nação Bengali
+- Bangladeche
+- Bangladexe
+- People's Republic of Bangladesh
+- country of Bengal
+- Bangladesh
+
+## synonym:BE
+- Belgien
+- Belgique
+- België
+- Bélgica
+- Reino da Bélgica
+- Koninkrijk België
+- Royaume de Belgique
+- Königreich Belgien
+- Kingdom of Belgium
+- Belgium
+
+## synonym:BF
+- Burquina
+- Burquina Fasso
+- Burquina Faso
+- Republic of Burkina Faso
+- Burkina Faso
+
+## synonym:BG
+- Republika Bǎlgarija
+- República da Bulgária
+- Bulgária
+- Republika Balgariya
+- Republic of Bulgaria
+- Balgariya
+- Bulgaria
+
+## synonym:BH
+- Reino do Bareine
+- Reino do Barein
+- Reino do Barém
+- Reino do Bahrain
+- Reino do Bahrein
+- Bareine
+- Barein
+- Barém
+- Bahrein
+- Kingdom of Bahrain
+- Al-Baḥrayn
+- Bahrain
+
+## synonym:BI
+- República do Burúndi
+- Burúndi
+- République du Burundi
+- Republika y'Uburundi
+- Republic of Burundi
+- Burundi
+
+## synonym:BJ
+- República do Benim
+- Benim
+- Bénin
+- République du Bénin
+- Republic of Benin
+- Benin
+
+## synonym:BL
+- Coletividade de São Bartolomeu
+- São Bartolomeu
+- St. Barts
+- St. Barths
+- St-Barth
+- Collectivité territoriale de Saint-Barthélemy
+- Saint-Barthélemy
+- Saint Barthélemy
+
+## synonym:BM
+- Bermudas
+- Ilhas Bermudas
+- Islands of Bermuda
+- Bermuda
+
+## synonym:BN
+- Nation of Brunei, the Abode of Peace
+- Negara Brunei Darussalam
+- Nation of Brunei
+- Brunei
+- Brunei Darussalam
+
+## synonym:BO
+- Bolívia
+- Estado Plurinacional de Bolivia
+- Bolivia
+- Plurinational State of Bolivia
+
+## synonym:BQ
+- Santo Eustáquio
+- Caraíbas Neerlandesas
+- Países Baixos Caribenhos
+- BES Islands
+- Caribisch Nederland
+- Caribbean Netherlands
+- Saba
+- Sint Eustatius
+- Bonaire
+- Bonaire, Sint Eustatius and Saba
+
+## synonym:BR
+- República Federal do Brasil
+- República Federativa do Brasil
+- Federative Republic of Brazil
+- Brasil
+- Brazil
+
+## synonym:BS
+- Comunidade das Bahamas
+- Baamas
+- Commonwealth of The Bahamas
+- Bahaamas
+
+## synonym:BT
+- Reino do Butão
+- Butão
+- Druk Gyal Khap
+- Kingdom of Bhutan
+- Bhutan
+
+## synonym:BV
+- Ilha Bouvet
+- Bouvet-øya
+- Bouvetøya
+- Bouvet Island
+
+## synonym:BW
+- República do Botsuana
+- República do Botswana
+- Botsuana
+- Lefatshe la Botswana
+- Republic of Botswana
+- Botswana
+
+## synonym:BY
+- República da Bielorrússia
+- República da Belarus
+- Bielorrússia
+- Byelorussia
+- Belorussia
+- Republic of Belarus
+- Belarus
+
+## synonym:BZ
+- Belize
+
+## synonym:CA
+- Canadá
+- Canada
+
+## synonym:CC
+- Pulu Kokos Keeling
+- Ilhas Cocos Keeling
+- Ilhas Cocos Keeling
+- Ilhas Keeling
+- Keeling Islands
+- Wilayah Kepulauan Cocos Keeling
+- Wilayah Kepulauan Cocos Keeling
+- Pulu Kokos Keeling
+- Territory of Cocos Keeling Islands
+- Territory of Cocos Keeling Islands
+- Cocos Keeling Islands
+- Cocos Keeling Islands
+
+## synonym:CD
+- Congo-Quinxassa
+- Congo R.D.
+- RD Congo
+- RDC
+- República Democrática do Congo
+- Ditunga dia Kongu wa Mungalaata
+- Jamhuri ya Kidemokrasia ya Kongo
+- Republíki ya Kongó Demokratíki
+- Repubilika ya Kôngo ya Dimokalasi
+- Congo-Kinshasa
+- DROC
+- DRC
+- DR Congo
+- République démocratique du Congo
+- Democratic Republic of the Congo
+- The Democratic Republic of the Congo
+
+## synonym:CF
+- República Centro Africana
+- República da África Central
+- República da África-Central
+- República Centro-Africana
+- CAR
+- Ködörösêse tî Bêafrîka
+- République centrafricaine
+- Central African Republic
+
+## synonym:CG
+- RotC
+- Congo Republic
+- Congo Brazzaville
+- Congo-Brazzaville
+- Republíki ya Kongó
+- Repubilika ya Kôngo
+- République du Congo
+- Congo
+
+## synonym:CH
+- Confederação Suíça
+- Svizra
+- Svizzera
+- Suisse
+- Schwiiz
+- Schwyz
+- Schweiz
+- Suíça
+- Confoederatio Helvetica
+- Confederaziun svizra
+- Confederazione Svizzera
+- Confédération suisse
+- Schweizerische Eidgenossenschaft
+- Swiss Confederation
+- Switzerland
+
+## synonym:CI
+- República da Costa do Marfim
+- Costa do Marfim
+- République de Côte d'Ivoire
+- Republic of Côte d'Ivoire
+- The Ivory Coast
+- Ivory Coast
+- Côte d'Ivoire
+
+## synonym:CK
+- Ilhas Cook
+- Kūki 'Āirani
+- Cook Islands
+
+## synonym:CL
+- Repūvirika o Tire
+- Chili Ripuwlika
+- Chili Suyu
+- Chile Wüdalmapu
+- República de Chile
+- Republic of Chile
+- Chile
+
+## synonym:CM
+- República do Cameroun
+- República dos Camarões
+- Camarões
+- Renndaandi Kamerun
+- République du Cameroun
+- Republic of Cameroon
+- Cameroun
+- Cameroon
+
+## synonym:CN
+- RPC
+- República Popular da China
+- Zhōnghuá Rénmín Gònghéguó
+- PRC
+- People's Republic of China
+- China
+
+## synonym:CO
+- República da Colômbia
+- Colômbia
+- República de Colombia
+- Republic of Colombia
+- Colombia
+
+## synonym:CR
+- República da Costa Rica
+- República de Costa Rica
+- Republic of Costa Rica
+- Costa Rica
+
+## synonym:CU
+- República de Cuba
+- Republic of Cuba
+- Cuba
+
+## synonym:CV
+- Repúblika di Kabu Verdi
+- República de Cabo Verde
+- Republic of Cabo Verde
+- Cabo Verde
+- Cape Verde
+
+## synonym:CW
+- Curaçau
+- Country of Curaçao
+- Teritorio Insular di Kòrsou
+- Eilandgebied Curaçao
+- Island Territory of Curaçao
+- Pais Kòrsou
+- Land Curaçao
+- Kòrsou
+- Curaçao
+
+## synonym:CX
+- Território da Ilha Natal
+- Território da Ilha do Natal
+- Território da Ilha Christmas
+- Ilha Natal
+- Ilha do Natal
+- Ilha Christmas
+- Territory of Christmas Island
+- Christmas Island
+
+## synonym:CY
+- Kypriakí Dimokratía
+- República de Chipre
+- Kýpros
+- Chipre
+- Kıbrıs Cumhuriyeti
+- Cypriot Republic
+- Κυπριακή Δημοκρατία
+- Republic of Cyprus
+- Kıbrıs
+- Κύπρος
+- Cyprus
+
+## synonym:CZ
+- República Tcheca
+- República Checa
+- Tchéquia
+- Chéquia
+- Česko
+- Czechia
+- Česká republika
+- Czech Republic
+
+## synonym:DE
+- República Federal da Alemã
+- República Federal da Alemanha
+- Alemanha
+- Bundesrepublik Deutschland
+- Federal Republic of Germany
+- Deutschland
+- Germany
+
+## synonym:DJ
+- República do Djibuti
+- Jibuti
+- Djibuti
+- Gabuutih Ummuuno
+- Jamhuuriyadda Jabuuti
+- République de Djibouti
+- Republic of Djibouti
+- Jabuuti
+- Jībūtī
+- Yibuuti
+- Djibouti
+
+## synonym:DK
+- Reino da Dinamarca
+- Dinamarca
+- Kongeriget Danmark
+- Kingdom of Denmark
+- Danmark
+- Denmark
+
+## synonym:DM
+- Comunidade da Dominica
+- Domínica
+- Commonwealth of Dominica
+- Dominique
+- Dominica
+
+## synonym:DO
+- República Dominicana
+- Dominican Republic
+
+## synonym:DZ
+- Republica Democrática da Argélia
+- Republica da Argélia
+- Argélia
+- Republic of Algeria
+- Democratic Republic of Algeria
+- Algeria
+
+## synonym:EC
+- República do Equador
+- Equador
+- Ikwayur Runaq Imayka
+- Ekuatur Nunka
+- Ikwadur Ripuwlika
+- Republic of the Equator
+- República del Ecuador
+- Republic of Ecuador
+- Ekuatur
+- Ikwayur
+- Ecuador
+
+## synonym:EE
+- República da Estônia
+- República da Estónia
+- Estônia
+- Estónia
+- Eesti Vabariik
+- Republic of Estonia
+- Eesti
+- Estonia
+
+## synonym:influenza
+- influenza
+- gripe
+
+## synonym:prevention
+- prevenção
+- prevenir
+- proteção
+- proteger
+- protecção
+
+## synonym:spread
+- propagação
+- transmissão
+- propaga
+- transmite
+- apanhar
+- contrair
+- infetar
+- infeção
+- infetado
+- contraido
+- infetada
+- contraida
+- transmitido
+- transmitida
+
+## synonym:COVID
+- novo coronavirus
+- virus
+- doença
+- vírus
+- coronavírus
+- 2019nCov
+- 2019-nCoV
+- SARSCoV-2
+- COVID
+- COVID2019
+- COVID19
+- COVID-2019
+- COVID-19
+- 19nCov
+- 19-nCoV
+- SARSCoV2
+- SARS-CoV2
+- SARS-CoV-2
+- coronaviruses
+- nCoV
+- Corona
+- Covid 19
+- corrid
+- ocoronavírus
+- corona virus
+- covid-18
+- Corona vírus
+- covit19
+- nCoV 2019
+- novo coronavírus
+- vírus corona
+- ccovid
+- virose
+- SARSCoV-2d
+- SARSCoVd
+- COVIDd
+- COVID-19d
+- corrige
+
+
+
+<!--
+## synonym:number
+- quantidade
+- número
+- number
+- quantity
+
+## synonym:teach
+- tutoring
+- coached
+- trainings
+- learned
+- training
+- lesson
+- trainers
+- learnt
+- learning
+- coaching
+- trainer
+- taught
+- learn
+- coaches
+- teaching
+- coach
+- teach
+
+## synonym:facebook
+- facebook
+- face book
+
+## synonym:linkedin
+- linkd in
+- linkdin
+- linkedin
+- linked in
+
+## synonym:instagram
+- ig
+- insta
+- insta gram
+- instragram
+
+## synonym:social media
+- socialmedia
+- social plattform
+- social media
+
+## synonym:firstname
+- primeiro nome
+- nome
+- given name
+- christian name
+- forename
+- first-name
+- first name
+- firstname
+- name
+
+## synonym:surname
+- último nome
+- nome de família
+- apelido
+- surname
+- family name
+- last name
+- lastname
+- last-name
+- family-name
+
+## synonym:cancel
+- cancelar
+- stop
+- anular
+- interromper
+- sair
+- desistir
+- cessar
+- abortar
+- revogar
+
+## synonym:sex
+- sex
+- sexual
+- virginity
+- virgin
+- pornography
+- ass
+- blow job
+- bonk
+- buggery
+- anal
+- carnal
+- climax
+- orgasm
+- coitus
+- cottaging
+- cybersex
+- ejaculation
+- ejaculating
+- ejaculate
+- fuck
+- gang bang
+- hanky-panky
+- intercourse
+- ménage à trois
+- nookie
+- one-night stand
+- oral sex
+- penetration
+- sodomy
+- threesome
+- tits
+- penis
+- prick
+- cock
+- wang
+- weenie
+- whang
+- cunt
+- pussy
+- pussies
+- vagina
+-->
+## synonym:cough
+- tosse
+
+## synonym:runny_nose
+- corrimento nasal
+- nariz entupido
+- nariz com ranho
+- corrimento do nariz
+- muco nasal
+- corrimento de muco do nariz
+
+## synonym:sore_throat
+- dor de garganta
+- dor na garganta
+- garganta dorida
+- garganta com dor
+
+## synonym:breathing_difficulty
+- dificuldade respiratória
+- problemas respiratórios
+- falta de ar
+- problema em respirar
+- dificuldade em respirar
+- problema em inspirar
+- problemas em inspirar
+- dificuldade em inspirar
+- dificuldade em obter ar
+- problema em obter ar
+
+## synonym:fever
+- febre
+- pirexia
+- hipertermia
+- temperatura elevada
+- temperatura alta
+
+## synonym:you
+- Cosibot
+- Helena
+- ti
+- si
+- a senhora
+- o senhor
+- você
+- tu
+- ur
+- youre
+- your
+- yal
+- thou
+- thee
+- yall
+- yourself
+- ya
+- u
+- you
+
+## synonym:I
+- nossas
+- nossa
+- minhas
+- minha
+- nosso
+- nossos
+- meu
+- meus
+- nós
+- mim
+- eu
+- Imma
+- Im
+- our
+- myself
+- me
+- ourselves
+- us
+- we
+- I
+<!-- 
+## synonym:country
+- Geórgia
+- Alemanha
+- Gana
+- Grécia
+- Granada
+- Guatemala
+- Guiné
+- Guiné-Bissau
+- Guiana
+- Haiti
+- Santa Sé
+- Sé de Roma
+- Honduras
+- Hungria
+- Islândia
+- Índia
+- Indonésia
+- Irã
+- Iraque
+- Irlanda
+- Israel
+- Itália
+- Jamaica
+- Jordânia
+- Cazaquistão
+- Quênia
+- Kiribati
+- Kuwait
+- Quirguistão
+- Laos
+- Letônia
+- Líbano
+- Lesoto
+- Libéria
+- Liechtenstein Líbia
+- Lituânia
+- Madagascar
+- Malawi
+- Malásia
+- Maldivas
+- Mali
+- Malta
+- Ilhas Marshall
+- Mauritânia
+- Maurício
+- México
+- Micronésia
+- Moldávia
+- Mônaco
+- Mongólia
+- Montenegro
+- Marrocos
+- Moçambique
+- Mianmar
+- Birmânia
+- Namíbia
+- Nauru
+- Nepal
+- Holanda
+- Nova Zelândia
+- Nicarágua
+- Níger
+- Nigéria
+- Coréia do Norte
+- Macedônia do Norte
+- Noruega
+- Omã
+- Paquistão
+- Palau
+- Estado da Palestina
+- Panamá
+- Papua Nova Guiné
+- Paraguai
+- Peru
+- Filipinas
+- Polônia
+- Portugal
+- Catar
+- Romênia
+- Rússia
+- Ruanda
+- São Cristóvão e Nevis
+- Santa Lúcia
+- São Vicente e Granadinas
+- Samoa
+- São Marinho
+- São Tomé e Príncipe
+- Arábia Saudita
+- Senegal
+- Sérvia
+- Seychelles
+- Serra Leoa
+- Cingapura
+- Eslováquia
+- Eslovênia
+- Ilhas Salomão
+- Somália
+- Sou África
+- Coréia do Sul
+- Sudão do Sul
+- Espanha
+- Sri Lanka
+- Sudão
+- Suriname
+- Suazilândia
+- Suécia
+- Suíça
+- Síria
+- Tajiquistão
+- Tanzânia
+- Tailândia
+- Timor-Leste
+- Togo
+- Tonga
+- Trinidad e Tobago
+- Tunísia
+- Turquia
+- Turquemenistão
+- Tuvalu
+- Uganda
+- Ucrânia
+- Emirados Árabes Unidos
+- Reino Unido
+- Estados Unidos da América
+- Uruguai
+- Uzbequistão
+- Venezuela
+- Iêmen
+- Zâmbia
+- Zimbábue
+- Shqipëria
+- Dzayer
+- Al-Jazāir
+- Amerika Sāmoa
+- Ngola
+- Anguilla
+- Hayastán
+- Aruba
+- Österreich
+- Åland
+- Ahvenanmaa
+- Azərbaycan
+- Al-Baḥrayn
+- Bielaruś
+- Bermudas Bélgica
+- Drukin
+- Buliwya
+- Wuliwya
+- Volívia
+- Bosna e Hercegovina
+- Ilhas Virgens Britânicas
+- Bulgariya
+- Bălgarija
+- Uburundi
+- Campampea
+- Ilhas Cayman
+- Ködörösêse tê Bêafrîka
+- Tchad
+- Zhodguó
+- Ilha Christmas
+- Ilhas Cocos
+- Komori
+- Juzur al-Qamar
+- República do Congo
+- República y Kongó
+- República y Kongó Demokratíki
+- Jamhuri y Kidemokrasia y Kongo
+- Ilhas Cook
+- Hrva tska
+- Curaçao
+- Kòrsou
+- Kypros
+- Kıbrıs
+- Česká republika
+- Česko
+- Danmark
+- Jībūtī
+- Timor Lorosa'e
+- Misr
+- Masr
+- Guiné Ecuatorial
+- Iritriya
+- Ertra
+- Eesti
+- Eswatini
+- Ityopia
+- Ilhas Falkland
+- Føroyar
+- Ilhas Faroé
+- Færøerne
+- Viti
+- Suomi
+- República Popular da China
+- República do El Salvador
+- Estado da Eritreia
+- Gronelândia
+- Comunidade da Dominica
+- Abkházia
+- Kongo
+- Luxemburgo
+- Japão
+- Afeganistão
+- Albânia
+- Argélia
+- Andorra
+- Angola
+- Antígua e Barbuda
+- Argentina
+- Armênia
+- Austrália
+- Áustria
+- Azerbaijão
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Bielorrússia
+- Bélgica
+- Belize
+- Benim
+- Butão
+- Bolívia
+- Bósnia e Herzegovina
+- Botsuana
+- Brasil
+- Brunei
+- Bulgária
+- Burkina Faso
+- Burundi
+- Costa do Marfim
+- Cabo Verde
+- Camboja
+- Camarões
+- Canadá
+- República Centro-Africana
+- Chade
+- Chile
+- China
+- Colômbia
+- Comores
+- Congo
+- Congo-Brazzaville
+- Costa Rica
+- Croácia
+- Cuba
+- Chipre
+- República Checa
+- República Democrática do Congo
+- Dinamarca
+- Djibuti
+- Dominica
+- República Dominicana
+- Equador
+- Egito
+- El Salvador
+- Guiné Equatorial
+- Eritreia
+- Estônia
+- Etiópia
+- Fiji
+- Finlândia
+- França
+- Gabão
+- Gâmbia
+-->
+<!-- ## synonym:town
+- Bad Lauchstädt
+- Rosenthal
+- Tiruchirappalli
+- Langen
+- Engen
+- Waldeck
+- Milan
+- Tyumen
+- Baoding
+- Langenau
+- Enger
+- Waldenbuch
+- Prague
+- Ryazan
+- Nashville
+- Yiwu
+- João Pessoa
+- Salt Lake City
+- Ufa
+- Oslo
+- Lauenburg
+- Rotterdam
+- Bristol
+- Falkenberg
+- Zhenjiang
+- Liverpool
+- Louisville
+- Kaduna
+- Lebach
+- Wassenberg
+- Voronezh
+- Zaragoza
+- Leisnig
+- Weiden In Der Oberpfalz
+- Weiden
+- Aguascalientes
+- Chifeng
+- Lemgo
+- Felsberg
+- Weil Am Rhein
+- Lviv
+- Lengenfeld
+- Feuchtwangen
+- Weilburg
+- Sevilla
+- Santiago
+- Mumbai
+- Ulan-Ude
+- Brno
+- Raleigh
+- Bhilai
+- Kasan
+- Melle
+- Maracay
+- Omsk
+- Kananga
+- Tula Oblast
+- Erbil
+- Samara
+- Tigre
+- Caracas
+- Vienna
+- Warsaw
+- Minsk
+- Rome
+- Berlin
+- Moscow
+- Gwalior
+- Glasgow
+- Taichung
+- Tiruppur
+- Hama
+- Cochabamba
+- Dhanbad
+- Adelaide
+- Zürich
+- Ranchi
+- Yichang
+- Amritsar
+- Santiago De Querétaro
+- Querétaro
+- Maceió
+- Ivano-Frankivsk
+- Denizli
+- Schesslitz
+- Scheßlitz
+- Bad Windsheim
+- Belo Horizonte
+- Debrecen
+- Preston
+- Schenefeld
+- Bad Wimpfen
+- Xi’an
+- Munster
+- Kingston Upon Hull
+- Padova
+- Schelklingen
+- Bad Wilsnack
+- Hangzhou
+- Scheinfeld
+- Bad Wildungen
+- Foshan
+- Vologda
+- Scheibenberg
+- Bad Wildbad
+- Munderkingen
+- Saigon
+- Ho Chi Minh City
+- Osmaniye
+- Timișoara
+- Timisoara
+- Scheer
+- Bad Waldsee
+- Münchenbernsdorf
+- Tampere
+- Cherepovets
+- Schauenstein
+- Bad Vilbel
+- Ahmedabad
+- Nanjing
+- Çorlu
+- Corlu
+- Schalkau
+- Bad Urach
+- Müncheberg
+- Dongguan
+- Katowice
+- Sayda
+- Bad Tölz
+- Münchberg
+- Chengdu
+- Pskov
+- Grodno
+- Hrodna
+- Sassnitz
+- Bad Tennstedt
+- Müllrose
+- Wuhan
+- Vladikavkaz
+- Sassenberg
+- Bad Teinach-Zavelstein
+- Müllheim
+- Lahore
+- Penzlin
+- Gröningen
+- Penzberg
+- Gronau
+- Hagenow
+- Penkun
+- Groitzsch
+- Hagenbach
+- Penig
+- Gröditz
+- Hadamar
+- Hachenburg
+- Haan
+- Gützkow
+- Gütersloh
+- Güstrow
+- Güsten
+- Gunzenhausen
+- Pockau-Lengefeld
+- Günzburg
+- Plön
+- Gundelsheim
+- Plochingen
+- Peitz
+- Grimmen
+- Peine
+- Grimma
+- Pirmasens
+- Grünberg
+- Pegnitz
+- Griesheim
+- Pinneberg
+- Gross-Umstadt
+- Groß-Umstadt
+- Pegau
+- Grevesmühlen
+- Philippsburg
+- Edmonton
+- Sharjah
+- Jodhpur
+- Fushun
+- Prayag
+- Illahabad
+- Prayagraj
+- Allahabad
+- Huainan
+- Gatineau
+- Xining
+- Asansol
+- Tzeki
+- Cixi
+- Medina
+- Ditzingen
+- Kirchen
+- Ciudad Juárez
+- Jining
+- Batam
+- Qiqihar
+- Palembang
+- Virginia Beach
+- Makassar
+- Jabalpur
+- Calgary
+- Aurangabad
+- Auckland
+- Yekaterinburg
+- Raipur
+- Rosario
+- Benin City
+- Nowosibirsk
+- Gaziantep
+- Kaohsiung
+- Almaty
+- Columbus
+- Córdoba
+- Jilin
+- Datong
+- Xianyang
+- Zhuhai
+- Gwangju
+- Varanasi
+- Iasi
+- Kaub
+- Sochi
+- Cordoba
+- Kansas City
+- Charlotte
+- Liuzhou
+- Daqing
+- Davao City
+- Handan
+- Semarang
+- Kahla
+- Cluj-Napoca
+- Vitória
+- Homs
+- Schiraz
+- Linyi
+- Ludhiana
+- Peschawar
+- Mosul
+- Pittsburgh
+- Austin
+- Cincinnati
+- Owen
+- Orlando
+- Valencia
+- Chita
+- Newport
+- Indianapolis
+- Taichow
+- Taizhou
+- Cleveland
+- Nashik
+- Hohhot
+- León
+- Karaj
+- Samut Prakan
+- Calau
+- La Paz
+- Adana
+- Hamburg
+- Perth
+- Isfahan
+- Haikou
+- Xuzhou
+- West Yorkshire
+- Multan
+- Karlsruhe
+- Brazzaville
+- Verona
+- Sacramento
+- Vadodara
+- Nantong
+- Tijuana
+- Agra
+- Barranquilla
+- Bühl
+- Stein
+- Graz
+- Maracaibo
+- Eixample
+- St. Louis
+- Patna
+- Malappuram
+- San Bernardino
+- Riverside
+- Daegu
+- Goiânia
+- Baltimore
+- Gasteiz
+- Vitoria-Gasteiz
+- Dubai
+- Las Vegas
+- Cochin
+- Kochi
+- San Juan
+- Coruña
+- Corunna
+- Vancouver
+- City Of Westminster
+- Orsk
+- Chemnitz
+- Manisa
+- Bonn
+- Southampton
+- Norden
+- Senden
+- Cali
+- Manchester
+- Guayaquil
+- Marino
+- Nis
+- Selb
+- Latina
+- Espoo
+- Neu-Ulm
+- Durban
+- Guiyang
+- Douala
+- Puebla
+- Seattle
+- Aachen
+- Campinas
+- Wuxi
+- Izmir
+- San Diego
+- Granada
+- Gasteiz-Vitoria
+- Tarsus
+- Kiel
+- Halle
+- Saale
+- Bordeaux
+- Lakhnau
+- Muenster
+- Münster
+- Ciudad Lineal
+- Jaipur
+- Casablanca
+- Jaffa
+- Tel Aviv
+- Salvador
+- Salvador Da Bahia
+- Cape Town
+- Porto Alegre
+- Oviedo
+- Kano
+- Santa Cruz De Tenerife
+- Recife
+- Detroit
+- Changchun
+- Kunming
+- Changsha
+- Zhongshan
+- Shantou
+- Montreal
+- Jinan
+- Mesa
+- Jeddah
+- Bergen
+- Melbourne
+- Fortaleza
+- Stockholm
+- Boston
+- Sydney
+- Rheinbach
+- Fukuoka
+- Sumy
+- Galati
+- Vigo
+- Cartagena
+- Guadalajara
+- Abidjan
+- Barcelona
+- Pune
+- Atlanta
+- Münnerstadt
+- Toronto
+- Suzhou
+- Linz
+- Shenyang
+- Münsingen
+- Houston
+- Miami
+- Liège
+- Liege
+- Ipswich
+- Sevastopol
+- Nicosia
+- Poltava
+- Sarstedt
+- Mülheim-Kärlich
+- Chicago
+- Bad Sülze
+- Markkleeberg
+- Mügeln
+- Shenzhen
+- Gliwice
+- Tianjin
+- Kampala
+- Lublin
+- Sutton
+- Petropavlovsk-Kamchatsky
+- Trieste
+- Kiev
+- Leganes
+- Bologna
+- Roth
+- Kiew
+- Tunis
+- Groningen
+- Port Of Spain
+- Riedstadt
+- Bad Freienwalde
+- Regensburg
+- Bucharest
+- Bad König
+- Burgos
+- Amadora
+- Fürth
+- Mönchengladbach
+- Athens
+- Polch
+- Wiesbaden
+- Lisbon
+- Derby
+- Hiroshima
+- Koln
+- Köln
+- Koeln
+- Madrid
+- Bratislava
+- Muenchen
+- Munchen
+- Aken
+- München
+- Paris
+- Lieberose
+- Lille
+- Budapest
+- Birmingham
+- Dublin
+- Zaozhuang
+- Sarajevo
+- Sheffield
+- Pocking
+- Aichach
+- Liebenau
+- Saarbrucken
+- Saarbrücken
+- Saarbruecken
+- Zwickau
+- Innsbruck
+- Gissen
+- Gießen
+- Richmond
+- Wurzburg
+- Würzburg
+- Wuerzburg
+- Hannover
+- Hanover
+- Rizhao
+- Dammam
+- Mérida
+- Évora
+- Portalegre
+- Castelo Branco
+- Beja
+- Faro
+- Portimão
+- Cologne
+- Mexicali
+- Barquisimeto
+- Yongin
+- São Luís
+- Odessa
+- Xiangtan
+- Mendoza
+- Baoji
+- Flöha
+- Leun
+- Klagenfurt
+- Hildesheim
+- Tübingen
+- Ingolstadt
+- Konstanz
+- Pforzheim
+- Mannheim
+- Reutlingen
+- Darmstadt
+- Leverkusen
+- Ludwigsburg
+- Oberhausen
+- Essen
+- Aschaffenburg
+- Nuremburg
+- Göttingen
+- Braunschweig
+- Erlangen
+- Meerut
+- Anshan
+- Töging Am Inn
+- Kassel
+- Kaluga
+- Dierdorf
+- Kelkheim
+- Nice
+- Kirchberg An Der Jagst
+- Treuenbrietzen
+- Kitzscher
+- Kitzingen
+- Donauwörth
+- Trostberg
+- Van
+- Donzdorf
+- Kutahya
+- Kütahya
+- Stoke-On-Trent
+- Dreieich
+- Uhingen
+- Kamensk-Uralskiy
+- Kölleda
+- Drebkau
+- Uffenheim
+- Huambo
+- Königsbrück
+- Ulmen
+- Samsun
+- Kornwestheim
+- Ebersberg
+- Vechta
+- Split
+- Maltepe
+- Bad Buchau
+- Tai’an
+- Köthen
+- Korschenbroich
+- Eberswalde
+- Velbert
+- Saint-Etienne
+- Saint-Étienne
+- Providence
+- Konya
+- Krempe
+- Ehrenfriedersdorf
+- Veringenstadt
+- Walsall
+- Sanliurfa
+- Şanlıurfa
+- Urfa
+- Natal
+- Mandalay
+- Kota
+- Kusel
+- Kuppenheim
+- Ellrich
+- Voerde
+- Kemerovo
+- Ankara
+- Merkendorf
+- Glückstadt
+- Zell Im Wiesental
+- Zeil Am Main
+- Glashütte
+- Zehdenick
+- Gladenbach
+- Zarrentin Am Schaalsee
+- Zahna-Elster
+- Xanten
+- Wyk Auf Föhr
+- Wunstorf
+- Gersfeld
+- Wunsiedel
+- Gerolzhofen
+- Wülfrath
+- Gerolstein
+- Wriezen
+- Gernsheim
+- Wustrow
+- Wörth An Der Donau
+- Gernsbach
+- Wörth Am Rhein
+- Germersheim
+- Wörth Am Main
+- Germering
+- Wörrstadt
+- Gerlingen
+- Geringswalde
+- Wolmirstedt
+- Worms
+- Geretsried
+- Wolkenstein
+- Sëlva
+- Gerbstedt
+- Wolgast
+- Gerabronn
+- Wolfstein
+- Gera
+- Georgsmarienhütte
+- Oryol
+- Orel
+- Salzgitter
+- Bad Schwalbach
+- Leipzig
+- Reading
+- Alicante
+- London
+- São Tomé
+- Krefeld
+- Mössingen
+- Rio De Janeiro
+- Portsmouth
+- Chongqing
+- Mücheln
+- Lagos
+- Istanbul
+- Osaka-Kōbe
+- Funafuti
+- Maulbronn
+- Porto
+- São Paulo
+- Shanghai
+- Delhi
+- Zurich
+- Möckern
+- Newcastle Upon Tyne
+- San Sebastian
+- Bilbao
+- Almeria
+- Le Havre
+- Münstermaifeld
+- Bad Wörishofen
+- Schieder-Schwalenberg
+- Alcala De Henares
+- Münzenberg
+- Bad Wünnenberg
+- Schifferstadt
+- Ostrava
+- Murrhardt
+- Bad Wurzach
+- Schillingsfürst
+- Varna
+- Mostoles
+- Nabburg
+- Baesweiler
+- Schiltach
+- Vladimir
+- Sabadell
+- Dallas
+- Nagold
+- Baiersdorf
+- Schirgiswalde
+- Oradea
+- Surat
+- Philadelphia
+- Harbin
+- Naila
+- Balingen
+- Schkeuditz
+- Jerez De La Frontera
+- Ballenstedt
+- Nassau
+- Schkölen
+- Chernihiv
+- Kielce
+- Nastätten
+- Balve
+- Schleiden
+- Torun
+- Nauen
+- Bamberg
+- Omdurman
+- Nebra
+- Monterrey
+- Dalian
+- Xiamen
+- Zhengzhou
+- Neuenburg Am Rhein
+- Neuenbürg
+- Neuenhaus
+- Neuburg An Der Donau
+- Bebra
+- Schneverdingen
+- Tambov
+- Biysk
+- Neudenau
+- Beckum
+- Schömberg
+- Catania
+- Archway
+- Bedburg
+- Utrecht
+- Neuenstein
+- Medellín
+- Lübeck
+- Gelsenkirchen
+- Erfurt
+- Cottbus
+- Wuppertal
+- Paderborn
+- Osnabrück
+- Magdeburg
+- Nuremberg
+- Duisburg
+- Rostock
+- Kaiserslautern
+- Bochum
+- Bielefeld
+- Nürnberg
+- Bremen
+- Mainz
+- Freiburg
+- Dortmund
+- Macau 
+- Duesseldorf
+- Geisa
+- Stuttgart
+- Hongkong
+- Witten
+- Düsseldorf
+- Dusseldorf
+- Bahamas
+- Wissen
+- Frankfurt
+- Munich
+- Geisingen
+- Wolfach
+- Wolfhagen
+- Luebeck
+- Greifswald
+- Ludwigshafen
+- Kempten
+- Freiberg
+- Stralsund
+- Landshut
+- Dresden
+- Fribourg
+- Wolfsburg
+- Salzburg
+- Augsburg
+- Nurnberg
+- Unterhaching
+- Remscheid
+- Deggendorf
+- Gladbach
+- Gummersbach
+- Neuss
+- Goettingen
+- Bad Orb
+- Moers
+- Nagpur
+- Glinde
+- Zell
+- Zell Am Harmersbach
+- Zella-Mehlis
+- Glücksburg
+- Zeitz
+- Glauchau
+- Bengaluru
+- Chennai
+- Seoul
+- Nagoya
+- Johannesburg
+- Hyderabad
+- Bad Schwartau
+- Salzkotten
+- Volzhskiy
+- Hagen
+- Mühlacker
+- Greven
+- Zwiesel
+- Zwingenberg
+- Zwönitz
+- Gransee
+- Grafing Bei München
+- Grafing
+- Greußen
+- Zwenkau
+- Gräfenberg
+- Grebenau
+- Gräfenhainichen
+- Gräfenthal
+- Grafenwöhr
+- Papenburg
+- Pappenheim
+- Grebenstein
+- Parchim
+- Greding
+- Großalmerode
+- Perleberg
+- Groß-Bieberau
+- Petershagen
+- Großbottwar
+- Pfaffenhofen An Der Ilm
+- Großbreitenbach
+- Pfarrkirchen
+- Großenehrich
+- Pfreimd
+- Großenhain
+- Grossenhain
+- Groß-Gerau
+- Pfullendorf
+- Großräschen
+- Pfullingen
+- Großröhrsdorf
+- Grünhain-Beierfeld
+- Pirna
+- Grünsfeld
+- Plattling
+- Grünstadt
+- Plau Am See
+- Guben
+- Plaue
+- Plauen
+- Gudensberg
+- Güglingen
+- Plettenberg
+- Pleystein
+- Gundelfingen An Der Donau
+- Hann. Münden
+- Hannoversch Münden
+- Haiger
+- Haigerloch
+- Hainichen
+- Haiterbach
+- Halberstadt
+- Haldensleben
+- Hallenberg
+- Hallstadt
+- Haltern Am See
+- Hamminkeln
+- Halver
+- Hameln
+- Hamelin
+- Hamm
+- Hammelburg
+- Hanau
+- Harburg
+- Hardegsen
+- Haren
+- Harsewinkel
+- Hartenstein
+- Hartha
+- Harzgerode
+- Haselünne
+- Haslach Im Kinzigtal
+- Haßfurt
+- Hattersheim Am Main
+- Hattingen
+- Hatzfeld
+- Hausach
+- Hauzenberg
+- Havelberg
+- Havelsee
+- Hayingen
+- Hechingen
+- Hecklingen
+- Heide
+- Heideck
+- Heidelberg
+- Heidenau
+- Heidenheim An Der Brenz
+- Heilbad Heiligenstadt
+- Heilbronn
+- Heiligenhafen
+- Heiligenhaus
+- Heilsbronn
+- Heimbach
+- Heimsheim
+- Heinsberg
+- Heitersheim
+- Heldburg
+- Helmbrechts
+- Helmstedt
+- Hemau
+- Hemer
+- Hemmingen
+- Hemmoor
+- Hemsbach
+- Hennef
+- Hennigsdorf
+- Heppenheim
+- Herbolzheim
+- Herborn
+- Herbrechtingen
+- Herbstein
+- Herdecke
+- Herdorf
+- Herford
+- Heringen
+- Hermeskeil
+- Hermsdorf
+- Herne
+- Herrenberg
+- Herrieden
+- Herrnhut
+- Hersbruck
+- Herten
+- Herzberg Am Harz
+- Herzberg
+- Herzogenaurach
+- Herzogenrath
+- Hessisch Lichtenau
+- Hessisch Oldendorf
+- Hettingen
+- Hettstedt
+- Heubach
+- Heusenstamm
+- Hilchenbach
+- Hildburghausen
+- Hilden
+- Hillesheim
+- Hilpoltstein
+- Hirschau
+- Hirschberg
+- Hirschhorn
+- Hitzacker
+- Hochheim Am Main
+- Höchstadt An Der Aisch
+- Höchstädt An Der Donau
+- Hockenheim
+- Hof
+- Hofgeismar
+- Hofheim Am Taunus
+- Hofheim In Unterfranken
+- Hohenberg An Der Eger
+- Hohenleuben
+- Hohenmölsen
+- Hohen Neuendorf
+- Hohenstein-Ernstthal
+- Holzminden
+- Suva
+- Helsinki
+- Horb Am Neckar
+- Hornbach
+- Libreville
+- Hornberg
+- Hörstel
+- Horstmar
+- Ichenhausen
+- Idar-Oberstein
+- Saint George's
+- Illertissen
+- Ilmenau
+- Ilsenburg
+- Ilshofen
+- Immenhausen
+- St. George’s
+- Ingelfingen
+- Accra
+- Tallinn
+- Banjul
+- Höxter
+- Tiflis
+- Tbilisi
+- Hoyerswerda
+- Hückelhoven
+- Hückeswagen
+- Amman
+- Hüfingen
+- Phnom Penh
+- Hünfeld
+- Yaoundé
+- Hungen
+- Ingelheim Am Rhein
+- Iphofen
+- Iserlohn
+- Isny Im Allgäu
+- Isselburg
+- Itzehoe
+- Aach
+- South Ossetia
+- Gersthofen
+- Aden
+- Gescher
+- Würselen
+- Geseke
+- Wurzbach
+- Gevelsberg
+- Geyer
+- Wurzen
+- Giengen An Der Brenz
+- Giengen
+- Giessen
+- Gifhorn
+- Ginsheim-Gustavsburg
+- Gladbeck
+- Mühlberg
+- Zerbst
+- Mühlheim Am Main
+- Mühlhausen
+- Gößnitz
+- Goslar
+- Zittau
+- Görlitz
+- Zirndorf
+- Zörbig
+- Gotha
+- Zossen
+- Zschopau
+- Grabow
+- Zülpich
+- Grafenau
+- Zweibrücken
+- Parsberg
+- Greiz
+- Pasewalk
+- Astana
+- Nairobi
+- Bischkek
+- Abensberg
+- Abenberg
+- Aalen
+- Ahrensburg
+- Ahlen
+- Ahaus
+- Adorf
+- Adenau
+- South Tarawa
+- Achim
+- Adelsheim
+- Achern
+- Doha
+- Jerusalem
+- Tokyo
+- Praia
+- Bissau
+- Georgetown
+- Port-Au-Prince
+- Kingston
+- Tegucigalpa
+- Rom
+- Reykjavík
+- Immenstadt Im Allgäu
+- Immenstadt
+- New Delhi
+- Bagdad
+- Conakry
+- Teheran
+- Husum
+- Hürth
+- Guatemala City
+- Ottawa
+- San José
+- San Salvador
+- Avarua
+- Yamoussoukro
+- Asmara
+- Quito
+- Djibouti City
+- Santo Domingo
+- Copenhagen
+- Roseau
+- Horn-Bad Meinberg
+- Homburg
+- Homberg
+- Ibbenbüren
+- Idstein
+- Hohnstein
+- Höhr-Grenzhausen
+- Hollfeld
+- Holzgerlingen
+- Beijing
+- Peking
+- Taipei
+- Porto-Novo
+- Belmopan
+- Sofia
+- Brasília
+- Santiago De Chile
+- Engels
+- Kelheim
+- Diepholz
+- Todtnau
+- Burgas
+- Kastellaun
+- Tharandt
+- Arnavutkoy
+- Arnavutköy
+- Kerpen
+- Dingelstädt
+- Traunstein
+- Cork
+- Vinnytsia
+- Chaozhou
+- Kirn
+- Dommitzsch
+- Troisdorf
+- Dun Laoghaire
+- Dún Laoghaire
+- Mahilyow
+- Mogilev
+- Klingenberg Am Main
+- Kleve
+- Dormagen
+- Twistringen
+- Brescia
+- Tirana
+- Mainburg
+- Backnang
+- Reinfeld
+- Mariupol
+- Oederan
+- Bruchköbel
+- Stadtilm
+- Bexley
+- Könnern
+- Eberbach
+- Uslar
+- Magnitogorsk
+- Freetown
+- Colombo
+- Brunswick
+- Maxhütte-Haidhof
+- Bad Friedrichshall
+- Rieneck
+- Fes
+- Fez
+- Jacksonville
+- Kroppenstedt
+- Einbeck
+- Viernheim
+- Karabaglar
+- Karabağlar
+- Bangkok
+- Roding
+- Las Palmas De Gran Canaria
+- Las Palmas
+- Sants-Montjuic
+- Sants-Montjuïc
+- Lampertheim
+- Elzach
+- Wächtersbach
+- Kharkiv
+- Leicester
+- Abu Dhabi
+- Miesbach
+- Bad Münstereifel
+- Rothenburg Ob Der Tauber
+- Coventry
+- Laubach
+- Erbendorf
+- Waldkraiburg
+- Moosburg An Der Isar
+- Moosburg
+- Bad Salzungen
+- Aberdeen
+- Lauingen
+- Erwitte
+- Wanfried
+- Perm
+- Genoa
+- Fehmarn
+- Palermo
+- Nottingham
+- Fellbach
+- Weikersheim
+- Bagcilar
+- Bağcılar
+- Krasnodar
+- Leutkirch Im Allgäu
+- Kisangani
+- Forchtenberg
+- Weismain
+- Lichtenau
+- Frankenberg an der Eder
+- Weilheim An Der Teck
+- Weißenfels
+- Frankfurt Am Main
+- Weißenstadt
+- Jamshedpur
+- Forst
+- Weißenberg
+- Lich
+- Frankenau
+- Lichtenfels
+- Frankenthal
+- Weißensee
+- Weissensee
+- Frauenstein
+- Weiterstadt
+- Freiberg Am Neckar
+- Welzow
+- Wemding
+- Freiburg Im Breisgau
+- Wendlingen
+- Freilassing
+- Werben
+- Freinsheim
+- Werdau
+- Neusalza-Spremberg
+- Bersenbrück
+- Schwabach
+- Nalchik
+- Neue Neustadt
+- Neusäß
+- Besigheim
+- Schwäbisch Gmünd
+- Stary Oskol
+- Betzdorf
+- Schwäbisch Hall
+- Hall
+- Ljubljana
+- Sosnowiec
+- Ürümqi
+- Wushi
+- Curitiba
+- Neustadt Am Kulm
+- Betzenstein
+- Schwabmünchen
+- Kremenchuk
+- Taiyuan
+- Sana'a
+- Niedernhall
+- Blomberg
+- Seeland
+- Altona
+- Århus
+- Aarhus
+- Nördlingen
+- Borgholzhausen
+- Sigmaringen
+- Angarsk
+- Nanchang
+- Nossen
+- Borna
+- Sindelfingen
+- Oberviechtach
+- Bredstedt
+- Spenge
+- Lubumbashi
+- Plymouth
+- Ochsenfurt
+- Bremervörde
+- Sprockhövel
+- Milton Keynes
+- Medan
+- Oppenheim
+- Burgdorf
+- Steinheim An Der Murr
+- Thiruvananthapuram
+- Trivandrum
+- Baotou
+- Oschersleben
+- Burladingen
+- Stolpen
+- Yangzhou
+- Otterndorf
+- Clingen
+- Suhl
+- Eindhoven
+- Constanta
+- Constanța
+- Jüterbog
+- Cuxhaven
+- Tauberbischofsheim
+- Vasylevsky Ostrov
+- Jülich
+- Crivitz
+- Tanna
+- Sisli
+- Şişli
+- Delmenhorst
+- Thannhausen
+- Detmold
+- Thum
+- Kirchhain
+- Döbern
+- Trier
+- Torreón
+- Kirtorf
+- Donaueschingen
+- Trossingen
+- Thalheim
+- Kolbermoor
+- Dransfeld
+- Uetersen
+- Santander
+- Königsberg In Bayern
+- Königsberg
+- Drensteinfurt
+- Ulm
+- Prato
+- Maputo
+- Arzberg
+- Rauenberg
+- Abuja
+- Lunzenau
+- Auerbach
+- Regis-Breitingen
+- Paramaribo
+- Meinerzhagen
+- Bad Honnef
+- Rodenberg
+- Vereeniging
+- Laatzen
+- Elsfleth
+- Vöhrenbach
+- Meßkirch
+- Messkirch
+- Bad Liebenwerda
+- Bydgoszcz
+- Langenburg
+- Ennepetal
+- Waldenburg
+- Esenler
+- Mölln
+- Bad Reichenhall
+- Runkel
+- Plovdiv
+- Severodvinsk
+- Laupheim
+- Eschborn
+- Wangen Im Allgäu
+- Üsküdar
+- Ueskuedar
+- Guilin
+- Lehesten
+- Ettlingen
+- Wasungen
+- Yaroslavl
+- Leutershausen
+- Forchheim
+- Weinstadt
+- Lauta
+- Eschershausen
+- Neunburg Vorm Wald
+- Bernburg
+- Schrobenhausen
+- Brasov
+- Brașov
+- Faisalabad
+- Neunkirchen
+- Bernkastel-Kues
+- Schrozberg
+- Komsomolsk-On-Amur
+- Aleppo
+- Neuötting
+- Neustadt
+- Billerbeck
+- Schwarzenbach An Der Saale
+- Sivas
+- Syktyvkar
+- Bischofsheim An Der Rhön
+- Schwarzenborn
+- Moenchengladbach
+- Neustadt In Sachsen
+- Bischofswerda
+- Busan
+- Schwarzenbach Am Wald
+- Neustadt Bei Coburg
+- Neustadt-Glewe
+- Bingen Am Rhein
+- Bingen
+- Schwentinental
+- Surabaya
+- Niederstotzingen
+- Boizenburg
+- Minneapolis-St. Paul
+- Twin Cities
+- Kropyvnytskyi
+- Nieheim
+- St. Petersburg
+- Denver
+- Aurora
+- Kumasi
+- Bonndorf Im Schwarzwald
+- Bonndorf
+- Puente De Vallecas
+- Seifhennersdorf
+- Montpellier
+- Brandenburg An Der Havel
+- Brandenburg
+- Sapporo
+- Rawalpindi
+- Changzhou
+- Coimbatore
+- Bandung
+- Oberharz Am Brocken
+- Rivne
+- Sonneberg
+- Brandis
+- Obermoschel
+- Oberndorf Am Neckar
+- Oberndorf
+- Indore
+- L'hospitalet De Llobregat
+- L'Hospitalet
+- Bremerhaven
+- Obernburg Am Main
+- Obernburg
+- Oderberg
+- Toluca De Lerdo
+- Toluca
+- Sterlitamak
+- Luoyang
+- Mbuji-Mayi
+- Steinau An Der Straße
+- Oppenau
+- Fuencarral-El Pardo
+- Steinbach-Hallenberg
+- Vykhino-Zhulebino
+- St. Ingbert
+- Sankt Ingbert
+- Marienthal
+- St. Georgen Im Schwarzwald
+- Sankt Georgen im Schwarzwald
+- Southend-On-Sea
+- Osterholz-Scharmbeck
+- Velikiy Novgorod
+- Bursa
+- Stößen
+- Bürstadt
+- Osterburg
+- Osterode Am Harz
+- Sulzbach
+- Ostheim Vor Der Rhön
+- Ostheim
+- Osthofen
+- Celle
+- Mecca
+- Östringen
+- Clausthal-Zellerfeld
+- Südliches Anhalt
+- Cochem
+- Otterberg
+- Antakya
+- Saransk
+- Port Harcourt
+- Jarmen
+- Coesfeld
+- Süßen
+- Johanngeorgenstadt
+- Creußen
+- Tangerhütte
+- Sulzbach-Rosenberg
+- Jena
+- Colditz
+- Sulzburg
+- Yinchuan
+- Rajkot
+- Madurai
+- Jiangmen
+- Kongmoon
+- Tabriz
+- Daejeon
+- Demmin
+- Freren
+- Werl
+- Freital
+- Werdohl
+- Freudenberg
+- Werlte
+- Freudenstadt
+- Wermelskirchen
+- Freyburg
+- Wernau
+- Freystadt
+- Werne
+- Friedrichstadt
+- Wesenberg
+- Friedrichsthal
+- Wesselburen
+- Friesack
+- Wesseling
+- Friesoythe
+- Westerburg
+- Fröndenberg
+- Fritzlar
+- Westerstede
+- Fürstenberg/Havel
+- Fürstenfeldbruck
+- Frohburg
+- Wettin-Löbejün
+- Furtwangen Im Schwarzwald
+- Furtwangen
+- Fulda
+- Wetzlar
+- Fürstenau
+- Widdern
+- Wiehl
+- Garching Bei München
+- Garching
+- Willich
+- Willebadessen
+- Windischeschenbach
+- Gebesee
+- Winnenden
+- Garz
+- Gardelegen
+- Wilsdruff
+- Garding
+- Wilster
+- Wismar
+- Gartz
+- Wilthen
+- Gau-Algesheim
+- Windsbach
+- Gedern
+- Winsen
+- Wittlich
+- Geislingen An Der Steige
+- Geislingen
+- Wittingen
+- Wittstock
+- Genthin
+- Wolfratshausen
+- Wolframs-Eschenbach
+- Gengenbach
+- Schleiz
+- Craiova
+- Rennes
+- Neckarbischofsheim
+- Zelenograd
+- Beelitz
+- Schönau Im Schwarzwald
+- Zeytinburnu
+- Northampton
+- Neuhaus Am Rennweg
+- Berching
+- Schönsee
+- Gebze
+- Großschirma
+- Pausa-Mühltroff
+- Grevenbroich
+- Pfungstadt
+- Pattensen
+- Charleroi
+- Valladolid
+- Sankt Goarshausen
+- Bad Sulza
+- Mülheim
+- Mülheim An Der Ruhr
+- Iași
+- Sankt Goar
+- Bad Staffelstein
+- Severny
+- Mühlheim An Der Donau
+- Tilburg
+- Sankt Augustin
+- Bad Sooden-Allendorf
+- Balakovo
+- Islington
+- Sangerhausen
+- Bad Soden-Salmünster
+- Passau
+- Armavir
+- Murmansk
+- Sandersdorf-Brehna
+- Bad Soden
+- Mühldorf Am Inn
+- Ziesar
+- Göppingen
+- Bila Tserkva
+- Kherson
+- Sandau
+- Bad Sobernheim
+- Zierenberg
+- Gommern
+- Dudley
+- Smolensk
+- Salzwedel
+- Bad Segeberg
+- Ziegenrück
+- Golseen
+- Golßen
+- Zeven
+- Goldkronach
+- Zeulenroda-Triebes
+- Goldberg
+- Goch
+- Gnoien
+- Delbrück
+- Birkenhead
+- Pamplona
+- Delitzsch
+- Karlstadt am Main
+- Karlstadt
+- Sunderland
+- Izmit
+- Tirschenreuth
+- Dettelbach
+- Kaufbeuren
+- Geneve
+- Übach-Palenberg
+- Dornburg
+- Klingenthal
+- Makeyevka
+- Makiivka
+- Pontoise
+- Überlingen
+- Dornhan
+- Klötze
+- Hengyang
+- Richtenberg
+- Baden-Baden
+- Marlow
+- Ivanovo
+- Yuzhno-Sakhalinsk
+- Vallendar
+- Ebersbach An Der Fils
+- Korbach
+- Rödental
+- Bad Hönningen
+- Meiningen
+- Mbabane
+- Muratpaşa
+- Muratpasa
+- Verl
+- Eibelstadt
+- Kreuztal
+- Rüdesheim Am Rhein
+- Bad Oldesloe
+- Mittweida
+- Yokohama
+- Waldbröl
+- Endingen
+- Endingen Am Kaiserstuhl
+- Langelsheim
+- Memphis
+- Rüsselsheim
+- Rüsselsheim Am Main
+- Bad Rodach
+- Ruhland
+- Bad Rappenau
+- Mersin
+- Waldershof
+- Ennigerloh
+- Längenfeld
+- Langenfeld
+- Mombasa
+- Sachsenheim
+- Bad Schussenried
+- Long Beach
+- Donetsk
+- Walldorf
+- Erkelenz
+- Lauda-Königshofen
+- Mysuru
+- Mysore
+- Speyer
+- Breisach
+- Oberwesel
+- Spalt
+- Braunsbedra
+- Oberriexingen
+- Spangenberg
+- Obertshausen
+- Merkezefendi
+- Messina
+- Steinbach
+- Burg
+- Olpe
+- Visakhapatnam
+- Burglengenfeld
+- Ornbau
+- Cherkasy
+- Brăila
+- Braila
+- Straubing
+- Buxtehude
+- Teublitz
+- Datteln
+- Kandel
+- Teuchern
+- Daun
+- Kandern
+- Treuen
+- Kirchberg in Tirol
+- Kirchberg
+- Swindon
+- Trochtelfingen
+- Dömitz
+- Kirchheim Unter Teck
+- Kaunas
+- Tuttlingen
+- Dorfen
+- Uelzen
+- Koblenz
+- Wandsbek
+- Riesa
+- Bad Gandersheim
+- Mayen
+- Basseterre
+- Toulouse
+- Turku
+- Velburg
+- Eckartsberga
+- Rodewisch
+- Bad Karlshafen
+- Meissen
+- Duschanbe
+- Leeds
+- Mansfield
+- Vetschau
+- Eichstätt
+- Kronberg
+- Kronberg Im Taunus
+- Port Elizabeth
+- Wiehe
+- Roßleben-Wiehe
+- Bad Lauterberg
+- Merzig
+- Vohburg
+- Elmshorn
+- Kyritz
+- Zlatoust
+- Florence
+- Rottweil
+- Bad Neustadt An Der Saale
+- Mittenwalde
+- Bangui
+- Belgrade
+- Waibstadt
+- Emmerich
+- Emmerich Am Rhein
+- Quetta
+- Barnaul
+- Bahçelievler
+- Bahcelievler
+- Wallenfels
+- Erkrath
+- Lauf An Der Pegnitz
+- Bogor
+- Çankaya
+- Cankaya
+- Wedel
+- Euskirchen
+- Lehrte
+- Khabarovsk
+- Volgograd
+- Walsrode
+- Laufen
+- Hai Phong
+- Ober-Ramstadt
+- Bräunlingen
+- Spaichingen
+- Manaus
+- Sontra
+- Braunlage
+- Obernkirchen
+- Kostroma
+- Shakhty
+- Sankt Blasien
+- St. Blasien
+- Büdelsdorf
+- Olbernhau
+- Taganrog
+- Banja Luka
+- Steinach
+- Oldenburg
+- Yoshkar-Ola
+- Babruysk
+- Bünde
+- Oldenburg In Holstein
+- Sulz
+- Sulz Am Neckar
+- Coburg
+- Overath
+- Vijayawada
+- Sulingen
+- Cloppenburg
+- Ottweiler
+- Tettnang
+- Dassow
+- Kamp-Lintfort
+- Tengen
+- Dargun
+- Kaltennordheim
+- Templin
+- Dannenberg
+- Kaltenkirchen
+- Thessaloniki
+- Vantaa
+- Trebbin
+- Dingolfing
+- Ketzin
+- Syzran
+- Trebsen
+- Dinkelsbühl
+- Kevelaer
+- Çorum
+- Corum
+- Uebigau-Wahrenbrück
+- Dornstetten
+- Victoria
+- Usingen
+- Ebeleben
+- Königs Wusterhausen
+- Yasenevo
+- Szczecin
+- Rinteln
+- Bad Griesbach
+- Meckenheim
+- Kingstown
+- Murcia
+- Siverek
+- Vellberg
+- Edenkoben
+- Krakow Am See
+- Ahvaz
+- Rosenheim
+- Bad Langensalza
+- Meppen
+- Skopje
+- Kyiv
+- Vlotho
+- Ellingen
+- Rötha
+- Bad Marienberg
+- Meuselwitz
+- Port Vila
+- Volkmarsen
+- Elterlein
+- Lahr
+- Izhevsk
+- Łódź
+- Lodz
+- Weener
+- Eutin
+- Leichlingen
+- Goyang
+- Odesa
+- Waltershausen
+- Erlenbach Am Main
+- Laufenburg
+- Wroclaw
+- Antalya
+- Badalona
+- Neumünster
+- Bernau Bei Berlin
+- Schriesheim
+- Nantes
+- Adiyaman
+- Bernsdorf
+- Schüttorf
+- Strasbourg
+- Grozny
+- Schwarzenbek
+- Ghent
+- Nanning
+- Ningbo
+- Bitburg
+- Schweich
+- Niddatal
+- Blankenhain
+- Yakutsk
+- Böblingen
+- Seesen
+- Blackpool
+- Niemegk
+- Sancaktepe
+- Norderstedt
+- Bopfingen
+- Seßlach
+- Northeim
+- Borken
+- Simbach Am Inn
+- Oberasbach
+- Boxberg
+- Sinzig
+- Balikesir
+- Oberkochen
+- Sömmerda
+- Sant Marti
+- Sant Martí
+- Carabanchel
+- Oberursel
+- Breckerfeld
+- Speicher
+- Oberwiesenthal
+- Spremberg
+- Brilon
+- Stadtbergen
+- Ochtrup
+- Breuberg
+- Stadtallendorf
+- Ploiesti
+- Ploiești
+- Olfen
+- Büren
+- Hamburg-Nord
+- Orlamünde
+- Burgkunstadt
+- Ortrand
+- Burg Stargard
+- Stolberg
+- Osterfeld
+- Butzbach
+- Lutsk
+- Strausberg
+- Norwich
+- Elazig
+- Elazığ
+- Stutensee
+- Esenyurt
+- Surgut
+- Jöhstadt
+- Creuzburg
+- Tangermünde
+- Dachau
+- Taunusstein
+- Kalbe
+- Dahn
+- Telgte
+- Marseille
+- Kamenz
+- Dassel
+- Teterow
+- Lyon
+- Kamen
+- Ticino
+- Katzenelnbogen
+- Dessau-Roßlau
+- Themar
+- Fuenlabrada
+- Kelsterbach
+- Dietfurt
+- Tönning
+- Dillingen An Der Donau
+- Dillingen
+- Traben-Trarbach
+- Zabrze
+- Dinklage
+- Treffurt
+- Bytom
+- Arkhangelsk
+- Dissen Am Teutoburger Wald
+- Dissen
+- Döbeln
+- Triberg Im Schwarzwald
+- Triberg
+- Atasehir
+- Ataşehir
+- Klütz
+- Knittlingen
+- Dorsten
+- Ueckermünde
+- Korolyov
+- Nizhny Tagil
+- Königsbrunn
+- Drolshagen
+- Ulrichstein
+- Yingkou
+- Ramallah
+- Ebermannstadt
+- Vacha
+- Harare
+- Marktsteft
+- Bad Elster
+- Rhinow
+- Bryansk
+- Tripoli
+- Lollar
+- Am Ettersberg
+- Külsheim
+- Eisfeld
+- Vilseck
+- Menden
+- Bad Kreuznach
+- Ronnenberg
+- Kahramanmaras
+- Kahramanmaraş
+- Geneva
+- Chandigarh
+- Laichingen
+- Eltmann
+- Vreden
+- Kalininsky
+- Meyenburg
+- Bad Mergentheim
+- Röthenbach An Der Pegnitz
+- Denpasar
+- Landstuhl
+- Emsdetten
+- Waischenfeld
+- Lipetsk
+- Nikosia
+- Mitterteich
+- Bad Oeynhausen
+- Rötz
+- Erkner
+- Walldürn
+- Brussels
+- Umraniye
+- Benxi
+- Lauffen Am Neckar
+- Erlensee
+- Waltrop
+- Lebus
+- Esslingen Am Neckar
+- Esslingen
+- Wasserburg Am Inn
+- Leinfelden-Echterdingen
+- Falkenstein/Harz
+- Wehr
+- Riga
+- Ulyanovsk
+- Krasnoyarsk
+- Weingarten
+- Lenzen
+- Fladungen
+- Weilheim In Oberbayern
+- Putian
+- Lichtenberg
+- Frankenberg
+- Weißenhorn
+- Yancheng
+- Lichtenstein
+- Weißenthurm
+- Franzburg
+- Weißwasser
+- Freising
+- Werder
+- Neuruppin
+- Bernstadt auf dem Eigen
+- Schwaan
+- Belfast
+- Radom
+- Neuwied
+- Bitterfeld-Wolfen
+- Schweinfurt
+- Nizhnekamsk
+- Bocholt
+- Sehnde
+- Kamianske
+- Khimki
+- Nordhausen
+- Boppard
+- Siegburg
+- Trabzon
+- Nürtingen
+- Bottrop
+- Sinsheim
+- Nordhorn
+- Borgentreich
+- Siegen
+- Oberlungwitz
+- Brand-Erbisdorf
+- Sondershausen
+- Ternopil
+- Gdynia
+- Oberzent
+- Springe
+- Elche
+- Petrozavodsk
+- Olching
+- Büdingen
+- Blagoveshchensk
+- Horlivka
+- Ohrdruf
+- Bückeburg
+- Staufenberg
+- Bari
+- Weifang
+- Portland
+- Ochsenhausen
+- Bretten
+- Stade
+- Brisbane
+- Naples
+- Osterwieck
+- Calbe
+- Strehla
+- Mokotow
+- Mokotów
+- Bradford
+- Castrop-Rauxel
+- Stühlingen
+- Swansea
+- Kaarst
+- Daaden
+- Taucha
+- Kaisersesch
+- Dahlen
+- Tecklenburg
+- Dahme
+- Tegernsee
+- Kelbra
+- Diemelstadt
+- Tittmoning
+- Kryvyi Rih
+- Krivoy Rog
+- Salem
+- Lengerich
+- Filderstadt
+- Weil Der Stadt
+- Togliatt
+- Tolyatti
+- Weißenburg In Bayern
+- Weissenburg in Bayern
+- Kollam
+- Wuhu
+- Srinagar
+- Milwaukee
+- Frechen
+- Welzheim
+- Quanzhou
+- Wegberg
+- Leimen
+- Wanzleben-Börde
+- Eschenbach
+- Eschenbach In Der Oberpfalz
+- Lauscha
+- Mianyang
+- Cracow
+- Kraków
+- Krakow
+- Wegeleben
+- Falkensee
+- Leinefelde-Worbis
+- Aligarh
+- Diyarbakir
+- Amsterdam
+- Weida
+- Falkenstein
+- Leipheim
+- Zagreb
+- Finsterwalde
+- Lennestadt
+- Weimar
+- Flensburg
+- Leonberg
+- Weinsberg
+- Florstadt
+- Leutenberg
+- Sulaimaniyya
+- Warburg
+- Vladivostok
+- Lauter-Bernsbach
+- Eschwege
+- Waren
+- Lauterbach
+- Eschweiler
+- Warendorf
+- Turin
+- Suqian
+- Lauterecken
+- Esens
+- Warin
+- Nanchong
+- Lauterstein
+- Espelkamp
+- Warstein
+- Saratov
+- Kayseri
+- Guwahati
+- Leer
+- Ettenheim
+- Wassertrüdingen
+- Zaporizhia
+- Zaporozhye
+- Zaporizhzhia
+- Flörsheim Am Main
+- Weinheim
+- Leuna
+- Puning
+- Neustadt Am Rübenberge
+- Neustadt An Der Donau
+- Beverungen
+- Schwaigern
+- Neustadt An Der Aisch
+- Bexbach
+- Schwalbach Am Taunus
+- Biberach An Der Riß
+- Biberach
+- Biberach an der Riss
+- Schwalmstadt
+- Hamamatsu
+- Neustadt An Der Orla
+- Biedenkopf
+- Schwandorf
+- Hefei
+- Neustadt An Der Waldnaab
+- Schwanebeck
+- Oakland
+- Tangshan
+- Nienburg
+- Bockenem
+- Czestochowa
+- Częstochowa
+- Novorossiysk
+- Neustadt An Der Weinstraße
+- Biesenthal
+- Schwarzatal
+- Fuzhou
+- Bietigheim-Bissingen
+- Shijiazhuang
+- Neustadt In Holstein
+- Birkenfeld
+- Schwarzenberg
+- Wenzhou
+- Neustrelitz
+- Schwarzheide
+- Luton
+- Dzerzhinsk
+- Ibadan
+- Neutraubling
+- Schwedt
+- Hamburg-Mitte
+- Nidda
+- Blankenburg
+- Schwelm
+- Bratsk
+- Nidderau
+- Blaubeuren
+- Schwerin
+- Nideggen
+- Blaustein
+- Schwerte
+- Kanpur
+- Niebüll
+- Bleckede
+- Schwetzingen
+- Maschhad
+- Niedenstein
+- Bleicherode
+- Sebnitz
+- Wolverhampton
+- Chernivtsi
+- Niederkassel
+- Blieskastel
+- Seehausen
+- Eimsbuettel
+- Eimsbüttel
+- Kosice
+- Košice
+- Nieder-Olm
+- Blumberg
+- Seelow
+- Niederstetten
+- Bobingen
+- Seelze
+- Lanzhou
+- Bodenwerder
+- Selbitz
+- Nierstein
+- Bogen
+- Seligenstadt
+- Incheon
+- Niesky
+- Böhlen
+- Selm
+- Nittenau
+- Selters
+- Nordenham
+- Sendenhorst
+- Nizhnevartovsk
+- Norderney
+- Bönnigheim
+- Senftenberg
+- Nortorf
+- Borkum
+- Simmern
+- Bornheim
+- Singen
+- Kozhikode
+- Brackenheim
+- Soest
+- Brake
+- Solingen
+- Oberhof
+- Brakel
+- Solms
+- Zibo
+- Oberkirch
+- Bramsche
+- Soltau
+- Thrissur
+- Braubach
+- Sonnewalde
+- Huizhou
+- Braunfels
+- Sonthofen
+- Oschatz
+- Burgwedel
+- Belgorod
+- Klaipėda
+- Klaipeda
+- Tornesch
+- Dillenburg
+- Kempen
+- Trendelburg
+- Dinslaken
+- Kierspe
+- Triptis
+- Dohna
+- Kirchheimbolanden
+- Königslutter
+- Königslutter Am Elm
+- Königstein Im Taunus
+- Königswinter
+- Königstein
+- Kishinev
+- Chisinau
+- Chișinău
+- Irkutsk
+- Quedlinburg
+- Almere
+- Almere Stad
+- Rodalben
+- Bad Homburg
+- Bad Homburg Vor Der Höhe
+- Meersburg
+- Juba
+- Cardiff
+- Isparta
+- Verden
+- Ehingen
+- Kremmen
+- Basaksehir
+- Viciebsk
+- Vitebsk
+- Ruhla
+- Bad Pyrmont
+- Möckmühl
+- Saarburg
+- Bad Saulgau
+- Mörfelden-Walldorf
+- Málaga
+- Malaga
+- Chelyabinsk
+- Waldmünchen
+- Erding
+- Laucha An Der Unstrut
+- Arnavutkoey
+- Saarlouis
+- Bad Schandau
+- Moringen
+- Poznań
+- Poznan
+- Waldsassen
+- Erftstadt
+- Lauchhammer
+- Sachsenhagen
+- Bad Schmiedeberg
+- Mosbach
+- Guangzhou
+- Göteborg
+- Gothenburg
+- Goeteborg
+- Dnipro
+- Waldshut-Tiengen
+- Lauchheim
+- Zhuzhou
+- Stockach
+- Burgstädt
+- Ortenberg
+- Sternberg
+- Adapazari
+- Burghausen
+- Rybinsk
+- Oranienburg
+- Burgau
+- Steinfurt
+- Olsberg
+- Huai’an
+- Gijón
+- Gijon
+- Stavenhagen
+- Buckow
+- Öhringen
+- Batikent
+- Stromberg
+- Calw
+- Ostfildern
+- Sultanbeyli
+- Prokopyevsk
+- Stendal
+- Bürgel
+- Oranienbaum
+- Oranienbaum-Wörlitz
+- Zhytomyr
+- Steinheim
+- Burgbernheim
+- Volzhsky
+- Teuschnitz
+- Deidesheim
+- Karben
+- Thale  -->
+
+<!-- ## synonym:languages
+- Ucraniano
+- Esloveno
+- Romeno
+- Português
+- Alemão
+- Valiriano
+- Dothraki
+- Valarin
+- Entish
+- Khuzdul
+- Rohirric
+- Westron
+- Adunaico
+- Sindarin
+- Telerin
+- Quenya
+- Suaíli Élfico
+- Susu
+- Sundanês
+- Árabe do Sudão
+- Espanhol
+- Sorani
+- Somali
+- Eslovaco
+- Cingalês
+- Siciliano
+- Sichuan
+- Shona
+- Xangai
+- Sérvio
+- Samoano
+- Russo
+- Quechua
+- Putian
+- Punjabi
+- Pulaar
+- Pothwari
+- Crioulo
+- Polonês
+- Inglês Pidgin
+- patois
+- pashto
+- papiamento
+- papago
+- pahari
+- oromo
+- norueguês
+- pidgin nigeriano
+- nepalês
+- napolitano
+- navajo
+- montenegrino
+- mongol
+- moldavo
+- mixteco
+- mirpuri
+- marshallês
+- marathi
+- mandinka
+- mandarim
+- maltês
+- malaio
+- Maced oniano
+- Maay
+- Luganda
+- Lituano
+- Lingala
+- Letão
+- Laosiano
+- Lakota
+- Quirguizistão
+- Kurmanji
+- Curdo
+- Krio
+- Kotokoli
+- Kosovan
+- Coreano
+- Kirundi
+- Kinyarwanda
+- Kikuyu
+- Cazaque
+- Caxemira
+- Karenni
+- Karen
+- Kanjobal
+- Javanês
+- Japonês
+- Jakartanese
+- Italiano
+- Inuktitut
+- Indonésio
+- Ilocano
+- Igbo
+- Islandês
+- Ibanag
+- Húngaro
+- Hmong
+- Hindi
+- Hebraico
+- Hausa
+- Hakka-chinês
+- Hakka
+- Crioulo haitiano
+- Gujarati
+- Grego
+- Gorani
+- Newark
+- Georgiano
+- Gaélico-Escocês
+- Gaélico-Irlandês
+- Gaélico
+- Gaddang
+- Fuzhounese
+- Fulani
+- Fula
+- Fukienês
+- Francês
+- Flamengo
+- Finlandês
+- Farsi
+- Fante
+- Espanol
+- Estoniano
+- Holandês
+- Diula
+- Dinka
+- Dari
+- Dinamarquês
+- Checo
+- Croata
+- Chuukese
+- Chavacano
+- Chao-Chow
+- Chamorro
+- Caldeu
+- catalão
+- cantonês
+- cambojano
+- cakchiquel
+- birmanês
+- búlgaro
+- bravio
+- bósnio
+- berbere
+- bengali
+- bielorrusso
+- behdini
+- basco
+- bajuni
+- azeri
+- azerbaijano
+- assírio
+- ashante
+- árabe
+- amárico
+- albanês
+- africâner
+- acholi
+- inglês
+- Ioruba Yupik
+- Iídiche
+- Wolof
+- Galês
+- Visayan
+- Vietnamita
+- Uzbeque
+- Uigur
+- Urdu
+- Turco
+- Tshiluba
+- Trique
+- Toucouleur
+- Tonganês
+- Toishanese
+- Tigrínia
+- Tibetano
+- Tailandês
+- Telugu
+- Tâmil
+- Tadjique
+- Taiwan
+- Tagalo
+- Sylhetti
+- Sueco
+ -->
