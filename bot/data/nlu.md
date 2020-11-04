@@ -847,10 +847,11 @@
 - Por favor diz-me a tua versão
 - Por favor diz-me a tua versão de software
 - Posso saber a tua versão?
-- Posso saber em qual versão estás?
 - Posso saber em qual versão é que estás?
-- Posso saber em que versão estás?
+- Posso saber em qual versão estás?
 - Posso saber em que versão é que estás?
+- Posso saber em que versão estás?
+- Qual a versão
 - Qual é a tua versão?
 - Que versão estás?
 - Quela versão tens?
@@ -858,7 +859,8 @@
 - Quero saber em qual versão estás
 - Quero saber em que versão estás
 - Sobre a tua versão
-- versão bot
+- Versão
+- Versão bot
 
 ## intent:pt_bot_worst_experience
 - Alguma vez tiveste más experiências?
