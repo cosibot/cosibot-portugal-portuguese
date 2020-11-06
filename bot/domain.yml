@@ -14,7 +14,7 @@ slots:
     initial_value: False
   bot_version:
     type: text
-    initial_value: "0.2.2"
+    initial_value: "0.2.3"
   bot_time:
     type: text
   bot_date:

@@ -500,38 +500,49 @@
 - Como você se chama
 
 ## intent:pt_bot_origin
-- Como foste criado?
+- Certo. Quem te criou?
+- Como é que és desenvolvido?
 - Como é que foste criado?
 - Como é que foste desenvolvido?
 - Como é que tu foste desenvolvido?
-- Como é que és desenvolvido?
 - Como és desenvolvido?
+- Como foi construido?
+- Como foi criado?
+- Como foi desenvolvido?
+- Como foste criado?
+- Como você é construído?
+- Como você foi construído?
+- Como você foi criado?
+- De onde é que és?
+- De onde é que vens?
+- De onde és?
 - De onde vens originalmente?
 - De onde vens?
-- De onde é que vens?
-- De onde é que és?
-- De onde és?
 - Diz-me a tua origem
 - Diz-me de onde és
-- Onde nasceste?
 - Onde é a tua terra de origem?
 - Onde é a tua terra natal?
 - Onde é que nasceste?
 - Onde é que viveste quando eras pequeno?
 - Onde é que viveste quando pequeno?
+- Onde nasceste?
 - Qual a tua origem?
 - Qual é a tua cidade natal?
 - Qual é a tua origem?
 - Qual é a tua terra natal?
-- Quem foi o teu construtor?
-- Quem foram os teus construtores?
-- Quem são os teus construtores?
-- Quem são os teus criadores?
-- Quem te criou?
-- Quem te desenvolveu?
 - Quem é o teu construtor?
 - Quem é o teu criador?
 - Quem é que te criou?
+- Quem foi o teu construtor?
+- Quem foram os teus construtores?
+- Quem o construiu?
+- Quem o criou?
+- Quem o desenvolveu?
+- Quem são os teus construtores?
+- Quem são os teus criadores?
+- Quem te construiu?
+- Quem te criou?
+- Quem te desenvolveu?
 - Sim. Quem te criou?
 
 ## intent:pt_bot_personal_questions
