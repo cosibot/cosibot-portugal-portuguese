@@ -1000,6 +1000,105 @@ TESTED
 * pt_news_request
   - action_get_news_request
 
+## pt_covid_situation_infected_municipal_yes
+* pt_covid_situation_infected{"pt_country_municipal":"Lisboa"}
+  - utter_country_region_nodata
+* pt_vocative_yes
+  - action_search_stats_municipal
+  - slot{"pt_country_code": "PT"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation
+
+## pt_covid_situation_infected_municipal_yes2
+* pt_covid_situation_infected{"pt_country_municipal":"Ribeira Brava"}
+  - utter_country_region_nodata
+* pt_vocative_yes
+  - action_search_stats_municipal
+  - slot{"pt_country_code": "PT"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation
+
+## pt_covid_situation_infected_municipal_no
+* pt_covid_situation_infected{"pt_country_municipal":"Lisboa"}
+  - utter_country_region_nodata
+* pt_vocative_no
+  - utter_pt_further_questions
+
+## pt_covid_situation_infected_municipal_no2
+* pt_covid_situation_infected{"pt_country_municipal":"Abrantes"}
+  - utter_country_region_nodata
+* pt_vocative_no
+  - utter_pt_further_questions
+
+## pt_covid_situation_municipal_yes
+* pt_covid_situation{"pt_country_municipal":"Lisboa"}
+  - utter_country_region_nodata
+* pt_vocative_yes
+  - action_search_stats_municipal
+  - slot{"pt_country_code": "PT"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation
+
+## pt_covid_situation_municipal_no2
+* pt_covid_situation{"pt_country_municipal":"Abrantes"}
+  - utter_country_region_nodata
+* pt_vocative_no
+  - utter_pt_further_questions
+
+
+## pt_covid_situation_last_update_municipal_yes
+* pt_covid_situation_last_update{"pt_country_municipal":"Lisboa"}
+  - utter_country_region_nodata
+* pt_vocative_yes
+  - action_search_stats_municipal
+  - slot{"pt_country_code": "PT"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"new_cases": "517"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_pt_covid_situation
+
+## pt_covid_situation_last_update_municipal_no2
+* pt_covid_situation_last_update{"pt_country_municipal":"Abrantes"}
+  - utter_country_region_nodata
+* pt_vocative_no
+  - utter_pt_further_questions
+
+
+<!--
 ## pt_covid_situation_infected_municipal_notOk
 * pt_covid_situation_infected{"pt_country_municipal":"Lisboa"}
   - action_search_stats_municipal
@@ -1095,8 +1194,8 @@ TESTED
     - slot{"country_region": "Salvaterra de Magos"}
     - slot{"country_region_confirmed_accum": 10}
     - utter_country_region_hasdata
-
-    ## pt_covid_situation_infected_region_notOk
+-->
+## pt_covid_situation_infected_region_notOk
 * pt_covid_situation_infected{"pt_country_region":"Norte"}
   - action_search_stats_region
   - slot{"country_region_search_successful": "not-ok"}

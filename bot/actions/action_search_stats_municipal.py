@@ -56,6 +56,9 @@ class ActionSearchStatsMunicipal(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
+        return [SlotSet('pt_country_code', 'PT'),
+                FollowupAction("action_search_stats")]
+        '''
         country_municipal = next(tracker.get_latest_entity_values("pt_country_municipal"), None)
         print("country municipal is {}".format(country_municipal))
 
@@ -82,3 +85,4 @@ class ActionSearchStatsMunicipal(Action):
                 SlotSet('country_region_search_successful', 'not-ok'),
                 SlotSet('pt_country_code', 'PT'),
                 FollowupAction("utter_country_region_nodata")]
+        '''

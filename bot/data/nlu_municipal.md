@@ -1938,14 +1938,12 @@
 ## synonym:Calheta (São Jorge)
 - calheta (são jorge)
 - Calheta (São Jorge)
-- Calheta em São Jorge
 - Calheta (Sao Jorge)
 - calheta (sao jorge)
 ## synonym:Calheta (Madeira)
 - calheta (madeira)
 - Calheta (Madeira)
 - Calheta na Madeira
-- Calheta Madeira
 ## synonym:Caldas da Rainha
 - caldas da rainha
 - Caldas da Rainha
@@ -2272,7 +2270,6 @@
 ## synonym:Sardoal
 - sardoal
 ## synonym:São Vicente
-- são vicente
 - Sao Vicente
 - sao vicente
 ## synonym:São Roque do Pico
@@ -2608,8 +2605,8 @@
 - Macedo de Cavaleiros
 ## synonym:Mação
 - mação
-- Macao
-- macao
+- Macão
+- macão
 ## synonym:Lousada
 - lousada
 ## synonym:Lousã
@@ -2744,8 +2741,6 @@
 - entroncamento
 ## synonym:Elvas
 - elvas
-## synonym:Cuba
-- cuba
 ## synonym:Crato
 - crato
 ## synonym:Covilhã
@@ -2774,5 +2769,3 @@
 - chaves
 - chaves
 - chaves
-- vila velha de ródão
-- Vila Velha Ródão

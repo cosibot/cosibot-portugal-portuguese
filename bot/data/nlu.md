@@ -7659,6 +7659,10 @@
 - não senhora
 - só quando os porcos voarem
 - nope
+- Não
+- nao
+- não
+- Nao
 
 ## intent:pt_vocative_sorry
 - As minhas desculpas.
