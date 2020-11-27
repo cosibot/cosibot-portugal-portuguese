@@ -85,6 +85,7 @@ class ActionSearchStats(Action):
                         FollowupAction("utter_pt_covid_current_statistics"), ]
             elif stats['code'] == 200 and stats['has_data']:
                 print('ok')
+                '''
                 try:
                     entity = next((e for e in tracker.latest_message["entities"] if
                                    e['entity'] == 'pt_country_code'), None)
@@ -93,18 +94,60 @@ class ActionSearchStats(Action):
                 except:
                     if country_code == "PT" and tracker.get_slot("pt_country_code") == "PT":
                         input_country = "Portugal"
+                '''
+                entity = next((e for e in tracker.latest_message["entities"] if
+                                   e['entity'] == 'pt_country_code'), None)
+                print(entity)
+                if entity is None:
+                    pass
+                else:
+                    input_country = tracker.latest_message['text'][entity['start']:entity['end']].capitalize()
                 
-                return [
-                    SlotSet('search_successful', 'ok'), 
-                    SlotSet('country', input_country), 
-                    SlotSet('active_cases', int(stats.get('active_cases', None))), 
-                    SlotSet('new_cases', int(stats.get('new_cases', None))), 
-                    SlotSet('total_cases', int(stats.get('total_cases', None))),
-                    SlotSet('total_recovered', int(stats.get('total_recovered', None))), 
-                    SlotSet('total_deaths', int(stats.get('total_deaths', None))),
-                    SlotSet('total_tests', int(stats.get('total_tests', None))), 
-                    SlotSet('new_deaths', int(stats.get('new_deaths', None))),
-                    SlotSet('total_infected_critical', int(stats.get('critical', None))),  ]
+                if country_code == "PT" and tracker.get_slot("pt_country_code") == "PT":
+                    input_country = "Portugal"
+                
+                intent_identified = tracker.latest_message["intent"].get("name")
+                utter_response = None
+                if intent_identified == "pt_covid_situation_deaths":
+                    utter_response = "utter_pt_covid_situation_deaths"
+                elif intent_identified == "pt_covid_situation_infected":
+                    utter_response = "utter_pt_covid_situation_infected"
+                elif intent_identified == "pt_covid_situation_infected_critical":
+                    utter_response = "utter_pt_covid_situation_infected_critical"
+                elif intent_identified == "pt_covid_situation_last_update":
+                    utter_response = "utter_pt_covid_situation_last_update"
+                elif intent_identified == "pt_covid_situation_recovered":
+                    utter_response = "utter_pt_covid_situation_recovered"
+                elif intent_identified == "pt_covid_situation_tested":
+                    utter_response = "utter_pt_covid_situation_tested"
+                elif intent_identified == "pt_covid_situation":
+                    utter_response = "utter_pt_covid_situation"
+
+
+                if utter_response is None:
+                    return [
+                        SlotSet('search_successful', 'ok'), 
+                        SlotSet('country', input_country), 
+                        SlotSet('active_cases', int(stats.get('active_cases', None))), 
+                        SlotSet('new_cases', int(stats.get('new_cases', None))), 
+                        SlotSet('total_cases', int(stats.get('total_cases', None))),
+                        SlotSet('total_recovered', int(stats.get('total_recovered', None))), 
+                        SlotSet('total_deaths', int(stats.get('total_deaths', None))),
+                        SlotSet('total_tests', int(stats.get('total_tests', None))), 
+                        SlotSet('new_deaths', int(stats.get('new_deaths', None))),
+                        SlotSet('total_infected_critical', int(stats.get('critical', None))),FollowupAction('utter_pt_covid_situation')]
+                else:
+                    return [
+                        SlotSet('search_successful', 'ok'), 
+                        SlotSet('country', input_country), 
+                        SlotSet('active_cases', int(stats.get('active_cases', None))), 
+                        SlotSet('new_cases', int(stats.get('new_cases', None))), 
+                        SlotSet('total_cases', int(stats.get('total_cases', None))),
+                        SlotSet('total_recovered', int(stats.get('total_recovered', None))), 
+                        SlotSet('total_deaths', int(stats.get('total_deaths', None))),
+                        SlotSet('total_tests', int(stats.get('total_tests', None))), 
+                        SlotSet('new_deaths', int(stats.get('new_deaths', None))),
+                        SlotSet('total_infected_critical', int(stats.get('critical', None))),FollowupAction(utter_response)]
         
         elif country_code is None: 
             """In this case, no entity was recognized. Example: when user asks for 'world information'"""

@@ -3159,9 +3159,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Não possuo essa informação em relação ao seu pedido. Quer que eu tente obter dados sobre Portugal?</speak>
+            ssml: <speak>Não possuo informação em relação ao seu pedido. Quer que eu tente obter dados sobre Portugal?</speak>
           - type: text
-            text: "Não possuo essa informação em relação ao seu pedido. Quer que eu tente obter dados sobre Portugal?"
+            text: "Não possuo informação em relação ao seu pedido. Quer que eu tente obter dados sobre Portugal?"
           - type: multichoice
             options:
               - label: Sim
