@@ -56,7 +56,13 @@ class ActionSearchStatsRegion(Action):
 
         country_region = next(tracker.get_latest_entity_values("pt_country_region"), None)
         print("country region is {}".format(country_region))
-
+        
+        if country_region is None:
+            if tracker.get_latest_entity_values("pt_country_code"):
+                return [FollowupAction("action_search_stats")]
+            else:
+                pass
+        
         # date = tracker.get_slot("date")
         decsis_api = DecsisAPI()
         stats = decsis_api.search(country_region)
