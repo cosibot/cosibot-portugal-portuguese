@@ -14,7 +14,7 @@ slots:
     initial_value: False
   bot_version:
     type: text
-    initial_value: "0.2.4"
+    initial_value: "0.2.5"
   bot_time:
     type: text
   bot_date:
@@ -431,9 +431,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da Covid 19, tais como evitar a propagação, ou esclarecer alguns mitos que se leem por aí. Como posso ajudá-lo?</speak>
-          - type: text
-            text: Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da COVID-19, tais como evitar a propagação, ou esclarecer alguns mitos que se leem por aí. Como posso ajudá-lo? 
+            ssml: <speak>Olá! Chamo-me {bot_name}, a assistente virtual para dar informações sobre a Covid 19. Estive ao dispor durante 8 meses e desde Novembro de 2020 fui desactivada, sendo que não tenho mais atualizações. Pode consultar a minha colega Helen, disponível em inglês, para continuar atualizado. Pode entrar em contacto com ela através da web, facebook, whatsapp ou sms. Cuide de si e mantenha-se seguro. Obrigada por tudo!</speak>
+          - type: html
+            text: Olá! Chamo-me {bot_name}, a assistente virtual para dar informações sobre a COVID-19. <br>Estive ao dispor durante 8 meses e desde Novembro de 2020 fui desactivada, sendo que não tenho mais atualizações. <br>Pode consultar a minha colega Helen, disponível em inglês, para continuar atualizado. Pode entrar em contacto com ela através da <a href='https://cosibot.org/'target='_blank'>Web</a>, <a href='https://m.me/cosibot'target='_blank'>Facebook</a>, <a href='https://cosibot.org/'target='_blank'>Web</a>, <a href='https://wa.me/4915735989133'target='_blank'>WhatsApp</a> ou <a href='sms:+4915735989133'target='_blank'>SMS</a>. <br>Cuide de si e mantenha-se seguro. Obrigada por tudo!
   utter_pt_portugal_rates:
     - custom:
         answers:
