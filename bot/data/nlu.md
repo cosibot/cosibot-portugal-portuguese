@@ -500,38 +500,49 @@
 - Como você se chama
 
 ## intent:pt_bot_origin
-- Como foste criado?
+- Certo. Quem te criou?
+- Como é que és desenvolvido?
 - Como é que foste criado?
 - Como é que foste desenvolvido?
 - Como é que tu foste desenvolvido?
-- Como é que és desenvolvido?
 - Como és desenvolvido?
+- Como foi construido?
+- Como foi criado?
+- Como foi desenvolvido?
+- Como foste criado?
+- Como você é construído?
+- Como você foi construído?
+- Como você foi criado?
+- De onde é que és?
+- De onde é que vens?
+- De onde és?
 - De onde vens originalmente?
 - De onde vens?
-- De onde é que vens?
-- De onde é que és?
-- De onde és?
 - Diz-me a tua origem
 - Diz-me de onde és
-- Onde nasceste?
 - Onde é a tua terra de origem?
 - Onde é a tua terra natal?
 - Onde é que nasceste?
 - Onde é que viveste quando eras pequeno?
 - Onde é que viveste quando pequeno?
+- Onde nasceste?
 - Qual a tua origem?
 - Qual é a tua cidade natal?
 - Qual é a tua origem?
 - Qual é a tua terra natal?
-- Quem foi o teu construtor?
-- Quem foram os teus construtores?
-- Quem são os teus construtores?
-- Quem são os teus criadores?
-- Quem te criou?
-- Quem te desenvolveu?
 - Quem é o teu construtor?
 - Quem é o teu criador?
 - Quem é que te criou?
+- Quem foi o teu construtor?
+- Quem foram os teus construtores?
+- Quem o construiu?
+- Quem o criou?
+- Quem o desenvolveu?
+- Quem são os teus construtores?
+- Quem são os teus criadores?
+- Quem te construiu?
+- Quem te criou?
+- Quem te desenvolveu?
 - Sim. Quem te criou?
 
 ## intent:pt_bot_personal_questions
@@ -598,22 +609,22 @@
 - Tens muitos amigos?
 - Tens namorada?
 - Tens namorado?
-- When are you on vacation?
-- When do you have holidays?
-- Where can I meet you?
-- Where do you go after work?
-- Where do you go if you need some inspiration?
-- Where have you been?
-- Where would you like to be in 5 years?
-- Which degree do you have?
-- Which fictional character is the most similar in your opinion?
-- Who is the first person to call you when you are in trouble?
-- Who is your role model?
-- Would you be with someone who does not have the same beliefs as you?
-- Would you change for love?
-- Would you ever just give up everything and start in a new country?
-- Would you put your family or friends first if you had to choose one?
-- Your likes and dislikes
+- Quando estás de férias?
+- Quando tens férias?
+- Onde posso te encontrar?
+- Para onde vais depois do trabalho?
+- Onde vais se precisares de inspiração?
+- Onde estiveste?
+- Onde gostarias de estar em 5 anos?
+- Qual é o seu diploma?
+- Que personagem fictício é mais parecido na tua opinião?
+- Quem é a primeira pessoa a ligar se estiveres com problemas?
+- Quem é o teu modelo a seguir?
+- Você estaria com alguém que não tivesse as mesmas crenças?
+- Você mudaria por amor?
+- Tu desistirias de tudo e mudavas para outro país?
+- Você colocaria sua família ou amigos em primeiro lugar se tivesse que escolher um?
+- Seus gostos e desgostos
 - És casado?
 - És solteiro?
 - És um romântico?
@@ -847,10 +858,11 @@
 - Por favor diz-me a tua versão
 - Por favor diz-me a tua versão de software
 - Posso saber a tua versão?
-- Posso saber em qual versão estás?
 - Posso saber em qual versão é que estás?
-- Posso saber em que versão estás?
+- Posso saber em qual versão estás?
 - Posso saber em que versão é que estás?
+- Posso saber em que versão estás?
+- Qual a versão
 - Qual é a tua versão?
 - Que versão estás?
 - Quela versão tens?
@@ -858,7 +870,8 @@
 - Quero saber em qual versão estás
 - Quero saber em que versão estás
 - Sobre a tua versão
-- versão bot
+- Versão
+- Versão bot
 
 ## intent:pt_bot_worst_experience
 - Alguma vez tiveste más experiências?
@@ -2047,13 +2060,13 @@
 - És tão sábio
 
 ## intent:pt_coronavirus_info
-- About [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- About [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
-- I don’t know what are [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
-- I don’t know what is a [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- I don’t know what is [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- Info on [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- Info on [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- Sobre [coronavirus] {"entity": "pt_virus", "value": "COVID"}
+- Acerca [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- Não sei o que são [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- Não sei o que é um [coronavírus] {"entidade": "pt_vírus", "valor": "COVID"}
+- Eu não sei o que é [coronavirus] {"entity": "pt_virus", "value": "COVID"}
+- Informações sobre [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- Informações acerca [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
 - O que são [coronavirus]{"entity": "pt_virus", "value": "COVID"}?
 - O que são os [coronavirus]{"entity": "pt_virus", "value": "COVID"}?
 - O que é o [vírus]{"entity": "pt_virus", "value": "COVID"}?
@@ -2061,31 +2074,32 @@
 - O que é um [coronavirus]{"entity": "pt_virus", "value": "COVID"}?
 - Que mais sabes sobre o [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
 - Que sabes sobre o [coronavírus]{"entity": "pt_virus", "value": "COVID"}?
-- Tell me more about [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- Tell me more about [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
-- Tell me what are [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
-- Tell me what is a [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- Tell me what is [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- What are [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
-- What is a [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- [coronavirus]{"entity": "pt_virus", "value": "COVID"} info
-- [coronavirus]{"entity": "pt_virus", "value": "COVID"} information
-- [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
-- [coronaviruses]{"entity": "pt_virus", "value": "COVID"} info
-- [coronaviruses]{"entity": "pt_virus", "value": "COVID"} information
-- info about [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- info about [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
-- information about [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- information about [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
-- information on [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- information on [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
+- Fala mais sobre [coronavirus] {"entity": "pt_virus", "value": "COVID"}
+- Diz mais sobre [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- Diga-me o que são [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- Diz-me o que é um [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- Fala-me sobre o que é [coronavirus] {"entity": "pt_virus", "value": "COVID"}
+- O que são [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- O que é um [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- [coronavirus] {"entity": "pt_virus", "value": "COVID"} info
+- [coronavirus] {"entity": "pt_virus", "value": "COVID"} informações
+- [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- [coronavírus] {"entidade": "pt_virus", "valor": "COVID"} dados
+- [coronavírus] {"entity": "pt_virus", "value": "COVID"} esclarecimento
+- informações sobre [coronavirus] {"entity": "pt_virus", "value": "COVID"}
+- esclarecimento sobre [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- esclarecimentos sobre [coronavirus] {"entity": "pt_virus", "value": "COVID"}
+- info sobre [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- dados sobre [coronavirus] {"entity": "pt_virus", "value": "COVID"}
+- comunicações sobre [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
 - o que é o [coronavirus]{"entity": "pt_virus", "value": "COVID"}?
 - que é o [coronavirus]{"entity": "pt_virus", "value": "COVID"}
 - [virus]{"entity": "pt_virus", "value": "COVID"}
-- what about [coronavirus]{"entity": "pt_virus", "value": "COVID"}
-- what about [coronaviruses]{"entity": "pt_virus", "value": "COVID"}
-- what is [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- que tal [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- e quanto a [coronavírus] {"entidade": "pt_virus", "valor": "COVID"}
+- o que é [coronavirus] {"entity": "pt_virus", "value": "COVID"}
+
 
 ## intent:pt_covid_aftereffects_immunity
 - Após cura, posso ficar novamente infectado com o vírus?
@@ -2398,7 +2412,7 @@
 - 2019-nCoV
 - 2019-nCoV info
 - 2019nCov
-- 2019nCov info"
+- 2019nCov info
 - 2019nCov informações
 - a pandemia começou em Wuhan?
 - Atual [coronavírus]{"entity": "pt_virus", "value": "COVID"}
@@ -3107,7 +3121,7 @@
 - Significado do nome do [COVID]{"entity": "pt_virus", "value": "COVID"}.
 - Significado do nome do [vírus]{"entity": "pt_virus", "value": "COVID"}.
 - Significado do nome.
-- What does the acronym [COVID-19]{"entity": "pt_virus", "value": "COVID"} mean?
+- O que significa a sigla [COVID-19] {"entity": "pt_virus", "value": "COVID"}?
 - nome do [vírus]{"entity": "pt_virus", "value": "COVID"} porquê?
 
 ## intent:pt_covid_mortality_rate
@@ -5025,7 +5039,7 @@
 - testados em [Republic of Cabo Verde]{"entity": "pt_country_code", "value": "CV"}.
 - testes de [República da África Central]{"entity": "pt_country_code", "value": "CF"}
 - testes em [Hong Kong]{"entity": "pt_country_code", "value": "HK"}.
-- Quantos testes foram realizados até à data?   
+- Quantos testes foram realizados até à data?
 
 ## intent:pt_covid_surfaces
 - [coronavírus]{"entity": "pt_virus", "value": "COVID"} persiste por quanto tempo nas superfícies?
@@ -5730,7 +5744,7 @@
 - se eu me cobrir de álcool, o [vírus]{"entity": "pt_virus", "value": "COVID"} sairá
 - Álcool em spray.
 - Álcool em todo o corpo.
-- Alcóol eficácia 
+- Alcóol eficácia
 
 ## intent:pt_myth_packages
 - Pacotes com [vírus]{"entity": "pt_virus", "value": "COVID"}.
@@ -5950,7 +5964,7 @@
 - quais são seus conselhos?
 - que medidas preventivas se devem tomar
 - vamos ajudar
-- . Medidas de segurança
+- Medidas de segurança
 
 ## intent:pt_prevention_gloves
 - Aconselharias a uso de luvas?
@@ -5988,7 +6002,7 @@
 - Tenho febre
 - Tenho sintomas leves de [doença]{"entity": "pt_virus", "value": "COVID"}, devo ficar em casa?
 - Tenho sintomas ligeiros, devo ficar em casa?
-- We tiver febre o que faço?
+- Se tiver febre o que faço?
 - febre
 - tenho de ficar em casa?
 - tenho dores no corpo mas não tenho febre
@@ -7508,7 +7522,7 @@
 - Uh
 - Uhm
 - Um
-- Não tem mal. Obrigada. 
+- Não tem mal. Obrigada.
 
 ## intent:pt_user_scared
 - Assustaram-me.
@@ -7646,6 +7660,10 @@
 - não senhora
 - só quando os porcos voarem
 - nope
+- Não
+- nao
+- não
+- Nao
 
 ## intent:pt_vocative_sorry
 - As minhas desculpas.
@@ -7834,151 +7852,148 @@
 - Quais são as noticias que sabes
 
 ## intent: pt_covid_ibuprofen 
-- Ibuprofeno 
-- Ibuprofen 
-- Posso tomar Brufen? 
-- Ipubrufen 
-- Posso tomar ibuprofeno? 
-- Ipubrufeno 
-- Posso tomar aspirina 
+- Ibuprofeno
+- Ibuprofen
+- Posso tomar Brufen?
+- Ipubrufen
+- Posso tomar ibuprofeno?
+- Ipubrufeno
+- Posso tomar aspirina
 - posso tomar iboprufeno?
 
 ## intent: pt_covid_sex 
-- Sexo e coronavirus 
-- Covid e atividades sexuais 
-- Atividades sexuais 
-- Sexo e covid 
-- Actividades sexuais 
-- Coronavirus e relações sexuais 
-- Relações sexuais e covid 
-- Coronavirus e atividades sexuais 
-- É verdad que nao se pode fazer sexo?se fizer cuales os cuidados? 
-- E actividade sexual? 
-- Coronavirus e sexo 
-- Covid 19 e atividades sexuais 
-- Covid 19 e relações sexuais 
-- Relações sexuais 
-- Sexo transmite covid? 
-- Actividade sexual é contagiosa? 
-- Sexo coronavirus? 
+- Sexo e coronavirus
+- Covid e atividades sexuais
+- Atividades sexuais
+- Sexo e covid
+- Actividades sexuais
+- Coronavirus e relações sexuais
+- Relações sexuais e covid
+- Coronavirus e atividades sexuais
+- É verdad que nao se pode fazer sexo?se fizer cuales os cuidados?
+- E actividade sexual?
+- Coronavirus e sexo
+- Covid 19 e atividades sexuais
+- Covid 19 e relações sexuais
+- Relações sexuais
+- Sexo transmite covid?
+- Actividade sexual é contagiosa?
+- Sexo coronavirus?
 
 ## intent: pt_deconfinement_establishments 
-- Plano de desconfinamento portugal 
-- plano de desconfinamento 
-- Fases do plano de desconfinamento 
-- Que me podes dizer sobre a reabertura de estabelecimentos 
-- Estabelecimentos que podem abrir 
-- Quais os estabelecimentos que podem voltar a abrir? 
-- sou cabeleireira, posso reabrir o meu negócio? 
-- desconfinamento 
-- que estabelecimentos vão abrir? 
-- Onde posso consultar o plano de desconfinamento? 
+- Plano de desconfinamento portugal
+- plano de desconfinamento
+- Fases do plano de desconfinamento
+- Que me podes dizer sobre a reabertura de estabelecimentos
+- Estabelecimentos que podem abrir
+- Quais os estabelecimentos que podem voltar a abrir?
+- sou cabeleireira, posso reabrir o meu negócio?
+- desconfinamento
+- que estabelecimentos vão abrir?
+- Onde posso consultar o plano de desconfinamento?
 
 ## intent: pt_economy_consequences 
-- Economia e [coronavirus]{"entity": "pt_virus", "value": "COVID"} 
-- Quais são as consequências do COVID-19 na Economia? 
-- Consequências economicas 
-- Okay. Mas efectivamente, este surto está a ter um impacto muito negativo na Economia. 
-- Dá-me informação sobre o impacto na Economia. 
-- Economia 
+- Economia e [coronavirus]{"entity": "pt_virus", "value": "COVID"}
+- Quais são as consequências do COVID-19 na Economia?
+- Consequências economicas
+- Okay. Mas efectivamente, este surto está a ter um impacto muito negativo na Economia.
+- Dá-me informação sobre o impacto na Economia.
+- Economia
 
 ## intent: pt_portugal_elders 
-- Os idosos são obrigados a ficar em casa? 
-- os idosos podem sair de casa em Portugal? 
-- Os idosos podem sair de casa? 
-- Os idosos podem sair à rua? 
-- Os idosos podem andar na rua? 
-- Idosos e sair de casa 
-- idosos podem sair de casa? 
-- sou idoso, posso ver meus netos? 
+- Os idosos são obrigados a ficar em casa?
+- os idosos podem sair de casa em Portugal?
+- Os idosos podem sair de casa?
+- Os idosos podem sair à rua?
+- Os idosos podem andar na rua?
+- Idosos e sair de casa
+- idosos podem sair de casa?
+- sou idoso, posso ver meus netos?
 
 ## intent: pt_quarantine_general 
-- O que é o isolamento? 
-- O que é a quarentena? 
-- Isolamento profilático 
-- O que é a quarentena e o isolamento? 
-- Consegues definir "quarentena"? 
-- Isolamento 
-- O que é o isolamento profilático? 
-- Quarentena 
-- isolamento é bom? 
+- O que é o isolamento?
+- O que é a quarentena?
+- Isolamento profilático
+- O que é a quarentena e o isolamento?
+- Consegues definir "quarentena"?
+- Isolamento
+- O que é o isolamento profilático?
+- Quarentena
+- isolamento é bom?
 
 ## intent: pt_spread_phases 
-- Em que fase do surto está Portugal? 
-- fases de contágio 
+- Em que fase do surto está Portugal?
+- fases de contágio
 - Em que fase de transmissão estamos atualmente?
 
 ## intent: pt_spread_washing_clothes 
-- desinfectar roupa 
-- A que temperatura devo lavar a roupa? 
-- Lavar roupa 
-- Há uma temperatura mínima para lavar a roupa quando há um caso confirmado de COVID-19 em casa? 
-- Temperatura lavar roupa. 
-- Temperatura ideal para lavar roupa 
-- Lavar a roupa a que temperatura? 
-- Temperatura para lavar roupa e matar o virus 
-- cuidados com a roupa 
+- desinfectar roupa
+- A que temperatura devo lavar a roupa?
+- Lavar roupa
+- Há uma temperatura mínima para lavar a roupa quando há um caso confirmado de COVID-19 em casa?
+- Temperatura lavar roupa.
+- Temperatura ideal para lavar roupa
+- Lavar a roupa a que temperatura?
+- Temperatura para lavar roupa e matar o virus
+- cuidados com a roupa
 
 ## intent: pt_state_calamity 
-- Estado de calamidade 
-- E depois do estado de emergência vem o quê? 
-- Calamidade pública 
-- O que é o estado de calamidade? 
-- estado de emergência e estado de calamidade qual a diferença? 
-- O que significa estado de calamidade? 
-- o que acontece após o estado de emergência? 
-- o que acontece após o estado de emergência em Portugal? 
+- Estado de calamidade
+- E depois do estado de emergência vem o quê?
+- Calamidade pública
+- O que é o estado de calamidade?
+- estado de emergência e estado de calamidade qual a diferença?
+- O que significa estado de calamidade?
+- o que acontece após o estado de emergência?
+- o que acontece após o estado de emergência em Portugal?
 
 ## intent: pt_state_emergency_end 
-- Situação de emergência em Portugal, até quando? 
-- Até quando dura o estado de emergência em Portugal? 
-- Por quanto tempo foi declarado o estado e emergência? 
-- Quando termina o estado de emergência? 
-- até quando dura o estado de emrgência em Portugal? 
-- Quantas vezes foi renovado o estado de emergência? 
-- Até que data é o estado de emergência em Portugal? 
-- até quando durará o estado de emergência em Portugal? 
-- Quantas vezes foi renovado o Estado de Emergência até hoje? 
-- Data de fim do Estado de Emergência? 
-- Data de fim do estado de emergencia em portugal? 
-- Quando foi declarado o Estado de Emergência em Portugal? 
-- quando finaliza o estado de emergência em Portugal? 
-- Quando acaba o estado de emergência em portugal? 
-- Qual é a data de fim do estado de emergência em Portugal? 
-- quando acaba o EStado de emergência? 
+- Situação de emergência em Portugal, até quando?
+- Até quando dura o estado de emergência em Portugal?
+- Por quanto tempo foi declarado o estado e emergência?
+- Quando termina o estado de emergência?
+- até quando dura o estado de emrgência em Portugal?
+- Quantas vezes foi renovado o estado de emergência?
+- Até que data é o estado de emergência em Portugal?
+- até quando durará o estado de emergência em Portugal?
+- Quantas vezes foi renovado o Estado de Emergência até hoje?
+- Data de fim do Estado de Emergência?
+- Data de fim do estado de emergencia em portugal?
+- Quando foi declarado o Estado de Emergência em Portugal?
+- quando finaliza o estado de emergência em Portugal?
+- Quando acaba o estado de emergência em portugal?
+- Qual é a data de fim do estado de emergência em Portugal?
+- quando acaba o EStado de emergência?
 
 ## intent: pt_user_laugh 
-- Tu és mesmo engraçado 
-- sorriso 
-- sorrindo 
-- rolar pelo chão a rir 
-- rir 
-- rindo pelas costuras 
-- rindo alto 
-- Ok haha 
-- looool 
-- lool 
-- lol 
-- Isto é engraçado. 
-- isso foi muito engraçado 
-- isso é engraçado 
-- hehe 
-- hahahaha 
-- hahaha 
-- haha 
-- hah 
-- ha 
-- fazes-me rir 
-- és engraçado 
-- és bom em fazer as pessoas rir 
-- és bom a fazer as pessoas rir 
-- ahahahah 
-- ahahaha 
-- ahaha 
-- ahah 
-
-
-
+- Tu és mesmo engraçado
+- sorriso
+- sorrindo
+- rolar pelo chão a rir
+- rir
+- rindo pelas costuras
+- rindo alto
+- Ok haha
+- looool
+- lool
+- lol
+- Isto é engraçado.
+- isso foi muito engraçado
+- isso é engraçado
+- hehe
+- hahahaha
+- hahaha
+- haha
+- hah
+- ha
+- fazes-me rir
+- és engraçado
+- és bom em fazer as pessoas rir
+- és bom a fazer as pessoas rir
+- ahahahah
+- ahahaha
+- ahaha
+- ahah
 
 ## synonym:en_lang
 - Cosibot Inglês

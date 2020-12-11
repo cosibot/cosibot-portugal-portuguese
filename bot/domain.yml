@@ -14,7 +14,7 @@ slots:
     initial_value: False
   bot_version:
     type: text
-    initial_value: "0.2.1"
+    initial_value: "0.2.5"
   bot_time:
     type: text
   bot_date:
@@ -431,9 +431,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da Covid 19, tais como evitar a propagação, ou esclarecer alguns mitos que se leem por aí. Como posso ajudá-lo?</speak>
-          - type: text
-            text: Olá! Chamo-me Helena e estou aqui para esclarecer dúvidas acerca da COVID-19, tais como evitar a propagação, ou esclarecer alguns mitos que se leem por aí. Como posso ajudá-lo? 
+            ssml: <speak>Olá! Chamo-me {bot_name}, a assistente virtual para dar informações sobre a Covid 19. Estive ao dispor durante 8 meses e desde Novembro de 2020 fui desactivada, sendo que não tenho mais atualizações. Pode consultar a minha colega Helen, disponível em inglês, para continuar atualizado. Pode entrar em contacto com ela através da web, facebook, whatsapp ou sms. Cuide de si e mantenha-se seguro. Obrigada por tudo!</speak>
+          - type: html
+            text: Olá! Chamo-me {bot_name}, a assistente virtual para dar informações sobre a COVID-19. <br>Estive ao dispor durante 8 meses e desde Novembro de 2020 fui desactivada, sendo que não tenho mais atualizações. <br>Pode consultar a minha colega Helen, disponível em inglês, para continuar atualizado. Pode entrar em contacto com ela através da <a href='https://cosibot.org/'target='_blank'>Web</a>, <a href='https://m.me/cosibot'target='_blank'>Facebook</a>, <a href='https://cosibot.org/'target='_blank'>Web</a>, <a href='https://wa.me/4915735989133'target='_blank'>WhatsApp</a> ou <a href='sms:+4915735989133'target='_blank'>SMS</a>. <br>Cuide de si e mantenha-se seguro. Obrigada por tudo!
   utter_pt_portugal_rates:
     - custom:
         answers:
@@ -475,22 +475,10 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>No dia 18 de março de 2020 foi decretado o estado de emergência em
-              Portugal. A situação excepcional que se vive e a proliferação de
-              casos registados de contágio de Covid 19 exige a aplicação de
-              medidas extraordinárias e de carácter urgente de restrição de
-              direitos e liberdades, em especial no que respeita aos direitos de
-              circulação e às liberdades económicas, com o intuito de conter a
-              transmissão do vírus e conter a expansão da doença.</speak>
+            ssml: <speak>Face à situação epidemiológica que se verifica em Portugal, o Governo decidiu renovar o estado de calamidade em todo o território nacional. Estas medidas excecionais entraram em vigor no dia 4 de novembro e podem ser consultadas na hiperligação.</speak>
           - type: html
-            text: <p>No dia 18 de março de 2020 foi decretado o estado de emergência em
-              Portugal. A situação excepcional que se vive e a proliferação de
-              casos registados de contágio de COVID-19 exige a aplicação de
-              medidas extraordinárias e de carácter urgente de restrição de
-              direitos e liberdades, em especial no que respeita aos direitos de
-              circulação e às liberdades económicas, com o intuito de conter a
-              transmissão do vírus e conter a expansão da doença.<a
-              href='https://www.portugal.gov.pt/download-ficheiros/ficheiro.aspx?v=3f8e87a6-3cf1-4d0c-b5ee-72225a73cd4f'
+            text: <p>Face à situação epidemiológica que se verifica em Portugal, o Governo decidiu renovar o estado de calamidade em todo o território nacional. Estas medidas excecionais entraram em vigor no dia 4 de novembro e podem ser consultadas na hiperligação.<a
+              href='https://www.portugal.gov.pt/pt/gc22/comunicacao/noticia?i=novas-medidas-para-combater-a-pandemia'
               target='_blank'>(1)</a></p>
   utter_pt_portugal_ill_foreigner:
     - custom:
@@ -1785,11 +1773,10 @@ responses:
           - type: ssml
             ssml: <speak>Estima-se que o período de incubação da doença, tempo decorrido
               desde a exposição ao vírus até ao aparecimento de sintomas, seja
-              entre 2 e 14 dias.</speak>
+              entre 1 e 14 dias.</speak>
           - type: html
             text: <p>Estima-se que o período de incubação da doença (tempo decorrido desde a
-              exposição ao vírus até ao aparecimento de sintomas) seja entre 2 e
-              14 dias.<a
+              exposição ao vírus até ao aparecimento de sintomas) seja entre 1 e 14 dias.<a
               href='https://covid19.min-saude.pt/perguntas-frequentes/'
               target='_blank'>(1)</a></p>
           - type: hints
@@ -1908,15 +1895,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>O novo coronavírus parece ter comportamento diferente de acordo com
-              a temperatura ambiente. Do conhecimento atual, parece sobreviver
-              em ambientes mais frios, cerca de 7 a 9 horas. Já em ambientes
-              mais quentes parece sobreviver de 1 a 2 horas.</speak>
+            ssml: <speak>O vírus pode sobreviver em superfícies durante horas ou até dias, se estas superfícies não forem limpas e desinfetadas com frequência. O tempo que o vírus persiste nas superfícies pode variar sob diferentes condições, por exemplo, tipo de superfície, temperatura ou humidade do ambiente e a carga viral inicial que originou a exposição.</speak>
           - type: html
-            text: <p>O novo coronavírus parece ter comportamento diferente de acordo com a
-              temperatura ambiente. Do conhecimento atual, parece sobreviver em
-              ambientes mais frios, cerca de 7 a 9 horas. Já em ambientes mais
-              quentes parece sobreviver de 1 a 2 horas.<a
+            text: <p>O vírus pode sobreviver em superfícies durante horas ou até dias, se estas superfícies não forem limpas e desinfetadas com frequência. <br>O tempo que o vírus persiste nas superfícies pode variar sob diferentes condições (por exemplo, tipo de superfície, temperatura ou humidade do ambiente e a carga viral inicial que originou a exposição).<a
               href='https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/transmissao/#sec-7'
               target='_blank'>(1)</a></p>
           - type: hints
@@ -2146,7 +2127,7 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Pode correr como fazia, mas têm de ser deslocações de curta duração
-              e sozinho. </speak>
+              e sozinho.</speak>
           - type: html
             text: <p>Pode correr como fazia, mas têm de ser deslocações de curta duração e
               sozinho. <a
@@ -2174,7 +2155,6 @@ responses:
   utter_pt_quarantine_children:
     - custom:
         answers:
-          - ""
           - type: ssml
             ssml: <speak>A baixa para assistência à família, que pode ser aplicada em caso
               de isolamento de um filho devido ao novo coronavírus, será paga a
@@ -2192,7 +2172,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Nos últimos dias, em vários países europeus afetados pelo aumento
+            ssml: <speak>Nos últimos meses, em vários países europeus afetados pelo aumento
               do número de infetados pelo novo coronavírus, incluindo Portugal,
               vários relatos nos meios de comunicação social e redes sociais têm
               sinalizado que os consumidores estarão a esgotar das prateleiras
@@ -2201,7 +2181,7 @@ responses:
               garantem capacidade de resposta das fábricas e afastam cenário de
               rutura de stock.</speak>
           - type: html
-            text: <p>Nos últimos dias, em vários países europeus afetados pelo aumento do
+            text: <p>Nos últimos meses, em vários países europeus afetados pelo aumento do
               número de infetados pelo novo coronavírus, incluindo Portugal,
               vários relatos nos meios de comunicação social e redes sociais têm
               sinalizado que os consumidores estarão a esgotar das prateleiras
@@ -3179,9 +3159,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal.</speak>
+            ssml: <speak>Não possuo informação em relação ao seu pedido. Quer que eu tente obter dados sobre Portugal?</speak>
           - type: text
-            text: "Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal."
+            text: "Não possuo informação em relação ao seu pedido. Quer que eu tente obter dados sobre Portugal?"
           - type: multichoice
             options:
               - label: Sim
