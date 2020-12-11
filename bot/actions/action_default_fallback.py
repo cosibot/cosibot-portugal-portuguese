@@ -62,7 +62,6 @@ class ActionDefaultFallback(Action):
                     if len(links_info) == 3:
                         break
                 message = self.build_links_answer(links_info)
-                #print(domain)
                 return_response = domain["responses"]["utter_fallback_request_hasdata"][0]["custom"]
                 return_response["answers"].append(message)
                 dispatcher.utter_message(json_message=return_response)
